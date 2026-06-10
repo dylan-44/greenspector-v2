@@ -13,7 +13,7 @@ Ces slugs étaient indiqués comme « à définir » dans le cadrage initial. Il
 | Recherche & Développement | `/ressources/recherche-developpement-ecoconception-logicielle/` |
 | Bouygues Telecom | `/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/` |
 | Decathlon | `/ressources/etudes-de-cas/decathlon-ecoconception-numerique/` |
-| Bruxelles Environnement | `/ressources/etudes-de-cas/bruxelles-environnement-conseil-ecoconception/` |
+| Bruxelles Environnement | `/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/` |
 | CATS | `/ressources/etudes-de-cas/cats-smartuse-application-bancaire/` |
 | Orange Innovation | `/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/` |
 | Région Bretagne | `/ressources/etudes-de-cas/region-bretagne-numerique-responsable/` |
