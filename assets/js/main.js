@@ -17,10 +17,10 @@ const base = depth === 0 ? './' : '../'.repeat(depth);
 
 const toRelative = (slug) => {
   if (!slug || slug === '/') {
-    return `${base}index.html`;
+    return base;
   }
 
-  return `${base}${slug.replace(/^\//, '')}index.html`;
+  return `${base}${slug.replace(/^\//, '')}`;
 };
 
 const toAsset = (assetPath) => `${base}${assetPath.replace(/^\//, '')}`;
@@ -80,7 +80,7 @@ const dropdown = (group) =>
         )
         .join('')}</ul></li>`;
 
-qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="${toRelative('/')}" aria-label="Greenspector - Accueil"><span class="brand-mark">G</span><span>Greenspector</span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative('/contact/')}">Contact</a></li></ul></div></div></nav></header>`;
+qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="${toRelative('/')}" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="${toAsset('/assets/img/Greenspector_logo_web_1200x320.png')}" alt="Greenspector"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative('/contact/')}">Contact</a></li></ul></div></div></nav></header>`;
 
 qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative('/')}" aria-label="Greenspector - Accueil"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">Mesure, écoconception logicielle et réduction d'impact numérique.</p></div><nav class="footer-nav" aria-label="Menu footer"><p class="footer-title">Menu</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative('/contact/')}">Contact</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
 

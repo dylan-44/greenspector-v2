@@ -54,7 +54,7 @@ Le slug courant est lu dans `body[data-page]`, par exemple :
 
 Fonctions clés :
 
-- `toRelative(slug)` : convertit un slug absolu (`/studio/.../`) en chemin relatif vers `index.html`.
+- `toRelative(slug)` : convertit un slug absolu (`/studio/.../`) en chemin relatif de dossier, sans exposer `index.html`.
 - `toAsset(path)` : convertit un chemin d'asset absolu (`/assets/...`) en chemin relatif depuis la page courante.
 
 ## Structure d'une entrée GS_PAGES
@@ -88,7 +88,7 @@ Procédure recommandée :
 2. Définir le bon slug dans `body[data-page]`.
 3. Ajouter (ou mettre à jour) l'entrée correspondante dans `assets/js/site-data.js`.
 4. Vérifier que le slug et la profondeur du dossier correspondent.
-5. Vérifier que les liens ajoutés manuellement dans la page utilisent le bon nombre de `../`.
+5. Vérifier que les liens ajoutés manuellement dans la page utilisent le bon nombre de `../` et se terminent par un slug de dossier, pas par `index.html`.
 6. Recharger la page et contrôler :
 	 - présence dans le menu,
 	 - bon lien actif,
