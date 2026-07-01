@@ -1,0 +1,27 @@
+{
+  "id": "conseil-expertise",
+  "slug": "/conseil/expertise-mesure-terminaux-mobiles/",
+  "template": "default",
+  "meta": {
+    "title": "Expertise terminaux mobiles | expertise mesure terminaux | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : expertise mesure terminaux.",
+    "keywords": "expertise mesure terminaux, smartphones, tablettes, devices",
+    "ogTitle": "Expertise terminaux mobiles | expertise mesure terminaux | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : expertise mesure terminaux."
+  },
+  "nav": {
+    "section": "Conseil",
+    "name": "Expertise terminaux mobiles",
+    "primary": "expertise mesure terminaux",
+    "secondary": "smartphones, tablettes, devices"
+  },
+  "hero": {
+    "label": "Conseil",
+    "title": "Expertise terminaux mobiles",
+    "subtitle": "expertise mesure terminaux"
+  },
+  "contentMeta": [
+    "Mot-clé principal : expertise mesure terminaux",
+    "Mots-clés secondaires : smartphones, tablettes, devices"
+  ]
+}

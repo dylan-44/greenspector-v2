@@ -1,0 +1,116 @@
+{
+  "id": "case-sncf",
+  "slug": "/ressources/etudes-de-cas/sncf-connect-bug-performance/",
+  "template": "case-study",
+  "meta": {
+    "title": "Cas client SNCF Connect & Tech : sobriété numérique et application mobile | Greenspector",
+    "description": "Découvrez comment SNCF Connect & Tech a réduit l'impact CO₂ du parcours de réservation TER, accéléré l'expérience utilisateur et certifié ses applications Android et iOS avec Greenspector.",
+    "keywords": "SNCF Connect, sobriété numérique, OUI.sncf, impact CO₂, certification Argent, Greenspector",
+    "ogTitle": "Cas client SNCF Connect & Tech : sobriété numérique et application mobile | Greenspector",
+    "ogDescription": "Découvrez comment SNCF Connect & Tech a réduit l'impact CO₂ du parcours de réservation TER, accéléré l'expérience utilisateur et certifié ses applications Android et iOS avec Greenspector."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "SNCF Connect & Tech",
+    "primary": "sobriété numérique mobile",
+    "secondary": "OUI.sncf, certification Argent"
+  },
+  "hero": {
+    "label": "Étude de cas",
+    "title": "SNCF Connect &amp; Tech&nbsp;: réduire l'impact CO₂ du parcours de réservation",
+    "subtitle": "Dans le cadre de la refonte de l'application OUI.sncf, SNCF Connect &amp; Tech\n                    a intégré des exigences fortes de performance, de sobriété numérique et d'écoconception.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Découvrir\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f649835f-94d4-41b1-aa2e-e46cff869617/slide2_shape1.png",
+      "alt": "Logo Greenspector"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/fc1ee3c6-8763-440b-baba-8d67c03eb786/slide2_shape4.png",
+      "alt": "Logo SNCF Connect & Tech"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Contexte",
+    "title": "Refondre OUI.sncf avec la sobriété numérique en exigence",
+    "paragraphs": [
+      "Contexte",
+      "SNCF Connect &amp; Tech a mené la refonte de l'application OUI.sncf, utilisée par\n                                plusieurs millions de personnes pour réserver leurs billets de train.",
+      "Le projet portait des enjeux métier importants, avec une ambition claire de sobriété et\n                                d'écoconception dès la phase de conception.",
+      "L'objectif était d'améliorer l'expérience utilisateur tout en réduisant l'impact\n                                environnemental des parcours applicatifs, notamment sur le parcours de réservation TER."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b41a8f28-b536-40e5-8b0e-c235bbb6ba0a/slide2_shape3.jpg",
+      "alt": "Illustration du cas client SNCF Connect & Tech sur la sobriété numérique de l'application de réservation"
+    }
+  },
+  "results": {
+    "eyebrow": "Résultats",
+    "title": "−19&nbsp;% de CO₂ et un parcours 8 secondes plus rapide",
+    "intro": "Résultats",
+    "items": [
+      "19&nbsp;% de CO₂ en moins sur le parcours de réservation TER.",
+      "Un parcours utilisateur plus rapide de 8 secondes.",
+      "300 ko de requêtes en moins à chaque réservation, soit environ 9 To par an.",
+      "Deux applications certifiées niveau Argent, pour Android et iOS."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Clés du succès",
+    "title": "Ce qui a fait la différence",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Un audit avant la mise en production",
+        "text": "L'application a été auditée avant sa mise en production afin d'identifier les\n                                    principaux leviers d'amélioration."
+      },
+      {
+        "icon": "check",
+        "title": "Des axes de progrès concrets",
+        "text": "Plusieurs pistes d'optimisation ont été identifiées, notamment sur la géolocalisation\n                                    et le chargement de données."
+      },
+      {
+        "icon": "check",
+        "title": "Une mise en œuvre par l'équipe projet",
+        "text": "Les recommandations ont été prises en charge par l'équipe projet, puis suivies par\n                                    une nouvelle mesure afin de vérifier les gains obtenus."
+      },
+      {
+        "icon": "check",
+        "title": "Une démarche intégrée tout au long du projet",
+        "text": "La maîtrise de la performance et la sobriété numérique ont été intégrées dans les\n                                    exigences dès la phase de conception et tout au long du projet."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Témoignage",
+    "title": "La parole à Sébastien Gobin",
+    "quotes": [
+      "«&nbsp;Dès la phase de conception et tout au long du projet, nous avons intégré dans nos\n                                exigences la maîtrise de la performance associée à une démarche de sobriété. Avec\n                                Greenspector, nous avons pu y associer une mesure, travailler sur des optimisations tout\n                                en poursuivant l'acculturation de nos collaborateurs sur le sujet, pour un résultat très\n                                encourageant.&nbsp;»"
+    ],
+    "author": "Sébastien Gobin",
+    "role": "Responsable Qualité et Production Tech &amp;amp; Produits",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/879a3146-1150-41c4-9e33-118d42946a31/slide2_shape12.jpg"
+  },
+  "mediaEyebrow": "",
+  "cta": {
+    "eyebrow": "À vous de jouer",
+    "title": "Vous souhaitez améliorer la performance et la sobriété de vos applications&nbsp;?",
+    "text": "À vous de jouer",
+    "buttonLabel": "Évaluer une application avec\n                                    Greenspector",
+    "buttonHref": "/contact/"
+  }
+}

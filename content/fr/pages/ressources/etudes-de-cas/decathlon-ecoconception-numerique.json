@@ -1,0 +1,27 @@
+{
+  "id": "case-decathlon",
+  "slug": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
+  "template": "default",
+  "meta": {
+    "title": "Decathlon | écoconception numérique | Greenspector",
+    "description": "Étude de cas Greenspector : Decathlon.",
+    "keywords": "écoconception numérique, généralisation démarche",
+    "ogTitle": "Decathlon | écoconception numérique | Greenspector",
+    "ogDescription": "Étude de cas Greenspector : Decathlon."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Decathlon",
+    "primary": "écoconception numérique",
+    "secondary": "généralisation démarche"
+  },
+  "hero": {
+    "label": "Étude de cas",
+    "title": "Decathlon",
+    "subtitle": "écoconception numérique"
+  },
+  "contentMeta": [
+    "Mot-clé principal : écoconception numérique",
+    "Mots-clés secondaires : généralisation démarche"
+  ]
+}

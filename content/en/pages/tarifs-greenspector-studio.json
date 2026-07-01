@@ -1,0 +1,27 @@
+{
+  "id": "tarifs",
+  "slug": "/tarifs-greenspector-studio/",
+  "template": "default",
+  "meta": {
+    "title": "Pricing | Greenspector Studio pricing | Greenspector",
+    "description": "Greenspector page dedicated to: Greenspector Studio pricing.",
+    "keywords": "Greenspector Studio pricing, Green IT SaaS pricing",
+    "ogTitle": "Pricing | Greenspector Studio pricing | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: Greenspector Studio pricing."
+  },
+  "nav": {
+    "section": "Tarifs",
+    "name": "Pricing",
+    "primary": "Greenspector Studio pricing",
+    "secondary": "Green IT SaaS pricing"
+  },
+  "hero": {
+    "label": "Tarifs",
+    "title": "Pricing",
+    "subtitle": "Greenspector Studio pricing"
+  },
+  "contentMeta": [
+    "Primary keyword: Greenspector Studio pricing",
+    "Secondary keywords: Green IT SaaS pricing"
+  ]
+}

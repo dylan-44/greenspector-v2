@@ -1,0 +1,132 @@
+{
+  "id": "case-bretagne",
+  "slug": "/ressources/etudes-de-cas/region-bretagne-numerique-responsable/",
+  "template": "case-study",
+  "meta": {
+    "title": "Région Bretagne client case: service portal ecodesign | Greenspector",
+    "description": "Discover how Région Bretagne steered the ecodesign of its service portal with Greenspector Studio measurements, at maximum requirement level.",
+    "keywords": "Région Bretagne, software ecodesign, service portal, public sector, Greenspector Studio, ecoscore",
+    "ogTitle": "Région Bretagne client case: service portal ecodesign | Greenspector",
+    "ogDescription": "Discover how Région Bretagne steered the ecodesign of its service portal with Greenspector Studio measurements, at maximum requirement level."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Région Bretagne",
+    "primary": "service portal ecodesign",
+    "secondary": "local authority, ecoscore, ecodesign declaration"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Région Bretagne: steering the ecodesign of a service portal",
+    "subtitle": "As part of its service portal redesign, Région Bretagne integrated a strong requirement: achieving maximum ecodesign level.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/23fd35a1-6db9-4e35-b097-6ac3fc21a1da/slide4_shape1.png",
+      "alt": "Greenspector logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/90b2d114-4183-41b6-abf4-abaa76001a80/slide4_shape10.png",
+      "alt": "Région Bretagne logo"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Context",
+    "title": "A redesigned service portal with maximum ecodesign level",
+    "paragraphs": [
+      "Région Bretagne launched a service portal redesign project to offer a new version of its digital services.",
+      "Among the strong requirements applied to this new version was achieving maximum ecodesign level.",
+      "The goal was to embed digital sobriety in design, development and maintenance practices for the portal, with regular tracking of results."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png",
+      "alt": "Screenshot of the Région Bretagne service portal"
+    }
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "Ecodesign driven by measurement, from build to maintenance",
+    "items": [
+      "Ecodesign driven by results throughout the project, in build then maintenance phase, thanks to Greenspector Studio measurements.",
+      "Implementation of search with optimised semi-automatic input, reducing data volume by a factor of 5.",
+      "Publication of an ecodesign declaration presenting the results achieved."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Keys to success",
+    "title": "What made the difference",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Training project stakeholders in ecodesign",
+        "text": "Project teams were trained upfront to share a common ecodesign culture and its challenges."
+      },
+      {
+        "icon": "check",
+        "title": "Defining frugality requirements from the start",
+        "text": "Frugality requirements were defined upfront to guide functional, technical and editorial choices."
+      },
+      {
+        "icon": "check",
+        "title": "Adapting best practices to the portal context",
+        "text": "Ecodesign best practices were adapted to the project's technical and functional context to remain concrete and actionable for teams."
+      },
+      {
+        "icon": "check",
+        "title": "Orienting the user experience towards frugality",
+        "text": "A design review helped build a user experience consistent with digital sobriety objectives."
+      },
+      {
+        "icon": "check",
+        "title": "Measuring at each sprint",
+        "text": "Greenspector Studio measurements were performed at each sprint during the build phase, with improvement recommendations based on observed results."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Testimonial",
+    "title": "Nicolas Desmons speaks",
+    "quotes": [
+      "« Our developers were made aware from project kick-off and gradually changed their way of working to adopt ecodesign reflexes. It is a deep change in practices. Greenspector ecoscore indicators served as our benchmark throughout this process. »"
+    ],
+    "author": "Nicolas Desmons",
+    "role": "Head of digital services for citizens",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/787ef038-3414-4b74-9d74-d17d4c58be04/slide4_shape14.png"
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/9fd820e3-aa8f-4b14-a2ec-aecccc7e2e15/slide4_shape12.png",
+      "alt": "Interface excerpt showing Région Bretagne portal results",
+      "caption": "Tracking results and indicators as part of the ecodesign approach."
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/96324b94-2ec6-493d-a7df-73fb95ac3342/slide4_shape13.png",
+      "alt": "Interface or screen associated with the Région Bretagne portal",
+      "caption": "Continuous portal optimisation through measurements during the project."
+    }
+  ],
+  "mediaEyebrow": "Visuals",
+  "mediaTitle": "The project in pictures",
+  "cta": {
+    "eyebrow": "Your turn",
+    "title": "Want to steer the ecodesign of your digital services?",
+    "text": "Your turn",
+    "buttonLabel": "Measure the ecodesign of my service",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Région Bretagne: steering the ecodesign of a service portal\",\n        \"description\": \"Région Bretagne client case on the ecodesigned redesign of a service portal and results tracking with Greenspector Studio.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/region-bretagne-numerique-responsable/\"\n        }\n    }"
+}

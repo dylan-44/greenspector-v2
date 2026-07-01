@@ -1,0 +1,127 @@
+{
+  "id": "case-cats",
+  "slug": "/ressources/etudes-de-cas/cats-smartuse-application-bancaire/",
+  "template": "case-study",
+  "meta": {
+    "title": "Crédit Agricole Technologies & Services client case: application frugality | Greenspector",
+    "description": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the frugality of its web and mobile products, supporting performance and responsible digital.",
+    "keywords": "Crédit Agricole, CATS, Smart'Use, digital sobriety, internal label, Greenspector Studio, banking",
+    "ogTitle": "Crédit Agricole Technologies & Services client case: application frugality | Greenspector",
+    "ogDescription": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the frugality of its web and mobile products, supporting performance and responsible digital."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Crédit Agricole T&S",
+    "primary": "Smart'Use frugality label",
+    "secondary": "banking application, Digital Front Chapter"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Crédit Agricole Technologies & Services: certifying the frugality of web and mobile applications",
+    "subtitle": "Crédit Agricole Technologies & Services set up an internal measurement and labelling approach to improve frugality, performance and the environmental impact of its digital products.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/a362d022-ad79-431a-9cb1-5dc302bed0ff/slide5_shape1.png",
+      "alt": "Greenspector logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b4b5d1bc-f1bb-4b85-97c6-40db8df999c7/slide5_shape10.png",
+      "alt": "Crédit Agricole Technologies & Services logo"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Context",
+    "title": "Measuring frugality to prioritise the most impactful actions",
+    "paragraphs": [
+      "The Digital Front Chapter at Crédit Agricole Technologies & Services develops applications for employees and 8 million customers.",
+      "Teams faced several concrete challenges:",
+      "The goal was therefore to better measure application behaviour to prioritise the most impactful actions."
+    ],
+    "list": [
+      "dissatisfied users because some applications were too slow;",
+      "data volumes too high for branch network infrastructure;",
+      "environmental responsibility to integrate into the product approach."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg",
+      "alt": "Smart'Use approach illustration at Crédit Agricole Technologies & Services"
+    }
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "An internal Smart'Use label to assess and improve products",
+    "items": [
+      "Web and mobile products are assessed and labelled through an internal frugality label.",
+      "Progress is encouraged through healthy competition between teams.",
+      "Teams have concrete results to identify priority improvement levers."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Keys to success",
+    "title": "What made the difference",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Co-built labelling criteria",
+        "text": "The criteria for the internal frugality label « Smart'Use » were co-built then rolled out to Tribes."
+      },
+      {
+        "icon": "check",
+        "title": "A managed services model",
+        "text": "Audits are performed on demand, in a managed services logic suited to team needs."
+      },
+      {
+        "icon": "check",
+        "title": "Direct access to results",
+        "text": "Squads access Greenspector Studio to view their results, track indicators and identify actions to take."
+      },
+      {
+        "icon": "check",
+        "title": "A continuous improvement dynamic",
+        "text": "The approach stimulates competition between teams and encourages continuous progress on web and mobile products."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Testimonial",
+    "title": "Julien Azria speaks",
+    "quotes": [
+      "« The solution provides very concrete results on the behaviour of our applications. This allows us to focus on the most impactful actions. Working on frugality clearly leads to a more performant application. »"
+    ],
+    "author": "Julien Azria",
+    "role": "Digital Front Chapter Leader",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/27465089-6872-4763-bba2-eecbb4ff19f4/slide5_shape13.jpg"
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0d93876e-cae2-43f8-aa06-710ab158aa59/slide5_shape12.jpg",
+      "alt": "Interface or material related to assessing application frugality at Crédit Agricole Technologies & Services",
+      "caption": "Tracking results and identifying improvement levers with Greenspector Studio."
+    }
+  ],
+  "mediaEyebrow": "Visuals",
+  "mediaTitle": "The project in pictures",
+  "cta": {
+    "eyebrow": "Your turn",
+    "title": "Want to set up an internal digital sobriety label?",
+    "text": "Your turn",
+    "buttonLabel": "Structure an application frugality approach",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Crédit Agricole Technologies & Services: certifying application frugality\",\n        \"description\": \"Crédit Agricole Technologies & Services client case on assessing and internally labelling the frugality of web and mobile products with Greenspector.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/cats-smartuse-application-bancaire/\"\n        }\n    }"
+}

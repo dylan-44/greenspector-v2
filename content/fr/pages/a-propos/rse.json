@@ -1,0 +1,27 @@
+{
+  "id": "about-rse",
+  "slug": "/a-propos/rse/",
+  "template": "default",
+  "meta": {
+    "title": "Nos engagements | RSE Greenspector | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : RSE Greenspector.",
+    "keywords": "RSE Greenspector, impact environnemental",
+    "ogTitle": "Nos engagements | RSE Greenspector | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : RSE Greenspector."
+  },
+  "nav": {
+    "section": "À propos",
+    "name": "Nos engagements",
+    "primary": "RSE Greenspector",
+    "secondary": "impact environnemental"
+  },
+  "hero": {
+    "label": "À propos",
+    "title": "Nos engagements",
+    "subtitle": "RSE Greenspector"
+  },
+  "contentMeta": [
+    "Mot-clé principal : RSE Greenspector",
+    "Mots-clés secondaires : impact environnemental"
+  ]
+}

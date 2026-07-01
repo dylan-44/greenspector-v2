@@ -1,0 +1,27 @@
+{
+  "id": "case-decathlon",
+  "slug": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
+  "template": "default",
+  "meta": {
+    "title": "Decathlon | digital ecodesign | Greenspector",
+    "description": "Greenspector case study: Decathlon.",
+    "keywords": "digital ecodesign, scaling the approach",
+    "ogTitle": "Decathlon | digital ecodesign | Greenspector",
+    "ogDescription": "Greenspector case study: Decathlon."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Decathlon",
+    "primary": "digital ecodesign",
+    "secondary": "scaling the approach"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Decathlon",
+    "subtitle": "digital ecodesign"
+  },
+  "contentMeta": [
+    "Primary keyword: digital ecodesign",
+    "Secondary keywords: scaling the approach"
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "home": {
+    "meta": {
+      "title": "Greenspector Studio | App frugality and performance on real devices",
+      "description": "Greenspector Studio measures the frugality and performance of your mobile and web apps on real devices: battery, ecoscore, CI/CD. Cover the blind spots of software quality.",
+      "keywords": "Greenspector Studio, digital sobriety, app performance, battery measurement, ecoscore, device cloud, CI/CD",
+      "ogTitle": "Greenspector Studio | App frugality and performance on real devices",
+      "ogDescription": "Validate the frugality and performance of your apps before your users do. Reliable measurements on a real device cloud, ecoscore and CI/CD integration."
+    },
+    "hero": {
+      "label": "Green IT SaaS solution",
+      "subtitle": "The SaaS solution to validate the frugality and performance of your apps. Cover the blind spots of software quality."
+    },
+    "nav": {
+      "name": "Home",
+      "secondary": "Green IT SaaS, software ecodesign, digital impact measurement"
+    }
+  },
+  "case-studies-index": {
+    "meta": {
+      "title": "Client case studies | Greenspector",
+      "description": "Discover how organizations measure and reduce the environmental impact of their mobile and web applications with Greenspector Studio."
+    },
+    "hero": {
+      "label": "Resources",
+      "title": "Client case studies",
+      "subtitle": "Feedback from teams that have integrated measurement and digital sobriety into their products."
+    },
+    "gridLabel": "Greenspector client case studies"
+  },
+  "case-ans": {
+    "meta": {
+      "title": "ANS client case: measuring CO₂ impact of health apps | Greenspector",
+      "description": "Discover how the French Digital Health Agency uses Greenspector Studio to measure the CO₂ impact of health applications and evaluate 70+ publishers on the Ecoscore Portal.",
+      "ogTitle": "ANS client case: measuring CO₂ impact of health apps | Greenspector",
+      "ogDescription": "Discover how the French Digital Health Agency uses Greenspector Studio to measure the CO₂ impact of health applications and evaluate 70+ publishers on the Ecoscore Portal."
+    },
+    "nav": {
+      "name": "French Digital Health Agency",
+      "primary": "CO₂ impact health applications",
+      "secondary": "Ecoscore Portal, Mon Espace Santé"
+    },
+    "hero": {
+      "title": "French Digital Health Agency: measuring the CO₂ impact of health applications",
+      "subtitle": "The ANS set up a portal to measure and project CO₂ impact for web and mobile health applications, required for listing on Mon Espace Santé."
+    },
+    "intro": {
+      "title": "A dedicated portal to assess the impact of health applications",
+      "paragraphs": [
+        "The French Digital Health Agency wanted a dedicated portal to measure and project the CO₂ impact of web and mobile health applications.",
+        "This assessment is mandatory to be listed on Mon Espace Santé. The scheme covers two categories of applications:",
+        "The project had to allow publishers to perform their own assessment, with no prior training, while ensuring measurement reliability."
+      ],
+      "list": [
+        "general applications;",
+        "teleconsultation applications."
+      ]
+    },
+    "results": {
+      "title": "70+ publishers assessed on the Ecoscore Portal",
+      "items": [
+        "Public evaluation and ranking of publishers by the French Digital Health Agency on the Ecoscore Portal.",
+        "70+ publishers assessed.",
+        "Assessment performed by publishers themselves, with no prior training, thanks to Greenspector Studio's intuitive interface."
+      ]
+    },
+    "successKeys": {
+      "title": "What made the difference",
+      "items": [
+        {
+          "title": "Self-service onboarding",
+          "text": "The interface was reworked with a dedicated tutorial so publishers can complete their assessment independently."
+        },
+        {
+          "title": "Measurements on real devices",
+          "text": "Measurements on real devices convinced the ANS of the reliability of the Greenspector approach."
+        },
+        {
+          "title": "A dedicated white-label portal",
+          "text": "A dedicated white-label portal was deployed to display results and make them easy to consult."
+        },
+        {
+          "title": "Tests adapted to teleconsultation",
+          "text": "Teleconsultation tests run on two devices simultaneously to reflect real usage conditions."
+        }
+      ]
+    },
+    "testimonial": {
+      "title": "Dr Brigitte Séroussi speaks",
+      "quotes": [
+        "« To ensure maximum ecoscore reliability, teams relied on Greenspector, which reliably assesses the environmental impact of a health application. »",
+        "« Greenspector is based on measurement throughout the real application usage journey, rather than simply calculating the environmental impact of loading the home page. »"
+      ],
+      "author": "Dr Brigitte Séroussi",
+      "role": "Physician & Project Director, in Nouveal"
+    },
+    "media": [
+      {
+        "caption": "Display of results and environmental impact indicators."
+      },
+      {
+        "caption": "Measurements performed with Greenspector Studio on real devices."
+      }
+    ],
+    "cta": {
+      "title": "Want to measure the environmental impact of your applications?",
+      "text": "Greenspector Studio assesses the environmental impact of web and mobile applications based on measurements on real devices.",
+      "buttonLabel": "Discover Greenspector Studio"
+    }
+  },
+  "case-sncf": {
+    "meta": {
+      "title": "SNCF Connect & Tech client case: digital sobriety and mobile app | Greenspector",
+      "description": "Discover how SNCF Connect & Tech reduced CO₂ impact on the TER booking journey, accelerated the user experience and certified its Android and iOS applications with Greenspector.",
+      "ogTitle": "SNCF Connect & Tech client case: digital sobriety and mobile app | Greenspector",
+      "ogDescription": "Discover how SNCF Connect & Tech reduced CO₂ impact on the TER booking journey, accelerated the user experience and certified its Android and iOS applications with Greenspector."
+    },
+    "nav": {
+      "name": "SNCF Connect & Tech",
+      "primary": "mobile digital sobriety",
+      "secondary": "OUI.sncf, Silver certification"
+    },
+    "hero": {
+      "title": "SNCF Connect & Tech: reducing CO₂ impact on the booking journey",
+      "subtitle": "As part of the OUI.sncf app redesign, SNCF Connect & Tech integrated strong requirements for performance, digital sobriety and software ecodesign."
+    },
+    "intro": {
+      "title": "Redesigning OUI.sncf with digital sobriety as a requirement",
+      "paragraphs": [
+        "SNCF Connect & Tech led the redesign of the OUI.sncf app, used by millions of people to book train tickets.",
+        "The project had significant business stakes, with a clear ambition for sobriety and ecodesign from the design phase.",
+        "The goal was to improve the user experience while reducing the environmental impact of application journeys, especially on the TER booking journey."
+      ]
+    },
+    "results": {
+      "title": "−19% CO₂ and a journey 8 seconds faster",
+      "items": [
+        "19% less CO₂ on the TER booking journey.",
+        "A user journey 8 seconds faster.",
+        "300 KB fewer requests per booking, approximately 9 TB per year.",
+        "Two applications certified Silver level, for Android and iOS."
+      ]
+    },
+    "successKeys": {
+      "title": "What made the difference",
+      "items": [
+        { "title": "An audit before go-live", "text": "The application was audited before go-live to identify the main improvement levers." },
+        { "title": "Concrete improvement areas", "text": "Several optimisation paths were identified, especially on geolocation and data loading." },
+        { "title": "Implementation by the project team", "text": "Recommendations were taken on board by the project team, then followed up with a new measurement to verify the gains achieved." },
+        { "title": "An approach integrated throughout the project", "text": "Performance control and digital sobriety were integrated into requirements from the design phase and throughout the project." }
+      ]
+    },
+    "testimonial": {
+      "title": "Sébastien Gobin speaks",
+      "quotes": [
+        "« From the design phase and throughout the project, we integrated performance control linked to a sobriety approach into our requirements. With Greenspector, we were able to add measurement, work on optimisations while continuing to raise awareness among our teams on the subject, for a very encouraging result. »"
+      ],
+      "author": "Sébastien Gobin",
+      "role": "Quality and Production Manager, Tech & Products"
+    },
+    "cta": {
+      "title": "Want to improve the performance and frugality of your applications?",
+      "text": "Your turn",
+      "buttonLabel": "Assess an application with Greenspector"
+    }
+  },
+  "case-air-france": {
+    "meta": {
+      "title": "Air France client case: green testing and application frugality | Greenspector",
+      "description": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application frugality and improve the ecoscore of its web, iOS and Android projects.",
+      "ogTitle": "Air France client case: green testing and application frugality | Greenspector",
+      "ogDescription": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application frugality and improve the ecoscore of its web, iOS and Android projects."
+    },
+    "nav": {
+      "name": "Air France",
+      "primary": "green testing",
+      "secondary": "Sogeti, ecoscore, Service Center Test"
+    },
+    "hero": {
+      "title": "Air France: integrating green testing into application quality",
+      "subtitle": "Air France integrated Greenspector Studio into its Service Center Test to add green testing capability to the quality validation of its web and mobile applications."
+    },
+    "intro": {
+      "title": "Adding digital sobriety to the Service Center Test",
+      "paragraphs": [
+        "Air France's Service Center Test validates the quality of mobile and web applications for customers and business teams.",
+        "Air France IT has strong Responsible Digital objectives. It therefore wanted to add new capabilities to validate application frugality and eco-responsibility.",
+        "The challenge was to integrate this approach into existing test and software quality practices, while enabling teams to track improvements concretely."
+      ]
+    },
+    "results": {
+      "title": "Packaged green scans and measured gains on the Air France app",
+      "subtitle": "Gains observed on the Air France application",
+      "items": [
+        "CO₂e impact: −9%.",
+        "Journey time: −11%."
+      ]
+    },
+    "successKeys": {
+      "title": "What made the difference",
+      "items": [
+        { "title": "A tool choice suited to the need", "text": "The Sogeti team in place advised Air France on choosing a green testing tool suited to its challenges and application context." },
+        { "title": "Operational deployment of Greenspector Studio", "text": "The Greenspector Studio licence was deployed by the vendor so teams could measure and track application frugality." },
+        { "title": "Team upskilling", "text": "Air France and Sogeti staff were trained to use Greenspector Studio, which they now use daily." },
+        { "title": "Concrete results to engage with business teams", "text": "Measurements show improvements achieved, identify overconsumption and guide corrections in upcoming releases." }
+      ]
+    },
+    "testimonials": {
+      "title": "What the teams say",
+      "items": [
+        { "quote": "« I can show improvements to my business stakeholders. »", "author": "Applications Division Director" },
+        { "quote": "« We did implement that change somewhat roughly. We'll fix it in the next release. »", "author": "Tech Lead", "role": "Following overconsumption detected by testers" },
+        { "quote": "« I'm really looking forward to improving or at least maintaining our ecoscore, and I appreciate your support in this! »", "author": "Product Owner", "role": "Air France application" }
+      ]
+    },
+    "cta": {
+      "title": "Want to integrate green testing into your quality processes?",
+      "text": "Your turn",
+      "buttonLabel": "Discover green testing with Greenspector"
+    }
+  },
+  "case-cats": {
+    "meta": {
+      "title": "Crédit Agricole Technologies & Services client case: application frugality | Greenspector",
+      "description": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the frugality of its web and mobile products, supporting performance and responsible digital.",
+      "ogTitle": "Crédit Agricole Technologies & Services client case: application frugality | Greenspector",
+      "ogDescription": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the frugality of its web and mobile products, supporting performance and responsible digital."
+    },
+    "nav": {
+      "name": "Crédit Agricole T&S",
+      "primary": "Smart'Use frugality label",
+      "secondary": "banking application, Digital Front Chapter"
+    },
+    "hero": {
+      "title": "Crédit Agricole Technologies & Services: certifying the frugality of web and mobile applications",
+      "subtitle": "Crédit Agricole Technologies & Services set up an internal measurement and labelling approach to improve frugality, performance and the environmental impact of its digital products."
+    },
+    "intro": {
+      "title": "Measuring frugality to prioritise the most impactful actions",
+      "paragraphs": [
+        "The Digital Front Chapter at Crédit Agricole Technologies & Services develops applications for employees and 8 million customers.",
+        "Teams faced several concrete challenges:",
+        "The goal was therefore to better measure application behaviour to prioritise the most impactful actions."
+      ],
+      "list": [
+        "dissatisfied users because some applications were too slow;",
+        "data volumes too high for branch network infrastructure;",
+        "environmental responsibility to integrate into the product approach."
+      ]
+    },
+    "results": {
+      "title": "An internal Smart'Use label to assess and improve products",
+      "items": [
+        "Web and mobile products are assessed and labelled through an internal frugality label.",
+        "Progress is encouraged through healthy competition between teams.",
+        "Teams have concrete results to identify priority improvement levers."
+      ]
+    },
+    "successKeys": {
+      "title": "What made the difference",
+      "items": [
+        { "title": "Co-built labelling criteria", "text": "The criteria for the internal frugality label « Smart'Use » were co-built then rolled out to Tribes." },
+        { "title": "A managed services model", "text": "Audits are performed on demand, in a managed services logic suited to team needs." },
+        { "title": "Direct access to results", "text": "Squads access Greenspector Studio to view their results, track indicators and identify actions to take." },
+        { "title": "A continuous improvement dynamic", "text": "The approach stimulates competition between teams and encourages continuous progress on web and mobile products." }
+      ]
+    },
+    "testimonial": {
+      "title": "Julien Azria speaks",
+      "quotes": [
+        "« The solution provides very concrete results on the behaviour of our applications. This allows us to focus on the most impactful actions. Working on frugality clearly leads to a more performant application. »"
+      ],
+      "author": "Julien Azria",
+      "role": "Digital Front Chapter Leader"
+    },
+    "media": [
+      { "caption": "Tracking results and identifying improvement levers with Greenspector Studio." }
+    ],
+    "cta": {
+      "title": "Want to set up an internal digital sobriety label?",
+      "text": "Your turn",
+      "buttonLabel": "Structure an application frugality approach"
+    }
+  },
+  "case-orange": {
+    "meta": {
+      "title": "Orange Innovation client case: application ecodesign | Greenspector",
+      "description": "Discover how Orange Innovation chose Greenspector to support application ecodesign, contribute to decarbonisation and structure an internal service for the Orange Group.",
+      "ogTitle": "Orange Innovation client case: application ecodesign | Greenspector",
+      "ogDescription": "Discover how Orange Innovation chose Greenspector to support application ecodesign, contribute to decarbonisation and structure an internal service for the Orange Group."
+    },
+    "nav": {
+      "name": "Orange Innovation",
+      "primary": "application ecodesign",
+      "secondary": "Responsible Digital, decarbonisation, Orange Group"
+    },
+    "hero": {
+      "title": "Orange Innovation: supporting application ecodesign",
+      "subtitle": "Orange Innovation chose Greenspector to support application ecodesign and contribute to the Group's decarbonisation approach."
+    },
+    "intro": {
+      "title": "A pilot to structure application ecodesign within the Group",
+      "paragraphs": [
+        "Orange Innovation wanted to choose a tool to support application ecodesign in order to contribute to decarbonisation.",
+        "The pilot was led by the « Responsible Digital » programme and an Orange Poland team from CEC Software Quality.",
+        "The experiment was run on two very different applications:"
+      ],
+      "list": [
+        "MyHey, a Belgian mCare application;",
+        "Orange TV, a video-on-demand and streaming application."
+      ]
+    },
+    "results": {
+      "title": "An internal service to support Group entities",
+      "items": [
+        "Experts are convinced by the approach and results achieved.",
+        "Orange Innovation is setting up an internal service to support Group entities on application ecodesign.",
+        "Greenspector analyses are used as concrete support to raise awareness among management and teams."
+      ]
+    },
+    "successKeys": {
+      "title": "What made the difference",
+      "items": [
+        { "title": "Collaborative work between centres of expertise", "text": "The project benefited from the contribution of Corporate Centres of Expertise « Software Ecodesign » and « Software Quality »." },
+        { "title": "A pilot on two very different applications", "text": "The pilot was run on two applications with very different technical and business contexts, to verify the relevance of the approach in several situations." },
+        { "title": "A team already experienced with test tools", "text": "The user team already had strong experience with test and performance tools, which facilitated adoption of the approach." },
+        { "title": "Concrete analyses for awareness-raising", "text": "Greenspector results serve as awareness-raising support for management and teams, especially in CX Reviews." }
+      ]
+    },
+    "testimonials": {
+      "title": "What the teams say",
+      "items": [
+        { "quote": "« The Greenspector POC on the Orange TV application made it possible to establish a precise diagnosis of its operation and environmental impact. It creates a baseline, identifies improvement areas and guides future application updates. In short, this test is an essential milestone in the application optimisation approach. »", "author": "Benjamin Victor", "role": "Nearlive Marketing Manager & TV Platform, Orange TV France" },
+        { "quote": "« A tool to raise awareness among management and teams with concrete evidence. Greenspector analyses are used in CX Reviews to illustrate concretely how applications align with Orange's environmental commitments. »", "author": "Céline Bouteyre", "role": "Responsible Customer Experience, Orange/CXO" }
+      ]
+    },
+    "media": [
+      { "caption": "Greenspector results used to establish a diagnosis and guide future optimisations." }
+    ],
+    "cta": {
+      "title": "Want to support application ecodesign at scale?",
+      "text": "Your turn",
+      "buttonLabel": "Set up an application ecodesign approach"
+    }
+  },
+  "case-bretagne": {
+    "meta": {
+      "title": "Région Bretagne client case: service portal ecodesign | Greenspector",
+      "description": "Discover how Région Bretagne steered the ecodesign of its service portal with Greenspector Studio measurements, at maximum requirement level.",
+      "ogTitle": "Région Bretagne client case: service portal ecodesign | Greenspector",
+      "ogDescription": "Discover how Région Bretagne steered the ecodesign of its service portal with Greenspector Studio measurements, at maximum requirement level."
+    },
+    "nav": {
+      "name": "Région Bretagne",
+      "primary": "service portal ecodesign",
+      "secondary": "local authority, ecoscore, ecodesign declaration"
+    },
+    "hero": {
+      "title": "Région Bretagne: steering the ecodesign of a service portal",
+      "subtitle": "As part of its service portal redesign, Région Bretagne integrated a strong requirement: achieving maximum ecodesign level."
+    },
+    "intro": {
+      "title": "A redesigned service portal with maximum ecodesign level",
+      "paragraphs": [
+        "Région Bretagne launched a service portal redesign project to offer a new version of its digital services.",
+        "Among the strong requirements applied to this new version was achieving maximum ecodesign level.",
+        "The goal was to embed digital sobriety in design, development and maintenance practices for the portal, with regular tracking of results."
+      ]
+    },
+    "results": {
+      "title": "Ecodesign driven by measurement, from build to maintenance",
+      "items": [
+        "Ecodesign driven by results throughout the project, in build then maintenance phase, thanks to Greenspector Studio measurements.",
+        "Implementation of search with optimised semi-automatic input, reducing data volume by a factor of 5.",
+        "Publication of an ecodesign declaration presenting the results achieved."
+      ]
+    },
+    "successKeys": {
+      "title": "What made the difference",
+      "items": [
+        { "title": "Training project stakeholders in ecodesign", "text": "Project teams were trained upfront to share a common ecodesign culture and its challenges." },
+        { "title": "Defining frugality requirements from the start", "text": "Frugality requirements were defined upfront to guide functional, technical and editorial choices." },
+        { "title": "Adapting best practices to the portal context", "text": "Ecodesign best practices were adapted to the project's technical and functional context to remain concrete and actionable for teams." },
+        { "title": "Orienting the user experience towards frugality", "text": "A design review helped build a user experience consistent with digital sobriety objectives." },
+        { "title": "Measuring at each sprint", "text": "Greenspector Studio measurements were performed at each sprint during the build phase, with improvement recommendations based on observed results." }
+      ]
+    },
+    "testimonial": {
+      "title": "Nicolas Desmons speaks",
+      "quotes": [
+        "« Our developers were made aware from project kick-off and gradually changed their way of working to adopt ecodesign reflexes. It is a deep change in practices. Greenspector ecoscore indicators served as our benchmark throughout this process. »"
+      ],
+      "author": "Nicolas Desmons",
+      "role": "Head of digital services for citizens"
+    },
+    "media": [
+      { "caption": "Tracking results and indicators as part of the ecodesign approach." },
+      { "caption": "Continuous portal optimisation through measurements during the project." }
+    ],
+    "cta": {
+      "title": "Want to steer the ecodesign of your digital services?",
+      "text": "Your turn",
+      "buttonLabel": "Measure the ecodesign of my service"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "case-studies-index",
+  "slug": "/ressources/etudes-de-cas/",
+  "template": "case-studies-index",
+  "meta": {
+    "title": "Études de cas | Greenspector",
+    "description": "Retours d'expérience clients : découvrez comment des organisations publiques et privées mesurent et améliorent la sobriété de leurs applications avec Greenspector.",
+    "keywords": "études de cas, cas clients, sobriété numérique, écoconception, Greenspector",
+    "ogTitle": "Études de cas | Greenspector",
+    "ogDescription": "Retours d'expérience clients : découvrez comment des organisations publiques et privées mesurent et améliorent la sobriété de leurs applications avec Greenspector."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Études de cas",
+    "primary": "étude de cas Greenspector",
+    "secondary": "retours d'expérience clients"
+  },
+  "hero": {
+    "label": "Ressources",
+    "title": "Études de cas",
+    "subtitle": "Des organisations de tous secteurs mesurent, labellisent et améliorent la\n                    sobriété de leurs services numériques avec Greenspector."
+  },
+  "gridLabel": "Études de cas clients Greenspector"
+}

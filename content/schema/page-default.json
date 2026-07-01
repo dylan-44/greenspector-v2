@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://greenspector.com/schema/page-default.json",
+  "title": "Default stub page",
+  "allOf": [{ "$ref": "page-base.json" }],
+  "properties": {
+    "contentMeta": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "bodyHtml": {
+      "type": "string",
+      "description": "Optional rich content; if absent, empty stub is rendered"
+    }
+  }
+}

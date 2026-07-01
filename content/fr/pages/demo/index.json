@@ -1,0 +1,27 @@
+{
+  "id": "demo",
+  "slug": "/demo/",
+  "template": "default",
+  "meta": {
+    "title": "Demander une démo | démo Greenspector Studio | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : démo Greenspector Studio.",
+    "keywords": "démo Greenspector Studio, démonstration produit",
+    "ogTitle": "Demander une démo | démo Greenspector Studio | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : démo Greenspector Studio."
+  },
+  "nav": {
+    "section": "Home",
+    "name": "Demander une démo",
+    "primary": "Demander une démo | démo Greenspector Studio | Greenspector",
+    "secondary": "Page Greenspector dédiée au sujet : démo Greenspector Studio."
+  },
+  "hero": {
+    "label": "CTA",
+    "title": "Demander une démo",
+    "subtitle": "démo Greenspector Studio"
+  },
+  "contentMeta": [
+    "Mot-clé principal : démo Greenspector Studio",
+    "Mots-clés secondaires : démonstration produit"
+  ]
+}

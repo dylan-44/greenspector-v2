@@ -1,0 +1,27 @@
+{
+  "id": "connexion",
+  "slug": "/connexion/",
+  "template": "default",
+  "meta": {
+    "title": "Se connecter | connexion Greenspector Studio | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : connexion Greenspector Studio.",
+    "keywords": "connexion Greenspector Studio, accès plateforme",
+    "ogTitle": "Se connecter | connexion Greenspector Studio | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : connexion Greenspector Studio."
+  },
+  "nav": {
+    "section": "Home",
+    "name": "Se connecter",
+    "primary": "Se connecter | connexion Greenspector Studio | Greenspector",
+    "secondary": "Page Greenspector dédiée au sujet : connexion Greenspector Studio."
+  },
+  "hero": {
+    "label": "CTA",
+    "title": "Se connecter",
+    "subtitle": "connexion Greenspector Studio"
+  },
+  "contentMeta": [
+    "Mot-clé principal : connexion Greenspector Studio",
+    "Mots-clés secondaires : accès plateforme"
+  ]
+}

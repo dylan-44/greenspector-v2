@@ -1,0 +1,135 @@
+{
+  "id": "case-ans",
+  "slug": "/ressources/etudes-de-cas/ans-ethique-numerique/",
+  "template": "case-study",
+  "meta": {
+    "title": "ANS client case: measuring CO₂ impact of health apps | Greenspector",
+    "description": "Discover how the French Digital Health Agency uses Greenspector Studio to measure the CO₂ impact of health applications and evaluate 70+ publishers on the Ecoscore Portal.",
+    "keywords": "ANS, santé numérique, impact CO₂, Portail Écoscore, Mon Espace Santé, Greenspector Studio",
+    "ogTitle": "ANS client case: measuring CO₂ impact of health apps | Greenspector",
+    "ogDescription": "Discover how the French Digital Health Agency uses Greenspector Studio to measure the CO₂ impact of health applications and evaluate 70+ publishers on the Ecoscore Portal."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "French Digital Health Agency",
+    "primary": "CO₂ impact health applications",
+    "secondary": "Ecoscore Portal, Mon Espace Santé"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "French Digital Health Agency: measuring the CO₂ impact of health applications",
+    "subtitle": "The ANS set up a portal to measure and project CO₂ impact for web and mobile health applications, required for listing on Mon Espace Santé.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0c5bd04e-fd87-43e0-8723-e070dabc80d5/slide1_shape1.png",
+      "alt": "Greenspector logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/310fa93e-b85c-4c51-92a4-30860e733702/slide1_shape10.png",
+      "alt": "Logo of the French Republic, Ministry of Solidarity and Health"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/c932a25d-a6e1-4f52-8fc3-0a4b86fd2abc/slide1_shape11.png",
+      "alt": "French Digital Health Agency logo"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Context",
+    "title": "A dedicated portal to assess the impact of health applications",
+    "paragraphs": [
+      "The French Digital Health Agency wanted a dedicated portal to measure and project the CO₂ impact of web and mobile health applications.",
+      "This assessment is mandatory to be listed on Mon Espace Santé. The scheme covers two categories of applications:",
+      "The project had to allow publishers to perform their own assessment, with no prior training, while ensuring measurement reliability."
+    ],
+    "list": [
+      "general applications;",
+      "teleconsultation applications."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/21987bc2-72c3-407d-98c7-6691995531b4/slide1_shape12.png",
+      "alt": "Screenshot of the Ecoscore Portal used to assess health applications"
+    }
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "70+ publishers assessed on the Ecoscore Portal",
+    "items": [
+      "Public evaluation and ranking of publishers by the French Digital Health Agency on the Ecoscore Portal.",
+      "70+ publishers assessed.",
+      "Assessment performed by publishers themselves, with no prior training, thanks to Greenspector Studio's intuitive interface."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Keys to success",
+    "title": "What made the difference",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Self-service onboarding",
+        "text": "The interface was reworked with a dedicated tutorial so publishers can complete their assessment independently."
+      },
+      {
+        "icon": "check",
+        "title": "Measurements on real devices",
+        "text": "Measurements on real devices convinced the ANS of the reliability of the Greenspector approach."
+      },
+      {
+        "icon": "check",
+        "title": "A dedicated white-label portal",
+        "text": "A dedicated white-label portal was deployed to display results and make them easy to consult."
+      },
+      {
+        "icon": "check",
+        "title": "Tests adapted to teleconsultation",
+        "text": "Teleconsultation tests run on two devices simultaneously to reflect real usage conditions."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Testimonial",
+    "title": "Dr Brigitte Séroussi speaks",
+    "quotes": [
+      "« To ensure maximum ecoscore reliability, teams relied on Greenspector, which reliably assesses the environmental impact of a health application. »",
+      "« Greenspector is based on measurement throughout the real application usage journey, rather than simply calculating the environmental impact of loading the home page. »"
+    ],
+    "author": "Dr Brigitte Séroussi",
+    "role": "Physician & Project Director, in Nouveal",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/8b5db462-ae01-4b4a-bced-d267a945c8fd/slide1_shape15.png"
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/18e8e211-176e-4bb6-ac84-483860371c36/slide1_shape13.png",
+      "alt": "Environmental impact results display interface",
+      "caption": "Display of results and environmental impact indicators."
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0b7f9280-fb40-4ba1-967b-b9513664eeef/slide1_shape14.png",
+      "alt": "Greenspector Studio interface used for measurements on real devices",
+      "caption": "Measurements performed with Greenspector Studio on real devices."
+    }
+  ],
+  "mediaEyebrow": "Visuals",
+  "mediaTitle": "The project in pictures",
+  "cta": {
+    "eyebrow": "Your turn",
+    "title": "Want to measure the environmental impact of your applications?",
+    "text": "Greenspector Studio assesses the environmental impact of web and mobile applications based on measurements on real devices.",
+    "buttonLabel": "Discover Greenspector Studio",
+    "buttonHref": "/contact/"
+  }
+}

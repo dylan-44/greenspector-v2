@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://greenspector.com/schema/page-case-study.json",
+  "title": "Case study page",
+  "allOf": [{ "$ref": "page-base.json" }],
+  "required": ["meta", "hero", "logos", "intro", "results", "successKeys", "cta"],
+  "properties": {
+    "logos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "src": { "type": "string" },
+          "alt": { "type": "string" }
+        }
+      }
+    },
+    "intro": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "paragraphs": { "type": "array", "items": { "type": "string" } },
+        "list": { "type": "array", "items": { "type": "string" } },
+        "image": {
+          "type": "object",
+          "properties": {
+            "src": { "type": "string" },
+            "alt": { "type": "string" }
+          }
+        }
+      }
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "intro": { "type": "string" },
+        "items": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "successKeys": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": { "type": "string" },
+              "title": { "type": "string" },
+              "text": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "testimonial": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "quotes": { "type": "array", "items": { "type": "string" } },
+        "author": { "type": "string" },
+        "role": { "type": "string" },
+        "photo": { "type": "string" }
+      }
+    },
+    "testimonials": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quote": { "type": "string" },
+              "author": { "type": "string" },
+              "role": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "src": { "type": "string" },
+          "alt": { "type": "string" },
+          "caption": { "type": "string" }
+        }
+      }
+    },
+    "cta": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "text": { "type": "string" },
+        "buttonLabel": { "type": "string" },
+        "buttonHref": { "type": "string" }
+      }
+    }
+  }
+}

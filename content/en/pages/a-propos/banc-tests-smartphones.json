@@ -1,0 +1,27 @@
+{
+  "id": "about-banc",
+  "slug": "/a-propos/banc-tests-smartphones/",
+  "template": "default",
+  "meta": {
+    "title": "Our test bench | smartphone test bench | Greenspector",
+    "description": "Greenspector page dedicated to: smartphone test bench.",
+    "keywords": "smartphone test bench, device lab",
+    "ogTitle": "Our test bench | smartphone test bench | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: smartphone test bench."
+  },
+  "nav": {
+    "section": "À propos",
+    "name": "Our test bench",
+    "primary": "smartphone test bench",
+    "secondary": "device lab"
+  },
+  "hero": {
+    "label": "À propos",
+    "title": "Our test bench",
+    "subtitle": "smartphone test bench"
+  },
+  "contentMeta": [
+    "Primary keyword: smartphone test bench",
+    "Secondary keywords: device lab"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "conseil-banc",
+  "slug": "/conseil/banc-mesure-consommation-smartphone/",
+  "template": "default",
+  "meta": {
+    "title": "Mesures sur banc de tests | banc de mesure consommation smartphone | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : banc de mesure consommation smartphone.",
+    "keywords": "banc de mesure consommation smartphone, device lab, laboratoire mobile",
+    "ogTitle": "Mesures sur banc de tests | banc de mesure consommation smartphone | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : banc de mesure consommation smartphone."
+  },
+  "nav": {
+    "section": "Conseil",
+    "name": "Mesures sur banc de tests",
+    "primary": "banc de mesure consommation smartphone",
+    "secondary": "device lab, laboratoire mobile"
+  },
+  "hero": {
+    "label": "Conseil",
+    "title": "Mesures sur banc de tests",
+    "subtitle": "banc de mesure consommation smartphone"
+  },
+  "contentMeta": [
+    "Mot-clé principal : banc de mesure consommation smartphone",
+    "Mots-clés secondaires : device lab, laboratoire mobile"
+  ]
+}

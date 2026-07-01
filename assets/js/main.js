@@ -9,10 +9,14 @@ const esc = (v) =>
     "'": '&#39;'
   })[c]);
 
-const pageState = JSON.parse(document.body.dataset.page || '{"slug":"/"}');
-const pages = window.GS_PAGES || [];
+const pageState = JSON.parse(document.body.dataset.page || '{"slug":"/","locale":"fr"}');
+const locale = pageState.locale || (pageState.slug.startsWith('/en/') || pageState.slug === '/en/' ? 'en' : 'fr');
+const i18n = window.GS_I18N?.[locale] || window.GS_I18N?.fr || {};
+const pages =
+  locale === 'en' ? window.GS_PAGES_EN || window.GS_PAGES || [] : window.GS_PAGES || [];
 const currentSlug = pageState.slug || '/';
-const depth = currentSlug.split('/').filter(Boolean).length;
+const pathSegments = currentSlug.split('/').filter(Boolean);
+const depth = pathSegments.length;
 const base = depth === 0 ? './' : '../'.repeat(depth);
 
 const toRelative = (slug) => {
@@ -25,17 +29,16 @@ const toRelative = (slug) => {
 
 const toAsset = (assetPath) => `${base}${assetPath.replace(/^\//, '')}`;
 
-const groups = [
-  'Greenspector Studio',
-  'Conseil',
-  'Tarifs',
-  'Ressources',
-  'À propos'
-];
+const sectionLabels = Object.fromEntries(
+  (i18n.sections || []).map((section) => [section.key, section.label])
+);
+
+const groups = (i18n.sections || []).map((section) => section.key);
 
 const grouped = groups
   .map((section) => ({
     section,
+    label: sectionLabels[section] || section,
     items: pages.filter((item) => item.section === section)
   }))
   .filter((group) => group.items.length);
@@ -48,7 +51,7 @@ const footerNav = groups
       return '';
     }
 
-    return `<li><a href="${toRelative(firstPage.slug)}">${esc(section)}</a></li>`;
+    return `<li><a href="${toRelative(firstPage.slug)}">${esc(sectionLabels[section] || section)}</a></li>`;
   })
   .join('');
 
@@ -72,17 +75,22 @@ const socialLinks = [
 
 const dropdown = (group) =>
   group.items.length === 1
-    ? `<li class="nav-item"><a class="nav-link" href="${toRelative(group.items[0].slug)}">${esc(group.section)}</a></li>`
-    : `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">${esc(group.section)}</a><ul class="dropdown-menu">${group.items
+    ? `<li class="nav-item"><a class="nav-link" href="${toRelative(group.items[0].slug)}">${esc(group.label)}</a></li>`
+    : `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">${esc(group.label)}</a><ul class="dropdown-menu">${group.items
         .map(
           (item) =>
             `<li><a class="dropdown-item" href="${toRelative(item.slug)}">${esc(item.name)}</a></li>`
         )
         .join('')}</ul></li>`;
 
-qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="${toRelative('/')}" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="${toAsset('/assets/img/Greenspector_logo_web_1200x320.png')}" alt="Greenspector"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative('/contact/')}">Contact</a></li></ul></div></div></nav></header>`;
+const langFlag = (code) =>
+  `<img class="lang-switcher__flag" src="${toAsset(`/assets/img/flags/${code}.svg`)}" alt="" width="27" height="18" loading="lazy" decoding="async">`;
 
-qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative('/')}" aria-label="Greenspector - Accueil"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">Mesure, écoconception logicielle et réduction d'impact numérique.</p></div><nav class="footer-nav" aria-label="Menu footer"><p class="footer-title">Menu</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative('/contact/')}">Contact</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
+const langSwitcher = `<li class="nav-item lang-switcher" aria-label="${esc(i18n.langSwitcher?.label || 'Language')}"><a class="nav-link lang-switcher__link${locale === 'fr' ? ' is-active' : ''}" href="${toRelative(pageState.slugFr || '/')}" hreflang="fr" lang="fr" aria-label="Français" title="Français">${langFlag('fr')}</a><a class="nav-link lang-switcher__link${locale === 'en' ? ' is-active' : ''}" href="${toRelative(pageState.slugEn || '/en/')}" hreflang="en" lang="en" aria-label="English" title="English">${langFlag('gb')}</a></li>`;
+
+qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="${esc(i18n.navAria || 'Navigation')}"><div class="container"><a class="navbar-brand" href="${toRelative(locale === 'en' ? '/en/' : '/')}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="navbar-logo" src="${toAsset('/assets/img/Greenspector_logo_web_1200x320.png')}" alt="Greenspector"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="${esc(i18n.menuOpen || 'Open menu')}"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative(locale === 'en' ? '/en/contact/' : '/contact/')}">${esc(i18n.contact || 'Contact')}</a></li>${langSwitcher}</ul></div></div></nav></header>`;
+
+qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative(locale === 'en' ? '/en/' : '/')}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">${esc(i18n.footerTagline || '')}</p></div><nav class="footer-nav" aria-label="${esc(i18n.footerMenu || 'Menu')}"><p class="footer-title">${esc(i18n.footerMenu || 'Menu')}</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative(locale === 'en' ? '/en/contact/' : '/contact/')}">${esc(i18n.contact || 'Contact')}</a></li></ul></nav><div class="footer-social"><p class="footer-title">${esc(i18n.footerFollow || 'Follow us')}</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
 
 document.querySelectorAll('.navbar a[href]').forEach((link) => {
   const item = pages.find((p) => toRelative(p.slug) === link.getAttribute('href'));
@@ -93,12 +101,20 @@ document.querySelectorAll('.navbar a[href]').forEach((link) => {
 });
 
 const caseStudiesGrid = qs('#case-studies-grid');
-const caseStudies = window.GS_CASE_STUDIES || [];
+const caseStudies =
+  locale === 'en'
+    ? window.GS_CASE_STUDIES_EN || window.GS_CASE_STUDIES || []
+    : window.GS_CASE_STUDIES || [];
 
 if (caseStudiesGrid && caseStudies.length) {
+  const cardLabels = i18n.caseStudyCard || {};
   caseStudiesGrid.innerHTML = caseStudies
     .map((item) => {
-      const href = toRelative(`/ressources/etudes-de-cas/${item.slug}`);
+      const href = toRelative(
+        locale === 'en'
+          ? `/en/ressources/etudes-de-cas/${item.slug}`
+          : `/ressources/etudes-de-cas/${item.slug}`
+      );
       const image = item.image.startsWith('http') ? item.image : toAsset(item.image);
 
       return `<article class="case-study-card">
@@ -107,10 +123,10 @@ if (caseStudiesGrid && caseStudies.length) {
             <img src="${esc(image)}" alt="${esc(item.title)}" width="640" height="360" loading="lazy" decoding="async">
           </figure>
           <div class="case-study-card__body">
-            <p class="eyebrow">Étude de cas</p>
+            <p class="eyebrow">${esc(cardLabels.eyebrow || 'Case study')}</p>
             <h2 class="case-study-card__title">${esc(item.title)}</h2>
             <p class="case-study-card__desc">${esc(item.description)}</p>
-            <span class="case-study-card__cta">Lire l'étude de cas</span>
+            <span class="case-study-card__cta">${esc(cardLabels.cta || 'Read case study')}</span>
           </div>
         </a>
       </article>`;

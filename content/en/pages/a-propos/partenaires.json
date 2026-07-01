@@ -1,0 +1,27 @@
+{
+  "id": "about-partenaires",
+  "slug": "/a-propos/partenaires/",
+  "template": "default",
+  "meta": {
+    "title": "Our partners | Greenspector partners | Greenspector",
+    "description": "Greenspector page dedicated to: Greenspector partners.",
+    "keywords": "Greenspector partners, Green IT ecosystem",
+    "ogTitle": "Our partners | Greenspector partners | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: Greenspector partners."
+  },
+  "nav": {
+    "section": "À propos",
+    "name": "Our partners",
+    "primary": "Greenspector partners",
+    "secondary": "Green IT ecosystem"
+  },
+  "hero": {
+    "label": "À propos",
+    "title": "Our partners",
+    "subtitle": "Greenspector partners"
+  },
+  "contentMeta": [
+    "Primary keyword: Greenspector partners",
+    "Secondary keywords: Green IT ecosystem"
+  ]
+}

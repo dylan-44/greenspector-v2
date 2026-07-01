@@ -1,0 +1,27 @@
+{
+  "id": "contact",
+  "slug": "/contact/",
+  "template": "default",
+  "meta": {
+    "title": "Nous contacter | contact Greenspector | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : contact Greenspector.",
+    "keywords": "contact Greenspector, demande d'information",
+    "ogTitle": "Nous contacter | contact Greenspector | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : contact Greenspector."
+  },
+  "nav": {
+    "section": "Contact",
+    "name": "Nous contacter",
+    "primary": "contact Greenspector",
+    "secondary": "demande d'information"
+  },
+  "hero": {
+    "label": "Contact",
+    "title": "Nous contacter",
+    "subtitle": "contact Greenspector"
+  },
+  "contentMeta": [
+    "Mot-clé principal : contact Greenspector",
+    "Mots-clés secondaires : demande d'information"
+  ]
+}

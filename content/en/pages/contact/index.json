@@ -1,0 +1,27 @@
+{
+  "id": "contact",
+  "slug": "/contact/",
+  "template": "default",
+  "meta": {
+    "title": "Contact us | contact Greenspector | Greenspector",
+    "description": "Greenspector page dedicated to: contact Greenspector.",
+    "keywords": "contact Greenspector, information request",
+    "ogTitle": "Contact us | contact Greenspector | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: contact Greenspector."
+  },
+  "nav": {
+    "section": "Contact",
+    "name": "Contact us",
+    "primary": "contact Greenspector",
+    "secondary": "information request"
+  },
+  "hero": {
+    "label": "Contact",
+    "title": "Contact us",
+    "subtitle": "contact Greenspector"
+  },
+  "contentMeta": [
+    "Primary keyword: contact Greenspector",
+    "Secondary keywords: information request"
+  ]
+}

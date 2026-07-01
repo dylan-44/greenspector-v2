@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://greenspector.com/schema/page-base.json",
+  "title": "Page base",
+  "type": "object",
+  "required": ["meta", "hero"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title", "description"],
+      "properties": {
+        "title": { "type": "string", "description": "Balise title" },
+        "description": { "type": "string", "description": "Meta description" },
+        "keywords": { "type": "string" },
+        "ogImage": { "type": "string" },
+        "jsonLd": { "type": "object" }
+      }
+    },
+    "hero": {
+      "type": "object",
+      "required": ["title"],
+      "properties": {
+        "label": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "href": { "type": "string" },
+              "primary": { "type": "boolean" },
+              "external": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "stub": { "type": "boolean" },
+    "contentMeta": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "bodyHtml": { "type": "string", "description": "Contenu HTML du main (pages riches)" }
+  }
+}

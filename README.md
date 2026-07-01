@@ -11,13 +11,52 @@ Structure statique initiale du site Greenspector V2.
 - JavaScript vanilla dans `assets/js/main.js`.
 - SEO de base : titles, descriptions, canonicals, Open Graph, sitemap et robots.txt.
 
+## Build i18n (FR + EN)
+
+Le contenu éditorial est stocké en JSON sous `content/`. Un script Node **en local ou en CI** génère les HTML FR (racine) et EN (`/en/`).
+
+### Déploiement : 100 % statique, zéro Node sur le serveur
+
+**Le serveur de production n'a besoin d'aucun Node.js, npm, ni étape de build.**
+
+| Où | Node.js ? | Rôle |
+|----|-----------|------|
+| **Serveur / hébergeur** | Non | Sert uniquement des fichiers : `.html`, `.css`, `.js`, images |
+| **Poste dev ou CI** (optionnel) | Oui | Régénère les HTML quand le contenu JSON change |
+
+Ce qui est uploadé sur l'hébergeur, c'est exactement comme avant :
+
+```
+index.html
+studio/.../index.html
+en/index.html
+en/studio/.../index.html
+assets/css/styles.css
+assets/js/main.js
+assets/js/site-data.js
+sitemap.xml
+```
+
+Aucun runtime serveur. Pas de PHP, pas de Node, pas de build à lancer côté hébergeur.
+
+**Workflow recommandé :** vous (ou la CI) lancez `npm run build` en local → vous uploadez le dossier tel quel (FTP, S3, Netlify static, etc.). Les JSON dans `content/` peuvent rester dans le dépôt Git pour les éditeurs/agents, mais **ne sont pas requis sur le serveur**.
+
+```bash
+npm install          # uniquement sur poste dev / CI
+npm run build        # génère les HTML ; pas sur le serveur
+```
+
+Guide éditorial : [`docs/CONTENT_GUIDE.md`](docs/CONTENT_GUIDE.md).  
+Règles traduction agents RAG : [`docs/RAG_TRANSLATION_RULES.md`](docs/RAG_TRANSLATION_RULES.md).
+
 ## Architecture de navigation
 
 Le site ne duplique pas le menu dans chaque page HTML.
 
-- La source unique de vérité des pages est `window.GS_PAGES` dans `assets/js/site-data.js`.
+- La source unique de vérité des pages est `content/nav-pages.json` (généré dans `assets/js/site-data.js` au build).
+- Les libellés i18n (menu, footer, switcher FR|EN) sont dans `content/{fr,en}/navigation.json` → `window.GS_I18N`.
 - Le header et le footer sont générés dynamiquement par `assets/js/main.js`.
-- Chaque page expose son slug courant via l'attribut `data-page` sur le `<body>`.
+- Chaque page expose `slug`, `locale`, `slugFr`, `slugEn` via `data-page` sur le `<body>`.
 
 Ordre de chargement JS (dans les pages) :
 

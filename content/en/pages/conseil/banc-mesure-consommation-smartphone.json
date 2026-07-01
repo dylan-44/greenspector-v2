@@ -1,0 +1,27 @@
+{
+  "id": "conseil-banc",
+  "slug": "/conseil/banc-mesure-consommation-smartphone/",
+  "template": "default",
+  "meta": {
+    "title": "Test bench measurements | smartphone consumption measurement bench | Greenspector",
+    "description": "Greenspector page dedicated to: smartphone consumption measurement bench.",
+    "keywords": "smartphone consumption measurement bench, device lab, mobile laboratory",
+    "ogTitle": "Test bench measurements | smartphone consumption measurement bench | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: smartphone consumption measurement bench."
+  },
+  "nav": {
+    "section": "Conseil",
+    "name": "Test bench measurements",
+    "primary": "smartphone consumption measurement bench",
+    "secondary": "device lab, mobile laboratory"
+  },
+  "hero": {
+    "label": "Conseil",
+    "title": "Test bench measurements",
+    "subtitle": "smartphone consumption measurement bench"
+  },
+  "contentMeta": [
+    "Primary keyword: smartphone consumption measurement bench",
+    "Secondary keywords: device lab, mobile laboratory"
+  ]
+}

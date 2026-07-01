@@ -1,0 +1,134 @@
+{
+  "id": "case-orange",
+  "slug": "/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/",
+  "template": "case-study",
+  "meta": {
+    "title": "Cas client Orange Innovation : écoconception des applications | Greenspector",
+    "description": "Découvrez comment Orange Innovation a choisi Greenspector pour accompagner l'écoconception des applications, contribuer à la décarbonation et structurer une prestation interne pour le Groupe Orange.",
+    "keywords": "Orange Innovation, écoconception mobile, décarbonation, Digital Responsable, Greenspector, Groupe Orange",
+    "ogTitle": "Cas client Orange Innovation : écoconception des applications | Greenspector",
+    "ogDescription": "Découvrez comment Orange Innovation a choisi Greenspector pour accompagner l'écoconception des applications, contribuer à la décarbonation et structurer une prestation interne pour le Groupe Orange."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Orange Innovation",
+    "primary": "écoconception applications",
+    "secondary": "Digital Responsable, décarbonation, Groupe Orange"
+  },
+  "hero": {
+    "label": "Étude de cas",
+    "title": "Orange Innovation&nbsp;: accompagner l'écoconception des applications",
+    "subtitle": "Orange Innovation a choisi Greenspector pour accompagner l'écoconception des\n                    applications et contribuer à la démarche de décarbonation du Groupe.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Découvrir\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/711d2c7f-3e30-4427-a7f9-8554c015aea7/slide6_shape2.png",
+      "alt": "Logo Greenspector"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/5467a482-1bd7-4ff5-9403-44206308e83a/slide6_shape10.png",
+      "alt": "Logo Orange Innovation"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Contexte",
+    "title": "Un pilote pour structurer l'écoconception applicative au sein du Groupe",
+    "paragraphs": [
+      "Contexte",
+      "Orange Innovation souhaitait choisir un outil permettant d'accompagner l'écoconception des\n                                applications afin de contribuer à la décarbonation.",
+      "Le pilote a été porté par le programme «&nbsp;Digital Responsable&nbsp;» et une équipe\n                                d'Orange Pologne du CEC Software Quality.",
+      "L'expérimentation a été menée sur deux applications très différentes&nbsp;:"
+    ],
+    "list": [
+      "MyHey, application belge de mCare&nbsp;;",
+      "TV d'Orange, application de vidéo à la demande et de streaming."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg",
+      "alt": "Visuel associé au POC Greenspector mené par Orange Innovation"
+    }
+  },
+  "results": {
+    "eyebrow": "Résultats",
+    "title": "Une prestation interne pour accompagner les entités du Groupe",
+    "intro": "Résultats",
+    "items": [
+      "Les experts sont convaincus par l'approche et les résultats obtenus.",
+      "Orange Innovation met en place une prestation interne pour accompagner les différentes\n                                entités du Groupe sur l'écoconception des applications.",
+      "Les analyses Greenspector sont utilisées comme support concret de sensibilisation du\n                                management et des équipes."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Clés du succès",
+    "title": "Ce qui a fait la différence",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Un travail collaboratif entre centres d'expertise",
+        "text": "Le projet a bénéficié de la contribution des Centres d'Expertise Corporate «&nbsp;Software\n                                    Ecodesign&nbsp;» et «&nbsp;Software Quality&nbsp;»."
+      },
+      {
+        "icon": "check",
+        "title": "Un pilote sur deux applications très différentes",
+        "text": "Le pilote a été réalisé sur deux applications aux contextes techniques et métiers très\n                                    différents, afin de vérifier la pertinence de l'approche dans plusieurs situations."
+      },
+      {
+        "icon": "check",
+        "title": "Une équipe déjà aguerrie aux outils de test",
+        "text": "L'équipe utilisatrice disposait déjà d'une forte expérience des outils de test et de\n                                    performance, ce qui a facilité l'appropriation de la démarche."
+      },
+      {
+        "icon": "check",
+        "title": "Des analyses concrètes pour sensibiliser",
+        "text": "Les résultats Greenspector servent de support de sensibilisation auprès du management\n                                    et des équipes, notamment dans le cadre des CX Reviews."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Témoignages",
+    "title": "Ce qu'en disent les équipes",
+    "items": [
+      {
+        "quote": "«&nbsp;Le POC Greenspector sur l'application Orange TV a permis d'établir un diagnostic\n                                    précis de son fonctionnement et de son impact environnemental. Il permet de créer une\n                                    base de référence, d'identifier les points d'amélioration et d'orienter les futures\n                                    mises à jour de l'application. En résumé, ce test est un jalon essentiel dans la\n                                    démarche d'optimisation de l'application.&nbsp;»",
+        "author": "Benjamin Victor",
+        "role": "Responsable Marketing Nearlive &amp;amp; Brique TV, Orange TV France"
+      },
+      {
+        "quote": "«&nbsp;Un outil de sensibilisation du management et des équipes avec du concret. Les\n                                    analyses Greenspector sont utilisées dans le cadre des CX Reviews pour illustrer\n                                    concrètement le positionnement des applications vis-à-vis des engagements\n                                    environnementaux d'Orange.&nbsp;»",
+        "author": "Céline Bouteyre",
+        "role": "eXpérience Client Responsable, Orange/CXO"
+      }
+    ]
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/d169eff7-1829-4c00-9a8e-ea105aafd985/slide6_shape12.png",
+      "alt": "Interface de résultats Greenspector utilisée dans le cadre du cas client Orange Innovation",
+      "caption": "Résultats Greenspector utilisés pour établir un diagnostic et orienter les\n                                    futures optimisations."
+    }
+  ],
+  "mediaEyebrow": "Visuels",
+  "mediaTitle": "Le projet en images",
+  "cta": {
+    "eyebrow": "À vous de jouer",
+    "title": "Vous souhaitez accompagner l'écoconception de vos applications à grande échelle&nbsp;?",
+    "text": "À vous de jouer",
+    "buttonLabel": "Mettre en place une démarche\n                                    d'écoconception applicative",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Orange Innovation : accompagner l'écoconception des applications\",\n        \"description\": \"Cas client Orange Innovation sur l'utilisation de Greenspector pour mesurer l'impact environnemental des applications et accompagner l'écoconception dans le Groupe Orange.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/\"\n        }\n    }"
+}

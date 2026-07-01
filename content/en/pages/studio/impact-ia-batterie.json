@@ -1,0 +1,27 @@
+{
+  "id": "studio-ia",
+  "slug": "/studio/impact-ia-batterie/",
+  "template": "default",
+  "meta": {
+    "title": "For AI | AI battery impact | Greenspector",
+    "description": "Greenspector page dedicated to: AI battery impact.",
+    "keywords": "AI battery impact, responsible AI, AI energy consumption",
+    "ogTitle": "For AI | AI battery impact | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: AI battery impact."
+  },
+  "nav": {
+    "section": "Greenspector Studio",
+    "name": "For AI",
+    "primary": "AI battery impact",
+    "secondary": "responsible AI, AI energy consumption"
+  },
+  "hero": {
+    "label": "Greenspector Studio",
+    "title": "For AI",
+    "subtitle": "AI battery impact"
+  },
+  "contentMeta": [
+    "Primary keyword: AI battery impact",
+    "Secondary keywords: responsible AI, AI energy consumption"
+  ]
+}

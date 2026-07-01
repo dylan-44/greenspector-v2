@@ -2,217 +2,206 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://greenspector.com/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/banc-tests-mobiles/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/banc-tests-mobiles/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/mesure-impact-environnemental-numerique/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/mesure-impact-environnemental-numerique/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/outil-ecoconception-logicielle/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/outil-ecoconception-logicielle/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/impact-ia-batterie/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/impact-ia-batterie/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/mesure-decharge-batterie/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/mesure-decharge-batterie/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/mesure-performance-app/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/mesure-performance-app/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/devgreenops/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenspector.com/studio/oem-marque-blanche/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://greenspector.com/en/studio/devgreenops/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/studio/centre-services-green-it/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/studio/centre-services-green-it/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/conseil/ecoconception-logicielle/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/conseil/ecoconception-logicielle/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/conseil/audit-application-mobile/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenspector.com/conseil/audit-parc-multigenerationnel/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://greenspector.com/conseil/labellisation-ecoscore/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://greenspector.com/conseil/methodologie-ecoconception-logicielle/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://greenspector.com/en/conseil/audit-application-mobile/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/conseil/expertise-mesure-terminaux-mobiles/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/conseil/expertise-mesure-terminaux-mobiles/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/conseil/banc-mesure-consommation-smartphone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/conseil/banc-mesure-consommation-smartphone/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/tarifs-greenspector-studio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenspector.com/ressources/blog/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://greenspector.com/en/tarifs-greenspector-studio/</loc>
   </url>
   <url>
-    <loc>https://greenspector.com/ressources/etudes-de-cas-greenspector/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://greenspector.com/ressources/etudes-de-cas/</loc>
   </url>
   <url>
-    <loc>https://greenspector.com/ressources/publications/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://greenspector.com/ressources/webinaires/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://greenspector.com/ressources/banc-test-mobile-unique-europe/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://greenspector.com/ressources/recherche-developpement-ecoconception-logicielle/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/ans-ethique-numerique/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/ans-ethique-numerique/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/decathlon-ecoconception-numerique/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/decathlon-ecoconception-numerique/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/air-france-tests-application/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/air-france-tests-application/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/cats-smartuse-application-bancaire/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/cats-smartuse-application-bancaire/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/region-bretagne-numerique-responsable/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/region-bretagne-numerique-responsable/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/treebal-application-ecoresponsable/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/treebal-application-ecoresponsable/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/ressources/etudes-de-cas/sncf-connect-bug-performance/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/ressources/etudes-de-cas/sncf-connect-bug-performance/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/a-propos/equipe-greenspector/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/a-propos/equipe-greenspector/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/a-propos/rse/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/a-propos/rse/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/a-propos/partenaires/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/a-propos/partenaires/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/a-propos/banc-tests-smartphones/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/a-propos/banc-tests-smartphones/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/a-propos/innovations/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/a-propos/innovations/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://greenspector.com/connexion/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://greenspector.com/en/contact/</loc>
   </url>
   <url>
     <loc>https://greenspector.com/demo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/demo/</loc>
+  </url>
+  <url>
+    <loc>https://greenspector.com/connexion/</loc>
+  </url>
+  <url>
+    <loc>https://greenspector.com/en/connexion/</loc>
   </url>
 </urlset>

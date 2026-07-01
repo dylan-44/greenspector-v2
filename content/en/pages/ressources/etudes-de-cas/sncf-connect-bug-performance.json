@@ -1,0 +1,114 @@
+{
+  "id": "case-sncf",
+  "slug": "/ressources/etudes-de-cas/sncf-connect-bug-performance/",
+  "template": "case-study",
+  "meta": {
+    "title": "SNCF Connect & Tech client case: digital sobriety and mobile app | Greenspector",
+    "description": "Discover how SNCF Connect & Tech reduced CO₂ impact on the TER booking journey, accelerated the user experience and certified its Android and iOS applications with Greenspector.",
+    "keywords": "SNCF Connect, digital sobriety, OUI.sncf, CO₂ impact, Silver certification, Greenspector",
+    "ogTitle": "SNCF Connect & Tech client case: digital sobriety and mobile app | Greenspector",
+    "ogDescription": "Discover how SNCF Connect & Tech reduced CO₂ impact on the TER booking journey, accelerated the user experience and certified its Android and iOS applications with Greenspector."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "SNCF Connect & Tech",
+    "primary": "mobile digital sobriety",
+    "secondary": "OUI.sncf, Silver certification"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "SNCF Connect & Tech: reducing CO₂ impact on the booking journey",
+    "subtitle": "As part of the OUI.sncf app redesign, SNCF Connect & Tech integrated strong requirements for performance, digital sobriety and software ecodesign.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f649835f-94d4-41b1-aa2e-e46cff869617/slide2_shape1.png",
+      "alt": "Greenspector logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/fc1ee3c6-8763-440b-baba-8d67c03eb786/slide2_shape4.png",
+      "alt": "SNCF Connect & Tech logo"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Context",
+    "title": "Redesigning OUI.sncf with digital sobriety as a requirement",
+    "paragraphs": [
+      "SNCF Connect & Tech led the redesign of the OUI.sncf app, used by millions of people to book train tickets.",
+      "The project had significant business stakes, with a clear ambition for sobriety and ecodesign from the design phase.",
+      "The goal was to improve the user experience while reducing the environmental impact of application journeys, especially on the TER booking journey."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b41a8f28-b536-40e5-8b0e-c235bbb6ba0a/slide2_shape3.jpg",
+      "alt": "SNCF Connect & Tech client case illustration on digital sobriety of the booking application"
+    }
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "−19% CO₂ and a journey 8 seconds faster",
+    "items": [
+      "19% less CO₂ on the TER booking journey.",
+      "A user journey 8 seconds faster.",
+      "300 KB fewer requests per booking, approximately 9 TB per year.",
+      "Two applications certified Silver level, for Android and iOS."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Keys to success",
+    "title": "What made the difference",
+    "items": [
+      {
+        "icon": "check",
+        "title": "An audit before go-live",
+        "text": "The application was audited before go-live to identify the main improvement levers."
+      },
+      {
+        "icon": "check",
+        "title": "Concrete improvement areas",
+        "text": "Several optimisation paths were identified, especially on geolocation and data loading."
+      },
+      {
+        "icon": "check",
+        "title": "Implementation by the project team",
+        "text": "Recommendations were taken on board by the project team, then followed up with a new measurement to verify the gains achieved."
+      },
+      {
+        "icon": "check",
+        "title": "An approach integrated throughout the project",
+        "text": "Performance control and digital sobriety were integrated into requirements from the design phase and throughout the project."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Testimonial",
+    "title": "Sébastien Gobin speaks",
+    "quotes": [
+      "« From the design phase and throughout the project, we integrated performance control linked to a sobriety approach into our requirements. With Greenspector, we were able to add measurement, work on optimisations while continuing to raise awareness among our teams on the subject, for a very encouraging result. »"
+    ],
+    "author": "Sébastien Gobin",
+    "role": "Quality and Production Manager, Tech & Products",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/879a3146-1150-41c4-9e33-118d42946a31/slide2_shape12.jpg"
+  },
+  "mediaEyebrow": "",
+  "cta": {
+    "eyebrow": "Your turn",
+    "title": "Want to improve the performance and frugality of your applications?",
+    "text": "Your turn",
+    "buttonLabel": "Assess an application with Greenspector",
+    "buttonHref": "/contact/"
+  }
+}

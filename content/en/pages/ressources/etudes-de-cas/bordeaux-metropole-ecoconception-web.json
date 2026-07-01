@@ -1,0 +1,27 @@
+{
+  "id": "case-bordeaux",
+  "slug": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
+  "template": "default",
+  "meta": {
+    "title": "Bordeaux Métropole | web ecodesign | Greenspector",
+    "description": "Greenspector case study: Bordeaux Métropole.",
+    "keywords": "web ecodesign, local authority",
+    "ogTitle": "Bordeaux Métropole | web ecodesign | Greenspector",
+    "ogDescription": "Greenspector case study: Bordeaux Métropole."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Bordeaux Métropole",
+    "primary": "web ecodesign",
+    "secondary": "local authority"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Bordeaux Métropole",
+    "subtitle": "web ecodesign"
+  },
+  "contentMeta": [
+    "Primary keyword: web ecodesign",
+    "Secondary keywords: local authority"
+  ]
+}

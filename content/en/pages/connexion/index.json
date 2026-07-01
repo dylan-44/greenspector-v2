@@ -1,0 +1,27 @@
+{
+  "id": "connexion",
+  "slug": "/connexion/",
+  "template": "default",
+  "meta": {
+    "title": "Sign in | Greenspector Studio login | Greenspector",
+    "description": "Greenspector page dedicated to: Greenspector Studio login.",
+    "keywords": "Greenspector Studio login, platform access",
+    "ogTitle": "Sign in | Greenspector Studio login | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: Greenspector Studio login."
+  },
+  "nav": {
+    "section": "Home",
+    "name": "Sign in",
+    "primary": "Sign in | Greenspector Studio login | Greenspector",
+    "secondary": "Greenspector page dedicated to: Greenspector Studio login."
+  },
+  "hero": {
+    "label": "CTA",
+    "title": "Sign in",
+    "subtitle": "Greenspector Studio login"
+  },
+  "contentMeta": [
+    "Primary keyword: Greenspector Studio login",
+    "Secondary keywords: platform access"
+  ]
+}

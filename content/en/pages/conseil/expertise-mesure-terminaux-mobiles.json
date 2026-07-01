@@ -1,0 +1,27 @@
+{
+  "id": "conseil-expertise",
+  "slug": "/conseil/expertise-mesure-terminaux-mobiles/",
+  "template": "default",
+  "meta": {
+    "title": "Mobile device expertise | terminal measurement expertise | Greenspector",
+    "description": "Greenspector page dedicated to: terminal measurement expertise.",
+    "keywords": "terminal measurement expertise, smartphones, tablets, devices",
+    "ogTitle": "Mobile device expertise | terminal measurement expertise | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: terminal measurement expertise."
+  },
+  "nav": {
+    "section": "Conseil",
+    "name": "Mobile device expertise",
+    "primary": "terminal measurement expertise",
+    "secondary": "smartphones, tablets, devices"
+  },
+  "hero": {
+    "label": "Conseil",
+    "title": "Mobile device expertise",
+    "subtitle": "terminal measurement expertise"
+  },
+  "contentMeta": [
+    "Primary keyword: terminal measurement expertise",
+    "Secondary keywords: smartphones, tablets, devices"
+  ]
+}

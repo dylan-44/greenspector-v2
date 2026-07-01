@@ -1,0 +1,128 @@
+{
+  "id": "case-air-france",
+  "slug": "/ressources/etudes-de-cas/air-france-tests-application/",
+  "template": "case-study",
+  "meta": {
+    "title": "Air France client case: green testing and application frugality | Greenspector",
+    "description": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application frugality and improve the ecoscore of its web, iOS and Android projects.",
+    "keywords": "Air France, green testing, Sogeti, Greenspector Studio, digital sobriety, ecoscore",
+    "ogTitle": "Air France client case: green testing and application frugality | Greenspector",
+    "ogDescription": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application frugality and improve the ecoscore of its web, iOS and Android projects."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Air France",
+    "primary": "green testing",
+    "secondary": "Sogeti, ecoscore, Service Center Test"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Air France: integrating green testing into application quality",
+    "subtitle": "Air France integrated Greenspector Studio into its Service Center Test to add green testing capability to the quality validation of its web and mobile applications.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/7990d277-04ce-4a09-9cbb-6bb17696d91e/slide3_shape1.png",
+      "alt": "Greenspector logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/cc9c7fb8-1988-4d8d-9da1-be3d33ff3c4c/slide3_shape7.png",
+      "alt": "Air France logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/8211eb05-e0b7-49c8-8234-3f70cf10bc5f/slide3_shape8.png",
+      "alt": "Sogeti logo"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Context",
+    "title": "Adding digital sobriety to the Service Center Test",
+    "paragraphs": [
+      "Air France's Service Center Test validates the quality of mobile and web applications for customers and business teams.",
+      "Air France IT has strong Responsible Digital objectives. It therefore wanted to add new capabilities to validate application frugality and eco-responsibility.",
+      "The challenge was to integrate this approach into existing test and software quality practices, while enabling teams to track improvements concretely."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f2dbae24-e716-42a1-91fc-132844d1894c/slide3_shape10.png",
+      "alt": "Journey time chart measured as part of the Air France client case"
+    }
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "Packaged green scans and measured gains on the Air France app",
+    "subtitle": "Gains observed on the Air France application",
+    "items": [
+      "CO₂e impact: −9%.",
+      "Journey time: −11%."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Keys to success",
+    "title": "What made the difference",
+    "items": [
+      {
+        "icon": "check",
+        "title": "A tool choice suited to the need",
+        "text": "The Sogeti team in place advised Air France on choosing a green testing tool suited to its challenges and application context."
+      },
+      {
+        "icon": "check",
+        "title": "Operational deployment of Greenspector Studio",
+        "text": "The Greenspector Studio licence was deployed by the vendor so teams could measure and track application frugality."
+      },
+      {
+        "icon": "check",
+        "title": "Team upskilling",
+        "text": "Air France and Sogeti staff were trained to use Greenspector Studio, which they now use daily."
+      },
+      {
+        "icon": "check",
+        "title": "Concrete results to engage with business teams",
+        "text": "Measurements show improvements achieved, identify overconsumption and guide corrections in upcoming releases."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What the teams say",
+    "items": [
+      {
+        "quote": "« I can show improvements to my business stakeholders. »",
+        "author": "Applications Division Director"
+      },
+      {
+        "quote": "« We did implement that change somewhat roughly. We'll fix it in the next release. »",
+        "author": "Tech Lead",
+        "role": "Following overconsumption detected by testers"
+      },
+      {
+        "quote": "« I'm really looking forward to improving or at least maintaining our ecoscore, and I appreciate your support in this! »",
+        "author": "Product Owner",
+        "role": "Air France application"
+      }
+    ]
+  },
+  "mediaEyebrow": "",
+  "cta": {
+    "eyebrow": "Your turn",
+    "title": "Want to integrate green testing into your quality processes?",
+    "text": "Your turn",
+    "buttonLabel": "Discover green testing with Greenspector",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Air France: integrating green testing into application quality\",\n        \"description\": \"Air France client case on integrating green testing with Greenspector Studio to measure the frugality of web, iOS and Android applications.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f2dbae24-e716-42a1-91fc-132844d1894c/slide3_shape10.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/air-france-tests-application/\"\n        }\n    }"
+}

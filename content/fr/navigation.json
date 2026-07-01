@@ -1,0 +1,24 @@
+{
+  "locale": "fr",
+  "langSwitcher": { "label": "Langue", "current": "FR", "alternate": "EN" },
+  "skipLink": "Aller au contenu principal",
+  "contact": "Contact",
+  "footerTagline": "Mesure, écoconception logicielle et réduction d'impact numérique.",
+  "footerMenu": "Menu",
+  "footerFollow": "Suivez-nous",
+  "navAria": "Navigation principale",
+  "menuOpen": "Ouvrir le menu",
+  "brandAria": "Greenspector - Accueil",
+  "sections": [
+    { "key": "Greenspector Studio", "label": "Greenspector Studio" },
+    { "key": "Conseil", "label": "Conseil" },
+    { "key": "Tarifs", "label": "Tarifs" },
+    { "key": "Ressources", "label": "Ressources" },
+    { "key": "À propos", "label": "À propos" }
+  ],
+  "caseStudyCard": {
+    "eyebrow": "Étude de cas",
+    "cta": "Lire l'étude de cas"
+  },
+  "stubMessage": "Zone de contenu éditorial à compléter lors d'une prochaine itération"
+}

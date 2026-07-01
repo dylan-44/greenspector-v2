@@ -1,0 +1,129 @@
+{
+  "id": "case-cats",
+  "slug": "/ressources/etudes-de-cas/cats-smartuse-application-bancaire/",
+  "template": "case-study",
+  "meta": {
+    "title": "Cas client Crédit Agricole Technologies & Services : sobriété des applications | Greenspector",
+    "description": "Découvrez comment Crédit Agricole Technologies & Services utilise Greenspector pour évaluer et labelliser la sobriété de ses produits web et mobiles, au service de la performance et du numérique responsable.",
+    "keywords": "Crédit Agricole, CATS, Smart'Use, sobriété numérique, label interne, Greenspector Studio, banque",
+    "ogTitle": "Cas client Crédit Agricole Technologies & Services : sobriété des applications | Greenspector",
+    "ogDescription": "Découvrez comment Crédit Agricole Technologies & Services utilise Greenspector pour évaluer et labelliser la sobriété de ses produits web et mobiles, au service de la performance et du numérique responsable."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Crédit Agricole T&S",
+    "primary": "label Smart'Use sobriété",
+    "secondary": "application bancaire, Chapitre Digital Front"
+  },
+  "hero": {
+    "label": "Étude de cas",
+    "title": "Crédit Agricole Technologies &amp; Services&nbsp;: labelliser la sobriété des applications web et\n                    mobiles",
+    "subtitle": "Crédit Agricole Technologies &amp; Services a mis en place une démarche de\n                    mesure et de labellisation interne pour améliorer la sobriété, la performance et l'impact\n                    environnemental de ses produits numériques.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Découvrir\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/a362d022-ad79-431a-9cb1-5dc302bed0ff/slide5_shape1.png",
+      "alt": "Logo Greenspector"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b4b5d1bc-f1bb-4b85-97c6-40db8df999c7/slide5_shape10.png",
+      "alt": "Logo Crédit Agricole Technologies & Services"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Contexte",
+    "title": "Mesurer la sobriété pour prioriser les actions les plus impactantes",
+    "paragraphs": [
+      "Contexte",
+      "Le Chapitre Digital Front de Crédit Agricole Technologies &amp; Services développe des\n                                applications pour les collaborateurs et pour 8 millions de clients.",
+      "Les équipes étaient confrontées à plusieurs enjeux concrets&nbsp;:",
+      "L'objectif était donc de mieux mesurer le comportement des applications pour prioriser\n                                les actions les plus impactantes."
+    ],
+    "list": [
+      "des utilisateurs insatisfaits car certaines applications étaient trop lentes&nbsp;;",
+      "des volumes de données trop élevés pour les réseaux des agences bancaires&nbsp;;",
+      "une responsabilité environnementale à intégrer dans la démarche produit."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg",
+      "alt": "Illustration de la démarche Smart'Use chez Crédit Agricole Technologies & Services"
+    }
+  },
+  "results": {
+    "eyebrow": "Résultats",
+    "title": "Un label interne Smart'Use pour évaluer et faire progresser les\n                            produits",
+    "intro": "Résultats",
+    "items": [
+      "Les produits web et mobiles sont évalués et labellisés grâce à un label interne de\n                                sobriété.",
+      "Les progrès sont encouragés par l'émulation entre les équipes.",
+      "Les équipes disposent de résultats concrets pour identifier les leviers d'amélioration\n                                prioritaires."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Clés du succès",
+    "title": "Ce qui a fait la différence",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Des critères de labellisation coconstruits",
+        "text": "Les critères du label interne de sobriété «&nbsp;Smart'Use&nbsp;» ont été\n                                    coconstruits puis déployés auprès des Tribus."
+      },
+      {
+        "icon": "check",
+        "title": "Un fonctionnement en services managés",
+        "text": "Des audits sont réalisés à la demande, dans une logique de services managés adaptée\n                                    aux besoins des équipes."
+      },
+      {
+        "icon": "check",
+        "title": "Un accès direct aux résultats",
+        "text": "Les squads accèdent à Greenspector Studio pour consulter leurs résultats, suivre les\n                                    indicateurs et identifier les actions à mener."
+      },
+      {
+        "icon": "check",
+        "title": "Une dynamique d'amélioration continue",
+        "text": "La démarche stimule l'émulation entre les équipes et encourage la progression\n                                    continue des produits web et mobiles."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Témoignage",
+    "title": "La parole à Julien Azria",
+    "quotes": [
+      "«&nbsp;La solution remonte des résultats très concrets sur le comportement de nos\n                                applications. Cela nous permet de nous concentrer sur les actions les plus\n                                impactantes. Travailler sur la sobriété permet très clairement d'avoir une application\n                                plus performante.&nbsp;»"
+    ],
+    "author": "Julien Azria",
+    "role": "Leader du Chapitre Digital Front",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/27465089-6872-4763-bba2-eecbb4ff19f4/slide5_shape13.jpg"
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0d93876e-cae2-43f8-aa06-710ab158aa59/slide5_shape12.jpg",
+      "alt": "Interface ou support lié à l'évaluation de la sobriété des applications Crédit Agricole Technologies & Services",
+      "caption": "Suivi des résultats et identification des leviers d'amélioration avec\n                                    Greenspector Studio."
+    }
+  ],
+  "mediaEyebrow": "Visuels",
+  "mediaTitle": "Le projet en images",
+  "cta": {
+    "eyebrow": "À vous de jouer",
+    "title": "Vous souhaitez mettre en place un label interne de sobriété numérique&nbsp;?",
+    "text": "À vous de jouer",
+    "buttonLabel": "Structurer une démarche de\n                                    sobriété applicative",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Crédit Agricole Technologies & Services : labelliser la sobriété des applications\",\n        \"description\": \"Cas client Crédit Agricole Technologies & Services sur l'évaluation et la labellisation interne de la sobriété des produits web et mobiles avec Greenspector.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/cats-smartuse-application-bancaire/\"\n        }\n    }"
+}

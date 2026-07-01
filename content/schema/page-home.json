@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://greenspector.com/schema/page-home.json",
+  "title": "Home page",
+  "allOf": [{ "$ref": "page-base.json" }],
+  "required": ["meta", "hero", "bodyHtml"],
+  "properties": {
+    "bodyHtml": {
+      "type": "string",
+      "description": "Full main content including hero-home sections"
+    },
+    "ldJson": { "type": "string" }
+  }
+}

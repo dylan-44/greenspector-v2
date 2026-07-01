@@ -1,0 +1,27 @@
+{
+  "id": "studio-centre-services",
+  "slug": "/studio/centre-services-green-it/",
+  "template": "default",
+  "meta": {
+    "title": "Service Center | enterprise Green IT support | Greenspector",
+    "description": "Greenspector page dedicated to: enterprise Green IT support.",
+    "keywords": "enterprise Green IT support, digital energy performance consulting",
+    "ogTitle": "Service Center | enterprise Green IT support | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: enterprise Green IT support."
+  },
+  "nav": {
+    "section": "Home",
+    "name": "Service Center",
+    "primary": "Service Center | enterprise Green IT support | Greenspector",
+    "secondary": "Greenspector page dedicated to: enterprise Green IT support."
+  },
+  "hero": {
+    "label": "Greenspector Studio",
+    "title": "Service Center",
+    "subtitle": "enterprise Green IT support"
+  },
+  "contentMeta": [
+    "Primary keyword: enterprise Green IT support",
+    "Secondary keywords: digital energy performance consulting"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "about-rse",
+  "slug": "/a-propos/rse/",
+  "template": "default",
+  "meta": {
+    "title": "Our commitments | Greenspector CSR | Greenspector",
+    "description": "Greenspector page dedicated to: Greenspector CSR.",
+    "keywords": "Greenspector CSR, environmental impact",
+    "ogTitle": "Our commitments | Greenspector CSR | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: Greenspector CSR."
+  },
+  "nav": {
+    "section": "À propos",
+    "name": "Our commitments",
+    "primary": "Greenspector CSR",
+    "secondary": "environmental impact"
+  },
+  "hero": {
+    "label": "À propos",
+    "title": "Our commitments",
+    "subtitle": "Greenspector CSR"
+  },
+  "contentMeta": [
+    "Primary keyword: Greenspector CSR",
+    "Secondary keywords: environmental impact"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "case-ans",
+  "slug": "/ressources/etudes-de-cas/ans-ethique-numerique/",
+  "template": "case-study",
+  "meta": {
+    "title": "Cas client ANS : mesure de l'impact CO₂ des applications de santé | Greenspector",
+    "description": "Découvrez comment l'Agence du Numérique en Santé utilise Greenspector Studio pour mesurer l'impact CO₂ des applications de santé et évaluer plus de 70 éditeurs sur le Portail Écoscore.",
+    "keywords": "ANS, santé numérique, impact CO₂, Portail Écoscore, Mon Espace Santé, Greenspector Studio",
+    "ogTitle": "Cas client ANS : mesure de l'impact CO₂ des applications de santé | Greenspector",
+    "ogDescription": "Découvrez comment l'Agence du Numérique en Santé utilise Greenspector Studio pour mesurer l'impact CO₂ des applications de santé et évaluer plus de 70 éditeurs sur le Portail Écoscore."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Agence du Numérique en Santé",
+    "primary": "impact CO₂ applications santé",
+    "secondary": "Portail Écoscore, Mon Espace Santé"
+  },
+  "hero": {
+    "label": "Étude de cas",
+    "title": "Agence du Numérique en Santé&nbsp;: mesurer l'impact CO₂ des applications de santé",
+    "subtitle": "L'ANS a mis en place un portail de mesure et de projection d'impact CO₂ pour\n                    les applications web et mobiles de santé, obligatoire pour être référencé sur Mon Espace Santé.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Découvrir\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0c5bd04e-fd87-43e0-8723-e070dabc80d5/slide1_shape1.png",
+      "alt": "Logo Greenspector"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/310fa93e-b85c-4c51-92a4-30860e733702/slide1_shape10.png",
+      "alt": "Logo de la République française, Ministère des Solidarités et de la Santé"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/c932a25d-a6e1-4f52-8fc3-0a4b86fd2abc/slide1_shape11.png",
+      "alt": "Logo de l'Agence du Numérique en Santé"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Contexte",
+    "title": "Un portail dédié pour évaluer l'impact des applications de santé",
+    "paragraphs": [
+      "Contexte",
+      "L'Agence du Numérique en Santé souhaitait disposer d'un portail dédié pour mesurer et\n                                projeter l'impact CO₂ des applications web et mobiles de santé.",
+      "Cette évaluation est obligatoire pour être référencé sur Mon Espace Santé. Le dispositif\n                                concerne deux catégories d'applications&nbsp;:",
+      "Le projet devait permettre aux éditeurs de réaliser eux-mêmes leur évaluation, sans\n                                formation préalable, tout en garantissant la fiabilité des mesures réalisées."
+    ],
+    "list": [
+      "les applications générales&nbsp;;",
+      "les applications de téléconsultation."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/21987bc2-72c3-407d-98c7-6691995531b4/slide1_shape12.png",
+      "alt": "Capture d'écran du Portail Écoscore utilisé pour l'évaluation des applications de santé"
+    }
+  },
+  "results": {
+    "eyebrow": "Résultats",
+    "title": "Plus de 70 éditeurs évalués sur le Portail Écoscore",
+    "intro": "Résultats",
+    "items": [
+      "Évaluation et classement public des éditeurs par l'Agence du Numérique en Santé sur le\n                                Portail Écoscore.",
+      "Plus de 70 éditeurs évalués.",
+      "Évaluation réalisée par les éditeurs eux-mêmes, sans formation préalable, grâce à\n                                l'interface intuitive de Greenspector Studio."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Clés du succès",
+    "title": "Ce qui a fait la différence",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Une prise en main autonome",
+        "text": "L'interface a été retravaillée avec un tutoriel dédié afin de permettre aux éditeurs\n                                    de réaliser leur évaluation en toute autonomie."
+      },
+      {
+        "icon": "check",
+        "title": "Des mesures sur terminaux réels",
+        "text": "Les mesures réalisées sur terminaux réels ont convaincu l'ANS de la fiabilité de\n                                    l'approche Greenspector."
+      },
+      {
+        "icon": "check",
+        "title": "Un portail dédié en marque blanche",
+        "text": "Un portail dédié en marque blanche a été mis en place pour restituer les résultats et\n                                    faciliter leur consultation."
+      },
+      {
+        "icon": "check",
+        "title": "Des tests adaptés à la téléconsultation",
+        "text": "Les tests de téléconsultation se déroulent sur deux terminaux en simultané afin de\n                                    refléter les conditions d'usage réelles."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Témoignage",
+    "title": "La parole à Dr Brigitte Séroussi",
+    "quotes": [
+      "«&nbsp;Pour s'assurer de la fiabilité maximale de l'écoscore, les équipes se sont appuyées\n                                sur Greenspector, qui permet d'évaluer de façon fiable l'impact environnemental d'une\n                                application de santé.&nbsp;»",
+      "«&nbsp;Greenspector se base sur la mesure tout au long du parcours de l'usage réel de\n                                l'application, plus que sur le simple calcul de l'impact environnemental du chargement de\n                                la page d'accueil.&nbsp;»"
+    ],
+    "author": "Dr Brigitte Séroussi",
+    "role": "Médecin &amp;amp; Directrice de Projets, in Nouveal",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/8b5db462-ae01-4b4a-bced-d267a945c8fd/slide1_shape15.png"
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/18e8e211-176e-4bb6-ac84-483860371c36/slide1_shape13.png",
+      "alt": "Interface de restitution des résultats d'impact environnemental",
+      "caption": "Restitution des résultats et indicateurs d'impact environnemental."
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0b7f9280-fb40-4ba1-967b-b9513664eeef/slide1_shape14.png",
+      "alt": "Interface Greenspector Studio utilisée pour les mesures sur terminaux réels",
+      "caption": "Mesures réalisées avec Greenspector Studio sur terminaux réels."
+    }
+  ],
+  "mediaEyebrow": "Visuels",
+  "mediaTitle": "Le projet en images",
+  "cta": {
+    "eyebrow": "À vous de jouer",
+    "title": "Vous souhaitez mesurer l'impact environnemental de vos applications&nbsp;?",
+    "text": "À vous de jouer",
+    "buttonLabel": "Découvrir Greenspector Studio",
+    "buttonHref": "/contact/"
+  }
+}

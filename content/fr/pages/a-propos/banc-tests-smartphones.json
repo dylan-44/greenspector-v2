@@ -1,0 +1,27 @@
+{
+  "id": "about-banc",
+  "slug": "/a-propos/banc-tests-smartphones/",
+  "template": "default",
+  "meta": {
+    "title": "Notre banc de tests | banc tests smartphones | Greenspector",
+    "description": "Page Greenspector dédiée au sujet : banc tests smartphones.",
+    "keywords": "banc tests smartphones, device lab",
+    "ogTitle": "Notre banc de tests | banc tests smartphones | Greenspector",
+    "ogDescription": "Page Greenspector dédiée au sujet : banc tests smartphones."
+  },
+  "nav": {
+    "section": "À propos",
+    "name": "Notre banc de tests",
+    "primary": "banc tests smartphones",
+    "secondary": "device lab"
+  },
+  "hero": {
+    "label": "À propos",
+    "title": "Notre banc de tests",
+    "subtitle": "banc tests smartphones"
+  },
+  "contentMeta": [
+    "Mot-clé principal : banc tests smartphones",
+    "Mots-clés secondaires : device lab"
+  ]
+}

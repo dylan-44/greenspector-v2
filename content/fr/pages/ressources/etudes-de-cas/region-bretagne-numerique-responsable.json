@@ -1,0 +1,134 @@
+{
+  "id": "case-bretagne",
+  "slug": "/ressources/etudes-de-cas/region-bretagne-numerique-responsable/",
+  "template": "case-study",
+  "meta": {
+    "title": "Cas client Région Bretagne : écoconception du portail serviciel | Greenspector",
+    "description": "Découvrez comment la Région Bretagne a piloté l'écoconception de son portail serviciel grâce aux mesures Greenspector Studio, avec un niveau d'exigence maximal.",
+    "keywords": "Région Bretagne, écoconception, portail serviciel, collectivité, Greenspector Studio, écoscore",
+    "ogTitle": "Cas client Région Bretagne : écoconception du portail serviciel | Greenspector",
+    "ogDescription": "Découvrez comment la Région Bretagne a piloté l'écoconception de son portail serviciel grâce aux mesures Greenspector Studio, avec un niveau d'exigence maximal."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Région Bretagne",
+    "primary": "écoconception portail serviciel",
+    "secondary": "collectivité, écoscore, déclaration d'écoconception"
+  },
+  "hero": {
+    "label": "Étude de cas",
+    "title": "Région Bretagne&nbsp;: piloter l'écoconception d'un portail serviciel",
+    "subtitle": "Dans le cadre de la refonte de son portail serviciel, la Région Bretagne a\n                    intégré une exigence forte&nbsp;: atteindre un niveau maximal d'écoconception.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Découvrir\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/23fd35a1-6db9-4e35-b097-6ac3fc21a1da/slide4_shape1.png",
+      "alt": "Logo Greenspector"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/90b2d114-4183-41b6-abf4-abaa76001a80/slide4_shape10.png",
+      "alt": "Logo Région Bretagne"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Contexte",
+    "title": "Un portail serviciel refondu avec un niveau d'écoconception maximal",
+    "paragraphs": [
+      "Contexte",
+      "La Région Bretagne a lancé un projet de refonte de son portail serviciel afin de\n                                proposer une nouvelle version de ses services numériques.",
+      "Parmi les exigences fortes appliquées à cette nouvelle version figurait l'atteinte d'un\n                                niveau d'écoconception maximal.",
+      "L'objectif était d'inscrire la sobriété numérique dans les pratiques de conception, de\n                                développement et de maintenance du portail, avec un suivi régulier des résultats."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png",
+      "alt": "Capture du portail serviciel de la Région Bretagne"
+    }
+  },
+  "results": {
+    "eyebrow": "Résultats",
+    "title": "Écoconception pilotée par la mesure, du build à la maintenance",
+    "intro": "Résultats",
+    "items": [
+      "Pilotage de l'écoconception par les résultats tout au long du projet, en phase de build\n                                puis en phase de maintenance, grâce aux mesures Greenspector Studio.",
+      "Mise en place d'une recherche avec saisie semi-automatique optimisée, réduisant le\n                                volume de données d'un facteur 5.",
+      "Publication d'une déclaration d'écoconception présentant les résultats obtenus."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Clés du succès",
+    "title": "Ce qui a fait la différence",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Former les acteurs du projet à l'écoconception",
+        "text": "Les équipes projet ont été formées en amont afin de partager une culture commune de\n                                    l'écoconception et de ses enjeux."
+      },
+      {
+        "icon": "check",
+        "title": "Définir des exigences de sobriété dès le départ",
+        "text": "Des exigences de sobriété ont été définies en amont du projet pour guider les choix\n                                    fonctionnels, techniques et éditoriaux."
+      },
+      {
+        "icon": "check",
+        "title": "Adapter les bonnes pratiques au contexte du portail",
+        "text": "Les bonnes pratiques d'écoconception ont été adaptées au contexte technique et\n                                    fonctionnel du projet afin de rester concrètes et applicables par les équipes."
+      },
+      {
+        "icon": "check",
+        "title": "Orienter l'expérience utilisateur vers la sobriété",
+        "text": "Une revue de design a permis de construire une expérience utilisateur cohérente avec\n                                    les objectifs de sobriété numérique."
+      },
+      {
+        "icon": "check",
+        "title": "Mesurer à chaque sprint",
+        "text": "Les mesures Greenspector Studio ont été réalisées à chaque sprint pendant la phase de\n                                    build, avec des recommandations de progrès fondées sur les résultats observés."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "Témoignage",
+    "title": "La parole à Nicolas Desmons",
+    "quotes": [
+      "«&nbsp;Nos développeurs ont été sensibilisés dès le démarrage du projet et ont, petit à\n                                petit, modifié leur manière de travailler pour adopter des réflexes d'écoconception. Il\n                                s'agit d'une modification profonde des pratiques. Les indicateurs d'écoscore de\n                                Greenspector nous ont servi d'étalon tout au long de ce process.&nbsp;»"
+    ],
+    "author": "Nicolas Desmons",
+    "role": "Chef d'équipe services numériques aux usagers",
+    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/787ef038-3414-4b74-9d74-d17d4c58be04/slide4_shape14.png"
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/9fd820e3-aa8f-4b14-a2ec-aecccc7e2e15/slide4_shape12.png",
+      "alt": "Extrait d'interface illustrant les résultats du portail Région Bretagne",
+      "caption": "Suivi des résultats et indicateurs dans le cadre de la démarche\n                                    d'écoconception."
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/96324b94-2ec6-493d-a7df-73fb95ac3342/slide4_shape13.png",
+      "alt": "Interface ou écran associé au portail Région Bretagne",
+      "caption": "Optimisation continue du portail grâce aux mesures réalisées pendant le\n                                    projet."
+    }
+  ],
+  "mediaEyebrow": "Visuels",
+  "mediaTitle": "Le projet en images",
+  "cta": {
+    "eyebrow": "À vous de jouer",
+    "title": "Vous souhaitez piloter l'écoconception de vos services numériques&nbsp;?",
+    "text": "À vous de jouer",
+    "buttonLabel": "Mesurer l'écoconception de mon\n                                    service",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Région Bretagne : piloter l'écoconception d'un portail serviciel\",\n        \"description\": \"Cas client Région Bretagne sur la refonte écoconçue d'un portail serviciel et le pilotage des résultats avec Greenspector Studio.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/region-bretagne-numerique-responsable/\"\n        }\n    }"
+}

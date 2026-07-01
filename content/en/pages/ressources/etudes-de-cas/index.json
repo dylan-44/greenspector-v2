@@ -1,0 +1,24 @@
+{
+  "id": "case-studies-index",
+  "slug": "/ressources/etudes-de-cas/",
+  "template": "case-studies-index",
+  "meta": {
+    "title": "Client case studies | Greenspector",
+    "description": "Discover how organizations measure and reduce the environmental impact of their mobile and web applications with Greenspector Studio.",
+    "keywords": "case studies, client stories, digital sobriety, software ecodesign, Greenspector",
+    "ogTitle": "Client case studies | Greenspector",
+    "ogDescription": "Discover how organizations measure and reduce the environmental impact of their mobile and web applications with Greenspector Studio."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Case studies",
+    "primary": "Greenspector case study",
+    "secondary": "client feedback"
+  },
+  "hero": {
+    "label": "Ressources",
+    "title": "Client case studies",
+    "subtitle": "Feedback from teams that have integrated measurement and digital sobriety into their products."
+  },
+  "gridLabel": "Greenspector client case studies"
+}

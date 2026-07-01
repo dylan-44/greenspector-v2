@@ -1,0 +1,24 @@
+{
+  "locale": "en",
+  "langSwitcher": { "label": "Language", "current": "EN", "alternate": "FR" },
+  "skipLink": "Skip to main content",
+  "contact": "Contact",
+  "footerTagline": "Measurement, software ecodesign and digital impact reduction.",
+  "footerMenu": "Menu",
+  "footerFollow": "Follow us",
+  "navAria": "Main navigation",
+  "menuOpen": "Open menu",
+  "brandAria": "Greenspector - Home",
+  "sections": [
+    { "key": "Greenspector Studio", "label": "Greenspector Studio" },
+    { "key": "Conseil", "label": "Consulting" },
+    { "key": "Tarifs", "label": "Pricing" },
+    { "key": "Ressources", "label": "Resources" },
+    { "key": "À propos", "label": "About" }
+  ],
+  "caseStudyCard": {
+    "eyebrow": "Case study",
+    "cta": "Read case study"
+  },
+  "stubMessage": "Editorial content to be completed in a future iteration"
+}

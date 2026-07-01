@@ -1,0 +1,132 @@
+{
+  "id": "case-orange",
+  "slug": "/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/",
+  "template": "case-study",
+  "meta": {
+    "title": "Orange Innovation client case: application ecodesign | Greenspector",
+    "description": "Discover how Orange Innovation chose Greenspector to support application ecodesign, contribute to decarbonisation and structure an internal service for the Orange Group.",
+    "keywords": "Orange Innovation, mobile software ecodesign, decarbonisation, Digital Responsable, Greenspector, Orange Group",
+    "ogTitle": "Orange Innovation client case: application ecodesign | Greenspector",
+    "ogDescription": "Discover how Orange Innovation chose Greenspector to support application ecodesign, contribute to decarbonisation and structure an internal service for the Orange Group."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Orange Innovation",
+    "primary": "application ecodesign",
+    "secondary": "Responsible Digital, decarbonisation, Orange Group"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Orange Innovation: supporting application ecodesign",
+    "subtitle": "Orange Innovation chose Greenspector to support application ecodesign and contribute to the Group's decarbonisation approach.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover\n                        Greenspector Studio",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "logos": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/711d2c7f-3e30-4427-a7f9-8554c015aea7/slide6_shape2.png",
+      "alt": "Greenspector logo"
+    },
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/5467a482-1bd7-4ff5-9403-44206308e83a/slide6_shape10.png",
+      "alt": "Orange Innovation logo"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Context",
+    "title": "A pilot to structure application ecodesign within the Group",
+    "paragraphs": [
+      "Orange Innovation wanted to choose a tool to support application ecodesign in order to contribute to decarbonisation.",
+      "The pilot was led by the « Responsible Digital » programme and an Orange Poland team from CEC Software Quality.",
+      "The experiment was run on two very different applications:"
+    ],
+    "list": [
+      "MyHey, a Belgian mCare application;",
+      "Orange TV, a video-on-demand and streaming application."
+    ],
+    "image": {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg",
+      "alt": "Visual associated with the Greenspector POC led by Orange Innovation"
+    }
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "An internal service to support Group entities",
+    "items": [
+      "Experts are convinced by the approach and results achieved.",
+      "Orange Innovation is setting up an internal service to support Group entities on application ecodesign.",
+      "Greenspector analyses are used as concrete support to raise awareness among management and teams."
+    ]
+  },
+  "successKeys": {
+    "eyebrow": "Keys to success",
+    "title": "What made the difference",
+    "items": [
+      {
+        "icon": "check",
+        "title": "Collaborative work between centres of expertise",
+        "text": "The project benefited from the contribution of Corporate Centres of Expertise « Software Ecodesign » and « Software Quality »."
+      },
+      {
+        "icon": "check",
+        "title": "A pilot on two very different applications",
+        "text": "The pilot was run on two applications with very different technical and business contexts, to verify the relevance of the approach in several situations."
+      },
+      {
+        "icon": "check",
+        "title": "A team already experienced with test tools",
+        "text": "The user team already had strong experience with test and performance tools, which facilitated adoption of the approach."
+      },
+      {
+        "icon": "check",
+        "title": "Concrete analyses for awareness-raising",
+        "text": "Greenspector results serve as awareness-raising support for management and teams, especially in CX Reviews."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What the teams say",
+    "items": [
+      {
+        "quote": "« The Greenspector POC on the Orange TV application made it possible to establish a precise diagnosis of its operation and environmental impact. It creates a baseline, identifies improvement areas and guides future application updates. In short, this test is an essential milestone in the application optimisation approach. »",
+        "author": "Benjamin Victor",
+        "role": "Nearlive Marketing Manager & TV Platform, Orange TV France"
+      },
+      {
+        "quote": "« A tool to raise awareness among management and teams with concrete evidence. Greenspector analyses are used in CX Reviews to illustrate concretely how applications align with Orange's environmental commitments. »",
+        "author": "Céline Bouteyre",
+        "role": "Responsible Customer Experience, Orange/CXO"
+      }
+    ]
+  },
+  "media": [
+    {
+      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/d169eff7-1829-4c00-9a8e-ea105aafd985/slide6_shape12.png",
+      "alt": "Greenspector results interface used in the Orange Innovation client case",
+      "caption": "Greenspector results used to establish a diagnosis and guide future optimisations."
+    }
+  ],
+  "mediaEyebrow": "Visuals",
+  "mediaTitle": "The project in pictures",
+  "cta": {
+    "eyebrow": "Your turn",
+    "title": "Want to support application ecodesign at scale?",
+    "text": "Your turn",
+    "buttonLabel": "Set up an application ecodesign approach",
+    "buttonHref": "/contact/"
+  },
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Orange Innovation: supporting application ecodesign\",\n        \"description\": \"Orange Innovation client case on using Greenspector to measure application environmental impact and support ecodesign across the Orange Group.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/\"\n        }\n    }"
+}

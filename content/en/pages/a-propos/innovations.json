@@ -1,0 +1,27 @@
+{
+  "id": "about-innovations",
+  "slug": "/a-propos/innovations/",
+  "template": "default",
+  "meta": {
+    "title": "Our innovations | Greenspector innovations | Greenspector",
+    "description": "Greenspector page dedicated to: Greenspector innovations.",
+    "keywords": "Greenspector innovations, R&D, Ecoscore",
+    "ogTitle": "Our innovations | Greenspector innovations | Greenspector",
+    "ogDescription": "Greenspector page dedicated to: Greenspector innovations."
+  },
+  "nav": {
+    "section": "À propos",
+    "name": "Our innovations",
+    "primary": "Greenspector innovations",
+    "secondary": "R&D, Ecoscore"
+  },
+  "hero": {
+    "label": "À propos",
+    "title": "Our innovations",
+    "subtitle": "Greenspector innovations"
+  },
+  "contentMeta": [
+    "Primary keyword: Greenspector innovations",
+    "Secondary keywords: R&D, Ecoscore"
+  ]
+}

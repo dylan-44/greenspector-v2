@@ -1,0 +1,13 @@
+{
+  "name": "greenspector-v2",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.js",
+    "extract": "node scripts/extract-fr-content.js",
+    "validate": "node scripts/validate-content.js",
+    "seed-en": "node scripts/seed-en-pages.js"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
