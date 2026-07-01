@@ -91,3 +91,29 @@ document.querySelectorAll('.navbar a[href]').forEach((link) => {
     link.setAttribute('aria-current', 'page');
   }
 });
+
+const caseStudiesGrid = qs('#case-studies-grid');
+const caseStudies = window.GS_CASE_STUDIES || [];
+
+if (caseStudiesGrid && caseStudies.length) {
+  caseStudiesGrid.innerHTML = caseStudies
+    .map((item) => {
+      const href = toRelative(`/ressources/etudes-de-cas/${item.slug}`);
+      const image = item.image.startsWith('http') ? item.image : toAsset(item.image);
+
+      return `<article class="case-study-card">
+        <a class="case-study-card__link" href="${esc(href)}">
+          <figure class="case-study-card__media">
+            <img src="${esc(image)}" alt="${esc(item.title)}" width="640" height="360" loading="lazy" decoding="async">
+          </figure>
+          <div class="case-study-card__body">
+            <p class="eyebrow">Étude de cas</p>
+            <h2 class="case-study-card__title">${esc(item.title)}</h2>
+            <p class="case-study-card__desc">${esc(item.description)}</p>
+            <span class="case-study-card__cta">Lire l'étude de cas</span>
+          </div>
+        </a>
+      </article>`;
+    })
+    .join('');
+}
