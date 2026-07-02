@@ -15,7 +15,7 @@
     { "id": "conseil-audit", "path": "conseil/audit-application-mobile", "slug": "/conseil/audit-application-mobile/", "template": "default", "status": "published" },
     { "id": "conseil-expertise", "path": "conseil/expertise-mesure-terminaux-mobiles", "slug": "/conseil/expertise-mesure-terminaux-mobiles/", "template": "default", "status": "published" },
     { "id": "conseil-banc", "path": "conseil/banc-mesure-consommation-smartphone", "slug": "/conseil/banc-mesure-consommation-smartphone/", "template": "default", "status": "published" },
-    { "id": "tarifs", "path": "tarifs-greenspector-studio", "slug": "/tarifs-greenspector-studio/", "template": "default", "status": "published" },
+    { "id": "tarifs", "path": "tarifs-greenspector-studio", "slug": "/tarifs-greenspector-studio/", "template": "html", "status": "published" },
     { "id": "case-studies-index", "path": "ressources/etudes-de-cas/index", "slug": "/ressources/etudes-de-cas/", "template": "case-studies-index", "status": "published" },
     { "id": "case-bouygues", "path": "ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile", "slug": "/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/", "template": "html", "status": "published" },
     { "id": "case-ans", "path": "ressources/etudes-de-cas/ans-ethique-numerique", "slug": "/ressources/etudes-de-cas/ans-ethique-numerique/", "template": "case-study", "status": "published" },
