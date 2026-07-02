@@ -653,6 +653,16 @@ body:not(.home-page) .hero .slug-note {
   color: var(--gs-white);
 }
 
+.studio-quote-section .studio-grid {
+  gap: 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .studio-quote-section .studio-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .studio-quote-section .eyebrow,
 .studio-quote-section h2,
 .studio-quote-section a {
