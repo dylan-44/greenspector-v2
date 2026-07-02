@@ -1151,6 +1151,23 @@ body:not(.home-page) .hero .slug-note {
   margin: 0 auto;
 }
 
+.about-table-wrap {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.about-body ol {
+  padding-left: 1.25rem;
+}
+
+.about-body ol > li + li {
+  margin-top: 0.75rem;
+}
+
+.about-body ol ul {
+  margin-top: 0.5rem;
+}
+
 .about-icon {
   flex: 0 0 auto;
   display: inline-flex;
