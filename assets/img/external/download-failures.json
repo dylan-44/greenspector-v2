@@ -1,18 +1,26 @@
 [
   {
-    "url": "https://greenspector.com/wp-content/uploads/2024/05/entete_studio.png",
-    "reason": "HTTP 404"
+    "url": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/e5c09a1e-59e0-44b1-8672-d5b8c6191693/datasource_content_8372d844-0ab7-4fc9-903e-24bec40207bc_img-0.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS3QSQLXFTBLFYGIV%2F20260702%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20260702T145244Z&amp;X-Amz-Expires=600&amp;X-Amz-Signature=35bae21a0b512b27ec8372e901eee5cbedfd528f1767c72a2b44ab35aea90537&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+    "reason": "HTTP 400"
   },
   {
-    "url": "https://greenspector.com/wp-content/uploads/2025/04/Greenspector-Studio-Ecoscore-r3tmosfu8yqrw3akz0qh14.png",
-    "reason": "HTTP 404"
+    "url": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/2c750142-fd2a-4519-8ce9-d193fda5a1f7/datasource_content_1aa56f4b-deae-4e4a-8a1a-0f87ee2a9ca1_img-1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS3QSQLXFTBLFYGIV%2F20260702%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20260702T145244Z&amp;X-Amz-Expires=600&amp;X-Amz-Signature=725dfcab2cc96a308a3ee1d1c596a54c74e3d1286350ed3aaa1984cff87b7017&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+    "reason": "HTTP 400"
   },
   {
-    "url": "https://greenspector.com/wp-content/uploads/elementor/thumbs/StepBuilder-rne4dhpf5j954n3le3u8c8k1srpyt7j4e0wwad5c.png",
-    "reason": "HTTP 404"
+    "url": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/9438365b-73f9-4efa-967b-837d03eead3e/datasource_content_69d2f2d5-70f9-4fec-9b0c-4ab6f22e43f8_img-2.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS3QSQLXFTBLFYGIV%2F20260702%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20260702T145245Z&amp;X-Amz-Expires=600&amp;X-Amz-Signature=2f789d2e8eadf32477b86b852cd56365c253884666dae7be6216dabf567d07b1&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+    "reason": "HTTP 400"
   },
   {
-    "url": "https://greenspector.com/wp-content/uploads/elementor/thumbs/TestBench_FR-r5ydm7qvcde1xvwrescvy0ff8zq9s6ij7pa2tbze8d.png",
-    "reason": "HTTP 404"
+    "url": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/a2491aba-f805-4c6d-9bd1-c5bee85a3d99/datasource_content_8a0488fa-86fb-4543-9ef9-d1722ae117b5_img-3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS3QSQLXFTBLFYGIV%2F20260702%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20260702T145245Z&amp;X-Amz-Expires=600&amp;X-Amz-Signature=f436d7cb95067aba10dcb0e54319d9fc3ec4533a519faa7b2a553fd8c677c234&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+    "reason": "HTTP 400"
+  },
+  {
+    "url": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/9bb6a798-2b04-46b0-8867-a59da78a4757/datasource_content_ef5edd7e-d95c-4722-8c2a-a167c59a3c5c_img-4.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS3QSQLXFTBLFYGIV%2F20260702%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20260702T145245Z&amp;X-Amz-Expires=600&amp;X-Amz-Signature=187695a34760f25060637a0cb797fbe8c4d6b40ac64920b9c5034e5fbb827092&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+    "reason": "HTTP 400"
+  },
+  {
+    "url": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/87c1ade4-ec41-4a7b-a00a-e7bb4ba1f023/datasource_content_1e392813-dbce-4ba8-af79-ec7e6cdd9025_img-5.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS3QSQLXFTBLFYGIV%2F20260702%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20260702T145245Z&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a467e161cbdce0d926aae7e7e4268c0637faf78c214234b7be810f77909b9000&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+    "reason": "HTTP 400"
   }
 ]

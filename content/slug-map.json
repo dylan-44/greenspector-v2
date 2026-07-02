@@ -7,7 +7,6 @@
   "studio-batterie": { "pathEn": "studio/battery-discharge-measurement", "slugEn": "/en/studio/battery-discharge-measurement/" },
   "studio-performance": { "pathEn": "studio/app-performance-measurement", "slugEn": "/en/studio/app-performance-measurement/" },
   "studio-devgreenops": { "pathEn": "studio/devgreenops", "slugEn": "/en/studio/devgreenops/" },
-  "studio-centre-services": { "pathEn": "studio/green-it-service-center", "slugEn": "/en/studio/green-it-service-center/" },
   "conseil-ecoconception": { "pathEn": "consulting/software-ecodesign", "slugEn": "/en/consulting/software-ecodesign/" },
   "conseil-audit": { "pathEn": "consulting/mobile-app-audit", "slugEn": "/en/consulting/mobile-app-audit/" },
   "conseil-expertise": { "pathEn": "consulting/mobile-device-measurement", "slugEn": "/en/consulting/mobile-device-measurement/" },

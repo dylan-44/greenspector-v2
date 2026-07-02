@@ -5,7 +5,6 @@ Ces slugs étaient indiqués comme « à définir » dans le cadrage initial. Il
 | Page | Slug provisoire |
 |---|---|
 | OEM & marque blanche | `/studio/oem-marque-blanche/` |
-| Centre de Services | `/studio/centre-services-green-it/` |
 | Audit sur parc multigénérationnel | `/conseil/audit-parc-multigenerationnel/` |
 | Labellisation ECOSCORE | `/conseil/labellisation-ecoscore/` |
 | Notre méthodologie d'écoconception | `/conseil/methodologie-ecoconception-logicielle/` |

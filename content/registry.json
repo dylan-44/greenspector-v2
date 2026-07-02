@@ -11,7 +11,6 @@
     { "id": "studio-batterie", "path": "studio/mesure-decharge-batterie", "slug": "/studio/mesure-decharge-batterie/", "template": "html", "status": "published" },
     { "id": "studio-performance", "path": "studio/mesure-performance-app", "slug": "/studio/mesure-performance-app/", "template": "default", "status": "published" },
     { "id": "studio-devgreenops", "path": "studio/devgreenops", "slug": "/studio/devgreenops/", "template": "html", "status": "published" },
-    { "id": "studio-centre-services", "path": "studio/centre-services-green-it", "slug": "/studio/centre-services-green-it/", "template": "default", "status": "published" },
     { "id": "conseil-ecoconception", "path": "conseil/ecoconception-logicielle", "slug": "/conseil/ecoconception-logicielle/", "template": "default", "status": "published" },
     { "id": "conseil-audit", "path": "conseil/audit-application-mobile", "slug": "/conseil/audit-application-mobile/", "template": "default", "status": "published" },
     { "id": "conseil-expertise", "path": "conseil/expertise-mesure-terminaux-mobiles", "slug": "/conseil/expertise-mesure-terminaux-mobiles/", "template": "default", "status": "published" },
