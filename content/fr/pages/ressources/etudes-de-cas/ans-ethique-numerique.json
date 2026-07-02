@@ -36,15 +36,15 @@
   },
   "logos": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0c5bd04e-fd87-43e0-8723-e070dabc80d5/slide1_shape1.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape1_eb3beb89.png",
       "alt": "Logo Greenspector"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/310fa93e-b85c-4c51-92a4-30860e733702/slide1_shape10.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.png",
       "alt": "Logo de la République française, Ministère des Solidarités et de la Santé"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/c932a25d-a6e1-4f52-8fc3-0a4b86fd2abc/slide1_shape11.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape11_c2abddde.png",
       "alt": "Logo de l'Agence du Numérique en Santé"
     }
   ],
@@ -62,7 +62,7 @@
       "les applications de téléconsultation."
     ],
     "image": {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/21987bc2-72c3-407d-98c7-6691995531b4/slide1_shape12.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape12_1ca6937e.png",
       "alt": "Capture d'écran du Portail Écoscore utilisé pour l'évaluation des applications de santé"
     }
   },
@@ -111,16 +111,16 @@
     ],
     "author": "Dr Brigitte Séroussi",
     "role": "Médecin &amp;amp; Directrice de Projets, in Nouveal",
-    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/8b5db462-ae01-4b4a-bced-d267a945c8fd/slide1_shape15.png"
+    "photo": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape15_703e4012.png"
   },
   "media": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/18e8e211-176e-4bb6-ac84-483860371c36/slide1_shape13.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape13_3c7e4b50.png",
       "alt": "Interface de restitution des résultats d'impact environnemental",
       "caption": "Restitution des résultats et indicateurs d'impact environnemental."
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0b7f9280-fb40-4ba1-967b-b9513664eeef/slide1_shape14.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape14_b11fcb5f.png",
       "alt": "Interface Greenspector Studio utilisée pour les mesures sur terminaux réels",
       "caption": "Mesures réalisées avec Greenspector Studio sur terminaux réels."
     }

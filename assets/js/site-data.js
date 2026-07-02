@@ -732,37 +732,37 @@ window.GS_CASE_STUDIES = [
     "slug": "ans-ethique-numerique/",
     "title": "Agence du Numérique en Santé",
     "description": "Portail Écoscore pour mesurer l'impact CO₂ des applications de santé : plus de 70 éditeurs évalués pour être référencés sur Mon Espace Santé.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/21987bc2-72c3-407d-98c7-6691995531b4/slide1_shape12.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape12_1ca6937e.png"
   },
   {
     "slug": "sncf-connect-bug-performance/",
     "title": "SNCF Connect & Tech",
     "description": "−19 % de CO₂ sur le parcours de réservation TER, parcours 8 secondes plus rapide et certification Argent Android et iOS.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b41a8f28-b536-40e5-8b0e-c235bbb6ba0a/slide2_shape3.jpg"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape3_de90cf8c.jpg"
   },
   {
     "slug": "air-france-tests-application/",
     "title": "Air France",
     "description": "Green testing intégré au Service Center Test : −9 % CO₂e et −11 % de temps de parcours sur l'application, avec sensibilisation des équipes.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f2dbae24-e716-42a1-91fc-132844d1894c/slide3_shape10.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape10_a6675dfd.png"
   },
   {
     "slug": "cats-smartuse-application-bancaire/",
     "title": "Crédit Agricole Technologies & Services",
     "description": "Label interne Smart'Use pour évaluer et labelliser la sobriété des produits web et mobiles, avec accès direct aux résultats dans Greenspector Studio.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape11_62e6166f.jpg"
   },
   {
     "slug": "orange-innovation-ecoconception-mobile/",
     "title": "Orange Innovation",
     "description": "Pilote Greenspector sur MyHey et TV d'Orange pour structurer une prestation interne d'écoconception applicative au sein du Groupe.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape11_ececde9c.jpg"
   },
   {
     "slug": "region-bretagne-numerique-responsable/",
     "title": "Région Bretagne",
     "description": "Refonte écoconçue du portail serviciel : mesures à chaque sprint, données réduites d'un facteur 5 et déclaration d'écoconception publiée.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
   },
   {
     "slug": "bruxelles-environnement-ecobuild/",
@@ -786,7 +786,7 @@ window.GS_CASE_STUDIES = [
     "slug": "bordeaux-metropole-ecoconception-web/",
     "title": "Bordeaux Métropole",
     "description": "Démarche d'écoconception web pour les services numériques d'une collectivité territoriale et réduction de l'impact des parcours usagers.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
   }
 ];
 window.GS_CASE_STUDIES_EN = [
@@ -800,37 +800,37 @@ window.GS_CASE_STUDIES_EN = [
     "slug": "ans-health-apps-co2-measurement/",
     "title": "French Digital Health Agency (ANS)",
     "description": "Ecoscore Portal to measure health app CO₂ impact: 70+ publishers assessed for listing on Mon Espace Santé.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/21987bc2-72c3-407d-98c7-6691995531b4/slide1_shape12.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape12_1ca6937e.png"
   },
   {
     "slug": "sncf-connect-performance/",
     "title": "SNCF Connect & Tech",
     "description": "−19% CO₂ on the regional train booking journey, 8 seconds faster user flow and Silver certification on Android and iOS.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b41a8f28-b536-40e5-8b0e-c235bbb6ba0a/slide2_shape3.jpg"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape3_de90cf8c.jpg"
   },
   {
     "slug": "air-france-app-testing/",
     "title": "Air France",
     "description": "Green testing integrated into the Test Service Center: −9% CO₂e and −11% journey time on the app, with team awareness.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f2dbae24-e716-42a1-91fc-132844d1894c/slide3_shape10.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape10_a6675dfd.png"
   },
   {
     "slug": "cats-smartuse-banking-app/",
     "title": "Crédit Agricole Technologies & Services",
     "description": "Internal Smart'Use label to assess and certify web and mobile product sobriety, with direct access to results in Greenspector Studio.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape11_62e6166f.jpg"
   },
   {
     "slug": "orange-innovation-mobile-ecodesign/",
     "title": "Orange Innovation",
     "description": "Greenspector pilot on MyHey and Orange TV to structure an in-house app ecodesign offering across the Group.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape11_ececde9c.jpg"
   },
   {
     "slug": "bretagne-responsible-digital/",
     "title": "Région Bretagne",
     "description": "Ecodesigned service portal redesign: sprint-by-sprint measurement, 5× data reduction and published ecodesign declaration.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
   },
   {
     "slug": "brussels-environment-ecobuild/",
@@ -854,7 +854,7 @@ window.GS_CASE_STUDIES_EN = [
     "slug": "bordeaux-metropole-web-ecodesign/",
     "title": "Bordeaux Métropole",
     "description": "Web ecodesign approach for local government digital services and reduced impact on user journeys.",
-    "image": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png"
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
   }
 ];
 

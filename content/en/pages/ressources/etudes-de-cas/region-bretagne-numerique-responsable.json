@@ -36,11 +36,11 @@
   },
   "logos": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/23fd35a1-6db9-4e35-b097-6ac3fc21a1da/slide4_shape1.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape1_5aa0ee8b.png",
       "alt": "Greenspector logo"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/90b2d114-4183-41b6-abf4-abaa76001a80/slide4_shape10.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape10_aab9d37f.png",
       "alt": "Région Bretagne logo"
     }
   ],
@@ -53,7 +53,7 @@
       "The goal was to embed digital sobriety in design, development and maintenance practices for the portal, with regular tracking of results."
     ],
     "image": {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png",
       "alt": "Screenshot of the Région Bretagne service portal"
     }
   },
@@ -105,16 +105,16 @@
     ],
     "author": "Nicolas Desmons",
     "role": "Head of digital services for citizens",
-    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/787ef038-3414-4b74-9d74-d17d4c58be04/slide4_shape14.png"
+    "photo": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape14_7c03b47e.png"
   },
   "media": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/9fd820e3-aa8f-4b14-a2ec-aecccc7e2e15/slide4_shape12.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape12_80510a6c.png",
       "alt": "Interface excerpt showing Région Bretagne portal results",
       "caption": "Tracking results and indicators as part of the ecodesign approach."
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/96324b94-2ec6-493d-a7df-73fb95ac3342/slide4_shape13.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape13_3b28e4a4.png",
       "alt": "Interface or screen associated with the Région Bretagne portal",
       "caption": "Continuous portal optimisation through measurements during the project."
     }
@@ -128,5 +128,5 @@
     "buttonLabel": "Measure the ecodesign of my service",
     "buttonHref": "/contact/"
   },
-  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Région Bretagne: steering the ecodesign of a service portal\",\n        \"description\": \"Région Bretagne client case on the ecodesigned redesign of a service portal and results tracking with Greenspector Studio.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0aee1092-7dc8-41b1-998b-a041088cdcea/slide4_shape11.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/region-bretagne-numerique-responsable/\"\n        }\n    }"
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Région Bretagne: steering the ecodesign of a service portal\",\n        \"description\": \"Région Bretagne client case on the ecodesigned redesign of a service portal and results tracking with Greenspector Studio.\",\n        \"image\": \"/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/region-bretagne-numerique-responsable/\"\n        }\n    }"
 }

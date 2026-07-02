@@ -36,11 +36,11 @@
   },
   "logos": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/711d2c7f-3e30-4427-a7f9-8554c015aea7/slide6_shape2.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape2_ef51fcf1.png",
       "alt": "Greenspector logo"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/5467a482-1bd7-4ff5-9403-44206308e83a/slide6_shape10.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape10_a2997088.png",
       "alt": "Orange Innovation logo"
     }
   ],
@@ -57,7 +57,7 @@
       "Orange TV, a video-on-demand and streaming application."
     ],
     "image": {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape11_ececde9c.jpg",
       "alt": "Visual associated with the Greenspector POC led by Orange Innovation"
     }
   },
@@ -114,7 +114,7 @@
   },
   "media": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/d169eff7-1829-4c00-9a8e-ea105aafd985/slide6_shape12.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape12_f232f75f.png",
       "alt": "Greenspector results interface used in the Orange Innovation client case",
       "caption": "Greenspector results used to establish a diagnosis and guide future optimisations."
     }
@@ -128,5 +128,5 @@
     "buttonLabel": "Set up an application ecodesign approach",
     "buttonHref": "/contact/"
   },
-  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Orange Innovation: supporting application ecodesign\",\n        \"description\": \"Orange Innovation client case on using Greenspector to measure application environmental impact and support ecodesign across the Orange Group.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/6bf31a8e-25f0-4749-b2d5-48a91e11d0ae/slide6_shape11.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/\"\n        }\n    }"
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Orange Innovation: supporting application ecodesign\",\n        \"description\": \"Orange Innovation client case on using Greenspector to measure application environmental impact and support ecodesign across the Orange Group.\",\n        \"image\": \"/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape11_ececde9c.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/\"\n        }\n    }"
 }

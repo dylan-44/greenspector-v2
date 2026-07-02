@@ -36,11 +36,11 @@
   },
   "logos": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/a362d022-ad79-431a-9cb1-5dc302bed0ff/slide5_shape1.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape1_8dbddc62.png",
       "alt": "Logo Greenspector"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b4b5d1bc-f1bb-4b85-97c6-40db8df999c7/slide5_shape10.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape10_4f1a909e.png",
       "alt": "Logo Crédit Agricole Technologies & Services"
     }
   ],
@@ -59,7 +59,7 @@
       "une responsabilité environnementale à intégrer dans la démarche produit."
     ],
     "image": {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape11_62e6166f.jpg",
       "alt": "Illustration de la démarche Smart'Use chez Crédit Agricole Technologies & Services"
     }
   },
@@ -107,11 +107,11 @@
     ],
     "author": "Julien Azria",
     "role": "Leader du Chapitre Digital Front",
-    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/27465089-6872-4763-bba2-eecbb4ff19f4/slide5_shape13.jpg"
+    "photo": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape13_b39d9eb7.jpg"
   },
   "media": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/0d93876e-cae2-43f8-aa06-710ab158aa59/slide5_shape12.jpg",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape12_f5f7e32c.jpg",
       "alt": "Interface ou support lié à l'évaluation de la sobriété des applications Crédit Agricole Technologies & Services",
       "caption": "Suivi des résultats et identification des leviers d'amélioration avec\n                                    Greenspector Studio."
     }
@@ -125,5 +125,5 @@
     "buttonLabel": "Structurer une démarche de\n                                    sobriété applicative",
     "buttonHref": "/contact/"
   },
-  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Crédit Agricole Technologies & Services : labelliser la sobriété des applications\",\n        \"description\": \"Cas client Crédit Agricole Technologies & Services sur l'évaluation et la labellisation interne de la sobriété des produits web et mobiles avec Greenspector.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/07cf3916-d025-4a34-9d27-e7e3572311db/slide5_shape11.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/cats-smartuse-application-bancaire/\"\n        }\n    }"
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Crédit Agricole Technologies & Services : labelliser la sobriété des applications\",\n        \"description\": \"Cas client Crédit Agricole Technologies & Services sur l'évaluation et la labellisation interne de la sobriété des produits web et mobiles avec Greenspector.\",\n        \"image\": \"/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape11_62e6166f.jpg\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/cats-smartuse-application-bancaire/\"\n        }\n    }"
 }

@@ -36,11 +36,11 @@
   },
   "logos": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f649835f-94d4-41b1-aa2e-e46cff869617/slide2_shape1.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape1_e7d2194d.png",
       "alt": "Logo Greenspector"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/fc1ee3c6-8763-440b-baba-8d67c03eb786/slide2_shape4.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape4_e232eade.png",
       "alt": "Logo SNCF Connect & Tech"
     }
   ],
@@ -54,7 +54,7 @@
       "L'objectif était d'améliorer l'expérience utilisateur tout en réduisant l'impact\n                                environnemental des parcours applicatifs, notamment sur le parcours de réservation TER."
     ],
     "image": {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/b41a8f28-b536-40e5-8b0e-c235bbb6ba0a/slide2_shape3.jpg",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape3_de90cf8c.jpg",
       "alt": "Illustration du cas client SNCF Connect & Tech sur la sobriété numérique de l'application de réservation"
     }
   },
@@ -103,7 +103,7 @@
     ],
     "author": "Sébastien Gobin",
     "role": "Responsable Qualité et Production Tech &amp;amp; Produits",
-    "photo": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/879a3146-1150-41c4-9e33-118d42946a31/slide2_shape12.jpg"
+    "photo": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape12_022ef8d8.jpg"
   },
   "mediaEyebrow": "",
   "cta": {

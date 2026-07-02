@@ -36,15 +36,15 @@
   },
   "logos": [
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/7990d277-04ce-4a09-9cbb-6bb17696d91e/slide3_shape1.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape1_d434416b.png",
       "alt": "Greenspector logo"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/cc9c7fb8-1988-4d8d-9da1-be3d33ff3c4c/slide3_shape7.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape7_022cbb3a.png",
       "alt": "Air France logo"
     },
     {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/8211eb05-e0b7-49c8-8234-3f70cf10bc5f/slide3_shape8.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape8_db630351.png",
       "alt": "Sogeti logo"
     }
   ],
@@ -57,7 +57,7 @@
       "The challenge was to integrate this approach into existing test and software quality practices, while enabling teams to track improvements concretely."
     ],
     "image": {
-      "src": "https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f2dbae24-e716-42a1-91fc-132844d1894c/slide3_shape10.png",
+      "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape10_a6675dfd.png",
       "alt": "Journey time chart measured as part of the Air France client case"
     }
   },
@@ -124,5 +124,5 @@
     "buttonLabel": "Discover green testing with Greenspector",
     "buttonHref": "/contact/"
   },
-  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Air France: integrating green testing into application quality\",\n        \"description\": \"Air France client case on integrating green testing with Greenspector Studio to measure the frugality of web, iOS and Android applications.\",\n        \"image\": \"https://swiftask-prod-files.s3.eu-west-3.amazonaws.com/files/f2dbae24-e716-42a1-91fc-132844d1894c/slide3_shape10.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/air-france-tests-application/\"\n        }\n    }"
+  "ldJson": "{\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"Article\",\n        \"headline\": \"Air France: integrating green testing into application quality\",\n        \"description\": \"Air France client case on integrating green testing with Greenspector Studio to measure the frugality of web, iOS and Android applications.\",\n        \"image\": \"/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape10_a6675dfd.png\",\n        \"author\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"publisher\": { \"@type\": \"Organization\", \"name\": \"Greenspector\" },\n        \"mainEntityOfPage\": {\n            \"@type\": \"WebPage\",\n            \"@id\": \"https://greenspector.com/ressources/etudes-de-cas/air-france-tests-application/\"\n        }\n    }"
 }
