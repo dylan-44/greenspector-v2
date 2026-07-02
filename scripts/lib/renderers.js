@@ -8,16 +8,23 @@ function esc(value) {
     .replace(/"/g, '&quot;');
 }
 
-function renderHeroActions(actions, pageSlug) {
+function resolveInternalHref(href, ctx) {
+  if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#')) {
+    return href;
+  }
+  const normalized = href.endsWith('/') || href.includes('.') ? href : `${href}/`;
+  const localeSlug = ctx.resolveLocaleSlug(normalized, ctx.locale, ctx.slugLookup);
+  return slugToRelative(ctx.pageSlug, localeSlug);
+}
+
+function renderHeroActions(actions, ctx) {
   if (!actions || !actions.length) {
     return '';
   }
 
   return `<div class="hero-actions">${actions
     .map((action) => {
-      const href = action.href.startsWith('http')
-        ? action.href
-        : slugToRelative(pageSlug, action.href.endsWith('/') ? action.href : `${action.href}/`);
+      const href = resolveInternalHref(action.href, ctx);
       const cls = action.primary ? 'btn btn-gs-primary' : 'btn btn-gs-outline';
       const external = action.external ? ' target="_blank" rel="noopener noreferrer"' : '';
       return `<a class="${cls}" href="${esc(href)}"${external}>${esc(action.label)}</a>`;
@@ -25,11 +32,11 @@ function renderHeroActions(actions, pageSlug) {
     .join('')}</div>`;
 }
 
-function renderHero(page, pageSlug, nav) {
+function renderHero(page, ctx, nav) {
   const { hero } = page;
   const label = hero.label ? `<p class="section-label">${esc(hero.label)}</p>` : '';
   const subtitle = hero.subtitle ? `<p class="hero-subtitle">${hero.subtitle}</p>` : '';
-  const actions = renderHeroActions(hero.actions, pageSlug);
+  const actions = renderHeroActions(hero.actions, ctx);
   const slugNote = page.slugNote ? `<p class="slug-note">${esc(page.slugNote)}</p>` : '';
 
   return `<section class="hero">
@@ -43,12 +50,16 @@ function renderHero(page, pageSlug, nav) {
         </section>`;
 }
 
-function renderDefaultBody(page, nav, pageSlug) {
+function rewriteHtml(html, ctx) {
+  return rewriteBodyHtml(html, ctx.pageSlug, ctx.locale, ctx.slugLookup, ctx.resolveLocaleSlug);
+}
+
+function renderDefaultBody(page, nav, ctx) {
   if (page.bodyHtml) {
     return `<section class="content-shell">
             <div class="container">
                 <div class="content-panel studio-page">
-                    ${rewriteBodyHtml(page.bodyHtml, pageSlug)}
+                    ${rewriteHtml(page.bodyHtml, ctx)}
                 </div>
             </div>
         </section>`;
@@ -68,8 +79,8 @@ function renderDefaultBody(page, nav, pageSlug) {
         </section>`;
 }
 
-function renderCaseStudiesIndex(page, pageSlug, nav) {
-  return `${renderHero(page, pageSlug, nav)}
+function renderCaseStudiesIndex(page, ctx, nav) {
+  return `${renderHero(page, ctx, nav)}
         <section class="content-shell">
             <div class="container">
                 <div id="case-studies-grid" class="case-studies-grid" aria-label="${esc(page.gridLabel || 'Case studies')}"></div>
@@ -77,7 +88,8 @@ function renderCaseStudiesIndex(page, pageSlug, nav) {
         </section>`;
 }
 
-function renderCaseStudyBody(page, pageSlug, nav) {
+function renderCaseStudyBody(page, ctx, nav) {
+  const pageSlug = ctx.pageSlug;
   const logos = (page.logos || [])
     .map(
       (logo) =>
@@ -184,7 +196,7 @@ function renderCaseStudyBody(page, pageSlug, nav) {
                             <p class="eyebrow">${esc(page.cta.eyebrow || 'À vous de jouer')}</p>
                             <h2>${page.cta.title}</h2>
                             <p>${page.cta.text}</p>
-                            <p><a class="btn btn-gs-primary" href="${esc(slugToRelative(pageSlug, page.cta.buttonHref || '/contact/'))}">${esc(page.cta.buttonLabel)}</a></p>
+                            <p><a class="btn btn-gs-primary" href="${esc(resolveInternalHref(page.cta.buttonHref || '/contact/', ctx))}">${esc(page.cta.buttonLabel)}</a></p>
                         </div>
                     </section>`
     : '';
@@ -230,36 +242,20 @@ function renderCaseStudyBody(page, pageSlug, nav) {
         </section>`;
 }
 
-function renderMainContent(page, template, pageSlug, nav) {
-  if (template === 'home' || template === 'html') {
-    return rewriteBodyHtml(page.bodyHtml || '', pageSlug);
-  }
-  if (template === 'default') {
-    return renderDefaultBody(page, nav, pageSlug);
-  }
+function renderPageBody(page, template, ctx, nav) {
   if (template === 'case-studies-index') {
-    return renderCaseStudiesIndex(page, pageSlug, nav).replace(renderHero(page, pageSlug, nav), '').trim();
+    return renderCaseStudiesIndex(page, ctx, nav);
   }
   if (template === 'case-study') {
-    return renderCaseStudyBody(page, pageSlug, nav);
-  }
-  return '';
-}
-
-function renderPageBody(page, template, pageSlug, nav) {
-  if (template === 'case-studies-index') {
-    return renderCaseStudiesIndex(page, pageSlug, nav);
-  }
-  if (template === 'case-study') {
-    return `${renderHero(page, pageSlug, nav)}${renderCaseStudyBody(page, pageSlug, nav)}`;
+    return `${renderHero(page, ctx, nav)}${renderCaseStudyBody(page, ctx, nav)}`;
   }
   if (template === 'home') {
-    return rewriteBodyHtml(page.bodyHtml || '', pageSlug);
+    return rewriteHtml(page.bodyHtml || '', ctx);
   }
   if (template === 'html') {
-    return `${renderHero(page, pageSlug, nav)}<section class="content-shell"><div class="container">${rewriteBodyHtml(page.bodyHtml || '', pageSlug)}</div></section>`;
+    return `${renderHero(page, ctx, nav)}<section class="content-shell"><div class="container">${rewriteHtml(page.bodyHtml || '', ctx)}</div></section>`;
   }
-  return `${renderHero(page, pageSlug, nav)}${renderDefaultBody(page, nav, pageSlug)}`;
+  return `${renderHero(page, ctx, nav)}${renderDefaultBody(page, nav, ctx)}`;
 }
 
 module.exports = {

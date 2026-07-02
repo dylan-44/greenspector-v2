@@ -2,12 +2,8 @@
 /* eslint-disable no-console */
 const fs = require('fs');
 const path = require('path');
-const {
-  ROOT,
-  outputPathForPage,
-  slugToLocaleSlug,
-  logicalSlug
-} = require('./lib/paths');
+const { ROOT, outputPathForPage } = require('./lib/paths');
+const { loadSlugMap, buildSlugLookup, resolveLocaleSlug } = require('./lib/slug-map');
 const { renderPageBody } = require('./lib/renderers');
 const { renderLayout } = require('./lib/layout');
 
@@ -22,6 +18,7 @@ function absoluteUrlFromPaths(siteUrl, slug) {
 const registry = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'content/registry.json'), 'utf8')
 );
+const { byId: slugMapById } = loadSlugMap();
 
 function loadJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -37,15 +34,24 @@ function ensureDir(filePath) {
 }
 
 function enrichRegistryPages(pages) {
-  return pages.map((page) => ({
-    ...page,
-    slugFr: page.slug,
-    slugEn: slugToLocaleSlug(page.slug, 'en')
-  }));
+  return pages.map((page) => {
+    const mapped = slugMapById[page.id] || {};
+    return {
+      ...page,
+      slugFr: page.slug,
+      pathEn: mapped.pathEn || page.path,
+      slugEn: mapped.slugEn || (page.slug === '/' ? '/en/' : `/en${page.slug}`)
+    };
+  });
 }
 
 function buildSiteData(pagesByLocale) {
-  const lines = ['window.GS_I18N = ' + JSON.stringify(pagesByLocale.i18n, null, 2) + ';', ''];
+  const lines = [
+    'window.GS_I18N = ' + JSON.stringify(pagesByLocale.i18n, null, 2) + ';',
+    '',
+    'window.GS_ROUTES = ' + JSON.stringify(pagesByLocale.routes, null, 2) + ';',
+    ''
+  ];
 
   for (const locale of registry.locales) {
     const varName = locale === 'fr' ? 'GS_PAGES' : `GS_PAGES_${locale.toUpperCase()}`;
@@ -84,11 +90,23 @@ ${body}
 `;
 }
 
+function cleanEnOutput() {
+  const enDir = path.join(ROOT, 'en');
+  if (fs.existsSync(enDir)) {
+    fs.rmSync(enDir, { recursive: true, force: true });
+  }
+}
+
 function main() {
   const registryPages = enrichRegistryPages(registry.pages);
+  const slugLookup = buildSlugLookup(registryPages);
   const navByLocale = {};
   const caseStudiesByLocale = {};
   const pagesNavByLocale = { fr: [], en: [] };
+  const routes = {
+    fr: { caseStudiesIndex: '/ressources/etudes-de-cas/' },
+    en: { caseStudiesIndex: slugMapById['case-studies-index']?.slugEn || '/en/resources/case-studies/' }
+  };
 
   for (const locale of registry.locales) {
     navByLocale[locale] = loadJson(path.join(ROOT, 'content', locale, 'navigation.json'));
@@ -97,6 +115,7 @@ function main() {
   }
 
   const navTemplate = loadJson(path.join(ROOT, 'content/nav-pages.json'));
+  cleanEnOutput();
 
   let built = 0;
 
@@ -109,9 +128,15 @@ function main() {
       }
 
       const page = loadJson(jsonPath);
-      const pageSlug = slugToLocaleSlug(regPage.slug, locale);
+      const pageSlug = locale === 'fr' ? regPage.slugFr : regPage.slugEn;
       const nav = navByLocale[locale];
-      const mainHtml = renderPageBody(page, regPage.template, pageSlug, nav);
+      const ctx = {
+        pageSlug,
+        locale,
+        slugLookup,
+        resolveLocaleSlug
+      };
+      const mainHtml = renderPageBody(page, regPage.template, ctx, nav);
       const html = renderLayout({
         page,
         locale,
@@ -123,7 +148,10 @@ function main() {
         registryPage: regPage
       });
 
-      const outPath = outputPathForPage(regPage.path, locale);
+      const outPath =
+        locale === 'en'
+          ? outputPathForPage(regPage.path, locale, regPage.pathEn)
+          : outputPathForPage(regPage.path, locale);
       ensureDir(outPath);
       fs.writeFileSync(outPath, html, 'utf8');
       built += 1;
@@ -135,13 +163,14 @@ function main() {
       const regPage = registryPages.find((page) => page.slug === entry.slug);
       const jsonPath = regPage ? pageJsonPath(locale, regPage.path) : null;
       const page = jsonPath && fs.existsSync(jsonPath) ? loadJson(jsonPath) : null;
+      const slug = locale === 'fr' ? entry.slug : regPage?.slugEn || entry.slug;
 
       pagesNavByLocale[locale].push({
         section: entry.section,
         name: page?.nav?.name || entry.name,
-        slug: slugToLocaleSlug(entry.slug, locale),
+        slug,
         slugFr: entry.slug,
-        slugEn: slugToLocaleSlug(entry.slug, 'en'),
+        slugEn: regPage?.slugEn || entry.slug,
         primary: page?.nav?.primary || entry.primary,
         secondary: page?.nav?.secondary || entry.secondary,
         generated: false
@@ -151,6 +180,7 @@ function main() {
 
   const siteData = buildSiteData({
     i18n: navByLocale,
+    routes,
     pages: pagesNavByLocale,
     caseStudies: caseStudiesByLocale
   });

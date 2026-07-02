@@ -122,13 +122,19 @@ L'agent RAG **ne lance pas obligatoirement** le build s'il n'a pas Node : il com
 
 ### Slugs URL
 
-Les slugs restent **en français** dans les deux langues :
+Les slugs FR et EN sont **distincts** (SEO, pas de duplicate content sur le chemin) :
 
 ```
-FR : /ressources/etudes-de-cas/ans-ethique-numerique/
-EN : /en/ressources/etudes-de-cas/ans-ethique-numerique/
-     ↑ préfixe /en/ seulement, le reste identique
+FR : /studio/banc-tests-mobiles/
+EN : /en/studio/mobile-device-testing/
 ```
+
+Mapping central : `content/slug-map.json` (par `id` registry).
+
+- **JSON contenu** : chemins FR inchangés (`content/fr/pages/studio/banc-tests-mobiles.json`)
+- **JSON EN** : même chemin logique (miroir FR), les `href` internes restent en slug FR — le build les convertit
+- **Sortie HTML EN** : dossiers anglais (`en/studio/mobile-device-testing/`)
+- **Cartes études de cas EN** : slugs anglais dans `content/en/case-studies.json`
 
 ---
 

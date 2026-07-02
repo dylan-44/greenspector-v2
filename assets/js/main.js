@@ -12,8 +12,11 @@ const esc = (v) =>
 const pageState = JSON.parse(document.body.dataset.page || '{"slug":"/","locale":"fr"}');
 const locale = pageState.locale || (pageState.slug.startsWith('/en/') || pageState.slug === '/en/' ? 'en' : 'fr');
 const i18n = window.GS_I18N?.[locale] || window.GS_I18N?.fr || {};
+const routes = window.GS_ROUTES?.[locale] || window.GS_ROUTES?.fr || {};
 const pages =
   locale === 'en' ? window.GS_PAGES_EN || window.GS_PAGES || [] : window.GS_PAGES || [];
+const contactSlug = pages.find((item) => item.slug.endsWith('/contact/'))?.slug || (locale === 'en' ? '/en/contact/' : '/contact/');
+const homeSlug = locale === 'en' ? '/en/' : '/';
 const currentSlug = pageState.slug || '/';
 const pathSegments = currentSlug.split('/').filter(Boolean);
 const depth = pathSegments.length;
@@ -88,9 +91,9 @@ const langFlag = (code) =>
 
 const langSwitcher = `<li class="nav-item lang-switcher" aria-label="${esc(i18n.langSwitcher?.label || 'Language')}"><a class="nav-link lang-switcher__link${locale === 'fr' ? ' is-active' : ''}" href="${toRelative(pageState.slugFr || '/')}" hreflang="fr" lang="fr" aria-label="Français" title="Français">${langFlag('fr')}</a><a class="nav-link lang-switcher__link${locale === 'en' ? ' is-active' : ''}" href="${toRelative(pageState.slugEn || '/en/')}" hreflang="en" lang="en" aria-label="English" title="English">${langFlag('gb')}</a></li>`;
 
-qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="${esc(i18n.navAria || 'Navigation')}"><div class="container"><a class="navbar-brand" href="${toRelative(locale === 'en' ? '/en/' : '/')}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="navbar-logo" src="${toAsset('/assets/img/Greenspector_logo_web_1200x320.png')}" alt="Greenspector"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="${esc(i18n.menuOpen || 'Open menu')}"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative(locale === 'en' ? '/en/contact/' : '/contact/')}">${esc(i18n.contact || 'Contact')}</a></li>${langSwitcher}</ul></div></div></nav></header>`;
+qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="${esc(i18n.navAria || 'Navigation')}"><div class="container"><a class="navbar-brand" href="${toRelative(homeSlug)}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="navbar-logo" src="${toAsset('/assets/img/Greenspector_logo_web_1200x320.png')}" alt="Greenspector"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="${esc(i18n.menuOpen || 'Open menu')}"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative(contactSlug)}">${esc(i18n.contact || 'Contact')}</a></li>${langSwitcher}</ul></div></div></nav></header>`;
 
-qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative(locale === 'en' ? '/en/' : '/')}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">${esc(i18n.footerTagline || '')}</p></div><nav class="footer-nav" aria-label="${esc(i18n.footerMenu || 'Menu')}"><p class="footer-title">${esc(i18n.footerMenu || 'Menu')}</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative(locale === 'en' ? '/en/contact/' : '/contact/')}">${esc(i18n.contact || 'Contact')}</a></li></ul></nav><div class="footer-social"><p class="footer-title">${esc(i18n.footerFollow || 'Follow us')}</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
+qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative(homeSlug)}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">${esc(i18n.footerTagline || '')}</p></div><nav class="footer-nav" aria-label="${esc(i18n.footerMenu || 'Menu')}"><p class="footer-title">${esc(i18n.footerMenu || 'Menu')}</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative(contactSlug)}">${esc(i18n.contact || 'Contact')}</a></li></ul></nav><div class="footer-social"><p class="footer-title">${esc(i18n.footerFollow || 'Follow us')}</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
 
 document.querySelectorAll('.navbar a[href]').forEach((link) => {
   const item = pages.find((p) => toRelative(p.slug) === link.getAttribute('href'));
@@ -110,11 +113,7 @@ if (caseStudiesGrid && caseStudies.length) {
   const cardLabels = i18n.caseStudyCard || {};
   caseStudiesGrid.innerHTML = caseStudies
     .map((item) => {
-      const href = toRelative(
-        locale === 'en'
-          ? `/en/ressources/etudes-de-cas/${item.slug}`
-          : `/ressources/etudes-de-cas/${item.slug}`
-      );
+      const href = toRelative(`${routes.caseStudiesIndex || '/ressources/etudes-de-cas/'}${item.slug}`);
       const image = item.image.startsWith('http') ? item.image : toAsset(item.image);
 
       return `<article class="case-study-card">

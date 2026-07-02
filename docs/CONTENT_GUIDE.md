@@ -51,7 +51,7 @@ Schémas : `content/schema/page-base.json`, `page-home.json`, `page-default.json
 ## URLs
 
 - FR : `https://greenspector.com/studio/banc-tests-mobiles/`
-- EN : `https://greenspector.com/en/studio/banc-tests-mobiles/`
+- EN : `https://greenspector.com/en/studio/mobile-device-testing/` (slugs anglais, voir `content/slug-map.json`)
 
 Chaque page génère `hreflang`, canonical et `data-page` avec `locale`, `slugFr`, `slugEn`.
 
