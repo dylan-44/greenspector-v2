@@ -1640,6 +1640,79 @@ body:not(.home-page) .hero .slug-note {
   }
 }
 
+.pricing-testimonials-carousel {
+  position: relative;
+  max-width: 52rem;
+  margin: 0.5rem auto 0;
+  padding-bottom: 0;
+}
+
+.pricing-testimonials-carousel .carousel-inner {
+  min-height: clamp(16rem, 34vw, 22rem);
+  align-items: center;
+}
+
+.pricing-testimonial-slide {
+  margin: 0 auto;
+  padding: 0 clamp(2.75rem, 6vw, 3.5rem);
+  text-align: center;
+}
+
+.pricing-testimonial-slide p {
+  margin: 0;
+}
+
+.pricing-testimonial-slide p + p {
+  margin-top: 0.85rem;
+}
+
+.pricing-testimonial-slide footer {
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.pricing-testimonials-indicators {
+  position: static;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  gap: 0.45rem;
+}
+
+.pricing-testimonials-indicators [data-bs-target] {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  border: none;
+  background-color: rgba(202, 243, 189, 0.45);
+  opacity: 1;
+}
+
+.pricing-testimonials-indicators .active {
+  background-color: var(--gs-tea-green);
+}
+
+.pricing-testimonials-control {
+  width: 2.75rem;
+  opacity: 0.95;
+}
+
+.pricing-testimonials-control .carousel-control-prev-icon,
+.pricing-testimonials-control .carousel-control-next-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  filter: invert(1) brightness(1.8);
+}
+
+.pricing-clients h2 {
+  max-width: none;
+}
+
+.pricing-clients-grid {
+  margin-top: 0.75rem;
+}
+
 /* ── Partenaires ── */
 .partners-page {
   gap: clamp(2rem, 5vw, 3rem);

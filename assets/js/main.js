@@ -132,3 +132,9 @@ if (caseStudiesGrid && caseStudies.length) {
     })
     .join('');
 }
+
+const testimonialsCarousel = qs('#pricingTestimonialsCarousel');
+if (testimonialsCarousel && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  testimonialsCarousel.removeAttribute('data-bs-ride');
+  testimonialsCarousel.setAttribute('data-bs-interval', 'false');
+}
