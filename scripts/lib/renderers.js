@@ -1,4 +1,5 @@
 const { slugToRelative, slugToAsset, rewriteBodyHtml } = require('./paths');
+const { renderTestimonialsCarousel } = require('./testimonials');
 
 function esc(value) {
   return String(value)
@@ -250,7 +251,30 @@ function renderPageBody(page, template, ctx, nav) {
     return `${renderHero(page, ctx, nav)}${renderCaseStudyBody(page, ctx, nav)}`;
   }
   if (template === 'home') {
-    return rewriteHtml(page.bodyHtml || '', ctx);
+    let html = rewriteHtml(page.bodyHtml || '', ctx);
+    const testimonialsHtml = rewriteHtml(
+      renderTestimonialsCarousel(ctx.locale, {
+        carouselId: 'homeTestimonialsCarousel',
+        titleId: 'home-testimonials-title',
+        sectionClass: 'home-section home-testimonials',
+        wrapContainer: true
+      }),
+      ctx
+    );
+
+    if (html.includes('id="cas-client"')) {
+      html = html.replace(
+        /<section class="home-section home-section--light" id="cas-client"[\s\S]*?<\/section>\s*/m,
+        testimonialsHtml
+      );
+    } else if (!html.includes('homeTestimonialsCarousel')) {
+      html = html.replace(
+        '<section class="home-final-cta"',
+        `${testimonialsHtml}\n\n        <section class="home-final-cta"`
+      );
+    }
+
+    return html;
   }
   if (template === 'html') {
     return `${renderHero(page, ctx, nav)}<section class="content-shell"><div class="container">${rewriteHtml(page.bodyHtml || '', ctx)}</div></section>`;

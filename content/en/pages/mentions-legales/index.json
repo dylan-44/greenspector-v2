@@ -1,0 +1,23 @@
+{
+  "id": "legal-mentions",
+  "slug": "/mentions-legales/",
+  "template": "html",
+  "meta": {
+    "title": "Legal notice | Greenspector",
+    "description": "Legal notice for greenspector.com: publisher, host, intellectual property, cookies and personal data.",
+    "keywords": "legal notice, Greenspector, publisher, host",
+    "ogTitle": "Legal notice | Greenspector",
+    "ogDescription": "Legal notice for greenspector.com."
+  },
+  "nav": {
+    "section": "Home",
+    "name": "Legal notice",
+    "primary": "legal notice",
+    "secondary": "legal information"
+  },
+  "hero": {
+    "label": "Legal information",
+    "title": "Legal notice"
+  },
+  "bodyHtml": "<div class=\"content-panel legal-page\">\n                    <section class=\"studio-section\">\n                        <p><em>This translation is provided for convenience only. Please refer to the French version, which is the authoritative version.</em></p>\n                        <h2>General presentation</h2>\n                        <p>This legal notice relates to the greenspector.com website, its information pages and its blog. For the terms and conditions of use of our services and products available on saas.greenspector.com, please refer to our Terms and Conditions of Use.</p>\n                        <p>The responsibility for this website is assumed by:</p>\n                        <p><strong>Publisher:</strong> GREENSPECTOR SAS<br>\n                            Registered office: 6 Rue Rose Dieng-Kuntz, 44300 Nantes, France<br>\n                            Intracommunity VAT number: FR92528071939<br>\n                            Company registration number: RCS Nantes 528071939<br>\n                            Editorial manager: Thierry LEBOUCQ, Chairman<br>\n                            Contact: <a href=\"mailto:contact@greenspector.com\">contact@greenspector.com</a><br>\n                            Host: OVH, 2 rue Kellermann, BP 80157, 59053 ROUBAIX CEDEX 1 — <a href=\"https://www.ovh.com/\" target=\"_blank\" rel=\"noopener noreferrer\">www.ovh.com</a></p>\n                    </section>\n                    <section class=\"studio-section\">\n                        <h2>Intellectual property</h2>\n                        <p>The greenspector.com website and each of its components are protected under international intellectual property law. All reproduction rights are reserved. Any use of the content of the greenspector.com website is strictly prohibited without the express authorisation of Greenspector.</p>\n                    </section>\n                    <section class=\"studio-section\">\n                        <h2>Cookies</h2>\n                        <p>The greenspector.com website does not use cookies.</p>\n                    </section>\n                    <section class=\"studio-section\">\n                        <h2>Personal data</h2>\n                        <p>The Greenspector site uses two third-party tools:</p>\n                        <ul>\n                            <li>For monitoring site consultation statistics: Matomo. This tracking is completely anonymous and cookie-free.</li>\n                            <li>To manage your requests after you have filled in a contact form or subscribed to our newsletter: Koban CRM.</li>\n                        </ul>\n                        <p>In accordance with the French Data Protection Act of 1978 and the GDPR of 27/04/2016, you have the right to access, rectify, delete and object to your personal data by sending an email to <a href=\"mailto:webmestre@greenspector.com\">webmestre@greenspector.com</a>.</p>\n                    </section>\n                    <section class=\"studio-section\">\n                        <h2>Links to third-party sites</h2>\n                        <p>Greenspector cannot be held responsible for the content of sites to which hypertext links are proposed.</p>\n                    </section>\n                    <section class=\"studio-section\">\n                        <h2>Services provided</h2>\n                        <p>Greenspector endeavours to provide information that is as reliable and accurate as possible. However, the information on this site cannot be considered exhaustive or guaranteed to be free of errors or omissions.</p>\n                    </section>\n                    <section class=\"studio-section\">\n                        <h2>Litigation</h2>\n                        <p>This site is subject to current French and European regulations. Any dispute shall fall within the exclusive jurisdiction of the courts having jurisdiction over the company's registered office. The reference language is French.</p>\n                    </section>\n                </div>"
+}

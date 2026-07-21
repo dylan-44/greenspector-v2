@@ -18,7 +18,15 @@
   "hero": {
     "label": "Greenspector Studio",
     "title": "Pour l'IA",
-    "subtitle": "impact IA batterie"
+    "subtitle": "impact IA batterie",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      }
+    ]
   },
   "contentMeta": [
     "Mot-clé principal : impact IA batterie",

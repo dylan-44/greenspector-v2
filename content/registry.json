@@ -35,6 +35,7 @@
     { "id": "about-innovations", "path": "a-propos/innovations", "slug": "/a-propos/innovations/", "template": "default", "status": "published" },
     { "id": "contact", "path": "contact/index", "slug": "/contact/", "template": "default", "status": "published" },
     { "id": "demo", "path": "demo/index", "slug": "/demo/", "template": "default", "status": "published" },
-    { "id": "connexion", "path": "connexion/index", "slug": "/connexion/", "template": "default", "status": "published" }
+    { "id": "connexion", "path": "connexion/index", "slug": "/connexion/", "template": "default", "status": "published" },
+    { "id": "legal-mentions", "path": "mentions-legales/index", "slug": "/mentions-legales/", "template": "html", "status": "published" }
   ]
 }

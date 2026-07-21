@@ -669,6 +669,27 @@ body:not(.home-page) .hero .slug-note {
   color: var(--gs-tea-green);
 }
 
+.studio-quote-section h2 {
+  font-size: clamp(1.25rem, 2.2vw, 1.55rem);
+  margin: 0;
+}
+
+.studio-quote-section .studio-quote p {
+  font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+  line-height: 1.55;
+  color: var(--gs-white);
+  max-width: none;
+}
+
+.studio-quote-section .studio-quote footer strong {
+  font-size: 0.98rem;
+}
+
+.studio-quote-section .studio-quote footer span {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
 .studio-quote {
   margin: 0;
   display: grid;
@@ -934,7 +955,7 @@ body:not(.home-page) .hero .slug-note {
 }
 
 .home-section--light {
-  background: linear-gradient(180deg, var(--gs-white), rgba(202, 243, 189, 0.35));
+  background: var(--gs-white);
 }
 
 .home-section-header {
@@ -1048,7 +1069,17 @@ body:not(.home-page) .hero .slug-note {
   color: var(--gs-white);
 }
 
-.home-clients-grid {
+.home-page .home-step-card.studio-card {
+  background: var(--gs-white);
+  box-shadow: 0 0.8rem 2rem rgba(7, 74, 53, 0.08);
+}
+
+.home-testimonials {
+  padding-top: clamp(2.5rem, 6vw, 4rem);
+  padding-bottom: clamp(2.5rem, 6vw, 4rem);
+}
+
+.home-testimonials .pricing-testimonials-carousel {
   margin-top: 0.5rem;
 }
 
@@ -1409,21 +1440,10 @@ body:not(.home-page) .hero .slug-note {
   padding: 0.65rem 0.75rem;
   border-radius: 0.75rem;
   background: rgba(202, 243, 189, 0.18);
-}
-
-.pricing-plan__stat dt {
-  margin: 0;
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: rgba(7, 74, 53, 0.62);
-}
-
-.pricing-plan__stat dd {
-  margin: 0.15rem 0 0;
-  font-family: var(--gs-heading);
-  font-size: 1.15rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
   color: var(--gs-dark-spruce);
 }
 
@@ -1538,13 +1558,26 @@ body:not(.home-page) .hero .slug-note {
   white-space: nowrap;
 }
 
-.pricing-cell--yes {
-  color: var(--gs-dark-spruce);
+.pricing-cell--yes,
+.pricing-cell--no {
   font-weight: 700;
 }
 
-.pricing-cell--no {
-  color: rgba(7, 74, 53, 0.45);
+.pricing-cell__mark {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.pricing-cell__mark--yes::before {
+  content: "✓";
+  color: #1f8a4c;
+}
+
+.pricing-cell__mark--no::before {
+  content: "—";
+  color: rgba(7, 74, 53, 0.38);
+  font-weight: 500;
 }
 
 .pricing-footnotes {

@@ -31,5 +31,6 @@
   "about-innovations": { "pathEn": "about/innovations", "slugEn": "/en/about/innovations/" },
   "contact": { "pathEn": "contact/index", "slugEn": "/en/contact/" },
   "demo": { "pathEn": "demo/index", "slugEn": "/en/demo/" },
-  "connexion": { "pathEn": "login/index", "slugEn": "/en/login/" }
+  "connexion": { "pathEn": "login/index", "slugEn": "/en/login/" },
+  "legal-mentions": { "pathEn": "legal-notices/index", "slugEn": "/en/legal-notices/" }
 }

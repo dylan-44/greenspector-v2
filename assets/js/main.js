@@ -66,18 +66,15 @@ const socialLinks = [
   },
   {
     name: 'YouTube',
-    href: 'https://www.youtube.com/@greenspector',
+    href: 'https://www.youtube.com/@greenspector7979',
     icon: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>'
-  },
-  {
-    name: 'X',
-    href: 'https://x.com/greenspector',
-    icon: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.77 7.74L23 22h-6.1l-4.77-6.24L6.67 22H3.54l7.24-8.28L1 2h6.25l4.31 5.69L18.9 2zm-1.07 18h1.69L6.33 3.9H4.5L17.83 20z"/></svg>'
   }
 ];
 
+const legalSlug = locale === 'en' ? '/en/legal-notices/' : '/mentions-legales/';
+
 const dropdown = (group) =>
-  group.items.length === 1
+  group.items.length === 1 && group.items[0].name === group.label
     ? `<li class="nav-item"><a class="nav-link" href="${toRelative(group.items[0].slug)}">${esc(group.label)}</a></li>`
     : `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">${esc(group.label)}</a><ul class="dropdown-menu">${group.items
         .map(
@@ -93,7 +90,7 @@ const langSwitcher = `<li class="nav-item lang-switcher" aria-label="${esc(i18n.
 
 qs('#site-header').innerHTML = `<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="${esc(i18n.navAria || 'Navigation')}"><div class="container"><a class="navbar-brand" href="${toRelative(homeSlug)}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="navbar-logo" src="${toAsset('/assets/img/Greenspector_logo_web_1200x320.png')}" alt="Greenspector"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="${esc(i18n.menuOpen || 'Open menu')}"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">${grouped.map(dropdown).join('')}<li class="nav-item"><a class="nav-link" href="${toRelative(contactSlug)}">${esc(i18n.contact || 'Contact')}</a></li>${langSwitcher}</ul></div></div></nav></header>`;
 
-qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative(homeSlug)}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">${esc(i18n.footerTagline || '')}</p></div><nav class="footer-nav" aria-label="${esc(i18n.footerMenu || 'Menu')}"><p class="footer-title">${esc(i18n.footerMenu || 'Menu')}</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative(contactSlug)}">${esc(i18n.contact || 'Contact')}</a></li></ul></nav><div class="footer-social"><p class="footer-title">${esc(i18n.footerFollow || 'Follow us')}</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
+qs('#site-footer').innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="${toRelative(homeSlug)}" aria-label="${esc(i18n.brandAria || 'Greenspector')}"><img class="footer-logo" src="${toAsset('/assets/img/Logo_greenspector_header_white.svg')}" alt="Greenspector"></a><p class="footer-tagline">${esc(i18n.footerTagline || '')}</p></div><nav class="footer-nav" aria-label="${esc(i18n.footerMenu || 'Menu')}"><p class="footer-title">${esc(i18n.footerMenu || 'Menu')}</p><ul class="footer-nav-list">${footerNav}<li><a href="${toRelative(contactSlug)}">${esc(i18n.contact || 'Contact')}</a></li><li><a href="${toRelative(legalSlug)}">${esc(i18n.footerLegal || 'Mentions légales')}</a></li></ul></nav><div class="footer-social"><p class="footer-title">${esc(i18n.footerFollow || 'Follow us')}</p><ul class="social-links">${socialLinks.map((item) => `<li><a href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${item.name}">${item.icon}</a></li>`).join('')}</ul></div></div></footer>`;
 
 document.querySelectorAll('.navbar a[href]').forEach((link) => {
   const item = pages.find((p) => toRelative(p.slug) === link.getAttribute('href'));
@@ -133,8 +130,9 @@ if (caseStudiesGrid && caseStudies.length) {
     .join('');
 }
 
-const testimonialsCarousel = qs('#pricingTestimonialsCarousel');
-if (testimonialsCarousel && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  testimonialsCarousel.removeAttribute('data-bs-ride');
-  testimonialsCarousel.setAttribute('data-bs-interval', 'false');
-}
+document.querySelectorAll('#pricingTestimonialsCarousel, #homeTestimonialsCarousel').forEach((testimonialsCarousel) => {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    testimonialsCarousel.removeAttribute('data-bs-ride');
+    testimonialsCarousel.setAttribute('data-bs-interval', 'false');
+  }
+});

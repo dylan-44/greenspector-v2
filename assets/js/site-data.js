@@ -8,9 +8,10 @@ window.GS_I18N = {
     },
     "skipLink": "Aller au contenu principal",
     "contact": "Contact",
-    "footerTagline": "Mesure, écoconception logicielle et réduction d'impact numérique.",
+    "footerTagline": "Du device à l'app, pilotez sobriété et performance de vos services numériques",
     "footerMenu": "Menu",
     "footerFollow": "Suivez-nous",
+    "footerLegal": "Mentions légales",
     "navAria": "Navigation principale",
     "menuOpen": "Ouvrir le menu",
     "brandAria": "Greenspector - Accueil",
@@ -51,9 +52,10 @@ window.GS_I18N = {
     },
     "skipLink": "Skip to main content",
     "contact": "Contact",
-    "footerTagline": "Measurement, software ecodesign and digital impact reduction.",
+    "footerTagline": "From device to app, manage the frugality and performance of your digital services",
     "footerMenu": "Menu",
     "footerFollow": "Follow us",
+    "footerLegal": "Legal notice",
     "navAria": "Main navigation",
     "menuOpen": "Open menu",
     "brandAria": "Greenspector - Home",
@@ -235,116 +237,6 @@ window.GS_PAGES = [
     "slugEn": "/en/resources/case-studies/",
     "primary": "étude de cas Greenspector",
     "secondary": "retours d'expérience clients",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Bouygues Telecom",
-    "slug": "/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/",
-    "slugFr": "/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/",
-    "slugEn": "/en/resources/case-studies/bouygues-telecom-mobile-digital-sobriety/",
-    "primary": "sobriété numérique mobile",
-    "secondary": "DevOps, certification sobriété",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Agence du Numérique en Santé",
-    "slug": "/ressources/etudes-de-cas/ans-ethique-numerique/",
-    "slugFr": "/ressources/etudes-de-cas/ans-ethique-numerique/",
-    "slugEn": "/en/resources/case-studies/ans-health-apps-co2-measurement/",
-    "primary": "impact CO₂ applications santé",
-    "secondary": "Portail Écoscore, Mon Espace Santé",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Decathlon",
-    "slug": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
-    "slugFr": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
-    "slugEn": "/en/resources/case-studies/decathlon-digital-ecodesign/",
-    "primary": "écoconception numérique",
-    "secondary": "généralisation démarche",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Bruxelles Environnement",
-    "slug": "/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/",
-    "slugFr": "/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/",
-    "slugEn": "/en/resources/case-studies/brussels-environment-ecobuild/",
-    "primary": "conseil écoconception",
-    "secondary": "secteur public",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Air France",
-    "slug": "/ressources/etudes-de-cas/air-france-tests-application/",
-    "slugFr": "/ressources/etudes-de-cas/air-france-tests-application/",
-    "slugEn": "/en/resources/case-studies/air-france-app-testing/",
-    "primary": "green testing",
-    "secondary": "Sogeti, écoscore, Service Center Test",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Crédit Agricole T&S",
-    "slug": "/ressources/etudes-de-cas/cats-smartuse-application-bancaire/",
-    "slugFr": "/ressources/etudes-de-cas/cats-smartuse-application-bancaire/",
-    "slugEn": "/en/resources/case-studies/cats-smartuse-banking-app/",
-    "primary": "label Smart'Use sobriété",
-    "secondary": "application bancaire, Chapitre Digital Front",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Orange Innovation",
-    "slug": "/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/",
-    "slugFr": "/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/",
-    "slugEn": "/en/resources/case-studies/orange-innovation-mobile-ecodesign/",
-    "primary": "écoconception applications",
-    "secondary": "Digital Responsable, décarbonation, Groupe Orange",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Région Bretagne",
-    "slug": "/ressources/etudes-de-cas/region-bretagne-numerique-responsable/",
-    "slugFr": "/ressources/etudes-de-cas/region-bretagne-numerique-responsable/",
-    "slugEn": "/en/resources/case-studies/bretagne-responsible-digital/",
-    "primary": "écoconception portail serviciel",
-    "secondary": "collectivité, écoscore, déclaration d'écoconception",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Treebal",
-    "slug": "/ressources/etudes-de-cas/treebal-application-ecoresponsable/",
-    "slugFr": "/ressources/etudes-de-cas/treebal-application-ecoresponsable/",
-    "slugEn": "/en/resources/case-studies/treebal-eco-responsible-app/",
-    "primary": "application écoresponsable",
-    "secondary": "sobriété numérique",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Bordeaux Métropole",
-    "slug": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
-    "slugFr": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
-    "slugEn": "/en/resources/case-studies/bordeaux-metropole-web-ecodesign/",
-    "primary": "écoconception web",
-    "secondary": "collectivité territoriale",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "SNCF Connect & Tech",
-    "slug": "/ressources/etudes-de-cas/sncf-connect-bug-performance/",
-    "slugFr": "/ressources/etudes-de-cas/sncf-connect-bug-performance/",
-    "slugEn": "/en/resources/case-studies/sncf-connect-performance/",
-    "primary": "sobriété numérique mobile",
-    "secondary": "OUI.sncf, certification Argent",
     "generated": false
   },
   {
@@ -547,116 +439,6 @@ window.GS_PAGES_EN = [
     "slugEn": "/en/resources/case-studies/",
     "primary": "Greenspector case study",
     "secondary": "client feedback",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Bouygues Telecom",
-    "slug": "/en/resources/case-studies/bouygues-telecom-mobile-digital-sobriety/",
-    "slugFr": "/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/",
-    "slugEn": "/en/resources/case-studies/bouygues-telecom-mobile-digital-sobriety/",
-    "primary": "mobile digital sobriety",
-    "secondary": "DevOps, frugality certification",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "French Digital Health Agency",
-    "slug": "/en/resources/case-studies/ans-health-apps-co2-measurement/",
-    "slugFr": "/ressources/etudes-de-cas/ans-ethique-numerique/",
-    "slugEn": "/en/resources/case-studies/ans-health-apps-co2-measurement/",
-    "primary": "CO₂ impact health applications",
-    "secondary": "Ecoscore Portal, Mon Espace Santé",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Decathlon",
-    "slug": "/en/resources/case-studies/decathlon-digital-ecodesign/",
-    "slugFr": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
-    "slugEn": "/en/resources/case-studies/decathlon-digital-ecodesign/",
-    "primary": "digital ecodesign",
-    "secondary": "scaling the approach",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Bruxelles Environnement",
-    "slug": "/en/resources/case-studies/brussels-environment-ecobuild/",
-    "slugFr": "/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/",
-    "slugEn": "/en/resources/case-studies/brussels-environment-ecobuild/",
-    "primary": "ecodesign consulting",
-    "secondary": "public sector",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Air France",
-    "slug": "/en/resources/case-studies/air-france-app-testing/",
-    "slugFr": "/ressources/etudes-de-cas/air-france-tests-application/",
-    "slugEn": "/en/resources/case-studies/air-france-app-testing/",
-    "primary": "green testing",
-    "secondary": "Sogeti, ecoscore, Service Center Test",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Crédit Agricole T&S",
-    "slug": "/en/resources/case-studies/cats-smartuse-banking-app/",
-    "slugFr": "/ressources/etudes-de-cas/cats-smartuse-application-bancaire/",
-    "slugEn": "/en/resources/case-studies/cats-smartuse-banking-app/",
-    "primary": "Smart'Use frugality label",
-    "secondary": "banking application, Digital Front Chapter",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Orange Innovation",
-    "slug": "/en/resources/case-studies/orange-innovation-mobile-ecodesign/",
-    "slugFr": "/ressources/etudes-de-cas/orange-innovation-ecoconception-mobile/",
-    "slugEn": "/en/resources/case-studies/orange-innovation-mobile-ecodesign/",
-    "primary": "application ecodesign",
-    "secondary": "Responsible Digital, decarbonisation, Orange Group",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Région Bretagne",
-    "slug": "/en/resources/case-studies/bretagne-responsible-digital/",
-    "slugFr": "/ressources/etudes-de-cas/region-bretagne-numerique-responsable/",
-    "slugEn": "/en/resources/case-studies/bretagne-responsible-digital/",
-    "primary": "service portal ecodesign",
-    "secondary": "local authority, ecoscore, ecodesign declaration",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Treebal",
-    "slug": "/en/resources/case-studies/treebal-eco-responsible-app/",
-    "slugFr": "/ressources/etudes-de-cas/treebal-application-ecoresponsable/",
-    "slugEn": "/en/resources/case-studies/treebal-eco-responsible-app/",
-    "primary": "eco-responsible application",
-    "secondary": "digital sobriety",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "Bordeaux Métropole",
-    "slug": "/en/resources/case-studies/bordeaux-metropole-web-ecodesign/",
-    "slugFr": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
-    "slugEn": "/en/resources/case-studies/bordeaux-metropole-web-ecodesign/",
-    "primary": "web ecodesign",
-    "secondary": "local authority",
-    "generated": false
-  },
-  {
-    "section": "Ressources",
-    "name": "SNCF Connect & Tech",
-    "slug": "/en/resources/case-studies/sncf-connect-performance/",
-    "slugFr": "/ressources/etudes-de-cas/sncf-connect-bug-performance/",
-    "slugEn": "/en/resources/case-studies/sncf-connect-performance/",
-    "primary": "mobile digital sobriety",
-    "secondary": "OUI.sncf, Silver certification",
     "generated": false
   },
   {

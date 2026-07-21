@@ -18,7 +18,15 @@
   "hero": {
     "label": "Greenspector Studio",
     "title": "For AI",
-    "subtitle": "AI battery impact"
+    "subtitle": "AI battery impact",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      }
+    ]
   },
   "contentMeta": [
     "Primary keyword: AI battery impact",
