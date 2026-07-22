@@ -18,10 +18,7 @@
   "hero": {
     "label": "Contact",
     "title": "Nous contacter",
-    "subtitle": "contact Greenspector"
+    "subtitle": "Demande de démo, question commerciale ou support : notre équipe vous répond rapidement."
   },
-  "contentMeta": [
-    "Mot-clé principal : contact Greenspector",
-    "Mots-clés secondaires : demande d'information"
-  ]
+  "bodyHtml": "<div class=\"contact-page\">\n                        <div class=\"contact-form-embed\">\n                            <iframe class=\"contact-form-embed__frame\" src=\"https://greenspector-ii.odoo.com/contact-form\" title=\"Formulaire de contact Greenspector\" name=\"greenspectorContactForm\" loading=\"lazy\" scrolling=\"no\" sandbox=\"allow-scripts allow-same-origin allow-forms\" allowfullscreen></iframe>\n                        </div>\n                    </div>"
 }

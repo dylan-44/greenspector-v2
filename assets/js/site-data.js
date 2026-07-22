@@ -275,8 +275,8 @@ window.GS_PAGES = [
     "slug": "/a-propos/banc-tests-smartphones/",
     "slugFr": "/a-propos/banc-tests-smartphones/",
     "slugEn": "/en/about/smartphone-test-bench/",
-    "primary": "banc tests smartphones",
-    "secondary": "device lab",
+    "primary": "Test Bench Greenspector",
+    "secondary": "device lab, mesure énergie",
     "generated": false
   },
   {
@@ -286,7 +286,7 @@ window.GS_PAGES = [
     "slugFr": "/a-propos/innovations/",
     "slugEn": "/en/about/innovations/",
     "primary": "innovations Greenspector",
-    "secondary": "R&D, ECOSCORE",
+    "secondary": "R&D, Ecoscore",
     "generated": false
   },
   {
@@ -477,8 +477,8 @@ window.GS_PAGES_EN = [
     "slug": "/en/about/smartphone-test-bench/",
     "slugFr": "/a-propos/banc-tests-smartphones/",
     "slugEn": "/en/about/smartphone-test-bench/",
-    "primary": "smartphone test bench",
-    "secondary": "device lab",
+    "primary": "Greenspector Test Bench",
+    "secondary": "device lab, energy measurement",
     "generated": false
   },
   {

@@ -1,27 +1,56 @@
 {
   "id": "about-innovations",
   "slug": "/a-propos/innovations/",
-  "template": "default",
+  "template": "html",
   "meta": {
-    "title": "Nos innovations | innovations Greenspector | Greenspector",
-    "description": "Page Greenspector dédiée au sujet : innovations Greenspector.",
-    "keywords": "innovations Greenspector, R&D, ECOSCORE",
-    "ogTitle": "Nos innovations | innovations Greenspector | Greenspector",
-    "ogDescription": "Page Greenspector dédiée au sujet : innovations Greenspector."
+    "title": "Innovation et R&D | mesure environnementale scientifique | Greenspector",
+    "description": "Découvrez la R&D Greenspector : mesure réelle d'énergie, modèle d'impacts, Ecoscore, publications scientifiques et contributions aux normes.",
+    "keywords": "innovation Greenspector, R&D, mesure énergie, Ecoscore, ACV numérique",
+    "ogTitle": "Innovation & R&D | La mesure d'impact fondée sur la science",
+    "ogDescription": "Plus de 12 ans de recherche au service d'une mesure environnementale réelle, documentée et publiée."
   },
   "nav": {
     "section": "À propos",
     "name": "Nos innovations",
     "primary": "innovations Greenspector",
-    "secondary": "R&D, ECOSCORE"
+    "secondary": "R&D, Ecoscore"
   },
   "hero": {
-    "label": "À propos",
-    "title": "Nos innovations",
-    "subtitle": "innovations Greenspector"
+    "label": "Innovation & R&D",
+    "title": "La mesure d'impact environnemental du numérique, fondée sur la science",
+    "subtitle": "Là où le marché applique des modèles théoriques, Greenspector produit la recherche : mesure réelle d'énergie, modèle d'impacts avec propagation des incertitudes, publications évaluées par des pairs, contribution aux normes ISO et W3C.",
+    "actions": [
+      {
+        "label": "Découvrir notre méthodologie",
+        "href": "/studio/mesure-impact-environnemental-numerique/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Nos publications",
+        "href": "#publications",
+        "primary": false,
+        "external": false
+      }
+    ],
+    "reassurance": [
+      {
+        "label": "Recherche",
+        "value": "+12 ans de R&D"
+      },
+      {
+        "label": "Reconnaissance",
+        "value": "Projets labellisés France & Europe"
+      },
+      {
+        "label": "Impact",
+        "value": "Label Solar Impulse"
+      },
+      {
+        "label": "Standards",
+        "value": "Contributeur AFNOR/ISO & W3C"
+      }
+    ]
   },
-  "contentMeta": [
-    "Mot-clé principal : innovations Greenspector",
-    "Mots-clés secondaires : R&D, ECOSCORE"
-  ]
+  "bodyHtml": "<div class=\"test-bench-page innovation-page\">\n                    <div class=\"content-panel studio-page\">\n                    <section class=\"studio-section studio-intro\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Notre positionnement</p>\n                            <h2>Mesurer, pas estimer</h2>\n                            <p>La plupart des outils d'évaluation environnementale du numérique reposent sur des modèles théoriques génériques appliqués à des données déclaratives ou à des analyses statiques de pages. Résultat : des estimations invérifiables, souvent très éloignées de la réalité.</p>\n                            <p>Greenspector a fait un autre choix, plus exigeant : partir de la mesure réelle, sur appareils réels, et construire par la recherche les modèles qui transforment cette mesure en impacts environnementaux fiables. C'est ce qui fait de notre méthodologie l'une des rares du marché à être documentée, publiée et évaluée par la communauté scientifique.</p>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"innovation-pillars-title\">\n                        <p class=\"eyebrow\">Nos 4 innovations</p>\n                        <h2 id=\"innovation-pillars-title\">De la mesure physique à l'indicateur actionnable</h2>\n                        <div class=\"studio-grid test-bench-pillars\">\n                            <article class=\"studio-card\">\n                                <h3><span class=\"test-bench-pillar-icon\" aria-hidden=\"true\">⚡</span> La mesure réelle d'énergie sur appareils, en mode SaaS</h3>\n                                <p>Notre banc de test (Test Bench) mesure l'énergie réellement consommée par des smartphones et tablettes réels, équipés de sondes haute précision, placés en conditions réelles d'utilisation : sur batterie, non connectés en USB pendant la mesure.</p>\n                                <p>L'innovation ne réside pas seulement dans la mesure, mais dans son industrialisation en SaaS : lancer une mesure d'énergie sur un iPhone réel depuis son navigateur ou sa CI/CD, c'est une capacité unique au monde — fruit de plusieurs années de R&amp;D sur l'automatisation, la stabilisation des terminaux et la fiabilité métrologique.</p>\n                                <p><a href=\"/a-propos/banc-tests-smartphones/\">En savoir plus sur le Test Bench</a></p>\n                            </article>\n                            <article class=\"studio-card\">\n                                <h3><span class=\"test-bench-pillar-icon\" aria-hidden=\"true\">🌍</span> Un modèle d'impacts pour une ACV simplifiée</h3>\n                                <p>Nos mesures alimentent un modèle d'impacts exclusif qui réalise une analyse de cycle de vie simplifiée du service numérique :</p>\n                                <ul>\n                                    <li>Toutes les phases du cycle de vie des matériels sollicités, sur l'ensemble de la chaîne : terminaux, réseaux, serveurs ;</li>\n                                    <li>Un mécanisme de propagation des incertitudes, des sources et mesures jusqu'au résultat final ;</li>\n                                    <li>8 indicateurs d'impacts pour aller au-delà du seul CO₂.</li>\n                                </ul>\n                                <p>Cette gestion rigoureuse des incertitudes a fait l'objet d'une publication scientifique avec l'INRIA et le CNRS (ICT4S 2024).</p>\n                            </article>\n                            <article class=\"studio-card\">\n                                <h3><span class=\"test-bench-pillar-icon\" aria-hidden=\"true\">🎯</span> L'Ecoscore : l'impact global en un coup d'œil</h3>\n                                <p>Comment rendre actionnable une ACV multicritère ? Nous avons conçu l'Ecoscore, une note synthétique de A à G qui agrège la sobriété d'une application ou d'un site sur ses dimensions clés : ressources client, réseau et énergie.</p>\n                                <p>Simple à communiquer, comparable dans le temps et entre applications, l'Ecoscore permet à toutes les parties prenantes de partager un même indicateur de pilotage. Son application au domaine de la santé a été développée avec le Ministère de la Santé et l'Agence du Numérique en Santé, et publiée (DigitalHealth 2023).</p>\n                            </article>\n                            <article class=\"studio-card\">\n                                <h3><span class=\"test-bench-pillar-icon\" aria-hidden=\"true\">✍️</span> L'automatisation des tests à la portée de tous</h3>\n                                <p>Mesurer un parcours utilisateur réel nécessite de l'automatiser. Pour lever cette barrière, nous avons créé le GDSL, un langage de script simplifié conçu pour décrire un parcours en quelques lignes lisibles, complété par une interface visuelle de rédaction des tests.</p>\n                                <p>Pas besoin d'être expert en automatisation mobile : équipes QA, product owners ou consultants écrivent leurs parcours et lancent leurs mesures en toute autonomie.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"innovation-foundations-title\">\n                        <p class=\"eyebrow\">Les fondations R&amp;D</p>\n                        <h2 id=\"innovation-foundations-title\">Plus de 12 ans de recherche, en collaboration</h2>\n                        <div class=\"studio-grid innovation-foundations\">\n                            <article class=\"studio-card\">\n                                <h3>Recherche collaborative</h3>\n                                <p>Nos outils et notre expertise sont le fruit de plus de 12 ans de R&amp;D, dont de nombreuses collaborations sur des projets labellisés français et européens avec des partenaires académiques et industriels : INRIA, CNRS, Vrije Universiteit Amsterdam, ADEME, Orange, Ministère de la Santé…</p>\n                            </article>\n                            <article class=\"studio-card\">\n                                <h3>Contribuer aux normes de demain</h3>\n                                <p>Nous ne nous contentons pas d'appliquer les référentiels : nous participons à leur écriture.</p>\n                                <ul>\n                                    <li><strong>AFNOR / ISO :</strong> participation au groupe de travail français pour une norme ISO sur l'écoconception des services numériques.</li>\n                                    <li><strong>W3C :</strong> contribution aux groupes de travail sur l'écoconception des sites web.</li>\n                                </ul>\n                            </article>\n                            <article class=\"studio-card\">\n                                <h3>Labellisé Solar Impulse</h3>\n                                <p>Greenspector est labellisé par la Fondation Solar Impulse, qui distingue les solutions à la fois écologiquement pertinentes et économiquement viables.</p>\n                                <p><a href=\"https://solarimpulse.com/solutions-explorer/greenspector\" target=\"_blank\" rel=\"noopener noreferrer\">Voir Greenspector sur Solar Impulse</a></p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section id=\"publications\" class=\"studio-section\" aria-labelledby=\"innovation-publications-title\">\n                        <p class=\"eyebrow\">Publications scientifiques</p>\n                        <h2 id=\"innovation-publications-title\">Une méthodologie évaluée par des pairs</h2>\n                        <p>La méthodologie Greenspector est régulièrement soumise à la communauté scientifique, dans des conférences et publications internationales :</p>\n                        <div class=\"studio-card innovation-publications-card\">\n                            <ol class=\"innovation-publications\">\n                                <li>AndroWatts: Unpacking the Power Consumption of Mobile Device's Components — MobileSoft 2025 (Greenspector + INRIA, 2025)</li>\n                                <li>Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic — ICT4S Stockholm 2024 (Greenspector, INRIA, CNRS)</li>\n                                <li>Assessing the environmental impact of mobile applications: a measure framework toward DevGreenOps — MobileSoft 2024 (Greenspector, 2024)</li>\n                                <li>Reducing the environmental impact of digital health: Development of an ecoscore for health apps — DigitalHealth 2023 (Greenspector + Ministère de la Santé / ANS, 2023)</li>\n                                <li>The GreenLab4IoT project: development of an IoT measurement testbench for better eco-design — LCM 2023 (Greenspector + Evea Conseil, 2023)</li>\n                                <li>Investigating the Correlation between Performance Scores and Energy Consumption of Mobile Web Apps — Greenspector + Vrije Universiteit Amsterdam, 2020</li>\n                                <li>Software Measurement of Energy Consumption on Smartphones — Convince Project consortium, 2018</li>\n                                <li>Is “software eco-design” a solution to reduce the environmental impact of electronic equipment? — Vautier M., Philippot O., EGG 2016, Fraunhofer IZM, Berlin (Greenspector + Orange, IEEE, 2016)</li>\n                                <li>Characterization of the energy consumption of websites: Impact of website implementation on resource consumption — ICT4S 2014 (Greenspector + ADEME, 2014)</li>\n                            </ol>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight test-bench-final-cta\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Science &amp; industrie</p>\n                            <h2>Une solution industrielle, une rigueur scientifique</h2>\n                            <p>Appuyez vos décisions d'écoconception sur des mesures réelles et une méthodologie publiée.</p>\n                            <div class=\"innovation-final-actions\">\n                                <a class=\"btn btn-gs-primary\" href=\"/contact/\">Demander une démo</a>\n                                <a class=\"btn btn-gs-outline\" href=\"/studio/mesure-impact-environnemental-numerique/\">Consulter la méthodologie complète</a>\n                            </div>\n                        </div>\n                    </section>\n                    </div>\n                </div>"
 }

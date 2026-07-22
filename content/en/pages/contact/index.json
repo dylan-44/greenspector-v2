@@ -18,10 +18,7 @@
   "hero": {
     "label": "Contact",
     "title": "Contact us",
-    "subtitle": "contact Greenspector"
+    "subtitle": "Demo request, sales question or support: our team will get back to you soon."
   },
-  "contentMeta": [
-    "Primary keyword: contact Greenspector",
-    "Secondary keywords: information request"
-  ]
+  "bodyHtml": "<div class=\"contact-page\">\n                        <div class=\"contact-form-embed\">\n                            <iframe class=\"contact-form-embed__frame\" src=\"https://greenspector-ii.odoo.com/contact-form\" title=\"Greenspector contact form\" name=\"greenspectorContactForm\" loading=\"lazy\" scrolling=\"no\" sandbox=\"allow-scripts allow-same-origin allow-forms\" allowfullscreen></iframe>\n                        </div>\n                    </div>"
 }

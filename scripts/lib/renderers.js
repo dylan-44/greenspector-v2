@@ -33,11 +33,33 @@ function renderHeroActions(actions, ctx) {
     .join('')}</div>`;
 }
 
+function renderHeroReassurance(items, locale) {
+  if (!items || !items.length) {
+    return '';
+  }
+
+  const label = locale === 'fr' ? 'Points clés' : 'Highlights';
+  const list = items
+    .map((item) => {
+      if (typeof item === 'string') {
+        return `<li><strong>${esc(item)}</strong></li>`;
+      }
+      return `<li><span>${esc(item.label)}</span><strong>${esc(item.value)}</strong></li>`;
+    })
+    .join('');
+  return `<div class="hero-reassurance-band">
+            <div class="container">
+                <ul class="hero-reassurance" aria-label="${label}">${list}</ul>
+            </div>
+        </div>`;
+}
+
 function renderHero(page, ctx, nav) {
   const { hero } = page;
   const label = hero.label ? `<p class="section-label">${esc(hero.label)}</p>` : '';
   const subtitle = hero.subtitle ? `<p class="hero-subtitle">${hero.subtitle}</p>` : '';
   const actions = renderHeroActions(hero.actions, ctx);
+  const reassurance = renderHeroReassurance(hero.reassurance, ctx.locale);
   const slugNote = page.slugNote ? `<p class="slug-note">${esc(page.slugNote)}</p>` : '';
 
   return `<section class="hero">
@@ -48,7 +70,7 @@ function renderHero(page, ctx, nav) {
                 ${actions}
                 ${slugNote}
             </div>
-        </section>`;
+        </section>${reassurance}`;
 }
 
 function rewriteHtml(html, ctx) {
