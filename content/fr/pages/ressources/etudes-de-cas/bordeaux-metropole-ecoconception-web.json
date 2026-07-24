@@ -1,27 +1,39 @@
 {
   "id": "case-bordeaux",
   "slug": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
-  "template": "default",
+  "template": "html",
   "meta": {
-    "title": "Bordeaux Métropole | écoconception web | Greenspector",
-    "description": "Étude de cas Greenspector : Bordeaux Métropole.",
-    "keywords": "écoconception web, collectivité",
-    "ogTitle": "Bordeaux Métropole | écoconception web | Greenspector",
-    "ogDescription": "Étude de cas Greenspector : Bordeaux Métropole."
+    "title": "Bordeaux Métropole : éco-conception des espaces usagers numériques | Cas client Greenspector",
+    "description": "Découvrez comment Bordeaux Métropole a engagé une démarche d'éco-conception pour ses espaces usagers numériques, avec deux certifications Greenspector obtenues.",
+    "keywords": "Bordeaux Métropole, éco-conception, sobriété numérique, Ma Ville Facile, Mes Démarches, certification Greenspector",
+    "ogTitle": "Bordeaux Métropole : éco-conception des espaces usagers numériques",
+    "ogDescription": "Un cas client sur l'accompagnement de Bordeaux Métropole dans l'éco-conception de ses applications usagers et l'amélioration continue de ses services numériques.",
+    "ogImage": "https://greenspector.com/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg"
   },
   "nav": {
     "section": "Ressources",
     "name": "Bordeaux Métropole",
-    "primary": "écoconception web",
-    "secondary": "collectivité territoriale"
+    "primary": "éco-conception espaces usagers",
+    "secondary": "collectivité, certification"
   },
   "hero": {
     "label": "Étude de cas",
-    "title": "Bordeaux Métropole",
-    "subtitle": "écoconception web"
+    "title": "Bordeaux Métropole : éco-concevoir des espaces usagers performants et responsables",
+    "subtitle": "Concevoir des espaces usagers éco-conçus, conciliant qualité d'expérience, performance et maîtrise des impacts environnementaux.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Toutes les études de cas",
+        "href": "/ressources/etudes-de-cas/",
+        "primary": false,
+        "external": false
+      }
+    ]
   },
-  "contentMeta": [
-    "Mot-clé principal : écoconception web",
-    "Mots-clés secondaires : collectivité"
-  ]
+  "bodyHtml": "<article class=\"content-panel studio-page case-study-page bordeaux-case-page\">\n                    <section class=\"studio-intro studio-section\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Bordeaux Métropole</p>\n                            <h2>Contexte du projet</h2>\n                            <p>Bordeaux Métropole souhaitait concevoir des espaces usagers éco-conçus, conciliant qualité d'expérience, performance et maîtrise des impacts environnementaux.</p>\n                            <p>L'objectif était également d'accompagner le programme Numérique Usagers de Bordeaux Métropole dans une démarche d'amélioration continue.</p>\n                        </div>\n                        <figure class=\"studio-figure bordeaux-hero-figure\">\n                            <img src=\"/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg\" alt=\"Interfaces Ma Ville Facile et Mes Démarches Bordeaux Métropole\" width=\"960\" height=\"540\" loading=\"eager\" decoding=\"async\">\n                        </figure>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-pilot-title\">\n                        <p class=\"eyebrow\">Pilote</p>\n                        <h2 id=\"bordeaux-pilot-title\">Un pilote sur deux applications numériques</h2>\n                        <p>La démarche a été menée à travers un pilote portant sur deux services numériques à destination des usagers.</p>\n                        <div class=\"studio-grid studio-mini-grid bordeaux-apps\">\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Ma Ville Facile</h3>\n                                <p>Application mobile usager multi-commune.</p>\n                            </article>\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Mes Démarches Bordeaux Métropole</h3>\n                                <p>Portail de démarche pour les usagers.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-results-title\">\n                        <p class=\"eyebrow\">Résultats</p>\n                        <h2 id=\"bordeaux-results-title\">Résultats obtenus</h2>\n                        <ul class=\"case-study-results\">\n                            <li>Une formation à l'éco-conception de l'ensemble de l'équipe Numérique Usagers et une montée en compétences sur le sujet.</li>\n                            <li>Deux certifications Greenspector obtenues : <strong>niveau Bronze</strong> pour le portail et <strong>niveau Argent</strong> pour l'application mobile.</li>\n                        </ul>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-keys-title\">\n                        <p class=\"eyebrow\">Clés du succès</p>\n                        <h2 id=\"bordeaux-keys-title\">Ce qui a fait la différence</h2>\n                        <div class=\"studio-grid studio-mini-grid case-study-keys\">\n                            <article class=\"studio-card case-study-key\">\n                                <span class=\"case-study-key__icon\" aria-hidden=\"true\"><i class=\"fa-solid fa-check\"></i></span>\n                                <h3>Accompagnement au démarrage</h3>\n                                <p>Un accompagnement instructif et soutenu de l'ensemble de l'équipe sur le sujet de l'éco-conception au démarrage.</p>\n                            </article>\n                            <article class=\"studio-card case-study-key\">\n                                <span class=\"case-study-key__icon\" aria-hidden=\"true\"><i class=\"fa-solid fa-check\"></i></span>\n                                <h3>Autonomie de l'équipe projet</h3>\n                                <p>Une prise en main du suivi des actions et une capacité grandissante sur les outils de test par l'équipe projet.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-people-title\">\n                        <p class=\"eyebrow\">Interlocuteurs</p>\n                        <h2 id=\"bordeaux-people-title\">Témoignage et interlocuteurs projet</h2>\n                        <p>Cette démarche a été portée avec les équipes de Bordeaux Métropole, notamment&nbsp;:</p>\n                        <div class=\"studio-grid studio-mini-grid bordeaux-contacts\">\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Mathieu Lassalle</h3>\n                                <p>ADG en charge des Programmes Numériques, Bordeaux Métropole.</p>\n                            </article>\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Cyril Wangermez</h3>\n                                <p>Chef de projet numérique, Bordeaux Métropole.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">À retenir</p>\n                            <h2>Une démarche durable, des résultats certifiés</h2>\n                            <p>Ce projet illustre la capacité d'une collectivité à intégrer l'éco-conception dans ses services numériques usagers, tout en conservant une exigence forte sur la qualité d'expérience, la performance et l'amélioration continue.</p>\n                            <p>L'accompagnement, la formation des équipes et la mesure régulière ont permis de structurer une démarche durable, avec des résultats certifiés sur les services évalués.</p>\n                            <p><a class=\"btn btn-gs-primary\" href=\"/contact/\">Évaluer votre service numérique</a></p>\n                        </div>\n                    </section>\n                </article>"
 }

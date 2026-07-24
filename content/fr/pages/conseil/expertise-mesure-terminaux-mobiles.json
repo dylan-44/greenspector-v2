@@ -1,27 +1,39 @@
 {
   "id": "conseil-expertise",
   "slug": "/conseil/expertise-mesure-terminaux-mobiles/",
-  "template": "default",
+  "template": "html",
   "meta": {
-    "title": "Expertise terminaux mobiles | expertise mesure terminaux | Greenspector",
-    "description": "Page Greenspector dédiée au sujet : expertise mesure terminaux.",
-    "keywords": "expertise mesure terminaux, smartphones, tablettes, devices",
-    "ogTitle": "Expertise terminaux mobiles | expertise mesure terminaux | Greenspector",
-    "ogDescription": "Page Greenspector dédiée au sujet : expertise mesure terminaux."
+    "title": "Expertise terminaux mobiles | flotte, batterie, performance | Greenspector",
+    "description": "Optimisez votre flotte mobile avec des mesures fiables sur terminaux réels : choix des appareils, autonomie, usure batteries et Quality Gate avant déploiement.",
+    "keywords": "expertise terminaux mobiles, flotte mobile, batterie, performance, Quality Gate, Greenspector Studio",
+    "ogTitle": "Expertise terminaux mobiles | flotte, batterie, performance",
+    "ogDescription": "Mesures sur terminaux réels pour choisir, diagnostiquer et valider votre flotte mobile avant déploiement.",
+    "ogImage": "https://greenspector.com/assets/img/external/s3.fr-par.scw.cloud/datasource_content_e01ecc96-1ab0-416a-ba8d-325de2129e7e_img-0.jpeg"
   },
   "nav": {
     "section": "Conseil",
     "name": "Expertise terminaux mobiles",
-    "primary": "expertise mesure terminaux",
-    "secondary": "smartphones, tablettes, devices"
+    "primary": "expertise terminaux mobiles",
+    "secondary": "flotte, batterie, Quality Gate"
   },
   "hero": {
     "label": "Conseil",
     "title": "Expertise terminaux mobiles",
-    "subtitle": "expertise mesure terminaux"
+    "subtitle": "Optimisez votre flotte mobile avec des mesures fiables sur terminaux réels : choix des appareils, autonomie, performance, usure des batteries et validation des applications métiers avant déploiement.",
+    "actions": [
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Découvrir nos partenaires",
+        "href": "/a-propos/partenaires/",
+        "primary": false,
+        "external": false
+      }
+    ]
   },
-  "contentMeta": [
-    "Mot-clé principal : expertise mesure terminaux",
-    "Mots-clés secondaires : smartphones, tablettes, devices"
-  ]
+  "bodyHtml": "<article class=\"content-panel studio-page expertise-devices-page\">\n                    <section class=\"studio-intro studio-section\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Flotte mobile</p>\n                            <h2>Une flotte mobile moins chère et plus performante</h2>\n                            <p>Grâce à Greenspector Studio, nos partenaires experts peuvent vous accompagner sur la gestion de votre flotte mobile.</p>\n                            <ul class=\"expertise-benefits\">\n                                <li>Aide au choix de terminal avant achat</li>\n                                <li>Identification de problèmes de consommation ou de performance</li>\n                                <li>Évaluation de l'usure réelle des batteries avant de décider un remplacement</li>\n                                <li>Mise en place d'une Quality Gate pour valider la consommation de batterie des applications métiers avant de les déployer</li>\n                            </ul>\n                            <p>Choisissez et déployez vos terminaux en toute confiance. Étendez la durée de vie de votre flotte mobile, faites des économies et réduisez votre impact environnemental.</p>\n                        </div>\n                        <figure class=\"studio-figure expertise-devices-figure\">\n                            <img src=\"/assets/img/external/s3.fr-par.scw.cloud/datasource_content_e01ecc96-1ab0-416a-ba8d-325de2129e7e_img-0.jpeg\" alt=\"Expertise terminaux mobiles et gestion de flotte mobile\" width=\"960\" height=\"720\" loading=\"eager\" decoding=\"async\">\n                        </figure>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"expertise-lab-title\">\n                        <p class=\"eyebrow\">Choix de matériel</p>\n                        <h2 id=\"expertise-lab-title\">Quel terminal choisir pour sa flotte mobile&nbsp;? Un labo pour vous aider</h2>\n                        <p>Comment faire le bon choix avant de commander plusieurs milliers de terminaux pour ses agents sur le terrain&nbsp;? Quelle durée de vie attendre de leurs batteries&nbsp;? Quelle sera l'autonomie au quotidien&nbsp;?</p>\n                        <p>Nous avons mis au point avec nos partenaires une méthodologie de mesure objective et fiable pour répondre à toutes ces questions. Grâce à Greenspector Studio, notre partenaire exécute des campagnes de mesures sur des scénarios d'usages réalistes et complets.</p>\n                        <div class=\"studio-grid studio-mini-grid expertise-stats\">\n                            <article class=\"studio-card studio-card-compact\">\n                                <p class=\"expertise-stat-value\">500&nbsp;000+</p>\n                                <p>smartphones et tablettes déjà validés avant achat grâce à nos mesures</p>\n                            </article>\n                            <article class=\"studio-card studio-card-compact\">\n                                <p class=\"expertise-stat-value\">4 à 5 ans</p>\n                                <p>de conservation des terminaux sans souci de batterie, pour un TCO réduit</p>\n                            </article>\n                        </div>\n                        <p>Les tests de nos partenaires couvrent aussi d'autres aspects essentiels&nbsp;: qualité d'accroche réseau, robustesse, qualité photo…</p>\n                        <p><a class=\"btn btn-gs-outline\" href=\"/a-propos/partenaires/\">En savoir plus sur nos partenaires</a></p>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"expertise-diag-title\">\n                        <p class=\"eyebrow\">Diagnostic</p>\n                        <h2 id=\"expertise-diag-title\">Identifier un problème de batterie ou de performance</h2>\n                        <p>Votre application métier est lente, ou consomme trop de batterie. Les utilisateurs se plaignent. Comment savoir d'où vient la cause&nbsp;?</p>\n                        <p>La précision et la stabilité des mesures réalisées avec Greenspector Studio permettent à nos partenaires de vous aider. Ils réalisent des campagnes de mesures sur des terminaux issus de votre flotte.</p>\n                        <p>En faisant varier les conditions de test — avec ou sans MDM, différents modèles, connexions réseaux, applications — ils identifient pour vous la cause des problèmes et vous recommandent des actions de remédiation.</p>\n                        <p>Cette démarche peut aussi être préventive&nbsp;: par exemple, vous pouvez connaître l'impact d'une montée de version Android avant de la déclencher.</p>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight expertise-qg\" aria-labelledby=\"expertise-qg-title\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Quality Gate</p>\n                            <h2 id=\"expertise-qg-title\">Valider le comportement des applications métiers avant de les déployer</h2>\n                            <p>Un seul bug dans une seule application métier suffit à vider la batterie de vos terminaux et à mettre toutes vos équipes à l'arrêt&nbsp;!</p>\n                            <p>Ne subissez plus&nbsp;: avant chaque déploiement d'une application, validez la consommation de batterie et la performance des applications.</p>\n                            <p>C'est simple&nbsp;:</p>\n                            <ul class=\"expertise-qg-steps\">\n                                <li>un test automatisé du parcours critique dans chaque application&nbsp;;</li>\n                                <li>lancé automatiquement par votre CI/CD ou par vos testeurs&nbsp;;</li>\n                                <li>sur votre banc de test privé, avec vos propres terminaux issus de votre flotte, pour des résultats personnalisés.</li>\n                            </ul>\n                            <p>Vos salariés ne vivent pas dans une simulation. Avec Greenspector Studio, vos tests non plus&nbsp;!</p>\n                            <p><a class=\"btn btn-gs-primary\" href=\"/contact/\">Demander une démo</a></p>\n                        </div>\n                    </section>\n                </article>"
 }

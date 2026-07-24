@@ -68,9 +68,23 @@ npm run build      # Générer HTML + assets/js/site-data.js + sitemap.xml
 ## Pour les agents RAG
 
 - **1 page = 1 JSON** : retrieval simple par chemin ou `id` du registry.
+- **Éditez directement** `content/fr/pages/<chemin>.json` et `content/en/pages/<chemin>.json` — champs `meta`, `hero`, `bodyHtml` selon le template.
+- **Ne lancez pas Node** dans votre environnement : le build (`npm run build`) est exécuté par la CI ou un développeur au moment du déploiement.
+- **Ne modifiez pas** les fichiers HTML à la racine ni sous `/en/` : ils sont régénérés à partir des JSON.
+- **Ignorez** les scripts `scripts/build-*-page.js` s'ils existent encore : ce sont des utilitaires ponctuels de migration, pas la source de vérité. La source de vérité est toujours le JSON dans `content/`.
 - Les champs documentés dans les JSON Schema décrivent la structure attendue.
 - Les études de cas complètes utilisent le template `case-study` (pas de HTML libre).
 - Les pages stub ont `"template": "default"` sans `bodyHtml`.
 - Le statut `"published"` dans le registry indique une page visible ; `"draft"` peut masquer le lien EN (évolution future).
+
+### Exemple : modifier la page RSE
+
+Fichier source FR : `content/fr/pages/a-propos/rse.json`
+
+- `hero.title`, `hero.subtitle`, `hero.reassurance` → bandeau d'en-tête
+- `bodyHtml` → corps de la page (HTML avec classes CSS existantes : `studio-section`, `studio-card`, etc.)
+- Fichier miroir EN : `content/en/pages/a-propos/rse.json`
+
+Après commit des JSON, la CI régénère `a-propos/rse/index.html` et `en/about/csr/index.html`.
 
 **Règles de traduction FR→EN pour la flotte IA :** voir [`RAG_TRANSLATION_RULES.md`](RAG_TRANSLATION_RULES.md) (glossaire, checklist, prompt système, erreurs à éviter).

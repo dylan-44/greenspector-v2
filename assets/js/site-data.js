@@ -205,8 +205,8 @@ window.GS_PAGES = [
     "slug": "/conseil/expertise-mesure-terminaux-mobiles/",
     "slugFr": "/conseil/expertise-mesure-terminaux-mobiles/",
     "slugEn": "/en/consulting/mobile-device-measurement/",
-    "primary": "expertise mesure terminaux",
-    "secondary": "smartphones, tablettes, devices",
+    "primary": "expertise terminaux mobiles",
+    "secondary": "flotte, batterie, Quality Gate",
     "generated": false
   },
   {
@@ -215,8 +215,8 @@ window.GS_PAGES = [
     "slug": "/conseil/banc-mesure-consommation-smartphone/",
     "slugFr": "/conseil/banc-mesure-consommation-smartphone/",
     "slugEn": "/en/consulting/smartphone-power-test-bench/",
-    "primary": "banc de mesure consommation smartphone",
-    "secondary": "device lab, laboratoire mobile",
+    "primary": "banc de mesure",
+    "secondary": "R&D, IoT, Smart TV",
     "generated": false
   },
   {
@@ -407,8 +407,8 @@ window.GS_PAGES_EN = [
     "slug": "/en/consulting/mobile-device-measurement/",
     "slugFr": "/conseil/expertise-mesure-terminaux-mobiles/",
     "slugEn": "/en/consulting/mobile-device-measurement/",
-    "primary": "terminal measurement expertise",
-    "secondary": "smartphones, tablets, devices",
+    "primary": "mobile device expertise",
+    "secondary": "fleet, battery, Quality Gate",
     "generated": false
   },
   {
@@ -417,8 +417,8 @@ window.GS_PAGES_EN = [
     "slug": "/en/consulting/smartphone-power-test-bench/",
     "slugFr": "/conseil/banc-mesure-consommation-smartphone/",
     "slugEn": "/en/consulting/smartphone-power-test-bench/",
-    "primary": "smartphone consumption measurement bench",
-    "secondary": "device lab, mobile laboratory",
+    "primary": "measurement bench",
+    "secondary": "R&D, IoT, Smart TV",
     "generated": false
   },
   {
@@ -567,8 +567,8 @@ window.GS_CASE_STUDIES = [
   {
     "slug": "bordeaux-metropole-ecoconception-web/",
     "title": "Bordeaux Métropole",
-    "description": "Démarche d'écoconception web pour les services numériques d'une collectivité territoriale et réduction de l'impact des parcours usagers.",
-    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
+    "description": "Éco-conception des espaces usagers numériques : formation des équipes et certifications Bronze et Argent Greenspector.",
+    "image": "/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg"
   }
 ];
 window.GS_CASE_STUDIES_EN = [
@@ -635,8 +635,8 @@ window.GS_CASE_STUDIES_EN = [
   {
     "slug": "bordeaux-metropole-web-ecodesign/",
     "title": "Bordeaux Métropole",
-    "description": "Web ecodesign approach for local government digital services and reduced impact on user journeys.",
-    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
+    "description": "Ecodesign of citizen digital services: team training and Greenspector Bronze and Silver certifications.",
+    "image": "/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg"
   }
 ];
 

@@ -1,27 +1,39 @@
 {
   "id": "conseil-expertise",
   "slug": "/conseil/expertise-mesure-terminaux-mobiles/",
-  "template": "default",
+  "template": "html",
   "meta": {
-    "title": "Mobile device expertise | terminal measurement expertise | Greenspector",
-    "description": "Greenspector page dedicated to: terminal measurement expertise.",
-    "keywords": "terminal measurement expertise, smartphones, tablets, devices",
-    "ogTitle": "Mobile device expertise | terminal measurement expertise | Greenspector",
-    "ogDescription": "Greenspector page dedicated to: terminal measurement expertise."
+    "title": "Mobile device expertise | fleet, battery, performance | Greenspector",
+    "description": "Optimise your mobile fleet with reliable measurements on real devices: device selection, battery life, wear and Quality Gate before deployment.",
+    "keywords": "mobile device expertise, mobile fleet, battery, performance, Quality Gate, Greenspector Studio",
+    "ogTitle": "Mobile device expertise | fleet, battery, performance",
+    "ogDescription": "Real-device measurements to select, diagnose and validate your mobile fleet before deployment.",
+    "ogImage": "https://greenspector.com/assets/img/external/s3.fr-par.scw.cloud/datasource_content_e01ecc96-1ab0-416a-ba8d-325de2129e7e_img-0.jpeg"
   },
   "nav": {
     "section": "Conseil",
     "name": "Mobile device expertise",
-    "primary": "terminal measurement expertise",
-    "secondary": "smartphones, tablets, devices"
+    "primary": "mobile device expertise",
+    "secondary": "fleet, battery, Quality Gate"
   },
   "hero": {
     "label": "Consulting",
     "title": "Mobile device expertise",
-    "subtitle": "terminal measurement expertise"
+    "subtitle": "Optimise your mobile fleet with reliable measurements on real devices: device selection, battery life, performance, battery wear and validation of business apps before deployment.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "Discover our partners",
+        "href": "/a-propos/partenaires/",
+        "primary": false,
+        "external": false
+      }
+    ]
   },
-  "contentMeta": [
-    "Primary keyword: terminal measurement expertise",
-    "Secondary keywords: smartphones, tablets, devices"
-  ]
+  "bodyHtml": "<article class=\"content-panel studio-page expertise-devices-page\">\n                    <section class=\"studio-intro studio-section\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Mobile fleet</p>\n                            <h2>A cheaper, higher-performing mobile fleet</h2>\n                            <p>With Greenspector Studio, our expert partners can support you in managing your mobile fleet.</p>\n                            <ul class=\"expertise-benefits\">\n                                <li>Help choosing devices before purchase</li>\n                                <li>Identification of consumption or performance issues</li>\n                                <li>Assessment of real battery wear before deciding on a replacement</li>\n                                <li>Implementation of a Quality Gate to validate battery consumption of business apps before deployment</li>\n                            </ul>\n                            <p>Choose and roll out devices with confidence. Extend the life of your mobile fleet, cut costs and reduce your environmental impact.</p>\n                        </div>\n                        <figure class=\"studio-figure expertise-devices-figure\">\n                            <img src=\"/assets/img/external/s3.fr-par.scw.cloud/datasource_content_e01ecc96-1ab0-416a-ba8d-325de2129e7e_img-0.jpeg\" alt=\"Mobile device expertise and fleet management\" width=\"960\" height=\"720\" loading=\"eager\" decoding=\"async\">\n                        </figure>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"expertise-lab-title\">\n                        <p class=\"eyebrow\">Device selection</p>\n                        <h2 id=\"expertise-lab-title\">Which device for your mobile fleet? A lab to help you decide</h2>\n                        <p>How do you make the right choice before ordering thousands of devices for field agents? What battery life should you expect? What will daily autonomy look like?</p>\n                        <p>Together with our partners, we developed an objective, reliable measurement methodology to answer these questions. Using Greenspector Studio, our partner runs measurement campaigns on realistic, complete usage scenarios.</p>\n                        <div class=\"studio-grid studio-mini-grid expertise-stats\">\n                            <article class=\"studio-card studio-card-compact\">\n                                <p class=\"expertise-stat-value\">500,000+</p>\n                                <p>smartphones and tablets already validated before purchase thanks to our measurements</p>\n                            </article>\n                            <article class=\"studio-card studio-card-compact\">\n                                <p class=\"expertise-stat-value\">4 to 5 years</p>\n                                <p>of device retention without battery issues, for a lower TCO</p>\n                            </article>\n                        </div>\n                        <p>Our partners' tests also cover other essentials: network attach quality, ruggedness, photo quality and more.</p>\n                        <p><a class=\"btn btn-gs-outline\" href=\"/a-propos/partenaires/\">Learn more about our partners</a></p>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"expertise-diag-title\">\n                        <p class=\"eyebrow\">Diagnostics</p>\n                        <h2 id=\"expertise-diag-title\">Identify a battery or performance issue</h2>\n                        <p>Your business app is slow, or drains the battery too fast. Users complain. How do you find the root cause?</p>\n                        <p>The precision and stability of measurements with Greenspector Studio enable our partners to help. They run measurement campaigns on devices from your own fleet.</p>\n                        <p>By varying test conditions — with or without MDM, different models, network connections, apps — they pinpoint the cause and recommend remediation actions.</p>\n                        <p>This approach can also be preventive: for example, you can assess the impact of an Android version upgrade before rolling it out.</p>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight expertise-qg\" aria-labelledby=\"expertise-qg-title\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Quality Gate</p>\n                            <h2 id=\"expertise-qg-title\">Validate business apps before you deploy them</h2>\n                            <p>A single bug in a single business app can drain your devices' batteries and bring your teams to a halt!</p>\n                            <p>Stop reacting after the fact: before each app deployment, validate battery consumption and performance.</p>\n                            <p>It is straightforward:</p>\n                            <ul class=\"expertise-qg-steps\">\n                                <li>an automated test of the critical journey in each app;</li>\n                                <li>triggered automatically by your CI/CD or by your testers;</li>\n                                <li>on your private test bench, with your own fleet devices, for tailored results.</li>\n                            </ul>\n                            <p>Your employees do not live in a simulation. With Greenspector Studio, neither do your tests!</p>\n                            <p><a class=\"btn btn-gs-primary\" href=\"/contact/\">Request a demo</a></p>\n                        </div>\n                    </section>\n                </article>"
 }

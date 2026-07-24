@@ -1,27 +1,39 @@
 {
   "id": "case-bordeaux",
   "slug": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
-  "template": "default",
+  "template": "html",
   "meta": {
-    "title": "Bordeaux Métropole | web ecodesign | Greenspector",
-    "description": "Greenspector case study: Bordeaux Métropole.",
-    "keywords": "web ecodesign, local authority",
-    "ogTitle": "Bordeaux Métropole | web ecodesign | Greenspector",
-    "ogDescription": "Greenspector case study: Bordeaux Métropole."
+    "title": "Bordeaux Métropole: ecodesign of digital citizen services | Greenspector case study",
+    "description": "Discover how Bordeaux Métropole launched an ecodesign approach for its digital citizen services, with two Greenspector certifications obtained.",
+    "keywords": "Bordeaux Métropole, digital ecodesign, digital frugality, Ma Ville Facile, Mes Démarches, Greenspector certification",
+    "ogTitle": "Bordeaux Métropole: ecodesign of digital citizen services",
+    "ogDescription": "A case study on supporting Bordeaux Métropole in the ecodesign of its citizen apps and continuous improvement of digital services.",
+    "ogImage": "https://greenspector.com/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg"
   },
   "nav": {
     "section": "Ressources",
     "name": "Bordeaux Métropole",
-    "primary": "web ecodesign",
-    "secondary": "local authority"
+    "primary": "citizen services ecodesign",
+    "secondary": "local authority, certification"
   },
   "hero": {
     "label": "Case study",
-    "title": "Bordeaux Métropole",
-    "subtitle": "web ecodesign"
+    "title": "Bordeaux Métropole: designing high-performing and responsible citizen digital spaces",
+    "subtitle": "Designing eco-designed citizen spaces that combine experience quality, performance and controlled environmental impact.",
+    "actions": [
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": true,
+        "external": false
+      },
+      {
+        "label": "All case studies",
+        "href": "/ressources/etudes-de-cas/",
+        "primary": false,
+        "external": false
+      }
+    ]
   },
-  "contentMeta": [
-    "Primary keyword: web ecodesign",
-    "Secondary keywords: local authority"
-  ]
+  "bodyHtml": "<article class=\"content-panel studio-page case-study-page bordeaux-case-page\">\n                    <section class=\"studio-intro studio-section\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Bordeaux Métropole</p>\n                            <h2>Project context</h2>\n                            <p>Bordeaux Métropole wanted to design eco-designed citizen digital spaces that combine experience quality, performance and controlled environmental impact.</p>\n                            <p>The goal was also to support Bordeaux Métropole's Citizen Digital programme through a continuous improvement approach.</p>\n                        </div>\n                        <figure class=\"studio-figure bordeaux-hero-figure\">\n                            <img src=\"/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg\" alt=\"Ma Ville Facile and Mes Démarches Bordeaux Métropole interfaces\" width=\"960\" height=\"540\" loading=\"eager\" decoding=\"async\">\n                        </figure>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-pilot-title\">\n                        <p class=\"eyebrow\">Pilot</p>\n                        <h2 id=\"bordeaux-pilot-title\">A pilot on two digital applications</h2>\n                        <p>The approach was delivered through a pilot covering two digital services for citizens.</p>\n                        <div class=\"studio-grid studio-mini-grid bordeaux-apps\">\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Ma Ville Facile</h3>\n                                <p>Multi-municipality citizen mobile app.</p>\n                            </article>\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Mes Démarches Bordeaux Métropole</h3>\n                                <p>Citizen procedures portal.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-results-title\">\n                        <p class=\"eyebrow\">Results</p>\n                        <h2 id=\"bordeaux-results-title\">Outcomes achieved</h2>\n                        <ul class=\"case-study-results\">\n                            <li>Ecodesign training for the entire Citizen Digital team and upskilling on the topic.</li>\n                            <li>Two Greenspector certifications obtained: <strong>Bronze</strong> for the portal and <strong>Silver</strong> for the mobile app.</li>\n                        </ul>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-keys-title\">\n                        <p class=\"eyebrow\">Success factors</p>\n                        <h2 id=\"bordeaux-keys-title\">What made the difference</h2>\n                        <div class=\"studio-grid studio-mini-grid case-study-keys\">\n                            <article class=\"studio-card case-study-key\">\n                                <span class=\"case-study-key__icon\" aria-hidden=\"true\"><i class=\"fa-solid fa-check\"></i></span>\n                                <h3>Support from day one</h3>\n                                <p>Instructive, sustained support for the whole team on ecodesign at the start of the project.</p>\n                            </article>\n                            <article class=\"studio-card case-study-key\">\n                                <span class=\"case-study-key__icon\" aria-hidden=\"true\"><i class=\"fa-solid fa-check\"></i></span>\n                                <h3>Project team autonomy</h3>\n                                <p>The project team took ownership of action tracking and steadily built capability with the testing tools.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\" aria-labelledby=\"bordeaux-people-title\">\n                        <p class=\"eyebrow\">Stakeholders</p>\n                        <h2 id=\"bordeaux-people-title\">Project contacts</h2>\n                        <p>This approach was delivered with Bordeaux Métropole teams, including:</p>\n                        <div class=\"studio-grid studio-mini-grid bordeaux-contacts\">\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Mathieu Lassalle</h3>\n                                <p>ADG in charge of Digital Programmes, Bordeaux Métropole.</p>\n                            </article>\n                            <article class=\"studio-card studio-card-compact\">\n                                <h3>Cyril Wangermez</h3>\n                                <p>Digital project manager, Bordeaux Métropole.</p>\n                            </article>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Key takeaways</p>\n                            <h2>A lasting approach with certified results</h2>\n                            <p>This project shows how a local authority can embed ecodesign into citizen digital services while keeping a strong focus on experience quality, performance and continuous improvement.</p>\n                            <p>Support, team training and regular measurement helped structure a lasting approach, with certified results on the evaluated services.</p>\n                            <p><a class=\"btn btn-gs-primary\" href=\"/contact/\">Assess your digital service</a></p>\n                        </div>\n                    </section>\n                </article>"
 }
