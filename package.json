@@ -9,7 +9,8 @@
     "ci": "npm run validate && npm run optimize-images && npm run build",
     "extract": "node scripts/extract-fr-content.js",
     "validate": "node scripts/validate-content.js",
-    "seed-en": "node scripts/seed-en-pages.js"
+    "seed-en": "node scripts/seed-en-pages.js",
+    "case-study-logos": "node scripts/fetch-case-study-logos.js"
   },
   "devDependencies": {
     "adm-zip": "^0.5.16",

@@ -3095,16 +3095,35 @@ body:not(.home-page) .hero .slug-note {
 
 .case-study-card__media {
   margin: 0;
+  min-height: 8.5rem;
   aspect-ratio: 16 / 9;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1rem;
   background: linear-gradient(180deg, rgba(202, 243, 189, 0.35), rgba(255, 255, 255, 1));
 }
 
 .case-study-card__media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: auto;
+  max-width: min(92%, 20rem);
+  max-height: 5.75rem;
+  height: auto;
+  object-fit: contain;
   display: block;
+}
+
+@media (min-width: 768px) {
+  .case-study-card__media {
+    min-height: 9rem;
+    padding: 1rem 1.15rem;
+  }
+
+  .case-study-card__media img {
+    max-width: min(94%, 22rem);
+    max-height: 6.5rem;
+  }
 }
 
 .case-study-card__body {

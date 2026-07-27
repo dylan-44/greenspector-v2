@@ -44,7 +44,7 @@ if (caseStudiesGrid && caseStudies.length) {
       return `<article class="case-study-card">
         <a class="case-study-card__link" href="${esc(href)}">
           <figure class="case-study-card__media">
-            <img src="${esc(image)}" alt="${esc(item.title)}" width="640" height="360" loading="lazy" decoding="async">
+            <img src="${esc(image)}" alt="" width="200" height="80" loading="lazy" decoding="async">
           </figure>
           <div class="case-study-card__body">
             <p class="eyebrow">${esc(cardLabels.eyebrow || 'Case study')}</p>
