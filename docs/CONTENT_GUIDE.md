@@ -68,7 +68,7 @@ npm run ci         # validate + optimize-images + build (identique à la CI)
 
 ## CI (GitHub / GitLab)
 
-Fichiers : `.github/workflows/ci.yml` (GitHub) et `.gitlab-ci.yml` (GitLab).
+Fichiers : `.github/workflows/main.yml` (GitHub) et `.gitlab-ci.yml` (GitLab).
 
 Pipeline : `validate` → `optimize-images` → `build` → commit auto des artefacts sur `master` (`ci: rebuild static site [skip ci]`).
 
