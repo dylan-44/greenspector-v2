@@ -20,7 +20,7 @@ workflow:
     - if: $CI_COMMIT_MESSAGE =~ /\[skip ci\]/
       when: never
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "master"
 
 validate:
   stage: validate
@@ -60,7 +60,7 @@ publish:build-output:
   needs:
     - build
   rules:
-    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "master"
   before_script:
     - apt-get update -qq && apt-get install -y -qq git
     - git config user.email "ci@greenspector.com"

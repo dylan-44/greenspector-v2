@@ -70,9 +70,9 @@ npm run ci         # validate + optimize-images + build (identique à la CI)
 
 Fichiers : `.github/workflows/ci.yml` (GitHub) et `.gitlab-ci.yml` (GitLab).
 
-Pipeline : `validate` → `optimize-images` → `build` → commit auto des artefacts sur `main` (`ci: rebuild static site [skip ci]`).
+Pipeline : `validate` → `optimize-images` → `build` → commit auto des artefacts sur `master` (`ci: rebuild static site [skip ci]`).
 
-Sur `main`, attendre la CI verte **avant** `git pull` sur le serveur. Voir la doc de configuration dans le dépôt ou le README équipe.
+Sur `master`, attendre la CI verte **avant** `git pull` sur le serveur. Voir la doc de configuration dans le dépôt ou le README équipe.
 
 ## Pour les agents RAG
 
