@@ -103,6 +103,29 @@ function cleanEnOutput() {
   }
 }
 
+function isPublished(page) {
+  return page.status !== 'draft';
+}
+
+function removeDraftOutputs(registryPages) {
+  for (const regPage of registryPages) {
+    if (isPublished(regPage)) {
+      continue;
+    }
+
+    for (const locale of registry.locales) {
+      const outPath =
+        locale === 'en'
+          ? outputPathForPage(regPage.path, locale, regPage.pathEn)
+          : outputPathForPage(regPage.path, locale);
+
+      if (fs.existsSync(outPath)) {
+        fs.unlinkSync(outPath);
+      }
+    }
+  }
+}
+
 function main() {
   const registryPages = enrichRegistryPages(registry.pages);
   const slugLookup = buildSlugLookup(registryPages);
@@ -127,6 +150,10 @@ function main() {
   for (const locale of registry.locales) {
     for (const entry of navTemplate) {
       const regPage = registryPages.find((page) => page.slug === entry.slug);
+      if (regPage && !isPublished(regPage)) {
+        continue;
+      }
+
       const jsonPath = regPage ? pageJsonPath(locale, regPage.path) : null;
       const page = jsonPath && fs.existsSync(jsonPath) ? loadJson(jsonPath) : null;
       const slug = locale === 'fr' ? entry.slug : regPage?.slugEn || entry.slug;
@@ -149,6 +176,10 @@ function main() {
   let built = 0;
 
   for (const regPage of registryPages) {
+    if (!isPublished(regPage)) {
+      continue;
+    }
+
     for (const locale of registry.locales) {
       const jsonPath = pageJsonPath(locale, regPage.path);
       if (!fs.existsSync(jsonPath)) {
@@ -211,7 +242,13 @@ function main() {
     'utf8'
   );
 
-  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), buildSitemap(registryPages), 'utf8');
+  removeDraftOutputs(registryPages);
+
+  fs.writeFileSync(
+    path.join(ROOT, 'sitemap.xml'),
+    buildSitemap(registryPages.filter(isPublished)),
+    'utf8'
+  );
 
   console.log(`Built ${built} HTML files, nav-data.js and case-studies-data.js`);
 }

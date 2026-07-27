@@ -54,12 +54,6 @@ window.GS_CASE_STUDIES = [
     "image": "/assets/img/external/greenspector.com/Visuel-Treebal_ad2427a6.png"
   },
   {
-    "slug": "decathlon-ecoconception-numerique/",
-    "title": "Decathlon",
-    "description": "Retour d'expérience sur la généralisation de l'écoconception numérique dans une organisation à l'échelle internationale.",
-    "image": "/assets/img/external/greenspector.com/entete_studio_31ac4415.svg"
-  },
-  {
     "slug": "bordeaux-metropole-ecoconception-web/",
     "title": "Bordeaux Métropole",
     "description": "Éco-conception des espaces usagers numériques : formation des équipes et certifications Bronze et Argent Greenspector.",
@@ -120,12 +114,6 @@ window.GS_CASE_STUDIES_EN = [
     "title": "Treebal",
     "description": "Eco-responsible messaging app assessed by measurement: Greenspector Bronze certification and improvement areas on mobile journeys.",
     "image": "/assets/img/external/greenspector.com/Visuel-Treebal_ad2427a6.png"
-  },
-  {
-    "slug": "decathlon-digital-ecodesign/",
-    "title": "Decathlon",
-    "description": "Feedback on scaling digital ecodesign across an international organization.",
-    "image": "/assets/img/external/greenspector.com/entete_studio_31ac4415.svg"
   },
   {
     "slug": "bordeaux-metropole-web-ecodesign/",
