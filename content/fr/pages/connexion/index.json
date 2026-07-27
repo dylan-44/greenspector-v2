@@ -7,7 +7,8 @@
     "description": "Page Greenspector dédiée au sujet : connexion Greenspector Studio.",
     "keywords": "connexion Greenspector Studio, accès plateforme",
     "ogTitle": "Se connecter | connexion Greenspector Studio | Greenspector",
-    "ogDescription": "Page Greenspector dédiée au sujet : connexion Greenspector Studio."
+    "ogDescription": "Page Greenspector dédiée au sujet : connexion Greenspector Studio.",
+    "redirectUrl": "https://saas.greenspector.com/"
   },
   "nav": {
     "section": "Home",
@@ -18,7 +19,15 @@
   "hero": {
     "label": "CTA",
     "title": "Se connecter",
-    "subtitle": "connexion Greenspector Studio"
+    "subtitle": "Accédez à Greenspector Studio",
+    "actions": [
+      {
+        "label": "Ouvrir Greenspector Studio",
+        "href": "https://saas.greenspector.com/",
+        "primary": true,
+        "external": false
+      }
+    ]
   },
   "contentMeta": [
     "Mot-clé principal : connexion Greenspector Studio",

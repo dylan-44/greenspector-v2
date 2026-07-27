@@ -10,6 +10,10 @@
   "navAria": "Main navigation",
   "menuOpen": "Open menu",
   "brandAria": "Greenspector - Home",
+  "login": "Login",
+  "signUp": "Sign up",
+  "saasUrl": "https://saas.greenspector.com/",
+  "signUpUrl": "https://saas.greenspector.com/signup",
   "sections": [
     { "key": "Greenspector Studio", "label": "Greenspector Studio" },
     { "key": "Conseil", "label": "Consulting" },

@@ -25,65 +25,106 @@ const clientLogos = [
   { src: `${ASSETS}client_regionbretagne_b8829f76.jpg`, alt: { fr: 'Logo Région Bretagne', en: 'Région Bretagne logo' } }
 ];
 
+const Y = { fr: 'Inclus', en: 'Included' };
+const N = { fr: 'Non inclus', en: 'Not included' };
+const ALL_Y = [Y, Y, Y, Y];
+
 const tableRows = [
-  { theme: { fr: 'Test de Benchmark simple', en: 'Simple Benchmark test' }, rows: 7, cells: [
-    ['Nombre maximum de Benchmarks actifs', 'Maximum active Benchmarks', ['10', '50', '150', { fr: 'Illimité', en: 'Unlimited' }]],
-    ['Applications Android', 'Android applications', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Pages web', 'Web pages', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Applications iOS', 'iOS applications', [{ fr: 'Roadmap', en: 'Roadmap' }, { fr: 'Roadmap', en: 'Roadmap' }, { fr: 'Roadmap', en: 'Roadmap' }, { fr: 'Roadmap', en: 'Roadmap' }]],
-    ['Écoscore Benchmark avec sous-domaines Réseau et Ressources', 'Benchmark Ecoscore with Network and Resources sub-domains', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ["Évaluation de l'impact environnemental", 'Environmental impact assessment', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Recommandations priorisées pour la gestion des Ressources et du Réseau', 'Prioritized recommendations for Resources and Network management', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Tests de Parcours Utilisateurs', en: 'User Journey tests' }, rows: 6, cells: [
-    ['Nombre de Parcours Utilisateurs inclus', 'Number of User Journeys included', ['0', '1', '3', { fr: 'Illimité', en: 'Unlimited' }]],
-    ['Tableau de bord synthétique des Analyses réalisées', 'Summary dashboard of completed Analyses', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Archivage des Analyses inutiles', 'Archiving of unused Analyses', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Préparation de scénarios de tests via interface visuelle', 'Test scenario preparation via visual interface', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Préparation de scénarios de tests en script GDSL simple', 'Test scenario preparation with simple GDSL script', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Consultation des résultats dans l\'interface web', 'Viewing results in the web interface', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Mesures de consommations et d\'énergie', en: 'Consumption and energy measurements' }, rows: 7, cells: [
-    ['Calcul d\'impact environnemental multi-critères paramétrable', 'Configurable multi-criteria environmental impact calculation', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Gestion des itérations de tests avec calculs statistiques intégrés', 'Test iteration management with integrated statistical calculations', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Tableau de bord avec nombreux graphes d\'analyse des résultats', 'Dashboard with numerous result analysis charts', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Métriques vitales : batterie hyper précise, data, temps de parcours', 'Vital metrics: highly accurate battery, data, journey time', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Métriques essentielles liées au processus : CPU, RAM, sauf iOS', 'Essential process metrics: CPU, RAM, except iOS', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Métriques essentielles liées à la plateforme : CPU, RAM, sauf iOS', 'Essential platform metrics: CPU, RAM, except iOS', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Métriques Android avancées : Dumpsys, températures', 'Advanced Android metrics: Dumpsys, temperatures', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Déroulement de mesures', en: 'Measurement workflow' }, rows: 10, cells: [
-    ['Sur les terminaux réels de notre Test Bench', 'On real devices on our Test Bench', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Temps maximal de test sur le Test Bench par mois', 'Maximum Test Bench test time per month', [{ fr: 'Illimité', en: 'Unlimited' }, { fr: 'Illimité', en: 'Unlimited' }, { fr: 'Illimité', en: 'Unlimited' }, { fr: 'Illimité', en: 'Unlimited' }]],
-    ['Sur un Test Bench dédié à votre organisation', 'On a Test Bench dedicated to your organization', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Option', en: 'Optional' }, { fr: 'Option', en: 'Optional' }]],
-    ['Sur un Test Bench installé on-premises chez vous', 'On a Test Bench installed on-premises at your site', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Option', en: 'Optional' }, { fr: 'Option', en: 'Optional' }]],
-    ['Localement sur vos appareils, en ADB WiFi', 'Locally on your devices, via ADB WiFi', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Localement sur vos appareils, en ADB USB', 'Locally on your devices, via ADB USB', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Localement sur vos appareils, en mode offline', 'Locally on your devices, in offline mode', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Choix de connectivité réseau : WiFi, 3G, 4G sur Test Bench', 'Network connectivity choice: WiFi, 3G, 4G on Test Bench', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Accès aux screenshots, dumps et logs de tests', 'Access to screenshots, dumps and test logs', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Test local : consommation de batterie uniquement disponible sur terminaux Android compatibles', 'Local testing: battery consumption only available on compatible Android devices', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Intégration et lancement des tests', en: 'Test integration and launch' }, rows: 6, cells: [
-    ['Intégration CI/CD : utilisation du CLI ou scripts CURL', 'CI/CD integration: CLI or CURL scripts', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Export de tous les résultats via les API', 'Export of all results via APIs', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Lancement depuis l\'interface web sur le Test Bench', 'Launch from web interface on Test Bench', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Lancement avec le module CLI sur le Test Bench', 'Launch with CLI module on Test Bench', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Lancement avec le module TestRunner en local', 'Launch with TestRunner module locally', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Lancement avec le module TestRunner en local sans automatisation, mode FreeRunner', 'Launch with TestRunner locally without automation, FreeRunner mode', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Gestion d\'accès multi-utilisateurs', en: 'Multi-user access management' }, rows: 2, cells: [
-    ['Accès mono-utilisateur', 'Single-user access', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Non inclus', en: 'Not included' }]],
-    ['Accès multi-utilisateurs avec gestion de droits intégrée', 'Multi-user access with integrated rights management', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Support utilisateurs', en: 'User support' }, rows: 3, cells: [
-    ['Accès au wiki intégré Confluence', 'Integrated Confluence wiki access', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Support utilisateurs par tchat', 'User support via chat', [{ fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]],
-    ['Support utilisateurs par Service Desk web', 'User support via web Service Desk', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }, { fr: 'Inclus', en: 'Included' }]]
-  ]},
-  { theme: { fr: 'Services d\'accompagnement', en: 'Support services' }, rows: 1, cells: [
-    ['Cadrage, formation utilisateurs, aide au déploiement…', 'Scoping, user training, deployment support…', [{ fr: 'Non inclus', en: 'Not included' }, { fr: 'Non inclus', en: 'Not included' }, { fr: 'Nous consulter', en: 'Contact us' }, { fr: 'Nous consulter', en: 'Contact us' }]]
-  ]}
+  {
+    theme: {
+      fr: 'Test de Parcours Utilisateurs (app Android, app iOS, web)',
+      en: 'User Journey testing (Android app, iOS app, web)'
+    },
+    rows: 5,
+    cells: [
+      ['Nombre de Parcours Utilisateurs inclus', 'Number of User Journeys included', ['0', '1', '3', { fr: 'Illimité', en: 'Unlimited' }]],
+      ['Tableau de Bord synthétique des analyses de Parcours', 'Summary dashboard of Journey analyses', [N, Y, Y, Y]],
+      ['Archivage des analyses', 'Analysis archiving', [N, Y, Y, Y]],
+      ['Préparation de scénarios de tests par interface visuelle sans code', 'No-code visual test scenario preparation', [N, Y, Y, Y]],
+      ['Préparation de scénarios de tests par script GDSL', 'Test scenario preparation with GDSL script', [N, Y, Y, Y]]
+    ]
+  },
+  {
+    theme: { fr: 'Test de Benchmark simple', en: 'Simple Benchmark test' },
+    rows: 6,
+    cells: [
+      ['Nombre maximum de Benchmarks actifs', 'Maximum active Benchmarks', ['10', '50', '150', { fr: 'Illimité', en: 'Unlimited' }]],
+      ['Applications Android', 'Android applications', ALL_Y],
+      ['Pages web', 'Web pages', ALL_Y],
+      ['Applications iOS', 'iOS applications', ['Roadmap', 'Roadmap', 'Roadmap', 'Roadmap']],
+      ['Écoscore Benchmark avec sous-domaines Réseau et Ressources', 'Benchmark Ecoscore with Network and Resources sub-domains', ALL_Y],
+      ['Recommandations priorisées pour la gestion des Ressources et du Réseau', 'Prioritized recommendations for Resources and Network management', ALL_Y]
+    ]
+  },
+  {
+    theme: {
+      fr: "Mesures de consommations et d'énergie : métriques",
+      en: 'Consumption and energy measurements: metrics'
+    },
+    rows: 6,
+    cells: [
+      ['Tableau de bord avec nombreux graphes d\'analyse des résultats', 'Dashboard with numerous result analysis charts', ALL_Y],
+      ['Gestion des itérations de tests avec calculs statistiques intégrés', 'Test iteration management with integrated statistical calculations', ALL_Y],
+      ['Calcul d\'impact environnemental multi-critères paramétrable', 'Configurable multi-criteria environmental impact calculation', ALL_Y],
+      ['Métriques vitales : batterie hyper précise, data, temps de parcours', 'Vital metrics: highly accurate battery, data, journey time', ALL_Y],
+      ['Métriques essentielles liées au processus et à la plate-forme (CPU, RAM) (sauf iOS)', 'Essential process and platform metrics (CPU, RAM) (except iOS)', ALL_Y],
+      ['Métriques Android avancées (Dumpsys, températures)', 'Advanced Android metrics (Dumpsys, temperatures)', [N, N, Y, Y]]
+    ]
+  },
+  {
+    theme: { fr: 'Déroulement des mesures', en: 'Measurement workflow' },
+    rows: 8,
+    cells: [
+      ['Sur les terminaux réels de notre Test Bench', 'On real devices on our Test Bench', ALL_Y],
+      ['Choix de connectivité réseau (WiFi, 3G, 4G) sur Test Bench', 'Network connectivity choice (WiFi, 3G, 4G) on Test Bench', [N, Y, Y, Y]],
+      ['Accès aux screenshots, dumps et logs de tests', 'Access to screenshots, dumps and test logs', [N, Y, Y, Y]],
+      ['Temps maximal de test sur le Test Bench (par mois)**', 'Maximum Test Bench test time (per month)**', [{ fr: 'Illimité', en: 'Unlimited' }, { fr: 'Illimité', en: 'Unlimited' }, { fr: 'Illimité', en: 'Unlimited' }, { fr: 'Illimité', en: 'Unlimited' }]],
+      ['Sur un Test Bench avec terminaux dédiés à votre organisation', 'Test Bench with devices dedicated to your organization', [N, N, { fr: 'Option', en: 'Optional' }, { fr: 'Option', en: 'Optional' }]],
+      ['Sur un Test Bench installé on-premises', 'On-premises Test Bench', [N, N, { fr: 'Option', en: 'Optional' }, { fr: 'Option', en: 'Optional' }]],
+      ['Localement sur votre appareil en ADB WiFi ou USB (via module TestRunner)', 'Locally on your device via ADB WiFi or USB (TestRunner module)', [N, N, Y, Y]],
+      ['Localement sur votre appareil, en mode offline* (via module TestRunner)', 'Locally on your device, in offline mode* (TestRunner module)', [N, N, Y, Y]]
+    ]
+  },
+  {
+    theme: { fr: 'Intégration et lancement des tests', en: 'Test integration and launch' },
+    rows: 6,
+    cells: [
+      ['Lancement depuis l\'interface web : sur le Test Bench', 'Launch from web interface: on Test Bench', ALL_Y],
+      ['Lancement par votre CI/CD : utilisation du CLI ou scripts CURL', 'Launch via your CI/CD: CLI or CURL scripts', [N, N, Y, Y]],
+      ['Export de tous les résultats par API', 'Export all results via API', [N, N, Y, Y]],
+      ['Lancement avec le module en ligne de commande (CLI)', 'Launch with command-line module (CLI)', [N, N, Y, Y]],
+      ['Lancement avec le module TestRunner : en local', 'Launch with TestRunner module: locally', [N, N, Y, Y]],
+      ['Test à main levée sur terminal local (mode "FreeRunner")*', 'Manual testing on local device ("FreeRunner" mode)*', [N, N, Y, Y]]
+    ]
+  },
+  {
+    theme: { fr: "Gestion d'accès multi-utilisateurs", en: 'Multi-user access management' },
+    rows: 2,
+    cells: [
+      ['Accès mono-utilisateur', 'Single-user access', [Y, N, N, N]],
+      ['Accès multi-utilisateurs avec gestion de droits intégrée', 'Multi-user access with integrated rights management', [N, Y, Y, Y]]
+    ]
+  },
+  {
+    theme: { fr: 'Support utilisateurs', en: 'User support' },
+    rows: 3,
+    cells: [
+      ['Accès au wiki intégré (Confluence)', 'Integrated wiki access (Confluence)', ALL_Y],
+      ['Support utilisateurs par tchat', 'User support via chat', ALL_Y],
+      ['Support utilisateurs par Service Desk web', 'User support via web Service Desk', [N, N, Y, Y]]
+    ]
+  },
+  {
+    theme: { fr: "Services d'accompagnement", en: 'Support services' },
+    rows: 5,
+    cells: [
+      ['Formation initiale des utilisateurs', 'Initial user training', [N, { fr: 'Onboarding 2h', en: '2h onboarding' }, { fr: 'Sur devis', en: 'Custom quote' }, { fr: 'Sur devis', en: 'Custom quote' }]],
+      ['Délivrance de Certificat Greenspector incluse', 'Included Greenspector Certificate', [N, N, { fr: '3 /an', en: '3 /year' }, { fr: '3 /an', en: '3 /year' }]],
+      ['Support utilisateurs inclus, lun-ven 9h-18h en français ou anglais', 'Included user support, Mon–Fri 9am–6pm in French or English', [N, { fr: '1h/mois', en: '1h/month' }, { fr: '2h/mois', en: '2h/month' }, { fr: '2h/mois', en: '2h/month' }]],
+      ['Support utilisateurs personnalisé selon vos besoins', 'Customized user support based on your needs', [N, N, { fr: 'Sur devis', en: 'Custom quote' }, { fr: 'Sur devis', en: 'Custom quote' }]],
+      ['Cadrage, formation utilisateurs, aide au déploiement…', 'Scoping, user training, deployment support…', [N, N, { fr: 'Nous consulter', en: 'Contact us' }, { fr: 'Nous consulter', en: 'Contact us' }]]
+    ]
+  }
 ];
 
 const planMeta = [
@@ -123,8 +164,8 @@ const planMeta = [
     featured: true,
     cta: { fr: 'Essayer gratuitement', en: 'Try for free' },
     highlights: {
-      fr: ['50 Benchmarks actifs', '1 Parcours Utilisateur', 'Scénarios visuels & GDSL', 'Service Desk web'],
-      en: ['50 active Benchmarks', '1 User Journey', 'Visual & GDSL scenarios', 'Web Service Desk']
+      fr: ['50 Benchmarks actifs', '1 Parcours Utilisateur', 'Scénarios visuels & GDSL', 'Accès multi-utilisateurs'],
+      en: ['50 active Benchmarks', '1 User Journey', 'Visual & GDSL scenarios', 'Multi-user access']
     }
   },
   {
@@ -143,8 +184,8 @@ const planMeta = [
     featured: false,
     cta: { fr: 'Essayer gratuitement', en: 'Try for free' },
     highlights: {
-      fr: ['150 Benchmarks actifs', '3 Parcours Utilisateurs', 'API & intégration CI/CD', 'Mesures locales ADB'],
-      en: ['150 active Benchmarks', '3 User Journeys', 'API & CI/CD integration', 'Local ADB measurements']
+      fr: ['150 Benchmarks actifs', '3 Parcours Utilisateurs', 'API & intégration CI/CD', 'Service Desk web'],
+      en: ['150 active Benchmarks', '3 User Journeys', 'API & CI/CD integration', 'Web Service Desk']
     }
   },
   {
@@ -374,7 +415,7 @@ function renderBody(locale) {
         plansTitle: 'Greenspector Studio pour toutes les tailles de projets',
         tableTitle: 'Détail des fonctionnalités par offre',
         footnote1: '* Test local : consommation de batterie uniquement disponible sur terminaux Android compatibles.',
-        footnote2: '** Temps de mesure illimité sous réserve d\'un usage raisonnable du service.',
+        footnote2: '** Sous réserve d\'un usage raisonnable du service.',
         faqTitle: 'Une question ?',
         faqIntro: 'Si vous ne trouvez pas la réponse ci-dessous, contactez-nous.',
         faqCta: 'Contactez-nous',
@@ -385,7 +426,7 @@ function renderBody(locale) {
         plansTitle: 'Greenspector Studio for projects of every size',
         tableTitle: 'Feature breakdown by plan',
         footnote1: '* Local testing: battery consumption only available on compatible Android devices.',
-        footnote2: '** Unlimited measurement time subject to reasonable service use.',
+        footnote2: '** Subject to reasonable service use.',
         faqTitle: 'Have a question?',
         faqIntro: 'If you cannot find the answer below, contact us.',
         faqCta: 'Contact us',

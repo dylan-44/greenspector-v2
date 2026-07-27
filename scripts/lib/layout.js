@@ -33,10 +33,14 @@ function renderHead(page, locale, pageSlug, siteUrl, registryPage) {
   const favicon32 = slugToAsset(pageSlug, '/assets/img/cropped-greenspector-favicon-32x32.png');
   const favicon180 = slugToAsset(pageSlug, '/assets/img/cropped-greenspector-favicon-180x180.png');
   const favicon192 = slugToAsset(pageSlug, '/assets/img/cropped-greenspector-favicon-192x192.png');
+  const saasUrl = meta.redirectUrl || (registryPage.id === 'connexion' ? 'https://saas.greenspector.com/' : '');
+  const saasRedirect = saasUrl
+    ? `\n    <meta http-equiv="refresh" content="0;url=${esc(saasUrl)}">`
+    : '';
 
   return `<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">${saasRedirect}
     <link rel="icon" type="image/png" sizes="32x32" href="${favicon32}">
     <link rel="apple-touch-icon" sizes="180x180" href="${favicon180}">
     <link rel="icon" type="image/png" sizes="192x192" href="${favicon192}">

@@ -7,7 +7,8 @@
     "description": "Greenspector page dedicated to: Greenspector Studio login.",
     "keywords": "Greenspector Studio login, platform access",
     "ogTitle": "Sign in | Greenspector Studio login | Greenspector",
-    "ogDescription": "Greenspector page dedicated to: Greenspector Studio login."
+    "ogDescription": "Greenspector page dedicated to: Greenspector Studio login.",
+    "redirectUrl": "https://saas.greenspector.com/"
   },
   "nav": {
     "section": "Home",
@@ -18,7 +19,15 @@
   "hero": {
     "label": "CTA",
     "title": "Sign in",
-    "subtitle": "Greenspector Studio login"
+    "subtitle": "Access Greenspector Studio",
+    "actions": [
+      {
+        "label": "Open Greenspector Studio",
+        "href": "https://saas.greenspector.com/",
+        "primary": true,
+        "external": false
+      }
+    ]
   },
   "contentMeta": [
     "Primary keyword: Greenspector Studio login",

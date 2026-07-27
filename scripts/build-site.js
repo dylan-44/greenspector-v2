@@ -112,6 +112,8 @@ function main() {
     navByLocale[locale] = loadJson(path.join(ROOT, 'content', locale, 'navigation.json'));
     const raw = loadJson(path.join(ROOT, 'content', locale, 'case-studies.json'));
     caseStudiesByLocale[locale] = Array.isArray(raw) ? raw : raw.items;
+    routes[locale].saasUrl = navByLocale[locale].saasUrl || 'https://saas.greenspector.com/';
+    routes[locale].signUpUrl = navByLocale[locale].signUpUrl || 'https://saas.greenspector.com/signup';
   }
 
   const navTemplate = loadJson(path.join(ROOT, 'content/nav-pages.json'));

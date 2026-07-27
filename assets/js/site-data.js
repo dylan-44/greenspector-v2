@@ -15,6 +15,10 @@ window.GS_I18N = {
     "navAria": "Navigation principale",
     "menuOpen": "Ouvrir le menu",
     "brandAria": "Greenspector - Accueil",
+    "login": "Connexion",
+    "signUp": "Inscription",
+    "saasUrl": "https://saas.greenspector.com/",
+    "signUpUrl": "https://saas.greenspector.com/signup",
     "sections": [
       {
         "key": "Greenspector Studio",
@@ -59,6 +63,10 @@ window.GS_I18N = {
     "navAria": "Main navigation",
     "menuOpen": "Open menu",
     "brandAria": "Greenspector - Home",
+    "login": "Login",
+    "signUp": "Sign up",
+    "saasUrl": "https://saas.greenspector.com/",
+    "signUpUrl": "https://saas.greenspector.com/signup",
     "sections": [
       {
         "key": "Greenspector Studio",
@@ -91,10 +99,14 @@ window.GS_I18N = {
 
 window.GS_ROUTES = {
   "fr": {
-    "caseStudiesIndex": "/ressources/etudes-de-cas/"
+    "caseStudiesIndex": "/ressources/etudes-de-cas/",
+    "saasUrl": "https://saas.greenspector.com/",
+    "signUpUrl": "https://saas.greenspector.com/signup"
   },
   "en": {
-    "caseStudiesIndex": "/en/resources/case-studies/"
+    "caseStudiesIndex": "/en/resources/case-studies/",
+    "saasUrl": "https://saas.greenspector.com/",
+    "signUpUrl": "https://saas.greenspector.com/signup"
   }
 };
 
