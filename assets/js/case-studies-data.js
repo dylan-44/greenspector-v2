@@ -1,0 +1,137 @@
+window.GS_CASE_STUDIES = [
+  {
+    "slug": "bouygues-telecom-sobriete-numerique-mobile/",
+    "title": "Bouygues Telecom",
+    "description": "Certificat de Sobriété Numérique niveau Argent et −36 % d'impact carbone sur le parcours mobile Android, piloté via Greenspector Studio en CI/CD.",
+    "image": "/assets/img/external/greenspector.com/cas-client-BT-X-Greenspector-768x432_f340795e.png"
+  },
+  {
+    "slug": "ans-ethique-numerique/",
+    "title": "Agence du Numérique en Santé",
+    "description": "Portail Écoscore pour mesurer l'impact CO₂ des applications de santé : plus de 70 éditeurs évalués pour être référencés sur Mon Espace Santé.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape12_1ca6937e.png"
+  },
+  {
+    "slug": "sncf-connect-bug-performance/",
+    "title": "SNCF Connect & Tech",
+    "description": "−19 % de CO₂ sur le parcours de réservation TER, parcours 8 secondes plus rapide et certification Argent Android et iOS.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape3_de90cf8c.jpg"
+  },
+  {
+    "slug": "air-france-tests-application/",
+    "title": "Air France",
+    "description": "Green testing intégré au Service Center Test : −9 % CO₂e et −11 % de temps de parcours sur l'application, avec sensibilisation des équipes.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape10_a6675dfd.png"
+  },
+  {
+    "slug": "cats-smartuse-application-bancaire/",
+    "title": "Crédit Agricole Technologies & Services",
+    "description": "Label interne Smart'Use pour évaluer et labelliser la sobriété des produits web et mobiles, avec accès direct aux résultats dans Greenspector Studio.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape11_62e6166f.jpg"
+  },
+  {
+    "slug": "orange-innovation-ecoconception-mobile/",
+    "title": "Orange Innovation",
+    "description": "Pilote Greenspector sur MyHey et TV d'Orange pour structurer une prestation interne d'écoconception applicative au sein du Groupe.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape11_ececde9c.jpg"
+  },
+  {
+    "slug": "region-bretagne-numerique-responsable/",
+    "title": "Région Bretagne",
+    "description": "Refonte écoconçue du portail serviciel : mesures à chaque sprint, données réduites d'un facteur 5 et déclaration d'écoconception publiée.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
+  },
+  {
+    "slug": "bruxelles-environnement-ecobuild/",
+    "title": "Bruxelles Environnement",
+    "description": "Écoconception intégrée à la refonte web publique Ecobuild, avec mesure des résultats dans la durée et pilotage par l'écoscore.",
+    "image": "/assets/img/external/greenspector.com/mockupBruxellesEnvironnement_f8ea2e99.jpg"
+  },
+  {
+    "slug": "treebal-application-ecoresponsable/",
+    "title": "Treebal",
+    "description": "Messagerie éco-responsable évaluée par la mesure : certification Greenspector Bronze et axes d'amélioration identifiés sur les parcours mobiles.",
+    "image": "/assets/img/external/greenspector.com/Visuel-Treebal_ad2427a6.png"
+  },
+  {
+    "slug": "decathlon-ecoconception-numerique/",
+    "title": "Decathlon",
+    "description": "Retour d'expérience sur la généralisation de l'écoconception numérique dans une organisation à l'échelle internationale.",
+    "image": "/assets/img/external/greenspector.com/entete_studio_31ac4415.svg"
+  },
+  {
+    "slug": "bordeaux-metropole-ecoconception-web/",
+    "title": "Bordeaux Métropole",
+    "description": "Éco-conception des espaces usagers numériques : formation des équipes et certifications Bronze et Argent Greenspector.",
+    "image": "/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg"
+  }
+];
+window.GS_CASE_STUDIES_EN = [
+  {
+    "slug": "bouygues-telecom-mobile-digital-sobriety/",
+    "title": "Bouygues Telecom",
+    "description": "Digital Sobriety Certificate Silver level and −36% carbon impact on the Android mobile journey, driven via Greenspector Studio in CI/CD.",
+    "image": "/assets/img/external/greenspector.com/cas-client-BT-X-Greenspector-768x432_f340795e.png"
+  },
+  {
+    "slug": "ans-health-apps-co2-measurement/",
+    "title": "French Digital Health Agency (ANS)",
+    "description": "Ecoscore Portal to measure health app CO₂ impact: 70+ publishers assessed for listing on Mon Espace Santé.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape12_1ca6937e.png"
+  },
+  {
+    "slug": "sncf-connect-performance/",
+    "title": "SNCF Connect & Tech",
+    "description": "−19% CO₂ on the regional train booking journey, 8 seconds faster user flow and Silver certification on Android and iOS.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide2_shape3_de90cf8c.jpg"
+  },
+  {
+    "slug": "air-france-app-testing/",
+    "title": "Air France",
+    "description": "Green testing integrated into the Test Service Center: −9% CO₂e and −11% journey time on the app, with team awareness.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape10_a6675dfd.png"
+  },
+  {
+    "slug": "cats-smartuse-banking-app/",
+    "title": "Crédit Agricole Technologies & Services",
+    "description": "Internal Smart'Use label to assess and certify web and mobile product sobriety, with direct access to results in Greenspector Studio.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide5_shape11_62e6166f.jpg"
+  },
+  {
+    "slug": "orange-innovation-mobile-ecodesign/",
+    "title": "Orange Innovation",
+    "description": "Greenspector pilot on MyHey and Orange TV to structure an in-house app ecodesign offering across the Group.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide6_shape11_ececde9c.jpg"
+  },
+  {
+    "slug": "bretagne-responsible-digital/",
+    "title": "Région Bretagne",
+    "description": "Ecodesigned service portal redesign: sprint-by-sprint measurement, 5× data reduction and published ecodesign declaration.",
+    "image": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide4_shape11_1c792ecb.png"
+  },
+  {
+    "slug": "brussels-environment-ecobuild/",
+    "title": "Bruxelles Environnement",
+    "description": "Ecodesign integrated into the Ecobuild public web redesign, with long-term results measurement and ecoscore tracking.",
+    "image": "/assets/img/external/greenspector.com/mockupBruxellesEnvironnement_f8ea2e99.jpg"
+  },
+  {
+    "slug": "treebal-eco-responsible-app/",
+    "title": "Treebal",
+    "description": "Eco-responsible messaging app assessed by measurement: Greenspector Bronze certification and improvement areas on mobile journeys.",
+    "image": "/assets/img/external/greenspector.com/Visuel-Treebal_ad2427a6.png"
+  },
+  {
+    "slug": "decathlon-digital-ecodesign/",
+    "title": "Decathlon",
+    "description": "Feedback on scaling digital ecodesign across an international organization.",
+    "image": "/assets/img/external/greenspector.com/entete_studio_31ac4415.svg"
+  },
+  {
+    "slug": "bordeaux-metropole-web-ecodesign/",
+    "title": "Bordeaux Métropole",
+    "description": "Ecodesign of citizen digital services: team training and Greenspector Bronze and Silver certifications.",
+    "image": "/assets/img/external/s3.fr-par.scw.cloud/datasource_content_7f940940-c5b1-46c8-bb2a-10622751c023_img-0.jpeg"
+  }
+];
+

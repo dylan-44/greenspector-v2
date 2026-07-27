@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Validate, optimize and build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate content
+        run: npm run validate
+
+      - name: Optimize images
+        run: npm run optimize-images
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload static site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: greenspector-static-site
+          if-no-files-found: error
+          path: |
+            index.html
+            sitemap.xml
+            en/
+            assets/
+            studio/
+            conseil/
+            a-propos/
+            contact/
+            demo/
+            connexion/
+            mentions-legales/
+            ressources/
+            tarifs-greenspector-studio/
+
+      - name: Commit build output on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No build changes to commit."
+            exit 0
+          fi
+          git commit -m "ci: rebuild static site [skip ci]"
+          git push

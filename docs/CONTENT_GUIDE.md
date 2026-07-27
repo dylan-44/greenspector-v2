@@ -62,8 +62,17 @@ npm install
 npm run extract    # Ré-extraire le FR depuis les HTML (migration ponctuelle)
 npm run seed-en    # Regénérer les JSON EN depuis le FR
 npm run validate   # Vérifier la présence FR/EN
-npm run build      # Générer HTML + assets/js/site-data.js + sitemap.xml
+npm run build      # Générer HTML + nav-data.js + sitemap.xml
+npm run ci         # validate + optimize-images + build (identique à la CI)
 ```
+
+## CI (GitHub / GitLab)
+
+Fichiers : `.github/workflows/ci.yml` (GitHub) et `.gitlab-ci.yml` (GitLab).
+
+Pipeline : `validate` → `optimize-images` → `build` → commit auto des artefacts sur `main` (`ci: rebuild static site [skip ci]`).
+
+Sur `main`, attendre la CI verte **avant** `git pull` sur le serveur. Voir la doc de configuration dans le dépôt ou le README équipe.
 
 ## Pour les agents RAG
 

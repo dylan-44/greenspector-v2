@@ -1,5 +1,6 @@
 const { esc } = require('./renderers');
 const { slugToAsset } = require('./paths');
+const { renderHeader, renderFooter } = require('./nav');
 
 function absoluteUrl(siteUrl, slug) {
   const base = siteUrl.replace(/\/$/, '');
@@ -38,6 +39,9 @@ function renderHead(page, locale, pageSlug, siteUrl, registryPage) {
     ? `\n    <meta http-equiv="refresh" content="0;url=${esc(saasUrl)}">`
     : '';
 
+  const stylesHref = slugToAsset(pageSlug, '/assets/css/styles.min.css');
+  const bootstrapCss = slugToAsset(pageSlug, '/assets/vendor/bootstrap/bootstrap.min.css');
+
   return `<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">${saasRedirect}
@@ -55,12 +59,8 @@ function renderHead(page, locale, pageSlug, siteUrl, registryPage) {
     <meta property="og:type" content="website">
     <meta property="og:url" content="${esc(canonical)}">
     <meta property="og:site_name" content="Greenspector">${ogImage}${twitter}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="${slugToAsset(pageSlug, '/assets/css/styles.css')}">${ldJson}
+    <link href="${bootstrapCss}" rel="stylesheet">
+    <link rel="stylesheet" href="${stylesHref}">${ldJson}
 </head>`;
 }
 
@@ -72,7 +72,10 @@ function renderLayout({
   mainHtml,
   nav,
   siteUrl,
-  registryPage
+  registryPage,
+  pagesNav,
+  routes,
+  needsCaseStudies = false
 }) {
   const bodyClass = template === 'home' ? ' class="home-page"' : '';
   const dataPage = JSON.stringify({
@@ -83,22 +86,46 @@ function renderLayout({
   }).replace(/"/g, '&quot;');
 
   const skipLink = nav.skipLink || 'Skip to main content';
-  const assetBase = slugToAsset(pageSlug, '/assets/js/site-data.js');
+  const navDataJs = slugToAsset(pageSlug, '/assets/js/nav-data.js');
+  const caseStudiesJs = slugToAsset(pageSlug, '/assets/js/case-studies-data.js');
   const mainJs = slugToAsset(pageSlug, '/assets/js/main.js');
+  const bootstrapJs = slugToAsset(pageSlug, '/assets/vendor/bootstrap/bootstrap.bundle.min.js');
+
+  const headerHtml = renderHeader({
+    pageSlug,
+    locale,
+    currentSlug: pageSlug,
+    slugFr: registryPage.slugFr || registryPage.slug,
+    slugEn: registryPage.slugEn || (registryPage.slug === '/' ? '/en/' : `/en${registryPage.slug}`),
+    i18n: nav,
+    pages: pagesNav,
+    routes: routes[locale] || {}
+  });
+
+  const footerHtml = renderFooter({
+    pageSlug,
+    locale,
+    i18n: nav,
+    pages: pagesNav
+  });
+
+  const caseStudiesScript = needsCaseStudies
+    ? `\n    <script src="${caseStudiesJs}" defer></script>`
+    : '';
 
   return `<!DOCTYPE html>
 <html lang="${locale}">
 
 ${renderHead(page, locale, pageSlug, siteUrl, registryPage)}
 
-<body${bodyClass} data-page="${dataPage}"><a class="skip-link" href="#main-content">${esc(skipLink)}</a>
-    <div id="site-header"></div>
+<body${bodyClass} data-page="${dataPage}"${needsCaseStudies ? ' data-needs-case-studies="true"' : ''}><a class="skip-link" href="#main-content">${esc(skipLink)}</a>
+    <div id="site-header">${headerHtml}</div>
     <main id="main-content">
         ${mainHtml}
     </main>
-    <div id="site-footer"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="${assetBase}" defer></script>
+    <div id="site-footer">${footerHtml}</div>
+    <script src="${bootstrapJs}" defer></script>
+    <script src="${navDataJs}" defer></script>${caseStudiesScript}
     <script src="${mainJs}" defer></script>
 </body>
 

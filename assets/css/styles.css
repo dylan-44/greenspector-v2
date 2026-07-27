@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/inter/inter-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/inter/inter-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/inter/inter-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/inter/inter-800.woff2') format('woff2');
+}
+
 :root {
   --gs-springgreen: #00E676;
   --gs-dark-spruce: #074A35;
@@ -51,9 +83,16 @@ h6,
   position: sticky;
   top: 0;
   z-index: 1020;
-  background: rgba(255, 255, 255, .94);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, .98);
   border-bottom: 1px solid rgba(7, 74, 53, .12)
+}
+
+@media (min-width: 992px) {
+  .site-header {
+    background: rgba(255, 255, 255, .94);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
 }
 
 .navbar {
@@ -802,7 +841,7 @@ body:not(.home-page) .hero .slug-note {
   margin: 1rem 0 0;
   max-width: 36ch;
   color: rgba(255, 255, 255, 0.84);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .site-footer .footer-title {
@@ -1482,8 +1521,9 @@ body:not(.home-page) .hero .slug-note {
   line-height: 1;
 }
 
-.home-feature-card__icon .fa-gitlab {
-  font-size: 1.45rem;
+.home-feature-card__icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .home-feature-card__title {
@@ -1942,7 +1982,7 @@ body:not(.home-page) .hero .slug-note {
 .pricing-cell__mark--no::before {
   content: "—";
   color: rgba(7, 74, 53, 0.38);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .pricing-footnotes {
@@ -2212,7 +2252,7 @@ body:not(.home-page) .hero .slug-note {
 
 .banc-mesure-table tbody td:last-child {
   background: transparent;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .banc-mesure-cta {
@@ -2498,6 +2538,12 @@ body:not(.home-page) .hero .slug-note {
   width: 2.35rem;
   height: 2.35rem;
   font-size: 0.95rem;
+}
+
+.about-icon--sm svg,
+.case-study-key__icon svg {
+  width: 1em;
+  height: 1em;
 }
 
 .about-icon--lg {

@@ -45,7 +45,7 @@ function enrichRegistryPages(pages) {
   });
 }
 
-function buildSiteData(pagesByLocale) {
+function buildNavData(pagesByLocale) {
   const lines = [
     'window.GS_I18N = ' + JSON.stringify(pagesByLocale.i18n, null, 2) + ';',
     '',
@@ -59,6 +59,12 @@ function buildSiteData(pagesByLocale) {
   }
 
   lines.push('');
+  return `${lines.join('\n')}\n`;
+}
+
+function buildCaseStudiesData(pagesByLocale) {
+  const lines = [];
+
   for (const locale of registry.locales) {
     const varName = locale === 'fr' ? 'GS_CASE_STUDIES' : `GS_CASE_STUDIES_${locale.toUpperCase()}`;
     lines.push(`window.${varName} = ${JSON.stringify(pagesByLocale.caseStudies[locale], null, 2)};`);
@@ -117,6 +123,27 @@ function main() {
   }
 
   const navTemplate = loadJson(path.join(ROOT, 'content/nav-pages.json'));
+
+  for (const locale of registry.locales) {
+    for (const entry of navTemplate) {
+      const regPage = registryPages.find((page) => page.slug === entry.slug);
+      const jsonPath = regPage ? pageJsonPath(locale, regPage.path) : null;
+      const page = jsonPath && fs.existsSync(jsonPath) ? loadJson(jsonPath) : null;
+      const slug = locale === 'fr' ? entry.slug : regPage?.slugEn || entry.slug;
+
+      pagesNavByLocale[locale].push({
+        section: entry.section,
+        name: page?.nav?.name || entry.name,
+        slug,
+        slugFr: entry.slug,
+        slugEn: regPage?.slugEn || entry.slug,
+        primary: page?.nav?.primary || entry.primary,
+        secondary: page?.nav?.secondary || entry.secondary,
+        generated: false
+      });
+    }
+  }
+
   cleanEnOutput();
 
   let built = 0;
@@ -147,7 +174,10 @@ function main() {
         mainHtml,
         nav,
         siteUrl: registry.siteUrl,
-        registryPage: regPage
+        registryPage: regPage,
+        pagesNav: pagesNavByLocale[locale],
+        routes,
+        needsCaseStudies: regPage.template === 'case-studies-index'
       });
 
       const outPath =
@@ -160,37 +190,30 @@ function main() {
     }
   }
 
-  for (const locale of registry.locales) {
-    for (const entry of navTemplate) {
-      const regPage = registryPages.find((page) => page.slug === entry.slug);
-      const jsonPath = regPage ? pageJsonPath(locale, regPage.path) : null;
-      const page = jsonPath && fs.existsSync(jsonPath) ? loadJson(jsonPath) : null;
-      const slug = locale === 'fr' ? entry.slug : regPage?.slugEn || entry.slug;
-
-      pagesNavByLocale[locale].push({
-        section: entry.section,
-        name: page?.nav?.name || entry.name,
-        slug,
-        slugFr: entry.slug,
-        slugEn: regPage?.slugEn || entry.slug,
-        primary: page?.nav?.primary || entry.primary,
-        secondary: page?.nav?.secondary || entry.secondary,
-        generated: false
-      });
-    }
-  }
-
-  const siteData = buildSiteData({
+  const siteDataPayload = {
     i18n: navByLocale,
     routes,
     pages: pagesNavByLocale,
     caseStudies: caseStudiesByLocale
-  });
-  fs.writeFileSync(path.join(ROOT, 'assets/js/site-data.js'), siteData, 'utf8');
+  };
+
+  fs.writeFileSync(path.join(ROOT, 'assets/js/nav-data.js'), buildNavData(siteDataPayload), 'utf8');
+  fs.writeFileSync(
+    path.join(ROOT, 'assets/js/case-studies-data.js'),
+    buildCaseStudiesData(siteDataPayload),
+    'utf8'
+  );
+
+  // Legacy alias kept for any external references during transition.
+  fs.writeFileSync(
+    path.join(ROOT, 'assets/js/site-data.js'),
+    `${buildNavData(siteDataPayload)}${buildCaseStudiesData(siteDataPayload)}`,
+    'utf8'
+  );
 
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), buildSitemap(registryPages), 'utf8');
 
-  console.log(`Built ${built} HTML files and site-data.js`);
+  console.log(`Built ${built} HTML files, nav-data.js and case-studies-data.js`);
 }
 
 main();

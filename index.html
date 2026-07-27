@@ -21,12 +21,8 @@
     <meta property="og:site_name" content="Greenspector">
     <meta property="og:image" content="/assets/img/banc_de_test_illustration.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="./assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -45,11 +41,14 @@
 </head>
 
 <body class="home-page" data-page="{&quot;slug&quot;:&quot;/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/&quot;,&quot;slugEn&quot;:&quot;/en/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
-    <div id="site-header"></div>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="./" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="./assets/img/Logo_greenspector_header.svg" alt="Greenspector" width="240" height="36" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="./studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="./studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="./studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="./studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="./studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="./studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="./conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="./conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="./conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="./tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="./a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="./a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="./a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="./a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="./contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="./" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="./assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="./en/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="./assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
     <main id="main-content">
         <section class="hero hero-home hero-home-banner" aria-labelledby="hero-title">
             <div class="hero-home-banner__media" aria-hidden="true">
-                <img src="./assets/img/banc_de_test_illustration.png" alt="" width="1920" height="1080" fetchpriority="high" decoding="async">
+                <picture>
+  <source srcset="./assets/img/banc_de_test_illustration-640w.webp 640w, ./assets/img/banc_de_test_illustration-960w.webp 960w, ./assets/img/banc_de_test_illustration-1280w.webp 1280w" sizes="100vw" type="image/webp">
+  <img src="./assets/img/banc_de_test_illustration.png" alt="" width="1456" height="816" fetchpriority="high" decoding="async">
+</picture>
                 <div class="hero-home-banner__overlay"></div>
             </div>
             <div class="container hero-home-banner__content">
@@ -150,10 +149,16 @@
                 </header>
                 <div class="studio-logo-grid home-clients-grid">
                     <figure class="studio-logo-card">
-                        <img src="./assets/img/external/greenspector.com/client_sncfconnect_04f4832d.jpg" alt="Logo SNCF Connect" width="200" height="80" loading="lazy" decoding="async">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/client_sncfconnect_04f4832d.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/client_sncfconnect_04f4832d.jpg" alt="Logo SNCF Connect" width="200" height="80" loading="lazy" decoding="async">
+</picture>
                     </figure>
                     <figure class="studio-logo-card">
-                        <img src="./assets/img/external/greenspector.com/client_cats_8cc5042d.jpg" alt="Logo CATS" width="200" height="80" loading="lazy" decoding="async">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/client_cats_8cc5042d.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/client_cats_8cc5042d.jpg" alt="Logo CATS" width="200" height="80" loading="lazy" decoding="async">
+</picture>
                     </figure>
                     <figure class="studio-logo-card">
                         <img src="./assets/img/external/greenspector.com/Logo_AirFrance_616731c4.webp" alt="Logo Air France" width="200" height="80" loading="lazy" decoding="async">
@@ -162,16 +167,28 @@
                         <img src="./assets/img/external/greenspector.com/logo-bouygues-telecom_889990d1.svg" alt="Logo Bouygues Telecom" width="200" height="80" loading="lazy" decoding="async">
                     </figure>
                     <figure class="studio-logo-card">
-                        <img src="./assets/img/external/greenspector.com/client_orange_338b842b.jpg" alt="Logo Orange" width="200" height="80" loading="lazy" decoding="async">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/client_orange_338b842b.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/client_orange_338b842b.jpg" alt="Logo Orange" width="200" height="80" loading="lazy" decoding="async">
+</picture>
                     </figure>
                     <figure class="studio-logo-card">
-                        <img src="./assets/img/external/greenspector.com/Logo-France-televisions-300x157_e988d666.jpg" alt="Logo France Télévisions" width="200" height="80" loading="lazy" decoding="async">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/Logo-France-televisions-300x157_e988d666.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/Logo-France-televisions-300x157_e988d666.jpg" alt="Logo France Télévisions" width="200" height="80" loading="lazy" decoding="async">
+</picture>
                     </figure>
                     <figure class="studio-logo-card">
-                        <img src="./assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.png" alt="Logo Decathlon" width="200" height="80" loading="lazy" decoding="async">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.png" alt="Logo Decathlon" width="200" height="80" loading="lazy" decoding="async">
+</picture>
                     </figure>
                     <figure class="studio-logo-card">
-                        <img src="./assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.png" alt="Logo Ministère de la Santé" width="200" height="80" loading="lazy" decoding="async">
+                        <picture>
+  <source srcset="./assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.webp" type="image/webp">
+  <img src="./assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.png" alt="Logo Ministère de la Santé" width="200" height="80" loading="lazy" decoding="async">
+</picture>
                     </figure>
                 </div>
             </div>
@@ -186,34 +203,34 @@
                 <div class="home-feature-grid">
                     <article class="home-feature-card">
                         <div class="home-feature-card__icon" aria-hidden="true">
-                            <i class="fa-solid fa-mobile-screen"></i>
+                            <svg viewBox="0 0 384 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M80 0C44.7 0 16 28.7 16 64v384c0 35.3 28.7 64 64 64h224c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16h-64c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
                         </div>
                         <h3 class="home-feature-card__title">Terminaux Android et iOS réels et stables pour des mesures
                             fiables et répétables</h3>
                     </article>
                     <article class="home-feature-card">
                         <div class="home-feature-card__icon" aria-hidden="true">
-                            <i class="fa-solid fa-battery-half"></i>
+                            <svg viewBox="0 0 576 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M464 160c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H112c-8.8 0-16 7.2-16 16v48c0 8.8 7.2 16 16 16h48v96H112c-8.8 0-16 7.2-16 16v48c0 8.8 7.2 16 16 16h400c8.8 0 16-7.2 16-16v-48c0-8.8-7.2-16-16-16H416V160h48zM288 368c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16v224z"/></svg>
                         </div>
                         <h3 class="home-feature-card__title">Le seul device cloud avec mesure réelle et précise de
                             consommation de batterie</h3>
                     </article>
                     <article class="home-feature-card">
                         <div class="home-feature-card__icon" aria-hidden="true">
-                            <i class="fa-solid fa-shield-halved"></i>
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg>
                         </div>
                         <h3 class="home-feature-card__title">Souveraineté FR/EU&nbsp;: le seul device cloud français</h3>
                     </article>
                     <article class="home-feature-card">
                         <div class="home-feature-card__icon" aria-hidden="true">
-                            <i class="fa-solid fa-plug"></i>
+                            <svg viewBox="0 0 384 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M320 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM160 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM32 256v128c0 35.3 28.7 64 64 64h192c35.3 0 64-28.7 64-64V256H32z"/></svg>
                         </div>
                         <h3 class="home-feature-card__title">Pas de changement dans votre code source, pas de SDK à
                             ajouter</h3>
                     </article>
                     <article class="home-feature-card">
                         <div class="home-feature-card__icon" aria-hidden="true">
-                            <i class="fa-brands fa-gitlab"></i>
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M105.2 132.9c-3.8 0-7.2 2.1-8.9 5.5L2.1 308.1c-1.7 3.4-1.7 7.4 0 10.8s4.9 5.5 8.9 5.5h490.1c4 0 7.2-2.1 8.9-5.5 1.7-3.4 1.7-7.4 0-10.8L415.7 138.4c-1.7-3.4-5.1-5.5-8.9-5.5H105.2zm152.5 0c-3.8 0-7.2 2.1-8.9 5.5l-34.2 68.4c-1.7 3.4-1.7 7.4 0 10.8s4.9 5.5 8.9 5.5h68.4c4 0 7.2-2.1 8.9-5.5 1.7-3.4 1.7-7.4 0-10.8l-34.2-68.4c-1.7-3.4-5.1-5.5-8.9-5.5h-6.8z"/></svg>
                         </div>
                         <h3 class="home-feature-card__title">Facilement intégrable dans votre CI/CD&nbsp;: <a href="./studio/devgreenops/">passez au DevGreenOps</a></h3>
                     </article>
@@ -232,7 +249,10 @@
                                 <blockquote class="studio-quote pricing-testimonial-slide">
                                     <p>Avec Greenspector Studio, nous mesurons l'efficacité énergétique de notre application, utilisée par 7 millions de clients chaque mois, après chaque Build. Cela nous permet de réduire notre empreinte carbone, d'améliorer nos performances et de renforcer notre image de marque.</p>
                                     <footer>
-                                        <img src="./assets/img/external/greenspector.com/FLankar-150x150_9a821a87.jpg" alt="Portrait de François Lankar" width="64" height="64" loading="lazy" decoding="async">
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/FLankar-150x150_9a821a87.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/FLankar-150x150_9a821a87.jpg" alt="Portrait de François Lankar" width="64" height="64" loading="lazy" decoding="async">
+</picture>
                                         <div>
                                             <strong>François LANKAR</strong>
                                             <span>Applications Manager, Bouygues Telecom</span>
@@ -244,7 +264,10 @@
                                 <blockquote class="studio-quote pricing-testimonial-slide">
                                     <p>Travailler sur la sobriété permet clairement d'obtenir une application plus performante.</p>
                                     <footer>
-                                        <img src="./assets/img/external/greenspector.com/JAzria-150x150_fe3bb536.jpg" alt="Portrait de Julien Azria" width="64" height="64" loading="lazy" decoding="async">
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/JAzria-150x150_fe3bb536.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/JAzria-150x150_fe3bb536.jpg" alt="Portrait de Julien Azria" width="64" height="64" loading="lazy" decoding="async">
+</picture>
                                         <div>
                                             <strong>Julien AZRIA</strong>
                                             <span>Digital Front Chapter Leader, Crédit Agricole Technologie & Services</span>
@@ -256,7 +279,10 @@
                                 <blockquote class="studio-quote pricing-testimonial-slide">
                                     <p>Avec Greenspector Studio, les testeurs peuvent guider les développeurs en identifiant les régressions ou les effets indésirables d'une modification.</p>
                                     <footer>
-                                        <img src="./assets/img/external/greenspector.com/FGuerlais-150x150_7633ec1e.png" alt="Portrait de Florence Guerlais" width="64" height="64" loading="lazy" decoding="async">
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/FGuerlais-150x150_7633ec1e.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/FGuerlais-150x150_7633ec1e.png" alt="Portrait de Florence Guerlais" width="64" height="64" loading="lazy" decoding="async">
+</picture>
                                         <div>
                                             <strong>Florence GUERLAIS</strong>
                                             <span>Manager, Test & QA Center of Expertise, Air France</span>
@@ -268,7 +294,10 @@
                                 <blockquote class="studio-quote pricing-testimonial-slide">
                                     <p>Nos développeurs ont été sensibilisés dès le démarrage du projet et ont – petit à petit – modifié leur manière de travailler pour adopter des réflexes d'écoconception. Il s'agit d'une modification profonde des pratiques. Les indicateurs d'écoscore de Greenspector nous ont servi d'étalon tout au long de ce process.</p>
                                     <footer>
-                                        <img src="./assets/img/external/greenspector.com/NDesmons_7932a04e.jpeg" alt="Portrait de Nicolas Desmons" width="64" height="64" loading="lazy" decoding="async">
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/NDesmons_7932a04e.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/NDesmons_7932a04e.jpeg" alt="Portrait de Nicolas Desmons" width="64" height="64" loading="lazy" decoding="async">
+</picture>
                                         <div>
                                             <strong>Nicolas DESMONS</strong>
                                             <span>Chef d'équipe services numériques aux usagers, Région Bretagne</span>
@@ -281,7 +310,10 @@
                                     <p>Il était important pour nous de pouvoir chiffrer et objectiver l'impact concret des efforts que nous allions déployer en écoconception. Grâce à l'écoscore de Greenspector, nous avons pu évaluer rationnellement le résultat de nos efforts avant et après projet.</p>
                                 <p>Greenspector met à disposition un outil de mesure qui permet d'évaluer l'évolution progressive des bonnes pratiques mises en place et d'identifier les réajustements nécessaires pour davantage de sobriété.</p>
                                     <footer>
-                                        <img src="./assets/img/external/greenspector.com/CSmeyers-150x150_1e5f8ccb.jpg" alt="Portrait de Caroline Smeyers" width="64" height="64" loading="lazy" decoding="async">
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/CSmeyers-150x150_1e5f8ccb.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/CSmeyers-150x150_1e5f8ccb.jpg" alt="Portrait de Caroline Smeyers" width="64" height="64" loading="lazy" decoding="async">
+</picture>
                                         <div>
                                             <strong>Caroline SMEYERS</strong>
                                             <span>Gestionnaire Web, Bruxelles Environnement / Leefmilieu Brussels</span>
@@ -294,7 +326,10 @@
                                     <p>Pour s'assurer de la fiabilité maximale de l'écoscore, les équipes se sont appuyées sur Greenspector qui permet d'évaluer de façon fiable l'impact environnemental d'une application de santé.</p>
                                 <p>En effet, Greenspector se base sur la mesure tout au long du parcours de l'usage réel de l'application, plus que sur le simple calcul de l'impact environnemental du chargement de la page d'accueil.</p>
                                     <footer>
-                                        <img src="./assets/img/external/greenspector.com/BSeroussi-150x148_bb960bb4.jpg" alt="Portrait de Dr Brigitte Seroussi" width="64" height="64" loading="lazy" decoding="async">
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/BSeroussi-150x148_bb960bb4.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/BSeroussi-150x148_bb960bb4.jpg" alt="Portrait de Dr Brigitte Seroussi" width="64" height="64" loading="lazy" decoding="async">
+</picture>
                                         <div>
                                             <strong>Dr Brigitte SEROUSSI</strong>
                                             <span>Directrice de Projets, Agence du Numérique en Santé (Ministère de la Santé)</span>
@@ -329,9 +364,9 @@
             </div>
         </section>
     </main>
-    <div id="site-footer"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/js/site-data.js" defer></script>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="./" aria-label="Greenspector - Accueil"><img class="footer-logo" src="./assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="./studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="./conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="./tarifs-greenspector-studio/">Tarifs</a></li><li><a href="./ressources/etudes-de-cas/">Ressources</a></li><li><a href="./a-propos/equipe-greenspector/">À propos</a></li><li><a href="./contact/">Contact</a></li><li><a href="./mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/nav-data.js" defer></script>
     <script src="./assets/js/main.js" defer></script>
 </body>
 

@@ -1,5 +1,7 @@
 const { slugToRelative, slugToAsset, rewriteBodyHtml } = require('./paths');
 const { renderTestimonialsCarousel } = require('./testimonials');
+const { renderIcon } = require('./icons');
+const { renderPicture } = require('./images');
 
 function esc(value) {
   return String(value)
@@ -116,7 +118,13 @@ function renderCaseStudyBody(page, ctx, nav) {
   const logos = (page.logos || [])
     .map(
       (logo) =>
-        `<img src="${esc(logo.src.startsWith('http') ? logo.src : slugToAsset(pageSlug, logo.src))}" alt="${esc(logo.alt)}" width="160" height="48" loading="eager" decoding="async">`
+        renderPicture(logo.src.startsWith('http') ? logo.src : logo.src, {
+          alt: logo.alt,
+          width: 160,
+          height: 48,
+          loading: 'eager',
+          pageSlug
+        })
     )
     .join('\n                        ');
 
@@ -128,7 +136,13 @@ function renderCaseStudyBody(page, ctx, nav) {
     : '';
   const introImage = page.intro?.image
     ? `<figure class="studio-figure">
-                            <img src="${esc(page.intro.image.src.startsWith('http') ? page.intro.image.src : slugToAsset(pageSlug, page.intro.image.src))}" alt="${esc(page.intro.image.alt)}" width="960" height="540" loading="lazy" decoding="async">
+                            ${renderPicture(page.intro.image.src.startsWith('http') ? page.intro.image.src : page.intro.image.src, {
+                              alt: page.intro.image.alt,
+                              width: 960,
+                              height: 540,
+                              loading: 'lazy',
+                              pageSlug
+                            })}
                         </figure>`
     : '';
 
@@ -141,7 +155,7 @@ function renderCaseStudyBody(page, ctx, nav) {
   const keys = (page.successKeys?.items || [])
     .map(
       (key) => `<article class="studio-card case-study-key">
-                                <span class="case-study-key__icon" aria-hidden="true"><i class="fa-solid fa-${esc(key.icon)}"></i></span>
+                                <span class="case-study-key__icon" aria-hidden="true">${renderIcon(key.icon || 'check')}</span>
                                 <h3>${key.title}</h3>
                                 <p>${key.text}</p>
                             </article>`
@@ -153,7 +167,13 @@ function renderCaseStudyBody(page, ctx, nav) {
     const t = page.testimonial;
     const quotes = (t.quotes || []).map((q) => `<p>${q}</p>`).join('\n                            ');
     const photo = t.photo
-      ? `<img src="${esc(t.photo.startsWith('http') ? t.photo : slugToAsset(pageSlug, t.photo))}" alt="" width="64" height="64" loading="lazy" decoding="async">`
+      ? renderPicture(t.photo.startsWith('http') ? t.photo : t.photo, {
+          alt: '',
+          width: 64,
+          height: 64,
+          loading: 'lazy',
+          pageSlug
+        })
       : '';
     testimonialBlock = `<section class="studio-section studio-quote-section" aria-labelledby="temoignage-title">
                         <p class="eyebrow">${esc(t.eyebrow || 'Témoignage')}</p>
@@ -198,7 +218,13 @@ function renderCaseStudyBody(page, ctx, nav) {
   const media = (page.media || [])
     .map(
       (item) => `<figure class="case-study-media">
-                                <img src="${esc(item.src.startsWith('http') ? item.src : slugToAsset(pageSlug, item.src))}" alt="${esc(item.alt)}" width="960" height="540" loading="lazy" decoding="async">
+                                ${renderPicture(item.src.startsWith('http') ? item.src : item.src, {
+                                  alt: item.alt,
+                                  width: 960,
+                                  height: 540,
+                                  loading: 'lazy',
+                                  pageSlug
+                                })}
                                 ${item.caption ? `<figcaption>${esc(item.caption)}</figcaption>` : ''}
                             </figure>`
     )

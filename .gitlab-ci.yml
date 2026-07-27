@@ -1,0 +1,78 @@
+stages:
+  - validate
+  - build
+  - publish
+
+variables:
+  NODE_VERSION: "20"
+
+default:
+  image: node:${NODE_VERSION}-bookworm
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules/
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_MESSAGE =~ /\[skip ci\]/
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "main"
+
+validate:
+  stage: validate
+  script:
+    - npm ci
+    - npm run validate
+
+build:
+  stage: build
+  needs:
+    - validate
+  script:
+    - npm ci
+    - npm run optimize-images
+    - npm run build
+  artifacts:
+    name: greenspector-static-site
+    when: on_success
+    expire_in: 7 days
+    paths:
+      - index.html
+      - sitemap.xml
+      - en/
+      - assets/
+      - studio/
+      - conseil/
+      - a-propos/
+      - contact/
+      - demo/
+      - connexion/
+      - mentions-legales/
+      - ressources/
+      - tarifs-greenspector-studio/
+
+publish:build-output:
+  stage: publish
+  needs:
+    - build
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - git config user.email "ci@greenspector.com"
+    - git config user.name "GitLab CI"
+    - git remote set-url origin "https://oauth2:${CI_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+  script:
+    - git checkout -B "${CI_COMMIT_REF_NAME}"
+    - |
+      git add -A
+      if git diff --staged --quiet; then
+        echo "No build changes to commit."
+        exit 0
+      fi
+      git commit -m "ci: rebuild static site [skip ci]"
+      git push origin "HEAD:${CI_COMMIT_REF_NAME}"

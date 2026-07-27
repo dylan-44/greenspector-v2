@@ -1,5 +1,7 @@
 const path = require('path');
 const { pathEnToOutputPath } = require('./slug-map');
+const { replaceFontAwesomeInHtml } = require('./icons');
+const { renderPicture } = require('./images');
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -56,6 +58,52 @@ function normalizeHrefTarget(target) {
   return slug;
 }
 
+function readAttr(attrs, name) {
+  const match = attrs.match(new RegExp(`\\s${name}="([^"]*)"`, 'i'));
+  return match ? match[1] : '';
+}
+
+function enhanceImagesInHtml(html, pageSlug) {
+  if (!html) {
+    return '';
+  }
+
+  let out = replaceFontAwesomeInHtml(html);
+
+  out = out.replace(/<img\b([^>]*?)>/gi, (match, attrs) => {
+    const src = readAttr(attrs, 'src');
+    if (!src || src.endsWith('.svg')) {
+      if (!/loading=/i.test(attrs)) {
+        const loading = /fetchpriority="high"/i.test(attrs) ? 'eager' : 'lazy';
+        const decoding = /decoding=/i.test(attrs) ? '' : ' decoding="async"';
+        return `<img${attrs}${/loading=/i.test(attrs) ? '' : ` loading="${loading}"`}${decoding}>`;
+      }
+      return match;
+    }
+
+    const alt = readAttr(attrs, 'alt');
+    const width = Number(readAttr(attrs, 'width')) || undefined;
+    const height = Number(readAttr(attrs, 'height')) || undefined;
+    const priority = /fetchpriority="high"/i.test(attrs);
+    const loading = priority ? 'eager' : readAttr(attrs, 'loading') || 'lazy';
+    const sizes = priority
+      ? '100vw'
+      : readAttr(attrs, 'sizes') || '(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px';
+
+    return renderPicture(src, {
+      alt,
+      width,
+      height,
+      loading,
+      priority,
+      sizes,
+      pageSlug
+    });
+  });
+
+  return out;
+}
+
 function rewriteBodyHtml(html, pageSlug, locale, slugLookup, resolveLocaleSlug) {
   if (!html) {
     return '';
@@ -93,7 +141,7 @@ function rewriteBodyHtml(html, pageSlug, locale, slugLookup, resolveLocaleSlug) 
     return ` src="${slugToAsset(pageSlug, `/assets/${rel}`)}"`;
   });
 
-  return out;
+  return enhanceImagesInHtml(out, pageSlug);
 }
 
 module.exports = {

@@ -2,12 +2,19 @@
   "name": "greenspector-v2",
   "private": true,
   "scripts": {
-    "build": "node scripts/build-site.js",
+    "fonts": "node scripts/fetch-inter-fonts.js",
+    "optimize-images": "node scripts/optimize-images.js",
+    "minify": "node scripts/minify-css.js",
+    "build": "node scripts/minify-css.js && node scripts/build-site.js",
+    "ci": "npm run validate && npm run optimize-images && npm run build",
     "extract": "node scripts/extract-fr-content.js",
     "validate": "node scripts/validate-content.js",
     "seed-en": "node scripts/seed-en-pages.js"
   },
   "devDependencies": {
-    "cheerio": "^1.0.0"
+    "adm-zip": "^0.5.16",
+    "cheerio": "^1.0.0",
+    "clean-css": "^5.3.3",
+    "sharp": "^0.34.3"
   }
 }
