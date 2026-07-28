@@ -29,18 +29,22 @@ function buildNavGroups(pages, i18n) {
     .filter((group) => group.items.length);
 }
 
+function navItemHref(pageSlug, slug) {
+  return slugToRelative(pageSlug, slug);
+}
+
 function renderDropdown(group, pageSlug, currentSlug) {
   const itemLink = (item) => {
-    const href = slugToRelative(pageSlug, item.slug);
+    const href = navItemHref(pageSlug, item.slug);
     const current = item.slug === currentSlug ? ' aria-current="page"' : '';
-    return `<li><a class="dropdown-item" href="${href}"${current}>${esc(item.name)}</a></li>`;
+    return `<li><a class="dropdown-item" href="${esc(href)}"${current}>${esc(item.name)}</a></li>`;
   };
 
   if (group.items.length === 1 && group.items[0].name === group.label) {
     const item = group.items[0];
-    const href = slugToRelative(pageSlug, item.slug);
+    const href = navItemHref(pageSlug, item.slug);
     const current = item.slug === currentSlug ? ' aria-current="page"' : '';
-    return `<li class="nav-item"><a class="nav-link" href="${href}"${current}>${esc(group.label)}</a></li>`;
+    return `<li class="nav-item"><a class="nav-link" href="${esc(href)}"${current}>${esc(group.label)}</a></li>`;
   }
 
   return `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">${esc(group.label)}</a><ul class="dropdown-menu">${group.items.map(itemLink).join('')}</ul></li>`;
@@ -73,11 +77,13 @@ function renderFooter({ pageSlug, locale, i18n, pages }) {
   const groups = (i18n.sections || []).map((section) => section.key);
   const footerNav = groups
     .map((section) => {
-      const firstPage = pages.find((item) => item.section === section);
-      if (!firstPage) {
+      const sectionPage = pages.find(
+        (item) => item.section === section && !String(item.slug).startsWith('http')
+      );
+      if (!sectionPage) {
         return '';
       }
-      return `<li><a href="${slugToRelative(pageSlug, firstPage.slug)}">${esc(sectionLabels[section] || section)}</a></li>`;
+      return `<li><a href="${esc(slugToRelative(pageSlug, sectionPage.slug))}">${esc(sectionLabels[section] || section)}</a></li>`;
     })
     .join('');
 

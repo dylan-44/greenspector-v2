@@ -156,14 +156,15 @@ function main() {
 
       const jsonPath = regPage ? pageJsonPath(locale, regPage.path) : null;
       const page = jsonPath && fs.existsSync(jsonPath) ? loadJson(jsonPath) : null;
-      const slug = locale === 'fr' ? entry.slug : regPage?.slugEn || entry.slug;
+      const externalHref = locale === 'fr' ? entry.hrefFr : entry.hrefEn;
+      const slug = externalHref || (locale === 'fr' ? entry.slug : regPage?.slugEn || entry.slug);
 
       pagesNavByLocale[locale].push({
         section: entry.section,
         name: page?.nav?.name || entry.name,
         slug,
-        slugFr: entry.slug,
-        slugEn: regPage?.slugEn || entry.slug,
+        slugFr: entry.hrefFr || entry.slug,
+        slugEn: entry.hrefEn || regPage?.slugEn || entry.slug,
         primary: page?.nav?.primary || entry.primary,
         secondary: page?.nav?.secondary || entry.secondary,
         generated: false

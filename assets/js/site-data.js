@@ -233,6 +233,16 @@ window.GS_PAGES = [
   },
   {
     "section": "Ressources",
+    "name": "Blog",
+    "slug": "https://blog.greenspector.com/",
+    "slugFr": "https://blog.greenspector.com/",
+    "slugEn": "https://blog.greenspector.com/en/",
+    "primary": "blog Greenspector",
+    "secondary": "sobriété numérique, écoconception, actualités",
+    "generated": false
+  },
+  {
+    "section": "Ressources",
     "name": "Études de cas",
     "slug": "/ressources/etudes-de-cas/",
     "slugFr": "/ressources/etudes-de-cas/",
@@ -421,6 +431,16 @@ window.GS_PAGES_EN = [
     "slugEn": "/en/pricing/greenspector-studio/",
     "primary": "Greenspector Studio pricing",
     "secondary": "Green IT SaaS pricing",
+    "generated": false
+  },
+  {
+    "section": "Ressources",
+    "name": "Blog",
+    "slug": "https://blog.greenspector.com/en/",
+    "slugFr": "https://blog.greenspector.com/",
+    "slugEn": "https://blog.greenspector.com/en/",
+    "primary": "blog Greenspector",
+    "secondary": "sobriété numérique, écoconception, actualités",
     "generated": false
   },
   {

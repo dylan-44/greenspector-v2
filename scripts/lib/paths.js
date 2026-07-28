@@ -18,6 +18,9 @@ function slugToRelative(fromSlug, toSlug) {
   if (!toSlug || toSlug === '/') {
     return slugToBase(fromSlug);
   }
+  if (toSlug.startsWith('http') || toSlug.startsWith('mailto:') || toSlug.startsWith('#')) {
+    return toSlug;
+  }
   return `${slugToBase(fromSlug)}${toSlug.replace(/^\//, '')}`;
 }
 

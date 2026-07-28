@@ -1,0 +1,4023 @@
+{
+  "generatedAt": "2026-07-28T11:36:13.348Z",
+  "summary": {
+    "totalPosts": 492,
+    "postsWithInternalLinks": 395,
+    "uniqueInternalPaths": 305,
+    "byStatus": {
+      "blog_301": 125,
+      "marketing_301": 47,
+      "legacy_301": 130,
+      "v2_static": 3
+    }
+  },
+  "missing301": [],
+  "allPaths": [
+    {
+      "pathname": "/",
+      "status": "v2_static",
+      "note": "Accueil v2",
+      "exampleHrefs": [
+        "https://greenspector.com/",
+        "https://www.greenspector.com",
+        "https://greenspector.com",
+        "http://www.greenspector.com",
+        "https://www.greenspector.com/"
+      ],
+      "foundInPosts": [
+        "/en/could-vibe-coding-thanks-to-ai-be-green/",
+        "/est-ce-que-le-vibe-coding-avec-lia-peut-etre-green/",
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+        "/intelligence-artificielle-smartphone-autonomie/",
+        "/jftl-2022/",
+        "/ecoact-et-greenspector-accompagnent-france-tv-dans-la-decarbonation-de-son-nouveau-media-nowu/",
+        "/en/ecoact-and-greenspector-support-france-tv-in-the-decarbonization-of-its-new-media-nowu/",
+        "/nettoyer-chrome-pour-realiser-des-mesures-independantes/",
+        "/en/introduction-to-gdsl-automatisaton-language-by-greenspector/",
+        "/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+        "/en/impact-playing-canal-video/",
+        "/doodles-google/",
+        "/classement-de-la-consommation-energetique-des-partenaires/",
+        "/en/change-now-2020-ranking-of-the-energy-consumption-of-partners-websites/",
+        "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+        "/greenspector-app-scan-desormais-disponible-sur-ios/",
+        "/en/greenspector-app-scan-is-now-available-on-ios/",
+        "/forum-tech4good-greenspector-partenaire-de-levenement/",
+        "/en/catch-greenspector-at-mobility-for-business-on-october-1-2-3/",
+        "/applications-de-geolocalisation/",
+        "/en/2019-ranking-of-gps-applications/",
+        "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+        "/greenspector-integre-la-marque-crosscall-sur-son-power-test-cloud/",
+        "/en/greenspector-integrates-crosscall-brand-into-its-power-test-cloud/",
+        "/greenspector-et-soprasteria-sont-desormais-partenaires-pour-des-applications-mobiles-de-qualite/",
+        "/en/greenspector-and-soprasteria-are-now-partners-for-quality-mobile-applications/",
+        "/les-5-cles-du-succes-dune-application/",
+        "/en/get-in-touch-with-us-at-the-mobile-world-congress-2019/",
+        "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+        "/en/why-automate-the-testing-of-its-mobile-applications/",
+        "/ecouter-de-la-musique-sur-son-smartphone-sans-vider-sa-batterie-cest-possible/",
+        "/en/is-it-possible-to-listen-to-music-without-emptying-your-smartphones-battery/",
+        "/en/catch-greenspector-at-the-ieee-globecom-2018-conference-in-abu-dhabi-next-10th-december/",
+        "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+        "/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/",
+        "/en/m-tourism-hotel-reservation-ranking-2018/",
+        "/en/fashion-m-commerce-applications-barometer-2018/",
+        "/en/is-the-instagram-lite-app-really-lighter/",
+        "/lapplication-instagram-lite-est-elle-vraiment-plus-legere/",
+        "/greenspector-recompense-dans-le-cadre-du-projet-convince-par-celticplus/",
+        "/en/catch-greenspector-at-mobility-for-business-on-october-17-18/",
+        "/en/do-not-let-your-network-cell-rob-the-battery-anymore/",
+        "/en/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/",
+        "/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/",
+        "/en/why-is-measuring-performance-with-the-cpu-a-mistake/",
+        "/en/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian/",
+        "/en/greenspector-winner-cleantech-open-france-2017-in-the-digital-iot-category/",
+        "/en/version-1-16/",
+        "/11-au-12-decembre-greenspector-se-mobilise-lors-de-la-semaine-mondiale-de-la-transition-a-tech-for-planet-et-aux-world-efficiency-solutions-a-paris/",
+        "/decouvrez-fennel-la-version-1-15-0-de-greenspector/",
+        "/en/version-1-15/",
+        "/mypositiveimpact-greenspector-est-candidat-a-vos-votes/",
+        "/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+        "/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/",
+        "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+        "/http2-latence-et-energie/",
+        "/la-boite-a-outils-du-developpeur-android-les-outils-de-performance/",
+        "/analyse-statique-de-code-dans-une-bdd-orientee-graphe/",
+        "/lecoconception-des-logiciels-vers-une-sobriete-heureuse-du-numerique/",
+        "/webp-png-jpeg-energy-battle-sur-android/",
+        "/en/webp-png-jpeg-energy-battle-on-android/",
+        "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+        "/en/android-should-you-use-hashmap-or-sparsearray/",
+        "/android-faut-il-utiliser-hashmap-ou-sparsearray/",
+        "/en/what-is-the-memory-cost-of-a-cordova-application/",
+        "/en/continuous-measurement-in-devops-or-how-to-easily-control-the-efficiency-of-its-applications/",
+        "/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+        "/quel-est-le-cout-memoire-dune-application-cordova/",
+        "/greenspector-startup-de-la-semaine-sur-bfm-business/",
+        "/en/http2-latency-and-energy/",
+        "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+        "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+        "/en/third-party-services-really-make-a-difference-when-it-comes-to-battery-life/",
+        "/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/"
+      ]
+    },
+    {
+      "pathname": "/2025/02/17/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/2025/02/17/"
+      ],
+      "foundInPosts": [
+        "/intelligence-artificielle-smartphone-autonomie/"
+      ]
+    },
+    {
+      "pathname": "/2025/06/05/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/2025/06/05/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/"
+      ]
+    },
+    {
+      "pathname": "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/"
+      ],
+      "foundInPosts": [
+        "/pourquoi-se-preoccuper-de-la-consommation-de-batterie-dune-application/"
+      ]
+    },
+    {
+      "pathname": "/analyse-statique-de-code-dans-une-bdd-orientee-graphe/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/analyse-statique-de-code-dans-une-bdd-orientee-graphe/"
+      ],
+      "foundInPosts": [
+        "/la-version-1-11-0-broccoli-de-greenspector-est-sortie/"
+      ]
+    },
+    {
+      "pathname": "/articles.html",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/articles.html"
+      ],
+      "foundInPosts": [
+        "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/"
+      ]
+    },
+    {
+      "pathname": "/articles/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://www.greenspector.com/articles/"
+      ],
+      "foundInPosts": [
+        "/twitter-lite-est-il-si-leger-pour-lautonomie-de-votre-batterie/"
+      ]
+    },
+    {
+      "pathname": "/articles/2017-04-11-android-containers/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/articles/2017-04-11-android-containers/"
+      ],
+      "foundInPosts": [
+        "/android-memory-the-ultimate-metric-guide/"
+      ]
+    },
+    {
+      "pathname": "/articles/2017-04-25-power-test-cloud/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/articles/2017-04-25-power-test-cloud/"
+      ],
+      "foundInPosts": [
+        "/decouvrez-fennel-la-version-1-15-0-de-greenspector/"
+      ]
+    },
+    {
+      "pathname": "/articles/2017-07-18-acv-logiciels/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/articles/2017-07-18-acv-logiciels/"
+      ],
+      "foundInPosts": [
+        "/fin-de-vie-obsolescence-et-dechets-lies-aux-logiciels/"
+      ]
+    },
+    {
+      "pathname": "/articles/2017-07-26-specificites-produits-logiciels/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/articles/2017-07-26-specificites-produits-logiciels/"
+      ],
+      "foundInPosts": [
+        "/fin-de-vie-obsolescence-et-dechets-lies-aux-logiciels/"
+      ]
+    },
+    {
+      "pathname": "/bankin-vs-linxo/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/bankin-vs-linxo/"
+      ],
+      "foundInPosts": [
+        "/en/2019-mobile-video-games-ranking-12-apps-measured/"
+      ]
+    },
+    {
+      "pathname": "/benchmarker-une-application-sur-le-power-test-cloud/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/benchmarker-une-application-sur-le-power-test-cloud/"
+      ],
+      "foundInPosts": [
+        "/en/version-2-3/",
+        "/mobile-efficiency-index-le-premier-outil-en-ligne-pour-mesurer-la-consommation-energetique-reelle-de-vos-applications-et-sites-web/",
+        "/twitter-lite-est-il-si-leger-pour-lautonomie-de-votre-batterie/",
+        "/la-version-1-11-0-broccoli-de-greenspector-est-sortie/",
+        "/en/version-1-11/",
+        "/webp-png-jpeg-energy-battle-sur-android/",
+        "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+        "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/"
+      ]
+    },
+    {
+      "pathname": "/blog/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/blog/"
+      ],
+      "foundInPosts": [
+        "/consommation-energetique-de-liot-mesurer-raspberry-avec-arduino/",
+        "/fin-de-vie-obsolescence-et-dechets-lies-aux-logiciels/",
+        "/ecoconception-des-logiciels-quel-est-le-cycle-de-vie-dun-logiciel/",
+        "/ecoconception-des-logiciels-specificites-des-produits-logiciels-2/",
+        "/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/",
+        "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/"
+      ]
+    },
+    {
+      "pathname": "/blog/ia/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/blog/ia/"
+      ],
+      "foundInPosts": [
+        "/intelligence-artificielle-smartphone-autonomie/"
+      ]
+    },
+    {
+      "pathname": "/blog/numerique-responsable/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/blog/numerique-responsable/"
+      ],
+      "foundInPosts": [
+        "/intelligence-artificielle-smartphone-autonomie/"
+      ]
+    },
+    {
+      "pathname": "/blog/sobriete-des-applications/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/blog/sobriete-des-applications/"
+      ],
+      "foundInPosts": [
+        "/intelligence-artificielle-smartphone-autonomie/"
+      ]
+    },
+    {
+      "pathname": "/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/"
+      ],
+      "foundInPosts": [
+        "/en/rgesn-statements-the-clash-of-words-the-weight-of-measures/",
+        "/rgesn_et_mesures/"
+      ]
+    },
+    {
+      "pathname": "/contact/",
+      "status": "v2_static",
+      "note": "Page v2 (même chemin)",
+      "exampleHrefs": [
+        "https://greenspector.com/contact/"
+      ],
+      "foundInPosts": [
+        "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+        "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+        "/greenspector-startup-de-la-semaine-sur-bfm-business/"
+      ]
+    },
+    {
+      "pathname": "/contactez-nous/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/contactez-nous/"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/greenspector-app-mark-premier-indicateur-defficience-des-applications-mobile/"
+      ]
+    },
+    {
+      "pathname": "/deezer-vs-spotify/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/deezer-vs-spotify/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-ada-vs-europcar/",
+        "/en/2019-mobile-video-games-ranking-12-apps-measured/"
+      ]
+    },
+    {
+      "pathname": "/downloads/fr/NM.pdf",
+      "status": "blog_301",
+      "note": "downloads → wp-content blog",
+      "exampleHrefs": [
+        "https://greenspector.com/downloads/fr/NM.pdf"
+      ],
+      "foundInPosts": [
+        "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/",
+        "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/"
+      ]
+    },
+    {
+      "pathname": "/downloads/GREENSPECTOR_palmares_2019_paris_sporitfs.pdf",
+      "status": "blog_301",
+      "note": "downloads → wp-content blog",
+      "exampleHrefs": [
+        "https://greenspector.com/downloads/GREENSPECTOR_palmares_2019_paris_sporitfs.pdf"
+      ],
+      "foundInPosts": [
+        "/paris-sportifs/"
+      ]
+    },
+    {
+      "pathname": "/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/"
+      ],
+      "foundInPosts": [
+        "/rencontrons-nous-au-lab-dinnovation-dorange-a-viva-technology-2018/"
+      ]
+    },
+    {
+      "pathname": "/ecoconception-des-logiciels-quel-est-le-cycle-de-vie-dun-logiciel/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/ecoconception-des-logiciels-quel-est-le-cycle-de-vie-dun-logiciel/"
+      ],
+      "foundInPosts": [
+        "/fin-de-vie-obsolescence-et-dechets-lies-aux-logiciels/"
+      ]
+    },
+    {
+      "pathname": "/en/",
+      "status": "v2_static",
+      "note": "Accueil v2",
+      "exampleHrefs": [
+        "https://www.greenspector.com/en/",
+        "https://greenspector.com/en/",
+        "https://greenspector.com/en",
+        "https://greenspector.com/en/?utm_source=articlegreenspector",
+        "https://www.greenspector.com/en"
+      ],
+      "foundInPosts": [
+        "/en/discover-quinoa-the-2-6-0-version-of-greenspector/",
+        "/en/version-2-3/",
+        "/en/greenspector-app-mark/",
+        "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+        "/en/version-2-4/",
+        "/en/should-i-activate-the-night-mode-to-increase-my-battery-life-the-case-of-the-twitter-app/",
+        "/en/version-2-2/",
+        "/en/greenspector-is-mobility-for-business-2018s-favourite-startup/",
+        "/en/bewizyu/",
+        "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+        "/en/version-2-1/",
+        "/en/greenspector-awarded-as-part-of-the-convince-project-by-celticplus/",
+        "/en/version-2-0/",
+        "/en/version-1-19/",
+        "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/",
+        "/en/joint-interview-with-thibault-geenen-ferpection-ceo/",
+        "/en/how-apps-killed-my-phone-battery/",
+        "/en/version-1-18/",
+        "/en/manually-explore-an-application-with-the-free-runner-test/",
+        "/en/benchmark-an-application-on-the-power-test-cloud/",
+        "/en/version-1-17/",
+        "/en/mobile-efficiency-index/",
+        "/en/apple-planned-obsolescence-explained-for-dummies-and-others/",
+        "/en/greenspector-rallies-for-the-world-transition-week-at-tech-for-planet/",
+        "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+        "/en/android-developers-toolbox-performance-tools/",
+        "/en/static-analysis-of-a-code-in-a-graph-database/",
+        "/en/software-eco-design-towards-a-happy-sobriety-in-the-digital-world/",
+        "/en/power-test-cloud-how-to-measure-the-energy-consumption-of-a-web-or-mobile-app-when-youre-not-an-expert/",
+        "/en/does-facebook-lite-save-your-smartphone-battery/",
+        "/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/"
+      ]
+    },
+    {
+      "pathname": "/en/10276-2/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/10276-2/"
+      ],
+      "foundInPosts": [
+        "/en/social-media-2021/"
+      ]
+    },
+    {
+      "pathname": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/2019-mobile-video-games-ranking-12-apps-measured/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-mobile-games-in-2023/",
+        "/en/petit-bamboo-vs-meditopia/",
+        "/en/babbel-vs-duolingo-2/",
+        "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+        "/en/the-battle-of-the-week-united-wardrobe-vs-vinted/",
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/"
+      ]
+    },
+    {
+      "pathname": "/en/2019-ranking-of-gps-applications/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/2019-ranking-of-gps-applications/"
+      ],
+      "foundInPosts": [
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/"
+      ]
+    },
+    {
+      "pathname": "/en/5-keys-to-application-success/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/5-keys-to-application-success/"
+      ],
+      "foundInPosts": [
+        "/en/best-2019-android-apps-and-games-ranking-by-greenspector/",
+        "/en/greenspector-app-mark/",
+        "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/",
+        "/en/greenspector-app-scan-is-now-available-on-ios/",
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/"
+      ]
+    },
+    {
+      "pathname": "/en/7-minutes-workout-vs-home-workout/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/7-minutes-workout-vs-home-workout/"
+      ],
+      "foundInPosts": [
+        "/en/petit-bamboo-vs-meditopia/"
+      ]
+    },
+    {
+      "pathname": "/en/android-memory-the-ultimate-metric-guide-2/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/android-memory-the-ultimate-metric-guide-2/"
+      ],
+      "foundInPosts": [
+        "/en/the-software-world-is-destroying-itself-manifesto-for-a-more-sustainable-development/"
+      ]
+    },
+    {
+      "pathname": "/en/apple-planned-obsolescence-explained-for-dummies-and-others/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/apple-planned-obsolescence-explained-for-dummies-and-others/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/",
+        "/en/how-apps-killed-my-phone-battery/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://www.greenspector.com/en/articles/"
+      ],
+      "foundInPosts": [
+        "/en/is-twitter-lite-really-that-light-for-your-battery-life/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2017-01-10-SystemUI/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2017-01-10-SystemUI/"
+      ],
+      "foundInPosts": [
+        "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+        "/pourquoi-se-preoccuper-de-la-consommation-de-batterie-dune-application/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2017-03-23-continuous-measurement-in-devops/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2017-03-23-continuous-measurement-in-devops/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-memory-cost-of-a-cordova-application/",
+        "/en/third-party-services-really-make-a-difference-when-it-comes-to-battery-life/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2017-04-11-android-containers/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2017-04-11-android-containers/"
+      ],
+      "foundInPosts": [
+        "/en/android-memory-the-ultimate-metric-guide-2/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2017-07-26-specificites-produits-logiciels/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2017-07-26-specificites-produits-logiciels/"
+      ],
+      "foundInPosts": [
+        "/en/end-of-life-software-induced-obsolescence-and-wastes/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2018-01-02-apple-planned-obsolescence-explained-for-dummies/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2018-01-02-apple-planned-obsolescence-explained-for-dummies/"
+      ],
+      "foundInPosts": [
+        "/en/how-apps-killed-my-phone-battery/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2018-03-07-benchmark-application-power-test-cloud/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://www.greenspector.com/en/articles/2018-03-07-benchmark-application-power-test-cloud"
+      ],
+      "foundInPosts": [
+        "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+        "/en/launch-application-consumption-measurement-from-your-pic-software-factory/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2018-04-17-how-apps-killed-my-phone-battery/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /en/how-apps-killed-my-phone-battery/",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2018-04-17-how-apps-killed-my-phone-battery/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/",
+        "/en/techforgood-or-goodfortech/",
+        "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2018-05-15-problemes-energie-performance-applications-mobiles/"
+      ],
+      "foundInPosts": [
+        "/en/why-automate-the-testing-of-its-mobile-applications/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2018-07-25-campagnes-de-tests-choix-smartphone/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/"
+      ]
+    },
+    {
+      "pathname": "/en/articles/2018-11-15-twitter-night-mode/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articles/2018-11-15-twitter-night-mode/"
+      ],
+      "foundInPosts": [
+        "/en/qwant-vs-google-2/"
+      ]
+    },
+    {
+      "pathname": "/en/articletypes/greenit/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/articletypes/greenit/"
+      ],
+      "foundInPosts": [
+        "/en/the-top-10-myths-of-frugal-ict/",
+        "/le-top-10-des-mythes-du-numerique-sobre/",
+        "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/"
+      ]
+    },
+    {
+      "pathname": "/en/artificial-intelligence-smartphone-autonomy/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/artificial-intelligence-smartphone-autonomy/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-impact-of-local-ai/",
+        "/en/what-is-the-environmental-impact-of-llm-use-on-the-customers-side-battle-chatgpt-vs-deepseek/"
+      ]
+    },
+    {
+      "pathname": "/en/benchmark-an-application-on-the-power-test-cloud/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/benchmark-an-application-on-the-power-test-cloud/"
+      ],
+      "foundInPosts": [
+        "/en/monitor-url-digital-sobriety/",
+        "/en/which-application-choose-to-follow-the-2018-world-cup-without-draining-your-smartphones-battery-life/",
+        "/en/version-1-19/",
+        "/en/joint-interview-with-thibault-geenen-ferpection-ceo/",
+        "/en/manually-explore-an-application-with-the-free-runner-test/",
+        "/en/mobile-efficiency-index/",
+        "/en/is-twitter-lite-really-that-light-for-your-battery-life/",
+        "/en/version-1-15/",
+        "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+        "/en/webp-png-jpeg-energy-battle-on-android/"
+      ]
+    },
+    {
+      "pathname": "/en/best-2019-android-apps-and-games-ranking-by-greenspector/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/best-2019-android-apps-and-games-ranking-by-greenspector/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-mobile-games-in-2023/"
+      ]
+    },
+    {
+      "pathname": "/en/blog-en/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/en/blog-en/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/",
+        "/en/is-it-possible-to-listen-to-music-without-emptying-your-smartphones-battery/",
+        "/en/should-i-activate-the-night-mode-to-increase-my-battery-life-the-case-of-the-twitter-app/",
+        "/en/measuring-the-energy-consumption-of-iot-using-arduino-to-measure-raspberry/",
+        "/en/end-of-life-software-induced-obsolescence-and-wastes/",
+        "/en/software-eco-design-what-is-the-life-cycle-of-a-software/",
+        "/en/software-eco-design-software-products-features/",
+        "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/",
+        "/en/power-test-cloud-how-to-measure-the-energy-consumption-of-a-web-or-mobile-app-when-youre-not-an-expert/"
+      ]
+    },
+    {
+      "pathname": "/en/blog/digital-sobriety/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/blog/digital-sobriety/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/"
+      ]
+    },
+    {
+      "pathname": "/en/changenow-2022-event/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/changenow-2022-event/"
+      ],
+      "foundInPosts": [
+        "/en/changenow2022-ranking-partners/"
+      ]
+    },
+    {
+      "pathname": "/en/comparison-of-web-hosting-offers-selected-for-their-environmental-commitments/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/comparison-of-web-hosting-offers-selected-for-their-environmental-commitments/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-analysis-of-analytics-tools-use-impact-responsible/"
+      ]
+    },
+    {
+      "pathname": "/en/contact-us/",
+      "status": "marketing_301",
+      "note": "Règle marketing .htaccess",
+      "exampleHrefs": [
+        "https://greenspector.com/en/contact-us/"
+      ],
+      "foundInPosts": [
+        "/en/innovation-the-first-energy-meter-for-ios-from-greenspector/",
+        "/en/digital-sobriety-at-greenspector/",
+        "/en/does-a-sober-site-have-to-be-ugly/",
+        "/en/vivatechnology-sncf/",
+        "/en/changenow2022-ranking-partners/",
+        "/en/vivatechnology-orange/",
+        "/en/changenow-2022-event/",
+        "/en/greenspector-wins-the-digital-sobriety-award-at-the-mobility-for-business-20/",
+        "/en/mobility-for-business-nov2021/",
+        "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+        "/en/direct-messaging-business-apps/",
+        "/en/6168-2/",
+        "/en/search-engines/",
+        "/en/petit-bamboo-vs-meditopia/",
+        "/en/top-100-e-commerce-websites/",
+        "/en/greenspector-app-mark/"
+      ]
+    },
+    {
+      "pathname": "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/",
+        "/en/the-software-world-is-destroying-itself-manifesto-for-a-more-sustainable-development/"
+      ]
+    },
+    {
+      "pathname": "/en/digital-sobriety-certificate/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/digital-sobriety-certificate/"
+      ],
+      "foundInPosts": [
+        "/en/vivatechnology-sncf/",
+        "/en/vivatechnology-orange/",
+        "/en/changenow-2022-event/"
+      ]
+    },
+    {
+      "pathname": "/en/do-not-let-your-network-cell-rob-the-battery-anymore/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/do-not-let-your-network-cell-rob-the-battery-anymore/"
+      ],
+      "foundInPosts": [
+        "/en/version-1-19/"
+      ]
+    },
+    {
+      "pathname": "/en/does-a-sober-site-have-to-be-ugly/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/does-a-sober-site-have-to-be-ugly/"
+      ],
+      "foundInPosts": [
+        "/en/12-reasons-not-to-eco-design-a-digital-service/",
+        "/en/analysis-of-overconsumptions-on-a-light-website-2/"
+      ]
+    },
+    {
+      "pathname": "/en/does-facebook-lite-save-your-smartphone-battery/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/does-facebook-lite-save-your-smartphone-battery/"
+      ],
+      "foundInPosts": [
+        "/limiter-les-donnees-internet-pour-reduire-impact-numerique/",
+        "/en/which-direct-messaging-application-should-i-choose/",
+        "/en/is-the-messenger-lite-app-really-lighter/",
+        "/en/is-the-instagram-lite-app-really-lighter/",
+        "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/",
+        "/en/software-eco-design-towards-a-happy-sobriety-in-the-digital-world/",
+        "/en/power-test-cloud-how-to-measure-the-energy-consumption-of-a-web-or-mobile-app-when-youre-not-an-expert/"
+      ]
+    },
+    {
+      "pathname": "/en/dom-as-a-metric-for-monitoring-web-sobriety/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/dom-as-a-metric-for-monitoring-web-sobriety/"
+      ],
+      "foundInPosts": [
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/"
+      ]
+    },
+    {
+      "pathname": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/"
+      ],
+      "foundInPosts": [
+        "/en/petit-bamboo-vs-meditopia/",
+        "/en/7-minutes-workout-vs-home-workout/",
+        "/en/marmiton-vs-750g-battle/",
+        "/en/babbel-vs-duolingo-2/",
+        "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+        "/en/rocketchat-vs-slack-2/",
+        "/en/the-battle-of-the-week-united-wardrobe-vs-vinted/",
+        "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/",
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/",
+        "/en/the-battle-of-the-week-mixer-vs-twitch/",
+        "/en/the-battle-of-the-week-kapten-vs-uber/",
+        "/en/2019-ranking-of-gps-applications/",
+        "/en/the-battle-of-the-week-drivy-vs-ouicar/",
+        "/en/the-battle-of-the-week-happn-vs-tinder/",
+        "/en/the-battle-of-the-week-ada-vs-europcar/",
+        "/en/the-battle-of-the-week-deezer-vs-spotify/",
+        "/en/the-battle-of-the-day-airbnb-vs-booking/",
+        "/en/the-battle-of-the-week-amazon-prime-video-vs-netflix/",
+        "/en/the-battle-of-the-week-bankin-vs-linxo/",
+        "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+        "/en/sncf-vs-trainline/",
+        "/en/the-fight-of-the-week-amazon-vs-cdiscount/"
+      ]
+    },
+    {
+      "pathname": "/en/environmental-footprint-methodology/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/environmental-footprint-methodology/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-analysis-of-analytics-tools-use-impact-responsible/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/en/from-green-floor-to-green-digital-are-the-champions-league-finalists-apps-in-the-game/",
+        "/en/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023/",
+        "/en/environmental-impact-of-top-30-of-the-french-daily-press/",
+        "/en/web-hosts-impact-and-sobriety-actions/",
+        "/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/",
+        "/en/nantes-digital-week-2022-ranking-of-the-digital-sobriety-of-partners-and-visitors-websites/",
+        "/en/analysis_sites_nominated_mobile_excellence_awwwards/",
+        "/en/videoconferencing-apps-2022/",
+        "/en/does-a-sober-site-have-to-be-ugly/",
+        "/en/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france/",
+        "/en/changenow2022-ranking-partners/",
+        "/en/social-media-2021/"
+      ]
+    },
+    {
+      "pathname": "/en/evaluate-app-scan/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/evaluate-app-scan/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023/",
+        "/en/monitor-url-digital-sobriety/"
+      ]
+    },
+    {
+      "pathname": "/en/facebook-app-vs-facebook-web-2/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/facebook-app-vs-facebook-web-2/"
+      ],
+      "foundInPosts": [
+        "/en/6168-2/"
+      ]
+    },
+    {
+      "pathname": "/en/fight-of-the-week-ubereats-vs-deliveroo/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/fight-of-the-week-ubereats-vs-deliveroo/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-kapten-vs-uber/"
+      ]
+    },
+    {
+      "pathname": "/en/greenspector-app-mark/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/greenspector-app-mark/"
+      ],
+      "foundInPosts": [
+        "/en/best-2019-android-apps-and-games-ranking-by-greenspector/",
+        "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+        "/en/12-rules-to-your-application-success/",
+        "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/"
+      ]
+    },
+    {
+      "pathname": "/en/greenspector-is-business-frances-favourite-at-mobile-world-congress-2018/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/greenspector-is-business-frances-favourite-at-mobile-world-congress-2018/"
+      ],
+      "foundInPosts": [
+        "/en/get-in-touch-with-us-at-the-mobile-world-congress-2019/",
+        "/en/joint-interview-with-thibault-geenen-ferpection-ceo/"
+      ]
+    },
+    {
+      "pathname": "/en/greenspector-methodology-specification/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/greenspector-methodology-specification/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-impact-of-local-ai/"
+      ]
+    },
+    {
+      "pathname": "/en/greenspector-studio-it-environmental-footprint-websites-applications/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-llm-use-on-the-customers-side-battle-chatgpt-vs-deepseek/"
+      ]
+    },
+    {
+      "pathname": "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/",
+        "/en/greenspector-app-mark/"
+      ]
+    },
+    {
+      "pathname": "/en/greenspector-will-be-present-at-viva-technology-2019-event-on-may-16-18-in-the-atos-innovation-lab/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/greenspector-will-be-present-at-viva-technology-2019-event-on-may-16-18-in-the-atos-innovation-lab/"
+      ],
+      "foundInPosts": [
+        "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/"
+      ]
+    },
+    {
+      "pathname": "/en/home/",
+      "status": "marketing_301",
+      "note": "Règle marketing .htaccess",
+      "exampleHrefs": [
+        "https://greenspector.com/en/home",
+        "https://greenspector.com/en/home/"
+      ],
+      "foundInPosts": [
+        "/en/how-to-clean-up-the-chrome-app-for-reliable-energy-and-performance-measurements/",
+        "/en/atos-scaler-program/",
+        "/en/greenspector-solar-impulse-label/"
+      ]
+    },
+    {
+      "pathname": "/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/"
+      ],
+      "foundInPosts": [
+        "/optimiser-energie-des-smartphones-pour-reduire-limpact-du-numerique/",
+        "/en/optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology/"
+      ]
+    },
+    {
+      "pathname": "/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/"
+      ],
+      "foundInPosts": [
+        "/en/analysis-of-overconsumptions-on-a-light-website-2/",
+        "/en/web-hosts-impact-and-sobriety-actions/"
+      ]
+    },
+    {
+      "pathname": "/en/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian/"
+      ],
+      "foundInPosts": [
+        "/en/do-not-let-your-network-cell-rob-the-battery-anymore/"
+      ]
+    },
+    {
+      "pathname": "/en/how-to-audit-android-mobile-application-requests/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-to-audit-android-mobile-application-requests/"
+      ],
+      "foundInPosts": [
+        "/en/analysis-of-overconsumptions-on-a-light-website-2/"
+      ]
+    },
+    {
+      "pathname": "/en/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/"
+      ],
+      "foundInPosts": [
+        "/en/version-2-3/",
+        "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/"
+      ]
+    },
+    {
+      "pathname": "/en/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/"
+      ],
+      "foundInPosts": [
+        "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+        "/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/"
+      ]
+    },
+    {
+      "pathname": "/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/"
+      ],
+      "foundInPosts": [
+        "/en/version-2-2/"
+      ]
+    },
+    {
+      "pathname": "/en/http2-latency-and-energy/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/http2-latency-and-energy/"
+      ],
+      "foundInPosts": [
+        "/en/webp-png-jpeg-energy-battle-on-android/"
+      ]
+    },
+    {
+      "pathname": "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/"
+      ],
+      "foundInPosts": [
+        "/en/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/",
+        "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/"
+      ]
+    },
+    {
+      "pathname": "/en/impact-playing-canal-video/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/impact-playing-canal-video/"
+      ],
+      "foundInPosts": [
+        "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+        "/en/one-hour-of-netflix-viewing-is-equivalent-to-100-geqco2/",
+        "/en/software-eco-design-practices-server-side-or-user-side/",
+        "/en/what-are-the-best-android-web-browsers-to-use-in-2021/"
+      ]
+    },
+    {
+      "pathname": "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/"
+      ],
+      "foundInPosts": [
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/",
+        "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/"
+      ]
+    },
+    {
+      "pathname": "/en/introduction-to-gdsl-automatisaton-language-by-greenspector/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/introduction-to-gdsl-automatisaton-language-by-greenspector/"
+      ],
+      "foundInPosts": [
+        "/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/",
+        "/en/monitor-url-digital-sobriety/",
+        "/en/how-to-clean-up-the-chrome-app-for-reliable-energy-and-performance-measurements/"
+      ]
+    },
+    {
+      "pathname": "/en/is-the-instagram-lite-app-really-lighter/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/is-the-instagram-lite-app-really-lighter/"
+      ],
+      "foundInPosts": [
+        "/en/which-direct-messaging-application-should-i-choose/",
+        "/en/is-the-messenger-lite-app-really-lighter/",
+        "/en/should-i-activate-the-night-mode-to-increase-my-battery-life-the-case-of-the-twitter-app/"
+      ]
+    },
+    {
+      "pathname": "/en/is-the-messenger-lite-app-really-lighter/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/is-the-messenger-lite-app-really-lighter/"
+      ],
+      "foundInPosts": [
+        "/en/which-direct-messaging-application-should-i-choose/"
+      ]
+    },
+    {
+      "pathname": "/en/is-twitter-lite-really-that-light-for-your-battery-life/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/is-twitter-lite-really-that-light-for-your-battery-life/"
+      ],
+      "foundInPosts": [
+        "/en/should-i-activate-the-night-mode-to-increase-my-battery-life-the-case-of-the-twitter-app/"
+      ]
+    },
+    {
+      "pathname": "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/launch-application-consumption-measurement-from-your-pic-software-factory/"
+      ],
+      "foundInPosts": [
+        "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+        "/en/manually-explore-an-application-with-the-free-runner-test/",
+        "/en/benchmark-an-application-on-the-power-test-cloud/"
+      ]
+    },
+    {
+      "pathname": "/en/manually-explore-an-application-with-the-free-runner-test/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/manually-explore-an-application-with-the-free-runner-test/"
+      ],
+      "foundInPosts": [
+        "/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/",
+        "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+        "/en/version-2-1/",
+        "/en/which-application-choose-to-follow-the-2018-world-cup-without-draining-your-smartphones-battery-life/",
+        "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+        "/en/benchmark-an-application-on-the-power-test-cloud/"
+      ]
+    },
+    {
+      "pathname": "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/measure-the-resource-consumption-of-an-application-via-automated-tests/"
+      ],
+      "foundInPosts": [
+        "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+        "/en/manually-explore-an-application-with-the-free-runner-test/",
+        "/en/benchmark-an-application-on-the-power-test-cloud/"
+      ]
+    },
+    {
+      "pathname": "/en/mobile-world-congress/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/mobile-world-congress/"
+      ],
+      "foundInPosts": [
+        "/en/get-in-touch-with-us-at-oranges-lab-at-viva-technology-2018/"
+      ]
+    },
+    {
+      "pathname": "/en/mobility-for-business-nov2021/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/mobility-for-business-nov2021/"
+      ],
+      "foundInPosts": [
+        "/en/greenspector-wins-the-digital-sobriety-award-at-the-mobility-for-business-20/"
+      ]
+    },
+    {
+      "pathname": "/en/offers/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/offers/"
+      ],
+      "foundInPosts": [
+        "/en/5-keys-to-application-success/"
+      ]
+    },
+    {
+      "pathname": "/en/our-solutions/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/our-solutions/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-the-most-used-dating-applications-in-france/"
+      ]
+    },
+    {
+      "pathname": "/en/our-solutions/public-applications/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/our-solutions/public-applications/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-the-10-most-widely-used-transport-applications-in-france-2023/",
+        "/en/what-is-the-environmental-footprint-of-social-networking-applications-2023/",
+        "/en/from-green-floor-to-green-digital-are-the-champions-league-finalists-apps-in-the-game/"
+      ]
+    },
+    {
+      "pathname": "/en/overview/",
+      "status": "marketing_301",
+      "note": "Règle marketing .htaccess",
+      "exampleHrefs": [
+        "https://greenspector.com/en/overview/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023/",
+        "/en/environmental-impact-of-top-30-of-the-french-daily-press/",
+        "/en/monitor-url-digital-sobriety/"
+      ]
+    },
+    {
+      "pathname": "/en/publications/methodology-greenspector-2024-05-version/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/publications/methodology-greenspector-2024-05-version/"
+      ],
+      "foundInPosts": [
+        "/methodologie-resume/"
+      ]
+    },
+    {
+      "pathname": "/en/qwant-vs-google-2/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/qwant-vs-google-2/"
+      ],
+      "foundInPosts": [
+        "/en/search-engines/"
+      ]
+    },
+    {
+      "pathname": "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/"
+      ],
+      "foundInPosts": [
+        "/en/how-to-advertise-while-considering-its-environmental-impact/",
+        "/en/defining-the-environmental-budget-for-a-digital-service/",
+        "/en/12-reasons-not-to-eco-design-a-digital-service/",
+        "/en/analysis-of-overconsumptions-on-a-light-website-2/"
+      ]
+    },
+    {
+      "pathname": "/en/release-note-v-2-10-0/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/release-note-v-2-10-0/"
+      ],
+      "foundInPosts": [
+        "/en/catch-greenspector-at-mobility-for-business-on-october-17-18/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/"
+      ],
+      "foundInPosts": [
+        "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+        "/en/software-eco-design-what-is-the-life-cycle-of-a-software/",
+        "/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/publications/playstore-efficiency-report-2019-2/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/publications/playstore-efficiency-report-2019-2/"
+      ],
+      "foundInPosts": [
+        "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/success-stories/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/success-stories/"
+      ],
+      "foundInPosts": [
+        "/en/12-reasons-not-to-eco-design-a-digital-service/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/success-stories/application-treebal-appscan/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/success-stories/application-treebal-appscan/"
+      ],
+      "foundInPosts": [
+        "/en/changenow-2022-event/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/success-stories/dga-atos-app-scan/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/success-stories/dga-atos-app-scan/"
+      ],
+      "foundInPosts": [
+        "/en/project-auxylium-continuation/",
+        "/en/atos-scaler-program/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/success-stories/dior-app-scan/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/success-stories/dior-app-scan/"
+      ],
+      "foundInPosts": [
+        "/en/lvmh-la-maison-des-startups-program/"
+      ]
+    },
+    {
+      "pathname": "/en/resources/success-stories/sncf-mobiliz-fleet-selection/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/en/resources/success-stories/sncf-mobiliz-fleet-selection/"
+      ],
+      "foundInPosts": [
+        "/en/third-party-youtube/"
+      ]
+    },
+    {
+      "pathname": "/en/rocketchat-vs-slack-2/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/rocketchat-vs-slack-2/"
+      ],
+      "foundInPosts": [
+        "/en/babbel-vs-duolingo-2/"
+      ]
+    },
+    {
+      "pathname": "/en/search-engines/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/search-engines/"
+      ],
+      "foundInPosts": [
+        "/en/qwant-vs-google-2/"
+      ]
+    },
+    {
+      "pathname": "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/"
+      ],
+      "foundInPosts": [
+        "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+        "/en/qwant-vs-google-2/",
+        "/en/should-i-activate-the-night-mode-to-increase-my-battery-life-the-case-of-the-twitter-app/"
+      ]
+    },
+    {
+      "pathname": "/en/smartphones-all-about-the-environmental-impact-and-battery-wear/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/smartphones-all-about-the-environmental-impact-and-battery-wear/"
+      ],
+      "foundInPosts": [
+        "/en/software-eco-design-practices-server-side-or-user-side/"
+      ]
+    },
+    {
+      "pathname": "/en/sncf-vs-trainline/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/sncf-vs-trainline/"
+      ],
+      "foundInPosts": [
+        "/en/the-fight-of-the-week-amazon-vs-cdiscount/"
+      ]
+    },
+    {
+      "pathname": "/en/social-media-carbon-impact/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/social-media-carbon-impact/"
+      ],
+      "foundInPosts": [
+        "/en/6168-2/"
+      ]
+    },
+    {
+      "pathname": "/en/software-eco-design-towards-a-happy-sobriety-in-the-digital-world/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/software-eco-design-towards-a-happy-sobriety-in-the-digital-world/"
+      ],
+      "foundInPosts": [
+        "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/"
+      ]
+    },
+    {
+      "pathname": "/en/software-eco-design-what-is-the-life-cycle-of-a-software/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/software-eco-design-what-is-the-life-cycle-of-a-software/"
+      ],
+      "foundInPosts": [
+        "/en/end-of-life-software-induced-obsolescence-and-wastes/"
+      ]
+    },
+    {
+      "pathname": "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/"
+      ],
+      "foundInPosts": [
+        "/en/get-in-touch-with-us-at-oranges-lab-at-viva-technology-2018/",
+        "/en/end-of-life-software-induced-obsolescence-and-wastes/",
+        "/en/software-eco-design-what-is-the-life-cycle-of-a-software/",
+        "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/"
+      ]
+    },
+    {
+      "pathname": "/en/static-analysis-of-a-code-in-a-graph-database/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/static-analysis-of-a-code-in-a-graph-database/"
+      ],
+      "foundInPosts": [
+        "/en/version-1-11/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-day-airbnb-vs-booking/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-day-airbnb-vs-booking/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-deezer-vs-spotify/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-ada-vs-europcar/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-ada-vs-europcar/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-bankin-vs-linxo/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-amazon-prime-video-vs-netflix/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-amazon-prime-video-vs-netflix/"
+      ],
+      "foundInPosts": [
+        "/en/social-media-carbon-impact/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-bankin-vs-linxo/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-bankin-vs-linxo/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-happn-vs-tinder/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-drivy-vs-ouicar/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-drivy-vs-ouicar/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-kapten-vs-uber/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-happn-vs-tinder/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-happn-vs-tinder/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-drivy-vs-ouicar/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-kapten-vs-uber/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-kapten-vs-uber/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/",
+        "/en/the-battle-of-the-week-mixer-vs-twitch/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-leboncoin-vs-locanto/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-united-wardrobe-vs-vinted/",
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-mixer-vs-twitch/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-mixer-vs-twitch/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-leboncoin-vs-locanto/"
+      ]
+    },
+    {
+      "pathname": "/en/the-battle-of-the-week-united-wardrobe-vs-vinted/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-battle-of-the-week-united-wardrobe-vs-vinted/"
+      ],
+      "foundInPosts": [
+        "/en/rocketchat-vs-slack-2/"
+      ]
+    },
+    {
+      "pathname": "/en/the-fight-of-the-week-amazon-vs-cdiscount/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-fight-of-the-week-amazon-vs-cdiscount/"
+      ],
+      "foundInPosts": [
+        "/en/the-battle-of-the-week-amazon-prime-video-vs-netflix/"
+      ]
+    },
+    {
+      "pathname": "/en/the-software-world-is-destroying-itself-manifesto-for-a-more-sustainable-development/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/the-software-world-is-destroying-itself-manifesto-for-a-more-sustainable-development/"
+      ],
+      "foundInPosts": [
+        "/en/digital-sobriety-mistakes-to-avoid/"
+      ]
+    },
+    {
+      "pathname": "/en/top-100-e-commerce-websites/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/top-100-e-commerce-websites/"
+      ],
+      "foundInPosts": [
+        "/en/france-e-commerce-carbon-impact/",
+        "/en/the-battle-of-the-week-leboncoin-vs-locanto/"
+      ]
+    },
+    {
+      "pathname": "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/"
+      ],
+      "foundInPosts": [
+        "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+        "/en/babbel-vs-duolingo-2/",
+        "/en/the-battle-of-the-week-mixer-vs-twitch/",
+        "/en/qwant-vs-google-2/"
+      ]
+    },
+    {
+      "pathname": "/en/videoconferencing-apps-2022/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/videoconferencing-apps-2022/"
+      ],
+      "foundInPosts": [
+        "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+        "/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/"
+      ]
+    },
+    {
+      "pathname": "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/what-are-the-best-android-web-browsers-to-use-in-2021/"
+      ],
+      "foundInPosts": [
+        "/en/optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology/",
+        "/en/what-are-the-best-web-browsers-to-use-in-2020/"
+      ]
+    },
+    {
+      "pathname": "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/what-are-the-best-web-browsers-to-use-in-2020/"
+      ],
+      "foundInPosts": [
+        "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+        "/en/search-engines/",
+        "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/"
+      ]
+    },
+    {
+      "pathname": "/en/what-is-the-environmental-footprint-of-social-networking-applications-2023/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/what-is-the-environmental-footprint-of-social-networking-applications-2023/"
+      ],
+      "foundInPosts": [
+        "/en/social-media-2021/"
+      ]
+    },
+    {
+      "pathname": "/en/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france/"
+      ],
+      "foundInPosts": [
+        "/en/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023/"
+      ]
+    },
+    {
+      "pathname": "/en/what-is-the-memory-cost-of-a-cordova-application/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/what-is-the-memory-cost-of-a-cordova-application/"
+      ],
+      "foundInPosts": [
+        "/en/droidcon-berlin-2018-5-best-practices-for-mobile-fleets-efficiency-by-greenspector/",
+        "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/",
+        "/en/is-twitter-lite-really-that-light-for-your-battery-life/",
+        "/en/power-test-cloud-how-to-measure-the-energy-consumption-of-a-web-or-mobile-app-when-youre-not-an-expert/"
+      ]
+    },
+    {
+      "pathname": "/en/which-direct-messaging-application-should-i-choose/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/which-direct-messaging-application-should-i-choose/"
+      ],
+      "foundInPosts": [
+        "/en/direct-messaging-business-apps/",
+        "/en/7-minutes-workout-vs-home-workout/",
+        "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+        "/en/rocketchat-vs-slack-2/",
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/",
+        "/en/the-battle-of-the-week-drivy-vs-ouicar/",
+        "/en/2019-mobile-video-games-ranking-12-apps-measured/"
+      ]
+    },
+    {
+      "pathname": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/"
+      ],
+      "foundInPosts": [
+        "/en/videoconferencing-apps-2022/",
+        "/en/social-media-2021/"
+      ]
+    },
+    {
+      "pathname": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/which-video-conferencing-mobile-application-to-reduce-your-impact/"
+      ],
+      "foundInPosts": [
+        "/en/direct-messaging-business-apps/",
+        "/en/social-media-carbon-impact/"
+      ]
+    },
+    {
+      "pathname": "/en/why-automate-the-testing-of-its-mobile-applications/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/why-automate-the-testing-of-its-mobile-applications/"
+      ],
+      "foundInPosts": [
+        "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/"
+      ]
+    },
+    {
+      "pathname": "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+        "http://greenspector.com/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/",
+        "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/",
+        "/en/how-apps-killed-my-phone-battery/",
+        "/en/apple-planned-obsolescence-explained-for-dummies-and-others/"
+      ]
+    },
+    {
+      "pathname": "/en/why-you-should-measure-the-energy-consumption-of-your-software/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/en/why-you-should-measure-the-energy-consumption-of-your-software/"
+      ],
+      "foundInPosts": [
+        "/en/why-is-measuring-performance-with-the-cpu-a-mistake/",
+        "/en/power-test-cloud-how-to-measure-the-energy-consumption-of-a-web-or-mobile-app-when-youre-not-an-expert/",
+        "/en/third-party-services-really-make-a-difference-when-it-comes-to-battery-life/"
+      ]
+    },
+    {
+      "pathname": "/facebook-app-vs-facebook-web/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/facebook-app-vs-facebook-web/"
+      ],
+      "foundInPosts": [
+        "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/"
+      ]
+    },
+    {
+      "pathname": "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/"
+      ],
+      "foundInPosts": [
+        "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/",
+        "/lecoconception-des-logiciels-vers-une-sobriete-heureuse-du-numerique/",
+        "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/"
+      ]
+    },
+    {
+      "pathname": "/feedback-rgesn/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/feedback-rgesn/"
+      ],
+      "foundInPosts": [
+        "/en/rgesn-statements-the-clash-of-words-the-weight-of-measures/",
+        "/rgesn_et_mesures/"
+      ]
+    },
+    {
+      "pathname": "/fr/",
+      "status": "marketing_301",
+      "note": "Règle marketing .htaccess",
+      "exampleHrefs": [
+        "https://greenspector.com/fr",
+        "https://www.greenspector.com/fr/",
+        "https://greenspector.com/fr/",
+        "https://greenspector.com/fr/?utm_source=articlegreenspector",
+        "https://greenspector.com/fr/?utm_source=articleferpection",
+        "https://www.greenspector.com/fr"
+      ],
+      "foundInPosts": [
+        "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/",
+        "/greentech-forum-2021/",
+        "/en/mobility-for-business-nov2021/",
+        "/mobility-for-business-2021/",
+        "/impact-video-canal/",
+        "/ugap/",
+        "/decouvrez-quinoa-la-version-2-6-0-de-greenspector/",
+        "/retrouvez-greenspector-a-mobility-for-business-les-12-et-3-octobre-2019/",
+        "/jeux-video-sur-mobile/",
+        "/greenspector-et-soprasteria-sont-desormais-partenaires-pour-des-applications-mobiles-de-qualite/",
+        "/en/greenspector-and-soprasteria-are-now-partners-for-quality-mobile-applications/",
+        "/decouvrez-pear-la-version-2-5-0-de-greenspector/",
+        "/en/version-2-5/",
+        "/greenspector-laureat-du-prix-10-000-startups-2019-dans-la-categorie-environnement-energie/",
+        "/rencontrons-nous-au-mobile-world-congress-2019/",
+        "/paris-sportifs/",
+        "/decouvrez-olive-la-version-2-4-0-de-greenspector/",
+        "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+        "/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+        "/palmares-2018-presse-dinformation/",
+        "/decouvrez-nopal-la-version-2-3-0-de-greenspector/",
+        "/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/",
+        "/retrouvez-greenspector-a-la-conference-ieee-globecom-2018-a-abu-dhabi-le-10-decembre-prochain/",
+        "/top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/",
+        "/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+        "/comment-estimer-lautonomie-dun-smartphone-en-moins-dune-heure-chrono/",
+        "/decouvrez-melon-la-version-2-2-0-de-greenspector/",
+        "/palmares-2018-m-tourisme-reservation-dhotel/",
+        "/greenspector-coordonne-lun-des-projets-laureats-du-projet-perfecto-de-lademe/",
+        "/greenspector-startup-coup-de-coeur-du-mobility-for-business-2018/",
+        "/greenspector-et-bewizyu-un-partenariat-pour-des-applications-mobiles-de-qualite/",
+        "/barometre-2018-des-applications-m-commerce-mode/",
+        "/decouvrez-leek-la-version-2-1-0-de-greenspector/",
+        "/droidcon-berlin-2018-5-bonnes-pratiques-pour-lefficience-des-flottes-mobiles-par-greenspector/",
+        "/en/droidcon-berlin-2018-5-best-practices-for-mobile-fleets-efficiency-by-greenspector/",
+        "/retrouvez-greenspector-a-mobility-for-business-les-17-et-18-octobre-2018/",
+        "/decouvrez-kiwi-la-version-2-0-0-de-greenspector/",
+        "/application-hybride-comment-eviter-lechec-du-projet-a-cause-de-mauvaise-performance/",
+        "/decouvrez-jackfruit-la-version-1-19-0-de-greenspector/",
+        "/ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+        "/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/",
+        "/palmares-2018-des-applications-de-transports-urbains/",
+        "/greenspector-laureat-cleantech-open-france-2017-dans-la-categorie-digital-iot/",
+        "/interview-croisee-avec-thibault-geenen-ceo-de-ferpection/",
+        "/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/",
+        "/en/joint-interview-with-thibault-geenen-ferpection-ceo/",
+        "/comment-les-applications-ont-tue-ma-batterie/",
+        "/decouvrez-iceberg-lettuce-la-version-1-18-0-de-greenspector/",
+        "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+        "/lancer-la-mesure-de-consommation-dune-application-depuis-votre-pic-usine-logicielle/",
+        "/mesurer-la-consommation-de-ressources-dune-application-via-des-tests-automatises/",
+        "/explorer-manuellement-une-application-avec-le-free-runner-test/",
+        "/benchmarker-une-application-sur-le-power-test-cloud/",
+        "/decouvrez-honeydew-la-version-1-17-0-de-greenspector/",
+        "/mobile-efficiency-index-le-premier-outil-en-ligne-pour-mesurer-la-consommation-energetique-reelle-de-vos-applications-et-sites-web/",
+        "/lobsolescence-programmee-par-apple-expliquee-pour-les-nuls-et-plus/",
+        "/decouvrez-grapes-la-version-1-16-0-de-greenspector/"
+      ]
+    },
+    {
+      "pathname": "/fr/30-applications-mobiles-populaires/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /30-applications-mobiles-populaires/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/30-applications-mobiles-populaires/"
+      ],
+      "foundInPosts": [
+        "/reseaux-sociaux-impact-carbone/"
+      ]
+    },
+    {
+      "pathname": "/fr/7-minutes-workout-vs-exercices-a-la-maison/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /7-minutes-workout-vs-exercices-a-la-maison/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/7-minutes-workout-vs-exercices-a-la-maison/"
+      ],
+      "foundInPosts": [
+        "/petit-bambou-vs-meditopia/"
+      ]
+    },
+    {
+      "pathname": "/fr/accueil/",
+      "status": "marketing_301",
+      "note": "Règle marketing .htaccess",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/accueil",
+        "https://greenspector.com/fr/accueil/"
+      ],
+      "foundInPosts": [
+        "/atos-scaler/",
+        "/stopcovid/",
+        "/greenspector-label-solar-impulse/"
+      ]
+    },
+    {
+      "pathname": "/fr/amazon-prime-video-vs-netflix/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /amazon-prime-video-vs-netflix/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/amazon-prime-video-vs-netflix/"
+      ],
+      "foundInPosts": [
+        "/reseaux-sociaux-impact-carbone/"
+      ]
+    },
+    {
+      "pathname": "/fr/app-scan/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/app-scan/"
+      ],
+      "foundInPosts": [
+        "/empreinte-environnementale-applications-websites-mcommerce/",
+        "/mesure-url-monitorer-sobriete-numerique/",
+        "/doodles-google/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/",
+        "https://greenspector.com/fr/articles"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/ecouter-de-la-musique-sur-son-smartphone-sans-vider-sa-batterie-cest-possible/",
+        "/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2016-04-12-pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2016-04-12-pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/"
+      ],
+      "foundInPosts": [
+        "/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-01-25-impact-des-services-tiers-sur-autonomie-batteries/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-01-25-impact-des-services-tiers-sur-autonomie-batteries/"
+      ],
+      "foundInPosts": [
+        "/la-battle-de-la-semaine-speciale-twitter-video-vs-image-vs-gif/",
+        "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-02-27-facebook-lite/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-02-27-facebook-lite/"
+      ],
+      "foundInPosts": [
+        "/quelle-application-de-drive-pour-mes-courses-en-ligne/",
+        "/quelle-application-de-messagerie-instantanee-choisir/",
+        "/lapplication-messenger-lite-est-elle-vraiment-plus-legere/",
+        "/lapplication-instagram-lite-est-elle-vraiment-plus-legere/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-03-29-quel-est-le-cout-memoire-d-une-application-cordova/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-03-29-quel-est-le-cout-memoire-d-une-application-cordova/"
+      ],
+      "foundInPosts": [
+        "/droidcon-berlin-2018-5-bonnes-pratiques-pour-lefficience-des-flottes-mobiles-par-greenspector/",
+        "/application-hybride-comment-eviter-lechec-du-projet-a-cause-de-mauvaise-performance/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-04-11-android-containers/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-04-11-android-containers/"
+      ],
+      "foundInPosts": [
+        "/le-monde-du-logiciel-est-en-train-de-se-detruire-manifeste-pour-un-developpement-plus-durable/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-04-25-power-test-cloud/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-04-25-power-test-cloud/"
+      ],
+      "foundInPosts": [
+        "/greenspector-integre-la-marque-crosscall-sur-son-power-test-cloud/",
+        "/en/greenspector-integrates-crosscall-brand-into-its-power-test-cloud/",
+        "/interview-croisee-avec-thibault-geenen-ceo-de-ferpection/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-05-10-webp-png-jpeg-energy-battle/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-05-10-webp-png-jpeg-energy-battle/"
+      ],
+      "foundInPosts": [
+        "/la-battle-de-la-semaine-speciale-twitter-video-vs-image-vs-gif/",
+        "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-06-20-google-crawl/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-06-20-google-crawl/"
+      ],
+      "foundInPosts": [
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-09-05-faut-il-changer-son-fond-ecran-pour-consommer-moins-de-batterie/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-09-05-faut-il-changer-son-fond-ecran-pour-consommer-moins-de-batterie/"
+      ],
+      "foundInPosts": [
+        "/qwant-vs-google/",
+        "/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+        "/android-6-ameliore-t-il-lautonomie-des-smartphones/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-11-21-twitter-lite-est-il-si-leger-pour-autonomie-batterie/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-11-21-twitter-lite-est-il-si-leger-pour-autonomie-batterie/"
+      ],
+      "foundInPosts": [
+        "/la-battle-de-la-semaine-speciale-twitter-video-vs-image-vs-gif/",
+        "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/",
+        "/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2017-12-12-pourquoi-se-preoccuper-consommation-batterie-application/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2017-12-12-pourquoi-se-preoccuper-consommation-batterie-application/",
+        "https://greenspector.com/fr/articles/2017-12-12-pourquoi-se-preoccuper-consommation-batterie-application/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BqaRJAulvSCGi86zl3B4znw%3D%3D"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/comment-les-applications-ont-tue-ma-batterie/",
+        "/lobsolescence-programmee-par-apple-expliquee-pour-les-nuls-et-plus/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-01-02-obsolescence-programmee-apple-expliquee-pour-les-nuls/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-01-02-obsolescence-programmee-apple-expliquee-pour-les-nuls/"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/comment-les-applications-ont-tue-ma-batterie/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+        "https://www.greenspector.com/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud",
+        "https://www.greenspector.com/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/"
+      ],
+      "foundInPosts": [
+        "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+        "/decouvrez-nopal-la-version-2-3-0-de-greenspector/",
+        "/quelle-application-pour-suivre-la-coupe-du-monde-2018-sans-vider-la-batterie-de-son-smartphone/",
+        "/decouvrez-jackfruit-la-version-1-19-0-de-greenspector/",
+        "/lancer-la-mesure-de-consommation-dune-application-depuis-votre-pic-usine-logicielle/",
+        "/mesurer-la-consommation-de-ressources-dune-application-via-des-tests-automatises/",
+        "/explorer-manuellement-une-application-avec-le-free-runner-test/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+        "https://www.greenspector.com/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+        "https://greenspector.com/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test"
+      ],
+      "foundInPosts": [
+        "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+        "/comment-estimer-lautonomie-dun-smartphone-en-moins-dune-heure-chrono/",
+        "/decouvrez-leek-la-version-2-1-0-de-greenspector/",
+        "/quelle-application-pour-suivre-la-coupe-du-monde-2018-sans-vider-la-batterie-de-son-smartphone/",
+        "/palmares-2018-des-applications-de-transports-urbains/",
+        "/lancer-la-mesure-de-consommation-dune-application-depuis-votre-pic-usine-logicielle/",
+        "/mesurer-la-consommation-de-ressources-dune-application-via-des-tests-automatises/",
+        "/benchmarker-une-application-sur-le-power-test-cloud/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-03-09-mesurer-la-consommation-ressource-tests-automatises/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://www.greenspector.com/fr/articles/2018-03-09-mesurer-la-consommation-ressource-tests-automatises/",
+        "https://greenspector.com/fr/articles/2018-03-09-mesurer-la-consommation-ressource-tests-automatises"
+      ],
+      "foundInPosts": [
+        "/lancer-la-mesure-de-consommation-dune-application-depuis-votre-pic-usine-logicielle/",
+        "/explorer-manuellement-une-application-avec-le-free-runner-test/",
+        "/benchmarker-une-application-sur-le-power-test-cloud/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-03-10-lancer-mesure-consommation-depuis-pic-usine-logicielle/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-03-10-lancer-mesure-consommation-depuis-pic-usine-logicielle"
+      ],
+      "foundInPosts": [
+        "/mesurer-la-consommation-de-ressources-dune-application-via-des-tests-automatises/",
+        "/explorer-manuellement-une-application-avec-le-free-runner-test/",
+        "/benchmarker-une-application-sur-le-power-test-cloud/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-04-17-comment-les-applications-ont-tue-ma-batterie/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /comment-les-applications-ont-tue-ma-batterie/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-04-17-comment-les-applications-ont-tue-ma-batterie/"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/les-5-cles-du-succes-dune-application/",
+        "/application-hybride-comment-eviter-lechec-du-projet-a-cause-de-mauvaise-performance/",
+        "/techforgood-ou-goodfortech/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-04-24-analyser-le-comportement-de-son-smartphone-avec-battery-historian/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-04-24-analyser-le-comportement-de-son-smartphone-avec-battery-historian"
+      ],
+      "foundInPosts": [
+        "/ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/"
+      ],
+      "foundInPosts": [
+        "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+        "/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+        "/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/",
+        "/comment-estimer-lautonomie-dun-smartphone-en-moins-dune-heure-chrono/",
+        "/comment-choisir-les-smartphones-integres-a-vos-campagnes-de-tests/",
+        "/application-hybride-comment-eviter-lechec-du-projet-a-cause-de-mauvaise-performance/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-05-21-ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-05-21-ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/"
+      ],
+      "foundInPosts": [
+        "/decouvrez-jackfruit-la-version-1-19-0-de-greenspector/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-07-25-campagnes-de-tests-choix-smartphone/"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+        "/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+        "/decouvrez-nopal-la-version-2-3-0-de-greenspector/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-08-20-instagram-lite/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-08-20-instagram-lite/"
+      ],
+      "foundInPosts": [
+        "/quelle-application-de-drive-pour-mes-courses-en-ligne/",
+        "/quelle-application-de-messagerie-instantanee-choisir/",
+        "/lapplication-messenger-lite-est-elle-vraiment-plus-legere/",
+        "/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-11-13-estimer-autonomie-smartphone-en-une-heure/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-11-13-estimer-autonomie-smartphone-en-une-heure/"
+      ],
+      "foundInPosts": [
+        "/decouvrez-melon-la-version-2-2-0-de-greenspector/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-11-15-twitter-mode-nuit/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-11-15-twitter-mode-nuit"
+      ],
+      "foundInPosts": [
+        "/qwant-vs-google/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/"
+      ],
+      "foundInPosts": [
+        "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+        "/babbel-vs-duolingo/",
+        "/le-figaro-vs-le-gorafi/",
+        "/mixer-vs-twitch/",
+        "/kapten-vs-uber/",
+        "/en/the-battle-of-the-week-kapten-vs-uber/",
+        "/qwant-vs-google/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-12-03-pourquoi-automatiser-tests-applications-mobiles/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-12-03-pourquoi-automatiser-tests-applications-mobiles/"
+      ],
+      "foundInPosts": [
+        "/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-12-19-palmares-2018-m-presse-information/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-12-19-palmares-2018-m-presse-information/"
+      ],
+      "foundInPosts": [
+        "/le-figaro-vs-le-gorafi/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2018-12-20-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2018-12-20-mobinautes-ne-pourront-pas-utiliser-votre-application/"
+      ],
+      "foundInPosts": [
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+        "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+        "/les-5-cles-du-succes-dune-application/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-02-14-messenger-lite/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-02-14-messenger-lite/"
+      ],
+      "foundInPosts": [
+        "/quelle-application-de-drive-pour-mes-courses-en-ligne/",
+        "/quelle-application-de-messagerie-instantanee-choisir/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/"
+      ],
+      "foundInPosts": [
+        "/rocketchat-vs-slack/",
+        "/leboncoin-vs-locanto/",
+        "/om-vs-psg/",
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+        "/drivy-vs-ouicar/",
+        "/quelle-application-de-drive-pour-mes-courses-en-ligne/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-03-19-palmares-apps-drive-courses-en-ligne/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-03-19-palmares-apps-drive-courses-en-ligne/"
+      ],
+      "foundInPosts": [
+        "/jeux-video-sur-mobile/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-04-03-les-5-cles-succes-application/"
+      ],
+      "foundInPosts": [
+        "/classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/",
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/greenspector-app-mark-premier-indicateur-defficience-des-applications-mobile/",
+        "/etude-greenspector-sur-les-consommations-energetiques-des-applications-mobiles-du-google-play-store/",
+        "/greenspector-app-scan-desormais-disponible-sur-ios/",
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+        "/le-top-10-des-mythes-du-numerique-sobre/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-06-11-ubereats-vs-deliveroo/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /ubereats-vs-deliveroo/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-06-11-ubereats-vs-deliveroo/"
+      ],
+      "foundInPosts": [
+        "/kapten-vs-uber/",
+        "/en/sncf-vs-trainline/",
+        "/ouisncf-vs-trainline/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-06-18-ouisncf-vs-trainline/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /ouisncf-vs-trainline/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-06-18-ouisncf-vs-trainline/"
+      ],
+      "foundInPosts": [
+        "/amazon-vs-cdiscount/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-06-19-top-10-mythes-numerique-sobre/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-06-19-top-10-mythes-numerique-sobre/"
+      ],
+      "foundInPosts": [
+        "/jeux-video-sur-mobile/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-06-26-amazon-vs-cdiscount/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /amazon-vs-cdiscount/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-06-26-amazon-vs-cdiscount/"
+      ],
+      "foundInPosts": [
+        "/amazon-prime-video-vs-netflix/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-03-amazonprime-vs-netflix/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-03-amazonprime-vs-netflix/"
+      ],
+      "foundInPosts": [
+        "/le-figaro-vs-le-gorafi/",
+        "/en/the-battle-of-the-day-airbnb-vs-booking/",
+        "/airbnb-vs-booking/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-10-airbnb-vs-booking/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /airbnb-vs-booking/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-10-airbnb-vs-booking/"
+      ],
+      "foundInPosts": [
+        "/deezer-vs-spotify/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/"
+      ],
+      "foundInPosts": [
+        "/petit-bambou-vs-meditopia/",
+        "/7-minutes-workout-vs-exercices-a-la-maison/",
+        "/marmiton-vs-750g/",
+        "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+        "/babbel-vs-duolingo/",
+        "/le-figaro-vs-le-gorafi/",
+        "/rocketchat-vs-slack/",
+        "/united-wardrobe-vs-vinted/",
+        "/leboncoin-vs-locanto/",
+        "/om-vs-psg/",
+        "/la-battle-de-la-semaine-speciale-twitter-video-vs-image-vs-gif/",
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+        "/mixer-vs-twitch/",
+        "/kapten-vs-uber/",
+        "/applications-de-geolocalisation/",
+        "/drivy-vs-ouicar/",
+        "/happn-vs-tinder/",
+        "/ada-vs-europcar/",
+        "/deezer-vs-spotify/",
+        "/airbnb-vs-booking/",
+        "/amazon-prime-video-vs-netflix/",
+        "/bankin-vs-linxo/",
+        "/jeux-video-sur-mobile/",
+        "/la-chaine-meteo-vs-meteo-france/",
+        "/amazon-vs-cdiscount/",
+        "/ouisncf-vs-trainline/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-16-deezer-vs-spotify/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /deezer-vs-spotify/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-16-deezer-vs-spotify/"
+      ],
+      "foundInPosts": [
+        "/ada-vs-europcar/",
+        "/jeux-video-sur-mobile/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-22-ada-vs-europcar/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /ada-vs-europcar/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-22-ada-vs-europcar/"
+      ],
+      "foundInPosts": [
+        "/bankin-vs-linxo/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-31-bankin-vs-linxo/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /bankin-vs-linxo/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-31-bankin-vs-linxo/"
+      ],
+      "foundInPosts": [
+        "/happn-vs-tinder/",
+        "/jeux-video-sur-mobile/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-07-31-palmares-jeux-video/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-07-31-palmares-jeux-video/"
+      ],
+      "foundInPosts": [
+        "/babbel-vs-duolingo/",
+        "/united-wardrobe-vs-vinted/",
+        "/leboncoin-vs-locanto/",
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-08-06-happn-vs-tinder/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /happn-vs-tinder/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-08-06-happn-vs-tinder/"
+      ],
+      "foundInPosts": [
+        "/drivy-vs-ouicar/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-08-19-palmares-applications-gps/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-08-19-palmares-applications-gps/"
+      ],
+      "foundInPosts": [
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-08-27-mixer-vs-twitch/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /mixer-vs-twitch/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-08-27-mixer-vs-twitch/"
+      ],
+      "foundInPosts": [
+        "/om-vs-psg/",
+        "/la-battle-de-la-semaine-speciale-twitter-video-vs-image-vs-gif/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-09-02-sites-web-e-commerce/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-09-02-sites-web-e-commerce/"
+      ],
+      "foundInPosts": [
+        "/forum-tech4good-greenspector-partenaire-de-levenement/",
+        "/leboncoin-vs-locanto/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-09-03-twitter-video-image-gif/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-09-03-twitter-video-image-gif/"
+      ],
+      "foundInPosts": [
+        "/leboncoin-vs-locanto/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-09-10-leboncoin-vs-locanto/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /leboncoin-vs-locanto/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-09-10-leboncoin-vs-locanto/",
+        "https://greenspector.com/fr/articles/2019-09-10-leboncoin-vs-locanto"
+      ],
+      "foundInPosts": [
+        "/united-wardrobe-vs-vinted/",
+        "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-09-17-unitedwardrobe-vs-vinted/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-09-17-unitedwardrobe-vs-vinted/"
+      ],
+      "foundInPosts": [
+        "/rocketchat-vs-slack/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-09-24-rocketchat-vs-slack/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /rocketchat-vs-slack/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-09-24-rocketchat-vs-slack/"
+      ],
+      "foundInPosts": [
+        "/le-figaro-vs-le-gorafi/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-10-08-lefigaro-vs-legorafi/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-10-08-lefigaro-vs-legorafi/"
+      ],
+      "foundInPosts": [
+        "/babbel-vs-duolingo/"
+      ]
+    },
+    {
+      "pathname": "/fr/articles/2019-12-16-meilleurs-navigateurs-2020/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articles/2019-12-16-meilleurs-navigateurs-2020/"
+      ],
+      "foundInPosts": [
+        "/top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/"
+      ]
+    },
+    {
+      "pathname": "/fr/articletypes/greenit/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/articletypes/greenit/"
+      ],
+      "foundInPosts": [
+        "/application-hybride-comment-eviter-lechec-du-projet-a-cause-de-mauvaise-performance/"
+      ]
+    },
+    {
+      "pathname": "/fr/auditer-requetes-application-mobile-android/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /auditer-requetes-application-mobile-android/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/auditer-requetes-application-mobile-android/"
+      ],
+      "foundInPosts": [
+        "/analyse-des-surconsommations-dun-site-sobre/",
+        "/en/best-practice-limit-the-number-of-third-party-services/",
+        "/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/"
+      ]
+    },
+    {
+      "pathname": "/fr/benchmarker-une-application-sur-le-power-test-cloud/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /benchmarker-une-application-sur-le-power-test-cloud/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/benchmarker-une-application-sur-le-power-test-cloud/"
+      ],
+      "foundInPosts": [
+        "/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/"
+      ]
+    },
+    {
+      "pathname": "/fr/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /bonne-pratique-limiter-le-nombre-de-services-tiers/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/bonne-pratique-limiter-le-nombre-de-services-tiers/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-correlation-between-eco-design-and-editorial-sobriety/",
+        "/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/"
+      ]
+    },
+    {
+      "pathname": "/fr/bonne-pratique-optimiser-les-polices-de-caracteres/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /bonne-pratique-optimiser-les-polices-de-caracteres/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/bonne-pratique-optimiser-les-polices-de-caracteres/"
+      ],
+      "foundInPosts": [
+        "/classement-2023-des-impacts-environnementaux-des-sites-web-de-31-ecoles-dinformatique/"
+      ]
+    },
+    {
+      "pathname": "/fr/captcha-et-sobriete-numerique/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /captcha-et-sobriete-numerique/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/captcha-et-sobriete-numerique/"
+      ],
+      "foundInPosts": [
+        "/en/best-practice-limit-the-number-of-third-party-services/",
+        "/bonne-pratique-limiter-le-nombre-de-services-tiers/"
+      ]
+    },
+    {
+      "pathname": "/fr/changenow-2022/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /changenow-2022/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/changenow-2022/"
+      ],
+      "foundInPosts": [
+        "/changenow-2022-classement-de-la-sobriete-numerique-des-sites-web-des-partenaires/"
+      ]
+    },
+    {
+      "pathname": "/fr/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/"
+      ],
+      "foundInPosts": [
+        "/classement-2023-des-impacts-environnementaux-des-sites-web-de-31-ecoles-dinformatique/",
+        "/quelle-solution-choisir-pour-un-site-web-sobre/"
+      ]
+    },
+    {
+      "pathname": "/fr/classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/"
+      ],
+      "foundInPosts": [
+        "/palmares-2023-des-jeux-sur-mobile/"
+      ]
+    },
+    {
+      "pathname": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/"
+      ],
+      "foundInPosts": [
+        "/analyse-des-surconsommations-dun-site-sobre/",
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/reduire-poids-page-web-quels-elements-plus-impactants/",
+        "/classement-2023-des-impacts-environnementaux-des-sites-web-de-31-ecoles-dinformatique/",
+        "/devoxx-2023-classement-de-limpact-environnemental-des-sites-web-des-partenaires/",
+        "/en/web-hosts-impact-and-sobriety-actions/",
+        "/hebergeurs-impact-et-actions-de-sobriete/"
+      ]
+    },
+    {
+      "pathname": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique-de-votre-application-ou-site-web-badge/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/comment-obtenir-le-certificat-de-sobriete-numerique-de-votre-application-ou-site-web-badge/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab/",
+        "/quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet/"
+      ]
+    },
+    {
+      "pathname": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/comment-obtenir-le-certificat-de-sobriete-numerique/"
+      ],
+      "foundInPosts": [
+        "/viva-technology-sncf/",
+        "/viva-technology-orange/",
+        "/changenow-2022/"
+      ]
+    },
+    {
+      "pathname": "/fr/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/"
+      ]
+    },
+    {
+      "pathname": "/fr/contact/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → v2 /contact/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/contact/"
+      ],
+      "foundInPosts": [
+        "/innovation-greenspector-iphone/",
+        "/quelle-solution-choisir-pour-un-site-web-sobre/",
+        "/un-site-sobre-est-il-necessairement-moche/",
+        "/viva-technology-sncf/",
+        "/jftl-2022/",
+        "/changenow-2022-classement-de-la-sobriete-numerique-des-sites-web-des-partenaires/",
+        "/viva-technology-orange/",
+        "/changenow-2022/",
+        "/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+        "/green-tech-forum-classement-sobriete-numerique/",
+        "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/",
+        "/greentech-forum-2021/",
+        "/reseaux-sociaux-2021/",
+        "/mobility-for-business-2021/",
+        "/impact-presse-quotidienne-francaise-2021/",
+        "/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+        "/apps-communication-equipe/",
+        "/marches-publics-classement/",
+        "/moteurs-de-recherches/",
+        "/impact-instagram/",
+        "/en/facebook-app-vs-facebook-web-2/",
+        "/facebook-app-vs-facebook-web/",
+        "/petit-bambou-vs-meditopia/",
+        "/top-100-ecommerce-impact-carbone/",
+        "/om-vs-psg/",
+        "/paris-sportifs/",
+        "/palmares-2018-presse-dinformation/",
+        "/palmares-2018-des-applications-de-transports-urbains/"
+      ]
+    },
+    {
+      "pathname": "/fr/description-des-fonctionnalites-greenspector/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/description-des-fonctionnalites-greenspector/"
+      ],
+      "foundInPosts": [
+        "/impact-environnemental-des-exposants-au-greentech-forum-2023/"
+      ]
+    },
+    {
+      "pathname": "/fr/ecoact-et-greenspector-accompagnent-france-tv-dans-la-decarbonation-de-son-nouveau-media-nowu/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /ecoact-et-greenspector-accompagnent-france-tv-dans-la-decarbonation-de-son-nouveau-media-nowu/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ecoact-et-greenspector-accompagnent-france-tv-dans-la-decarbonation-de-son-nouveau-media-nowu/"
+      ],
+      "foundInPosts": [
+        "/communique-de-presse-une-nouvelle-etape-dans-la-collaboration-entre-nowu-et-greenspector/"
+      ]
+    },
+    {
+      "pathname": "/fr/ecobuild/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ecobuild/"
+      ],
+      "foundInPosts": [
+        "/feedback-rgesn/",
+        "/rgesn-loi-reen-de-quoi-parle-t-on-2/"
+      ]
+    },
+    {
+      "pathname": "/fr/empreinte-environnementale-applications-websites-mcommerce/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /empreinte-environnementale-applications-websites-mcommerce/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/empreinte-environnementale-applications-websites-mcommerce/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/"
+      ]
+    },
+    {
+      "pathname": "/fr/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+        "/empreinte-environnementale-applications-websites-mcommerce/"
+      ]
+    },
+    {
+      "pathname": "/fr/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/"
+      ],
+      "foundInPosts": [
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/"
+      ]
+    },
+    {
+      "pathname": "/fr/facebook-app-vs-facebook-web/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /facebook-app-vs-facebook-web/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/facebook-app-vs-facebook-web/"
+      ],
+      "foundInPosts": [
+        "/impact-instagram/",
+        "/reseaux-sociaux-impact-carbone/"
+      ]
+    },
+    {
+      "pathname": "/fr/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/"
+      ],
+      "foundInPosts": [
+        "/en/optimising-your-website-for-print/",
+        "/optimiser-son-site-pour-limpression/"
+      ]
+    },
+    {
+      "pathname": "/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/"
+      ],
+      "foundInPosts": [
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/reduire-poids-page-web-quels-elements-plus-impactants/",
+        "/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+        "/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/greenspector-studio-et-rgesn/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /greenspector-studio-et-rgesn/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/greenspector-studio-et-rgesn/"
+      ],
+      "foundInPosts": [
+        "/feedback-rgesn/"
+      ]
+    },
+    {
+      "pathname": "/fr/greenspector-studio/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/greenspector-studio/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+        "/quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek/",
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/"
+      ]
+    },
+    {
+      "pathname": "/fr/greentech-forum-2021/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /greentech-forum-2021/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/greentech-forum-2021/"
+      ],
+      "foundInPosts": [
+        "/green-tech-forum-classement-sobriete-numerique/"
+      ]
+    },
+    {
+      "pathname": "/fr/grille-lecture-engagements-environnementaux-offres-hebergement-web/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /grille-lecture-engagements-environnementaux-offres-hebergement-web/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/grille-lecture-engagements-environnementaux-offres-hebergement-web/"
+      ],
+      "foundInPosts": [
+        "/analyse-environnementale-des-outils-danalytics/",
+        "/en/a-closer-look/",
+        "/le-petit-bout-de-la-lorgnette/"
+      ]
+    },
+    {
+      "pathname": "/fr/hebergeurs-impact-et-actions-de-sobriete/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /hebergeurs-impact-et-actions-de-sobriete/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/hebergeurs-impact-et-actions-de-sobriete/"
+      ],
+      "foundInPosts": [
+        "/en/comparison-of-web-hosting-offers-selected-for-their-environmental-commitments/",
+        "/grille-lecture-engagements-environnementaux-offres-hebergement-web/"
+      ]
+    },
+    {
+      "pathname": "/fr/impact-carbone-e-commerce-france/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /impact-carbone-e-commerce-france/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/impact-carbone-e-commerce-france/"
+      ],
+      "foundInPosts": [
+        "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+        "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+        "/marches-publics-classement/"
+      ]
+    },
+    {
+      "pathname": "/fr/impact-presse-quotidienne-francaise-2021/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /impact-presse-quotidienne-francaise-2021/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/impact-presse-quotidienne-francaise-2021/"
+      ],
+      "foundInPosts": [
+        "/impact-environnemental-top-30-sites-presse-quotidienne-francaise/"
+      ]
+    },
+    {
+      "pathname": "/fr/impact-video-canal/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /impact-video-canal/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/impact-video-canal/"
+      ],
+      "foundInPosts": [
+        "/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+        "/une-heure-de-visualisation-netflix-cest-100geqco2-et-alors/",
+        "/quelles-ressources-reduire-bonnes-pratiques-ecoconception-logicielle/",
+        "/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/intelligence-artificielle-smartphone-autonomie/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /intelligence-artificielle-smartphone-autonomie/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/intelligence-artificielle-smartphone-autonomie/"
+      ],
+      "foundInPosts": [
+        "/impact-environnemental-ia-locale/",
+        "/quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek/"
+      ]
+    },
+    {
+      "pathname": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/"
+      ],
+      "foundInPosts": [
+        "/en/which-mobile-carpooling-application-has-the-greatest-environmental-impact/",
+        "/quelle-application-mobile-de-covoiturage-a-le-plus-fort-impact-environnemental/",
+        "/en/what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab/",
+        "/quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet/",
+        "/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+        "/mesure-url-monitorer-sobriete-numerique/",
+        "/nettoyer-chrome-pour-realiser-des-mesures-independantes/"
+      ]
+    },
+    {
+      "pathname": "/fr/jeux-video-sur-mobile/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /jeux-video-sur-mobile/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/jeux-video-sur-mobile/"
+      ],
+      "foundInPosts": [
+        "/palmares-2023-des-jeux-sur-mobile/",
+        "/petit-bambou-vs-meditopia/"
+      ]
+    },
+    {
+      "pathname": "/fr/le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/le-cadre-legislatif-de-lecoconception-de-services-numeriques/"
+      ],
+      "foundInPosts": [
+        "/rgesn-loi-reen-de-quoi-parle-t-on-2/",
+        "/en/rgesn-reen-law-what-are-we-talking-about/"
+      ]
+    },
+    {
+      "pathname": "/fr/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/"
+      ],
+      "foundInPosts": [
+        "/reduire-poids-page-web-quels-elements-plus-impactants/"
+      ]
+    },
+    {
+      "pathname": "/fr/le-monde-du-logiciel-est-en-train-de-se-detruire-manifeste-pour-un-developpement-plus-durable/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /le-monde-du-logiciel-est-en-train-de-se-detruire-manifeste-pour-un-developpement-plus-durable/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/le-monde-du-logiciel-est-en-train-de-se-detruire-manifeste-pour-un-developpement-plus-durable/"
+      ],
+      "foundInPosts": [
+        "/sobriete-numerique-erreurs-a-eviter/"
+      ]
+    },
+    {
+      "pathname": "/fr/le-petit-bout-de-la-lorgnette/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /le-petit-bout-de-la-lorgnette/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/le-petit-bout-de-la-lorgnette/"
+      ],
+      "foundInPosts": [
+        "/en/what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab/",
+        "/quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet/"
+      ]
+    },
+    {
+      "pathname": "/fr/les-sites-web-des-candidats-aux-presidentielles-respectent-ils-votre-smartphone/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /les-sites-web-des-candidats-aux-presidentielles-respectent-ils-votre-smartphone/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/les-sites-web-des-candidats-aux-presidentielles-respectent-ils-votre-smartphone/"
+      ],
+      "foundInPosts": [
+        "/empreinte-environnementale-sites-web-12-candidats-presidentielle-2022/"
+      ]
+    },
+    {
+      "pathname": "/fr/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/"
+      ],
+      "foundInPosts": [
+        "/en/best-practice-limit-the-number-of-third-party-services/",
+        "/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+        "/service-tiers-youtube/"
+      ]
+    },
+    {
+      "pathname": "/fr/marches-publics-classement/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /marches-publics-classement/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/marches-publics-classement/"
+      ],
+      "foundInPosts": [
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/",
+        "/ugap/"
+      ]
+    },
+    {
+      "pathname": "/fr/methodologie-calcul-empreinte-environnementale/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /methodologie-calcul-empreinte-environnementale/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/methodologie-calcul-empreinte-environnementale/"
+      ],
+      "foundInPosts": [
+        "/analyse-environnementale-des-outils-danalytics/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/reduire-poids-page-web-quels-elements-plus-impactants/",
+        "/en/which-mobile-carpooling-application-has-the-greatest-environmental-impact/",
+        "/impact-environnemental-des-exposants-au-greentech-forum-2023/",
+        "/classement-2023-des-impacts-environnementaux-des-sites-web-de-31-ecoles-dinformatique/",
+        "/en/what-impact-does-the-network-have-on-digital-services/",
+        "/quel-est-limpact-du-reseau-dans-les-services-numeriques/",
+        "/du-terrain-vert-au-numerique-vert-les-applications-des-finalistes-de-la-ligue-des-champions-sont-elles-dans-le-match/",
+        "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+        "/en/dom-as-a-metric-for-monitoring-web-sobriety/",
+        "/impact-environnemental-top-30-sites-presse-quotidienne-francaise/",
+        "/empreinte-environnementale-applications-websites-mcommerce/",
+        "/en/best-practice-limit-the-number-of-third-party-services/",
+        "/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+        "/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+        "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/",
+        "/nantes-digital-week-2022-classement-sites-visiteurs-partenaires/",
+        "/analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/",
+        "/impact-applications-visioconferences-2022/",
+        "/un-site-sobre-est-il-necessairement-moche/",
+        "/jftl-2022/",
+        "/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+        "/empreinte-environnementale-sites-web-12-candidats-presidentielle-2022/",
+        "/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+        "/green-tech-forum-classement-sobriete-numerique/",
+        "/reseaux-sociaux-2021/",
+        "/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/mobility-for-business-2021/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /mobility-for-business-2021/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/mobility-for-business-2021/"
+      ],
+      "foundInPosts": [
+        "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/moteurs-de-recherches/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /moteurs-de-recherches/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/moteurs-de-recherches/"
+      ],
+      "foundInPosts": [
+        "/doodles-google/"
+      ]
+    },
+    {
+      "pathname": "/fr/news/2018-03-05-greenspector-startup-coup-de-coeur-business-france-mobile-world-congress-2018/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/news/2018-03-05-greenspector-startup-coup-de-coeur-business-france-mobile-world-congress-2018/"
+      ],
+      "foundInPosts": [
+        "/rencontrons-nous-au-mobile-world-congress-2019/",
+        "/greenspector-startup-coup-de-coeur-du-mobility-for-business-2018/",
+        "/rencontrons-nous-au-lab-dinnovation-dorange-a-viva-technology-2018/",
+        "/interview-croisee-avec-thibault-geenen-ceo-de-ferpection/"
+      ]
+    },
+    {
+      "pathname": "/fr/news/2018-06-14-release-v-2-0/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/news/2018-06-14-release-v-2-0/"
+      ],
+      "foundInPosts": [
+        "/retrouvez-greenspector-a-mobility-for-business-les-17-et-18-octobre-2018/"
+      ]
+    },
+    {
+      "pathname": "/fr/news/2019-04-03-greenspector-participe-lab-atos-viva-technology-2019/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/news/2019-04-03-greenspector-participe-lab-atos-viva-technology-2019/"
+      ],
+      "foundInPosts": [
+        "/30-applications-mobiles-populaires/"
+      ]
+    },
+    {
+      "pathname": "/fr/news/2019-11-13-playstore-efficiency-report/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/news/2019-11-13-playstore-efficiency-report/"
+      ],
+      "foundInPosts": [
+        "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/greenspector-app-mark-premier-indicateur-defficience-des-applications-mobile/"
+      ]
+    },
+    {
+      "pathname": "/fr/news/2019-11-21-greenspector-app-mark/",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/news/2019-11-21-greenspector-app-mark/"
+      ],
+      "foundInPosts": [
+        "/classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/",
+        "/quelles-sont-les-meilleures-applications-de-recherche-demploi/",
+        "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+        "/etude-greenspector-sur-les-consommations-energetiques-des-applications-mobiles-du-google-play-store/",
+        "/les-5-cles-du-succes-dune-application/"
+      ]
+    },
+    {
+      "pathname": "/fr/palmares-2023-des-jeux-sur-mobile/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /palmares-2023-des-jeux-sur-mobile/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/palmares-2023-des-jeux-sur-mobile/"
+      ],
+      "foundInPosts": [
+        "/quel-impact-environnemental-des-parametres-graphiques-des-jeux-videos/",
+        "/en/what-is-the-environmental-impact-of-video-game-graphics/"
+      ]
+    },
+    {
+      "pathname": "/fr/petit-bambou-vs-meditopia/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /petit-bambou-vs-meditopia/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/petit-bambou-vs-meditopia/"
+      ],
+      "foundInPosts": [
+        "/en/facebook-app-vs-facebook-web-2/",
+        "/facebook-app-vs-facebook-web/"
+      ]
+    },
+    {
+      "pathname": "/fr/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/"
+      ],
+      "foundInPosts": [
+        "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+        "/en/dom-as-a-metric-for-monitoring-web-sobriety/"
+      ]
+    },
+    {
+      "pathname": "/fr/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/"
+      ],
+      "foundInPosts": [
+        "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+        "/en/dom-as-a-metric-for-monitoring-web-sobriety/"
+      ]
+    },
+    {
+      "pathname": "/fr/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/."
+      ],
+      "foundInPosts": [
+        "/mesure-url-monitorer-sobriete-numerique/"
+      ]
+    },
+    {
+      "pathname": "/fr/publication-des-web-sustainability-guidelines-du-w3c/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /publication-des-web-sustainability-guidelines-du-w3c/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/publication-des-web-sustainability-guidelines-du-w3c/"
+      ],
+      "foundInPosts": [
+        "/en/the-legislative-framework-for-the-eco-design-of-digital-services/",
+        "/le-cadre-legislatif-de-lecoconception-de-services-numeriques/"
+      ]
+    },
+    {
+      "pathname": "/fr/quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/"
+      ],
+      "foundInPosts": [
+        "/analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/"
+      ]
+    },
+    {
+      "pathname": "/fr/quelle-application-de-messagerie-instantanee-choisir/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quelle-application-de-messagerie-instantanee-choisir/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quelle-application-de-messagerie-instantanee-choisir/"
+      ],
+      "foundInPosts": [
+        "/apps-communication-equipe/",
+        "/7-minutes-workout-vs-exercices-a-la-maison/"
+      ]
+    },
+    {
+      "pathname": "/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/"
+      ],
+      "foundInPosts": [
+        "/impact-applications-visioconferences-2022/",
+        "/reseaux-sociaux-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/"
+      ],
+      "foundInPosts": [
+        "/apps-communication-equipe/",
+        "/reseaux-sociaux-impact-carbone/"
+      ]
+    },
+    {
+      "pathname": "/fr/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/"
+      ],
+      "foundInPosts": [
+        "/en/how-to-advertise-while-considering-its-environmental-impact/",
+        "/impacts-environnementaux-publicite/",
+        "/reseaux-sociaux-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/"
+      ],
+      "foundInPosts": [
+        "/impacts-environnementaux-publicite/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/reduire-poids-page-web-quels-elements-plus-impactants/"
+      ]
+    },
+    {
+      "pathname": "/fr/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/"
+      ],
+      "foundInPosts": [
+        "/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+        "/moteurs-de-recherches/",
+        "/marmiton-vs-750g/"
+      ]
+    },
+    {
+      "pathname": "/fr/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/"
+      ],
+      "foundInPosts": [
+        "/optimiser-energie-des-smartphones-pour-reduire-limpact-du-numerique/",
+        "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/"
+      ]
+    },
+    {
+      "pathname": "/fr/reduire-poids-page-web-quels-elements-plus-impactants/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /reduire-poids-page-web-quels-elements-plus-impactants/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/reduire-poids-page-web-quels-elements-plus-impactants/"
+      ],
+      "foundInPosts": [
+        "/impacts-environnementaux-publicite/",
+        "/12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique/",
+        "/analyse-des-surconsommations-dun-site-sobre/",
+        "/greenspector-studio-et-rgesn/"
+      ]
+    },
+    {
+      "pathname": "/fr/reseaux-sociaux-impact-carbone/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /reseaux-sociaux-impact-carbone/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/reseaux-sociaux-impact-carbone/"
+      ],
+      "foundInPosts": [
+        "/impact-instagram/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/"
+      ],
+      "foundInPosts": [
+        "/12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/credit-agricole/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/credit-agricole/"
+      ],
+      "foundInPosts": [
+        "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/credit-mutuel-arkea/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/credit-mutuel-arkea/"
+      ],
+      "foundInPosts": [
+        "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/dga-atos/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/dga-atos/"
+      ],
+      "foundInPosts": [
+        "/poursuite-du-projet-auxylium/",
+        "/atos-scaler/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/dior/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/dior/"
+      ],
+      "foundInPosts": [
+        "/la-maison-des-startups-lvmh/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/orange-bank/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/orange-bank/"
+      ],
+      "foundInPosts": [
+        "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/sncf-mobiliz/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/sncf-mobiliz/"
+      ],
+      "foundInPosts": [
+        "/service-tiers-youtube/"
+      ]
+    },
+    {
+      "pathname": "/fr/ressources/etude-de-cas/treebal-app-scan/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/ressources/etude-de-cas/treebal-app-scan/"
+      ],
+      "foundInPosts": [
+        "/changenow-2022/"
+      ]
+    },
+    {
+      "pathname": "/fr/rgesn-loi-reen-de-quoi-parle-t-on/",
+      "status": "legacy_301",
+      "note": "Couvert par règle /fr/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/rgesn-loi-reen-de-quoi-parle-t-on/"
+      ],
+      "foundInPosts": [
+        "/feedback-rgesn/"
+      ]
+    },
+    {
+      "pathname": "/fr/service-tiers-youtube/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /service-tiers-youtube/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/service-tiers-youtube/"
+      ],
+      "foundInPosts": [
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/reduire-poids-page-web-quels-elements-plus-impactants/",
+        "/en/best-practice-limit-the-number-of-third-party-services/",
+        "/bonne-pratique-limiter-le-nombre-de-services-tiers/"
+      ]
+    },
+    {
+      "pathname": "/fr/smartphones-utilisateurs-impact-environnemental-usure-batterie/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /smartphones-utilisateurs-impact-environnemental-usure-batterie/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/smartphones-utilisateurs-impact-environnemental-usure-batterie/"
+      ],
+      "foundInPosts": [
+        "/quelles-ressources-reduire-bonnes-pratiques-ecoconception-logicielle/"
+      ]
+    },
+    {
+      "pathname": "/fr/solutions/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/solutions/"
+      ],
+      "foundInPosts": [
+        "/greenspector-label-solar-impulse-2023/",
+        "/impact-environnemental-top-30-sites-presse-quotidienne-francaise/",
+        "/en/comparison-of-web-hosting-offers-selected-for-their-environmental-commitments/",
+        "/quel-est-limpact-environnemental-des-applications-de-rencontre-gratuites-les-plus-utilisees-en-france/"
+      ]
+    },
+    {
+      "pathname": "/fr/solutions/applications-grand-public/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/solutions/applications-grand-public/"
+      ],
+      "foundInPosts": [
+        "/du-terrain-vert-au-numerique-vert-les-applications-des-finalistes-de-la-ligue-des-champions-sont-elles-dans-le-match/",
+        "/empreinte-environnementale-applications-websites-mcommerce/",
+        "/mesure-url-monitorer-sobriete-numerique/"
+      ]
+    },
+    {
+      "pathname": "/fr/top-100-ecommerce-impact-carbone/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /top-100-ecommerce-impact-carbone/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/top-100-ecommerce-impact-carbone/"
+      ],
+      "foundInPosts": [
+        "/impact-carbone-e-commerce-france/"
+      ]
+    },
+    {
+      "pathname": "/fr/top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/"
+      ],
+      "foundInPosts": [
+        "/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/"
+      ]
+    },
+    {
+      "pathname": "/fr/un-site-sobre-est-il-necessairement-moche/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /un-site-sobre-est-il-necessairement-moche/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/un-site-sobre-est-il-necessairement-moche/"
+      ],
+      "foundInPosts": [
+        "/12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique/",
+        "/en/analysis-of-overconsumptions-on-a-light-website-2/",
+        "/analyse-des-surconsommations-dun-site-sobre/",
+        "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+        "/reduire-poids-page-web-quels-elements-plus-impactants/",
+        "/en/a-closer-look/",
+        "/le-petit-bout-de-la-lorgnette/",
+        "/analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/"
+      ]
+    },
+    {
+      "pathname": "/fr/webp-png-jpeg-energy-battle-sur-android/",
+      "status": "legacy_301",
+      "note": "Préfixe legacy → article /webp-png-jpeg-energy-battle-sur-android/",
+      "exampleHrefs": [
+        "https://greenspector.com/fr/webp-png-jpeg-energy-battle-sur-android/"
+      ],
+      "foundInPosts": [
+        "/en/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/",
+        "/quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/"
+      ]
+    },
+    {
+      "pathname": "/http2-latence-et-energie/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/http2-latence-et-energie/"
+      ],
+      "foundInPosts": [
+        "/webp-png-jpeg-energy-battle-sur-android/"
+      ]
+    },
+    {
+      "pathname": "/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/"
+      ],
+      "foundInPosts": [
+        "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+        "/quel-est-le-cout-memoire-dune-application-cordova/",
+        "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/"
+      ]
+    },
+    {
+      "pathname": "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/"
+      ],
+      "foundInPosts": [
+        "/en/defining-the-environmental-budget-for-a-digital-service/",
+        "/budget-environnemental/"
+      ]
+    },
+    {
+      "pathname": "/lecoconception-des-logiciels-vers-une-sobriete-heureuse-du-numerique/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/lecoconception-des-logiciels-vers-une-sobriete-heureuse-du-numerique/"
+      ],
+      "foundInPosts": [
+        "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/"
+      ]
+    },
+    {
+      "pathname": "/les-5-cles-du-succes-dune-application/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/les-5-cles-du-succes-dune-application/"
+      ],
+      "foundInPosts": [
+        "/en/12-rules-to-your-application-success/"
+      ]
+    },
+    {
+      "pathname": "/palmares-2018-des-applications-de-transports-urbains/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/palmares-2018-des-applications-de-transports-urbains/"
+      ],
+      "foundInPosts": [
+        "/palmares-2018-des-applications-de-transports-urbains/"
+      ]
+    },
+    {
+      "pathname": "/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/"
+      ],
+      "foundInPosts": [
+        "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+        "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/"
+      ]
+    },
+    {
+      "pathname": "/product.html",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/product.html"
+      ],
+      "foundInPosts": [
+        "/en/continuous-measurement-in-devops-or-how-to-easily-control-the-efficiency-of-its-applications/"
+      ]
+    },
+    {
+      "pathname": "/publications/methodologie-greenspector-2024-25/",
+      "status": "marketing_301",
+      "note": "page-redirects.json",
+      "exampleHrefs": [
+        "https://greenspector.com/publications/methodologie-greenspector-2024-25/"
+      ],
+      "foundInPosts": [
+        "/en/rgesn-statements-the-clash-of-words-the-weight-of-measures/",
+        "/rgesn_et_mesures/",
+        "/impact-environnemental-ia-locale/"
+      ]
+    },
+    {
+      "pathname": "/quel-est-le-cout-memoire-dune-application-cordova/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/quel-est-le-cout-memoire-dune-application-cordova/"
+      ],
+      "foundInPosts": [
+        "/twitter-lite-est-il-si-leger-pour-lautonomie-de-votre-batterie/",
+        "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+        "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/"
+      ]
+    },
+    {
+      "pathname": "/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/"
+      ],
+      "foundInPosts": [
+        "/en/rgesn-statements-the-clash-of-words-the-weight-of-measures/",
+        "/rgesn_et_mesures/",
+        "/en/how-to-advertise-while-considering-its-environmental-impact/"
+      ]
+    },
+    {
+      "pathname": "/reduire-poids-page-web-quels-elements-plus-impactants/",
+      "status": "blog_301",
+      "note": "Article blog (post-sitemap)",
+      "exampleHrefs": [
+        "https://greenspector.com/reduire-poids-page-web-quels-elements-plus-impactants/"
+      ],
+      "foundInPosts": [
+        "/budget-environnemental/"
+      ]
+    },
+    {
+      "pathname": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.en_.pdf",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.en_.pdf"
+      ],
+      "foundInPosts": [
+        "/en/end-of-life-software-induced-obsolescence-and-wastes/",
+        "/en/software-eco-design-software-products-features/",
+        "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/"
+      ]
+    },
+    {
+      "pathname": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.pdf",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.pdf"
+      ],
+      "foundInPosts": [
+        "/fin-de-vie-obsolescence-et-dechets-lies-aux-logiciels/",
+        "/ecoconception-des-logiciels-quel-est-le-cycle-de-vie-dun-logiciel/",
+        "/ecoconception-des-logiciels-specificites-des-produits-logiciels-2/",
+        "/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/"
+      ]
+    },
+    {
+      "pathname": "/wp-content/uploads/2020/01/GREENSPECTOR_palmares_2018_presse_information.pdf",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/wp-content/uploads/2020/01/GREENSPECTOR_palmares_2018_presse_information.pdf"
+      ],
+      "foundInPosts": [
+        "/palmares-2018-presse-dinformation/"
+      ]
+    },
+    {
+      "pathname": "/wp-content/uploads/2020/02/atos-atd-benchmark-en.pdf",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/wp-content/uploads/2020/02/atos-atd-benchmark-en.pdf"
+      ],
+      "foundInPosts": [
+        "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/"
+      ]
+    },
+    {
+      "pathname": "/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf",
+      "status": "blog_301",
+      "note": "Règle globale → blog.greenspector.com",
+      "exampleHrefs": [
+        "https://greenspector.com/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf"
+      ],
+      "foundInPosts": [
+        "/impact-environnemental-ia-locale/",
+        "/en/what-is-the-environmental-impact-of-llm-use-on-the-customers-side-battle-chatgpt-vs-deepseek/",
+        "/quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek/",
+        "/greenspector-studio-et-rgesn/",
+        "/en/greenspector-methodology-specification/"
+      ]
+    }
+  ]
+}

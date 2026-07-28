@@ -1,0 +1,61 @@
+# --- Blog infrastructure → blog.greenspector.com ---
+RewriteRule ^blog-fr/?(.*)$ https://blog.greenspector.com/$1 [R=301,L,NC]
+RewriteRule ^en/blog-en/?(.*)$ https://blog.greenspector.com/en/$1 [R=301,L,NC]
+RewriteRule ^wp-content/(.*)$ https://blog.greenspector.com/wp-content/$1 [R=301,L,NC]
+RewriteRule ^wp-admin(.*)$ https://blog.greenspector.com/wp-admin$1 [R=301,L,NC]
+RewriteRule ^wp-json/(.*)$ https://blog.greenspector.com/wp-json/$1 [R=301,L,NC]
+RewriteRule ^feed/?$ https://blog.greenspector.com/feed/ [R=301,L,NC]
+RewriteRule ^comments/feed/?$ https://blog.greenspector.com/comments/feed/ [R=301,L,NC]
+RewriteRule ^blog/(.*)$ https://blog.greenspector.com/blog/$1 [R=301,L,NC]
+RewriteRule ^author/(.*)$ https://blog.greenspector.com/author/$1 [R=301,L,NC]
+RewriteRule ^20[0-9]{2}/(.*)$ https://blog.greenspector.com/20$1 [R=301,L,NC]
+
+# --- Greenspector Studio (FR) ---
+RewriteRule ^mesure-performance-et-energie-du-numerique/?$ /studio/banc-tests-mobiles/ [R=301,L,NC]
+RewriteRule ^impact-environnemental-numerique/?$ /studio/mesure-impact-environnemental-numerique/ [R=301,L,NC]
+RewriteRule ^pilotez-ecoconception-par-les-resultats/?$ /studio/outil-ecoconception-logicielle/ [R=301,L,NC]
+RewriteRule ^diagnostic-batterie-performance-2/?$ /studio/mesure-decharge-batterie/ [R=301,L,NC]
+RewriteRule ^diagnostic-batterie-performance/?$ /studio/mesure-decharge-batterie/ [R=301,L,NC]
+RewriteRule ^devgreenops-3/?$ /studio/devgreenops/ [R=301,L,NC]
+RewriteRule ^devgreenops/?$ /studio/devgreenops/ [R=301,L,NC]
+RewriteRule ^green-testing-qa/?$ /studio/mesure-performance-app/ [R=301,L,NC]
+RewriteRule ^gs-pour-la-performance-applicative/?$ /studio/mesure-performance-app/ [R=301,L,NC]
+
+# --- Conseil (FR) ---
+RewriteRule ^services-conseils-2/?$ /conseil/ecoconception-logicielle/ [R=301,L,NC]
+RewriteRule ^audit-application-mobile/?$ /conseil/audit-application-mobile/ [R=301,L,NC]
+
+# --- Tarifs, contact, connexion (FR) ---
+RewriteRule ^tarifs/?$ /tarifs-greenspector-studio/ [R=301,L,NC]
+RewriteRule ^contactez-nous/?$ /contact/ [R=301,L,NC]
+RewriteRule ^login/?$ /connexion/ [R=301,L,NC]
+
+# --- À propos (FR) ---
+RewriteRule ^l-entreprise/?$ /a-propos/equipe-greenspector/ [R=301,L,NC]
+RewriteRule ^a-propos-equipe-greenspector/?$ /a-propos/equipe-greenspector/ [R=301,L,NC]
+RewriteRule ^partenaires/?$ /a-propos/partenaires/ [R=301,L,NC]
+
+# --- Études de cas (FR) ---
+RewriteRule ^etude-de-cas/?$ /ressources/etudes-de-cas/ [R=301,L,NC]
+RewriteRule ^etude-de-cas/comment-bouygues-telecom-obtient-le-certificat-de-sobriete-numerique-niveau-argent-et-economise-693-tonnes-de-co2eq-par-an-sur-son-application-mobile/?$ /ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/ [R=301,L,NC]
+RewriteRule ^etude-de-cas/bruxelles-environnement-ecobuild/?$ /ressources/etudes-de-cas/bruxelles-environnement-ecobuild/ [R=301,L,NC]
+RewriteRule ^etude-de-cas/elementor-23306/?$ /ressources/etudes-de-cas/treebal-application-ecoresponsable/ [R=301,L,NC]
+RewriteRule ^etude-de-cas/credit-agricole/?$ /ressources/etudes-de-cas/cats-smartuse-application-bancaire/ [R=301,L,NC]
+RewriteRule ^certification-bordeaux-fr/?$ /ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/ [R=301,L,NC]
+RewriteRule ^certification-site-web-bordeaux-metropole/?$ /ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/ [R=301,L,NC]
+
+# --- Greenspector Studio (EN) ---
+RewriteRule ^en/home/?$ /en/ [R=301,L,NC]
+RewriteRule ^en/overview/?$ /en/studio/mobile-device-testing/ [R=301,L,NC]
+RewriteRule ^en/environmental-impacts/?$ /en/studio/environmental-impact-measurement/ [R=301,L,NC]
+RewriteRule ^en/green-testing-and-qa/?$ /en/studio/app-performance-measurement/ [R=301,L,NC]
+RewriteRule ^en/drive-eco-design-through-results/?$ /en/studio/software-ecodesign-tool/ [R=301,L,NC]
+RewriteRule ^en/troubleshooot-battery-and-performance/?$ /en/studio/battery-discharge-measurement/ [R=301,L,NC]
+RewriteRule ^en/devgreenops-and-continuous-integration/?$ /en/studio/devgreenops/ [R=301,L,NC]
+
+# --- Conseil & pages transverses (EN) ---
+RewriteRule ^en/consulting-and-services/?$ /en/consulting/software-ecodesign/ [R=301,L,NC]
+RewriteRule ^en/pricing/?$ /en/pricing/greenspector-studio/ [R=301,L,NC]
+RewriteRule ^en/contact-us/?$ /en/contact/ [R=301,L,NC]
+RewriteRule ^en/our-partners/?$ /en/about/partners/ [R=301,L,NC]
+RewriteRule ^en/the-company/?$ /en/about/greenspector-team/ [R=301,L,NC]
