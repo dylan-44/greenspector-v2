@@ -12,7 +12,8 @@
     "seed-en": "node scripts/seed-en-pages.js",
     "case-study-logos": "node scripts/fetch-case-study-logos.js",
     "generate-redirects": "node scripts/generate-blog-redirects.js",
-    "audit-links": "node scripts/audit-internal-links.js"
+    "audit-links": "node scripts/audit-internal-links.js",
+    "audit-relative-links": "node scripts/audit-relative-links.js"
   },
   "devDependencies": {
     "adm-zip": "^0.5.16",

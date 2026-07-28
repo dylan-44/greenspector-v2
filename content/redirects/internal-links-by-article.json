@@ -1,0 +1,5710 @@
+{
+  "generatedAt": "2026-07-28T12:24:03.558Z",
+  "note": "Liens internes absolus https://greenspector.com dans le corps des articles (API WP). Aucun lien relatif /path detecte.",
+  "articlesWithInternalLinks": 395,
+  "articles": [
+    {
+      "slug": "/les-12-regles-a-respecter-pour-le-succes-de-votre-application/",
+      "links": [
+        {
+          "path": "/contactez-nous/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-12-12-pourquoi-se-preoccuper-consommation-batterie-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-01-02-obsolescence-programmee-apple-expliquee-pour-les-nuls/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-04-17-comment-les-applications-ont-tue-ma-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-12-20-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2019-11-13-playstore-efficiency-report/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/news/2019-11-21-greenspector-app-mark/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/12-rules-to-your-application-success/",
+      "links": [
+        {
+          "path": "/en/apple-planned-obsolescence-explained-for-dummies-and-others/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/articles/2018-04-17-how-apps-killed-my-phone-battery/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/en/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-app-mark/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/les-5-cles-du-succes-dune-application/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+      "links": [
+        {
+          "path": "/en/dom-as-a-metric-for-monitoring-web-sobriety/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/greenspector-studio/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/service-tiers-youtube/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/impacts-of-the-mains-e-commerce-sites-in-france/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/2025/06/05/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/blog/digital-sobriety/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/empreinte-environnementale-applications-websites-mcommerce/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/greenspector-studio/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/impact-carbone-e-commerce-france/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/energy-consumption-of-the-most-popular-e-commerce-websites-in-france/",
+      "links": [
+        {
+          "path": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/2019-ranking-of-gps-applications/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/5-keys-to-application-success/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-06-20-google-crawl/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-12-20-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-31-palmares-jeux-video/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-08-19-palmares-applications-gps/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-09-10-leboncoin-vs-locanto/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/2025/06/05/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/consommation-energetique-des-sites-web-e-commerce-les-plus-populaires-en-france/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/empreinte-environnementale-applications-websites-mcommerce/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/greenspector-studio/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/impact-carbone-e-commerce-france/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/reduire-poids-page-web-quels-elements-plus-impactants/",
+      "links": [
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/service-tiers-youtube/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/contact/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2019-11-13-playstore-efficiency-report/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-12-20-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/articles.html",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/facebook-app-vs-facebook-web/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/quel-est-le-cout-memoire-dune-application-cordova/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/quel-est-le-cout-memoire-dune-application-cordova/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-kapten-vs-uber/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-mixer-vs-twitch/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/articles/2017-01-25-impact-des-services-tiers-sur-autonomie-batteries/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2017-05-10-webp-png-jpeg-energy-battle/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2017-11-21-twitter-lite-est-il-si-leger-pour-autonomie-batterie/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-remporte-le-prix-de-la-sobriete-numerique-des-mobility-awards-2021/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/mobility-for-business-2021/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/credit-agricole/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/credit-mutuel-arkea/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/orange-bank/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/jeux-video-sur-mobile/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2019-03-19-palmares-apps-drive-courses-en-ligne/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-06-19-top-10-mythes-numerique-sobre/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-16-deezer-vs-spotify/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-31-bankin-vs-linxo/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/intelligence-artificielle-smartphone-autonomie/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/2025/02/17/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/blog/ia/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/blog/numerique-responsable/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/blog/sobriete-des-applications/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/why-automate-the-testing-of-its-mobile-applications/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/fin-de-vie-obsolescence-et-dechets-lies-aux-logiciels/",
+      "links": [
+        {
+          "path": "/articles/2017-07-18-acv-logiciels/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/articles/2017-07-26-specificites-produits-logiciels/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/blog/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/ecoconception-des-logiciels-quel-est-le-cycle-de-vie-dun-logiciel/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+      "links": [
+        {
+          "path": "/bankin-vs-linxo/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/deezer-vs-spotify/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/should-i-activate-the-night-mode-to-increase-my-battery-life-the-case-of-the-twitter-app/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/is-the-instagram-lite-app-really-lighter/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/is-twitter-lite-really-that-light-for-your-battery-life/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/articles/2018-04-17-how-apps-killed-my-phone-battery/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/en/articletypes/greenit/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-is-the-memory-cost-of-a-cordova-application/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/power-test-cloud-how-to-measure-the-energy-consumption-of-a-web-or-mobile-app-when-youre-not-an-expert/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-is-the-memory-cost-of-a-cordova-application/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/why-you-should-measure-the-energy-consumption-of-your-software/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+      "links": [
+        {
+          "path": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-twitter-special-video-vs-image-vs-gif/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/top-100-e-commerce-websites/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/end-of-life-software-induced-obsolescence-and-wastes/",
+      "links": [
+        {
+          "path": "/en/articles/2017-07-26-specificites-produits-logiciels/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/software-eco-design-what-is-the-life-cycle-of-a-software/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.en_.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/analysis-of-overconsumptions-on-a-light-website-2/",
+      "links": [
+        {
+          "path": "/en/does-a-sober-site-have-to-be-ugly/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/how-to-audit-android-mobile-application-requests/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-09-05-faut-il-changer-son-fond-ecran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2017-11-21-twitter-lite-est-il-si-leger-pour-autonomie-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-08-20-instagram-lite/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/application-hybride-comment-eviter-lechec-du-projet-a-cause-de-mauvaise-performance/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-03-29-quel-est-le-cout-memoire-d-une-application-cordova/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-04-17-comment-les-applications-ont-tue-ma-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articletypes/greenit/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/la-battle-de-la-semaine-speciale-twitter-video-vs-image-vs-gif/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-01-25-impact-des-services-tiers-sur-autonomie-batteries/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2017-05-10-webp-png-jpeg-energy-battle/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2017-11-21-twitter-lite-est-il-si-leger-pour-autonomie-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-08-27-mixer-vs-twitch/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-figaro-vs-le-gorafi/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-12-19-palmares-2018-m-presse-information/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-03-amazonprime-vs-netflix/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-09-24-rocketchat-vs-slack/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/leboncoin-vs-locanto/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-31-palmares-jeux-video/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-09-02-sites-web-e-commerce/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-09-03-twitter-video-image-gif/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/best-practice-limit-the-number-of-third-party-services/",
+      "links": [
+        {
+          "path": "/fr/auditer-requetes-application-mobile-android/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/captcha-et-sobriete-numerique/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/service-tiers-youtube/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+      "links": [
+        {
+          "path": "/fr/auditer-requetes-application-mobile-android/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/captcha-et-sobriete-numerique/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/service-tiers-youtube/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+      "links": [
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/greenspector-studio/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/marches-publics-classement/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/les-5-cles-du-succes-dune-application/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2018-04-17-comment-les-applications-ont-tue-ma-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-12-20-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2019-11-21-greenspector-app-mark/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/",
+      "links": [
+        {
+          "path": "/blog/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/downloads/fr/NM.pdf",
+          "status": "blog_301"
+        },
+        {
+          "path": "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/lecoconception-des-logiciels-vers-une-sobriete-heureuse-du-numerique/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/rgesn-statements-the-clash-of-words-the-weight-of-measures/",
+      "links": [
+        {
+          "path": "/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/feedback-rgesn/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/publications/methodologie-greenspector-2024-25/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/rgesn_et_mesures/",
+      "links": [
+        {
+          "path": "/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/feedback-rgesn/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/publications/methodologie-greenspector-2024-25/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+      "links": [
+        {
+          "path": "/contact/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/greenspector-app-mark/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/resources/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/",
+      "links": [
+        {
+          "path": "/downloads/fr/NM.pdf",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/software-eco-design-towards-a-happy-sobriety-in-the-digital-world/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-app-mark/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/5-keys-to-application-success/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/articles/2018-03-07-benchmark-application-power-test-cloud/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/manually-explore-an-application-with-the-free-runner-test/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/joint-interview-with-thibault-geenen-ferpection-ceo/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-is-business-frances-favourite-at-mobile-world-congress-2018/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-apps-killed-my-phone-battery/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/apple-planned-obsolescence-explained-for-dummies-and-others/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/articles/2018-01-02-apple-planned-obsolescence-explained-for-dummies/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/manually-explore-an-application-with-the-free-runner-test/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/benchmark-an-application-on-the-power-test-cloud/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/manually-explore-an-application-with-the-free-runner-test/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/social-media-2021/",
+      "links": [
+        {
+          "path": "/en/10276-2/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-is-the-environmental-footprint-of-social-networking-applications-2023/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/petit-bamboo-vs-meditopia/",
+      "links": [
+        {
+          "path": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/7-minutes-workout-vs-home-workout/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/babbel-vs-duolingo-2/",
+      "links": [
+        {
+          "path": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/rocketchat-vs-slack-2/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/launch-application-consumption-measurement-from-your-pic-software-factory/",
+      "links": [
+        {
+          "path": "/en/articles/2018-03-07-benchmark-application-power-test-cloud/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/manually-explore-an-application-with-the-free-runner-test/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/measure-the-resource-consumption-of-an-application-via-automated-tests/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/qwant-vs-google-2/",
+      "links": [
+        {
+          "path": "/en/articles/2018-11-15-twitter-night-mode/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/search-engines/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/monitor-url-digital-sobriety/",
+      "links": [
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/evaluate-app-scan/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/introduction-to-gdsl-automatisaton-language-by-greenspector/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/overview/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/impact-playing-canal-video/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-kapten-vs-uber/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/fight-of-the-week-ubereats-vs-deliveroo/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-drivy-vs-ouicar/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/evaluate-app-scan/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/overview/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+      "links": [
+        {
+          "path": "/en/videoconferencing-apps-2022/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/impact-video-canal/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-12-03-pourquoi-automatiser-tests-applications-mobiles/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/palmares-2018-des-applications-de-transports-urbains/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/palmares-2018-des-applications-de-transports-urbains/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/lancer-la-mesure-de-consommation-dune-application-depuis-votre-pic-usine-logicielle/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-09-mesurer-la-consommation-ressource-tests-automatises/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/mesurer-la-consommation-de-ressources-dune-application-via-des-tests-automatises/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-10-lancer-mesure-consommation-depuis-pic-usine-logicielle/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/explorer-manuellement-une-application-avec-le-free-runner-test/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-09-mesurer-la-consommation-ressource-tests-automatises/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-10-lancer-mesure-consommation-depuis-pic-usine-logicielle/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/benchmarker-une-application-sur-le-power-test-cloud/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-09-mesurer-la-consommation-ressource-tests-automatises/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-10-lancer-mesure-consommation-depuis-pic-usine-logicielle/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/reseaux-sociaux-impact-carbone/",
+      "links": [
+        {
+          "path": "/fr/30-applications-mobiles-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/amazon-prime-video-vs-netflix/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/facebook-app-vs-facebook-web/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/petit-bambou-vs-meditopia/",
+      "links": [
+        {
+          "path": "/fr/7-minutes-workout-vs-exercices-a-la-maison/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/jeux-video-sur-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/empreinte-environnementale-applications-websites-mcommerce/",
+      "links": [
+        {
+          "path": "/fr/app-scan/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/solutions/applications-grand-public/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/mesure-url-monitorer-sobriete-numerique/",
+      "links": [
+        {
+          "path": "/fr/app-scan/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/power-test-cloud-ou-comment-un-non-expert-peut-mesurer-la-consommation-energetique-de-son-application-web-ou-mobile/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/solutions/applications-grand-public/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-application-de-drive-pour-mes-courses-en-ligne/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-02-27-facebook-lite/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-08-20-instagram-lite/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-02-14-messenger-lite/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/babbel-vs-duolingo/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-31-palmares-jeux-video/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-10-08-lefigaro-vs-legorafi/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/om-vs-psg/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-08-27-mixer-vs-twitch/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/analyse-des-surconsommations-dun-site-sobre/",
+      "links": [
+        {
+          "path": "/fr/auditer-requetes-application-mobile-android/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/reduire-poids-page-web-quels-elements-plus-impactants/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/classement-2023-des-impacts-environnementaux-des-sites-web-de-31-ecoles-dinformatique/",
+      "links": [
+        {
+          "path": "/fr/bonne-pratique-optimiser-les-polices-de-caracteres/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/reseaux-sociaux-2021/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/impact-video-canal/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/jftl-2022/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/doodles-google/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/app-scan/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/moteurs-de-recherches/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/manually-explore-an-application-with-the-free-runner-test/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/blog/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.en_.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/webp-png-jpeg-energy-battle-sur-android/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/http2-latence-et-energie/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/webp-png-jpeg-energy-battle-on-android/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/http2-latency-and-energy/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/third-party-services-really-make-a-difference-when-it-comes-to-battery-life/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/articles/2017-03-23-continuous-measurement-in-devops/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/why-you-should-measure-the-energy-consumption-of-your-software/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/twitter-lite-est-il-si-leger-pour-lautonomie-de-votre-batterie/",
+      "links": [
+        {
+          "path": "/articles/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/quel-est-le-cout-memoire-dune-application-cordova/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-2-3/",
+      "links": [
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-app-mark-premier-indicateur-defficience-des-applications-mobile/",
+      "links": [
+        {
+          "path": "/contactez-nous/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2019-11-13-playstore-efficiency-report/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/paris-sportifs/",
+      "links": [
+        {
+          "path": "/downloads/GREENSPECTOR_palmares_2019_paris_sporitfs.pdf",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-1-19/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/do-not-let-your-network-cell-rob-the-battery-anymore/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-united-wardrobe-vs-vinted/",
+      "links": [
+        {
+          "path": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-leboncoin-vs-locanto/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-study-of-the-energy-consumption-of-google-play-store-mobile-apps/",
+      "links": [
+        {
+          "path": "/en/5-keys-to-application-success/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-app-mark/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/resources/publications/playstore-efficiency-report-2019-2/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/is-twitter-lite-really-that-light-for-your-battery-life/",
+      "links": [
+        {
+          "path": "/en/articles/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-is-the-memory-cost-of-a-cordova-application/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-impact-of-llm-use-on-the-customers-side-battle-chatgpt-vs-deepseek/",
+      "links": [
+        {
+          "path": "/en/artificial-intelligence-smartphone-autonomy/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-studio-it-environmental-footprint-websites-applications/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/software-eco-design-what-is-the-life-cycle-of-a-software/",
+      "links": [
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/resources/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/changenow2022-ranking-partners/",
+      "links": [
+        {
+          "path": "/en/changenow-2022-event/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/changenow-2022-event/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/digital-sobriety-certificate/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/resources/success-stories/application-treebal-appscan/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/direct-messaging-business-apps/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/6168-2/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/facebook-app-vs-facebook-web-2/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/social-media-carbon-impact/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/search-engines/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/qwant-vs-google-2/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/12-reasons-not-to-eco-design-a-digital-service/",
+      "links": [
+        {
+          "path": "/en/does-a-sober-site-have-to-be-ugly/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/resources/success-stories/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/which-direct-messaging-application-should-i-choose/",
+      "links": [
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/is-the-instagram-lite-app-really-lighter/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/is-the-messenger-lite-app-really-lighter/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/rocketchat-vs-slack-2/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-united-wardrobe-vs-vinted/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-mixer-vs-twitch/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-kapten-vs-uber/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-drivy-vs-ouicar/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-happn-vs-tinder/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/web-hosts-impact-and-sobriety-actions/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+      "links": [
+        {
+          "path": "/en/impact-playing-canal-video/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/videoconferencing-apps-2022/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-to-advertise-while-considering-its-environmental-impact/",
+      "links": [
+        {
+          "path": "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/palmares-2018-presse-dinformation/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_palmares_2018_presse_information.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-nopal-la-version-2-3-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-07-25-campagnes-de-tests-choix-smartphone/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/comment-estimer-lautonomie-dun-smartphone-en-moins-dune-heure-chrono/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-jackfruit-la-version-1-19-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-05-21-ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/interview-croisee-avec-thibault-geenen-ceo-de-ferpection/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-04-25-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2018-03-05-greenspector-startup-coup-de-coeur-business-france-mobile-world-congress-2018/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/comment-les-applications-ont-tue-ma-batterie/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-12-12-pourquoi-se-preoccuper-consommation-batterie-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-01-02-obsolescence-programmee-apple-expliquee-pour-les-nuls/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-application-de-messagerie-instantanee-choisir/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-02-27-facebook-lite/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-08-20-instagram-lite/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-02-14-messenger-lite/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/qwant-vs-google/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-09-05-faut-il-changer-son-fond-ecran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-11-15-twitter-mode-nuit/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/kapten-vs-uber/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-06-11-ubereats-vs-deliveroo/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/rocketchat-vs-slack/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-09-17-unitedwardrobe-vs-vinted/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/drivy-vs-ouicar/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-02-20-palmares-applications-messagerie-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-08-06-happn-vs-tinder/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/united-wardrobe-vs-vinted/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-31-palmares-jeux-video/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-09-10-leboncoin-vs-locanto/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-classement/",
+      "links": [
+        {
+          "path": "/fr/auditer-requetes-application-mobile-android/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/marches-publics-classement/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab/",
+      "links": [
+        {
+          "path": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique-de-votre-application-ou-site-web-badge/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/le-petit-bout-de-la-lorgnette/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet/",
+      "links": [
+        {
+          "path": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique-de-votre-application-ou-site-web-badge/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/le-petit-bout-de-la-lorgnette/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/changenow-2022/",
+      "links": [
+        {
+          "path": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/treebal-app-scan/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/green-tech-forum-classement-sobriete-numerique/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/greentech-forum-2021/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/apps-communication-equipe/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-application-de-messagerie-instantanee-choisir/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-instagram/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/facebook-app-vs-facebook-web/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/reseaux-sociaux-impact-carbone/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/feedback-rgesn/",
+      "links": [
+        {
+          "path": "/fr/ecobuild/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/greenspector-studio-et-rgesn/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/rgesn-loi-reen-de-quoi-parle-t-on/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek/",
+      "links": [
+        {
+          "path": "/fr/greenspector-studio/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/intelligence-artificielle-smartphone-autonomie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-environnemental-top-30-sites-presse-quotidienne-francaise/",
+      "links": [
+        {
+          "path": "/fr/impact-presse-quotidienne-francaise-2021/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/solutions/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-environnemental-ia-locale/",
+      "links": [
+        {
+          "path": "/fr/intelligence-artificielle-smartphone-autonomie/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/publications/methodologie-greenspector-2024-25/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/dom-as-a-metric-for-monitoring-web-sobriety/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impacts-environnementaux-publicite/",
+      "links": [
+        {
+          "path": "/fr/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/reduire-poids-page-web-quels-elements-plus-impactants/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique/",
+      "links": [
+        {
+          "path": "/fr/reduire-poids-page-web-quels-elements-plus-impactants/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/nettoyer-chrome-pour-realiser-des-mesures-independantes/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-app-scan-desormais-disponible-sur-ios/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-app-scan-is-now-available-on-ios/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/5-keys-to-application-success/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/forum-tech4good-greenspector-partenaire-de-levenement/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2019-09-02-sites-web-e-commerce/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/applications-de-geolocalisation/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/2019-ranking-of-gps-applications/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-integre-la-marque-crosscall-sur-son-power-test-cloud/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2017-04-25-power-test-cloud/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-integrates-crosscall-brand-into-its-power-test-cloud/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2017-04-25-power-test-cloud/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-et-soprasteria-sont-desormais-partenaires-pour-des-applications-mobiles-de-qualite/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-and-soprasteria-are-now-partners-for-quality-mobile-applications/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/get-in-touch-with-us-at-the-mobile-world-congress-2019/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/greenspector-is-business-frances-favourite-at-mobile-world-congress-2018/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/why-automate-the-testing-of-its-mobile-applications/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ecouter-de-la-musique-sur-son-smartphone-sans-vider-sa-batterie-cest-possible/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/is-it-possible-to-listen-to-music-without-emptying-your-smartphones-battery/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/top-2018-least-energy-hungry-browsers-for-your-smartphone/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/what-are-the-best-web-browsers-to-use-in-2020/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/is-the-instagram-lite-app-really-lighter/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/lapplication-instagram-lite-est-elle-vraiment-plus-legere/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/articles/2017-02-27-facebook-lite/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/catch-greenspector-at-mobility-for-business-on-october-17-18/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/release-note-v-2-10-0/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/do-not-let-your-network-cell-rob-the-battery-anymore/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/why-is-measuring-performance-with-the-cpu-a-mistake/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/why-you-should-measure-the-energy-consumption-of-your-software/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-fennel-la-version-1-15-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/articles/2017-04-25-power-test-cloud/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-1-15/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/fr/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/lecoconception-des-logiciels-vers-une-sobriete-heureuse-du-numerique/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-memory-cost-of-a-cordova-application/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/articles/2017-03-23-continuous-measurement-in-devops/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/continuous-measurement-in-devops-or-how-to-easily-control-the-efficiency-of-its-applications/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/product.html",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-est-le-cout-memoire-dune-application-cordova/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-startup-de-la-semaine-sur-bfm-business/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/contact/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/pourquoi-se-preoccuper-de-la-consommation-de-batterie-dune-application/",
+      "links": [
+        {
+          "path": "/ameliorez-votre-referencement-seo-avec-leco-conception-en-hackant-les-budgets-google-crawl/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/articles/2017-01-10-SystemUI/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/la-version-1-11-0-broccoli-de-greenspector-est-sortie/",
+      "links": [
+        {
+          "path": "/analyse-statique-de-code-dans-une-bdd-orientee-graphe/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/mobile-efficiency-index-le-premier-outil-en-ligne-pour-mesurer-la-consommation-energetique-reelle-de-vos-applications-et-sites-web/",
+      "links": [
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-1-11/",
+      "links": [
+        {
+          "path": "/benchmarker-une-application-sur-le-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/static-analysis-of-a-code-in-a-graph-database/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ecoconception-des-logiciels-quel-est-le-cycle-de-vie-dun-logiciel/",
+      "links": [
+        {
+          "path": "/blog/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ecoconception-des-logiciels-specificites-des-produits-logiciels-2/",
+      "links": [
+        {
+          "path": "/blog/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-ada-vs-europcar/",
+      "links": [
+        {
+          "path": "/deezer-vs-spotify/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/rencontrons-nous-au-lab-dinnovation-dorange-a-viva-technology-2018/",
+      "links": [
+        {
+          "path": "/ecoconception-des-logiciels-pourquoi-realiser-une-acv-des-logiciels/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/news/2018-03-05-greenspector-startup-coup-de-coeur-business-france-mobile-world-congress-2018/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-2-2/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/how-to-estimate-the-battery-life-of-a-smartphone-in-less-than-one-hour/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-2-1/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/manually-explore-an-application-with-the-free-runner-test/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/mobile-efficiency-index/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/apple-planned-obsolescence-explained-for-dummies-and-others/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/software-eco-design-towards-a-happy-sobriety-in-the-digital-world/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        },
+        {
+          "path": "/en/resources/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-impact-of-mobile-games-in-2023/",
+      "links": [
+        {
+          "path": "/en/2019-mobile-video-games-ranking-12-apps-measured/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/best-2019-android-apps-and-games-ranking-by-greenspector/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/best-2019-android-apps-and-games-ranking-by-greenspector/",
+      "links": [
+        {
+          "path": "/en/5-keys-to-application-success/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-app-mark/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-software-world-is-destroying-itself-manifesto-for-a-more-sustainable-development/",
+      "links": [
+        {
+          "path": "/en/android-memory-the-ultimate-metric-guide-2/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/",
+      "links": [
+        {
+          "path": "/en/articles/2017-01-10-SystemUI/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/improve-your-seo-with-eco-design-by-hacking-google-crawl-budgets/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-top-10-des-mythes-du-numerique-sobre/",
+      "links": [
+        {
+          "path": "/en/articletypes/greenit/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/environmental-impact-of-local-ai/",
+      "links": [
+        {
+          "path": "/en/artificial-intelligence-smartphone-autonomy/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/greenspector-methodology-specification/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/which-application-choose-to-follow-the-2018-world-cup-without-draining-your-smartphones-battery-life/",
+      "links": [
+        {
+          "path": "/en/benchmark-an-application-on-the-power-test-cloud/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/manually-explore-an-application-with-the-free-runner-test/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/software-eco-design-software-products-features/",
+      "links": [
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/01/GREENSPECTOR_Guide_Methodologique_ACV_des_Logiciels.en_.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/environmental-analysis-of-analytics-tools-use-impact-responsible/",
+      "links": [
+        {
+          "path": "/en/comparison-of-web-hosting-offers-selected-for-their-environmental-commitments/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/does-a-sober-site-have-to-be-ugly/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/vivatechnology-sncf/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/digital-sobriety-certificate/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/vivatechnology-orange/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/digital-sobriety-certificate/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-wins-the-digital-sobriety-award-at-the-mobility-for-business-20/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/mobility-for-business-nov2021/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/mobility-for-business-nov2021/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/is-the-messenger-lite-app-really-lighter/",
+      "links": [
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/is-the-instagram-lite-app-really-lighter/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/7-minutes-workout-vs-home-workout/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-direct-messaging-application-should-i-choose/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-happn-vs-tinder/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-bankin-vs-linxo/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-deezer-vs-spotify/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-day-airbnb-vs-booking/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-day-airbnb-vs-booking/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-03-amazonprime-vs-netflix/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-amazon-prime-video-vs-netflix/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-fight-of-the-week-amazon-vs-cdiscount/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-battle-of-the-week-bankin-vs-linxo/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/the-battle-of-the-week-ada-vs-europcar/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/sncf-vs-trainline/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/articles/2019-06-11-ubereats-vs-deliveroo/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-fight-of-the-week-amazon-vs-cdiscount/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/sncf-vs-trainline/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/from-green-floor-to-green-digital-are-the-champions-league-finalists-apps-in-the-game/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/our-solutions/public-applications/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/environmental-impact-of-top-30-of-the-french-daily-press/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/overview/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/introduction-to-gdsl-automatisaton-language-by-greenspector/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/videoconferencing-apps-2022/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+      "links": [
+        {
+          "path": "/en/greenspector-will-be-present-at-viva-technology-2019-event-on-may-16-18-in-the-atos-innovation-lab/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/wp-content/uploads/2020/02/atos-atd-benchmark-en.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-to-clean-up-the-chrome-app-for-reliable-energy-and-performance-measurements/",
+      "links": [
+        {
+          "path": "/en/home/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/introduction-to-gdsl-automatisaton-language-by-greenspector/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/atos-scaler-program/",
+      "links": [
+        {
+          "path": "/en/home/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/en/resources/success-stories/dga-atos-app-scan/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/optimiser-energie-des-smartphones-pour-reduire-limpact-du-numerique/",
+      "links": [
+        {
+          "path": "/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology/",
+      "links": [
+        {
+          "path": "/en/how-i-improved-the-efficiency-of-an-android-system-app-and-why/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/what-are-the-best-android-web-browsers-to-use-in-2021/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/software-eco-design-practices-server-side-or-user-side/",
+      "links": [
+        {
+          "path": "/en/impact-playing-canal-video/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/smartphones-all-about-the-environmental-impact-and-battery-wear/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/get-in-touch-with-us-at-oranges-lab-at-viva-technology-2018/",
+      "links": [
+        {
+          "path": "/en/mobile-world-congress/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/software-eco-design-why-conducting-a-software-life-cycle-assessment-lca/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/defining-the-environmental-budget-for-a-digital-service/",
+      "links": [
+        {
+          "path": "/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/social-media-carbon-impact/",
+      "links": [
+        {
+          "path": "/en/the-battle-of-the-week-amazon-prime-video-vs-netflix/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/en/which-video-conferencing-mobile-application-to-reduce-your-impact/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/droidcon-berlin-2018-5-best-practices-for-mobile-fleets-efficiency-by-greenspector/",
+      "links": [
+        {
+          "path": "/en/what-is-the-memory-cost-of-a-cordova-application/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greentech-forum-2021/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/mobility-for-business-2021/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ugap/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/marches-publics-classement/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/rencontrons-nous-au-mobile-world-congress-2019/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/news/2018-03-05-greenspector-startup-coup-de-coeur-business-france-mobile-world-congress-2018/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/top-2018-des-navigateurs-les-moins-energivores-pour-votre-smartphone/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2019-12-16-meilleurs-navigateurs-2020/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-melon-la-version-2-2-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-11-13-estimer-autonomie-smartphone-en-une-heure/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-startup-coup-de-coeur-du-mobility-for-business-2018/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/news/2018-03-05-greenspector-startup-coup-de-coeur-business-france-mobile-world-congress-2018/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-leek-la-version-2-1-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/droidcon-berlin-2018-5-bonnes-pratiques-pour-lefficience-des-flottes-mobiles-par-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-03-29-quel-est-le-cout-memoire-d-une-application-cordova/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/retrouvez-greenspector-a-mobility-for-business-les-17-et-18-octobre-2018/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/news/2018-06-14-release-v-2-0/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2018-04-24-analyser-le-comportement-de-son-smartphone-avec-battery-historian/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2016-04-12-pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/lobsolescence-programmee-par-apple-expliquee-pour-les-nuls-et-plus/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/articles/2017-12-12-pourquoi-se-preoccuper-consommation-batterie-application/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/atos-scaler/",
+      "links": [
+        {
+          "path": "/fr/accueil/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/dga-atos/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/lapplication-messenger-lite-est-elle-vraiment-plus-legere/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-02-27-facebook-lite/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-08-20-instagram-lite/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-application-pour-suivre-la-coupe-du-monde-2018-sans-vider-la-batterie-de-son-smartphone/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-03-07-benchmarker-une-application-power-test-cloud/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2018-03-08-explorer-une-application-manuellement-free-runner-test/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/mixer-vs-twitch/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-11-19-top-2018-navigateurs-les-moins-energivores/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2019-11-21-greenspector-app-mark/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/etude-greenspector-sur-les-consommations-energetiques-des-applications-mobiles-du-google-play-store/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-04-03-les-5-cles-succes-application/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/news/2019-11-21-greenspector-app-mark/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ouisncf-vs-trainline/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-06-11-ubereats-vs-deliveroo/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/amazon-vs-cdiscount/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-06-18-ouisncf-vs-trainline/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/amazon-prime-video-vs-netflix/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-06-26-amazon-vs-cdiscount/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/airbnb-vs-booking/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-03-amazonprime-vs-netflix/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/deezer-vs-spotify/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-airbnb-vs-booking/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/7-minutes-workout-vs-exercices-a-la-maison/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-application-de-messagerie-instantanee-choisir/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/marmiton-vs-750g/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/happn-vs-tinder/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-31-bankin-vs-linxo/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/ada-vs-europcar/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-16-deezer-vs-spotify/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/bankin-vs-linxo/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/articles/2019-07-22-ada-vs-europcar/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/changenow-2022-classement-de-la-sobriete-numerique-des-sites-web-des-partenaires/",
+      "links": [
+        {
+          "path": "/fr/changenow-2022/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-solution-choisir-pour-un-site-web-sobre/",
+      "links": [
+        {
+          "path": "/fr/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/palmares-2023-des-jeux-sur-mobile/",
+      "links": [
+        {
+          "path": "/fr/classement-des-meilleures-applications-et-jeux-android-2019-par-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/jeux-video-sur-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/viva-technology-sncf/",
+      "links": [
+        {
+          "path": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/viva-technology-orange/",
+      "links": [
+        {
+          "path": "/fr/comment-obtenir-le-certificat-de-sobriete-numerique/",
+          "status": "marketing_301"
+        },
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/un-site-sobre-est-il-necessairement-moche/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/marches-publics-classement/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/impact-carbone-e-commerce-france/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/moteurs-de-recherches/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/facebook-app-vs-facebook-web-2/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/petit-bambou-vs-meditopia/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/facebook-app-vs-facebook-web/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/petit-bambou-vs-meditopia/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-environnemental-des-exposants-au-greentech-forum-2023/",
+      "links": [
+        {
+          "path": "/fr/description-des-fonctionnalites-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/rgesn-loi-reen-de-quoi-parle-t-on-2/",
+      "links": [
+        {
+          "path": "/fr/ecobuild/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/analyse-environnementale-des-outils-danalytics/",
+      "links": [
+        {
+          "path": "/fr/grille-lecture-engagements-environnementaux-offres-hebergement-web/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/a-closer-look/",
+      "links": [
+        {
+          "path": "/fr/grille-lecture-engagements-environnementaux-offres-hebergement-web/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-petit-bout-de-la-lorgnette/",
+      "links": [
+        {
+          "path": "/fr/grille-lecture-engagements-environnementaux-offres-hebergement-web/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/un-site-sobre-est-il-necessairement-moche/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/comparison-of-web-hosting-offers-selected-for-their-environmental-commitments/",
+      "links": [
+        {
+          "path": "/fr/hebergeurs-impact-et-actions-de-sobriete/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/solutions/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelles-ressources-reduire-bonnes-pratiques-ecoconception-logicielle/",
+      "links": [
+        {
+          "path": "/fr/impact-video-canal/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/smartphones-utilisateurs-impact-environnemental-usure-batterie/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/which-mobile-carpooling-application-has-the-greatest-environmental-impact/",
+      "links": [
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+      "links": [
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/empreinte-environnementale-sites-web-12-candidats-presidentielle-2022/",
+      "links": [
+        {
+          "path": "/fr/les-sites-web-des-candidats-aux-presidentielles-respectent-ils-votre-smartphone/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/service-tiers-youtube/",
+      "links": [
+        {
+          "path": "/fr/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/ressources/etude-de-cas/sncf-mobiliz/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/du-terrain-vert-au-numerique-vert-les-applications-des-finalistes-de-la-ligue-des-champions-sont-elles-dans-le-match/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/solutions/applications-grand-public/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-applications-visioconferences-2022/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-studio-et-rgesn/",
+      "links": [
+        {
+          "path": "/fr/reduire-poids-page-web-quels-elements-plus-impactants/",
+          "status": "legacy_301"
+        },
+        {
+          "path": "/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/budget-environnemental/",
+      "links": [
+        {
+          "path": "/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+          "status": "blog_301"
+        },
+        {
+          "path": "/reduire-poids-page-web-quels-elements-plus-impactants/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/could-vibe-coding-thanks-to-ai-be-green/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/est-ce-que-le-vibe-coding-avec-lia-peut-etre-green/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/ecoact-et-greenspector-accompagnent-france-tv-dans-la-decarbonation-de-son-nouveau-media-nowu/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/ecoact-and-greenspector-support-france-tv-in-the-decarbonization-of-its-new-media-nowu/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/introduction-to-gdsl-automatisaton-language-by-greenspector/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/impact-playing-canal-video/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/classement-de-la-consommation-energetique-des-partenaires/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/change-now-2020-ranking-of-the-energy-consumption-of-partners-websites/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/catch-greenspector-at-mobility-for-business-on-october-1-2-3/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/catch-greenspector-at-the-ieee-globecom-2018-conference-in-abu-dhabi-next-10th-december/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/m-tourism-hotel-reservation-ranking-2018/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/fashion-m-commerce-applications-barometer-2018/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-recompense-dans-le-cadre-du-projet-convince-par-celticplus/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-winner-cleantech-open-france-2017-in-the-digital-iot-category/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-1-16/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/11-au-12-decembre-greenspector-se-mobilise-lors-de-la-semaine-mondiale-de-la-transition-a-tech-for-planet-et-aux-world-efficiency-solutions-a-paris/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/mypositiveimpact-greenspector-est-candidat-a-vos-votes/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/http2-latence-et-energie/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/la-boite-a-outils-du-developpeur-android-les-outils-de-performance/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/analyse-statique-de-code-dans-une-bdd-orientee-graphe/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/android-should-you-use-hashmap-or-sparsearray/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/android-faut-il-utiliser-hashmap-ou-sparsearray/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/http2-latency-and-energy/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+      "links": [
+        {
+          "path": "/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/android-memory-the-ultimate-metric-guide/",
+      "links": [
+        {
+          "path": "/articles/2017-04-11-android-containers/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/consommation-energetique-de-liot-mesurer-raspberry-avec-arduino/",
+      "links": [
+        {
+          "path": "/blog/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/discover-quinoa-the-2-6-0-version-of-greenspector/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-2-4/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-is-mobility-for-business-2018s-favourite-startup/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/bewizyu/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-awarded-as-part-of-the-convince-project-by-celticplus/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-2-0/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-1-18/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-1-17/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-rallies-for-the-world-transition-week-at-tech-for-planet/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/android-developers-toolbox-performance-tools/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/static-analysis-of-a-code-in-a-graph-database/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/does-facebook-lite-save-your-smartphone-battery/",
+      "links": [
+        {
+          "path": "/en/",
+          "status": "v2_static"
+        }
+      ]
+    },
+    {
+      "slug": "/en/android-memory-the-ultimate-metric-guide-2/",
+      "links": [
+        {
+          "path": "/en/articles/2017-04-11-android-containers/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/techforgood-or-goodfortech/",
+      "links": [
+        {
+          "path": "/en/articles/2018-04-17-how-apps-killed-my-phone-battery/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-top-10-myths-of-frugal-ict/",
+      "links": [
+        {
+          "path": "/en/articletypes/greenit/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/measuring-the-energy-consumption-of-iot-using-arduino-to-measure-raspberry/",
+      "links": [
+        {
+          "path": "/en/blog-en/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/innovation-the-first-energy-meter-for-ios-from-greenspector/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/digital-sobriety-at-greenspector/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/top-100-e-commerce-websites/",
+      "links": [
+        {
+          "path": "/en/contact-us/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/limiter-les-donnees-internet-pour-reduire-impact-numerique/",
+      "links": [
+        {
+          "path": "/en/does-facebook-lite-save-your-smartphone-battery/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/marmiton-vs-750g-battle/",
+      "links": [
+        {
+          "path": "/en/energy-consumption-of-the-30-most-popular-mobile-apps-in-the-world/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/nantes-digital-week-2022-ranking-of-the-digital-sobriety-of-partners-and-visitors-websites/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/analysis_sites_nominated_mobile_excellence_awwwards/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france/",
+      "links": [
+        {
+          "path": "/en/environmental-footprint-methodology/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-solar-impulse-label/",
+      "links": [
+        {
+          "path": "/en/home/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/",
+      "links": [
+        {
+          "path": "/en/hybrid-application-how-to-avoid-project-failure-due-to-poor-performance/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/one-hour-of-netflix-viewing-is-equivalent-to-100-geqco2/",
+      "links": [
+        {
+          "path": "/en/impact-playing-canal-video/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/5-keys-to-application-success/",
+      "links": [
+        {
+          "path": "/en/offers/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-impact-of-the-most-used-dating-applications-in-france/",
+      "links": [
+        {
+          "path": "/en/our-solutions/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-impact-of-the-10-most-widely-used-transport-applications-in-france-2023/",
+      "links": [
+        {
+          "path": "/en/our-solutions/public-applications/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-footprint-of-social-networking-applications-2023/",
+      "links": [
+        {
+          "path": "/en/our-solutions/public-applications/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/methodologie-resume/",
+      "links": [
+        {
+          "path": "/en/publications/methodology-greenspector-2024-05-version/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/project-auxylium-continuation/",
+      "links": [
+        {
+          "path": "/en/resources/success-stories/dga-atos-app-scan/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/lvmh-la-maison-des-startups-program/",
+      "links": [
+        {
+          "path": "/en/resources/success-stories/dior-app-scan/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/third-party-youtube/",
+      "links": [
+        {
+          "path": "/en/resources/success-stories/sncf-mobiliz-fleet-selection/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/digital-sobriety-mistakes-to-avoid/",
+      "links": [
+        {
+          "path": "/en/the-software-world-is-destroying-itself-manifesto-for-a-more-sustainable-development/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/france-e-commerce-carbon-impact/",
+      "links": [
+        {
+          "path": "/en/top-100-e-commerce-websites/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-video-canal/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-quinoa-la-version-2-6-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/retrouvez-greenspector-a-mobility-for-business-les-12-et-3-octobre-2019/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-pear-la-version-2-5-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/version-2-5/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-laureat-du-prix-10-000-startups-2019-dans-la-categorie-environnement-energie/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-olive-la-version-2-4-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/retrouvez-greenspector-a-la-conference-ieee-globecom-2018-a-abu-dhabi-le-10-decembre-prochain/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/palmares-2018-m-tourisme-reservation-dhotel/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-coordonne-lun-des-projets-laureats-du-projet-perfecto-de-lademe/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-et-bewizyu-un-partenariat-pour-des-applications-mobiles-de-qualite/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/barometre-2018-des-applications-m-commerce-mode/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-kiwi-la-version-2-0-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-laureat-cleantech-open-france-2017-dans-la-categorie-digital-iot/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-iceberg-lettuce-la-version-1-18-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-honeydew-la-version-1-17-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/decouvrez-grapes-la-version-1-16-0-de-greenspector/",
+      "links": [
+        {
+          "path": "/fr/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/stopcovid/",
+      "links": [
+        {
+          "path": "/fr/accueil/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-label-solar-impulse/",
+      "links": [
+        {
+          "path": "/fr/accueil/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-monde-du-logiciel-est-en-train-de-se-detruire-manifeste-pour-un-developpement-plus-durable/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-04-11-android-containers/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/android-6-ameliore-t-il-lautonomie-des-smartphones/",
+      "links": [
+        {
+          "path": "/fr/articles/2017-09-05-faut-il-changer-son-fond-ecran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/techforgood-ou-goodfortech/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-04-17-comment-les-applications-ont-tue-ma-batterie/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/comment-choisir-les-smartphones-integres-a-vos-campagnes-de-tests/",
+      "links": [
+        {
+          "path": "/fr/articles/2018-05-15-problemes-energie-performance-applications-mobiles/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/la-chaine-meteo-vs-meteo-france/",
+      "links": [
+        {
+          "path": "/fr/articles/2019-07-10-consommation-30-apps-les-plus-populaires/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-correlation-between-eco-design-and-editorial-sobriety/",
+      "links": [
+        {
+          "path": "/fr/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+      "links": [
+        {
+          "path": "/fr/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/devoxx-2023-classement-de-limpact-environnemental-des-sites-web-des-partenaires/",
+      "links": [
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/hebergeurs-impact-et-actions-de-sobriete/",
+      "links": [
+        {
+          "path": "/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/innovation-greenspector-iphone/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-presse-quotidienne-francaise-2021/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/top-100-ecommerce-impact-carbone/",
+      "links": [
+        {
+          "path": "/fr/contact/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/communique-de-presse-une-nouvelle-etape-dans-la-collaboration-entre-nowu-et-greenspector/",
+      "links": [
+        {
+          "path": "/fr/ecoact-et-greenspector-accompagnent-france-tv-dans-la-decarbonation-de-son-nouveau-media-nowu/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/optimising-your-website-for-print/",
+      "links": [
+        {
+          "path": "/fr/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/optimiser-son-site-pour-limpression/",
+      "links": [
+        {
+          "path": "/fr/faut-il-activer-le-mode-nuit-pour-augmenter-lautonomie-de-ma-batterie-le-cas-de-lapplication-twitter/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+      "links": [
+        {
+          "path": "/fr/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/grille-lecture-engagements-environnementaux-offres-hebergement-web/",
+      "links": [
+        {
+          "path": "/fr/hebergeurs-impact-et-actions-de-sobriete/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/une-heure-de-visualisation-netflix-cest-100geqco2-et-alors/",
+      "links": [
+        {
+          "path": "/fr/impact-video-canal/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelle-application-mobile-de-covoiturage-a-le-plus-fort-impact-environnemental/",
+      "links": [
+        {
+          "path": "/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/rgesn-reen-law-what-are-we-talking-about/",
+      "links": [
+        {
+          "path": "/fr/le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/sobriete-numerique-erreurs-a-eviter/",
+      "links": [
+        {
+          "path": "/fr/le-monde-du-logiciel-est-en-train-de-se-detruire-manifeste-pour-un-developpement-plus-durable/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-impact-does-the-network-have-on-digital-services/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-est-limpact-du-reseau-dans-les-services-numeriques/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/nantes-digital-week-2022-classement-sites-visiteurs-partenaires/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+      "links": [
+        {
+          "path": "/fr/methodologie-calcul-empreinte-environnementale/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/30-applications-mobiles-populaires/",
+      "links": [
+        {
+          "path": "/fr/news/2019-04-03-greenspector-participe-lab-atos-viva-technology-2019/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quelles-sont-les-meilleures-applications-de-recherche-demploi/",
+      "links": [
+        {
+          "path": "/fr/news/2019-11-21-greenspector-app-mark/",
+          "status": "blog_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-impact-environnemental-des-parametres-graphiques-des-jeux-videos/",
+      "links": [
+        {
+          "path": "/fr/palmares-2023-des-jeux-sur-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/what-is-the-environmental-impact-of-video-game-graphics/",
+      "links": [
+        {
+          "path": "/fr/palmares-2023-des-jeux-sur-mobile/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/the-legislative-framework-for-the-eco-design-of-digital-services/",
+      "links": [
+        {
+          "path": "/fr/publication-des-web-sustainability-guidelines-du-w3c/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+      "links": [
+        {
+          "path": "/fr/publication-des-web-sustainability-guidelines-du-w3c/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/poursuite-du-projet-auxylium/",
+      "links": [
+        {
+          "path": "/fr/ressources/etude-de-cas/dga-atos/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/la-maison-des-startups-lvmh/",
+      "links": [
+        {
+          "path": "/fr/ressources/etude-de-cas/dior/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/greenspector-label-solar-impulse-2023/",
+      "links": [
+        {
+          "path": "/fr/solutions/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-est-limpact-environnemental-des-applications-de-rencontre-gratuites-les-plus-utilisees-en-france/",
+      "links": [
+        {
+          "path": "/fr/solutions/",
+          "status": "marketing_301"
+        }
+      ]
+    },
+    {
+      "slug": "/impact-carbone-e-commerce-france/",
+      "links": [
+        {
+          "path": "/fr/top-100-ecommerce-impact-carbone/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/",
+      "links": [
+        {
+          "path": "/fr/webp-png-jpeg-energy-battle-sur-android/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/",
+      "links": [
+        {
+          "path": "/fr/webp-png-jpeg-energy-battle-sur-android/",
+          "status": "legacy_301"
+        }
+      ]
+    },
+    {
+      "slug": "/en/greenspector-methodology-specification/",
+      "links": [
+        {
+          "path": "/wp-content/uploads/2024/05/Methodology_Greenspector_full_EN-Version-202405.pdf",
+          "status": "blog_301"
+        }
+      ]
+    }
+  ]
+}
