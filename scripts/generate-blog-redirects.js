@@ -11,6 +11,7 @@ const ROOT = path.resolve(__dirname, '..');
 const SITEMAP_PATH = path.join(ROOT, 'content/post-sitemap.xml');
 const MARKETING_PATH = path.join(__dirname, 'redirects/marketing.htaccess');
 const LEGACY_PREFIX_PATH = path.join(__dirname, 'redirects/legacy-prefix.htaccess');
+const CANONICAL_HOST_PATH = path.join(__dirname, 'redirects/canonical-host.htaccess');
 const PAGE_REDIRECTS_PATH = path.join(__dirname, 'redirects/page-redirects.json');
 const AUDIT_REPORT_PATH = path.join(ROOT, 'content/redirects/link-audit-report.json');
 const OUT_PATH = path.join(ROOT, '.htaccess');
@@ -245,6 +246,9 @@ function main() {
   const legacyPrefix = fs.existsSync(LEGACY_PREFIX_PATH)
     ? fs.readFileSync(LEGACY_PREFIX_PATH, 'utf8').trim()
     : '';
+  const canonicalHost = fs.existsSync(CANONICAL_HOST_PATH)
+    ? fs.readFileSync(CANONICAL_HOST_PATH, 'utf8').trim()
+    : '';
   const pageRedirects = JSON.parse(fs.readFileSync(PAGE_REDIRECTS_PATH, 'utf8'));
   const marketingPatterns = loadMarketingPatterns(marketing);
   const postSlugs = loadPostSlugSets(xml);
@@ -261,6 +265,8 @@ function main() {
     '<IfModule mod_rewrite.c>',
     'RewriteEngine On',
     'RewriteBase /',
+    '',
+    canonicalHost,
     '',
     blogInfra,
     '',

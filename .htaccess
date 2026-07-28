@@ -6,6 +6,14 @@
 RewriteEngine On
 RewriteBase /
 
+# --- Canonical host : HTTPS + sans www (greenspector.com) ---
+RewriteCond %{HTTP_HOST} ^www\.greenspector\.com$ [NC]
+RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^greenspector\.com$ [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
+
 # --- Blog infrastructure → blog.greenspector.com ---
 RewriteRule ^blog-fr/?(.*)$ https://blog.greenspector.com/$1 [R=301,L,NC]
 RewriteRule ^en/blog-en/?(.*)$ https://blog.greenspector.com/en/$1 [R=301,L,NC]
