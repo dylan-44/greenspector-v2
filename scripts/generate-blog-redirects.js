@@ -15,6 +15,45 @@ const CANONICAL_HOST_PATH = path.join(__dirname, 'redirects/canonical-host.htacc
 const PAGE_REDIRECTS_PATH = path.join(__dirname, 'redirects/page-redirects.json');
 const AUDIT_REPORT_PATH = path.join(ROOT, 'content/redirects/link-audit-report.json');
 const OUT_PATH = path.join(ROOT, '.htaccess');
+const HTACCESS_TXT_PATH = path.join(ROOT, 'htaccess.txt');
+
+const CANONICAL_SECTION = `# ---------------------------------------------------------------------
+# 0) Canonical host : HTTPS + sans www
+# ---------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\\.greenspector\\.com$ [NC]
+RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^greenspector\\.com$ [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+`;
+
+function buildFromHtaccessTxt() {
+  if (!fs.existsSync(HTACCESS_TXT_PATH)) return false;
+
+  let body = fs.readFileSync(HTACCESS_TXT_PATH, 'utf8');
+  const marker = '# ---------------------------------------------------------------------\n# 1) Points d\'entree WordPress';
+  if (!body.includes(marker)) {
+    console.error('htaccess.txt: marqueur section 1 introuvable');
+    process.exit(1);
+  }
+
+  const header = `# =====================================================================
+#  greenspector.com - redirections depuis l'ancien site WordPress
+#
+#  Genere : htaccess.txt + section canonical (npm run generate-redirects)
+#
+# =====================================================================
+
+`;
+
+  fs.writeFileSync(OUT_PATH, header + CANONICAL_SECTION + body.slice(body.indexOf(marker)), 'utf8');
+  console.log(`Written ${OUT_PATH} from htaccess.txt + canonical host`);
+  return true;
+}
 
 const BLOG_HOST = 'https://blog.greenspector.com';
 
@@ -235,6 +274,8 @@ function buildAuditRules(reportPath, postSlugs, pageRedirects, marketingPatterns
 }
 
 function main() {
+  if (buildFromHtaccessTxt()) return;
+
   if (!fs.existsSync(SITEMAP_PATH)) {
     console.error('Missing', SITEMAP_PATH);
     process.exit(1);
