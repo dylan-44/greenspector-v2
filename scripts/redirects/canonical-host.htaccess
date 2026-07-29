@@ -1,7 +1,3 @@
-# --- Canonical host : HTTPS + sans www (greenspector.com) ---
+# --- Canonical host : sans www (HTTPS force par l'infra hebergeur) ---
 RewriteCond %{HTTP_HOST} ^www\.greenspector\.com$ [NC]
-RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
-
-RewriteCond %{HTTP_HOST} ^greenspector\.com$ [NC]
-RewriteCond %{HTTPS} off
 RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]

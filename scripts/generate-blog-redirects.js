@@ -18,14 +18,11 @@ const OUT_PATH = path.join(ROOT, '.htaccess');
 const HTACCESS_TXT_PATH = path.join(ROOT, 'htaccess.txt');
 
 const CANONICAL_SECTION = `# ---------------------------------------------------------------------
-# 0) Canonical host : HTTPS + sans www
+# 0) Canonical host : sans www (HTTPS force par l'infra hebergeur)
 # ---------------------------------------------------------------------
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\\.greenspector\\.com$ [NC]
-RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
-RewriteCond %{HTTP_HOST} ^greenspector\\.com$ [NC]
-RewriteCond %{HTTPS} off
 RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
 </IfModule>
 

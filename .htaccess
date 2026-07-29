@@ -2,7 +2,7 @@
 #  greenspector.com - redirections depuis l'ancien site WordPress
 #
 #  Base : htaccess.txt (generate-htaccess.sh / mapping_pages.csv)
-#  + canonical HTTPS/www, corrections, complements v2
+#  + canonical sans www (HTTPS gere par l'hebergeur), corrections, complements v2
 #
 #  Prerequis hebergeur :
 #    - mod_rewrite (canonical host) + mod_alias (RedirectMatch)
@@ -17,14 +17,11 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
-# 0) Canonical host : HTTPS + sans www
+# 0) Canonical host : sans www (HTTPS force par l'infra hebergeur)
 # ---------------------------------------------------------------------
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.greenspector\.com$ [NC]
-RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
-RewriteCond %{HTTP_HOST} ^greenspector\.com$ [NC]
-RewriteCond %{HTTPS} off
 RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
 </IfModule>
 
