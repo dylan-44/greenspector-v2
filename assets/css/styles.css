@@ -552,12 +552,13 @@ body:not(.home-page) .hero .slug-note {
 .contact-form-embed__frame {
   display: block;
   width: 100%;
-  min-height: 600px;
-  height: clamp(600px, 72vh, 860px);
+  min-height: 920px;
+  height: clamp(920px, 95vh, 1280px);
   border: none;
   border-radius: calc(var(--gs-radius) - 0.35rem);
   background: var(--gs-white);
   box-shadow: 0 0.75rem 2rem rgba(7, 74, 53, 0.08);
+  overflow: auto;
 }
 
 .test-bench-page {

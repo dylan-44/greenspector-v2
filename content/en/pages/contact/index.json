@@ -20,5 +20,5 @@
     "title": "Contact us",
     "subtitle": "Demo request, sales question or support: our team will get back to you soon."
   },
-  "bodyHtml": "<div class=\"contact-page\">\n                        <div class=\"contact-form-embed\">\n                            <iframe class=\"contact-form-embed__frame\" src=\"https://greenspector-ii.odoo.com/contact-form\" title=\"Greenspector contact form\" name=\"greenspectorContactForm\" loading=\"lazy\" scrolling=\"no\" sandbox=\"allow-scripts allow-same-origin allow-forms\" allowfullscreen></iframe>\n                        </div>\n                    </div>"
+  "bodyHtml": "<div class=\"contact-page\">\n                        <div class=\"contact-form-embed\">\n                            <iframe class=\"contact-form-embed__frame\" src=\"https://greenspector-ii.odoo.com/contact-form\" title=\"Greenspector contact form\" name=\"greenspectorContactForm\" loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin allow-forms\" allowfullscreen></iframe>\n                        </div>\n                    </div>"
 }
