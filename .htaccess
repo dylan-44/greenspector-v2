@@ -17,6 +17,15 @@
 # =====================================================================
 
 # ---------------------------------------------------------------------
+# 0) Canonical host : www -> apex (HTTPS force par l'infra hebergeur)
+#    Test : curl -sI https://www.greenspector.com/
+#    attendu : 301 vers https://greenspector.com/
+# ---------------------------------------------------------------------
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.greenspector\.com$ [NC]
+RewriteRule ^ https://greenspector.com%{REQUEST_URI} [R=301,L]
+
+# ---------------------------------------------------------------------
 # 1) Points d'entree WordPress legitimes -> blog
 #    Place avant la regle anti-scan, sinon les anciens favoris
 #    /wp-login.php tomberaient en 404.
