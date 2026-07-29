@@ -236,7 +236,7 @@ window.GS_PAGES = [
     "name": "Blog",
     "slug": "https://blog.greenspector.com/",
     "slugFr": "https://blog.greenspector.com/",
-    "slugEn": "https://blog.greenspector.com/en/",
+    "slugEn": "https://blog.greenspector.com/en/blog-en/",
     "primary": "blog Greenspector",
     "secondary": "sobriété numérique, écoconception, actualités",
     "generated": false
@@ -436,9 +436,9 @@ window.GS_PAGES_EN = [
   {
     "section": "Ressources",
     "name": "Blog",
-    "slug": "https://blog.greenspector.com/en/",
+    "slug": "https://blog.greenspector.com/en/blog-en/",
     "slugFr": "https://blog.greenspector.com/",
-    "slugEn": "https://blog.greenspector.com/en/",
+    "slugEn": "https://blog.greenspector.com/en/blog-en/",
     "primary": "blog Greenspector",
     "secondary": "sobriété numérique, écoconception, actualités",
     "generated": false
