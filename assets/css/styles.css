@@ -2796,7 +2796,6 @@ body:not(.home-page) .hero .slug-note {
 }
 
 .rse-page .studio-highlight.rse-cta {
-  grid-template-columns: 1fr;
   padding: 1.5rem 1.65rem;
 }
 
