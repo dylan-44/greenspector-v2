@@ -31,9 +31,11 @@ function renderHead(page, locale, pageSlug, siteUrl, registryPage) {
     ? `\n    <script type="application/ld+json">\n    ${page.ldJson}\n    </script>`
     : '';
 
-  const favicon32 = slugToAsset(pageSlug, '/assets/img/cropped-greenspector-favicon-32x32.png');
-  const favicon180 = slugToAsset(pageSlug, '/assets/img/cropped-greenspector-favicon-180x180.png');
-  const favicon192 = slugToAsset(pageSlug, '/assets/img/cropped-greenspector-favicon-192x192.png');
+  const faviconIco = slugToAsset(pageSlug, '/assets/img/favicon/favicon.ico');
+  const favicon32 = slugToAsset(pageSlug, '/assets/img/favicon/favicon-32x32.png');
+  const favicon16 = slugToAsset(pageSlug, '/assets/img/favicon/favicon-16x16.png');
+  const favicon180 = slugToAsset(pageSlug, '/assets/img/favicon/apple-touch-icon.png');
+  const favicon192 = slugToAsset(pageSlug, '/assets/img/favicon/android-chrome-192x192.png');
   const saasUrl = meta.redirectUrl || (registryPage.id === 'connexion' ? 'https://saas.greenspector.com/' : '');
   const saasRedirect = saasUrl
     ? `\n    <meta http-equiv="refresh" content="0;url=${esc(saasUrl)}">`
@@ -45,7 +47,9 @@ function renderHead(page, locale, pageSlug, siteUrl, registryPage) {
   return `<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">${saasRedirect}
+    <link rel="icon" href="${faviconIco}" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="${favicon32}">
+    <link rel="icon" type="image/png" sizes="16x16" href="${favicon16}">
     <link rel="apple-touch-icon" sizes="180x180" href="${favicon180}">
     <link rel="icon" type="image/png" sizes="192x192" href="${favicon192}">
     <title>${meta.title || ''}</title>

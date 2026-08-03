@@ -22,7 +22,8 @@ const clientLogos = [
   { src: `${ASSETS}logo-bouygues-telecom_889990d1.svg`, alt: { fr: 'Logo Bouygues Telecom', en: 'Bouygues Telecom logo' } },
   { src: `${ASSETS}client_orange_338b842b.jpg`, alt: { fr: 'Logo Orange', en: 'Orange logo' } },
   { src: `${ASSETS}Logo-France-televisions-300x157_e988d666.jpg`, alt: { fr: 'Logo France Télévisions', en: 'France Télévisions logo' } },
-  { src: `${ASSETS}client_regionbretagne_b8829f76.jpg`, alt: { fr: 'Logo Région Bretagne', en: 'Région Bretagne logo' } }
+  { src: `${ASSETS}logo_Decathlon_150_b97b60d5.png`, alt: { fr: 'Logo Decathlon', en: 'Decathlon logo' } },
+  { src: '/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.png', alt: { fr: 'Logo Ministère de la Santé', en: 'French Ministry of Health logo' } }
 ];
 
 const Y = { fr: 'Inclus', en: 'Included' };
@@ -363,8 +364,8 @@ function renderTestimonials(locale) {
 
 function renderClientLogos(locale) {
   const title = locale === 'fr'
-    ? 'Ils utilisent Greenspector Studio pour allier responsabilité environnementale, satisfaction des utilisateurs et performance de leurs applications'
-    : 'They use Greenspector Studio to combine environmental responsibility, user satisfaction and application performance';
+    ? 'Ils utilisent Greenspector Studio pour allier satisfaction des utilisateurs, performance de leurs applications et responsabilité environnementale'
+    : 'They use Greenspector Studio to combine user satisfaction, application performance and environmental responsibility';
   const eyebrow = locale === 'fr' ? 'Clients' : 'Clients';
 
   const logos = clientLogos

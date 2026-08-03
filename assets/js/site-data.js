@@ -56,7 +56,7 @@ window.GS_I18N = {
     },
     "skipLink": "Skip to main content",
     "contact": "Contact",
-    "footerTagline": "From device to app, manage the frugality and performance of your digital services",
+    "footerTagline": "From device to app, manage the efficiency and performance of your digital services",
     "footerMenu": "Menu",
     "footerFollow": "Follow us",
     "footerLegal": "Legal notice",

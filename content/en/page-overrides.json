@@ -1,15 +1,15 @@
 {
   "home": {
     "meta": {
-      "title": "Greenspector Studio | App frugality and performance on real devices",
-      "description": "Greenspector Studio measures the frugality and performance of your mobile and web apps on real devices: battery, ecoscore, CI/CD. Cover the blind spots of software quality.",
+      "title": "Greenspector Studio | App efficiency and performance on real devices",
+      "description": "Greenspector Studio measures the efficiency and performance of your mobile and web apps on real devices: battery, ecoscore, CI/CD. Cover the blind spots of software quality.",
       "keywords": "Greenspector Studio, digital sobriety, app performance, battery measurement, ecoscore, device cloud, CI/CD",
-      "ogTitle": "Greenspector Studio | App frugality and performance on real devices",
-      "ogDescription": "Validate the frugality and performance of your apps before your users do. Reliable measurements on a real device cloud, ecoscore and CI/CD integration."
+      "ogTitle": "Greenspector Studio | App efficiency and performance on real devices",
+      "ogDescription": "Validate the efficiency and performance of your apps before your users do. Reliable measurements on a real device cloud, ecoscore and CI/CD integration."
     },
     "hero": {
       "label": "Green IT SaaS solution",
-      "subtitle": "The SaaS solution to validate the frugality and performance of your apps. Cover the blind spots of software quality."
+      "subtitle": "The SaaS solution to validate the efficiency and performance of your apps. Cover the blind spots of software quality."
     },
     "nav": {
       "name": "Home",
@@ -159,17 +159,17 @@
       "role": "Quality and Production Manager, Tech & Products"
     },
     "cta": {
-      "title": "Want to improve the performance and frugality of your applications?",
+      "title": "Want to improve the performance and efficiency of your applications?",
       "text": "Your turn",
       "buttonLabel": "Assess an application with Greenspector"
     }
   },
   "case-air-france": {
     "meta": {
-      "title": "Air France client case: green testing and application frugality | Greenspector",
-      "description": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application frugality and improve the ecoscore of its web, iOS and Android projects.",
-      "ogTitle": "Air France client case: green testing and application frugality | Greenspector",
-      "ogDescription": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application frugality and improve the ecoscore of its web, iOS and Android projects."
+      "title": "Air France client case: green testing and application efficiency | Greenspector",
+      "description": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application efficiency and improve the ecoscore of its web, iOS and Android projects.",
+      "ogTitle": "Air France client case: green testing and application efficiency | Greenspector",
+      "ogDescription": "Discover how Air France, supported by Sogeti, uses Greenspector Studio to integrate green testing, measure application efficiency and improve the ecoscore of its web, iOS and Android projects."
     },
     "nav": {
       "name": "Air France",
@@ -184,7 +184,7 @@
       "title": "Adding digital sobriety to the Service Center Test",
       "paragraphs": [
         "Air France's Service Center Test validates the quality of mobile and web applications for customers and business teams.",
-        "Air France IT has strong Responsible Digital objectives. It therefore wanted to add new capabilities to validate application frugality and eco-responsibility.",
+        "Air France IT has strong Responsible Digital objectives. It therefore wanted to add new capabilities to validate application efficiency and eco-responsibility.",
         "The challenge was to integrate this approach into existing test and software quality practices, while enabling teams to track improvements concretely."
       ]
     },
@@ -200,7 +200,7 @@
       "title": "What made the difference",
       "items": [
         { "title": "A tool choice suited to the need", "text": "The Sogeti team in place advised Air France on choosing a green testing tool suited to its challenges and application context." },
-        { "title": "Operational deployment of Greenspector Studio", "text": "The Greenspector Studio licence was deployed by the vendor so teams could measure and track application frugality." },
+        { "title": "Operational deployment of Greenspector Studio", "text": "The Greenspector Studio licence was deployed by the vendor so teams could measure and track application efficiency." },
         { "title": "Team upskilling", "text": "Air France and Sogeti staff were trained to use Greenspector Studio, which they now use daily." },
         { "title": "Concrete results to engage with business teams", "text": "Measurements show improvements achieved, identify overconsumption and guide corrections in upcoming releases." }
       ]
@@ -221,22 +221,22 @@
   },
   "case-cats": {
     "meta": {
-      "title": "Crédit Agricole Technologies & Services client case: application frugality | Greenspector",
-      "description": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the frugality of its web and mobile products, supporting performance and responsible digital.",
-      "ogTitle": "Crédit Agricole Technologies & Services client case: application frugality | Greenspector",
-      "ogDescription": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the frugality of its web and mobile products, supporting performance and responsible digital."
+      "title": "Crédit Agricole Technologies & Services client case: application efficiency | Greenspector",
+      "description": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the efficiency of its web and mobile products, supporting performance and responsible digital.",
+      "ogTitle": "Crédit Agricole Technologies & Services client case: application efficiency | Greenspector",
+      "ogDescription": "Discover how Crédit Agricole Technologies & Services uses Greenspector to assess and certify the efficiency of its web and mobile products, supporting performance and responsible digital."
     },
     "nav": {
       "name": "Crédit Agricole T&S",
-      "primary": "Smart'Use frugality label",
+      "primary": "Smart'Use efficiency label",
       "secondary": "banking application, Digital Front Chapter"
     },
     "hero": {
-      "title": "Crédit Agricole Technologies & Services: certifying the frugality of web and mobile applications",
-      "subtitle": "Crédit Agricole Technologies & Services set up an internal measurement and labelling approach to improve frugality, performance and the environmental impact of its digital products."
+      "title": "Crédit Agricole Technologies & Services: certifying the efficiency of web and mobile applications",
+      "subtitle": "Crédit Agricole Technologies & Services set up an internal measurement and labelling approach to improve efficiency, performance and the environmental impact of its digital products."
     },
     "intro": {
-      "title": "Measuring frugality to prioritise the most impactful actions",
+      "title": "Measuring efficiency to prioritise the most impactful actions",
       "paragraphs": [
         "The Digital Front Chapter at Crédit Agricole Technologies & Services develops applications for employees and 8 million customers.",
         "Teams faced several concrete challenges:",
@@ -251,7 +251,7 @@
     "results": {
       "title": "An internal Smart'Use label to assess and improve products",
       "items": [
-        "Web and mobile products are assessed and labelled through an internal frugality label.",
+        "Web and mobile products are assessed and labelled through an internal efficiency label.",
         "Progress is encouraged through healthy competition between teams.",
         "Teams have concrete results to identify priority improvement levers."
       ]
@@ -259,7 +259,7 @@
     "successKeys": {
       "title": "What made the difference",
       "items": [
-        { "title": "Co-built labelling criteria", "text": "The criteria for the internal frugality label « Smart'Use » were co-built then rolled out to Tribes." },
+        { "title": "Co-built labelling criteria", "text": "The criteria for the internal efficiency label « Smart'Use » were co-built then rolled out to Tribes." },
         { "title": "A managed services model", "text": "Audits are performed on demand, in a managed services logic suited to team needs." },
         { "title": "Direct access to results", "text": "Squads access Greenspector Studio to view their results, track indicators and identify actions to take." },
         { "title": "A continuous improvement dynamic", "text": "The approach stimulates competition between teams and encourages continuous progress on web and mobile products." }
@@ -268,7 +268,7 @@
     "testimonial": {
       "title": "Julien Azria speaks",
       "quotes": [
-        "« The solution provides very concrete results on the behaviour of our applications. This allows us to focus on the most impactful actions. Working on frugality clearly leads to a more performant application. »"
+        "« The solution provides very concrete results on the behaviour of our applications. This allows us to focus on the most impactful actions. Working on efficiency clearly leads to a more performant application. »"
       ],
       "author": "Julien Azria",
       "role": "Digital Front Chapter Leader"
@@ -279,7 +279,7 @@
     "cta": {
       "title": "Want to set up an internal digital sobriety label?",
       "text": "Your turn",
-      "buttonLabel": "Structure an application frugality approach"
+      "buttonLabel": "Structure an application efficiency approach"
     }
   },
   "case-orange": {
@@ -379,9 +379,9 @@
       "title": "What made the difference",
       "items": [
         { "title": "Training project stakeholders in ecodesign", "text": "Project teams were trained upfront to share a common ecodesign culture and its challenges." },
-        { "title": "Defining frugality requirements from the start", "text": "Frugality requirements were defined upfront to guide functional, technical and editorial choices." },
+        { "title": "Defining efficiency requirements from the start", "text": "Efficiency requirements were defined upfront to guide functional, technical and editorial choices." },
         { "title": "Adapting best practices to the portal context", "text": "Ecodesign best practices were adapted to the project's technical and functional context to remain concrete and actionable for teams." },
-        { "title": "Orienting the user experience towards frugality", "text": "A design review helped build a user experience consistent with digital sobriety objectives." },
+        { "title": "Orienting the user experience towards efficiency", "text": "A design review helped build a user experience consistent with digital sobriety objectives." },
         { "title": "Measuring at each sprint", "text": "Greenspector Studio measurements were performed at each sprint during the build phase, with improvement recommendations based on observed results." }
       ]
     },

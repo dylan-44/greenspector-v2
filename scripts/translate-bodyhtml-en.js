@@ -11,10 +11,10 @@ const PAGE_META = {
   'index': {
     nav: { name: 'Home', secondary: 'Green IT SaaS, software ecodesign, digital impact measurement' },
     hero: {
-      subtitle: 'The SaaS solution to validate the frugality and performance of your\n                            apps. Cover the blind spots of software quality.',
+      subtitle: 'The SaaS solution to validate the efficiency and performance of your\n                            apps. Cover the blind spots of software quality.',
       actions: [{ label: 'Request a demo' }, { label: 'Discover Greenspector\n                                Studio' }]
     },
-    ldJson: '{\n        "@context": "https://schema.org",\n        "@type": "SoftwareApplication",\n        "name": "Greenspector Studio",\n        "applicationCategory": "BusinessApplication",\n        "operatingSystem": "Web",\n        "description": "SaaS solution to validate the frugality and performance of mobile and web applications on real devices.",\n        "provider": {\n            "@type": "Organization",\n            "name": "Greenspector",\n            "url": "https://greenspector.com/"\n        }\n    }'
+    ldJson: '{\n        "@context": "https://schema.org",\n        "@type": "SoftwareApplication",\n        "name": "Greenspector Studio",\n        "applicationCategory": "BusinessApplication",\n        "operatingSystem": "Web",\n        "description": "SaaS solution to validate the efficiency and performance of mobile and web applications on real devices.",\n        "provider": {\n            "@type": "Organization",\n            "name": "Greenspector",\n            "url": "https://greenspector.com/"\n        }\n    }'
   },
   'about-equipe': {
     meta: {
@@ -38,7 +38,7 @@ const PAGE_META = {
     nav: { name: 'Mobile application audit', primary: 'mobile application audit', secondary: 'energy performance audit' },
     hero: {
       title: 'Mobile application audit',
-      subtitle: 'Obtain your Digital Service Frugality Certificate with support from Greenspector experts.'
+      subtitle: 'Obtain your Digital Service Efficiency Certificate with support from Greenspector experts.'
     }
   },
   'conseil-ecoconception': {
@@ -66,7 +66,7 @@ const PAGE_META = {
     nav: { name: 'Key features', primary: 'mobile test bench', secondary: 'device lab, real smartphone testing' },
     hero: {
       title: 'Greenspector Studio',
-      subtitle: 'Application frugality and performance, measurement of your digital services.'
+      subtitle: 'Application efficiency and performance, measurement of your digital services.'
     }
   },
   'studio-devgreenops': {
@@ -171,20 +171,20 @@ const PAGE_META = {
     meta: {
       title: 'Bouygues Telecom | mobile digital sobriety | Greenspector',
       description: 'Greenspector case study: Bouygues Telecom.',
-      keywords: 'mobile digital sobriety, DevOps, frugality certification',
+      keywords: 'mobile digital sobriety, DevOps, efficiency certification',
       ogTitle: 'Bouygues Telecom | mobile digital sobriety | Greenspector',
       ogDescription: 'Greenspector case study: Bouygues Telecom.'
     },
-    nav: { name: 'Bouygues Telecom', primary: 'mobile digital sobriety', secondary: 'DevOps, frugality certification' },
+    nav: { name: 'Bouygues Telecom', primary: 'mobile digital sobriety', secondary: 'DevOps, efficiency certification' },
     hero: {
-      title: 'Bouygues Telecom obtains the Digital Frugality Certificate',
+      title: 'Bouygues Telecom obtains the Digital Efficiency Certificate',
       subtitle: 'Silver level, with a 36% reduction in carbon impact on the Android mobile journey.'
     }
   }
 };
 
 const REPLACEMENTS = [
-  ['La solution SaaS pour valider la sobriété et la performance de vos\n                            apps. Couvrez les angles morts de la qualité logicielle.', 'The SaaS solution to validate the frugality and performance of your\n                            apps. Cover the blind spots of software quality.'],
+  ['La solution SaaS pour valider la sobriété et la performance de vos\n                            apps. Couvrez les angles morts de la qualité logicielle.', 'The SaaS solution to validate the efficiency and performance of your\n                            apps. Cover the blind spots of software quality.'],
   ['Interface Greenspector Studio sur smartphone et tableau de bord', 'Greenspector Studio interface on smartphone and dashboard'],
   ['Demander une démo', 'Request a demo'],
   ['Découvrir Greenspector\n                                Studio', 'Discover Greenspector\n                                Studio'],
@@ -226,7 +226,7 @@ const REPLACEMENTS = [
   ['Pas de changement dans votre code source, pas de SDK à\n                            ajouter', 'No changes to your source code, no SDK to\n                            add'],
   ['Facilement intégrable dans votre CI/CD&nbsp;: GitLab CI\n                        ', 'Easily integrated into your CI/CD&nbsp;: GitLab CI\n                        '],
   ['Cas client', 'Client case study'],
-  ['Bouygues Telecom obtient le Certificat de Sobriété Numérique', 'Bouygues Telecom obtains the Digital Frugality Certificate'],
+  ['Bouygues Telecom obtient le Certificat de Sobriété Numérique', 'Bouygues Telecom obtains the Digital Efficiency Certificate'],
   ["Niveau Argent, avec une réduction de <strong>36&nbsp;%</strong>\n                            de l'impact carbone sur le parcours mobile Android — soit\n                            <strong>693&nbsp;tCO2e évitées par an</strong>.", 'Silver level, with a <strong>36&nbsp;%</strong>\n                            reduction in carbon impact on the Android mobile journey —\n                            <strong>693&nbsp;tCO2e avoided per year</strong>.'],
   ['Progression du niveau Bronze au niveau Argent en deux ans', 'Progression from Bronze to Silver level in two years'],
   ['Mesures régulières via Greenspector Studio intégrées à la CI/CD', 'Regular measurements via Greenspector Studio integrated into CI/CD'],
@@ -234,7 +234,7 @@ const REPLACEMENTS = [
   ["Avec Greenspector Studio, nous mesurons l'efficacité énergétique de notre application,\n                                utilisée par 7 millions de clients chaque mois, après chaque build. Cela nous permet de\n                                réduire notre empreinte carbone, d'améliorer nos performances et de renforcer notre\n                                image de marque.", "With Greenspector Studio, we measure the energy efficiency of our application,\n                                used by 7 million customers every month, after each build. This allows us to\n                                reduce our carbon footprint, improve our performance and strengthen our\n                                brand image."],
   ['Responsable de Pôle Mobile Care et Assistance, Bouygues Telecom', 'Head of Mobile Care and Assistance Division, Bouygues Telecom'],
   ["Lire l'étude\n                            de cas", 'Read the case\n                            study'],
-  ["Certification Sobriété Numérique niveau Argent pour l'application Bouygues Telecom", 'Silver Digital Frugality certification for the Bouygues Telecom application'],
+  ["Certification Sobriété Numérique niveau Argent pour l'application Bouygues Telecom", 'Silver Digital Efficiency certification for the Bouygues Telecom application'],
   ["Prêt à améliorer la qualité de votre app comme jamais auparavant&nbsp;?", 'Ready to improve your app quality like never before&nbsp;?'],
   ['Notre histoire', 'Our story'],
   ['Notre mission&nbsp;:', 'Our mission&nbsp;:'],
@@ -245,7 +245,7 @@ const REPLACEMENTS = [
   ["Contribuer à réduire l'impact de nos clients", 'Help reduce our clients\' impact'],
   ['Sensibiliser à l\'impact du numérique', 'Raise awareness of digital impact'],
   ['Améliorer les méthodologies du secteur', 'Improve industry methodologies'],
-  ['Identifier et diffuser des bonnes pratiques de sobriété', 'Identify and share frugality best practices'],
+  ['Identifier et diffuser des bonnes pratiques de sobriété', 'Identify and share efficiency best practices'],
   ['Fournir un outil de mesure pour certaines structures spéciales', 'Provide a measurement tool for certain special organisations'],
   ["Repenser la gouvernance de l'entreprise et sa place dans le bien commun", 'Rethink corporate governance and its role in the common good'],
   ['Participer à des publications extérieures', 'Contribute to external publications'],
