@@ -31,8 +31,8 @@ content/
 ## Ajouter ou modifier une page
 
 1. Repérez l'`id` dans `content/registry.json`.
-2. Éditez `content/fr/pages/<chemin>.json` et `content/en/pages/<chemin>.json` (ou lancez `npm run seed-en` après modification FR).
-3. Pour l'anglais, complétez `content/en/page-overrides.json` si une traduction automatique ne suffit pas.
+2. Éditez `content/fr/pages/<chemin>.json` et `content/en/pages/<chemin>.json` (miroir strict ; la flotte RAG traduit l'EN).
+3. Pour l'anglais, complétez `content/en/page-overrides.json` seulement si une surcharge ponctuelle est utile.
 4. Lancez `npm run build` (ou `npm run validate && npm run build` en CI).
 5. Committez les **JSON sources** et les HTML générés.
 
@@ -59,8 +59,6 @@ Chaque page génère `hreflang`, canonical et `data-page` avec `locale`, `slugFr
 
 ```bash
 npm install
-npm run extract    # Ré-extraire le FR depuis les HTML (migration ponctuelle)
-npm run seed-en    # Regénérer les JSON EN depuis le FR
 npm run validate   # Vérifier la présence FR/EN
 npm run build      # Générer HTML + nav-data.js + sitemap.xml
 npm run ci         # validate + optimize-images + build (identique à la CI)
@@ -80,7 +78,7 @@ Sur `master`, attendre la CI verte **avant** `git pull` sur le serveur. Voir la 
 - **Éditez directement** `content/fr/pages/<chemin>.json` et `content/en/pages/<chemin>.json` — champs `meta`, `hero`, `bodyHtml` selon le template.
 - **Ne lancez pas Node** dans votre environnement : le build (`npm run build`) est exécuté par la CI ou un développeur au moment du déploiement.
 - **Ne modifiez pas** les fichiers HTML à la racine ni sous `/en/` : ils sont régénérés à partir des JSON.
-- **Ignorez** les scripts `scripts/build-*-page.js` s'ils existent encore : ce sont des utilitaires ponctuels de migration, pas la source de vérité. La source de vérité est toujours le JSON dans `content/`.
+- La source de vérité est toujours le JSON dans `content/`.
 - Les champs documentés dans les JSON Schema décrivent la structure attendue.
 - Les études de cas complètes utilisent le template `case-study` (pas de HTML libre).
 - Les pages stub ont `"template": "default"` sans `bodyHtml`.

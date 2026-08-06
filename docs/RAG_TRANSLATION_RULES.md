@@ -272,10 +272,7 @@ Sections menu (`nav.section` dans les JSON de page) : **garder la clé FR** (`Gr
 | Approche | Usage |
 |----------|-------|
 | **`content/en/pages/<path>.json`** (recommandé) | Fichier EN complet, miroir du FR. C'est la source lue par le build. |
-| **`content/en/page-overrides.json`** | Surcharges par `id` registry. Utile pour corriger une page sans regénérer tout le fichier. |
-
-⚠️ **`npm run seed-en` écrase** les fichiers `content/en/pages/*.json` à partir du FR + overrides.  
-**Ne pas lancer `seed-en`** après une traduction manuelle complète dans `content/en/pages/`, sauf si les overrides contiennent toute la traduction.
+| **`content/en/page-overrides.json`** | Surcharges par `id` registry. Utile pour corriger une page sans réécrire tout le fichier. |
 
 ---
 
@@ -322,7 +319,6 @@ Glossaire : docs/RAG_TRANSLATION_RULES.md § Glossaire EN.
 | Éditer `en/studio/foo/index.html` | Perdu au prochain build |
 | Traduire les slugs URL | Liens FR/EN cassés |
 | Oublier `content/en/pages/` | `npm run validate` échoue |
-| Lancer `seed-en` après traduction manuelle | Écrase le travail EN |
 | Traduire `Greenspector Studio` | Incohérence de marque |
 | Supprimer `&nbsp;` ou guillemets typographiques `« »` | Régression typographique |
 | Paraphraser les chiffres (−36 %, 70+ éditeurs) | Garder les mêmes valeurs |

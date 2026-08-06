@@ -142,15 +142,6 @@ Procédure recommandée :
 - Conserver les slugs avec slash final (`/.../`) pour rester cohérent avec la logique actuelle.
 - Les liens "hardcodés" dans le contenu des pages (CTA, liens internes) ne sont pas auto-corrigés : ils doivent être adaptés à la profondeur réelle.
 
-## Slugs provisoires
-
-Voir `SLUGS_PROVISOIRES.md`.
-
-Ce fichier sert de registre des slugs temporaires créés pendant la phase de structuration. A chaque validation de slug définitif, mettre à jour :
-
-1. l'entrée dans `assets/js/site-data.js` ;
-2. le `data-page` du fichier HTML concerné ;
-3. les éventuels liens internes qui pointent vers ce slug.
 
 ## Images externes : automatisation
 
