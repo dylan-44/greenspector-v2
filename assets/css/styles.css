@@ -1051,17 +1051,25 @@ body:not(.home-page) .hero .slug-note {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.45rem;
+  max-width: none;
 }
 
 .acie-values li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
+  display: grid;
+  grid-template-columns: 1.15em 1.1em minmax(0, 1fr);
+  column-gap: 0.3rem;
+  align-items: baseline;
+  max-width: none;
 }
 
-.acie-values .studio-step-index {
-  flex-shrink: 0;
+.acie-letter,
+.acie-dash {
+  text-align: center;
+}
+
+.acie-rest {
+  min-width: 0;
 }
 
 .studio-highlight {
@@ -1732,6 +1740,10 @@ body:not(.home-page) .hero .slug-note {
   .studio-highlight {
     grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
     align-items: center;
+  }
+
+  .studio-highlight:not(:has(> .studio-figure)) {
+    grid-template-columns: 1fr;
   }
 
   .studio-steps {
