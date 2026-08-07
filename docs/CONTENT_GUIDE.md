@@ -2,6 +2,10 @@
 
 Ce site est généré à partir de fichiers JSON. **Ne modifiez pas directement les HTML** à la racine ni sous `/en/` : ils sont produits par le build (en local ou en CI).
 
+- Hub développeur : [`../README.md`](../README.md)
+- Entrée flotte RAG : [`AGENTS.md`](AGENTS.md)
+- Traduction FR→EN : [`RAG_TRANSLATION_RULES.md`](RAG_TRANSLATION_RULES.md)
+
 ## Important : pas de Node.js sur le serveur
 
 Le build Node (`npm run build`) s'exécute **uniquement sur un poste de développement ou en CI** (GitHub Actions, etc.).
@@ -94,4 +98,5 @@ Fichier source FR : `content/fr/pages/a-propos/rse.json`
 
 Après commit des JSON, la CI régénère `a-propos/rse/index.html` et `en/about/csr/index.html`.
 
-**Règles de traduction FR→EN pour la flotte IA :** voir [`RAG_TRANSLATION_RULES.md`](RAG_TRANSLATION_RULES.md) (glossaire, checklist, prompt système, erreurs à éviter).
+**Règles de traduction FR→EN pour la flotte IA :** voir [`RAG_TRANSLATION_RULES.md`](RAG_TRANSLATION_RULES.md).  
+**Règles opérationnelles agents (ne pas éditer les HTML, catalogue scripts) :** voir [`AGENTS.md`](AGENTS.md).

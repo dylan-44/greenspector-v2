@@ -1,9 +1,12 @@
 # Règles pour la flotte d'agents RAG — Greenspector V2
 
-Document de référence pour les agents IA qui éditent le contenu ou traduisent le site.
-À indexer en priorité dans la base RAG de la flotte.
+Document de référence pour les agents IA qui **traduisent** ou peaufinent le contenu EN du site (glossaire, checklist, erreurs à éviter).
 
-Voir aussi : [`CONTENT_GUIDE.md`](CONTENT_GUIDE.md) (structure générale).
+**Fonctionnement du projet, sources de vérité, scripts :** commencer par [`AGENTS.md`](AGENTS.md).  
+Structure éditoriale : [`CONTENT_GUIDE.md`](CONTENT_GUIDE.md).  
+Hub développeur : [`../README.md`](../README.md).
+
+À indexer avec `AGENTS.md` dans la base RAG de la flotte.
 
 ---
 
@@ -327,10 +330,12 @@ Glossaire : docs/RAG_TRANSLATION_RULES.md § Glossaire EN.
 
 ## Fichiers index RAG (priorité d'indexation)
 
-1. `docs/RAG_TRANSLATION_RULES.md` (ce fichier)
+1. `docs/AGENTS.md` (fonctionnement projet, do/don't, scripts)
 2. `docs/CONTENT_GUIDE.md`
-3. `content/registry.json`
-4. `content/schema/page-base.json`, `page-case-study.json`, `page-home.json`, `page-default.json`
-5. `content/en/page-overrides.json` (exemple ANS)
-6. `content/fr/navigation.json` + `content/en/navigation.json`
-7. `content/fr/case-studies.json` + `content/en/case-studies.json`
+3. `docs/RAG_TRANSLATION_RULES.md` (ce fichier — traduction)
+4. `content/registry.json`
+5. `content/schema/page-base.json`, `page-case-study.json`, `page-home.json`, `page-default.json`
+6. `content/en/page-overrides.json` (exemple ANS)
+7. `content/fr/navigation.json` + `content/en/navigation.json`
+8. `content/fr/case-studies.json` + `content/en/case-studies.json`
+9. `README.md` (build / déploiement)
