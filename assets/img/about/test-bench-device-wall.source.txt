@@ -1,0 +1,9 @@
+Image source (WebP optimisé, 1636x961, ~123 Ko) à déposer sous:
+  assets/img/about/test-bench-device-wall.webp
+
+URL source stable (à télécharger côté dépôt/CI):
+  https://files.swiftask.cloud/files/c91e2325-311e-4bea-975d-998cc7f62a87/test-bench-device-wall.webp
+
+Référencée dans:
+  content/fr/pages/a-propos/banc-tests-smartphones.json
+  content/en/pages/a-propos/banc-tests-smartphones.json
