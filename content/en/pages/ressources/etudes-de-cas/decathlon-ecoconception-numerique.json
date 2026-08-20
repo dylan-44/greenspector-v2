@@ -2,6 +2,10 @@
   "id": "case-decathlon",
   "slug": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
   "template": "default",
+  "clientLogo": {
+    "src": "/assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.png",
+    "alt": "Decathlon"
+  },
   "meta": {
     "title": "Decathlon | digital ecodesign | Greenspector",
     "description": "Greenspector case study: Decathlon.",
