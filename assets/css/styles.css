@@ -2964,6 +2964,14 @@ body:not(.home-page) .hero .slug-note {
   object-fit: contain;
 }
 
+.case-study-logos__x {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: rgba(7, 74, 53, 0.55);
+  user-select: none;
+}
+
 .case-study-results {
   margin: 0;
   padding: 0;
