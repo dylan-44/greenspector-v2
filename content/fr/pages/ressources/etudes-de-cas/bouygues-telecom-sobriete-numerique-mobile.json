@@ -2,6 +2,10 @@
   "id": "case-bouygues",
   "slug": "/ressources/etudes-de-cas/bouygues-telecom-sobriete-numerique-mobile/",
   "template": "html",
+  "clientLogo": {
+    "src": "/assets/img/external/greenspector.com/logo-bouygues-telecom_889990d1.svg",
+    "alt": "Bouygues Telecom"
+  },
   "meta": {
     "title": "Bouygues Telecom | sobriété numérique mobile | Greenspector",
     "description": "Étude de cas Greenspector : Bouygues Telecom.",
