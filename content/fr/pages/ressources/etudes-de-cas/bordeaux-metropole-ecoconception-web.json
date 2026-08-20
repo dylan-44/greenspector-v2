@@ -2,6 +2,10 @@
   "id": "case-bordeaux",
   "slug": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
   "template": "html",
+  "clientLogo": {
+    "src": "/assets/img/case-studies/logos/bordeaux-metropole.svg",
+    "alt": "Bordeaux Métropole"
+  },
   "meta": {
     "title": "Bordeaux Métropole : éco-conception des espaces usagers numériques | Cas client Greenspector",
     "description": "Découvrez comment Bordeaux Métropole a engagé une démarche d'éco-conception pour ses espaces usagers numériques, avec deux certifications Greenspector obtenues.",

@@ -3,6 +3,8 @@ const { renderTestimonialsCarousel } = require('./testimonials');
 const { renderIcon } = require('./icons');
 const { renderPicture } = require('./images');
 
+const GREENSPECTOR_FAVICON = '/assets/img/cropped-greenspector-favicon-192x192.png';
+
 function esc(value) {
   return String(value)
     .replace(/&/g, '&amp;')
@@ -18,6 +20,54 @@ function resolveInternalHref(href, ctx) {
   const normalized = href.endsWith('/') || href.includes('.') ? href : `${href}/`;
   const localeSlug = ctx.resolveLocaleSlug(normalized, ctx.locale, ctx.slugLookup);
   return slugToRelative(ctx.pageSlug, localeSlug);
+}
+
+// Bandeau logos homogène : [logo client] × [favicon Greenspector].
+// Même emplacement et même aspect que le bandeau de la page ANS.
+// Piloté par le champ JSON `clientLogo` { src, alt }. Si absent, repli
+// sur `page.logos` (compatibilité) ; si rien, aucun bandeau n'est rendu.
+function renderCaseStudyLogos(page, ctx) {
+  const pageSlug = ctx.pageSlug;
+  if (page.clientLogo && page.clientLogo.src) {
+    const clientImg = renderPicture(page.clientLogo.src, {
+      alt: page.clientLogo.alt || '',
+      width: 160,
+      height: 48,
+      loading: 'eager',
+      pageSlug
+    });
+    const gsImg = renderPicture(GREENSPECTOR_FAVICON, {
+      alt: 'Greenspector',
+      width: 48,
+      height: 48,
+      loading: 'eager',
+      pageSlug
+    });
+    return `<div class="case-study-logos" aria-label="Logos">
+                        ${clientImg}
+                        <span class="case-study-logos__x" aria-hidden="true">×</span>
+                        ${gsImg}
+                    </div>`;
+  }
+
+  if (page.logos && page.logos.length) {
+    const logos = page.logos
+      .map((logo) =>
+        renderPicture(logo.src, {
+          alt: logo.alt,
+          width: 160,
+          height: 48,
+          loading: 'eager',
+          pageSlug
+        })
+      )
+      .join('\n                        ');
+    return `<div class="case-study-logos" aria-label="Logos">
+                        ${logos}
+                    </div>`;
+  }
+
+  return '';
 }
 
 function renderHeroActions(actions, ctx) {
@@ -80,10 +130,13 @@ function rewriteHtml(html, ctx) {
 }
 
 function renderDefaultBody(page, nav, ctx) {
+  const logosBanner = renderCaseStudyLogos(page, ctx);
+
   if (page.bodyHtml) {
     return `<section class="content-shell">
             <div class="container">
                 <div class="content-panel studio-page">
+                    ${logosBanner}
                     ${rewriteHtml(page.bodyHtml, ctx)}
                 </div>
             </div>
@@ -97,6 +150,7 @@ function renderDefaultBody(page, nav, ctx) {
   return `<section class="content-shell">
             <div class="container">
                 <div class="content-panel">
+                    ${logosBanner}
                     ${metaTags ? `<div class="content-meta">${metaTags}</div>` : ''}
                     <div class="empty-content" aria-label="${esc(nav.stubMessage)}"></div>
                 </div>
@@ -115,18 +169,7 @@ function renderCaseStudiesIndex(page, ctx, nav) {
 
 function renderCaseStudyBody(page, ctx, nav) {
   const pageSlug = ctx.pageSlug;
-  const logos = (page.logos || [])
-    .map(
-      (logo) =>
-        renderPicture(logo.src.startsWith('http') ? logo.src : logo.src, {
-          alt: logo.alt,
-          width: 160,
-          height: 48,
-          loading: 'eager',
-          pageSlug
-        })
-    )
-    .join('\n                        ');
+  const logos = renderCaseStudyLogos(page, ctx);
 
   const introParagraphs = (page.intro?.paragraphs || [])
     .map((p) => `<p>${p}</p>`)
@@ -253,9 +296,7 @@ function renderCaseStudyBody(page, ctx, nav) {
   return `<section class="content-shell">
             <div class="container">
                 <article class="content-panel studio-page case-study-page">
-                    <div class="case-study-logos" aria-label="Logos">
-                        ${logos}
-                    </div>
+                    ${logos}
 
                     <section class="studio-section studio-intro">
                         <div class="studio-copy">
@@ -325,7 +366,8 @@ function renderPageBody(page, template, ctx, nav) {
     return html;
   }
   if (template === 'html') {
-    return `${renderHero(page, ctx, nav)}<section class="content-shell"><div class="container">${rewriteHtml(page.bodyHtml || '', ctx)}</div></section>`;
+    const logosBanner = renderCaseStudyLogos(page, ctx);
+    return `${renderHero(page, ctx, nav)}<section class="content-shell"><div class="container">${logosBanner}${rewriteHtml(page.bodyHtml || '', ctx)}</div></section>`;
   }
   return `${renderHero(page, ctx, nav)}${renderDefaultBody(page, nav, ctx)}`;
 }

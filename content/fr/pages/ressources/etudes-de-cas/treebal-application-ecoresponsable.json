@@ -2,6 +2,10 @@
   "id": "case-treebal",
   "slug": "/ressources/etudes-de-cas/treebal-application-ecoresponsable/",
   "template": "html",
+  "clientLogo": {
+    "src": "/assets/img/external/greenspector.com/logo_Treebal300px-e1747906646162_0260219e.webp",
+    "alt": "Treebal"
+  },
   "meta": {
     "title": "Treebal | application écoresponsable | Greenspector",
     "description": "Étude de cas Greenspector : Treebal.",

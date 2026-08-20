@@ -2,6 +2,10 @@
   "id": "case-bruxelles",
   "slug": "/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/",
   "template": "html",
+  "clientLogo": {
+    "src": "/assets/img/case-studies/logos/bruxelles-environnement.svg",
+    "alt": "Bruxelles Environnement"
+  },
   "meta": {
     "title": "Bruxelles Environnement | ecodesign consulting | Greenspector",
     "description": "Greenspector case study: Bruxelles Environnement.",
