@@ -2951,6 +2951,7 @@ body:not(.home-page) .hero .slug-note {
   align-items: center;
   justify-content: center;
   gap: clamp(1rem, 3vw, 2rem);
+  margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
   padding: 1.25rem 1.5rem;
   border-radius: 1.15rem;
   background: linear-gradient(180deg, rgba(202, 243, 189, 0.2), rgba(255, 255, 255, 1));
