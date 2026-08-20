@@ -2958,13 +2958,14 @@ body:not(.home-page) .hero .slug-note {
 }
 
 .case-study-logos img {
-  max-height: 3.5rem;
+  height: 3.5rem;
   width: auto;
   max-width: min(100%, 11rem);
   object-fit: contain;
 }
 
 .case-study-logos__x {
+  align-self: center;
   font-size: 1.5rem;
   line-height: 1;
   font-weight: 700;
