@@ -34,6 +34,10 @@
       }
     ]
   },
+  "clientLogo": {
+    "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape11_c2abddde.png",
+    "alt": "Agence du Numérique en Santé"
+  },
   "logos": [
     {
       "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape1_eb3beb89.png",
