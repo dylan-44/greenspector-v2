@@ -34,6 +34,10 @@
       }
     ]
   },
+  "clientLogo": {
+    "src": "/assets/img/external/greenspector.com/Logo_AirFrance_616731c4.webp",
+    "alt": "Air France"
+  },
   "logos": [
     {
       "src": "/assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide3_shape1_d434416b.png",
