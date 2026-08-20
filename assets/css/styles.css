@@ -633,6 +633,13 @@ body:not(.home-page) .hero .slug-note {
   background: none;
 }
 
+/* FAQ banc de tests : réponses en pleine largeur (annule le plafond .studio-section p max-width: 88ch), limité à cette page */
+.test-bench-faq .pricing-faq-item__answer,
+.test-bench-faq .pricing-faq-item__answer p {
+  max-width: none;
+  width: 100%;
+}
+
 .test-bench-final-cta .btn {
   margin-top: 0.35rem;
 }
@@ -2955,6 +2962,14 @@ body:not(.home-page) .hero .slug-note {
   width: auto;
   max-width: min(100%, 11rem);
   object-fit: contain;
+}
+
+.case-study-logos__x {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: rgba(7, 74, 53, 0.55);
+  user-select: none;
 }
 
 .case-study-results {
