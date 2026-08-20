@@ -2,6 +2,10 @@
   "id": "case-bordeaux",
   "slug": "/ressources/etudes-de-cas/bordeaux-metropole-ecoconception-web/",
   "template": "html",
+  "clientLogo": {
+    "src": "/assets/img/case-studies/logos/bordeaux-metropole.svg",
+    "alt": "Bordeaux Métropole"
+  },
   "meta": {
     "title": "Bordeaux Métropole: ecodesign of digital citizen services | Greenspector case study",
     "description": "Discover how Bordeaux Métropole launched an ecodesign approach for its digital citizen services, with two Greenspector certifications obtained.",
