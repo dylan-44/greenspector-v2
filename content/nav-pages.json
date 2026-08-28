@@ -3,7 +3,7 @@
   {"section": "Greenspector Studio", "name": "Les points clés", "slug": "/studio/banc-tests-mobiles/", "primary": "banc tests mobiles", "secondary": "device lab, tests smartphones réels"},
   {"section": "Greenspector Studio", "name": "Pour l'impact environnemental", "slug": "/studio/mesure-impact-environnemental-numerique/", "primary": "mesure impact environnemental numérique", "secondary": "empreinte numérique, impact énergétique"},
   {"section": "Greenspector Studio", "name": "Pour l'écoconception logicielle", "slug": "/studio/outil-ecoconception-logicielle/", "primary": "écoconception logicielle", "secondary": "sobriété numérique, green IT"},
-  {"section": "Greenspector Studio", "name": "Pour l'IA", "slug": "/studio/impact-ia-batterie/", "primary": "impact IA batterie", "secondary": "IA responsable, consommation énergétique IA"},
+  {"section": "Greenspector Studio", "name": "Pour l'IA", "slug": "/studio/impact-ia-batterie/", "primary": "impact IA batterie", "secondary": "IA responsable, consommation énergétique IA, banc de test smartphones"},
   {"section": "Greenspector Studio", "name": "Pour la mesure de décharge batterie", "slug": "/studio/mesure-decharge-batterie/", "primary": "mesure décharge batterie", "secondary": "autonomie mobile, consommation batterie"},
   {"section": "Greenspector Studio", "name": "Pour la performance applicative", "slug": "/studio/mesure-performance-app/", "primary": "mesure performance app", "secondary": "performance mobile, expérience utilisateur"},
   {"section": "Greenspector Studio", "name": "Pour le DevGreenOps", "slug": "/studio/devgreenops/", "primary": "DevGreenOps", "secondary": "GreenOps, CI/CD responsable"},

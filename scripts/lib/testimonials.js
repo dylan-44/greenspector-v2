@@ -144,7 +144,7 @@ function renderTestimonialsCarousel(locale, options = {}) {
     })
     .join('\n                                ');
 
-  const carousel = `<div id="${carouselId}" class="carousel slide pricing-testimonials-carousel" data-bs-ride="carousel" data-bs-interval="7000" data-bs-pause="hover" aria-roledescription="carousel">
+  const carousel = `<div id="${carouselId}" class="carousel slide pricing-testimonials-carousel" data-bs-interval="false" aria-roledescription="carousel">
                             <div class="carousel-inner">
                             ${slides}
                             </div>

@@ -1011,9 +1011,34 @@ body:not(.home-page) .hero .slug-note {
   box-shadow: 0 0.8rem 2rem rgba(7, 74, 53, 0.08);
 }
 
+.studio-figure--wide {
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.studio-figure--wide img {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+}
+
+.studio-figure--wide figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  color: #52605b;
+  line-height: 1.4;
+  text-align: center;
+}
+
 @media (max-width: 767.98px) {
   .studio-figure img {
     max-height: 20rem;
+  }
+
+  .studio-figure--wide img {
+    max-height: none;
   }
 
   .studio-card img {

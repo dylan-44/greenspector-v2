@@ -1,0 +1,11 @@
+Source éditoriale (ne pas remplacer par une autre image) :
+  assets/img/Image test bench batterie(2).png
+
+Fichier publié sur le site (URL sans espaces) :
+  assets/img/battery-discharge-matrix.png
+
+Pour mettre à jour l'image : éditer Image test bench batterie(2).png puis recopier vers battery-discharge-matrix.png et lancer npm run optimize-images && npm run build.
+
+Référencée dans :
+  content/fr/pages/studio/impact-ia-batterie.json
+  content/en/pages/studio/impact-ia-batterie.json

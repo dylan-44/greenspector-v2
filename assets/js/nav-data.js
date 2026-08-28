@@ -153,6 +153,16 @@ window.GS_PAGES = [
   },
   {
     "section": "Greenspector Studio",
+    "name": "Pour l'IA",
+    "slug": "/studio/impact-ia-batterie/",
+    "slugFr": "/studio/impact-ia-batterie/",
+    "slugEn": "/en/studio/ai-battery-impact/",
+    "primary": "impact IA batterie",
+    "secondary": "IA responsable, consommation énergétique IA",
+    "generated": false
+  },
+  {
+    "section": "Greenspector Studio",
     "name": "Pour la mesure de décharge batterie",
     "slug": "/studio/mesure-decharge-batterie/",
     "slugFr": "/studio/mesure-decharge-batterie/",
@@ -351,6 +361,16 @@ window.GS_PAGES_EN = [
     "slugEn": "/en/studio/software-ecodesign-tool/",
     "primary": "software ecodesign",
     "secondary": "digital sobriety, green IT",
+    "generated": false
+  },
+  {
+    "section": "Greenspector Studio",
+    "name": "For AI",
+    "slug": "/en/studio/ai-battery-impact/",
+    "slugFr": "/studio/impact-ia-batterie/",
+    "slugEn": "/en/studio/ai-battery-impact/",
+    "primary": "AI battery impact",
+    "secondary": "responsible AI, AI energy consumption",
     "generated": false
   },
   {

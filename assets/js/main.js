@@ -58,9 +58,7 @@ if (caseStudiesGrid && caseStudies.length) {
     .join('');
 }
 
-document.querySelectorAll('#pricingTestimonialsCarousel, #homeTestimonialsCarousel').forEach((testimonialsCarousel) => {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    testimonialsCarousel.removeAttribute('data-bs-ride');
-    testimonialsCarousel.setAttribute('data-bs-interval', 'false');
-  }
+document.querySelectorAll('.pricing-testimonials-carousel').forEach((testimonialsCarousel) => {
+  testimonialsCarousel.removeAttribute('data-bs-ride');
+  testimonialsCarousel.setAttribute('data-bs-interval', 'false');
 });

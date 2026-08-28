@@ -25,7 +25,7 @@ function renderHead(page, locale, pageSlug, siteUrl, registryPage) {
     ? `\n    <meta property="og:image" content="${esc(meta.ogImage)}">`
     : '';
   const twitter = meta.ogImage
-    ? `\n    <meta name="twitter:card" content="summary_large_image">`
+    ? `\n    <meta name="twitter:card" content="summary_large_image">\n    <meta name="twitter:image" content="${esc(meta.ogImage)}">`
     : '';
   const ldJson = page.ldJson
     ? `\n    <script type="application/ld+json">\n    ${page.ldJson}\n    </script>`
