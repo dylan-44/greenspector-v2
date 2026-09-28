@@ -1,36 +1,906 @@
 {
-  "home": { "pathEn": "index", "slugEn": "/en/" },
-  "studio-banc-tests": { "pathEn": "studio/mobile-device-testing", "slugEn": "/en/studio/mobile-device-testing/" },
-  "studio-impact-env": { "pathEn": "studio/environmental-impact-measurement", "slugEn": "/en/studio/environmental-impact-measurement/" },
-  "studio-ecoconception": { "pathEn": "studio/software-ecodesign-tool", "slugEn": "/en/studio/software-ecodesign-tool/" },
-  "studio-ia": { "pathEn": "studio/ai-battery-impact", "slugEn": "/en/studio/ai-battery-impact/" },
-  "studio-batterie": { "pathEn": "studio/battery-discharge-measurement", "slugEn": "/en/studio/battery-discharge-measurement/" },
-  "studio-performance": { "pathEn": "studio/app-performance-measurement", "slugEn": "/en/studio/app-performance-measurement/" },
-  "studio-devgreenops": { "pathEn": "studio/devgreenops", "slugEn": "/en/studio/devgreenops/" },
-  "conseil-ecoconception": { "pathEn": "consulting/software-ecodesign", "slugEn": "/en/consulting/software-ecodesign/" },
-  "conseil-audit": { "pathEn": "consulting/mobile-app-audit", "slugEn": "/en/consulting/mobile-app-audit/" },
-  "conseil-expertise": { "pathEn": "consulting/mobile-device-measurement", "slugEn": "/en/consulting/mobile-device-measurement/" },
-  "conseil-banc": { "pathEn": "consulting/smartphone-power-test-bench", "slugEn": "/en/consulting/smartphone-power-test-bench/" },
-  "tarifs": { "pathEn": "pricing/greenspector-studio", "slugEn": "/en/pricing/greenspector-studio/" },
-  "case-studies-index": { "pathEn": "resources/case-studies/index", "slugEn": "/en/resources/case-studies/" },
-  "case-bouygues": { "pathEn": "resources/case-studies/bouygues-telecom-mobile-digital-sobriety", "slugEn": "/en/resources/case-studies/bouygues-telecom-mobile-digital-sobriety/" },
-  "case-ans": { "pathEn": "resources/case-studies/ans-health-apps-co2-measurement", "slugEn": "/en/resources/case-studies/ans-health-apps-co2-measurement/" },
-  "case-decathlon": { "pathEn": "resources/case-studies/decathlon-digital-ecodesign", "slugEn": "/en/resources/case-studies/decathlon-digital-ecodesign/" },
-  "case-bruxelles": { "pathEn": "resources/case-studies/brussels-environment-ecobuild", "slugEn": "/en/resources/case-studies/brussels-environment-ecobuild/" },
-  "case-air-france": { "pathEn": "resources/case-studies/air-france-app-testing", "slugEn": "/en/resources/case-studies/air-france-app-testing/" },
-  "case-cats": { "pathEn": "resources/case-studies/cats-smartuse-banking-app", "slugEn": "/en/resources/case-studies/cats-smartuse-banking-app/" },
-  "case-orange": { "pathEn": "resources/case-studies/orange-innovation-mobile-ecodesign", "slugEn": "/en/resources/case-studies/orange-innovation-mobile-ecodesign/" },
-  "case-bretagne": { "pathEn": "resources/case-studies/bretagne-responsible-digital", "slugEn": "/en/resources/case-studies/bretagne-responsible-digital/" },
-  "case-treebal": { "pathEn": "resources/case-studies/treebal-eco-responsible-app", "slugEn": "/en/resources/case-studies/treebal-eco-responsible-app/" },
-  "case-bordeaux": { "pathEn": "resources/case-studies/bordeaux-metropole-web-ecodesign", "slugEn": "/en/resources/case-studies/bordeaux-metropole-web-ecodesign/" },
-  "case-sncf": { "pathEn": "resources/case-studies/sncf-connect-performance", "slugEn": "/en/resources/case-studies/sncf-connect-performance/" },
-  "about-equipe": { "pathEn": "about/greenspector-team", "slugEn": "/en/about/greenspector-team/" },
-  "about-rse": { "pathEn": "about/csr", "slugEn": "/en/about/csr/" },
-  "about-partenaires": { "pathEn": "about/partners", "slugEn": "/en/about/partners/" },
-  "about-banc": { "pathEn": "about/smartphone-test-bench", "slugEn": "/en/about/smartphone-test-bench/" },
-  "about-innovations": { "pathEn": "about/innovations", "slugEn": "/en/about/innovations/" },
-  "contact": { "pathEn": "contact/index", "slugEn": "/en/contact/" },
-  "demo": { "pathEn": "demo/index", "slugEn": "/en/demo/" },
-  "connexion": { "pathEn": "login/index", "slugEn": "/en/login/" },
-  "legal-mentions": { "pathEn": "legal-notices/index", "slugEn": "/en/legal-notices/" }
+  "home": {
+    "pathEn": "index",
+    "slugEn": "/en/"
+  },
+  "studio-banc-tests": {
+    "pathEn": "studio/mobile-device-testing",
+    "slugEn": "/en/studio/mobile-device-testing/"
+  },
+  "studio-impact-env": {
+    "pathEn": "studio/environmental-impact-measurement",
+    "slugEn": "/en/studio/environmental-impact-measurement/"
+  },
+  "studio-ecoconception": {
+    "pathEn": "studio/software-ecodesign-tool",
+    "slugEn": "/en/studio/software-ecodesign-tool/"
+  },
+  "studio-ia": {
+    "pathEn": "studio/ai-battery-impact",
+    "slugEn": "/en/studio/ai-battery-impact/"
+  },
+  "studio-batterie": {
+    "pathEn": "studio/battery-discharge-measurement",
+    "slugEn": "/en/studio/battery-discharge-measurement/"
+  },
+  "studio-performance": {
+    "pathEn": "studio/app-performance-measurement",
+    "slugEn": "/en/studio/app-performance-measurement/"
+  },
+  "studio-devgreenops": {
+    "pathEn": "studio/devgreenops",
+    "slugEn": "/en/studio/devgreenops/"
+  },
+  "conseil-ecoconception": {
+    "pathEn": "consulting/software-ecodesign",
+    "slugEn": "/en/consulting/software-ecodesign/"
+  },
+  "conseil-audit": {
+    "pathEn": "consulting/mobile-app-audit",
+    "slugEn": "/en/consulting/mobile-app-audit/"
+  },
+  "conseil-expertise": {
+    "pathEn": "consulting/mobile-device-measurement",
+    "slugEn": "/en/consulting/mobile-device-measurement/"
+  },
+  "conseil-banc": {
+    "pathEn": "consulting/smartphone-power-test-bench",
+    "slugEn": "/en/consulting/smartphone-power-test-bench/"
+  },
+  "tarifs": {
+    "pathEn": "pricing/greenspector-studio",
+    "slugEn": "/en/pricing/greenspector-studio/"
+  },
+  "blog-index": {
+    "pathEn": "resources/blog/index",
+    "slugEn": "/en/resources/blog/"
+  },
+  "case-studies-index": {
+    "pathEn": "resources/case-studies/index",
+    "slugEn": "/en/resources/case-studies/"
+  },
+  "case-bouygues": {
+    "pathEn": "resources/case-studies/bouygues-telecom-mobile-digital-sobriety",
+    "slugEn": "/en/resources/case-studies/bouygues-telecom-mobile-digital-sobriety/"
+  },
+  "case-ans": {
+    "pathEn": "resources/case-studies/ans-health-apps-co2-measurement",
+    "slugEn": "/en/resources/case-studies/ans-health-apps-co2-measurement/"
+  },
+  "case-decathlon": {
+    "pathEn": "resources/case-studies/decathlon-digital-ecodesign",
+    "slugEn": "/en/resources/case-studies/decathlon-digital-ecodesign/"
+  },
+  "case-bruxelles": {
+    "pathEn": "resources/case-studies/brussels-environment-ecobuild",
+    "slugEn": "/en/resources/case-studies/brussels-environment-ecobuild/"
+  },
+  "case-air-france": {
+    "pathEn": "resources/case-studies/air-france-app-testing",
+    "slugEn": "/en/resources/case-studies/air-france-app-testing/"
+  },
+  "case-cats": {
+    "pathEn": "resources/case-studies/cats-smartuse-banking-app",
+    "slugEn": "/en/resources/case-studies/cats-smartuse-banking-app/"
+  },
+  "case-orange": {
+    "pathEn": "resources/case-studies/orange-innovation-mobile-ecodesign",
+    "slugEn": "/en/resources/case-studies/orange-innovation-mobile-ecodesign/"
+  },
+  "case-bretagne": {
+    "pathEn": "resources/case-studies/bretagne-responsible-digital",
+    "slugEn": "/en/resources/case-studies/bretagne-responsible-digital/"
+  },
+  "case-treebal": {
+    "pathEn": "resources/case-studies/treebal-eco-responsible-app",
+    "slugEn": "/en/resources/case-studies/treebal-eco-responsible-app/"
+  },
+  "case-bordeaux": {
+    "pathEn": "resources/case-studies/bordeaux-metropole-web-ecodesign",
+    "slugEn": "/en/resources/case-studies/bordeaux-metropole-web-ecodesign/"
+  },
+  "case-sncf": {
+    "pathEn": "resources/case-studies/sncf-connect-performance",
+    "slugEn": "/en/resources/case-studies/sncf-connect-performance/"
+  },
+  "about-equipe": {
+    "pathEn": "about/greenspector-team",
+    "slugEn": "/en/about/greenspector-team/"
+  },
+  "about-rse": {
+    "pathEn": "about/csr",
+    "slugEn": "/en/about/csr/"
+  },
+  "about-partenaires": {
+    "pathEn": "about/partners",
+    "slugEn": "/en/about/partners/"
+  },
+  "about-banc": {
+    "pathEn": "about/smartphone-test-bench",
+    "slugEn": "/en/about/smartphone-test-bench/"
+  },
+  "about-innovations": {
+    "pathEn": "about/innovations",
+    "slugEn": "/en/about/innovations/"
+  },
+  "contact": {
+    "pathEn": "contact/index",
+    "slugEn": "/en/contact/"
+  },
+  "demo": {
+    "pathEn": "demo/index",
+    "slugEn": "/en/demo/"
+  },
+  "connexion": {
+    "pathEn": "login/index",
+    "slugEn": "/en/login/"
+  },
+  "legal-mentions": {
+    "pathEn": "legal-notices/index",
+    "slugEn": "/en/legal-notices/"
+  },
+  "blog-optimisation-memoire-android-repondre-exigences-google": {
+    "pathEn": "resources/blog/memory-optimization-on-android-how-to-meet-googles-new-requirements",
+    "slugEn": "/en/resources/blog/memory-optimization-on-android-how-to-meet-googles-new-requirements/"
+  },
+  "blog-budget-environnemental": {
+    "pathEn": "resources/blog/defining-the-environmental-budget-for-a-digital-service",
+    "slugEn": "/en/resources/blog/defining-the-environmental-budget-for-a-digital-service/"
+  },
+  "blog-impact-environnemental-ia-locale": {
+    "pathEn": "resources/blog/environmental-impact-of-local-ai",
+    "slugEn": "/en/resources/blog/environmental-impact-of-local-ai/"
+  },
+  "blog-quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek": {
+    "pathEn": "resources/blog/what-is-the-environmental-impact-of-llm-use-on-the-customers-side-battle-chatgpt-vs-deepseek",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-impact-of-llm-use-on-the-customers-side-battle-chatgpt-vs-deepseek/"
+  },
+  "blog-intelligence-artificielle-smartphone-autonomie": {
+    "pathEn": "resources/blog/artificial-intelligence-smartphone-autonomy",
+    "slugEn": "/en/resources/blog/artificial-intelligence-smartphone-autonomy/"
+  },
+  "blog-quels-sont-les-meilleurs-navigateurs-web-android-et-ios-a-utiliser-edition-2024": {
+    "pathEn": "resources/blog/which-are-the-best-android-and-ios-web-browsers-to-use-edition-2024",
+    "slugEn": "/en/resources/blog/which-are-the-best-android-and-ios-web-browsers-to-use-edition-2024/"
+  },
+  "blog-consommation-energie-ecoute-audio": {
+    "pathEn": "resources/blog/which-listening-mode-takes-the-most-energy",
+    "slugEn": "/en/resources/blog/which-listening-mode-takes-the-most-energy/"
+  },
+  "blog-12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique": {
+    "pathEn": "resources/blog/12-reasons-not-to-eco-design-a-digital-service",
+    "slugEn": "/en/resources/blog/12-reasons-not-to-eco-design-a-digital-service/"
+  },
+  "blog-analyse-des-surconsommations-dun-site-sobre": {
+    "pathEn": "resources/blog/analysis-of-overconsumptions-on-a-light-website-2",
+    "slugEn": "/en/resources/blog/analysis-of-overconsumptions-on-a-light-website-2/"
+  },
+  "blog-innovation-greenspector-iphone": {
+    "pathEn": "resources/blog/innovation-the-first-energy-meter-for-ios-from-greenspector",
+    "slugEn": "/en/resources/blog/innovation-the-first-energy-meter-for-ios-from-greenspector/"
+  },
+  "blog-rgesn-loi-reen-de-quoi-parle-t-on-2": {
+    "pathEn": "resources/blog/rgesn-reen-law-what-are-we-talking-about",
+    "slugEn": "/en/resources/blog/rgesn-reen-law-what-are-we-talking-about/"
+  },
+  "blog-quel-impact-environnemental-des-parametres-graphiques-des-jeux-videos": {
+    "pathEn": "resources/blog/what-is-the-environmental-impact-of-video-game-graphics",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-impact-of-video-game-graphics/"
+  },
+  "blog-quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie": {
+    "pathEn": "resources/blog/whatsapp-discord-slack-teams-what-is-the-environmental-impact-of-a-user-journey-on-these-applications",
+    "slugEn": "/en/resources/blog/whatsapp-discord-slack-teams-what-is-the-environmental-impact-of-a-user-journey-on-these-applications/"
+  },
+  "blog-analyse-environnementale-des-outils-danalytics": {
+    "pathEn": "resources/blog/environmental-analysis-of-analytics-tools-use-impact-responsible",
+    "slugEn": "/en/resources/blog/environmental-analysis-of-analytics-tools-use-impact-responsible/"
+  },
+  "blog-reduire-poids-page-web-quels-elements-plus-impactants": {
+    "pathEn": "resources/blog/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact",
+    "slugEn": "/en/resources/blog/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/"
+  },
+  "blog-cybersecurite-et-eco-conception-quels-sont-les-liens": {
+    "pathEn": "resources/blog/what-are-the-links-between-cybersecurity-and-eco-design",
+    "slugEn": "/en/resources/blog/what-are-the-links-between-cybersecurity-and-eco-design/"
+  },
+  "blog-impacts-environnementaux-publicite": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-est-ce-que-le-vibe-coding-avec-lia-peut-etre-green": {
+    "pathEn": "resources/blog/could-vibe-coding-thanks-to-ai-be-green",
+    "slugEn": "/en/resources/blog/could-vibe-coding-thanks-to-ai-be-green/"
+  },
+  "blog-impacts-des-principaux-sites-e-commerce-en-france-edition-2025": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-greenspector-studio-et-rgesn": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelle-application-mobile-de-covoiturage-a-le-plus-fort-impact-environnemental": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-le-cadre-legislatif-de-lecoconception-de-services-numeriques": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-publication-des-web-sustainability-guidelines-du-w3c": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-palmares-2023-des-jeux-sur-mobile": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-lempreinte-des-cookies-a-la-loupe-impact-environnemental-avec-ou-sans-consentement": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quel-est-limpact-du-reseau-dans-les-services-numeriques": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quel-est-limpact-environnemental-des-10-applications-de-transport-les-plus-utilisees-en-france-2023": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-le-petit-bout-de-la-lorgnette": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-bonne-pratique-optimiser-les-polices-de-caracteres": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-greenspector-atos-numerique-en-sante-service-de-mesure": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-le-dom-comme-metrique-de-suivi-de-sobriete-du-web": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-impact-environnemental-top-30-sites-presse-quotidienne-francaise": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-empreinte-environnementale-applications-websites-mcommerce": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-bonne-pratique-limiter-le-nombre-de-services-tiers": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quel-est-limpact-environnemental-des-applications-de-rencontre-gratuites-les-plus-utilisees-en-france": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-optimiser-son-site-pour-limpression": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-reduire-les-impacts-de-lautocompletion": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-communique-de-presse-une-nouvelle-etape-dans-la-collaboration-entre-nowu-et-greenspector": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-analyse-des-10-sites-nomines-mobile-excellence-par-awwwards": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-impact-applications-visioconferences-2022": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-le-numerique-responsable-chez-greenspector": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelle-solution-choisir-pour-un-site-web-sobre": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-un-site-sobre-est-il-necessairement-moche": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-auditer-requetes-application-mobile-android": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-empreinte-environnementale-des-10-sites-et-applications-de-m-commerce": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-captcha-et-sobriete-numerique": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-empreinte-environnementale-sites-web-12-candidats-presidentielle-2022": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-la-sobriete-numerique-pour-plus-de-resilience": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-methodologie-calcul-empreinte-environnementale": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-nettoyer-chrome-pour-realiser-des-mesures-independantes": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-impact-presse-quotidienne-francaise-2021": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-introduction-au-gdsl-le-langage-dautomatisation-par-greenspector": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-release-note-v-2-9-0": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-changenow-2021-empreinte-carbone": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-optimiser-energie-des-smartphones-pour-reduire-limpact-du-numerique": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-une-heure-de-visualisation-netflix-cest-100geqco2-et-alors": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelles-ressources-reduire-bonnes-pratiques-ecoconception-logicielle": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-smartphones-utilisateurs-impact-environnemental-usure-batterie": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-sobriete-numerique-erreurs-a-eviter": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-impact-video-canal": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-apps-communication-equipe": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-ugap": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-doodles-google": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-planet-tech-care": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-service-tiers-youtube": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-enjeux-numerique-responsable-secteur-public": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-marches-publics-classement": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-limiter-les-donnees-internet-pour-reduire-impact-numerique": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-poursuite-du-projet-auxylium": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-moteurs-de-recherches": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-impact-instagram": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-atos-scaler": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-impact-carbone-e-commerce-france": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quelle-application-mobile-de-visioconference-pour-reduire-votre-impact": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-applications-de-geolocalisation": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-le-top-10-des-mythes-du-numerique-sobre": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-pourquoi-automatiser-les-tests-de-ses-applications-mobiles": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-ecouter-de-la-musique-sur-son-smartphone-sans-vider-sa-batterie-cest-possible": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-comment-choisir-les-smartphones-integres-a-vos-campagnes-de-tests": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-droidcon-berlin-2018-5-bonnes-pratiques-pour-lefficience-des-flottes-mobiles-par-greenspector": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-lancer-des-tests-appium-en-parallele-sur-plusieurs-devices": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-comment-les-applications-ont-tue-ma-batterie": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-android-6-ameliore-t-il-lautonomie-des-smartphones": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-pourquoi-se-preoccuper-de-la-consommation-de-batterie-dune-application": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-android-memory-the-ultimate-metric-guide": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-premiers-pas-avec-ui-automator-votre-1er-scenario-de-test": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-http2-latence-et-energie": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-la-boite-a-outils-du-developpeur-android-les-outils-de-performance": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-webp-png-jpeg-energy-battle-sur-android": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-android-faut-il-utiliser-hashmap-ou-sparsearray": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel": {
+    "pathEn": "resources/blog/_untranslated",
+    "slugEn": "/en/resources/blog/"
+  },
+  "blog-how-to-advertise-while-considering-its-environmental-impact": {
+    "pathEn": "resources/blog/how-to-advertise-while-considering-its-environmental-impact",
+    "slugEn": "/en/resources/blog/how-to-advertise-while-considering-its-environmental-impact/"
+  },
+  "blog-impacts-of-the-mains-e-commerce-sites-in-france": {
+    "pathEn": "resources/blog/impacts-of-the-mains-e-commerce-sites-in-france",
+    "slugEn": "/en/resources/blog/impacts-of-the-mains-e-commerce-sites-in-france/"
+  },
+  "blog-which-mobile-carpooling-application-has-the-greatest-environmental-impact": {
+    "pathEn": "resources/blog/which-mobile-carpooling-application-has-the-greatest-environmental-impact",
+    "slugEn": "/en/resources/blog/which-mobile-carpooling-application-has-the-greatest-environmental-impact/"
+  },
+  "blog-what-is-the-correlation-between-eco-design-and-editorial-sobriety": {
+    "pathEn": "resources/blog/what-is-the-correlation-between-eco-design-and-editorial-sobriety",
+    "slugEn": "/en/resources/blog/what-is-the-correlation-between-eco-design-and-editorial-sobriety/"
+  },
+  "blog-the-legislative-framework-for-the-eco-design-of-digital-services": {
+    "pathEn": "resources/blog/the-legislative-framework-for-the-eco-design-of-digital-services",
+    "slugEn": "/en/resources/blog/the-legislative-framework-for-the-eco-design-of-digital-services/"
+  },
+  "blog-what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab": {
+    "pathEn": "resources/blog/what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-impact-of-opening-or-not-opening-links-in-another-tab/"
+  },
+  "blog-publication-of-the-w3c-web-sustainability-guidelines": {
+    "pathEn": "resources/blog/publication-of-the-w3c-web-sustainability-guidelines",
+    "slugEn": "/en/resources/blog/publication-of-the-w3c-web-sustainability-guidelines/"
+  },
+  "blog-what-is-the-environmental-impact-of-mobile-games-in-2023": {
+    "pathEn": "resources/blog/what-is-the-environmental-impact-of-mobile-games-in-2023",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-impact-of-mobile-games-in-2023/"
+  },
+  "blog-what-impact-does-the-network-have-on-digital-services": {
+    "pathEn": "resources/blog/what-impact-does-the-network-have-on-digital-services",
+    "slugEn": "/en/resources/blog/what-impact-does-the-network-have-on-digital-services/"
+  },
+  "blog-what-is-the-environmental-impact-of-the-10-most-widely-used-transport-applications-in-france-2023": {
+    "pathEn": "resources/blog/what-is-the-environmental-impact-of-the-10-most-widely-used-transport-applications-in-france-2023",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-impact-of-the-10-most-widely-used-transport-applications-in-france-2023/"
+  },
+  "blog-a-closer-look": {
+    "pathEn": "resources/blog/a-closer-look",
+    "slugEn": "/en/resources/blog/a-closer-look/"
+  },
+  "blog-what-is-the-environmental-footprint-of-social-networking-applications-2023": {
+    "pathEn": "resources/blog/what-is-the-environmental-footprint-of-social-networking-applications-2023",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-footprint-of-social-networking-applications-2023/"
+  },
+  "blog-best-practice-optimizing-fonts": {
+    "pathEn": "resources/blog/best-practice-optimizing-fonts",
+    "slugEn": "/en/resources/blog/best-practice-optimizing-fonts/"
+  },
+  "blog-dom-as-a-metric-for-monitoring-web-sobriety": {
+    "pathEn": "resources/blog/dom-as-a-metric-for-monitoring-web-sobriety",
+    "slugEn": "/en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/"
+  },
+  "blog-environmental-footprint-10-most-visited-m-commerce-in-france-in-2023": {
+    "pathEn": "resources/blog/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023",
+    "slugEn": "/en/resources/blog/environmental-footprint-10-most-visited-m-commerce-in-france-in-2023/"
+  },
+  "blog-environmental-impact-of-top-30-of-the-french-daily-press": {
+    "pathEn": "resources/blog/environmental-impact-of-top-30-of-the-french-daily-press",
+    "slugEn": "/en/resources/blog/environmental-impact-of-top-30-of-the-french-daily-press/"
+  },
+  "blog-best-practice-limit-the-number-of-third-party-services": {
+    "pathEn": "resources/blog/best-practice-limit-the-number-of-third-party-services",
+    "slugEn": "/en/resources/blog/best-practice-limit-the-number-of-third-party-services/"
+  },
+  "blog-what-is-the-environmental-impact-of-the-most-used-dating-applications-in-france": {
+    "pathEn": "resources/blog/what-is-the-environmental-impact-of-the-most-used-dating-applications-in-france",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-impact-of-the-most-used-dating-applications-in-france/"
+  },
+  "blog-optimising-your-website-for-print": {
+    "pathEn": "resources/blog/optimising-your-website-for-print",
+    "slugEn": "/en/resources/blog/optimising-your-website-for-print/"
+  },
+  "blog-reducing-the-impact-of-autocompletion": {
+    "pathEn": "resources/blog/reducing-the-impact-of-autocompletion",
+    "slugEn": "/en/resources/blog/reducing-the-impact-of-autocompletion/"
+  },
+  "blog-press-release-nowu-and-greenspector-take-next-step-in-collaboration": {
+    "pathEn": "resources/blog/press-release-nowu-and-greenspector-take-next-step-in-collaboration",
+    "slugEn": "/en/resources/blog/press-release-nowu-and-greenspector-take-next-step-in-collaboration/"
+  },
+  "blog-how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark": {
+    "pathEn": "resources/blog/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark",
+    "slugEn": "/en/resources/blog/how-is-the-ecoscore-calculated-in-the-case-of-a-web-or-mobile-benchmark/"
+  },
+  "blog-digital-sobriety-requirements-for-cities-and-communities-ranking": {
+    "pathEn": "resources/blog/digital-sobriety-requirements-for-cities-and-communities-ranking",
+    "slugEn": "/en/resources/blog/digital-sobriety-requirements-for-cities-and-communities-ranking/"
+  },
+  "blog-analysis_sites_nominated_mobile_excellence_awwwards": {
+    "pathEn": "resources/blog/analysis_sites_nominated_mobile_excellence_awwwards",
+    "slugEn": "/en/resources/blog/analysis_sites_nominated_mobile_excellence_awwwards/"
+  },
+  "blog-which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact": {
+    "pathEn": "resources/blog/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact",
+    "slugEn": "/en/resources/blog/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/"
+  },
+  "blog-digital-sobriety-at-greenspector": {
+    "pathEn": "resources/blog/digital-sobriety-at-greenspector",
+    "slugEn": "/en/resources/blog/digital-sobriety-at-greenspector/"
+  },
+  "blog-cms-no-code-or-without-cms-which-solution-to-choose-for-a-sober-website": {
+    "pathEn": "resources/blog/cms-no-code-or-without-cms-which-solution-to-choose-for-a-sober-website",
+    "slugEn": "/en/resources/blog/cms-no-code-or-without-cms-which-solution-to-choose-for-a-sober-website/"
+  },
+  "blog-does-a-sober-site-have-to-be-ugly": {
+    "pathEn": "resources/blog/does-a-sober-site-have-to-be-ugly",
+    "slugEn": "/en/resources/blog/does-a-sober-site-have-to-be-ugly/"
+  },
+  "blog-how-to-audit-android-mobile-application-requests": {
+    "pathEn": "resources/blog/how-to-audit-android-mobile-application-requests",
+    "slugEn": "/en/resources/blog/how-to-audit-android-mobile-application-requests/"
+  },
+  "blog-what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france": {
+    "pathEn": "resources/blog/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france",
+    "slugEn": "/en/resources/blog/what-is-the-environmental-footprint-of-the-ten-most-visited-m-commerce-sites-and-applications-in-france/"
+  },
+  "blog-captcha-and-digital-sobriety": {
+    "pathEn": "resources/blog/captcha-and-digital-sobriety",
+    "slugEn": "/en/resources/blog/captcha-and-digital-sobriety/"
+  },
+  "blog-digital-sobriety-for-more-resilience": {
+    "pathEn": "resources/blog/digital-sobriety-for-more-resilience",
+    "slugEn": "/en/resources/blog/digital-sobriety-for-more-resilience/"
+  },
+  "blog-environmental-footprint-methodology": {
+    "pathEn": "resources/blog/environmental-footprint-methodology",
+    "slugEn": "/en/resources/blog/environmental-footprint-methodology/"
+  },
+  "blog-how-to-clean-up-the-chrome-app-for-reliable-energy-and-performance-measurements": {
+    "pathEn": "resources/blog/how-to-clean-up-the-chrome-app-for-reliable-energy-and-performance-measurements",
+    "slugEn": "/en/resources/blog/how-to-clean-up-the-chrome-app-for-reliable-energy-and-performance-measurements/"
+  },
+  "blog-introduction-to-gdsl-automatisaton-language-by-greenspector": {
+    "pathEn": "resources/blog/introduction-to-gdsl-automatisaton-language-by-greenspector",
+    "slugEn": "/en/resources/blog/introduction-to-gdsl-automatisaton-language-by-greenspector/"
+  },
+  "blog-release-note-2-9-0": {
+    "pathEn": "resources/blog/release-note-2-9-0",
+    "slugEn": "/en/resources/blog/release-note-2-9-0/"
+  },
+  "blog-changenow-2021-carbon-footprint": {
+    "pathEn": "resources/blog/changenow-2021-carbon-footprint",
+    "slugEn": "/en/resources/blog/changenow-2021-carbon-footprint/"
+  },
+  "blog-optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology": {
+    "pathEn": "resources/blog/optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology",
+    "slugEn": "/en/resources/blog/optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology/"
+  },
+  "blog-which-video-conferencing-mobile-application-to-reduce-your-impact-2021": {
+    "pathEn": "resources/blog/which-video-conferencing-mobile-application-to-reduce-your-impact-2021",
+    "slugEn": "/en/resources/blog/which-video-conferencing-mobile-application-to-reduce-your-impact-2021/"
+  },
+  "blog-one-hour-of-netflix-viewing-is-equivalent-to-100-geqco2": {
+    "pathEn": "resources/blog/one-hour-of-netflix-viewing-is-equivalent-to-100-geqco2",
+    "slugEn": "/en/resources/blog/one-hour-of-netflix-viewing-is-equivalent-to-100-geqco2/"
+  },
+  "blog-software-eco-design-practices-server-side-or-user-side": {
+    "pathEn": "resources/blog/software-eco-design-practices-server-side-or-user-side",
+    "slugEn": "/en/resources/blog/software-eco-design-practices-server-side-or-user-side/"
+  },
+  "blog-smartphones-all-about-the-environmental-impact-and-battery-wear": {
+    "pathEn": "resources/blog/smartphones-all-about-the-environmental-impact-and-battery-wear",
+    "slugEn": "/en/resources/blog/smartphones-all-about-the-environmental-impact-and-battery-wear/"
+  },
+  "blog-digital-sobriety-mistakes-to-avoid": {
+    "pathEn": "resources/blog/digital-sobriety-mistakes-to-avoid",
+    "slugEn": "/en/resources/blog/digital-sobriety-mistakes-to-avoid/"
+  },
+  "blog-what-are-the-best-android-web-browsers-to-use-in-2021": {
+    "pathEn": "resources/blog/what-are-the-best-android-web-browsers-to-use-in-2021",
+    "slugEn": "/en/resources/blog/what-are-the-best-android-web-browsers-to-use-in-2021/"
+  },
+  "blog-impact-playing-canal-video": {
+    "pathEn": "resources/blog/impact-playing-canal-video",
+    "slugEn": "/en/resources/blog/impact-playing-canal-video/"
+  },
+  "blog-direct-messaging-business-apps": {
+    "pathEn": "resources/blog/direct-messaging-business-apps",
+    "slugEn": "/en/resources/blog/direct-messaging-business-apps/"
+  },
+  "blog-planet-tech-care-actor": {
+    "pathEn": "resources/blog/planet-tech-care-actor",
+    "slugEn": "/en/resources/blog/planet-tech-care-actor/"
+  },
+  "blog-third-party-youtube": {
+    "pathEn": "resources/blog/third-party-youtube",
+    "slugEn": "/en/resources/blog/third-party-youtube/"
+  },
+  "blog-challenges-eco-responsible-digital-public-sector": {
+    "pathEn": "resources/blog/challenges-eco-responsible-digital-public-sector",
+    "slugEn": "/en/resources/blog/challenges-eco-responsible-digital-public-sector/"
+  },
+  "blog-project-auxylium-continuation": {
+    "pathEn": "resources/blog/project-auxylium-continuation",
+    "slugEn": "/en/resources/blog/project-auxylium-continuation/"
+  },
+  "blog-6168-2": {
+    "pathEn": "resources/blog/6168-2",
+    "slugEn": "/en/resources/blog/6168-2/"
+  },
+  "blog-search-engines": {
+    "pathEn": "resources/blog/search-engines",
+    "slugEn": "/en/resources/blog/search-engines/"
+  },
+  "blog-atos-scaler-program": {
+    "pathEn": "resources/blog/atos-scaler-program",
+    "slugEn": "/en/resources/blog/atos-scaler-program/"
+  },
+  "blog-france-e-commerce-carbon-impact": {
+    "pathEn": "resources/blog/france-e-commerce-carbon-impact",
+    "slugEn": "/en/resources/blog/france-e-commerce-carbon-impact/"
+  },
+  "blog-which-video-conferencing-mobile-application-to-reduce-your-impact": {
+    "pathEn": "resources/blog/which-video-conferencing-mobile-application-to-reduce-your-impact",
+    "slugEn": "/en/resources/blog/which-video-conferencing-mobile-application-to-reduce-your-impact/"
+  },
+  "blog-what-are-the-best-web-browsers-to-use-in-2020": {
+    "pathEn": "resources/blog/what-are-the-best-web-browsers-to-use-in-2020",
+    "slugEn": "/en/resources/blog/what-are-the-best-web-browsers-to-use-in-2020/"
+  },
+  "blog-2019-ranking-of-gps-applications": {
+    "pathEn": "resources/blog/2019-ranking-of-gps-applications",
+    "slugEn": "/en/resources/blog/2019-ranking-of-gps-applications/"
+  },
+  "blog-the-top-10-myths-of-frugal-ict": {
+    "pathEn": "resources/blog/the-top-10-myths-of-frugal-ict",
+    "slugEn": "/en/resources/blog/the-top-10-myths-of-frugal-ict/"
+  },
+  "blog-did-you-know-many-mobile-users-wont-be-able-to-use-your-app": {
+    "pathEn": "resources/blog/did-you-know-many-mobile-users-wont-be-able-to-use-your-app",
+    "slugEn": "/en/resources/blog/did-you-know-many-mobile-users-wont-be-able-to-use-your-app/"
+  },
+  "blog-why-automate-the-testing-of-its-mobile-applications": {
+    "pathEn": "resources/blog/why-automate-the-testing-of-its-mobile-applications",
+    "slugEn": "/en/resources/blog/why-automate-the-testing-of-its-mobile-applications/"
+  },
+  "blog-is-it-possible-to-listen-to-music-without-emptying-your-smartphones-battery": {
+    "pathEn": "resources/blog/is-it-possible-to-listen-to-music-without-emptying-your-smartphones-battery",
+    "slugEn": "/en/resources/blog/is-it-possible-to-listen-to-music-without-emptying-your-smartphones-battery/"
+  },
+  "blog-how-to-choose-the-smartphones-integrated-in-your-test-campaigns": {
+    "pathEn": "resources/blog/how-to-choose-the-smartphones-integrated-in-your-test-campaigns",
+    "slugEn": "/en/resources/blog/how-to-choose-the-smartphones-integrated-in-your-test-campaigns/"
+  },
+  "blog-droidcon-berlin-2018-5-best-practices-for-mobile-fleets-efficiency-by-greenspector": {
+    "pathEn": "resources/blog/droidcon-berlin-2018-5-best-practices-for-mobile-fleets-efficiency-by-greenspector",
+    "slugEn": "/en/resources/blog/droidcon-berlin-2018-5-best-practices-for-mobile-fleets-efficiency-by-greenspector/"
+  },
+  "blog-launch-appium-tests-in-parallel-on-several-devices": {
+    "pathEn": "resources/blog/launch-appium-tests-in-parallel-on-several-devices",
+    "slugEn": "/en/resources/blog/launch-appium-tests-in-parallel-on-several-devices/"
+  },
+  "blog-do-not-let-your-network-cell-rob-the-battery-anymore": {
+    "pathEn": "resources/blog/do-not-let-your-network-cell-rob-the-battery-anymore",
+    "slugEn": "/en/resources/blog/do-not-let-your-network-cell-rob-the-battery-anymore/"
+  },
+  "blog-how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users": {
+    "pathEn": "resources/blog/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users",
+    "slugEn": "/en/resources/blog/how-to-detect-energy-and-performance-issues-of-your-mobile-applications-before-your-users/"
+  },
+  "blog-how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian": {
+    "pathEn": "resources/blog/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian",
+    "slugEn": "/en/resources/blog/how-to-analyze-the-behavior-of-my-smartphone-with-battery-historian/"
+  },
+  "blog-how-apps-killed-my-phone-battery": {
+    "pathEn": "resources/blog/how-apps-killed-my-phone-battery",
+    "slugEn": "/en/resources/blog/how-apps-killed-my-phone-battery/"
+  },
+  "blog-will-upgrading-to-android-6-improve-your-battery-life": {
+    "pathEn": "resources/blog/will-upgrading-to-android-6-improve-your-battery-life",
+    "slugEn": "/en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/"
+  },
+  "blog-why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life": {
+    "pathEn": "resources/blog/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life",
+    "slugEn": "/en/resources/blog/why-should-you-care-about-your-applications-impact-on-the-end-users-battery-life/"
+  },
+  "blog-android-memory-the-ultimate-metric-guide-2": {
+    "pathEn": "resources/blog/android-memory-the-ultimate-metric-guide-2",
+    "slugEn": "/en/resources/blog/android-memory-the-ultimate-metric-guide-2/"
+  },
+  "blog-first-steps-with-ui-automator": {
+    "pathEn": "resources/blog/first-steps-with-ui-automator",
+    "slugEn": "/en/resources/blog/first-steps-with-ui-automator/"
+  },
+  "blog-should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone": {
+    "pathEn": "resources/blog/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone",
+    "slugEn": "/en/resources/blog/should-you-switch-your-wallpaper-to-affect-less-the-battery-life-of-your-smartphone/"
+  },
+  "blog-android-developers-toolbox-performance-tools": {
+    "pathEn": "resources/blog/android-developers-toolbox-performance-tools",
+    "slugEn": "/en/resources/blog/android-developers-toolbox-performance-tools/"
+  },
+  "blog-webp-png-jpeg-energy-battle-on-android": {
+    "pathEn": "resources/blog/webp-png-jpeg-energy-battle-on-android",
+    "slugEn": "/en/resources/blog/webp-png-jpeg-energy-battle-on-android/"
+  },
+  "blog-android-should-you-use-hashmap-or-sparsearray": {
+    "pathEn": "resources/blog/android-should-you-use-hashmap-or-sparsearray",
+    "slugEn": "/en/resources/blog/android-should-you-use-hashmap-or-sparsearray/"
+  },
+  "blog-continuous-measurement-in-devops-or-how-to-easily-control-the-efficiency-of-its-applications": {
+    "pathEn": "resources/blog/continuous-measurement-in-devops-or-how-to-easily-control-the-efficiency-of-its-applications",
+    "slugEn": "/en/resources/blog/continuous-measurement-in-devops-or-how-to-easily-control-the-efficiency-of-its-applications/"
+  },
+  "blog-http2-latency-and-energy": {
+    "pathEn": "resources/blog/http2-latency-and-energy",
+    "slugEn": "/en/resources/blog/http2-latency-and-energy/"
+  },
+  "blog-third-party-services-really-make-a-difference-when-it-comes-to-battery-life": {
+    "pathEn": "resources/blog/third-party-services-really-make-a-difference-when-it-comes-to-battery-life",
+    "slugEn": "/en/resources/blog/third-party-services-really-make-a-difference-when-it-comes-to-battery-life/"
+  },
+  "blog-why-you-should-measure-the-energy-consumption-of-your-software": {
+    "pathEn": "resources/blog/why-you-should-measure-the-energy-consumption-of-your-software",
+    "slugEn": "/en/resources/blog/why-you-should-measure-the-energy-consumption-of-your-software/"
+  },
+  "blog-how-i-improved-the-efficiency-of-an-android-system-app-and-why": {
+    "pathEn": "resources/blog/how-i-improved-the-efficiency-of-an-android-system-app-and-why",
+    "slugEn": "/en/resources/blog/how-i-improved-the-efficiency-of-an-android-system-app-and-why/"
+  },
+  "blog-videoconferencing-apps-2022": {
+    "pathEn": "resources/blog/videoconferencing-apps-2022",
+    "slugEn": "/en/resources/blog/videoconferencing-apps-2022/"
+  }
 }

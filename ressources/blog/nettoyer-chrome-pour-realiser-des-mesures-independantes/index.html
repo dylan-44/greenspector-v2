@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Comment nettoyer l’application Chrome pour réaliser des mesures de performances et d'énergie fiables ? - Greenspector</title>
+    <meta name="description" content="Aujourd'hui nous nous nous concentrons sur la méthode browserReset qui permet de nettoyer un navigateur pour réaliser des mesures fiables.">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/">
+    <meta property="og:title" content="Comment nettoyer l’application Chrome pour réaliser des mesures de performances et d’énergie fiables ?">
+    <meta property="og:description" content="Aujourd'hui nous nous nous concentrons sur la méthode browserReset qui permet de nettoyer un navigateur pour réaliser des mesures fiables.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2021/07/GDSL_chrome-min-1.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2021/07/GDSL_chrome-min-1.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Comment nettoyer l’application Chrome pour réaliser des mesures de performances et d’énergie fiables ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>4 juillet 2021</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <p><strong>Contexte</strong></p>
+
+<p>Bienvenue dans cette nouvelle rubrique « focus GDSL » qui explique en détail certaines méthodes du langage GDSL d&rsquo;automatisation de Greenspector. Si vous n&rsquo;avez pas encore lu <a href="../../../ressources/blog/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/" target="_blank" rel="noopener noreferrer">l&rsquo;article d&rsquo;introduction du GDSL</a>, n&rsquo;hésitez pas avant de poursuivre la lecture de celui-ci.</p>
+
+<p>Aujourd&rsquo;hui, nous allons nous concentrer sur la méthode <strong>browserReset</strong> qui permet de nettoyer un navigateur pour réaliser des mesures de performances et d&rsquo;énergie fiables. </p>
+
+<p>Pour réaliser des mesures correctes sur navigateur, il faut pouvoir s’assurer que vous allez mesurer uniquement votre page web, sans aucun parasite pouvant provenir du navigateur comme des onglets ouverts par exemple. Sans ce travail, la mesure de la consommation d&rsquo;une page web serait faussée par des pages en arrière plan effectuant des traitements et des échanges réseaux. De plus, cela nous permet de mesurer précisément la consommation du navigateur à vide, une fois le nettoyage effectué, et la comparer à la consommation du site.</p>
+
+<p>En automatisation, ce que l&rsquo;on ne supporte pas, c’est de ne pas connaître les conditions initiales de notre test. Cela pourrait perturber son bon fonctionnement, voire même aboutir à un test dont on ne peut rien tirer car on ne sait pas au final ce qui aura été mesuré.</p>
+
+<p>Sur un banc de test automatisé, il est difficile de connaître l’état du navigateur au début de votre test : vous ignorez si un test précédent a laissé des onglets ouverts, a modifié la langue du navigateur ou quoi que ce soit d’autre. On pourrait aller voir dans la salle des téléphones me direz-vous. Oui c’est vrai, mais si elle est à l’autre bout du monde ça devient compliqué, sans parler de la situation sanitaire actuelle (cet article à été rédigé en pleine crise du Covid-19). On pourrait aussi se servir d’outils pour monitorer le téléphone à distance. Alors oui, mais cela n’est valable que si vous êtes présent au moment d’exécuter votre test. Pour des campagnes en intégration continue qui peuvent tourner toutes les heures, ou même la nuit, vous n’allez pas pouvoir surveiller en permanence. </p>
+
+<p>Alors que faut-il faire ? Et bien, nettoyer le navigateur avant chaque test pardi !</p>
+
+<p><strong>Approche rapide</strong></p>
+
+<p>Pour notre cas, <strong>nous allons utiliser le navigateur Chrome</strong>, mais le raisonnement est le même avec un autre navigateur. Nous allons aussi partir du principe que ce navigateur est régulièrement mis à jour sur les téléphones.</p>
+
+<p>Une méthode rapide et qui va fonctionner dans beaucoup de cas pour nettoyer un navigateur consiste à fermer les onglets ouverts et nettoyer le cache au début de chacun de nos tests. De cette manière, quand le navigateur s’ouvrira la prochaine fois pour prendre des mesures, il sera sur un onglet vide.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min.png" alt="" width="1024" height="576" loading="lazy" decoding="async"></figure>
+
+<p>Cette méthode va fonctionner sur la majorité des smartphones mais va être à la peine sur tablette à cause de la gestion des onglets. Sur tablette, les onglets sont en général affichés sur une barre en haut (ou en bas) du navigateur, comme sur un ordinateur. La particularité de cette barre d’onglet est qu’elle est invisible pour les outils classiques d’automatisation, ce qui rend très compliqué de cliquer sur la croix pour fermer l’onglet. De plus, la taille d’un onglet va dépendre du nombre d’onglets ouverts, rendant le clic par coordonnées encore plus hasardeux.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.png" alt="" width="560" height="89" loading="lazy" decoding="async"></figure>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.png" alt="" width="559" height="83" loading="lazy" decoding="async"></figure>
+
+<p>Pour couronner le tout, le bouton pour fermer tous les onglets d’un coup n’apparait qu’avec un appui long sur la croix de fermeture du premier onglet, le rendant inutilisable pour nous.</p>
+
+<p>La dernière difficulté que peut rencontrer cette méthode est sa maintenance. En effet en mettant à jour l’application, la gestion des onglets peut changer, tout comme l’architecture de l’application, obligeant à modifier régulièrement les scripts d’automatisation.</p>
+
+<p><strong>Solution complète</strong></p>
+
+<p>La solution utilisée chez <strong><a href="../../../ressources/blog/" target="_blank" rel="noopener noreferrer">Greenspector</a></strong> pour nettoyer le navigateur avant nos mesures et nous assurer de la pertinence de nos résultats est la suivante&nbsp;:</p>
+
+<figure><img src="https://blog.greenspector.com/wp-content/uploads/2021/03/clearAllData-min-edited.png" alt="" width="250" height="400" loading="lazy" decoding="async"></figure>
+
+<ul><li><strong>Nettoyer les données de l’application</strong>. Ceci est généralement fait à l’aide de la commande <em>adb shell pm clear PACKAGE_NAME,</em> mais peut aussi être réalisée dans le menu paramètres du téléphone.</li><li><strong>Passer les popups de premier lancement</strong> du navigateur avec l’automatisation.</li></ul>
+
+<p>Une fois ceci effectué, il reste un dernier point qui peut poser problème : certains constructeurs ou opérateurs mobiles affichent une page d’accueil personnalisée sur le navigateur. Pour permettre de comparer des mesures entre plusieurs smartphones, il faut se débarrasser de cette page d’accueil. <strong>Nous avons choisi de désactiver la home page dans les paramètres du navigateur.</strong></p>
+
+<figure><img src="https://blog.greenspector.com/wp-content/uploads/2021/03/homepage-min-edited.png" alt="" width="250" height="250" loading="lazy" decoding="async"></figure>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min.png" alt="" width="250" height="512" loading="lazy" decoding="async"></figure>
+
+<p>Il reste un dernier point concernant cette page d’accueil. En effet celle-ci à été chargée au premier lancement du navigateur et est donc ouverte, ce qui n’est pas pratique pour faire des mesures. Notre solution a été de naviguer vers la page «&nbsp;nouvel onglet&nbsp;» de Chrome à l’url suivante&nbsp;:</p>
+
+<ul><li>«&nbsp;chrome://newtab&nbsp;»</li></ul>
+
+<p>Une fois toutes ces opérations effectuées, votre navigateur est prêt pour réaliser des mesures sans risque d’avoir des conditions existantes pour venir le perturber. </p>
+
+<p>L’idéal est même d’effectuer ce nettoyage aussi à la fin de votre test. De cette manière vous laissez le téléphone prêt à l’emploi pour la personne suivante.</p>
+
+<p><strong>MISE À JOUR</strong> : Pour nos besoins de mesures, nous nous intéressons aux données de performances, d&rsquo;énergie et les données mobiles entre autres. Cette méthode répond parfaitement aux besoins de performances et d&rsquo;énergie, mais ne convient pas pour les données sur le navigateur Chrome. En effet, en réinitialisant le navigateur, Chrome resynchronise automatiquement les données du compte Google, et sur au moins les deux premières minutes d&rsquo;utilisation, il y a des échanges de données liées au compte Google. Se déconnecter du compte Google sur Chrome ou du téléphone ne semble pas régler le problème entièrement. Par conséquent, chez Greenspector, nous n&rsquo;utilisons plus cette méthode pour nettoyer un navigateur. Aucune mesure n&rsquo;a été effectuée sur d&rsquo;autres navigateurs que Chrome permettant de dire que cette méthode n&rsquo;est pas valide sur ceux-ci.</p>
+
+<p>Voila vous savez tout sur la méthode <strong>browserReset</strong>. À bientôt pour un nouveau focus GDSL où je vous ferais découvrir une autre fonctionnalité du langage d&rsquo;automatisation de Greenspector.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

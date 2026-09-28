@@ -1,0 +1,18 @@
+{
+  "id": "blog-poursuite-du-projet-auxylium",
+  "slug": "/ressources/blog/poursuite-du-projet-auxylium/",
+  "template": "html",
+  "meta": {
+    "title": "Auxylium : confiance renouvelée pour la poursuite du projet - Greenspector",
+    "description": "Atos et la DGA renouvellent leur confiance pour la solution et l’expertise Greenspector sur le projet Auxylium.",
+    "keywords": "Actualités",
+    "ogTitle": "Auxylium : confiance renouvelée pour la poursuite du projet",
+    "ogDescription": "Atos et la DGA renouvellent leur confiance pour la solution et l’expertise Greenspector sur le projet Auxylium.",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2020/09/Auxylium-thumbnail-min.png"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "Auxylium : confiance renouvelée pour la poursuite du projet"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>17 septembre 2020</span><span>Actualités</span></div>\n  <div class=\"blog-article__body\">\n    <hr>\n\n<p><strong>La DGA et Atos renouvellent leur confiance dans la solution GREENSPECTOR pour 2020-2021 sur le projet <a href=\"/ressources/etudes-de-cas/\">Auxylium</a>. </strong></p>\n\n<figure><img src=\"/assets/img/external/blog.greenspector.com/2020/09/Auxylium-thumbnail-min.png\" alt=\"auxylium\" loading=\"lazy\" decoding=\"async\"></figure>\n\n<p><strong>Auxylium</strong> est le projet de&nbsp;smartphone qui équipe le militaire en milieu urbain. Il lui permet&nbsp;de faire face à des missions de surveillance et d’interventions notamment dans le cadre de situations ou d’événements majeurs nécessitant le déploiement de forces sur le terrain en France (projet&nbsp;SENTINELLE). Dans ce cadre, la maîtrise de l’énergie avec une bonne performance d’usage pour la meilleure autonomie sur le terrain est un sujet clé pour la bonne réalisation de la mission sans alourdir le matériel du militaire par des batteries annexes.</p>\n\n<p><strong>Greenspector</strong> interviendra ainsi en intégration continue du projet ce qui permettra de mettre sous contrôle par les équipes <strong><a href=\"https://atos.net/fr/succes-clients/auxylium\">Atos</a></strong> la consommation d’énergie et de ressources de l’application.</p>\n\n<p>Des actions de mesure et d’analyse dans les phases précédentes de notre collaboration ont permis de détecter des points de sur-consommations applicatives et&nbsp;ont permis de passer d’une autonomie de 3h à 11h sur les usages principaux.</p>\n\n<a href=\"/ressources/etudes-de-cas/\">Lire l&rsquo;étude de cas</a>\n  </div>\n</div>"
+}

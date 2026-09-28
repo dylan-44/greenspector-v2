@@ -1,0 +1,18 @@
+{
+  "id": "blog-release-note-2-9-0",
+  "slug": "/en/resources/blog/release-note-2-9-0/",
+  "template": "html",
+  "meta": {
+    "title": "What's new? Greenspector release note v.2.9.0 - Greenspector",
+    "description": "The Greenspector team is proud to announce its latest release v.2.9.0. We focused on improving our language for writing automated tests...",
+    "keywords": "Technical Zone",
+    "ogTitle": "What’s new? Greenspector release note v.2.9.0",
+    "ogDescription": "The Greenspector team is proud to announce its latest release v.2.9.0. We focused on improving our language for writing automated tests...",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2021/06/release-note-greenspector-illustration-min.png"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "What’s new? Greenspector release note v.2.9.0"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>June 11, 2021</span><span>Technical Zone</span></div>\n  <div class=\"blog-article__body\">\n    <p><strong>The Greenspector team is proud to announce its latest release v.2.9.0</strong>. </p>\n\n<p>To measure application and website consumption, you can run user journeys on our smartphone farms. In this context, we have improved our simplified test language (GDSL) with, for example, features for preparing browsers but also taking Firefox into account… Unlike many tools that provide you with an environmental impact only on the main page and on simulated environments, these capabilities will allow you to assess and monitor the impact of your digital solution!</p>\n\n<a><h2>NEW FEATURES</h2><p>&#8211; As an automation engineer, I can now use the GDSL browser methods with Firefox (Android only)<br>&#8211; As an automation engineer, I can use some new GDSL methods for iOS testing (<em>waituntiltextgone</em>, swipe) (iOS only)<br>&#8211; As an automation engineer, I want new GDSL browser methods which prepare the browser for the measurement so that I can focus myself on websites measurement (Android only)</p></a>\n\n<a><h2>IMPROVEMENTS</h2><p>&#8211; Improve the GDSL <em>resetBrowser</em> method by configuring chrome to reduce regular data exchanged (Android only)<br>&#8211; Add new unit tests for all GDSL methods interacting with Chrome so that it is easier to expand support for different phones and chrome versions (Android only)<br>&#8211; Increase GDSL default timeout for wait methods and handle errors for find methods (iOS only)<br>&#8211; Add API swagger for existing routes applications (GET, DELETE application), audits (GET), and testbench (POST job, GET job)<br>&#8211; During the execution of a test in iOS device, remove software probe, only use hardware probe to get platform discharge</p></a>\n\n<figure><img src=\"/assets/img/external/blog.greenspector.com/2021/06/RouteAPI1.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"350\" height=\"235\"><figcaption><em>API Swagger for existing routes applications</em></figcaption></figure>\n\n<figure><img src=\"/assets/img/external/blog.greenspector.com/2021/06/Capture-decran-2021-06-10-a-16.55.30-min.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"440\"><figcaption><em>You can now easily switch browser</em></figcaption></figure>\n\n<a><h2>FIXED BUGS</h2><p>&#8211; Fixes and secures GDSL methods interacting with Chrome by adding assertions to guarantee the actions<br>&#8211; Fixes empty points when measuring energy by the hardware probe which prevented the sending of test results</p></a>\n\n<a><h2>IDENTIFIED BUGS</h2><p>&#8211; « Undefined » value that was displayed on the process data metrics on the meter tab of the web interface</p></a>\n  </div>\n</div>"
+}

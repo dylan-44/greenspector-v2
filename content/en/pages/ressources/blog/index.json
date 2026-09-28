@@ -1,0 +1,24 @@
+{
+  "id": "blog-index",
+  "slug": "/ressources/blog/",
+  "template": "blog-index",
+  "meta": {
+    "title": "Blog | Greenspector",
+    "description": "Articles, measurements and analyses on digital sobriety, software eco-design and the environmental impact of digital services.",
+    "keywords": "Greenspector blog, digital sobriety, eco-design, green IT, environmental impact",
+    "ogTitle": "Blog | Greenspector",
+    "ogDescription": "Articles, measurements and analyses on digital sobriety, software eco-design and the environmental impact of digital services."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Blog",
+    "primary": "Greenspector blog",
+    "secondary": "digital sobriety, eco-design, news"
+  },
+  "hero": {
+    "label": "Resources",
+    "title": "Blog",
+    "subtitle": "Measurements, analyses and field notes to design more sober digital services."
+  },
+  "gridLabel": "Greenspector blog articles"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "blog-innovation-greenspector-iphone",
+  "slug": "/ressources/blog/innovation-greenspector-iphone/",
+  "template": "html",
+  "meta": {
+    "title": "Innovation - le premier banc de mesure d'énergie pour iOS est chez Greenspector ! - Greenspector",
+    "description": "Le dispositif de mesure IPhone est désormais prêt à recevoir vos parcours pour vous aider à mieux comprendre vos impacts environnementaux !",
+    "keywords": "Actualités",
+    "ogTitle": "Innovation – le premier banc de mesure d’énergie pour iOS est chez Greenspector !",
+    "ogDescription": "Le dispositif de mesure IPhone est désormais prêt à recevoir vos parcours pour vous aider à mieux comprendre vos impacts environnementaux !",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2024/07/Visuels-articles-Greenspector4.jpg"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "Innovation – le premier banc de mesure d’énergie pour iOS est chez Greenspector !"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>23 juillet 2024</span><span>Actualités</span></div>\n  <div class=\"blog-article__body\">\n    <p>C’est une grande nouvelle que nous vous partageons aujourd’hui mais aussi une innovation mondiale !&nbsp;</p>\n\n<p>Vous saviez déjà tous que chez Greenspector vous pouviez mesurer à distance dans notre device lab, des applications web et mobile Android sur des devices réels, l&rsquo;énergie et les ressources IT consommés sur des parcours utilisateurs.&nbsp;</p>\n\n<p>Vous saviez déjà tous que Greenspector avait la capacité de mesurer les consommations d’énergie et de ressources IT sur des IPhone des applications mobile IOS ou web. Il nous manquait encore une étape cruciale dans notre offre d’éditeur SaaS, &#8230; faire en sorte que cela soit intégré dans notre device lab pour vous rendre autonome !&nbsp;</p>\n\n<p>Eh bien, c’est chose faite, après énormément de R&amp;D, d’amélioration de nos dispositifs d’automatisation pour IOS et de tests de fiabilité de mesure, &#8230; le dispositif de mesure&nbsp; IPhone est désormais prêt à recevoir vos parcours pour vous aider à mieux comprendre les consommations d’énergie et les impacts environnementaux et vous pourrez donc :&nbsp;</p>\n\n<ul>\n<li>Pour toute application web ou IOS (native ou hybride)&nbsp;</li>\n\n<li>Automatiser vos parcours (iso fonction, même langage GDSL qu’Android ou web) </li>\n\n<li>Mesurer sur un Iphone réel sans installation préalable  </li>\n\n<li>Mesurer réellement la consommation d’énergie, de donnée et la performance d’un parcours, étape par étape&nbsp;</li>\n\n<li>Et bien sûr projeter tout cela en termes d’impacts environnementaux multicritères sur l’ensemble du cycle de vie du service numérique mesuré.&nbsp;</li>\n</ul>\n\n<p>Mesurer la consommation d’énergie d’un service numérique sous IOS sur un banc de mesure distant d’appareils réels est tout simplement &#8230; UNIQUE !&nbsp;</p>\n\n<p>Envie de tester la solution sur IPhone? &#8230; Demandez-nous une démo ou directement l&rsquo;accès en démo-test du Saas Greenspector Studio.&nbsp;</p>\n\n<a href=\"/contact/\">Contactez-nous !</a>\n  </div>\n</div>"
+}

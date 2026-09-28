@@ -13,10 +13,14 @@ function pageJsonPath(locale, pagePath) {
   return path.join(ROOT, 'content', locale, 'pages', rel);
 }
 
+function pageLocales(page) {
+  return Array.isArray(page.locales) && page.locales.length ? page.locales : registry.locales;
+}
+
 let errors = 0;
 
 for (const page of registry.pages) {
-  for (const locale of registry.locales) {
+  for (const locale of pageLocales(page)) {
     const jsonPath = pageJsonPath(locale, page.path);
     if (!fs.existsSync(jsonPath)) {
       console.error(`Missing: content/${locale}/pages/${page.path === 'index' ? 'index.json' : `${page.path}.json`}`);
@@ -41,7 +45,7 @@ for (const page of registry.pages) {
 }
 
 for (const locale of registry.locales) {
-  for (const file of ['navigation.json', 'case-studies.json']) {
+  for (const file of ['navigation.json', 'case-studies.json', 'blog.json']) {
     const filePath = path.join(ROOT, 'content', locale, file);
     if (!fs.existsSync(filePath)) {
       console.error(`Missing: content/${locale}/${file}`);

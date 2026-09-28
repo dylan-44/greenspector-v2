@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Mesurer la performance des applications mobiles : monitoring synthétique ou real user monitoring ? - Greenspector</title>
+    <meta name="description" content="La « digitalisation » des entreprises et particulièrement l’offre de plus en plus importante d’applications numériques, rendent le critère de qualité des applications mobiles de plus en plus nécessaire. La performance est dans ce cadre un critère de contrôle obligatoire. Sans cela, les risques sont nombreux pour les concepteurs d’applications : désinstallations, taux d’attrition en hausse, échec […]">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/">
+    <meta property="og:title" content="Mesurer la performance des applications mobiles : monitoring synthétique ou real user monitoring ?">
+    <meta property="og:description" content="La « digitalisation » des entreprises et particulièrement l’offre de plus en plus importante d’applications numériques, rendent le critère de qualité des applications mobiles de plus en plus nécessaire. La performance est dans ce cadre un critère de contrôle obligatoire. Sans cela, les risques sont nombreux pour les concepteurs d’applications : désinstallations, taux d’attrition en hausse, échec […]">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/2019-07-10-thumbnail.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/2019-07-10-thumbnail.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Mesurer la performance des applications mobiles : monitoring synthétique ou real user monitoring ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>9 juillet 2019</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p>La « digitalisation » des entreprises et particulièrement l&rsquo;offre de plus en plus importante d&rsquo;applications numériques, rendent le critère de qualité des applications mobiles de plus en plus nécessaire. La performance est dans ce cadre un critère de contrôle obligatoire. Sans cela, les risques sont nombreux pour les concepteurs d’applications : désinstallations, taux d’attrition en hausse, échec de projet, chiffre d&rsquo;affaires en baisse&#8230;</p>
+
+<p>Mais le fait de <strong>tester la performance des applications mobiles n&rsquo;est pas aussi simple que de tester une application classique</strong> comme en avait l&rsquo;habitude les équipes des DSI. En effet de plus en plus, les applications mobiles sont d&rsquo;une part exécutées dans un environnement contraint (en termes de batterie, ressources&#8230;) et d&rsquo;autre part, elles intègrent des services tiers qui sont complexes à maîtriser. Au final, avec des serveurs répondant en moins de 200ms, <strong>on arrive très souvent à des temps de réponses des applications malheureusement supérieurs à 3s</strong>.</p>
+
+<p>Pour répondre à ce problème, il est important de bien comprendre les méthodes utilisées par les outils de ce marché en constante évolution.</p>
+
+<h2>Outils de monitoring vs outils de développement</h2>
+
+<p>Tester la performance de son application reste possible et accessible, surtout avec les SDK et les IDE de développement (Xcode, Android Studio&#8230;). Pour aller plus loin, de nombreuses solutions sont disponibles en <em>open source</em>. Cependant, cette approche nécessite de lancer des tests manuels sur son téléphone.</p>
+
+<p><strong>Avantages :</strong></p>
+
+<ul><li>Mesure de la performance pendant le développement</li><li>Analyse détaillée possible dès détection d’un problème</li></ul>
+
+<p><strong>Inconvénients :</strong></p>
+
+<ul><li>Mesure assez aléatoire et pas forcément reproductible</li><li>Nécessite un smartphone de test à disposition</li></ul>
+
+<p>Les outils de monitoring permettent d&rsquo;industrialiser la démarche de mesure de la performance en se basant sur des agents qui prennent la place du développeur.</p>
+
+<h2>Outils de monitoring synthétique vs outil de monitoring en usage réel (Real User Monitoring)</h2>
+
+<p>Les <strong>outils de monitoring synthétique</strong> sont des outils qui testent la performance des solutions dans des cas d’usages proches de ceux d&rsquo;un utilisateur. Pour cela, des agents extérieurs stimulent l&rsquo;application dans un environnement soit simulé soit réel (Emulateurs ou fermes de devices). L&rsquo;avantage de cette solution est de surveiller la performance en continu. Cette approche s&rsquo;applique même avant la mise en production de la solution ou avant que les utilisateurs finaux soient présents.</p>
+
+<p><strong>Avantages :</strong></p>
+
+<ul><li>Remontée de la performance avant la mise en production</li></ul>
+
+<ul><li>Mesure en continue pour l’identification des problèmes</li></ul>
+
+<p><strong>Inconvénients :</strong></p>
+
+<ul><li>Simulation pas nécessairement représentative de l&rsquo;usage réel de l&rsquo;application par les utilisateurs finaux</li></ul>
+
+<ul><li>Nécessité d&rsquo;utiliser des devices en continu pour faire tourner le monitoring</li></ul>
+
+<p>Les <strong>outils RUM</strong> remontent la performance réelle des utilisateurs. Cela nécessite l&rsquo;intégration d&rsquo;un agent dans l&rsquo;application. Cette intégration permet la remontée d&rsquo;autres métriques : parcours utilisateur, usages de l&rsquo;application&#8230;</p>
+
+<p><strong>Avantage :</strong></p>
+
+<ul><li>Vision réelle de la performance des applications</li></ul>
+
+<p><strong>Inconvénients :</strong></p>
+
+<ul><li>Impact de l&rsquo;agent sur la performance de l&rsquo;application</li></ul>
+
+<ul><li>Détection trop tardive des problèmes</li></ul>
+
+<ul><li>Trop d&rsquo;informations lors de l&rsquo;analyse des problèmes</li></ul>
+
+<h2>Tests techniques vs tests fonctionnels pour les outils de monitoring</h2>
+
+<p>La simulation de l&rsquo;application dans les outils de monitoring nécessite des tests automatiques. La solution la plus simple à mettre en œuvre repose sur <strong>les tests techniques</strong> : Lancement de l&rsquo;application, ouverture de pages&#8230;</p>
+
+<p><strong>Avantages :</strong></p>
+
+<ul><li>Mise en œuvre immédiate</li></ul>
+
+<ul><li>Tests standards permettent d’identifier facilement des problèmes ou de se comparer avec des applications concurrentes</li></ul>
+
+<p><strong>Inconvénient :</strong></p>
+
+<ul><li>Tests pas forcément adaptés aux spécificités et au fonctionnel de l&rsquo;application</li></ul>
+
+<ul><li>Certains outils proposent d&rsquo;effectuer des tests fonctionnels pour suivre la consommation. Le parcours utilisateur est alors simulé ou réellement effectué. Cela nécessite de scripter les actions de l&rsquo;utilisateur. Généralement les <strong>outils se basent sur des technologies de script standardisés.</strong></li></ul>
+
+<p><strong>Avantages :</strong></p>
+
+<ul><li>Simulation proche du parcours réel de l’utilisateur</li></ul>
+
+<ul><li>Mutualisation des tests développés pour d&rsquo;autres usages (tests fonctionnels par exemple)</li></ul>
+
+<p><strong>Inconvénient :</strong></p>
+
+<ul><li>Nécessité de développer les tests automatiques au préalable</li></ul>
+
+<p><strong>NB</strong> : Des outils permettent de simuler une suite de requête vers les serveurs. Cette pratique issue des technologies serveurs (par exemple Jmeter) permet de tester plus la partie serveur mais est peu adaptée à la mobilité. En effet, elle ne permet pas de prendre en compte la complexité des plateformes mobiles.</p>
+
+<h2>Environnement émulé ou physique</h2>
+
+<p>Les <strong>environnements émulés</strong> (ou virtuels) sont identiques aux émulateurs de développement.</p>
+
+<p><strong>Avantage :</strong></p>
+
+<ul><li>Mise en place assez rapide</li></ul>
+
+<p><strong>Inconvénient :</strong></p>
+
+<ul><li>Performance ne correspondant pas à des devices réels</li></ul>
+
+<p>Les <strong>environnements réels</strong> sont des téléphones mis à disposition par les outils de monitoring.</p>
+
+<p><strong>Avantage :</strong></p>
+
+<ul><li>Performance identique aux devices réels</li></ul>
+
+<p><strong>Inconvénients :</strong></p>
+
+<ul><li>Coûts plus importants</li><li>Difficulté d&rsquo;être représentatif de l’ensemble des devices des utilisateurs.</li></ul>
+
+<h2>Les conseils des experts GREENSPECTOR</h2>
+
+<p><strong>La clé est de <a href="../../../ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/">détecter au plus tôt les problèmes de performance</a> avant qu’ils n’affectent vos utilisateurs finaux</strong>. Il est donc nécessaire d&rsquo;utiliser des outils de monitoring synthétique. Les outils de développement permettront de compléter l&rsquo;analyse des problèmes de performance. Afin d&rsquo;être représentatif de l&rsquo;usage final de l’application, il sera nécessaire de mettre en place la bonne stratégie : tests fonctionnels à minima, exécution sur un <a href="../../../ressources/blog/comment-choisir-les-smartphones-integres-a-vos-campagnes-de-tests/">échantillon représentatif de devices réels d’utilisateurs</a>, simulation de <a href="../../../ressources/blog/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/">différentes conditions de communication</a>&#8230; Les outils RUM permettront de confirmer et compléter les hypothèses.</p>
+
+<p>Les utilisateurs de <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong> ont la possibilité d&rsquo;appliquer cette stratégie via différents modules :</p>
+
+<ul><li><a href="../../../ressources/blog/benchmarker-une-application-sur-le-power-test-cloud/">Monitoring synthétique via le benchmark runner sur les devices réels du Power Test Cloud</a></li><li>Intégration de la mesure de performance dans les tests fonctionnels existants</li><li>Débuggage des problèmes via les <a href="../../../ressources/blog/explorer-manuellement-une-application-avec-le-free-runner-test/">tests exploratoires avec le Free Runner Test</a></li><li>Monitoring en continu lors du build ou du run</li></ul>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Comment analyser le comportement de mon smartphone avec Battery Historian ? - Greenspector</title>
+    <meta name="description" content="Découvrez comment analyser le comportement de votre smartphone et de la batterie grâce à l'outil Battery Historian. Nous vous proposons dans cet article un tutoriel d'usage vous permettant de collecter les insights et informations clés du système de votre mobile">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/">
+    <meta property="og:title" content="Comment analyser le comportement de mon smartphone avec Battery Historian ?">
+    <meta property="og:description" content="Découvrez comment analyser le comportement de votre smartphone et de la batterie grâce à l'outil Battery Historian. Nous vous proposons dans cet article un tutoriel d'usage vous permettant de collecter les insights et informations clés du système de votre mobile">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/battery-historian-miniature-fr.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/battery-historian-miniature-fr.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Comment analyser le comportement de mon smartphone avec Battery Historian ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>24 avril 2018</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p>Chez <a href="../../../ressources/blog/fr/">GREENSPECTOR</a>, nos équipes R&amp;D travaillent depuis plusieurs années sur la mesure d’énergie des smartphones. Plusieurs années de recherche et innovation qui nous permettent aujourd’hui de proposer un produit unique permettant de mesurer simplement les données d’énergie des smartphones. Il existe néanmoins des outils qui permettent de compléter l’analyse du comportement de la batterie et du téléphone. <strong>Battery Historian</strong> en fait partie.</p>
+
+<p><strong><a href="https://github.com/google/battery-historian">Battery Historian</a></strong> est un outil développé par Google, lancé en 2016, qui permet d’analyser le comportement d’un téléphone et plus exactement d’examiner les informations et évènements liés à la batterie. Il s’agit, nous le verrons, d’un outil d’analyse pour expert. Plusieurs métriques et insights sont disponibles : cellules radio, communication… tout cela corrélé au <strong>niveau de batterie</strong>.</p>
+
+<h2>Tutoriel d’usage de Battery Historian</h2>
+
+<p><strong>1)</strong> Dans un premier temps, <strong>installez <a href="https://docs.docker.com/install/linux/docker-ce">Docker</a></strong>. Docker est un logiciel libre qui automatise le déploiement d’applications dans des conteneurs logiciels. Pour ma part, je suis sur <a href="https://ubuntu-fr.org/">Ubuntu</a> donc j’utilise les <strong>scripts d’installation rapide</strong> :</p>
+
+<pre><code>curl -fsSL get.docker.com -o get-docker.sh
+sudo sh get-docker.sh</code></pre>
+
+<p><strong>2)</strong> Depuis votre interface de ligne de commande, <strong>lancez l’image Docker</strong> :</p>
+
+<pre><code>docker run -d -p 9999:9999 bhaavan/battery-historian</code></pre>
+
+<p><strong>3)</strong> Vous pouvez désormais <strong>accéder à Battery Historian depuis l’adresse localhost:9999</strong></p>
+
+<p>Vous devez maintenant récupérer les informations détaillées du système de votre téléphone. Pour cela, vous devez avoir préalablement installé le SDK Android et être passé en mode développeur sur votre téléphone.</p>
+
+<p><strong>4)</strong> <strong>Branchez votre téléphone en USB</strong> à votre PC.</p>
+
+<p><strong>5)</strong> Depuis votre interface de ligne de commande, <strong>récupérez le fichier d’information système du téléphone</strong> avec la commande suivante :</p>
+
+<pre><code>adb bugreport bugreport.zip</code></pre>
+
+<p><strong>6)</strong> Vous pouvez désormais <strong>uploader le fichier</strong> <em>bugreport.txt</em> dans <strong><a href="https://bathist.ef.lc/">Battery Historian</a></strong></p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/battery-historian-upload.png" alt="" width="703" height="240" loading="lazy" decoding="async"></figure>
+
+<p>Vous obtiendrez alors votre analyse :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/battery-historian-graph.png" alt="" width="1024" height="332" loading="lazy" decoding="async"></figure>
+
+<p>Vous pouvez observer <strong>le niveau de batterie sur l’axe de droite</strong> (de 0 à 100%), ce niveau est représenté par la courbe noire. Sur l’axe de gauche et les autres lignes, vous trouverez toutes les autres informations sur les métriques et insights remontés par le système.</p>
+
+<p>En dessous de ce graph, vous retrouverez des <strong>statistiques de toutes les informations sur des applications spécifiques ou informations système de votre téléphone</strong>. Vous permettant une vision d’ensemble de ce qui se passe avec votre device. Vous pourrez par exemple analyser l’impact d’une application particulière sur la batterie au cours de l’usage :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/battery-historian-insights.png" alt="" width="729" height="320" loading="lazy" decoding="async"></figure>
+
+<h2>Notre avis sur Battery historian</h2>
+
+<p><strong>Battery Historian</strong> est un outil puissant qui vous permet d’<strong>analyser le comportement de la batterie</strong> et surtout <strong>comprendre ce qui se passe dans le système</strong>. Mais c’est aussi un outil complexe. Il y a énormément d’informations et il devient vite casse-tête de trouver les causes de la décharge. De plus, l’outil étant basé sur le niveau de batterie, il est nécessaire de laisser tourner un certain temps l’application que vous souhaitez analyser. Il s’agit donc d’un outil utile pour une analyse détaillée du système mais à mettre dans des mains expertes.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

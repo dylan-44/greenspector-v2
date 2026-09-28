@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Comment détecter les problèmes d'énergie et de performance de vos applications mobiles avant vos utilisateurs ? - Greenspector</title>
+    <meta name="description" content="Dans cet article, nous vous expliquons les enjeux et les problématiques d’énergie et de performance de vos applications mobiles, et comment les détecter avant vos utilisateurs. Performance et énergie, critères primordiaux pour les applications mobiles La performance d’une solution numérique est un critère important pour les utilisateurs.Sans performance, les utilisateurs seront critiques et dans le […]">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/">
+    <meta property="og:title" content="Comment détecter les problèmes d’énergie et de performance de vos applications mobiles avant vos utilisateurs ?">
+    <meta property="og:description" content="Dans cet article, nous vous expliquons les enjeux et les problématiques d’énergie et de performance de vos applications mobiles, et comment les détecter avant vos utilisateurs. Performance et énergie, critères primordiaux pour les applications mobiles La performance d’une solution numérique est un critère important pour les utilisateurs.Sans performance, les utilisateurs seront critiques et dans le […]">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/2018-05-15-energy-performance-greenspector.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/2018-05-15-energy-performance-greenspector.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Comment détecter les problèmes d’énergie et de performance de vos applications mobiles avant vos utilisateurs ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>15 mai 2018</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p><em>Dans cet article, nous vous expliquons les enjeux et les problématiques d&rsquo;énergie et de performance de vos applications mobiles, et comment les détecter avant vos utilisateurs.</em></p>
+
+<h2>Performance et énergie, critères primordiaux pour les applications mobiles</h2>
+
+<p><strong>La performance d’une solution numérique est un critère important pour les utilisateurs</strong>.<br>Sans performance, les utilisateurs seront critiques et dans le pire des cas n’utiliseront plus le service. Ce facteur s’est renforcé avec la mobilité, compte-tenu des plateformes moins puissantes et des réseaux avec des caractéristiques inégales. À cela s’est ajoutée la problématique de l’énergie. En effet, il est rare que les plateformes mobiles soient alimentées en continu !</p>
+
+<h2>Détection trop tardive des problèmes d’énergie et de performance</h2>
+
+<p>Avant l’arrivée des smartphones, le respect d’exigence de performance s’était principalement focalisé via des tests de charge côté serveur. Les équipes ont continué cette démarche en ajoutant quelques tests de performance sur des émulateurs ou sur leurs propres téléphones.</p>
+
+<p>Cette démarche permet de détecter quelques problèmes de performance mais est cependant limitée. D’une part, les connexions réseau et les appareils des équipes de développement sont généralement d’un bon niveau et pas assez représentatifs de ceux des utilisateurs finaux ; d’autre part, <strong>la problématique d’énergie n’est jamais prise en compte</strong>. En effet, les tests s’effectuent sur des connexions Wi-fi avec fibre optique et un émulateur tournant sur un poste de développeur puissant. Très loin d’une connexion 2G sur un téléphone reconditionné.</p>
+
+<p>Au final, la solution passe le cap des recettes pour la mise en production mais les retours du terrain sont nombreux. On peut anticiper cela avec les outils de <em>Real User Monitoring</em>, cependant le coût d’analyse des problèmes et de correction est élevé (et ne prend pas en compte les problématiques d’énergie).</p>
+
+<h2>Détecter les problèmes avant la mise en production</h2>
+
+<p>Afin d’améliorer son service numérique mobile, il est donc nécessaire de <strong>détecter le maximum de problèmes avant la mise en production</strong>. Et c’est possible en appliquant une stratégie de test structurée et ciblée qui sera exécutée sur des téléphones de test.</p>
+
+<p>Il est tout d’abord nécessaire d’<strong>identifier les types d’usage principaux de l’application</strong>. Il ne faut pas écarter la possibilité de faire des tests sous excuses de la fragmentation de l’usage. Il faut pour cela simplement <strong>identifier 2 ou 3 types d’utilisateur</strong>&nbsp;: utilisateur avec téléphone dernier cri et connexion 4G, utilisateur en mobilité avec téléphone moyenne gamme, utilisateur en zone blanche avec téléphone reconditionné. Cela permet de mettre en place les plateformes sur lesquelles vous allez tester (ici 3 types de téléphones) ainsi que les connexions (Wi-fi, 3G, 2G).</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2018-05-15-smartphones-uses-fr.png" alt="" width="520" height="244" loading="lazy" decoding="async"></figure>
+
+<p>Ensuite il n’est pas nécessaire de mettre en place des tests qui couvrent 100% de vos fonctionnalités. L’idée est plutôt de contrôler que <strong>l’usage principal de l’application répond bien à des critères acceptables de performance et de consommation d’énergie</strong>, et cela dans tous les paramètres d’exécutions que vous avez définis (Plateforme et connexion).</p>
+
+<h2>La détection avant la mise en production dans GREENSPECTOR</h2>
+
+<p>Les utilisateurs de <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong> appliquent cette stratégie via l’usage de certaines fonctionnalités :</p>
+
+<ul><li>Tests sur des téléphones réels de différentes générations</li><li>Intégration des tests automatisés ou lancement de tests manuels</li><li>Modification des moyens de connexion des devices (Wifi, 2G…)</li><li>Mesure de la performance et de l’énergie de chaque fonctionnalité de l’application</li></ul>
+
+<p>Au final, avant chaque mise en production (voire plus régulièrement), <strong>l’exécution des campagnes de tests ciblés sur des mobiles réels permet de détecter les principales problématiques d’énergie et de performance</strong>.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

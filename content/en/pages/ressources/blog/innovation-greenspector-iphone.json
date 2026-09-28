@@ -1,0 +1,18 @@
+{
+  "id": "blog-innovation-greenspector-iphone",
+  "slug": "/en/resources/blog/innovation-the-first-energy-meter-for-ios-from-greenspector/",
+  "template": "html",
+  "meta": {
+    "title": "Innovation - the first energy meter for iOS from Greenspector! - Greenspector",
+    "description": "Le dispositif de mesure IPhone est désormais prêt à recevoir vos parcours pour vous aider à mieux comprendre vos impacts environnementaux !",
+    "keywords": "News",
+    "ogTitle": "Innovation – the first energy meter for iOS from Greenspector!",
+    "ogDescription": "Le dispositif de mesure IPhone est désormais prêt à recevoir vos parcours pour vous aider à mieux comprendre vos impacts environnementaux !",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2024/07/Visuels-articles-Greenspector5.jpg"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "Innovation – the first energy meter for iOS from Greenspector!"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>July 23, 2024</span><span>News</span></div>\n  <div class=\"blog-article__body\">\n    <p>This is great news we&rsquo;re sharing with you today, but it&rsquo;s also a global innovation!</p>\n\n<p>You all already knew that Greenspector could remotely measure energy and IT resources consumed on real devices in our device lab, web and Android mobile applications.</p>\n\n<p>You all already knew that Greenspector had the ability to measure energy and IT resource consumption on IPhone, IOS or web mobile applications. But we still lacked a crucial step in our SaaS offering… to integrate it into our device lab and make it autonomous for you!</p>\n\n<p>Well, now it&rsquo;s done, after a great deal of R&amp;D, improvements to our automation devices for IOS and testing of measurement reliability, … the IPhone measurement device is now ready to receive your journeys to help you better understand energy consumption and environmental impacts, and you&rsquo;ll be able to ..:</p>\n\n<ul>\n<li>For any web or IOS application (native or hybrid) </li>\n\n<li>Automate your routes (iso function, same GDSL language as Android or web) </li>\n\n<li>Measure on a real Iphone without prior installation  </li>\n\n<li>Measure energy consumption, data and route performance, step by step </li>\n\n<li>And of course, project all this in terms of multi-criteria environmental impacts over the entire life cycle of the digital service being measured. </li>\n</ul>\n\n<p>Measuring the energy consumption of an IOS-based digital service on a bench remote from real devices is quite simply… UNIQUE!</p>\n\n<p>Would you like to test the solution on your IPhone? Ask us for a demo or for direct access to the Greenspector Studio Saas demo-test.</p>\n\n<a href=\"/en/contact/\">Contact us!</a>\n  </div>\n</div>"
+}

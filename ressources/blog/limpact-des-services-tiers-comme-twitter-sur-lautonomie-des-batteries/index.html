@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>L'impact des services tiers comme Twitter sur l'autonomie des batteries - Greenspector</title>
+    <meta name="description" content="Le management de la performance web et du temps de chargement a pris place dans la culture des développeurs web mais également les composants tiers.">
+    <meta name="keywords" content="Sobriété des applications">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/">
+    <meta property="og:title" content="L’impact des services tiers comme Twitter sur l’autonomie des batteries">
+    <meta property="og:description" content="Le management de la performance web et du temps de chargement a pris place dans la culture des développeurs web mais également les composants tiers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-11.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-11.jpg">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>L’impact des services tiers comme Twitter sur l’autonomie des batteries</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>25 janvier 2017</span><span>Sobriété des applications</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p>Depuis des années déjà, les <strong>développeurs web</strong>savent que les <strong>composants tiers</strong>sont susceptibles d’avoir <strong>un impact négatif sur la performance des sites internet</strong>. <strong><a href="https://www.linkedin.com/in/stevesouders">Steve Souders</a></strong>a publié en 2010 un <strong><a href="http://stevesouders.com/p3pc/">article de blog</a></strong>à ce propos, mentionnant des <strong>composants tiers</strong>comme ceux de <strong><a href="https://twitter.com/?lang=fr">Twitter</a></strong>ou encore <strong><a href="../../../ressources/blog/facebook-lite-sauve-t-il-la-batterie-de-votre-smartphone/">Facebook</a></strong>. Suite à ça, beaucoup d’influenceurs ont écrit sur le sujet.</p>
+
+<p>En effet, ces dernières années le management de la <strong>performance web</strong> et du <strong>temps de chargement</strong> a pris place dans la culture des <strong>développeurs web</strong>. L’intégration des <strong>composants tiers</strong>, quant à elle, s’est développée encore plus rapidement dans le but de :</p>
+
+<ul>
+<li>aider les entreprises à comprendre <strong>le comportement des utilisateurs</strong> (analytics, A/B testing, RUM…),</li>
+
+<li>générer du contenu dynamique (social media plug-ins…),</li>
+
+<li>intégrer un contenu externe riche (cartes, services…),</li>
+
+<li>générer des revenus (tracking, publicités…),</li>
+
+<li>…etc (insérez votre préférence personnelle ici).</li>
+</ul>
+
+<p>Aujourd’hui, <strong>les applications mobiles et pages Internet</strong> (tout du moins celles basées sur une architecture hybride comme <strong><a href="../../../ressources/blog/quel-est-le-cout-memoire-dune-application-cordova/">Cordova</a></strong>, <strong>Xamarin</strong> ou encore <strong>Ionic</strong>) <strong>sont pour la plupart agrémentées de ces services</strong>. Certaines pages web vont même jusqu’à intégrer <strong>plus de 50%</strong> de <strong>composants tiers</strong> et scripts. <strong><a href="http://requestmap.webperf.tools/">RequestMap</a></strong> permet d’en avoir une vision précise, voyez par vous-même en indiquant un url sur leur outil <strong>Webperf</strong>. Et là, on ne parle même pas des 4ème et 5ème niveaux.</p>
+
+<p>Cependant, <strong>plusieurs problèmes sont liés à ce phénomène</strong> ; notamment en ce qui concerne la <strong>performance</strong>, la <strong>sécurité</strong> ou encore la <strong>consommation d’énergie</strong>, qui impacte l’<strong>autonomie de la batterie de l’appareil</strong>. Vous vous dites peut être que les PC ne fonctionnent pas sur batteries, mais il est important de rappeler que nous sommes en 2017 et aujourd’hui <strong>60%</strong> du trafic internet est généré par appareil mobile. Lorsqu’un utilisateur charge une page ou une application contenant des <strong>composants tiers</strong>, il utilisera <strong>ses précieuses ressources</strong> (batterie, data, CPU…) plus rapidement ; ce que, en tant que développeur ou propriétaire d’un site web ou d’un appli, vous souhaitez éviter!</p>
+
+<h2>La timeline Twitter</h2>
+
+<p>Rien ne vaut un exemple concret, et aujourd’hui nous vous présentons notre propre cas !</p>
+
+<p>Supposons que vous êtes en train de <strong>créer la page d’accueil</strong> du <strong>site Internet</strong> de votre <strong>start-up</strong>. Comme votre entreprise possède un compte <strong>Twitter</strong>, l’équipe marketing souhaite en tirer profit et partager les infos avec les visiteurs du site. En toute logique, la prochaine étape est donc l’automatisation du marketing, se basant sur les dernières tendances d’ « <strong><a href="https://fr.wikipedia.org/wiki/Inbound_Marketing">inbound marketing</a></strong> » (ou marketing entrant).<br>Le composant timeline de <strong>Twitter</strong> est donc super intéressante vu qu’elle diffuse en instantané vos dernières infos sur la page d’accueil de votre site. Jusque-là, génial.</p>
+
+<figure><img src="https://blog.greenspector.com/assets/img/articles/2017-01-25-article-Third-party-01.png" alt="Tweets" loading="lazy" decoding="async"></figure>
+
+<p>En plus, l’intégration est plutôt simple à faire et paramétrer :</p>
+
+<pre><code>&lt;a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776"&gt;National Park Tweets - Curated tweets by TwitterDev&lt;/a&gt;
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</code></pre>
+
+<p>Il est important de rappeler que plusieurs types d’un même plug-in permettent une intégration facile dans n’importe quel CMS mainstream.<br>Le ver est dans le fruit donc, mais à quel point est-ce mauvais ? C’est ce que nous avons ensuite voulu évaluer.</p>
+
+<h2>Ajoutons les chiffres</h2>
+
+<p>J’aime mesurer, comme beaucoup d’autres ingénieurs. Si vous avez les bons outils, mesurer <strong>la dépense énergétique</strong> d’un <strong>composant</strong> est plutôt simple.</p>
+
+<p>De mon côté, j’utilise le service <strong><a href="../../../ressources/blog/benchmarker-une-application-sur-le-power-test-cloud/">Power Test Cloud</a></strong> de <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong> – mais bon je l’admets, mon choix est biaisé, c’est moi qui l’ai construit. Le <strong>Test Cloud</strong> permet aux développeurs de <strong>mesurer</strong> la <strong>consommation énergétique</strong> de <strong>leur application ou site internet en un clic</strong>. OK pas littéralement un seul clic, mais vous voyez l’idée, très peu d’effort. Les tests se déroulent sur appareils mobiles réels, un point important si vous souhaitez récupérer les valeurs de la <strong>consommation énergétique</strong>. Les dispositifs virtuels fonctionnent pareil, cependant ce ne seront pas des valeurs réelles qui en ressortent.</p>
+
+<p>Le test scenario est préétabli et standardisé, ce qui permet de comparer les résultats. Cela consiste en un chargement initial de la page web, réglé pour vingt secondes, suivi par une période idle de vingt secondes également. J’ai choisi de faire les tests sur <strong>Google Nexus 6</strong> et de répéter la procédure cinq fois afin d’avoir des valeurs moyennes. Les métriques utilisées pendant les tests sont toutes celles dont vous avez besoin pour mieux comprendre ce qu’il se passe : énergie, CPU (navigateur), CPU (général), mémoire et données.</p>
+
+<h2>La mesure de la consommation énergétique</h2>
+
+<p>Après quelques minutes, voici les résultats que nous avons eus :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-01.png" alt="" width="785" height="593" loading="lazy" decoding="async"></figure>
+
+<p>Ce graphique montre trois données intéressantes :</p>
+
+<ul>
+<li>La <strong>consommation de référence</strong> est de 100 μAh/s, cela est représenté par la ligne grise. Par définition, la « consommation de référence » est la <strong>consommation énergétique</strong> de l’appareil sans aucun site web chargé : ici on mesure l’OS et le navigateur Chrome vide.</li>
+
+<li>La <strong>consommation énergétique</strong> est de 134 μAh/s pendant le chargement (colonne orange de gauche).</li>
+
+<li>La <strong>consommation énergétique</strong> est de 106 μAh/s pendant la période d’idle (colonne orange de droite).</li>
+</ul>
+
+<p><strong>Alors, que donnent ces chiffres?</strong> Eh bien, ils ne sont pas si grands figurez-vous. Si l’on jette un œil au ratio de l’impact relatif (que nous définissons comme ceci : « consommation énergétique pendant le temps de chargement » / « consommation de référence ») cela représente <strong>+34%</strong>, tandis que certains sites internet peuvent dépasser <strong>+300%</strong>. Quand on regarde alors les impacts que cela a sur l’autonomie de la <strong>batterie de l’appareil</strong> (on considère que le site web est affiché en continu), on s’aperçoit que cela est plutôt bon mais que cela peut être amélioré et que les données ne sont pas à négliger.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-02.png" alt="" width="1024" height="537" loading="lazy" decoding="async"></figure>
+
+<h2>Un peu de soustractions maintenant</h2>
+
+<p>Nous avons donc vu les résultats pour le site internet avec la timeline <strong>Twitter</strong> intégrée. En amont, nous avions conduit la même batterie de tests pour <strong>la version du site sans le composant intégré</strong>. A ce moment, la consommation pendant le chargement était de <strong>124 μAh/s</strong>. Cela signifie donc que le composant seul augmente la consommation de <strong>+10 μAh/s</strong> (soit +8%), ce qui se traduit par une <strong>perte d’autonomie</strong> de <strong>47 minutes pour l’appareil</strong>.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-03.png" alt="" width="419" height="191" loading="lazy" decoding="async"></figure>
+
+<p>Si l’on regarde de plus près, on s’aperçoit que la phase en idle est aussi touchée. Sans le composant, le site web est inactif, comme le montre le niveau de consommation qui ne dépasse pas la ligne de référence. Et souvenez-vous, avec <strong>le composant tiers</strong>, la phase idle montrait des signes d’activité :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-04.png" alt="" width="1024" height="525" loading="lazy" decoding="async"></figure>
+
+<p>En effet, le composant timeline Twitter génère des requêtes de réseau, entraînant une <strong>consommation d’énergie</strong>. Ce que confirme le graph CPU du navigateur :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-05.png" alt="" width="749" height="133" loading="lazy" decoding="async"></figure>
+
+<p>Sans le composant, la phase idle n’est polluée par aucune requête de réseau.</p>
+
+<h2>Explications</h2>
+
+<p>Si l’on regarde plus en détail le « <strong>network waterfall</strong> » on peut trouver plein de requêtes. En premier vient le script <strong>Twitter</strong>, puis viennent ensuite les polices, les images…</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-06.png" alt="" width="1024" height="457" loading="lazy" decoding="async"></figure>
+
+<p>Sur <strong>58 requêtes</strong>, <strong>40</strong> viennent du <strong>composant Twitter</strong>, soit près de <strong>80%</strong> ! L’illustration <strong>Request Map</strong> aide à comprendre davantage cet impact :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07.png" alt="" width="1024" height="689" loading="lazy" decoding="async"></figure>
+
+<p>La majorité de la <strong>consommation énergétique</strong> est due aux <strong>requêtes suivantes</strong> : résolutions dns, transfert de données, traitement cpu, « screen painting » du navigateur.</p>
+
+<h2>Y’a-t-il une échappatoire ?</h2>
+
+<p>Le <strong>composant</strong> timeline <strong>Twitter</strong> possède <strong>une caractéristique particulière</strong>. Il est en effet possible de <strong>limiter l’affichage à un nombre spécifique</strong>, entre <strong>1</strong> et <strong>20</strong>. Pour faire cela, il suffit d’insérer l’attribut data-tweet-limit dans le HTML.</p>
+
+<pre><code>&lt;a class="twitter-timeline"
+  href="https://twitter.com/TwitterDev"
+  data-tweet-limit="3"&gt;
+Tweets by @TwitterDev
+&lt;/a&gt;</code></pre>
+
+<p>Il y aura donc moins de requêtes de photos, mais aussi moins de « painting » sur la page web. Si l’on fixe ce paramètre à 3 et relançons une série de mesures, la consommation sera de 129 μAh/s, ce qui représente une réduction de 5 μAh/s par rapport au cas de timeline « classique ».</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-08.png" alt="" width="1024" height="453" loading="lazy" decoding="async"></figure>
+
+<p>Maintenant, quand on retourne au « network waterfall », cela se présente mieux :</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-09-1024x712.png" alt="" width="1024" height="712" loading="lazy" decoding="async"></figure>
+
+<p>Le nombre de requêtes a été réduit à 25 et la période de chargement est passée de 1.22s à 0.72s (pour information, sans le composant ce délai était de 0.36s).</p>
+
+<h2>Que faire maintenant ?</h2>
+
+<p>Ces 5 μAh/s sont-ils acceptables ? Désolé, pas de réponse absolue ici ! Cela va en fait dépendre de vos propres choix ainsi que de l’équilibre que vous souhaitez avoir entre : <strong>caractéristiques</strong>, <strong>expérience utilisateur</strong>, <strong>temps de chargement</strong> et <strong>consommation énergétique</strong>. Mais au moins maintenant vous pouvez prendre la <strong>consommation énergétique</strong> en compte.</p>
+
+<p>La dépense énergétique de la version plus light de la <strong>timeline Twitter</strong> est de <strong>0.11 mAh</strong>, pour un « budget » global de <strong>1.05 mAh</strong> pour le chargement (un article sur le sujet est à venir !). Chez <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong>, quand on a compris ça, nous avons décidé de <strong>réduire l’impact du site internet</strong> ainsi que de <strong>diminuer le nombre de tweets affichés</strong> à seulement 2.</p>
+
+<p>Mais je vous l’accorde, notre équipe marketing comprend les enjeux liés, ce qui peut ne pas être le cas dans toutes les entreprises. Par ailleurs, il est important de signaler que la <strong>consommation énergétique</strong> de l’utilisateur n’est pas l’unique critère, gardez en tête que toutes les requêtes ont des impacts sur l’infrastructure du réseau et des serveurs. <strong>Moins c’est élevé, mieux c’est</strong>.</p>
+
+<p><strong>Nota Bene</strong> : une solution encore meilleure pour garder la <strong>timeline Twitter</strong> serait de <strong>générer le contenu au niveau du serveur</strong>, le mettre en cache et l’envoyer en tant que donnée statique uniquement. De cette manière, l’utilisateur télécharge seulement le contenu depuis votre serveur (avec une effet-secondaire de 4 résolutions DNS en moins, par exemple). Facile à faire pour vous, devs de chez Ruby on Rails.</p>
+
+<p>Donc, <strong>OUI, les services tiers ont un impact important sur l’autonomie d’une batterie</strong><br>Avec cette étude de cas – qui nous est arrivée il y a quelques semaines seulement – nous confirmons, les services tiers, tels que la timeline Twitter, ont en effet un <strong>réel impact sur la consommation énergétique de nos appareils</strong>.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-10.png" alt="" width="1024" height="354" loading="lazy" decoding="async"></figure>
+
+<p>Dans un post précédent, nous essayions d’expliquer « <strong><a href="../../../ressources/blog/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/">pourquoi devriez-vous mesurer la consommation énergétique de votre logiciel</a></strong> ». Nous voyons ici que la mesure permet d’<strong>évaluer facilement les impacts</strong> d’un <strong>service tiers</strong>. Pour le cas de la timeline Twitter, l’impact n’est pas négligeable, et de nombreux autres <strong>composants tiers</strong> auraient le même. L’importance de cet impact peut donc rapidement devenir gênant pour vos utilisateurs, particulièrement si ils ont besoin d’un accès rapide à votre contenu mais n’ont pas une bonne connexion WiFi ou à un réseau 4G/LTE.<br>Donc quelle est l’étape suivante ? Je dis souvent que lorsque l’on veut mettre en place un plan de mesure au moment où l’on fait face à des problèmes de performance, c’est déjà trop tard. Un conseil ? Gardez cette consommation sous contrôle : mesurez maintenant, mesurez demain, et bien, mesurez chaque version de votre application… Vérifiez les tendances et creusez si cela vous paraît bizarre. Ne vous inquiétez pas, c’est plus simple que ce que vous pensez. <strong>Petits chanceux, un article sur <a href="../../../ressources/blog/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/">la mesure continue</a> est à votre disposition</strong> !</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "id": "blog-ugap",
+  "slug": "/ressources/blog/ugap/",
+  "template": "html",
+  "meta": {
+    "title": "Expertise et Solution Greenspector accessibles à la commande publique via l'UGAP - Greenspector",
+    "description": "Greenspector a été retenu comme sous-traitant des marchés pour intégrer la dimension d’éco-responsabilité au bénéfice des acteurs publics.",
+    "keywords": "Actualités",
+    "ogTitle": "Expertise et Solution Greenspector accessibles à la commande publique via l’UGAP",
+    "ogDescription": "Greenspector a été retenu comme sous-traitant des marchés pour intégrer la dimension d’éco-responsabilité au bénéfice des acteurs publics.",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2020/11/UGAP_thumbnail-min.png"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "Expertise et Solution Greenspector accessibles à la commande publique via l’UGAP"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>23 novembre 2020</span><span>Actualités</span></div>\n  <div class=\"blog-article__body\">\n    <hr>\n\n<figure><img src=\"/assets/img/external/blog.greenspector.com/2020/11/logo-ugap-min.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"200\"></figure>\n\n<p>Dans un contexte législatif (Projet de loi visant à réduire l&rsquo;impact du numérique en cours de discussion) où les organisations publiques doivent montrer une exemplarité en terme de numérique responsable, l’<a href=\"https://www.ugap.fr/\">UGAP</a> qui permet aux organisations publiques de faciliter l’achat hors marché intègre de plus en plus la dimension environnementale dans les offres de services et produit et notamment dans le domaine du Numérique. En amont, elle intègre dans le sourcing des offres du marché des critères de choix responsables permettant à la fois de mieux servir ses clients sur l’éco-responsabilité des produits et services mais aussi de faciliter l’accès des PME à la commande publique.</p>\n\n<p>C’est dans ce contexte et dans le cadre du renouvellement des offres de services sur le numérique, que <a href=\"/ressources/blog/fr/\">Greenspector</a><strong> a été retenu comme sous-traitant des marchés pour les 3 lots MOE, AMO, et Conseil pour intégrer la dimension d’éco-responsabilité au bénéfice des acteurs publics. </strong>Greenspector peut ainsi intervenir très en amont pour réaliser des diagnostics et des mesures pour identifier des cas d’usages très impactants en terme de ressources, d’énergie et au final d’impacts environnementaux, ou accompagner des projets dans le pilotage <a href=\"/ressources/blog/fr/marches-publics-classement/\">d’exigence d’éco-responsabilité</a>&nbsp;numérique, &nbsp;aux côtés de la MOA et de l’AMO ou dans l’intégration de bonnes pratiques d’architecture technique, de développement, et de mesure en continue aux côtés de votre MOE. &nbsp;</p>\n\n<p>La solution Greenspector en tant que solution d’édition est également au catalogue de l’UGAP sur le marché multi-éditeurs. Greenspector et Bearing Point se sont associés pour proposer une première offre conseil dans le cadre du marché UGAP pour <a href=\"https://www.ugap.fr/audit-si-mesurer-et-reduire-limpact-environnemental-des-services-numeriques_4550913.html\">répondre aux enjeux d&rsquo;éco-responsabilité d&rsquo;un service numérique</a>.</p>\n  </div>\n</div>"
+}

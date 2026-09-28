@@ -1,0 +1,18 @@
+{
+  "id": "blog-project-auxylium-continuation",
+  "slug": "/en/resources/blog/project-auxylium-continuation/",
+  "template": "html",
+  "meta": {
+    "title": "Auxylium: renewed trust for the continuation of the project - Greenspector",
+    "description": "Atos and the DGA renew their confidence in the Greenspector solution and expertise on the Auxylium project.",
+    "keywords": "News",
+    "ogTitle": "Auxylium: renewed trust for the continuation of the project",
+    "ogDescription": "Atos and the DGA renew their confidence in the Greenspector solution and expertise on the Auxylium project.",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2020/09/Auxylium-thumbnail-min.png"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "Auxylium: renewed trust for the continuation of the project"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>September 17, 2020</span><span>News</span></div>\n  <div class=\"blog-article__body\">\n    <hr>\n\n<p><strong>The DGA and Atos renew their confidence in the GREENSPECTOR solution for 2020-2021 on the <a href=\"/en/resources/blog/resources/success-stories/dga-atos-app-scan/\">Auxylium</a> project.</strong></p>\n\n<figure><img src=\"/assets/img/external/blog.greenspector.com/2020/09/Auxylium-thumbnail-min.png\" alt=\"auxylium\" loading=\"lazy\" decoding=\"async\"></figure>\n\n<p><strong>Auxylium</strong> is the smartphone project that equips the military in urban areas. It enables it to cope with surveillance and intervention missions, particularly in the context of major situations or events requiring the deployment of forces on the ground in France (SENTINELLE project). In this context, energy control with good usage performance for the best autonomy in the field is a key subject for the successful completion of the mission without weighing down the military&rsquo;s equipment with additional batteries.</p>\n\n<p><strong>Greenspector</strong> will thus be involved in the continuous integration of the project, which will allow <strong>Atos</strong> teams to control the energy and resource consumption of the application.</p>\n\n<p>Measurement and analysis actions in the previous phases of our collaboration made it possible to detect points of application over-consumption and made it possible to go from 3 hours to 11 hours of autonomy on the main uses.</p>\n\n<a href=\"/en/resources/blog/resources/success-stories/dga-atos-app-scan/\">Read the success story</a>\n  </div>\n</div>"
+}

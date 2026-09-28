@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Comment est calculé l’écoscore dans le cas d’un benchmark web ou mobile ? - Greenspector</title>
+    <meta name="description" content="Afin d’évaluer les impacts environnementaux des sites, Greenspector dispose de plusieurs modes opératoires. Le plus simple à mettre en place est le benchmark web.">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/">
+    <meta property="og:title" content="Comment est calculé l’écoscore dans le cas d’un benchmark web ou mobile ?">
+    <meta property="og:description" content="Afin d’évaluer les impacts environnementaux des sites, Greenspector dispose de plusieurs modes opératoires. Le plus simple à mettre en place est le benchmark web.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2022/11/calcul-ecoscore.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2022/11/calcul-ecoscore.jpg">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Comment est calculé l’écoscore dans le cas d’un benchmark web ou mobile ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>22 novembre 2022</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <p>Dans cet article, nous allons voir plus en détail comment est calculé l’écoscore dans le cas d’un benchmark web réalisé par Greenspector. &nbsp;</p>
+
+<p><strong>Et dans les autres cas ?&nbsp;</strong></p>
+
+<p>Comme vous le savez peut-être déjà, Greenspector réalise également des mesures sur applications mobiles. Dans le cas des applications Android, il est possible de réaliser facilement un benchmark. On reste sur une méthodologie standard : mesures sur les étapes de chargement, pauses et référence. L’écoscore est là aussi calculé à partir des écoscores Réseau et Ressources Client. La seule différence notable est que la mise en œuvre des bonnes pratiques n’est pas contrôlée automatiquement et n’entre donc pas dans le calcul. &nbsp;</p>
+
+<p>Aussi, dans certains cas, il est plus judicieux de mesurer directement un parcours utilisateur afin d’être au plus près du comportement du site dans ses conditions réelles d’utilisation. Que ce soit dans le cas du web ou d’une application mobile, Greenspector réalise les mesures (toujours sur terminaux utilisateurs réels) après automatisation du parcours (via <a href="../../../ressources/blog/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/" target="_blank" rel="noopener noreferrer">le langage GDSL</a>). L’écoscore est ensuite établi à partir des métriques représentées via 3 écoscores : Données mobiles, Performance et Energie.</p>
+
+<h2>Qu’est-ce qu’un benchmark web ?&nbsp;</h2>
+
+<p>Afin d’évaluer les impacts environnementaux des sites web, Greenspector dispose de plusieurs modes opératoires et outils. Le plus simple à mettre en place est le benchmark web. Cette méthodologie standard permet de mesurer n’importe quelle page web et de la comparer avec d’autres pages.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/11/test-bench-device.jpg" alt="" width="500" height="333" loading="lazy" decoding="async"><figcaption>Notre Test Bench</figcaption></figure>
+
+<p>Les mesures sont effectuées sur un smartphone réel disponible sur notre banc de test, le plus souvent en WIFI (même si d’autres modes de connexion, type 3G ou 4G par exemple, sont possibles) et avec le navigateur Chrome. &nbsp;</p>
+
+<p>Une telle mesure dure 70 secondes et inclut : &nbsp;</p>
+
+<ul><li>Le chargement de la page&nbsp;</li><li>Une étape de pause avec la page affichée au premier plan&nbsp;</li><li>Une étape de pause avec la page affichée à l’arrière-plan&nbsp;</li><li>Le scrolling sur la page&nbsp;</li></ul>
+
+<p>A ceci s’ajoute une mesure de référence sur un onglet vide de Chrome. &nbsp;</p>
+
+<p>Plusieurs itérations de mesure sont réalisées afin de s’assurer de leur stabilité.&nbsp;</p>
+
+<p>On récupère ainsi des métriques sur les données transférées mais aussi l’impact sur le terminal de l’utilisateur et en particulier sur la décharge de la batterie. En plus de cela, la bonne mise en œuvre d’une trentaine de bonnes pratiques est vérifiée automatiquement. &nbsp;</p>
+
+<p>Ensuite, les indicateurs environnementaux sont calculés en tenant compte quand c&rsquo;est possible des statistiques réelles d’utilisation de la page. <a href="../../../ressources/blog/fr/methodologie-calcul-empreinte-environnementale/" target="_blank" rel="noopener noreferrer">Vous trouverez davantage d’informations à ce sujet dans la page dédiée sur le blog Greenspector</a>.&nbsp;</p>
+
+<p>Une fois toutes ces informations disponibles, il devient facile de comparer différentes pages web, qu’elles soient ou non sur le même site. C’est ce mode opératoire qui est utilisé notamment dans le cadre des classements de sites proposés sur ce blog mais aussi à la demande d’un client afin d’établir un état des lieux sur un ou plusieurs de ses sites web et de proposer un plan d’action. Ce peut aussi être un moyen de construire un benchmark concurrentiel permettant de se positionner par rapport à un échantillon de sites similaires. &nbsp;</p>
+
+<p>Vous pouvez d’ores et déjà avoir un aperçu de tout ceci via le <a href="https://mobile-efficiency-index.com/en/" target="_blank" rel="noopener noreferrer">Mobile Efficiency Index</a> (MEI) mis à disposition par Greenspector afin d’évaluer gratuitement l’impact d’une page web. &nbsp;</p>
+
+<p>Il ne nous reste pour l&rsquo;heure qu’à voir comment est calculé l’écoscore dans le cadre d’un benchmark web. &nbsp;</p>
+
+<h2>Calcul de l’écoscore pour un benchmark web&nbsp;</h2>
+
+<p>Tout d’abord, l’écoscore établi pour une page web est la moyenne de deux valeurs : &nbsp;</p>
+
+<ul><li>Un écoscore Ressources Client qui reflète la façon dont les ressources client sont gérées du point de vue de la sobriété lors de l’accès à cette page </li><li>Un écoscore Réseau qui reflète la sollicitation du réseau (et des serveurs)</li></ul>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/12/final.png" alt="" width="484" height="336" loading="lazy" decoding="async"></figure>
+
+<h2>Ecoscore Ressources Client</h2>
+
+<p>L’écoscore Client repose sur 12 contrôles effectués sur les métriques directement récupérées sur le terminal utilisateur (et collectées via son système d’exploitation). Celles-ci concernent entre autres les données transférées mais aussi la décharge de la batterie, le CPU et la mémoire. Pour chacune, 4 à 5 seuils sont définis afin de déterminer les valeurs acceptables. En fonction de ces seuils, une note est calculée. Les notes pour l’ensemble des métriques sont ensuite agrégées afin de calculer l’Ecoscore Client.&nbsp;&nbsp;</p>
+
+<p>Par exemple :&nbsp;</p>
+
+<ul><li>La note maximale concernant les données transférées lors du chargement de la page ne pourra être obtenue que si leur poids total est inférieur à 500 ko&nbsp;</li><li>Pour la décharge de la batterie, on compare à celle mesurée lors de l’étape de référence décrite précédemment&nbsp;</li></ul>
+
+<p>Les seuils utilisés sont définis via une base de mesures afin de pouvoir, en fonction de la répartition statistique des mesures précédemment obtenues, déterminer les seuils attendus.</p>
+
+<h2>Ecoscore Réseau</h2>
+
+<p>Aujourd&rsquo;hui, la méthodologie Greenspector repose sur des mesures uniquement réalisées sur des terminaux utilisateurs réels. En conséquence, la définition de l’écoscore Réseau est légèrement différente. Elle repose sur deux éléments :&nbsp;&nbsp;</p>
+
+<ul><li>La comparaison des métriques liées au transfert de données avec des seuils définis de façon similaire à ceux utilisés pour le calcul de l’écoscore Client&nbsp;</li><li>La vérification automatique de la mise en œuvre d’une trentaine de bonnes pratiques&nbsp;</li></ul>
+
+<p>Ainsi, par exemple, on s’assure que les ressources textuelles sont bien compressées côté serveur, que les images ne sont pas retaillées dans le navigateur et qu’il n’y a pas plus de 25 requêtes HTTP en tout. Il s’agit donc ici de bonnes pratiques techniques (plutôt orientées efficience) que l’on retrouve dans la plupart des référentiels de bonnes pratiques d’écoconception ou de conception responsable de services numériques.</p>
+
+<h2>Conclusion</h2>
+
+<p>Tous ces éléments font du benchmark web un procédé très efficace pour évaluer les impacts d’une page web et la comparer avec d’autres pages web. Il s’agit aussi d’un excellent moyen d’amorcer une analyse plus poussée, notamment en regardant en priorité les pages les plus impactantes d’un site. Dans certains cas, il sera d’ailleurs plus judicieux de commencer par les pages les moins impactantes. Un défaut de conception sur une page plus impactante lui sera souvent propre alors que, sur une page moins impactante, il sera souvent commun à l’ensemble des pages.&nbsp;&nbsp;</p>
+
+<p>Le benchmark web, entre autres via le calcul de l’écoscore, illustre une fois de plus la nécessité d’utiliser à la fois des mesures et des bonnes pratiques dans une démarche de réduction des impacts environnementaux d’un service numérique.&nbsp;&nbsp;</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

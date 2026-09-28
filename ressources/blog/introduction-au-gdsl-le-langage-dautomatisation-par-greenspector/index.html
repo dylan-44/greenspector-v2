@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Introduction au GDSL : le langage d'automatisation par Greenspector - Greenspector</title>
+    <meta name="description" content="Le GDSL est un langage créé par Greenspector pour simplifier l’automatisation de test sur Android et iOS et le seul qui vous permet de mesurer les performances et l’impact environnemental de votre application ou site web.">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/">
+    <meta property="og:title" content="Introduction au GDSL : le langage d’automatisation par Greenspector">
+    <meta property="og:description" content="Le GDSL est un langage créé par Greenspector pour simplifier l’automatisation de test sur Android et iOS et le seul qui vous permet de mesurer les performances et l’impact environnemental de votre application ou site web.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2021/06/GDSL_thumbnail-min.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2021/06/GDSL_thumbnail-min.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Introduction au GDSL : le langage d’automatisation par Greenspector</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>21 juin 2021</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <h2><strong>Qu’est-ce que le GDSL</strong>&nbsp;?</h2>
+
+<p>Le terme GDSL signifie&nbsp;<em>Greenspector&nbsp;Domain-Specific&nbsp;Language</em>. Il s’agit d’un langage&nbsp;créé&nbsp;par&nbsp;<a href="../../../ressources/blog/" target="_blank" rel="noopener noreferrer">Greenspector</a>&nbsp;pour simplifier l’automatisation de test sur&nbsp;Android&nbsp;et iOS. Concrètement&nbsp;c&rsquo;est&nbsp;une surcouche basée&nbsp;sur les&nbsp;<em>frameworks</em>&nbsp;d’automatisation de Google et d’Apple&nbsp;agrémentée&nbsp;de fonctions pour faciliter l’automatisation de test.&nbsp;</p>
+
+<p>Ce langage est le fruit de l’expertise&nbsp;Greenspector&nbsp;accumulée depuis plusieurs années déjà. Il combine la simplicité d’écriture à la possibilité de mesurer les performances énergétiques&nbsp;d&rsquo;une application ou d’un site internet.&nbsp;</p>
+
+<p>Le principe du GDSL est d’être un langage de description des actions qui seront effectuées sur le smartphone. En ce sens il peut être rapproché du <a href="https://cucumber.io/docs/gherkin/" target="_blank" rel="noopener noreferrer">Gherkin</a> avec qui il partage la qualité de ne pas nécessiter de formation de développeur pour être lu.</p>
+
+<p>Le GDSL est une suite d’actions&nbsp;qui seront exécutées&nbsp;dans l’ordre par le&nbsp;smartphone. Il dispose des actions basiques que sont les <em>WAIT</em>, <em>CLICK</em> ou encore <em>PAUSE</em> ainsi que d’actions plus complexes comme le lancement d’application ou la gestion&nbsp;du GPS.&nbsp;</p>
+
+<p>Avec le GDSL il est possible d’automatiser&nbsp;rapidement&nbsp;la plupart des parcours critiques&nbsp;de vos applications ou site web mobile.&nbsp;</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/06/Preview_GDSL-min.png" alt="" width="646" height="701" loading="lazy" decoding="async"></figure>
+
+<h3>La syntaxe du GDSL</h3>
+
+<p>Voici une ligne de&nbsp;GDSL:&nbsp;</p>
+
+<p><strong>waitUntilText,identifiants,10000</strong></p>
+
+<p>Le premier élément, en vert (waitUntilText), est le <strong>nom de la méthode</strong>. En général elle sera en anglais et explicite. Ici on va attendre un texte.&nbsp;Les principales actions de <em>WAIT</em> et de <em>CLICK</em> sont disponibles avec des déclinaisons pour <em>id</em>, texte ou <em>content-description</em>.&nbsp;</p>
+
+<p>Le second élément, en orange (identifiants), va être <strong>le paramètre principal de la méthode</strong>. Il s’agit généralement de <strong>l’élément graphique</strong> sur lequel doit être effectuée l’action. Selon la méthode appelée il s’agira d’un <em>id</em>, d’un texte ou encore d’une description. Dans l’exemple il s’agit d’un texte.&nbsp;</p>
+
+<p>Le dernier élément, en bleu (10000), est <strong>un second paramètre de la méthode</strong>. Il s’agit le plus souvent de paramètres optionnels donnant des <strong>conditions supplémentaires</strong>&nbsp;lors de l’exécution. Ici il s’agit d’un temps en milli secondes.&nbsp;</p>
+
+<p>Pour séparer chaque élément on utilise une virgule.&nbsp;</p>
+
+<p><strong>La méthode présentée en exemple sert donc à attendre l’élément avec&nbsp;le texte</strong>&nbsp;“<em>identifiants</em>” pendant&nbsp;une durée maximum de&nbsp;10 secondes.&nbsp;</p>
+
+<p>Dans l’état actuel du langage il n’y a pas de méthodes demandant plus de deux paramètres.&nbsp;Si la méthode échoue alors le test s’arrêtera et le rapport indiquera le test comme échoué.&nbsp;</p>
+
+<h3>Les avantages du GDSL</h3>
+
+<ul><li><strong>Le GDSL ne demande&nbsp;aucune compétence&nbsp;en développement</strong> ou connaissance en langages de programmation pour être utilisé ou lu. Le nom des méthodes est explicite et permet à n’importe quelle personne arrivant sur le projet de lire et comprendre vos tests.&nbsp;</li><li>Aucun IDE ou environnement de développement spécifique n’est nécessaire pour écrire du GDSL, <strong>un simple éditeur de texte suffit</strong>.&nbsp;</li><li><strong>Un test = un fichier</strong>. Avec le GDSL pas besoin d’architecture de fichier compliquée, un seul fichier contient votre test.&nbsp;</li><li>Sa facilité d’utilisation permet d’écrire un test très rapidement sans&nbsp;dépendance au reste du projet de test&nbsp;comme le demanderaient d’autres langages de test automatique.&nbsp;</li><li>De plus sa facilité d’exécution avec les outils associés chez&nbsp;Greenspector&nbsp;permet de mettre très rapidement en intégration continue chaque nouveau test.&nbsp;</li><li>Mis à jour et maintenu régulièrement, le langage possède déjà&nbsp;des fonctions&nbsp;avancées&nbsp;pour l’automatisation de site internet telle que l’ouverture d’onglet ou la navigation d’url.&nbsp;</li><li>En directe association avec les outils et l’expertise de&nbsp;Greenspector&nbsp;le GDSL est <strong>le seul langage d’automatisation qui vous permet de mesurer les performances et l’impact environnemental</strong> de votre application tout en effectuant vos tests quotidiens.&nbsp;</li></ul>
+
+<h3>Les limites actuelles du GDSL</h3>
+
+<ul><li>Le GDSL&nbsp;ne permet pas encore d’effectuer des tests à logique complexe (exemple&nbsp;: si&nbsp;je suis connecté alors je vois l’élément 1, sinon je vois l’élément 2). Il faut écrire un test différent pour chaque cas.&nbsp;</li><li>Le GDSL se base sur des éléments graphiques&nbsp;présents sous forme descriptive. Il est incapable d’interpréter le contenu d’une image ou d’analyser la mise en page de votre&nbsp;application. Impossible de faire un test vérifiant que le bouton est bien situé en bas à droite de l’écran.&nbsp;</li></ul>
+
+<p>L’équipe&nbsp;Greenspector&nbsp;travaille au quotidien pour améliorer le langage&nbsp;et ajouter des fonctionnalités. L’état actuel permet d’automatiser la plupart des scénarios nécessaires à une campagne de mesure complète d’une application ou d’un site web&nbsp;ainsi que les parcours critiques de la plupart des applications.&nbsp;Dans un prochain article, nous vous parlerons des outils Greenspector permettant l&rsquo;exécution des tests GDSL.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

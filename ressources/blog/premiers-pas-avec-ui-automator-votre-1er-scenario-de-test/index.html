@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Premiers pas avec UI Automator : votre 1er scénario de test - Greenspector</title>
+    <meta name="description" content="Faites vos premiers pas avec UI Automator et découvrez comment écrire votre premier scénario de test Android !">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/">
+    <meta property="og:title" content="Premiers pas avec UI Automator : votre 1er scénario de test">
+    <meta property="og:description" content="Faites vos premiers pas avec UI Automator et découvrez comment écrire votre premier scénario de test Android !">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/ui-automator-thumbnail.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/ui-automator-thumbnail.jpg">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Premiers pas avec UI Automator : votre 1er scénario de test</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>11 septembre 2017</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<h2>UI Auto&#8230;quoi ?</h2>
+
+<p>Comme son nom l&rsquo;indique, <strong><a href="https://developer.android.com/training/testing/ui-automator.html">UI Automator</a></strong> est un framework fourni par Android permettant d&rsquo;exécuter des tests fonctionnels d&rsquo;<strong>interface utilisateur</strong> (UI pour User Interface en anglais) de façon <strong>automatisée</strong>.</p>
+
+<p>Ce framework permet d&rsquo;interagir avec les éléments visibles sur l&rsquo;écran du smartphone : cliquer sur un bouton, remplir un champ texte, scroller, etc.<br>Grâce à UI Automator, vous pouvez par exemple lancer une application, remplir un formulaire de login, naviguer dans les menus&#8230;</p>
+
+<p>Écrivons ensemble un premier scénario de test avec UI Automator !<br>Notre objectif sera modeste : lancer une vidéo depuis l&rsquo;application YouTube pour Android.</p>
+
+<h2>UI Automator, Espresso, Appium&#8230;</h2>
+
+<p>Dans le framework <strong><a href="https://developer.android.com/tools/testing-support-library/index.html">Android</a></strong>, vous trouverez aussi <strong><a href="https://developer.android.com/training/testing/espresso/index.html">Espresso</a></strong> : quelle est la différence ?</p>
+
+<p>UI Automator est plutôt orienté tests <strong>« boîte noire »</strong> : vous pouvez tester n’importe quelle application (même si vous n’avez pas le code) ou même accéder à des paramètres systèmes d’Android (par exemple le panneau de configuration).</p>
+
+<p>Espresso, lui est plutôt orienté tests <strong>« boîte blanche »</strong> : vous devez avoir le code de l’application à tester, vous pouvez effectuer des assertions plus fines (par exemple sur la création d’activité dans l’application).</p>
+
+<p>Il existe également d&rsquo;autres outils, comme <strong><a href="http://appium.io/">Appium</a></strong>, mais qui ne sont pas intégrés dans le framework Android.<br>Ils ont l’avantage d’offrir des fonctionnalités en plus et des couches d’abstractions supplémentaires. C&rsquo;est cependant au prix d’une certaines complexité de mise en place.</p>
+
+<p>Vous l’aurez compris, UI Automator est pour nous le plus adapté et le plus simple pour commencer rapidement !</p>
+
+<h2>Première étape : mettre en place l&rsquo;environnement de travail</h2>
+
+<p>Les tests UI Automator font partie de la famille des <strong>test instrumentés</strong> : ils doivent être exécutés sur un smartphone ou sur un émulateur Android.<br>Pendant le test, deux APK s&rsquo;exécutent au sein du même processus : un premier APK pour l&rsquo;application à tester et un deuxième APK pour le test.</p>
+
+<p>Vous avez donc besoin d&rsquo;une application (et d&rsquo;un scénario !) à tester.</p>
+
+<p>Le code source d&rsquo;une application Android est usuellement organisé de la façon suivante :</p>
+
+<pre><code>module
+|---src
+    |---androidTest
+    |---main
+    |---test</code></pre>
+
+<p><strong>Premier cas</strong> : vous êtes le développeur de l&rsquo;application à tester.<br>La solution la plus simple consiste alors à développer les tests dans le même module que l&rsquo;application.<br>Le dossier <em>main</em> contiendra alors le code source de votre application et le dossier <em>androidTest</em> vos tests UI Automator.</p>
+
+<p><strong>Deuxième cas</strong> : vous n&rsquo;avez pas le code source de l&rsquo;application à tester.<br>Il vous suffit alors de créer un nouveau module : le dossier <em>main</em> sera vide et, comme précédemment, le dossier <em>androidTest</em> contiendra vos test UI Automator.</p>
+
+<p>Dans le fichier <em>build.gradle</em> du module, ajoutez les configurations suivantes (UI Automator fonctionne avec <a href="https://developer.android.com/reference/android/support/test/runner/AndroidJUnitRunner.html">AndroidJUnitRunner</a>) :</p>
+
+<pre><code>android {
+    ...
+    defaultConfig {
+        ...
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    ...
+}</code></pre>
+
+<pre><code>dependencies {
+    ...
+    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+}</code></pre>
+
+<p>Après vous être assuré que le projet compile correctement, il est temps d&rsquo;ajouter une nouvelle classe dans <em>module/src/androidTest</em> :</p>
+
+<pre><code>@RunWith(AndroidJUnit4.class)
+public class YouTubeTest {
+    @Test
+    public void watchVideo() throws Exception {
+        // TODO
+    }
+}</code></pre>
+
+<p>Tout est maintenant prêt pour l&rsquo;implémentation du scénario de test !</p>
+
+<h2>Deuxième étape : écrire les tests</h2>
+
+<p>Quelques petites précisions avant de se lancer&#8230;</p>
+
+<p>UI Automator permet d&rsquo;interagir avec les éléments visibles sur l&rsquo;écran.<br>Chaque élément possède un certain nombre de <strong>propriétés</strong>, parmi lesquelles : <em>content-description</em>, <em>class</em>, <em>resource-id</em>, <em>text</em>.</p>
+
+<p>UI Automator permet de <strong>rechercher un élément</strong> vérifiant une propriété donnée.<br>Par exemple, pour accéder au bouton <em>Valider</em> affiché sur votre écran, vous pouvez rechercher l&rsquo;élément dont la propriété <em>text</em> vaut <em>Valider</em>.<br>Mais vous pouvez aussi être plus spécifique, par exemple : l&rsquo;élément dont la <em>class</em> est <em>android.widget.EditText</em> et la <em>content-description</em> est <em>text_name</em>.</p>
+
+<p>La (ou les) propriété(s) utilisée(s) pour rechercher un élément a son importance.<br>Par exemple, méfiez-vous des libellés, notamment si votre application est disponible en plusieurs langues !</p>
+
+<p>Afin de connaître les propriétés des éléments visibles sur l&rsquo;écran, il est très pratique d&rsquo;utiliser l&rsquo;outil Android <em>uiautomatorviewer</em> (que vous trouverez dans le répertoire <em>tools</em> de votre SDK Android).<br>Une fois lancé, cet outil permet de faire des captures d&rsquo;écran d&rsquo;un smartphone Android.<br>À chaque capture d&rsquo;écran est associée un arbre représentant la hiérarchie des éléments visibles, avec leurs propriétés respectives.</p>
+
+<p>Revenons à notre <strong>scénario de test</strong>, pour lequel nous nous proposons d&rsquo;effectuer les actions suivantes :</p>
+
+<ul><li>lancer l&rsquo;application YouTube ;</li><li>cliquer sur la loupe pour effectuer une recherche ;</li><li>indiquer le texte « greenspector » dans le champ de recherche ;</li><li>lancer la vidéo « Power Test Cloud &#8211; Greenspector (FR) » ;</li><li>regarder les 20 premières secondes de la vidéo.</li></ul>
+
+<p>Avant de démarrer toute interaction avec les éléments sur l&rsquo;écran, il faut instancier un objet UiDevice qui représentera l&rsquo;état actuel de l&rsquo;écran du smartphone.</p>
+
+<pre><code>UiDevice mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());</code></pre>
+
+<p>Commençons par lancer l&rsquo;application YouTube, comme expliqué <strong><a href="https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html#accessing-ui-components">dans la documentation Android</a></strong>.<br>L&rsquo;objet de cet article étant de dérouler quelques fonctionnalités les plus simples d&rsquo;UI Automator, cette étape n&rsquo;est pas détaillée.</p>
+
+<p>L&rsquo;étape suivante consiste à cliquer sur la loupe pour effectuer une recherche.<br>Après avoir repéré le <em>resource-id</em> de la loupe grâce à <em>uiautomatorviewer</em>, nous utilisons la méthode <em>waitForExists</em> permettant d&rsquo;attendre que l&rsquo;élément apparaisse avant de cliquer sur l&rsquo;objet.</p>
+
+<pre><code>UiObject icon = mDevice.findObject(new UiSelector().resourceId("com.google.android.youtube:id/menu_search"));
+icon.waitForExists(TIMEOUT);
+icon.click();</code></pre>
+
+<p>Nous nous servons ensuite de la méthode <em>setText</em> pour renseigner le mot clé de recherche souhaité.</p>
+
+<pre><code>UiObject editText = mDevice.findObject(new UiSelector().text("Search YouTube"));
+editText.waitForExists(TIMEOUT);
+editText.setText("greenspector");
+mDevice.pressEnter();</code></pre>
+
+<p>Précédemment, nous n&rsquo;avons utilisé qu&rsquo;un seul critère pour rechercher les éléments sur l&rsquo;écran.<br>Mais il est possible d&rsquo;en combiner plusieurs (si certaines propriétés ont la même valeur pour plusieurs éléments), par exemple :</p>
+
+<pre><code>UiObject video = mDevice.findObject(new UiSelector()
+        .resourceId("com.google.android.youtube:id/title")
+        .text("Power Test Cloud - Greenspector (FR)"));</code></pre>
+
+<p>Enfin, attendons quelques secondes en regardant le début de la vidéo.</p>
+
+<pre><code>synchronized (mDevice) {
+    mDevice.wait(20000);
+}</code></pre>
+
+<h2>Troisième étape : exécuter les tests</h2>
+
+<p>Afin d&rsquo;exécuter les tests, il est nécessaire d&rsquo;être connecté via ADB à un smartphone (soit un smartphone physique « réel », soit un émulateur Android).<br>Le lancement peut s&rsquo;effectuer directement depuis Android Studio, ou bien en ligne de commande avec ADB.</p>
+
+<p><strong>Premier cas</strong> : depuis Android Studio.</p>
+
+<p>Se rendre dans le menu <em>Run</em>, puis <em>Edit configurations</em>.<br>Cliquer sur le signe <em>+</em> pour ajouter une configuration, sélectionner le modèle <em>Android Instrumented Tests</em>.<br>Adapter la configuration avec le nom du module à tester, le type de test, le smartphone (réel ou émulateur).</p>
+
+<p><strong>Deuxième cas</strong> : en ligne de commande avec ADB.</p>
+
+<p>Tout d&rsquo;abord, compiler l&rsquo;application ainsi que les tests, par exemple en utilisant les tâches <em>assemble</em> et <em>assembleAndroidTest</em> du wrapper Gradle :</p>
+
+<pre><code>$ ./gradlew clean assemble assembleAndroidTest</code></pre>
+
+<p>Puis installer sur le smartphone les fichiers <em>.apk</em> générés :</p>
+
+<pre><code>$ adb install module/build/outputs/apk/module-debug.apk
+$ adb install module/build/outputs/apk/module-debug-androidTest.apk</code></pre>
+
+<p>Enfin, lancer le test :</p>
+
+<pre><code>$ adb shell am instrument com.package.test/android.test.InstrumentationTestRunner</code></pre>
+
+<h2>Conclusion</h2>
+
+<p>Et voilà ! Objectif atteint pour ce premier test simple UI Automator, c&rsquo;est maintenant à vous de jouer !</p>
+
+<h3>Pour aller plus loin</h3>
+
+<p><a href="https://developer.android.com/training/testing/ui-automator.html">Documentation Android sur UI Automator.</a></p>
+
+<p><a href="https://developer.android.com/studio/command-line/adb.html">Documentation Android sur ADB.</a></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

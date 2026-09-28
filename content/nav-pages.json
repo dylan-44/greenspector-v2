@@ -12,7 +12,7 @@
   {"section": "Conseil", "name": "Expertise terminaux mobiles", "slug": "/conseil/expertise-mesure-terminaux-mobiles/", "primary": "expertise mesure terminaux", "secondary": "smartphones, tablettes, devices"},
   {"section": "Conseil", "name": "Mesures sur banc de tests", "slug": "/conseil/banc-mesure-consommation-smartphone/", "primary": "banc de mesure consommation smartphone", "secondary": "device lab, laboratoire mobile"},
   {"section": "Tarifs", "name": "Tarifs", "slug": "/tarifs-greenspector-studio/", "primary": "tarifs Greenspector Studio", "secondary": "prix SaaS Green IT"},
-  {"section": "Ressources", "name": "Blog", "hrefFr": "https://blog.greenspector.com/fr/", "hrefEn": "https://blog.greenspector.com/en/", "primary": "blog Greenspector", "secondary": "sobriété numérique, écoconception, actualités"},
+  {"section": "Ressources", "name": "Blog", "slug": "/ressources/blog/", "primary": "blog Greenspector", "secondary": "sobriété numérique, écoconception, actualités"},
   {"section": "Ressources", "name": "Études de cas", "slug": "/ressources/etudes-de-cas/", "primary": "étude de cas Greenspector", "secondary": "retours d'expérience clients"},
   {"section": "À propos", "name": "Qui sommes-nous ?", "slug": "/a-propos/equipe-greenspector/", "primary": "Greenspector", "secondary": "qui sommes-nous, numérique responsable"},
   {"section": "À propos", "name": "Nos engagements", "slug": "/a-propos/rse/", "primary": "RSE Greenspector", "secondary": "impact environnemental"},

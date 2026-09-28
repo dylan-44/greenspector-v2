@@ -270,8 +270,129 @@ function buildAuditRules(reportPath, postSlugs, pageRedirects, marketingPatterns
   return lines;
 }
 
+function loadImportedBlogSlugs() {
+  const slugsPath = path.join(ROOT, 'content/blog-slugs.json');
+  if (!fs.existsSync(slugsPath)) {
+    return null;
+  }
+  return JSON.parse(fs.readFileSync(slugsPath, 'utf8'));
+}
+
+function escapeRedirectSlug(slug) {
+  return slug.replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/-/g, '\\-');
+}
+
+function retargetImportedBlogRedirects() {
+  const slugs = loadImportedBlogSlugs();
+  if (!slugs || !fs.existsSync(OUT_PATH)) {
+    return false;
+  }
+
+  let text = fs.readFileSync(OUT_PATH, 'utf8');
+  const en = [...(slugs.en || [])].sort((a, b) => b.length - a.length);
+  const fr = [...(slugs.fr || [])].sort((a, b) => b.length - a.length);
+
+  for (const slug of en) {
+    text = text.split(`https://blog.greenspector.com/en/${slug}/`).join(`/en/resources/blog/${slug}/`);
+  }
+  for (const slug of fr) {
+    text = text.split(`https://blog.greenspector.com/${slug}/`).join(`/ressources/blog/${slug}/`);
+  }
+
+  text = text.split('https://blog.greenspector.com/en/blog-en/').join('/en/resources/blog/');
+  text = text.split('https://blog.greenspector.com/blog-fr/').join('/ressources/blog/');
+  text = text.replace(
+    /RedirectMatch 301 \^\/en\/publications\/\?\$ https:\/\/blog\.greenspector\.com\/en\/$/gm,
+    'RedirectMatch 301 ^/en/publications/?$ /en/resources/blog/'
+  );
+  text = text.replace(
+    /RedirectMatch 301 \^\/en\/webinar\/\?\$ https:\/\/blog\.greenspector\.com\/en\/$/gm,
+    'RedirectMatch 301 ^/en/webinar/?$ /en/resources/blog/'
+  );
+  text = text.replace(
+    /RedirectMatch 301 \^\(\?:fr\/\)\?publications\/\?\$ https:\/\/blog\.greenspector\.com\/$/gm,
+    'RedirectMatch 301 ^/(?:fr/)?publications/?$ /ressources/blog/'
+  );
+  text = text.replace(
+    /RedirectMatch 301 \^\(\?:fr\/\)\?ressources\/publications\/\?\$ https:\/\/blog\.greenspector\.com\/$/gm,
+    'RedirectMatch 301 ^/(?:fr/)?ressources/publications/?$ /ressources/blog/'
+  );
+  text = text.replace(
+    /RedirectMatch 301 \^\(\?:fr\/\)\?webinaires\(\/\|\$\)\s+https:\/\/blog\.greenspector\.com\//g,
+    'RedirectMatch 301 ^/(?:fr/)?webinaires(/|$)                                   /ressources/blog/'
+  );
+
+  text = text.replace(
+    /(RedirectMatch 301 \^\(\?:fr\/\)\?\(blog\/\.\*\)\$)\s+https:\/\/blog\.greenspector\.com\/\$1/,
+    '$1        /ressources/blog/'
+  );
+  text = text.replace(
+    /(RedirectMatch 301 \^\(en\/blog\/\.\*\)\$)\s+https:\/\/blog\.greenspector\.com\/\$1/,
+    '$1             /en/resources/blog/'
+  );
+  text = text.replace(
+    /(RedirectMatch 301 \^\(\?:fr\/\)\?\(author\/\.\*\)\$)\s+https:\/\/blog\.greenspector\.com\/\$1/,
+    '$1      /ressources/blog/'
+  );
+  text = text.replace(
+    /(RedirectMatch 301 \^\(en\/author\/\.\*\)\$)\s+https:\/\/blog\.greenspector\.com\/\$1/,
+    '$1           /en/resources/blog/'
+  );
+  text = text.replace(
+    /(RedirectMatch 301 \^\(\?:fr\/\)\?\(\[0-9\]\{4\}\/\[0-9\]\{2\}\(\?:\/\[0-9\]\{2\}\)\?\/\?\)\$)\s+https:\/\/blog\.greenspector\.com\/\$1/,
+    '$1      /ressources/blog/'
+  );
+  text = text.replace(
+    /(RedirectMatch 301 \^\(en\/\[0-9\]\{4\}\/\[0-9\]\{2\}\(\?:\/\[0-9\]\{2\}\)\?\/\?\)\$)\s+https:\/\/blog\.greenspector\.com\/\$1/,
+    '$1           /en/resources/blog/'
+  );
+
+  const markerStart = '# --- Articles importés (site statique) ---';
+  const markerEnd = '# --- /Articles importés ---';
+  const extra = [];
+  for (const slug of fr) {
+    const pat = escapeRedirectSlug(slug);
+    if (!text.includes(`${pat}/?$ /ressources/blog/${slug}/`) && !text.includes(`${pat}/?$ /ressources/blog/${slug}/`)) {
+      extra.push(`RedirectMatch 301 ^/(?:fr/)?${pat}/?$ /ressources/blog/${slug}/`);
+    }
+  }
+  for (const slug of en) {
+    const pat = escapeRedirectSlug(slug);
+    if (!text.includes(`/en/${pat}/?$ /en/resources/blog/${slug}/`)) {
+      extra.push(`RedirectMatch 301 ^/en/${pat}/?$ /en/resources/blog/${slug}/`);
+    }
+  }
+
+  const block = extra.length
+    ? `${markerStart}\n${extra.join('\n')}\n${markerEnd}\n\n`
+    : '';
+
+  if (text.includes(markerStart)) {
+    text = text.replace(new RegExp(`${markerStart}[\\s\\S]*?${markerEnd}\\n*`), block);
+  } else if (block) {
+    const section9 = '# ---------------------------------------------------------------------\n# 9) Alias /fr/';
+    if (text.includes(section9)) {
+      text = text.replace(section9, `${block}${section9}`);
+    } else {
+      text += `\n${block}`;
+    }
+  }
+
+  fs.writeFileSync(OUT_PATH, text, 'utf8');
+  console.log(`Retargeted imported blog slugs in ${OUT_PATH} (FR ${fr.length}, EN ${en.length})`);
+  return true;
+}
+
 function main() {
-  if (buildFromHtaccessTxt()) return;
+  if (buildFromHtaccessTxt()) {
+    retargetImportedBlogRedirects();
+    return;
+  }
+
+  if (fs.existsSync(OUT_PATH)) {
+    retargetImportedBlogRedirects();
+    return;
+  }
 
   if (!fs.existsSync(SITEMAP_PATH)) {
     console.error('Missing', SITEMAP_PATH);
@@ -340,6 +461,11 @@ function main() {
   console.log(`  explicit page rules: ${explicitRules.length}`);
   console.log(`  audit-derived rules: ${auditRules.length}`);
   console.log(`  blog articles FR: ${fr.length}, EN: ${en.length}`);
+  retargetImportedBlogRedirects();
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { retargetImportedBlogRedirects };

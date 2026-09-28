@@ -79,7 +79,8 @@ function renderLayout({
   registryPage,
   pagesNav,
   routes,
-  needsCaseStudies = false
+  needsCaseStudies = false,
+  needsBlogSearch = false
 }) {
   const bodyClass = template === 'home' ? ' class="home-page"' : '';
   const dataPage = JSON.stringify({
@@ -92,6 +93,7 @@ function renderLayout({
   const skipLink = nav.skipLink || 'Skip to main content';
   const navDataJs = slugToAsset(pageSlug, '/assets/js/nav-data.js');
   const caseStudiesJs = slugToAsset(pageSlug, '/assets/js/case-studies-data.js');
+  const blogSearchJs = slugToAsset(pageSlug, '/assets/js/blog-search.js');
   const mainJs = slugToAsset(pageSlug, '/assets/js/main.js');
   const bootstrapJs = slugToAsset(pageSlug, '/assets/vendor/bootstrap/bootstrap.bundle.min.js');
 
@@ -116,6 +118,9 @@ function renderLayout({
   const caseStudiesScript = needsCaseStudies
     ? `\n    <script src="${caseStudiesJs}" defer></script>`
     : '';
+  const blogSearchScript = needsBlogSearch
+    ? `\n    <script src="${blogSearchJs}" defer></script>`
+    : '';
 
   return `<!DOCTYPE html>
 <html lang="${locale}">
@@ -129,7 +134,7 @@ ${renderHead(page, locale, pageSlug, siteUrl, registryPage)}
     </main>
     <div id="site-footer">${footerHtml}</div>
     <script src="${bootstrapJs}" defer></script>
-    <script src="${navDataJs}" defer></script>${caseStudiesScript}
+    <script src="${navDataJs}" defer></script>${caseStudiesScript}${blogSearchScript}
     <script src="${mainJs}" defer></script>
 </body>
 

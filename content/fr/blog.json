@@ -1,0 +1,765 @@
+[
+  {
+    "slug": "optimisation-memoire-android-repondre-exigences-google/",
+    "href": "/ressources/blog/optimisation-memoire-android-repondre-exigences-google/",
+    "title": "Optimisation mémoire sur Android : comment répondre aux nouvelles exigences de Google",
+    "description": "Dans une annonce décisive d'août 2026, Google a franchi une étape : des recommandations de \"bonnes pratiques\" deviennent des règles strictes de conformité pour le Play Store. Au cœur de cette offensive : la consommation mémoire des applications. Cet article analyse les implications techniques de ces nouvelles restrictions, décortique les métriques imposées et explore comment l'utilisation d'outils de métrologie permet d'aborder ces changements avec rigueur.",
+    "image": "/assets/img/external/blog.greenspector.com/2026/09/SamsungStethoscope.png"
+  },
+  {
+    "slug": "budget-environnemental/",
+    "href": "/ressources/blog/budget-environnemental/",
+    "title": "Définir le budget environnemental d’un service numérique",
+    "description": "Pour l'amélioration continue, il est essentiel de mettre en place un plan d’action ainsi qu'un budget environnemental.",
+    "image": "/assets/img/external/blog.greenspector.com/2025/08/Vignettes-article-Blog-1.jpg"
+  },
+  {
+    "slug": "impacts-environnementaux-publicite/",
+    "href": "/ressources/blog/impacts-environnementaux-publicite/",
+    "title": "Comment diffuser des publicités tout en tenant compte de leurs impacts environnementaux",
+    "description": "La publicité sur internet est un vaste sujet, presque aussi vieux que le web lui-même. Parlons ici de ses impacts environnementaux.",
+    "image": "/assets/img/external/blog.greenspector.com/2025/08/Vignettes-article-Blog-3.jpg"
+  },
+  {
+    "slug": "est-ce-que-le-vibe-coding-avec-lia-peut-etre-green/",
+    "href": "/ressources/blog/est-ce-que-le-vibe-coding-avec-lia-peut-etre-green/",
+    "title": "Est-ce que le “vibe coding” avec l’IA peut être green ? ",
+    "description": "Il est maintenant très facile de générer du code via hashtag#IA, et c’est la voie dans laquelle l’industrie du numérique semble s’engouffrer. La promesse est effectivement alléchante en termes d’efficacité / productivité. Un terme est représentatif de ce phénomène, le “vibe coding”, une programmation au “ressenti” qui utilise l’IA. Mais doit-on laisser la main à la machine et lui faire confiance ? Est-elle capable de coder « Green » si on lui demande ?",
+    "image": "/assets/img/external/blog.greenspector.com/2025/07/Vignettes-article-Vibe-coding.png"
+  },
+  {
+    "slug": "impact-environnemental-ia-locale/",
+    "href": "/ressources/blog/impact-environnemental-ia-locale/",
+    "title": "L’impact environnemental de l’IA textuelle locale",
+    "description": "Smartphones et IA : quel est l'impact environnemental des modèles de langage ? Notre étude compare les performances, la consommation d'énergie et l'empreinte carbone de différents modèles et propose des pistes pour réduire leur impact.",
+    "image": "/assets/img/external/blog.greenspector.com/2025/06/ChatGPT-vs-DeepSeek-2025.jpg"
+  },
+  {
+    "slug": "impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+    "href": "/ressources/blog/impacts-des-principaux-sites-e-commerce-en-france-edition-2025/",
+    "title": "Impacts des principaux sites e-commerce en France – édition 2025",
+    "description": "Les usages liés au e-commerce continuent à s’intensifier depuis plusieurs années déjà. Les chiffres de francenum.gouv.fr confirment l’adoption de plus en plus large de ce mode de consommation. L’UNCTAD (United Nations trade & development) propose de même quelques chiffres sur le commerce en ligne (en particulier une croissance de 60% des ventes depuis 2016) : […]",
+    "image": "/assets/img/external/blog.greenspector.com/2025/01/1.jpg"
+  },
+  {
+    "slug": "quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek/",
+    "href": "/ressources/blog/quel-impact-environnemental-de-lusage-des-llm-cote-client-battle-chatgpt-vs-deepseek/",
+    "title": "Quel impact environnemental de l’usage des LLM côté client ?  Battle ChatGPT vs DeepSeek",
+    "description": "Evaluation comparée des impacts environnementaux de 2 LLMs du marché que sont ChatGPT et DEeepSeek sur un scénarios de 3 requêtes",
+    "image": "/assets/img/external/blog.greenspector.com/2025/03/ChatGPT-vs-DeepSeek-2025-FR.png"
+  },
+  {
+    "slug": "intelligence-artificielle-smartphone-autonomie/",
+    "href": "/ressources/blog/intelligence-artificielle-smartphone-autonomie/",
+    "title": "Quels impacts environnementaux pour les IA locales sur nos smartphones ?",
+    "description": "Les modèles d’IA en local, comme Apple Intelligence et Gemini Nano, offrent puissance et confidentialité, mais à quel prix pour la batterie de nos smartphones ? Découvrez comment l’IA impacte l’autonomie et si ces innovations valent le sacrifice énergétique. 🔋🤖",
+    "image": "/assets/img/external/blog.greenspector.com/2025/02/3.jpg"
+  },
+  {
+    "slug": "quels-sont-les-meilleurs-navigateurs-web-android-et-ios-a-utiliser-edition-2024/",
+    "href": "/ressources/blog/quels-sont-les-meilleurs-navigateurs-web-android-et-ios-a-utiliser-edition-2024/",
+    "title": "Quels sont les meilleurs navigateurs web Android et iOS à utiliser ? (Edition 2024)",
+    "description": "Le navigateur internet est l’outil primordial sur un appareil mobile. Il est le moteur pour naviguer sur internet. Plus uniquement pour les sites web mais aussi maintenant pour les nouveaux types d’applications basées sur les technologies web (progressive web app, jeux…). Le 14 novembre 2023, Brave a annoncé sur le réseau social X que son […]",
+    "image": "/assets/img/external/blog.greenspector.com/2024/12/Copie-de-Greenspctor-Studio-et-RGESN.jpg"
+  },
+  {
+    "slug": "consommation-energie-ecoute-audio/",
+    "href": "/ressources/blog/consommation-energie-ecoute-audio/",
+    "title": "Quel mode d’écoute est le plus énergivore ?",
+    "description": "Réduisez la consommation d'énergie de votre smartphone en optimisant vos modes d'écoute : haut-parleur, écouteurs filaires ou Bluetooth.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/12/10.jpg"
+  },
+  {
+    "slug": "12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique/",
+    "href": "/ressources/blog/12-raisons-de-ne-pas-ecoconcevoir-un-service-numerique/",
+    "title": "12 raisons de ne pas écoconcevoir un service numérique",
+    "description": "Découvrons ensemble 12 raisons de ne pas écoconcevoir un service numérique.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/11/12-raisons-pas-ecoconcevoir.jpg"
+  },
+  {
+    "slug": "analyse-des-surconsommations-dun-site-sobre/",
+    "href": "/ressources/blog/analyse-des-surconsommations-dun-site-sobre/",
+    "title": "Analyse des surconsommations d’un site sobre ",
+    "description": "Avec l'appui du studio Konfiture, Greenspector a pu étudier les surconsommations d'un site identifié comme sobre.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/10/Visuels-articles-Greenspector.png"
+  },
+  {
+    "slug": "greenspector-studio-et-rgesn/",
+    "href": "/ressources/blog/greenspector-studio-et-rgesn/",
+    "title": "Greenspector Studio et RGESN ",
+    "description": "A l'usage, il apparaît complexe de valider certains critères du RGESN. La mesure peut y remédier, notamment via Greenspector Studio.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/10/GreenspectorStudioEtRgesn.jpg"
+  },
+  {
+    "slug": "innovation-greenspector-iphone/",
+    "href": "/ressources/blog/innovation-greenspector-iphone/",
+    "title": "Innovation – le premier banc de mesure d’énergie pour iOS est chez Greenspector !",
+    "description": "Le dispositif de mesure IPhone est désormais prêt à recevoir vos parcours pour vous aider à mieux comprendre vos impacts environnementaux !",
+    "image": "/assets/img/external/blog.greenspector.com/2024/07/Visuels-articles-Greenspector4.jpg"
+  },
+  {
+    "slug": "rgesn-loi-reen-de-quoi-parle-t-on-2/",
+    "href": "/ressources/blog/rgesn-loi-reen-de-quoi-parle-t-on-2/",
+    "title": "RGESN / loi REEN : de quoi parle-t-on ? ",
+    "description": "Loi REEN/ le RGESN, de quoi parle-t-on ? À quoi ça sert ? À qui ça s'adresse ? Quelles sont leurs utilités ?",
+    "image": "/assets/img/external/blog.greenspector.com/2024/03/Visuels-articles-Greenspector-5.jpg"
+  },
+  {
+    "slug": "quel-impact-environnemental-des-parametres-graphiques-des-jeux-videos/",
+    "href": "/ressources/blog/quel-impact-environnemental-des-parametres-graphiques-des-jeux-videos/",
+    "title": "Quel est l’impact environnemental des paramètres graphiques des jeux vidéos ?",
+    "description": "Derrière l'action des jeux vidéos : découvrez l'impact environnemental des paramètres graphiques sur la consommation.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/04/Visuels-articles-Greenspector-1.jpg"
+  },
+  {
+    "slug": "quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/",
+    "href": "/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/",
+    "title": "Whatsapp, Discord, Slack, Teams… Quel est l’impact environnemental d’un parcours utilisateur sur ces applications ?",
+    "description": "Nous avons analysé l'impact environnemental d'un parcours utilisateur sur 4 applications de messagerie sur Android.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/03/Quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-ces-applications-.jpg"
+  },
+  {
+    "slug": "exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+    "href": "/ressources/blog/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/",
+    "title": "Exigences de sobriété numérique pour les villes et collectivités – édition 2024",
+    "description": "Les services publics devraient dès l'année 2024 être soumis à des obligations d’écoconception, décrites par le RGESN.",
+    "image": "/assets/img/external/blog.greenspector.com/2024/03/Exigences-de-sobriete-numerique-pour-les-villes-et-collectivites.jpg"
+  },
+  {
+    "slug": "analyse-environnementale-des-outils-danalytics/",
+    "href": "/ressources/blog/analyse-environnementale-des-outils-danalytics/",
+    "title": "Analyse environnementale des outils d’Analytics : utilisation, impact et choix responsable ",
+    "description": "nous allons explorer leurs impacts environnementaux de différentes solutions destinés au tracking dans les pages web",
+    "image": "/assets/img/external/blog.greenspector.com/2024/02/Analyse-environnementale-des-outils-dAnalytics-.jpg"
+  },
+  {
+    "slug": "reduire-poids-page-web-quels-elements-plus-impactants/",
+    "href": "/ressources/blog/reduire-poids-page-web-quels-elements-plus-impactants/",
+    "title": "Réduire le poids d’une page web : quels sont les éléments les plus impactants ?",
+    "description": "Découvrez les secrets pour réduire efficacement le poids de vos pages web. Quels sont les éléments les plus impactants ?",
+    "image": "/assets/img/external/blog.greenspector.com/2024/02/Miniature-poids-des-elements-dune-page-web.jpg"
+  },
+  {
+    "slug": "cybersecurite-et-eco-conception-quels-sont-les-liens/",
+    "href": "/ressources/blog/cybersecurite-et-eco-conception-quels-sont-les-liens/",
+    "title": "Cybersécurité et écoconception quels sont les liens ?",
+    "description": "Explorez dans cet article les liens que l'on peut faire entre la cybersécurité et l'écoconception. Quelles pratiques à mettre en place ?",
+    "image": "/assets/img/external/blog.greenspector.com/2024/01/28.jpg"
+  },
+  {
+    "slug": "quelle-application-mobile-de-covoiturage-a-le-plus-fort-impact-environnemental/",
+    "href": "/ressources/blog/quelle-application-mobile-de-covoiturage-a-le-plus-fort-impact-environnemental/",
+    "title": "Quelle application mobile de covoiturage a le plus fort impact environnemental ?",
+    "description": "Découvrez grâce à Greenspector quelle application mobile de covoiturage a l'impact environnemental le plus lourd.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/12/quelle-application-mobile-de-covoiturage-a-le-plus-fort-impact-environnemental.jpg"
+  },
+  {
+    "slug": "quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+    "href": "/ressources/blog/quelle-est-la-correlation-entre-ecoconception-et-sobriete-editoriale/",
+    "title": "Quelle est la corrélation entre écoconception et sobriété éditoriale ?",
+    "description": "Cet article propose des bonnes pratiques visant à faciliter la gestion des contenus dans une optique de réduction des impacts des contenus proposés.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/11/Visuels-articles-Greenspector5.png"
+  },
+  {
+    "slug": "le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+    "href": "/ressources/blog/le-cadre-legislatif-de-lecoconception-de-services-numeriques/",
+    "title": "Le cadre législatif de l’écoconception de services numériques  ",
+    "description": "Le cadre législatif se précise depuis 2021 et devrait permettre ces prochaines années à l’écoconception de services numériques de s’imposer.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/10/V2-Visuels-articles-Greenspector.jpg"
+  },
+  {
+    "slug": "quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet/",
+    "href": "/ressources/blog/quel-est-limpact-environnemental-douvrir-ou-non-les-liens-dans-un-autre-onglet/",
+    "title": "Quel est l’impact environnemental d’ouvrir ou non les liens dans un autre onglet ?",
+    "description": "Introduction Les plus anciens se souviennent peut-être d’une époque lointaine où les navigateurs ne proposaient pas encore d’ouvrir du contenu dans plusieurs onglets. L’apparition de cette possibilité a fait naître un débat qui n’a jusque-là pas trouvé de réponse définitive : faut-il ou non ouvrir les liens par défaut dans un autre onglet ? Les […]",
+    "image": "/assets/img/external/blog.greenspector.com/2023/10/Visuels-articles-Greenspector4-1.png"
+  },
+  {
+    "slug": "publication-des-web-sustainability-guidelines-du-w3c/",
+    "href": "/ressources/blog/publication-des-web-sustainability-guidelines-du-w3c/",
+    "title": "Publication des Web Sustainability Guidelines du W3C",
+    "description": "Greenspector a produit des guidelines pour le World Wide Web Consortium afin de pouvoir par la suite définir des standards.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/09/W3C.jpg"
+  },
+  {
+    "slug": "palmares-2023-des-jeux-sur-mobile/",
+    "href": "/ressources/blog/palmares-2023-des-jeux-sur-mobile/",
+    "title": "Quel est l’impact environnemental des jeux sur mobile en 2023 ?",
+    "description": "Nous avons analysé l'impact environnemental des 10 jeux mobile les plus téléchargés en 2022. Découvrez notre étude !",
+    "image": "/assets/img/external/blog.greenspector.com/2023/09/palmaresJeuxMobile2023.jpg"
+  },
+  {
+    "slug": "lempreinte-des-cookies-a-la-loupe-impact-environnemental-avec-ou-sans-consentement/",
+    "href": "/ressources/blog/lempreinte-des-cookies-a-la-loupe-impact-environnemental-avec-ou-sans-consentement/",
+    "title": "L’empreinte des cookies à la loupe – Impact environnemental avec ou sans consentement",
+    "description": "Consentement des cookies, quid de l’impact environnemental de ces éléments et est-ce que la validation ou non des cookies change cet impact ?",
+    "image": "/assets/img/external/blog.greenspector.com/2023/08/impact-reseau-V2.jpg"
+  },
+  {
+    "slug": "quel-est-limpact-du-reseau-dans-les-services-numeriques/",
+    "href": "/ressources/blog/quel-est-limpact-du-reseau-dans-les-services-numeriques/",
+    "title": "Quel est l’impact du réseau dans les services numériques ?",
+    "description": "le réseau en France est responsable de 2 à 14% de l’impact du numérique. Les réseaux fixes génèrent plus d’impact que les réseaux mobiles.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/07/impact-reseau.jpg"
+  },
+  {
+    "slug": "quel-est-limpact-environnemental-des-10-applications-de-transport-les-plus-utilisees-en-france-2023/",
+    "href": "/ressources/blog/quel-est-limpact-environnemental-des-10-applications-de-transport-les-plus-utilisees-en-france-2023/",
+    "title": "Quel est l’impact environnemental des 10 applications de transport les plus utilisées en France ? 2023",
+    "description": "Quel est l’impact environnemental des 10 applications de transport les plus utilisées en France ? Découvrez notre nouvelle étude !",
+    "image": "/assets/img/external/blog.greenspector.com/2023/07/transport.jpg"
+  },
+  {
+    "slug": "le-petit-bout-de-la-lorgnette/",
+    "href": "/ressources/blog/le-petit-bout-de-la-lorgnette/",
+    "title": "Le petit bout de la lorgnette – impacts environnementaux",
+    "description": "Le sujet du numérique responsable a pris beaucoup d’ampleur ces dernières années, comment faire le tri dans tout ce qu'on lit ?",
+    "image": "/assets/img/external/blog.greenspector.com/2023/06/Visuels-articles-Greenspector6-1.jpg"
+  },
+  {
+    "slug": "quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+    "href": "/ressources/blog/quelle-empreinte-environnementale-pour-les-applications-reseaux-sociaux-edition-2023/",
+    "title": "Quelle empreinte environnementale pour les applications réseaux sociaux ? Édition 2023 ",
+    "description": "Les usages et les fonctionnalités des réseaux sociaux se développent, découvrez leur empreinte environnementale ici",
+    "image": "/assets/img/external/blog.greenspector.com/2023/06/M-commerce-1.jpg"
+  },
+  {
+    "slug": "bonne-pratique-optimiser-les-polices-de-caracteres/",
+    "href": "/ressources/blog/bonne-pratique-optimiser-les-polices-de-caracteres/",
+    "title": "Bonne pratique : optimiser les polices de caractères",
+    "description": "Comment augmenter la sobriété de votre site internet ? Aujourd'hui on aborde comment optimiser les polices de caractères de votre site",
+    "image": "/assets/img/external/blog.greenspector.com/2023/05/optimiser-les-polices-de-caracteres.jpg"
+  },
+  {
+    "slug": "greenspector-atos-numerique-en-sante-service-de-mesure/",
+    "href": "/ressources/blog/greenspector-atos-numerique-en-sante-service-de-mesure/",
+    "title": "Atos et Greenspector livrent à la Délégation ministérielle au Numérique en Santé et à l’Agence du Numérique en Santé un service de mesure de l’impact environnemental des applications de santé web et mobiles",
+    "description": "Atos et Greenspector, alumni de Scaler, l’accélérateur de start-ups d'Atos, annoncent avoir livré à la Délégation ministérielle au Numérique en Santé (DNS) et à l’Agence du Numérique en Santé (ANS) un service de calcul d’un écoscore des applications de santé web et mobiles, accessible en ligne",
+    "image": "/assets/img/external/blog.greenspector.com/2023/05/Visuels-articles-Greenspector-1.jpg"
+  },
+  {
+    "slug": "le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+    "href": "/ressources/blog/le-dom-comme-metrique-de-suivi-de-sobriete-du-web/",
+    "title": "Le DOM comme métrique de suivi de sobriété du web ?",
+    "description": "Le choix de la bonne métrique pour évaluer son impact est essentiel dans une démarche de sobriété. L'utilisation des DOM doit donc se faire avec beaucoup de précautions.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/05/le-DOM.jpg"
+  },
+  {
+    "slug": "impact-environnemental-top-30-sites-presse-quotidienne-francaise/",
+    "href": "/ressources/blog/impact-environnemental-top-30-sites-presse-quotidienne-francaise/",
+    "title": "Quel est l’impact environnemental du top 30 des sites web de Presse Quotidienne Française ?",
+    "description": "Découvrez quel est l'impact environnemental du top 30 des sites web de presse quotidienne française",
+    "image": "/assets/img/external/blog.greenspector.com/2023/04/Visuels-articles-Greenspector4.jpg"
+  },
+  {
+    "slug": "empreinte-environnementale-applications-websites-mcommerce/",
+    "href": "/ressources/blog/empreinte-environnementale-applications-websites-mcommerce/",
+    "title": "Quelle est l’empreinte environnementale des 10 sites et applications de m-commerce les plus visités en France en 2023 ?",
+    "description": "Classement des 10 sites et applications de m-commerce les plus visités en France en 2023 ! Découvrez l'impact environnemental de ces derniers",
+    "image": "/assets/img/external/blog.greenspector.com/2023/04/M-commerce.jpg"
+  },
+  {
+    "slug": "bonne-pratique-limiter-le-nombre-de-services-tiers/",
+    "href": "/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/",
+    "title": "Bonne pratique : Limiter le nombre de services tiers",
+    "description": "Les services tiers c'est quoi ? Ça a quel impact sur la sobriété de mon site ? Comment j'optimise cet impact ?",
+    "image": "/assets/img/external/blog.greenspector.com/2023/04/Visuels-articles-Greenspector2.png"
+  },
+  {
+    "slug": "quel-est-limpact-environnemental-des-applications-de-rencontre-gratuites-les-plus-utilisees-en-france/",
+    "href": "/ressources/blog/quel-est-limpact-environnemental-des-applications-de-rencontre-gratuites-les-plus-utilisees-en-france/",
+    "title": "Quel est l’impact environnemental des applications de rencontre les plus utilisées en France ?",
+    "description": "Greenspector a mesuré 10 applications de rencontre et les a classé en fonction de leur impact environnemental. Découvrez le classement !",
+    "image": "/assets/img/external/blog.greenspector.com/2023/02/imgMiseEnAvant.jpg"
+  },
+  {
+    "slug": "optimiser-son-site-pour-limpression/",
+    "href": "/ressources/blog/optimiser-son-site-pour-limpression/",
+    "title": "Optimiser son site pour l’impression",
+    "description": "Nous allons plutôt nous intéresser aux bonnes pratiques de conception qui peuvent rendre l’impression moins impactante et le contenu imprimé plus lisible.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/01/optiSiteImpress.jpg"
+  },
+  {
+    "slug": "reduire-les-impacts-de-lautocompletion/",
+    "href": "/ressources/blog/reduire-les-impacts-de-lautocompletion/",
+    "title": "Réduire les impacts de l’autocomplétion",
+    "description": "Lorsque nous naviguons sur le web, l’autocomplétion est implémentée sur les moteurs de recherche, qu’ils soient propres à un site web ou non.",
+    "image": "/assets/img/external/blog.greenspector.com/2023/01/autocompletion-image-en-avant.jpg"
+  },
+  {
+    "slug": "communique-de-presse-une-nouvelle-etape-dans-la-collaboration-entre-nowu-et-greenspector/",
+    "href": "/ressources/blog/communique-de-presse-une-nouvelle-etape-dans-la-collaboration-entre-nowu-et-greenspector/",
+    "title": "Communiqué de presse : Une nouvelle étape dans la collaboration entre NOWU et Greenspector",
+    "description": "NOWU, le média sur l’environnement de France Télévisions, accélère sa sobriété avec lasolution Greenspector, pour aller plus loin dans l’éco conception de son média.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/12/communique-de-presse-NOWU.jpg"
+  },
+  {
+    "slug": "comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+    "href": "/ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/",
+    "title": "Comment est calculé l’écoscore dans le cas d’un benchmark web ou mobile ?",
+    "description": "Afin d’évaluer les impacts environnementaux des sites, Greenspector dispose de plusieurs modes opératoires. Le plus simple à mettre en place est le benchmark web.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/11/calcul-ecoscore.jpg"
+  },
+  {
+    "slug": "analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/",
+    "href": "/ressources/blog/analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/",
+    "title": "Analyse des 10 sites nominés mobile excellence par Awwwards",
+    "description": "Nous nous sommes penchés sur l'analyse de 10 sites nominés mobile excellence sur Awwward.com. Retrouvez en détails notre étude complète.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/09/Image-mise-en-avant.jpg"
+  },
+  {
+    "slug": "quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/",
+    "href": "/ressources/blog/quel-format-dimage-choisir-pour-reduire-sa-consommation-denergie-et-son-impact-environnemental/",
+    "title": "Quel format d’image choisir pour réduire sa consommation d’énergie et son impact environnemental ?",
+    "description": "Choisir le bon type d’image pour réduire l’impact environnemental d’un site n’est pas chose aisée. Voici une mise de l'étude menée en 2017.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/09/thumbnail.jpg"
+  },
+  {
+    "slug": "impact-applications-visioconferences-2022/",
+    "href": "/ressources/blog/impact-applications-visioconferences-2022/",
+    "title": "L’impact de nos usages en visioconférence sur mobile et PC ! Édition 2022",
+    "description": "Quelle application de visioconférence présente un impact environnemental numérique le moins élevé par rapport à ses concurrents ?",
+    "image": "/assets/img/external/blog.greenspector.com/2022/07/Thumbnail_applications_visio-min.png"
+  },
+  {
+    "slug": "le-numerique-responsable-chez-greenspector/",
+    "href": "/ressources/blog/le-numerique-responsable-chez-greenspector/",
+    "title": "Le numérique responsable chez Greenspector ",
+    "description": "A l’heure où l’on parle de plus en plus de numérique responsable, il est important de revenir sur cette notion.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/08/numerique-responsable-greenspector.jpg"
+  },
+  {
+    "slug": "quelle-solution-choisir-pour-un-site-web-sobre/",
+    "href": "/ressources/blog/quelle-solution-choisir-pour-un-site-web-sobre/",
+    "title": "CMS, No Code ou sans CMS, quelle solution choisir pour un site web sobre ?",
+    "description": "Quelle que soit la solution, la sobriété ne sera pas innée. Il faudra appliquer un ensemble de bonnes pratiques et la moins énergivore :",
+    "image": "/assets/img/external/blog.greenspector.com/2022/07/Thumbnail-CMS-min.png"
+  },
+  {
+    "slug": "un-site-sobre-est-il-necessairement-moche/",
+    "href": "/ressources/blog/un-site-sobre-est-il-necessairement-moche/",
+    "title": "Un site sobre est-il nécessairement moche ? ",
+    "description": "Nous nous intéressons à une interrogation liée à l’écoconception web ou sobriété numérique : un site écoconçu est-il nécessairement moche ?",
+    "image": "/assets/img/external/blog.greenspector.com/2022/07/sitesobre-min.png"
+  },
+  {
+    "slug": "auditer-requetes-application-mobile-android/",
+    "href": "/ressources/blog/auditer-requetes-application-mobile-android/",
+    "title": "Comment auditer les requêtes générées par une application mobile Android ?",
+    "description": "Découvrez comment identifiez les services tiers, composants et usages d'une application mobile Android ainsi que leurs impacts.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/06/Requetes_audit_app_mobile.png"
+  },
+  {
+    "slug": "empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+    "href": "/ressources/blog/empreinte-environnementale-des-10-sites-et-applications-de-m-commerce/",
+    "title": "Quelle est l’empreinte environnementale des 10 sites et applications de m-commerce les plus visités en France ? ",
+    "description": "Qu’en est-il des 10 sites et applications de m-commerce les plus visités en France ? Quels sont les sites et applications les plus frugaux ?",
+    "image": "/assets/img/external/blog.greenspector.com/2022/04/Miniature_m-commerce-min.png"
+  },
+  {
+    "slug": "captcha-et-sobriete-numerique/",
+    "href": "/ressources/blog/captcha-et-sobriete-numerique/",
+    "title": "CAPTCHA et sobriété numérique ",
+    "description": "Quel est l'impact environnemental du CAPTCHA ? Comment le concilier avec la sobriété numérique ? C’est ce que nous allons voir ici!",
+    "image": "/assets/img/external/blog.greenspector.com/2022/05/captcha_thumbnail-min.png"
+  },
+  {
+    "slug": "empreinte-environnementale-sites-web-12-candidats-presidentielle-2022/",
+    "href": "/ressources/blog/empreinte-environnementale-sites-web-12-candidats-presidentielle-2022/",
+    "title": "Quelle est l’empreinte environnementale des sites web des 12 candidats à l’élection présidentielle de 2022 ?",
+    "description": "Greenspector a évalué l'empreinte environnementale des sites web des 12 candidats à l’élection présidentielle 2022",
+    "image": "/assets/img/external/blog.greenspector.com/2022/03/thumbnail_candidats-min.png"
+  },
+  {
+    "slug": "la-sobriete-numerique-pour-plus-de-resilience/",
+    "href": "/ressources/blog/la-sobriete-numerique-pour-plus-de-resilience/",
+    "title": "La sobriété numérique pour plus de résilience",
+    "description": "La sobriété est une démarche indispensable dans notre jeune monde numérique. Billet pour plus de résilience au sein du numérique.",
+    "image": "/assets/img/external/blog.greenspector.com/2022/03/Sobriete_resilience_greenspector_olivier_philippot-min.png"
+  },
+  {
+    "slug": "classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+    "href": "/ressources/blog/classement-2022-de-limpact-carbone-des-sites-web-des-ecoles-et-universites/",
+    "title": "Classement 2022 de l’impact carbone des sites web des 187 grandes écoles et universités",
+    "description": "À votre avis, comment se situent en termes d’impact environnemental les sites web des grandes écoles et universités françaises et mondiales ?",
+    "image": "/assets/img/external/blog.greenspector.com/2022/02/Thumbnail_uni-min.png"
+  },
+  {
+    "slug": "methodologie-calcul-empreinte-environnementale/",
+    "href": "/ressources/blog/methodologie-calcul-empreinte-environnementale/",
+    "title": "Comment Greenspector évalue l’empreinte environnementale de l’utilisation d’un service numérique ?",
+    "description": "Avant-propos : Évaluer l’impact de l’usage Cette note décrit succinctement la méthodologie que nous employons à la date de sa publication.​ Dans une démarche de progrès continu, nous sommes vigilants à améliorer sans cesse la cohérence de nos mesures ainsi que notre méthodologie de projection des données en impact environnemental. Il s’agit ici d‘évaluer les impacts environnementaux causés par l’usage […]",
+    "image": "/assets/img/external/blog.greenspector.com/2021/09/Methodology-min1.png"
+  },
+  {
+    "slug": "nettoyer-chrome-pour-realiser-des-mesures-independantes/",
+    "href": "/ressources/blog/nettoyer-chrome-pour-realiser-des-mesures-independantes/",
+    "title": "Comment nettoyer l’application Chrome pour réaliser des mesures de performances et d’énergie fiables ?",
+    "description": "Aujourd'hui nous nous nous concentrons sur la méthode browserReset qui permet de nettoyer un navigateur pour réaliser des mesures fiables.",
+    "image": "/assets/img/external/blog.greenspector.com/2021/07/GDSL_chrome-min-1.png"
+  },
+  {
+    "slug": "impact-presse-quotidienne-francaise-2021/",
+    "href": "/ressources/blog/impact-presse-quotidienne-francaise-2021/",
+    "title": "Classement de l’impact carbone du Top 100 des sites web les plus visités de la presse quotidienne française sur mobile",
+    "description": "Comment comparer l'impact de nos usages numériques avec ceux de la lecture sur papier ? Découvrez l'impact carbone de la presse française...",
+    "image": "/assets/img/external/blog.greenspector.com/2021/07/Presse-min.png"
+  },
+  {
+    "slug": "introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+    "href": "/ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/",
+    "title": "Introduction au GDSL : le langage d’automatisation par Greenspector",
+    "description": "Le GDSL est un langage créé par Greenspector pour simplifier l’automatisation de test sur Android et iOS et le seul qui vous permet de mesurer les performances et l’impact environnemental de votre application ou site web.",
+    "image": "/assets/img/external/blog.greenspector.com/2021/06/GDSL_thumbnail-min.png"
+  },
+  {
+    "slug": "release-note-v-2-9-0/",
+    "href": "/ressources/blog/release-note-v-2-9-0/",
+    "title": "Les nouveautés Greenspector : release note v.2.9.0",
+    "description": "L'équipe de Greenspector est fière d'annoncer sa dernière version v2.9.0. Nous nous sommes concentrés sur l'amélioration de notre langage GDSL",
+    "image": "/assets/img/external/blog.greenspector.com/2021/06/release-note-greenspector-illustration-min-1.png"
+  },
+  {
+    "slug": "changenow-2021-empreinte-carbone/",
+    "href": "/ressources/blog/changenow-2021-empreinte-carbone/",
+    "title": "Greenspector partenaire aux côtés d’Atos – EcoAct pour ChangeNOW (27-29 mai) avec une édition 100% digitale",
+    "description": "Pour cette édition digitale, Greenspector aux côtés d’EcoAct, réalisera une estimation de l’empreinte carbone de l’évènement ChangeNOW.",
+    "image": "/assets/img/external/blog.greenspector.com/2021/04/Thumbnail-ChangeNOW-min.png"
+  },
+  {
+    "slug": "optimiser-energie-des-smartphones-pour-reduire-limpact-du-numerique/",
+    "href": "/ressources/blog/optimiser-energie-des-smartphones-pour-reduire-limpact-du-numerique/",
+    "title": "Optimiser l’énergie des smartphones pour réduire l’impact du numérique et éviter l’épuisement des ressources naturelles",
+    "description": "Quelles sont les pistes pour optimiser l'énergie des smartphones, allonger la durée de vie des batteries et réduire l'impact du numérique ?",
+    "image": "/assets/img/external/blog.greenspector.com/2021/02/Greenspector_impact_environnemental_usure_batterie-min.png"
+  },
+  {
+    "slug": "quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+    "href": "/ressources/blog/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/",
+    "title": "Quelle application mobile de visioconférence pour réduire votre impact ? Édition 2021",
+    "description": "L'objectif de ces mesures est de voir comment les apps se situent en termes d'impact environnemental (Carbone) à partir de scénarios utilisateurs courants.",
+    "image": "/assets/img/external/blog.greenspector.com/2021/04/Visioconferences_app_thumbnailf_greenspector_mars_2021-min-1.png"
+  },
+  {
+    "slug": "une-heure-de-visualisation-netflix-cest-100geqco2-et-alors/",
+    "href": "/ressources/blog/une-heure-de-visualisation-netflix-cest-100geqco2-et-alors/",
+    "title": "1 heure de visualisation Netflix équivaut à 100 gEqCO2. Et alors ?",
+    "description": "Netflix, ainsi que d’autres acteurs comme la BBC, a étudié avec l’appui de l’Université de Bristol : l’impact de son service...",
+    "image": "/assets/img/external/blog.greenspector.com/2021/03/netflix-logo-n-icon-min.png"
+  },
+  {
+    "slug": "quelles-ressources-reduire-bonnes-pratiques-ecoconception-logicielle/",
+    "href": "/ressources/blog/quelles-ressources-reduire-bonnes-pratiques-ecoconception-logicielle/",
+    "title": "Quelles ressources réduire dans le cadre de bonnes pratiques d’éco-conception logicielle : Traitements côté serveurs ou côté utilisateurs ?",
+    "description": "Aujourd’hui nous tentons de répondre à la question : quelle architecture et où mettre les traitements côté utilisateurs ou côté serveurs ?",
+    "image": "/assets/img/external/blog.greenspector.com/2021/02/Ecoconception_numerique-min.jpg"
+  },
+  {
+    "slug": "smartphones-utilisateurs-impact-environnemental-usure-batterie/",
+    "href": "/ressources/blog/smartphones-utilisateurs-impact-environnemental-usure-batterie/",
+    "title": "Smartphones utilisateurs : tout savoir sur l’impact environnemental et l’usure des batteries",
+    "description": "Terminaux utilisateurs : l’impact environnemental élevé de la phase de fabrication Les terminaux utilisateurs sont désormais les plus gros contributeurs à l’impact environnemental du numérique et ce phénomène est amené à se renforcer. Cette tendance s’explique principalement par un équipement de plus en plus important des foyers en smartphones, par une durée de vie réduite […]",
+    "image": "/assets/img/external/blog.greenspector.com/2021/02/Greenspector_impact_environnemental_usure_batterie-min.png"
+  },
+  {
+    "slug": "sobriete-numerique-erreurs-a-eviter/",
+    "href": "/ressources/blog/sobriete-numerique-erreurs-a-eviter/",
+    "title": "Sobriété numérique partout, sobriété numérique nulle part ? 7 erreurs à éviter !",
+    "description": "Tout le monde parle de sobriété numérique mais qu'en est-il réellement ? Voici 7 erreurs à éviter, quelques conseils et analyses...",
+    "image": "/assets/img/external/blog.greenspector.com/2021/02/Sobriete_numerique_7_erreurs_a_eviter_greenspector-1.png"
+  },
+  {
+    "slug": "quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+    "href": "/ressources/blog/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/",
+    "title": "Quels sont les meilleurs navigateurs web Android à utiliser en 2021 ?",
+    "description": "Pour cette édition 2021, nous avons choisi de mesurer 15 applications mobiles de navigation web afin de les comparer par rapport à leur impact et consommations énergie - ressources.",
+    "image": "/assets/img/external/blog.greenspector.com/2021/03/Navigateurs_thumbnail_2021-min.png"
+  },
+  {
+    "slug": "impact-video-canal/",
+    "href": "/ressources/blog/impact-video-canal/",
+    "title": "Étude d’impact de la lecture d’une vidéo Canal+",
+    "description": "Décourez l'étude d'impact environnemental de la lecture d'une vidéo Canal+ par les sociétés Greenspector et EVEA.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/11/canal_thumbnail-min1.png"
+  },
+  {
+    "slug": "apps-communication-equipe/",
+    "href": "/ressources/blog/apps-communication-equipe/",
+    "title": "Comparatif de sobriété numérique de 3 applications de communication instantanée pour entreprise.",
+    "description": "Nous comparons la sobriété numérique des applications de communication instantanée destinées aux entreprises : Skype, Slack et Teams.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/11/thumbnail_chat_interne-min.png"
+  },
+  {
+    "slug": "ugap/",
+    "href": "/ressources/blog/ugap/",
+    "title": "Expertise et Solution Greenspector accessibles à la commande publique via l’UGAP",
+    "description": "Greenspector a été retenu comme sous-traitant des marchés pour intégrer la dimension d’éco-responsabilité au bénéfice des acteurs publics.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/11/UGAP_thumbnail-min.png"
+  },
+  {
+    "slug": "doodles-google/",
+    "href": "/ressources/blog/doodles-google/",
+    "title": "Les Doodles de Google : quel impact environnemental ?",
+    "description": "Quel est l'impact comparé des différents types de Doodles Français du moteur de recherche Google ? Quel impact carbone projeté ?",
+    "image": "/assets/img/external/blog.greenspector.com/2020/10/popular-google-doodle-games.jpg"
+  },
+  {
+    "slug": "planet-tech-care/",
+    "href": "/ressources/blog/planet-tech-care/",
+    "title": "Greenspector acteur du Planet Tech’Care",
+    "description": "Greenspector s’engage à la fois comme signataire de Planet Tech'Care et s’engage en tant que partenaire pour un Numérique sobre et inclusif",
+    "image": "/assets/img/external/blog.greenspector.com/2020/10/Planet_tech_care-min.png"
+  },
+  {
+    "slug": "service-tiers-youtube/",
+    "href": "/ressources/blog/service-tiers-youtube/",
+    "title": "Intégrer un service tiers : est-ce dangereux pour la vie privée de vos visiteurs, quel impact pour l’environnement ? Le cas Youtube",
+    "description": "Quel impact de consommation pour un service tiers Youtube sur votre site web ? Découvrez aussi nos bonnes pratiques d'intégration d'une vidéo.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/10/Youtube_thumbnail-min.png"
+  },
+  {
+    "slug": "enjeux-numerique-responsable-secteur-public/",
+    "href": "/ressources/blog/enjeux-numerique-responsable-secteur-public/",
+    "title": "Les enjeux d’un numérique éco-responsable pour le secteur public",
+    "description": "Quelles métriques mesurer pour couvrir les impacts majeurs d'un service numérique ? Quels seuils fixer ? Quelles types d'exigences ?",
+    "image": "/assets/img/external/blog.greenspector.com/2020/09/thumbnail-min.png"
+  },
+  {
+    "slug": "marches-publics-classement/",
+    "href": "/ressources/blog/marches-publics-classement/",
+    "title": "Exigences de sobriété numérique au sein des marchés publics – classement",
+    "description": "Classement des villes, départements régions, ministères... mesurés suite au webinar : exigences de sobriété numérique des marchés publics",
+    "image": "/assets/img/external/blog.greenspector.com/2020/09/Illustration-marches-publics-min.png"
+  },
+  {
+    "slug": "limiter-les-donnees-internet-pour-reduire-impact-numerique/",
+    "href": "/ressources/blog/limiter-les-donnees-internet-pour-reduire-impact-numerique/",
+    "title": "Faut-il limiter les données qui transitent sur internet pour réduire l’impact du numérique ?",
+    "description": "Le débat fait rage actuellement sur l'intérêt ou non de limiter la consommation de données des utilisateurs web.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/09/Illustration-limiter-donnees-transitent-internet-impact-numerique-min.png"
+  },
+  {
+    "slug": "poursuite-du-projet-auxylium/",
+    "href": "/ressources/blog/poursuite-du-projet-auxylium/",
+    "title": "Auxylium : confiance renouvelée pour la poursuite du projet",
+    "description": "Atos et la DGA renouvellent leur confiance pour la solution et l’expertise Greenspector sur le projet Auxylium.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/09/Auxylium-thumbnail-min.png"
+  },
+  {
+    "slug": "moteurs-de-recherches/",
+    "href": "/ressources/blog/moteurs-de-recherches/",
+    "title": "L’impact environnemental des moteurs de recherches",
+    "description": "Quel est l'impact carbone des applis de recherche ? Une étude menée par Greenspector pour une utilisation responsable des services numériques.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/07/Greenpector_moteurs_de_recherche_thumbnail.png"
+  },
+  {
+    "slug": "impact-instagram/",
+    "href": "/ressources/blog/impact-instagram/",
+    "title": "L’impact environnemental des fonctionnalités d’Instagram",
+    "description": "Vous êtes vous déjà demandé quel était le coût environnemental d'un post, d'une story, d'un live ou du fil d'actualité d'Instagram ?",
+    "image": "/assets/img/external/blog.greenspector.com/2020/07/instagram_thumbnail-min.png"
+  },
+  {
+    "slug": "atos-scaler/",
+    "href": "/ressources/blog/atos-scaler/",
+    "title": "Greenspector rejoint l’accélérateur Atos : #AtosScaler",
+    "description": "L’objectif de ce partenariat est de rendre plus efficientes, inclusives et eco-responsables les applications développées par Atos.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/07/GREENSPECTOR_joins_AtosScaler-min.png"
+  },
+  {
+    "slug": "impact-carbone-e-commerce-france/",
+    "href": "/ressources/blog/impact-carbone-e-commerce-france/",
+    "title": "Les grands chiffres de l’impact Carbone du e-commerce en France",
+    "description": "Les enseignements d’une étude exclusive : comment sont classés les sites du top 100 e-commerce français ? Comment évaluer leurs impacts ?",
+    "image": "/assets/img/external/blog.greenspector.com/2020/04/Grands_chiffres_impact_carbone_e_commerce2-min.jpg"
+  },
+  {
+    "slug": "quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/",
+    "href": "/ressources/blog/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/",
+    "title": "Quelle application mobile de visioconférence pour réduire votre impact ?",
+    "description": "Le contexte de confinement actuel augmente mécaniquement l’usage d’outils de collaboration en ligne, en particulier les outils de visioconférence. Nous évaluons aujourd'hui 5 applications et leur impact",
+    "image": "/assets/img/external/blog.greenspector.com/2020/03/visio-applications-thumbnail.png"
+  },
+  {
+    "slug": "quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+    "href": "/ressources/blog/quels-sont-les-meilleurs-navigateurs-web-a-utiliser-en-2020/",
+    "title": "Quels sont les meilleurs navigateurs web à utiliser en 2020 ?",
+    "description": "L’édition 2021 de ce classement est disponible ! Lire l’étude Le navigateur internet est l’outil primordial sur un appareil mobile. Il est le moteur pour naviguer sur internet. Plus uniquement pour les sites web mais aussi maintenant pour les nouveaux types d’applications basées sur les technologies web (progressive web app, jeux,…). Dans notre classement des […]",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/thumbnail-3.jpg"
+  },
+  {
+    "slug": "applications-de-geolocalisation/",
+    "href": "/ressources/blog/applications-de-geolocalisation/",
+    "title": "Palmarès 2019 des applications de géolocalisation",
+    "description": "Découvrez quels sont les impacts de la consommation énergétique des applications GPS sur l'autonomie de votre smartphone",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/thumbnail-min-4.jpg"
+  },
+  {
+    "slug": "mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+    "href": "/ressources/blog/mesurer-la-performance-des-applications-mobiles-monitoring-synthetique-ou-real-user-monitoring/",
+    "title": "Mesurer la performance des applications mobiles : monitoring synthétique ou real user monitoring ?",
+    "description": "La « digitalisation » des entreprises et particulièrement l’offre de plus en plus importante d’applications numériques, rendent le critère de qualité des applications mobiles de plus en plus nécessaire. La performance est dans ce cadre un critère de contrôle obligatoire. Sans cela, les risques sont nombreux pour les concepteurs d’applications : désinstallations, taux d’attrition en hausse, échec […]",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2019-07-10-thumbnail.png"
+  },
+  {
+    "slug": "le-top-10-des-mythes-du-numerique-sobre/",
+    "href": "/ressources/blog/le-top-10-des-mythes-du-numerique-sobre/",
+    "title": "Le Top 10 des mythes du numérique sobre",
+    "description": "Une vraie dynamique pour changer l'impact du numérique émerge, cependant il est important d'éviter tout phénomène de greenwashing...",
+    "image": "/assets/img/external/blog.greenspector.com/2019/06/2019-06-19-top10.jpg"
+  },
+  {
+    "slug": "le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+    "href": "/ressources/blog/le-saviez-vous-de-nombreux-mobinautes-ne-pourront-pas-utiliser-votre-application/",
+    "title": "Le saviez-vous ? De nombreux mobinautes ne pourront pas utiliser votre application !",
+    "description": "Le succès et l'adhésion d'une application sont trop souvent réduits à l'ASO ou au SEO. Le critère de performance est en réalité important.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/thumbnail-1.png"
+  },
+  {
+    "slug": "pourquoi-automatiser-les-tests-de-ses-applications-mobiles/",
+    "href": "/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/",
+    "title": "Pourquoi automatiser les tests de ses applications mobiles ?",
+    "description": "Outre le fait de détecter d'éventuels problèmes de performance et bugs utilisateurs, l'automatisation présente de nombreux autres bénéfices : le suivi d’exigences non-fonctionnelles, la maîtrise des régressions, la remontée de nouvelles métriques...",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2018-12-03-automatisation-des-tests-apps-mobiles.png"
+  },
+  {
+    "slug": "ecouter-de-la-musique-sur-son-smartphone-sans-vider-sa-batterie-cest-possible/",
+    "href": "/ressources/blog/ecouter-de-la-musique-sur-son-smartphone-sans-vider-sa-batterie-cest-possible/",
+    "title": "Écouter de la musique sur son smartphone sans vider sa batterie c’est possible ?",
+    "description": "Quel est le moyen le moins consommateur pour votre batterie pour écouter de la musique sur votre smartphone ? Nous comparons différents services en fonction de vos usages et habitudes",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2018-11-26-musique-min.png"
+  },
+  {
+    "slug": "comment-choisir-les-smartphones-integres-a-vos-campagnes-de-tests/",
+    "href": "/ressources/blog/comment-choisir-les-smartphones-integres-a-vos-campagnes-de-tests/",
+    "title": "Comment choisir les smartphones intégrés à vos campagnes de tests ?",
+    "description": "Plusieurs stratégies sont possibles pour choisir les smartphones intégrés à vos campagnes de tests, nous vous expliquons dans cet article comment bien choisir vos devices en fonction de vos objectifs de validation.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2019-07-10-thumbnail.png"
+  },
+  {
+    "slug": "droidcon-berlin-2018-5-bonnes-pratiques-pour-lefficience-des-flottes-mobiles-par-greenspector/",
+    "href": "/ressources/blog/droidcon-berlin-2018-5-bonnes-pratiques-pour-lefficience-des-flottes-mobiles-par-greenspector/",
+    "title": "DroidCon Berlin 2018 : 5 bonnes pratiques pour l’efficience des flottes mobiles par GREENSPECTOR",
+    "description": "GREENSPECTOR était partenaire et sponsor Bronze du DroidCon Berlin 2018. Dans ce cadre, nous avons pu valoriser nos retours d'expérience et notre expertise liée aux projets des clients grands comptes sur des flottes mobiles Nous vous proposons 5 recommendations liées à notre intervention en tant que speaker",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/droidcon-berlin-gspt.png"
+  },
+  {
+    "slug": "lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/",
+    "href": "/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/",
+    "title": "Lancer des tests Appium en parallèle sur plusieurs devices",
+    "description": "Il est parfois nécessaire d’exécuter des tests en parallèle sur plusieurs devices. Dans tous les cas, cela permet d’accélérer sa campagne de test :",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2018-06-13-appium-greenspector.png"
+  },
+  {
+    "slug": "ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+    "href": "/ressources/blog/ne-laissez-plus-la-cellule-reseau-faire-le-hold-up-de-votre-batterie/",
+    "title": "Ne laissez plus la cellule réseau faire le hold up de votre batterie !",
+    "description": "En plus du volume des données, il est également important de porter une attention particulière à la façon dont les données sont échangées par votre application ou lors de la consultation de votre site web...ne laissez plus la cellule réseau faire la loi",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/thumbnail-2.png"
+  },
+  {
+    "slug": "comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/",
+    "href": "/ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/",
+    "title": "Comment détecter les problèmes d’énergie et de performance de vos applications mobiles avant vos utilisateurs ?",
+    "description": "Dans cet article, nous vous expliquons les enjeux et les problématiques d’énergie et de performance de vos applications mobiles, et comment les détecter avant vos utilisateurs. Performance et énergie, critères primordiaux pour les applications mobiles La performance d’une solution numérique est un critère important pour les utilisateurs.Sans performance, les utilisateurs seront critiques et dans le […]",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2018-05-15-energy-performance-greenspector.png"
+  },
+  {
+    "slug": "comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/",
+    "href": "/ressources/blog/comment-analyser-le-comportement-de-mon-smartphone-avec-battery-historian/",
+    "title": "Comment analyser le comportement de mon smartphone avec Battery Historian ?",
+    "description": "Découvrez comment analyser le comportement de votre smartphone et de la batterie grâce à l'outil Battery Historian. Nous vous proposons dans cet article un tutoriel d'usage vous permettant de collecter les insights et informations clés du système de votre mobile",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/battery-historian-miniature-fr.png"
+  },
+  {
+    "slug": "comment-les-applications-ont-tue-ma-batterie/",
+    "href": "/ressources/blog/comment-les-applications-ont-tue-ma-batterie/",
+    "title": "Comment les applications ont tué ma batterie ?",
+    "description": "Découvrez au travers de cet article, les causes de l'obsolescence des batteries de nos smartphones ainsi que quelques conseils pour y remédier. Mais aussi comment les applications qui consomment trop d'énergie et de ressources impactent la durée de vie et la capacité de la batterie.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2018-04-17-how-apps-killed-my-phone-battery.png"
+  },
+  {
+    "slug": "android-6-ameliore-t-il-lautonomie-des-smartphones/",
+    "href": "/ressources/blog/android-6-ameliore-t-il-lautonomie-des-smartphones/",
+    "title": "Android 6 améliore-t-il l’autonomie des smartphones?",
+    "description": "Il semblerait qu'Android 6 réduit la consommation de batterie, mais qu'en est-il vraiment? Nous avons voulu vérifier cette affirmation en mesurant nos applications favorites sur un Fairephone2",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/android6-battery-life.png"
+  },
+  {
+    "slug": "pourquoi-se-preoccuper-de-la-consommation-de-batterie-dune-application/",
+    "href": "/ressources/blog/pourquoi-se-preoccuper-de-la-consommation-de-batterie-dune-application/",
+    "title": "Pourquoi se préoccuper de la consommation de batterie d’une application ?",
+    "description": "L'autonomie des smartphones stagne et l’anxiété liée au phénomène de batterie vide augmente, préoccupons-nous de la consommation de batterie des applications",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/battery-life-consumption-app-min.png"
+  },
+  {
+    "slug": "android-memory-the-ultimate-metric-guide/",
+    "href": "/ressources/blog/android-memory-the-ultimate-metric-guide/",
+    "title": "Android Memory: the Ultimate Metric Guide",
+    "description": "GREENSPECTOR vous présente l'Ultimate Metric Guide, le glossaire pour mieux gérer la mémoire de vos applications sur appareils Android.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/android-memory-ultimate-metric-guide-min.png"
+  },
+  {
+    "slug": "premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/",
+    "href": "/ressources/blog/premiers-pas-avec-ui-automator-votre-1er-scenario-de-test/",
+    "title": "Premiers pas avec UI Automator : votre 1er scénario de test",
+    "description": "Faites vos premiers pas avec UI Automator et découvrez comment écrire votre premier scénario de test Android !",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/ui-automator-thumbnail.jpg"
+  },
+  {
+    "slug": "faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+    "href": "/ressources/blog/faut-il-changer-son-fond-decran-pour-consommer-moins-de-batterie/",
+    "title": "Faut-il changer son fond d’écran pour consommer moins de batterie ?",
+    "description": "La consommation d'énergie des écrans des smartphones et tablettes varie en fonction des technologies utilisées mais aussi d'autres paramètres, comme la couleur affichée",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/thumbnail-15.jpg"
+  },
+  {
+    "slug": "http2-latence-et-energie/",
+    "href": "/ressources/blog/http2-latence-et-energie/",
+    "title": "HTTP2, Latence et Énergie",
+    "description": "Il est maintenant clair que HTTP2 améliore la performance de sites et applications web. Mais qu’en est-il de son l’efficience énergétique ?",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2017-03-07-article-HTTP2-1.png"
+  },
+  {
+    "slug": "la-boite-a-outils-du-developpeur-android-les-outils-de-performance/",
+    "href": "/ressources/blog/la-boite-a-outils-du-developpeur-android-les-outils-de-performance/",
+    "title": "La boîte à outils du développeur Android : les outils de performance",
+    "description": "Vous souhaitez contrôler la consommation de ressources de vos applications (CPU, mémoire, data…) ? Découvrez les outils de performance du développeur Android",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/Android-toolbox-v3-fr-min.jpg"
+  },
+  {
+    "slug": "webp-png-jpeg-energy-battle-sur-android/",
+    "href": "/ressources/blog/webp-png-jpeg-energy-battle-sur-android/",
+    "title": "WebP, PNG, JPEG : Energy battle sur Android",
+    "description": "Quelle est l'image la plus économe en énergie sur Android ? Comparons les formats PNG, JPEG ainsi que le tout nouveau format Webp de Google",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/energy-battle-min.jpg"
+  },
+  {
+    "slug": "android-faut-il-utiliser-hashmap-ou-sparsearray/",
+    "href": "/ressources/blog/android-faut-il-utiliser-hashmap-ou-sparsearray/",
+    "title": "Android : faut-il utiliser HashMap ou SparseArray ?",
+    "description": "Les SparseArray sont-ils meilleurs que les HashMap pour votre application Android ? Comparons leurs consommations en ressources et en énergie.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/cover.jpg"
+  },
+  {
+    "slug": "la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+    "href": "/ressources/blog/la-mesure-en-continu-dans-le-devops-ou-comment-piloter-facilement-lefficience-de-ses-applications/",
+    "title": "La mesure en continu dans le devops, ou comment piloter facilement l’efficience de ses applications",
+    "description": "Une plus grande agilité, et des déploiements toujours plus rapprochés... Pilotez l'efficience de vos applis avec la mesure en continu dans le devops",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2017-03-21-article-mesure-en-continu-dans-le-devops.jpg"
+  },
+  {
+    "slug": "limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+    "href": "/ressources/blog/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/",
+    "title": "L’impact des services tiers comme Twitter sur l’autonomie des batteries",
+    "description": "Le management de la performance web et du temps de chargement a pris place dans la culture des développeurs web mais également les composants tiers.",
+    "image": "/assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-11.jpg"
+  },
+  {
+    "slug": "pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+    "href": "/ressources/blog/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/",
+    "title": "Pourquoi devriez-vous mesurer la consommation énergétique de votre logiciel ?",
+    "description": "Le temps de chargement d’une page a longtemps été l’indicateur clé (et l’unique indicateur dans certains cas) de la démarche d’optimisation de sites internet. Cela a en effet aidé à l’amélioration de nombreux sites, ou tout du moins aidé à structurer le domaine d’optimisation web, devenant une métrique partagée universellement. Bien, mais sommes-nous allés aussi […]",
+    "image": "/assets/img/external/blog.greenspector.com/2016/04/2016-03-11-news-greenspector.jpg"
+  }
+]

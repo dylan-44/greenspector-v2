@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>DOM as a metric for monitoring web sobriety? - Greenspector</title>
+    <meta name="description" content="Choosing the right metric to assess its impact is critical in a sobriety approach. The Use of the DOM should therefore be used with great care.">
+    <meta name="keywords" content="Numérique responsable">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/">
+    <meta property="og:title" content="DOM as a metric for monitoring web sobriety?">
+    <meta property="og:description" content="Choosing the right metric to assess its impact is critical in a sobriety approach. The Use of the DOM should therefore be used with great care.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2023/05/le-DOM.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2023/05/le-DOM.jpg">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>DOM as a metric for monitoring web sobriety?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>May 2, 2023</span><span>Numérique responsable</span></div>
+  <div class="blog-article__body">
+    <p>Choosing the right metric to assess its impact is critical in a sobriety approach.</p>
+
+<p>We have validated the use of energy in our tools (<a href="../../../../en/ressources/blog/fr/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/" target="_blank" rel="noopener noreferrer">https://blog.greenspector.com/fr/pourquoi-devriez-vous-mesurer-la-consommation-energetique-de-votre-logiciel/</a> and <a href="../../../../en/ressources/blog/fr/methodologie-calcul-empreinte-environnementale/" target="_blank" rel="noopener noreferrer">https://blog.greenspector.com/fr/methodologie-calcul-empreinte-environnementale/ </a>for more details). We do however use and measure other metrics such as CPU. This metric can however be complex to measure and some tools or teams use other more technically accessible elements. The CPU is an interesting metric to measure the resource footprint on the terminal side. Indeed, we have carried out measurements on several hundred sites and it is clear that the CPU is the most important metric for analysing the impact of software. This is why all the models that use the data exchanged to calculate the impact of the terminal are not consistent. CPU-based models (such as <a href="https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/fiches/powerapi/" target="_blank" rel="noopener noreferrer">the Power API</a>) are preferred.</p>
+
+<p>However, it is necessary to be rigorous in the analysis of this metric as there may be interpretation biases (<a href="../../../../en/ressources/blog/fr/pourquoi-mesurer-la-performance-avec-le-cpu-est-une-erreur/" target="_blank" rel="noopener noreferrer">Example of criticism on the CPU</a>). The criticism must be even more important on the way to obtain this metric, and more particularly in the case of modelling the CPU. This is the case, for example, with methods for projecting the CPU into the web from DOM elements.</p>
+
+<p>This is based on the assumption that the structure of the DOM has an impact on the resource consumption of the terminal. The more complex the dom, the more it needs to be processed by the browser, the more resources (CPU and RAM) it uses and the more environmental impact it creates.</p>
+
+<p>Assuming that the hypothesis of a correlation between DOM complexity and environmental impact is valid, the metric often used is the number of elements. A DOM with many elements may be complex but not systematically so. To take into account the complexity of the DOM, it would be necessary to take into account the architecture of the DOM, in particular the depth, the type of node (not all nodes have the same impact on the browser…). The choice of the number of DOM elements is therefore debatable.</p>
+
+<p>But is the choice of DOM complexity a viable assumption? There are several criticisms of this.</p>
+
+<p>The DOM is a raw structure that is not sufficient for the browser to display the page. The style is used with the DOM to create the CSSOM, a complexity of the style can thus greatly impact the CSSOM, even with a simple DOM. Then the layout tree is a structure that will allow the display to be managed (typos, sizes…), this management is much <a href="https://www.mo4tech.com/in-depth-reading-of-modern-browsers-iii.html" target="_blank" rel="noopener noreferrer">more complex to handle for browsers</a>.</p>
+
+<p>A DOM can be modified after its creation. This is called reflow and repaint. The browser will recalculate the layout and other things. This can happen several times during loading and after loading. The depth of the DOM (and not the number of elements) can influence but not only: the loading and <a href="https://developers.google.com/speed/docs/insights/browser-reflow?hl=fr" target="_blank" rel="noopener noreferrer">execution of JS code are to be taken into account</a>.</p>
+
+<p>Independently of the DOM, resource consumption can be impacted by various processes on the terminal. In particular, all the JS processing that will be executed when the page is loaded. This cost is currently <a href="https://v8.dev/blog/cost-of-javascript-2019" target="_blank" rel="noopener noreferrer">the main cost on the CPU in the web</a>. And you can have a DOM with 100 elements (not many) and a JS gas factory.</p>
+
+<p>Graphics animations will increase resource consumption without necessarily impacting the DOM. Even if most of this processing is handled by the GPU, the resource impact is not negligible. We can also put in this category the launching of videos, podcasts (and more generally media files) and ads.</p>
+
+<p>There are also many other sources of resource consumption: ungrouped network requests, memory leaks.</p>
+
+<p>The use of the DOM should therefore be used with great care. It is best used as a software quality metric that indicates « clean HTML ». Reducing the number of DOM elements and simplifying the DOM structure may be a good sobriety practice but not a sobriety reduction or CO2 calculation KPI.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

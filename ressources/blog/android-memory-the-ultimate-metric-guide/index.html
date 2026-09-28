@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Android Memory: the Ultimate Metric Guide - Greenspector</title>
+    <meta name="description" content="GREENSPECTOR vous présente l'Ultimate Metric Guide, le glossaire pour mieux gérer la mémoire de vos applications sur appareils Android.">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/android-memory-the-ultimate-metric-guide/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/android-memory-the-ultimate-metric-guide/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/android-memory-the-ultimate-metric-guide/">
+    <meta property="og:title" content="Android Memory: the Ultimate Metric Guide">
+    <meta property="og:description" content="GREENSPECTOR vous présente l'Ultimate Metric Guide, le glossaire pour mieux gérer la mémoire de vos applications sur appareils Android.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/android-memory-the-ultimate-metric-guide/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/android-memory-ultimate-metric-guide-min.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/android-memory-ultimate-metric-guide-min.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/android-memory-the-ultimate-metric-guide/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/android-memory-the-ultimate-metric-guide/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/android-memory-the-ultimate-metric-guide/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Android Memory: the Ultimate Metric Guide</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>5 décembre 2017</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p>Nous portons de l&rsquo;importance à l&rsquo;<strong>efficience de vos applications</strong>, c&rsquo;est pourquoi nous vous présentons cet *<em>Ultimate Metric Guide</em>: le glossaire pour mieux gérer la mémoire de vos applications sur appareils Android.**</p>
+
+<h2>Syllabus de la mémoire</h2>
+
+<p><strong>Pages</strong>: Blocs utilisés pour récupérer des données du disque à la mémoire. C&rsquo;est la partie principale de la gestion de mémoire virtuelle. En général, la taille de la page est de 4kb.</p>
+
+<p><strong>Mémoire privée / partagée</strong> <em>(Private / Shared memory)</em>: La mémoire privée est composée de pages qui sont utilisées par le processus seulement. La mémoire partagée, quant à elle, est faite de pages utilisées par d’autres processus. Il est possible qu’une page passe de Privée à Partagée si un processus référence la page en question.</p>
+
+<p><strong><em>Clean / Dirty memory</em></strong>: Les pages “dirty” sont celles sorties du disque. Par conséquence, les pages “clean” sont celles qui ont été lues.</p>
+
+<p><strong>VSS (Virtual Set Size)</strong>: C’est le nombre total de pages accessibles par un processus. Cela inclut à la fois les pages privées et partagées, mais aussi d’autres espaces de mémoire comme malloc. Cela est peu, voir pas, utilisé.</p>
+
+<p><strong>RSS (Resident Set Size)</strong>: Total des bibliothèques partagées. Pas d’information sur le nombre de processus utilisant la page. Par conséquent, cela n’est pas une information très utile (La PSS est plus importants).</p>
+
+<p><strong>Pss (proportional set size)</strong>: Le nombre de pages un processus a en mémoire, dans lequel les pages privées et pages partagées sont additionnées et divisées par le nombre de processus les partageant. Si un processus a 2 pages privées et 6 autres pages privées utilisées par 2 autres processus, le « pss » en nombre de pages est de 2+6/3=4.</p>
+
+<p><strong>Uss (Unique set size)</strong>: Le nombre de pages uniques associées à un processus, et donc de pages privées ! Généralement VSS &gt; RSS &gt; PSS &gt; USS</p>
+
+<p><strong>Java / native memory</strong>: La mémoire Java est la mémoire gérée par le système Android (Dalvik ou ART). Principalement pour vos objets Kotlin ou Java ! La mémoire native est quant à elle plutôt pour les objets générés. Même sans application C/C++, le framework Android utilise parfois la méthode native.</p>
+
+<p><strong>ZRam</strong>: Android n’a pas de partition swap, Zram est la RAM mais une compression est utilisée pour stocker les données inutiles. Sur meminfo, « swapped dirty » paraît être équivalent.</p>
+
+<p><strong>Stack / heap</strong>: Heap est l’espace mémoire objet, et les variables locales sont allouées à Stack. Par conséquent, les objets sont créés sur Heap. Chaque thread a un espace Stack.<br>Allocated Heap Size : Android est un système multitâche ; afin de garder de l’espace mémoire pour d’autres processus, il affecte une taille de la mémoire dans la mémoire globale. Cette taille varie selon le smartphone. Si votre application requiert davantage de mémoire, vous obtiendrez la célèbre erreur « mémoire insuffisante » (<em>« out of memory »</em>).</p>
+
+<p><strong>MMAP</strong>: Dénommé “map file to memory” par le système. Sur Android, il y des mmap pour chaque type de dossier (Dex, APK, ART. Peut être nommé “Code” dans certains outils.</p>
+
+<p><strong>Graphics Buffer</strong>: Mémoire utilisée pour stocker les objets graphiques.</p>
+
+<p><strong>User/Kernal memory</strong>: Le processus tourne dans l’espace utilisateur. L’espace Kernel est dédié aux calls du système Android.</p>
+
+<h2>Organisation mémoire</h2>
+
+<p>La <strong>mémoire Android</strong> est organisée par un système d’adresses virtuelles. Le mapping est le suivant: (adresses ascendantes)</p>
+
+<ul><li>User Space</li><li>Data space (texte, données, instructions&#8230;)</li><li>Heap</li><li>libs (bibliothèques partagées, .jar&#8230;)</li><li>Stack</li><li>Kernel Space</li></ul>
+
+<p>La mémoire utilisée par votre application se trouve dans le user space (principalement en heap et stack).</p>
+
+<h2>Outils</h2>
+
+<p><strong>Paramètre système Android</strong>: Les données dans l’interface utilisateur Android fournissent deux informations : la consommation maximale et la moyenne d’information (3 heures). La moyenne est relativement compliquée à analyser et la consommation maximale est une première indication intéressante pour l’utilisateur.</p>
+
+<p><strong>Top</strong>: Parce que l’on utilise déjà les RSS et VSS, les informations Top ne sont pas particulièrement significatives.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/top-min.png" alt="" width="636" height="144" loading="lazy" decoding="async"></figure>
+
+<p><strong>Memory Profiler in Android Studio (&gt;3.0)</strong>: Uniquement la mémoire privée est mesurée et se divise en différents domaines:</p>
+
+<ul><li>Native / Java</li><li>Code</li><li>Graphics Buffer</li></ul>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/profiler-min.png" alt="" width="1024" height="282" loading="lazy" decoding="async"></figure>
+
+<p><strong>Android Monitor in Android Studio (&lt;3.0)</strong>: Uniquement la mémoire privée est mesurée . Moins de domaines sont mesurés que dans Android Memory &gt; 3.</p>
+
+<p><strong>Dumpsys</strong>: Dumpsys mesure la mémoire PSS (à la fois privée et partagée) mais aussi le SWAP dirty.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min.png" alt="" width="633" height="665" loading="lazy" decoding="async"></figure>
+
+<p><strong>Android MemInfo API</strong>: La mémoire PSS ets utilisée (privée et partagée)</p>
+
+<p><strong>/proc/meminfo</strong>: C’est la mémoire globale de la plateforme, pas d’information sur votre processus.</p>
+
+<h2>Quelles métriques doit-on utiliser ?</h2>
+
+<p><strong>Mémoire privée/USS</strong>: Cette mémoire est dédiée à votre processus. Il est donc intéressant d’analyser précisément l’objet dédié à votre application. Par exemple, si vous tuez votre processus, la mémoire dédiée doit être de zéro, cela vous permet donc de détecter une potentielle fuite de mémoire. Néanmoins, votre application a utilisé des bibliothèques et des codes partagés, par conséquent vous ne verrez pas de mémoire qui pourra être partagée avec d’autre processus.</p>
+
+<p><strong>PSS/Mémoire privée et partagée</strong>: C’est plus compliqué d’analyser cette mémoire car elle intègre la mémoire de différents processus (avec un facteur de correction). Cependant, pendant vos mesures, si vous fermez les autres apps en cours d’exécution en arrière-plan, cet impact sera minimisé.</p>
+
+<p><strong>VSS/RSS</strong>: Trop de pages de mémoire sont prises en compte dans cette métrique, elle n’est donc pas intéressante à analyser.</p>
+
+<h2>Comment tester la mémoire ?</h2>
+
+<p><strong>Statique</strong>: Vous avez seulement à exécuter votre application et lancer les outils de mémoire. Cela permet d’avoir une vue globale de la consommation en mémoire de votre application. Vous pouvez utiliser cette technique pour réduire la mémoire totale utilisée : code, java heap,…</p>
+
+<p><strong>En longueur</strong>: Vous laissez les outils s’exécuter et observez les évolutions en matière de mémoire. Par ce moyen, vous pouvez identifier une fuite de mémoire potentielle ; la mémoire augmente régulièrement : s’il y a un « garbage collector » réduisant fréquemment la mémoire à sa valeur initiale, il n’y a pas de problème, si non, il y a une fuite.</p>
+
+<p><strong>Passer d’une activité à une autre</strong>: Vous pouvez aller entre les pages et voir si la mémoire est libérée à chaque fois. Cela est possible avec des tests Monkey.</p>
+
+<p><strong>Ecran rotateur</strong>: Si vous tourner votre écran, l’activité de votre application créera potentiellement une fuite de mémoire.</p>
+
+<p><strong>Mettre l’application en arrière-plan</strong>: Si votre application est en arrière-plan, une partie de la mémoire sera libérée (par exemple la graphique). Vous pouvez aussi libérer davantage de mémoire (objet, bibliothèque…).</p>
+
+<h2>Comment réduire la mémoire?</h2>
+
+<p><strong>Optimiser l’image</strong>: Les images sont une cause de consommation de mémoire assez importante. Vous pouvez utiliser la <a href="https://developer.android.com/topic/performance/graphics/index.html">Bibliothèque Glide</a> pour vous aider à les gérer ou encore à en optimiser la gestion avec Android API.</p>
+
+<p><strong>Libérer de la mémoire quand Android requiert advantage de mémoire</strong> : Comme le système est pauvre en mémoire, une notification est envoyée à toutes les applications pour libérer de la mémoire. Dans ce cas-là, passez outre onTrimMemory() pour libérer de la <a href="https://developer.android.com/topic/performance/memory.html">mémoire</a>.</p>
+
+<p><strong><a href="../../../ressources/blog/articles/2017-04-11-android-containers/">Utiliser une structure spécifique</a></strong>: Les collections génériques comme hashmap ne sont pas dédiées à Android, certaines structures sont plus adaptées, comme SparseArray.</p>
+
+<p><strong>Réduire la taille de votre APK</strong>: La taille de votre APK (particulièrement les ressources et bibliothèques) peuvent augmenter la <a href="https://developer.android.com/topic/performance/memory.html">consommation de mémoire</a>.</p>
+
+<p><strong>Réduire le nombre de threads</strong>: Android fournit des services pour faire des petites tâches et éviter la surconsommation de mémoire, comme <a href="https://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a>.</p>
+
+<p><strong>Préférer les classes internes statiques </strong>: Les classes internes non-statiques créent des références étrangères à cette activité. C’est une cause de fuite de mémoire. Vous devriez choisir celles statiques.</p>
+
+<h2>FAQ</h2>
+
+<p><strong>Comment connaître la taille limite du heap?</strong>: La taille limite du heap d’Android dépend de l’appareil (de 15Mb à quelques centaines). Afin de connaître la taille limite, vous pouvez utiliser l’API de getMemoryClass() du service ActivityManager.</p>
+
+<p><strong>Les informations de mémoire ne sont pas identiques selon les différents outils. Pourquoi ?</strong>: Les outils peuvent utiliser des APIs de différents systèmes ou simplement ne pas prendre en compte les mêmes données (par exemple ne pas prendre le MMAP). Dans la plupart des cas : Android monitor &lt; Android Profiler in Android Studio &lt; dumpsys &lt; System Meminfo api &lt; top info and VSS &gt; RSS &gt; PSS &gt; USS</p>
+
+<p><strong>Android libérera-t-il la mémoire de processus pendant le mode arrière-plan ?</strong>: Quand l’utilisateur change l’app, le système « cache » l’app dans le cache utilisé le moins récemment (LRU – least recently used cache). Le système fonctionnant avec peu de mémoire, il va tuez (kill) les applications consommatrices. Si votre app consomme peu de mémoire, elle a ses chances de ne pas être tuée (ou du moins, seulement après les apps consommant davantage).</p>
+
+<p><strong>Est-il possible d’augmenter la taille limite du heap ?</strong>: Oui, avec l’option android:largeHeap=true dans le manifeste. Cela n’est cependant pas recommandé.</p>
+
+<p><strong>Qu’est-ce que “OutOfMemoryError” ?</strong>: Votre application a besoin de plus d’espace et vous avez atteint la taille limite du heap.</p>
+
+<h2>Sources</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Paging">https://en.wikipedia.org/wiki/Paging</a></p>
+
+<p><a href="https://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android/2299813#2299813">https://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android/2299813#2299813</a></p>
+
+<p><a href="https://developer.android.com/topic/performance/memory-overview.html">https://developer.android.com/topic/performance/memory-overview.html</a></p>
+
+<p><a href="https://forum.xda-developers.com/showthread.php?p=34877656#post34877656">https://forum.xda-developers.com/showthread.php?p=34877656#post34877656</a></p>
+
+<p><a href="http://javarevisited.blogspot.fr/2013/01/difference-between-stack-and-heap-java.html">http://javarevisited.blogspot.fr/2013/01/difference-between-stack-and-heap-java.html</a></p>
+
+<p><a href="https://developer.android.com/studio/profile/memory-profiler.html">https://developer.android.com/studio/profile/memory-profiler.html</a></p>
+
+<p><a href="https://developer.android.com/topic/performance/memory.html">https://developer.android.com/topic/performance/memory.html</a></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

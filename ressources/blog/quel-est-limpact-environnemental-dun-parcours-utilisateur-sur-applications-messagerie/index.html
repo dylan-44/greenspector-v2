@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Whatsapp, Discord, Slack, Teams... Quel est l'impact environnemental d'un parcours utilisateur sur ces applications ? - Greenspector</title>
+    <meta name="description" content="Nous avons analysé l'impact environnemental d'un parcours utilisateur sur 4 applications de messagerie sur Android.">
+    <meta name="keywords" content="Sobriété des applications">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/whatsapp-discord-slack-teams-what-is-the-environmental-impact-of-a-user-journey-on-these-applications/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/">
+    <meta property="og:title" content="Whatsapp, Discord, Slack, Teams… Quel est l’impact environnemental d’un parcours utilisateur sur ces applications ?">
+    <meta property="og:description" content="Nous avons analysé l'impact environnemental d'un parcours utilisateur sur 4 applications de messagerie sur Android.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2024/03/Quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-ces-applications-.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2024/03/Quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-ces-applications-.jpg">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/whatsapp-discord-slack-teams-what-is-the-environmental-impact-of-a-user-journey-on-these-applications/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/quel-est-limpact-environnemental-dun-parcours-utilisateur-sur-applications-messagerie/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/whatsapp-discord-slack-teams-what-is-the-environmental-impact-of-a-user-journey-on-these-applications/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Whatsapp, Discord, Slack, Teams… Quel est l’impact environnemental d’un parcours utilisateur sur ces applications ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>14 mars 2024</span><span>Sobriété des applications</span></div>
+  <div class="blog-article__body">
+    <p><strong>Introduction</strong></p>
+
+<p>L&rsquo;avènement des messageries instantanées a transformé les methodes de communications dans le monde professionnel. Dans un monde où la rapidité est cruciale, ces applications offrent une plateforme d’échange, de coordination et de prise de décision en temps réel. Des applications tels que Microsoft Teams, Slack, WhatsApp, Discord ou bien d’autres ont ainsi changé la manière dont les équipes intéragissent, en enlevant les limitations géographiques et en facilitant la communication. Les messageries instantanées ont également joué un rôle crucial dans l&rsquo;évolution du travail à distance, en fournissant une connectivité continue entre les collaborateurs. Cependant, derrière cette facilité d’utilisation et cette rapidité se cache un aspect souvent négligé : l’impact environnemental de ces applications.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/discord_1.webp" alt="" width="512" height="512" loading="lazy" decoding="async"></figure>
+
+<p>Discord</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/slack.webp" alt="" width="630" height="630" loading="lazy" decoding="async"></figure>
+
+<p>Slack</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/whatsapp-1-1.webp" alt="" width="512" height="512" loading="lazy" decoding="async"></figure>
+
+<p>Whatsapp</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/teams.webp" alt="" width="500" height="500" loading="lazy" decoding="async"></figure>
+
+<p>Teams</p>
+
+<p>Ces applications sont d’autant plus impactantes qu’elles sont largement diffusées dans les entreprises mais aussi sur des moments de consommations longs et fréquents. Voilà pourquoi, il est intéressant de connaître l‘impact unitaire de ces usages et de pouvoir projeter des impacts plus globaux.</p>
+
+<h2>Méthodologie&nbsp;</h2>
+
+<p><strong>Définition du parcours utilisateur&nbsp;</strong></p>
+
+<p>Pour la mesure, nous avons déterminé un scénario compatible sur toutes les applications :</p>
+
+<ul>
+<li><strong>Etape 0 </strong>: <em>pause de 30s de référence (avec aucune application d’ouverte)</em>&nbsp;</li>
+
+<li><strong>Etape 1 :</strong><em> ouverture de l’application</em>&nbsp;</li>
+
+<li><strong>Etape 2 </strong>: <em>pause de 30s avec l’application ouverte</em>&nbsp;</li>
+
+<li><strong>Etape 3 </strong>: <em>envoi d’un message</em>&nbsp;</li>
+
+<li><strong>Etape 4 </strong>: <em>pause de 30s pour la lecture du message</em>&nbsp;</li>
+
+<li><strong>Etape 5</strong> : <em>réception d’une réponse</em>&nbsp;</li>
+
+<li><strong>Etape 6</strong> : <em>envoi d’une réponse</em>&nbsp;</li>
+
+<li><strong>Etape 7 </strong>: <em>pause de 30s sur la conversation alors que l’autre écrit le message</em>&nbsp;</li>
+
+<li><strong>Etape 8 </strong>: <em>envoi d’une image (60,54 ko)</em>&nbsp;</li>
+
+<li><strong>Etape 9 </strong>: <em>pause de 30s pour le visionnage de l’image</em>&nbsp;</li>
+
+<li><strong>Etape 10 </strong>: <em>réception d’une image (6,50 ko)</em>&nbsp;</li>
+
+<li><strong>Etape 11 </strong>: <em>envoi d’un fichier .gif (3,36 Mo)</em>&nbsp;</li>
+
+<li><strong>Etape 12 </strong>: <em>pause de 30s pour le visionnage du fichier .gif</em>&nbsp;</li>
+
+<li><strong>Etape 13 </strong>: <em>réception d’un fichier .gif (3,36 Mo)</em>&nbsp;</li>
+
+<li><strong>Etape 14 </strong>: <em>pause de 30s avec l’application en arrière-plan</em>&nbsp;</li>
+
+<li><strong>Etape 15 </strong>: <em>pause de 30s avec l’application en arrière-plan avec la réception de message</em>&nbsp;</li>
+
+<li><strong>Etape 16 </strong>: <em>pause de 30s après fermeture de l’application par l’utilisateur</em>&nbsp;</li>
+
+<li><strong>Etape 17 </strong>: <em>pause de 30s après fermeture forcée de l’application</em></li>
+</ul>
+
+<p>Afin de pouvoir aussi comparer les performances entre les différentes applications, deux smartphones ont été utilisés, afin d’envoyer les réponses automatiquement après réception.&nbsp;</p>
+
+<p>Lors de cette évaluation, nous avons pris le parti d’utiliser des comptes vierges pour chaque application afin que le poids des conversations précédentes n’interfère pas avec nos résultats.</p>
+
+<p><strong><em>Contexte de mesure&nbsp;</em>&nbsp;</strong></p>
+
+<ul>
+<li><em>&nbsp;&nbsp;&nbsp; Samsung Galaxy S10, Android 12&nbsp;</em>&nbsp;</li>
+
+<li><em>&nbsp;&nbsp;&nbsp; Réseau : Wi-Fi&nbsp;</em>&nbsp;</li>
+
+<li><em>&nbsp;&nbsp;&nbsp; Luminosité : 50%&nbsp;</em>&nbsp;</li>
+
+<li><em>&nbsp;&nbsp;&nbsp; Tests réalisés sur minimum 3 itérations pour fiabiliser les résultats&nbsp;</em>&nbsp;</li>
+</ul>
+
+<p><strong><em>Contexte de mesure&nbsp;</em>&nbsp;</strong></p>
+
+<ul>
+<li><em>&nbsp;&nbsp;&nbsp; Samsung Galaxy S10, Android 12&nbsp;</em>&nbsp;</li>
+
+<li><em>&nbsp;&nbsp;&nbsp; Réseau : Wi-Fi&nbsp;</em>&nbsp;</li>
+
+<li><em>&nbsp;&nbsp;&nbsp; Luminosité : 50%&nbsp;</em>&nbsp;</li>
+
+<li><em>&nbsp;&nbsp;&nbsp; Tests réalisés sur minimum 3 itérations pour fiabiliser les résultats&nbsp;</em>&nbsp;</li>
+</ul>
+
+<h2>Les applications&nbsp;</h2>
+
+<p><strong>OS requis &nbsp;</strong></p>
+
+<p>Afin de pouvoir continuer à utiliser l’application à son plein potentiel en toute sécurité, il est important d’avoir une application à jour. Ainsi, en 2020, <a href="https://europa.eu/eurobarometer/api/deliverable/download/file?deliverableId=72255" target="_blank" rel="noopener noreferrer">selon l’Eurobaromètre de la Commission européenne 19% des motifs de renouvellement d’un appareil numérique sont dus à un problème logiciel</a>. Il est donc de la responsabilité des éditeurs de supporter les OS les plus anciens. </p>
+
+<figure><table><thead><tr><th></th><th>Version minimum d’Android requise  &nbsp;</th><th>Pourcentage de détenteur de téléphone Android pouvant télécharger l’application (14 février 2024)  &nbsp;</th><th>Version minimum d’iOS requise  &nbsp;</th><th>Pourcentage de détenteur de téléphone sous iOS pouvant télécharger l’application (4 janvier 2024)  &nbsp;</th></tr></thead><tbody><tr><td>WhatsApp &nbsp;</td><td>Android 5.0 &nbsp;</td><td>99,5&nbsp;</td><td>iOS12 &nbsp;</td><td>98,8&nbsp;</td></tr><tr><td>Discord &nbsp;</td><td>Android 7.0 &nbsp;</td><td>97,1&nbsp;</td><td>iOS12 &nbsp;</td><td>98,8&nbsp;</td></tr><tr><td>Slack &nbsp;</td><td>Android 10 &nbsp;</td><td>84,3 &nbsp;</td><td>iOS15 &nbsp;</td><td>94,2&nbsp;</td></tr><tr><td>Teams &nbsp;</td><td>Android 11 &nbsp;</td><td>75,4&nbsp;</td><td>iOS15 &nbsp;</td><td>94,2 &nbsp;</td></tr></tbody></table></figure>
+
+<p>Le meilleur élève est ici WhatsApp, qui supporte Android 5.0 (version qui date de 2014), iOS 12.0 (qui date de 2018) et toutes les versions ultérieures. &nbsp;</p>
+
+<p>Le moins bon élève est Teams, qui ne supporte qu’à partir d’Android 11 (2020) et d’iOS 15.0 (2021). Ainsi, 24 utilisateurs sur 100 ayant un smartphone Android ne peuvent pas utiliser cette application.  &nbsp;</p>
+
+<h2>La taille des applications &nbsp;</h2>
+
+<p>Une application légère est une application qui va se concentrer sur les fonctionnalités les plus utiles, et d’aller au contraire des obésiciels, qui vont proposer des fonctionnalités inutilisables et/ou inutilisées. Cela remplit aussi la mémoire du smartphone, ce qui peut pousser certains utilisateurs à changer leur terminal. </p>
+
+<figure><table><thead><tr><th></th><th>WhatsApp &nbsp;</th><th>Discord &nbsp;</th><th>Slack </th><th>Teams </th></tr></thead><tbody><tr><td>Taille de l&rsquo;application installée (Mo) &nbsp;</td><td>108&nbsp;</td><td>165&nbsp;</td><td>189 &nbsp;</td><td>226 &nbsp;</td></tr></tbody></table></figure>
+
+<p>C’est encore une fois WhatsApp qui est le meilleur élève, et Teams, le moins bon, prend plus du double en termes de place. </p>
+
+<h2>Impact environnemental  &nbsp;</h2>
+
+<p>À la suite d&rsquo;une analyse détaillée, nous avons pu mettre en évidence les applications ayant l’empreinte environnementale la plus grande pour ce parcours. &nbsp;</p>
+
+<p><strong>Hypothèses retenues pour l’évaluation environnementale</strong>&nbsp;</p>
+
+<ul>
+<li>Localisation des utilisateurs : 100% en France ou 100% monde&nbsp;&nbsp;</li>
+
+<li>Localisation des serveurs : 100% monde&nbsp;</li>
+
+<li>Appareils utilisés : smartphones uniquement&nbsp;</li>
+</ul>
+
+<figure><table><thead><tr><th>Application  </th><th>Impact du parcours (gCO2e) pour des utilisateurs en France&nbsp;</th><th>Impact du parcours (gCO2e) pour des utilisateurs hors France&nbsp;</th></tr></thead><tbody><tr><td>WhatsApp &nbsp;</td><td>3,6&nbsp;</td><td>3,7&nbsp;</td></tr><tr><td>Discord &nbsp;</td><td>4,5&nbsp;</td><td>4,6&nbsp;</td></tr><tr><td>Teams &nbsp;</td><td> 4,6&nbsp;</td><td>4,8&nbsp;</td></tr><tr><td>Slack &nbsp;</td><td> 5,2&nbsp;</td><td>5,4&nbsp;</td></tr></tbody></table></figure>
+
+<figure><table><thead><tr><th>Application  </th><th>Eau consommée (l)*&nbsp;&nbsp;</th><th>Occupation des sols (cm2)*&nbsp;</th></tr></thead><tbody><tr><td>WhatsApp &nbsp;</td><td>0,5&nbsp;</td><td>6,2&nbsp;</td></tr><tr><td>Discord &nbsp;</td><td>0,6&nbsp;</td><td>5&nbsp;</td></tr><tr><td>Teams &nbsp;</td><td> 0,6&nbsp;</td><td>6,2&nbsp;</td></tr><tr><td>Slack &nbsp;</td><td>0,7&nbsp;</td><td>7,8&nbsp;</td></tr></tbody></table><figcaption>*Par manque de données, pour les indicateurs eau et surface occupée, la partie réseau n’est pas considérée.&nbsp;</figcaption></figure>
+
+<h3>L’application la plus sobre &nbsp;</h3>
+
+<p>C’est WhatsApp qui propose l’impact environnemental le plus faible sur ce parcours. Cela s’explique principalement par une très faible consommation de données. &nbsp;</p>
+
+<h3>L’application la moins sobre &nbsp;</h3>
+
+<p>C’est Slack qui propose l’impact environnemental le plus élevé sur ce parcours. Cela s’explique par une forte consommation énergétique.&nbsp;</p>
+
+<h3>Analyse des mesures   &nbsp;</h3>
+
+<p><strong>Axe consommation d’énergie&nbsp;&nbsp;</strong></p>
+
+<p>Afin de préserver la durée de vie de la batterie, il est impératif que l&rsquo;application soit optimisée pour une consommation d&rsquo;énergie minimale, le nombre de cycles de charge/décharge du téléphone jouant un rôle crucial dans le processus de dégradation de la batterie.&nbsp;</p>
+
+<figure><table><thead><tr><th></th><th>WhatsApp &nbsp;</th><th>Teams &nbsp;</th><th>Discord &nbsp;</th><th>Slack </th></tr></thead><tbody><tr><td>Impact énergétique du parcours (mAh) &nbsp;</td><td>11,1&nbsp;</td><td>10,6&nbsp;</td><td>11&nbsp;</td><td>16&nbsp;</td></tr></tbody></table></figure>
+
+<h3>L’application la plus sobre</h3>
+
+<p>Teams propose la consommation d’énergie la plus faible sur ce parcours.</p>
+
+<p><strong>L’application la moins sobre</strong></p>
+
+<p>Slack propose la plus forte consommation énergétique sur ce parcours.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/image-15.png" alt="" width="602" height="310" loading="lazy" decoding="async"></figure>
+
+<p>On observe sur ce graphique que pour WhatsApp, l’action d’envoyer un gif semble plus impactant que pour les autres applications.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/image-16.png" alt="" width="602" height="310" loading="lazy" decoding="async"></figure>
+
+<h2>Quid du mode sombre&nbsp;</h2>
+
+<p>Aujourd’hui les applications proposent un mode sombre. Celui-ci présente plusieurs avantages, parmi lesquels figure l’économie d&rsquo;énergie de l&rsquo;écran sur les appareils à écran OLED, a l’instar de celui de Samsung Galaxy sur lequel les tests ont été effectué. Discord propose deux options, avec un mode sombre et un mode Midnight.</p>
+
+<figure><table><thead><tr><th></th><th>WhatsApp Dark&nbsp;</th><th>Teams Dark&nbsp;</th><th>Discord Dark&nbsp;</th><th>Discord Midnight&nbsp;</th><th>Slack Dark&nbsp;</th></tr></thead><tbody><tr><td>Impact énergétique du parcours (mAh) &nbsp;</td><td>7,8&nbsp;</td><td>7,6&nbsp;</td><td>7,3&nbsp;</td><td>7,2&nbsp;</td><td>12,7&nbsp;</td></tr><tr><td>Réduction par rapport au light mode&nbsp;</td><td>-30%&nbsp;</td><td>-28%&nbsp;</td><td>-34%&nbsp;</td><td>-35%&nbsp;</td><td>-21%&nbsp;</td></tr></tbody></table></figure>
+
+<p>Ainsi toutes les applications voient leurs consommations d’énergie diminuer, entre 21 et 35%.</p>
+
+<h2>Axe consommation de données mobiles</h2>
+
+<figure><table><thead><tr><th></th><th>WhatsApp &nbsp;</th><th>Teams &nbsp;</th><th>Discord &nbsp;</th><th>Slack &nbsp;</th></tr></thead><tbody><tr><td>Consommation de données mobiles du parcours (Mo) &nbsp;</td><td>0,8&nbsp;</td><td>7,8&nbsp;</td><td>7,3&nbsp;</td><td>7,5&nbsp;</td></tr></tbody></table></figure>
+
+<h3>L’application la plus sobre </h3>
+
+<p>WhatsApp propose la consommation de données la plus faible sur ce parcours. Cela s’explique par une compression par défaut des éléments envoyés.&nbsp;</p>
+
+<h3>L’application la moins sobre</h3>
+
+<p>Teams propose la plus forte consommation de données sur ce parcours. On remarque une surconsommation de données par rapport aux autres lors de l’étape d’ouverture de l’application.</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/image-17.png" alt="" width="602" height="316" loading="lazy" decoding="async"></figure>
+
+<h2>Axe performance d’usage</h2>
+
+<p>La performance permet de répondre à un besoin en mobilisant moins longtemps un terminal et donc d&rsquo;avoir moins de quote-part de fabrication, ce qui génère au final un impact plus faible.</p>
+
+<figure><table><thead><tr><th></th><th>WhatsApp </th><th>Teams </th><th>Discord </th><th>Slack &nbsp;</th></tr></thead><tbody><tr><td>Durée du parcours (en s, hors pause) &nbsp;</td><td>55,6&nbsp;</td><td>37,4&nbsp;</td><td>42,5&nbsp;</td><td>49,9&nbsp;</td></tr></tbody></table></figure>
+
+<h3>L’application la plus sobre </h3>
+
+<p>Teams propose la durée la plus faible sur ce parcours.</p>
+
+<h3>L’application la moins sobre</h3>
+
+<p>WhatsApp propose la durée la plus forte sur ce parcours. Quand on observe la durée des différentes étapes, on remarque que les étapes les plus longues pour WhatsApp sont l’envoi et la réception de GIF.&nbsp;</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2024/03/image-18.png" alt="" width="602" height="310" loading="lazy" decoding="async"></figure>
+
+<h2>Conclusion&nbsp;</h2>
+
+<p>Parmi le panel des solutions mesurées, c’est l’utilisation de WhatsApp qui permettra de limiter le plus les émissions de CO2eq sur ce scénario, notamment grâce à la compression des images et des fichiers GIF. Cette analyse démontre aussi le coût de cette compression, tant au point de vue énergétique et au point de vue des performances, mais que le ratio coût bénéfice est quand même en faveur de cette compression. L’application la plus impactante, Slack émettra 44% de plus que WhatsApp. Finalement, l’utilisation du mode sombre permet de diminuer l’impact énergétique sur les téléphones équipés d’un écran OLED, entre 20 et 35%.</p>
+
+<p><strong>Source :</strong>&nbsp;</p>
+
+<p><a href="https://iosref.com/ios-usage">https://iosref.com/ios-usage</a></p>
+
+<p><a href="https://apilevels.com/">https://apilevels.com/</a></p>
+
+<p><a href="https://europa.eu/eurobarometer/api/deliverable/download/file?deliverableId=72255">https://europa.eu/eurobarometer/api/deliverable/download/file?deliverableId=72255</a></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

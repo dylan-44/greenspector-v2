@@ -25,5 +25,21 @@
     "eyebrow": "Étude de cas",
     "cta": "Lire l'étude de cas"
   },
+  "blogCard": {
+    "eyebrow": "Article",
+    "cta": "Lire l'article"
+  },
+  "blogPagination": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "aria": "Pagination du blog"
+  },
+  "blogSearch": {
+    "label": "Rechercher un article",
+    "placeholder": "Titre ou sujet",
+    "empty": "Aucun article ne correspond à cette recherche.",
+    "one": "1 article",
+    "many": "{count} articles"
+  },
   "stubMessage": "Zone de contenu éditorial à compléter lors d'une prochaine itération"
 }

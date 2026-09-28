@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Les nouveautés Greenspector : release note v.2.9.0 - Greenspector</title>
+    <meta name="description" content="L'équipe de Greenspector est fière d'annoncer sa dernière version v2.9.0. Nous nous sommes concentrés sur l'amélioration de notre langage GDSL">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/release-note-v-2-9-0/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/release-note-v-2-9-0/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/release-note-v-2-9-0/">
+    <meta property="og:title" content="Les nouveautés Greenspector : release note v.2.9.0">
+    <meta property="og:description" content="L'équipe de Greenspector est fière d'annoncer sa dernière version v2.9.0. Nous nous sommes concentrés sur l'amélioration de notre langage GDSL">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/release-note-v-2-9-0/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2021/06/release-note-greenspector-illustration-min-1.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2021/06/release-note-greenspector-illustration-min-1.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/release-note-v-2-9-0/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/release-note-v-2-9-0/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/release-note-v-2-9-0/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Les nouveautés Greenspector : release note v.2.9.0</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>9 juin 2021</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <p><strong>L&rsquo;équipe Greenspector est fière d&rsquo;annoncer la sortie de sa nouvelle release : la version 2.9.0</strong>. </p>
+
+<p>Afin de mesurer la consommation des applications et des sites web, vous pouvez exécuter des parcours utilisateurs sur nos fermes de smartphone. Dans ce contexte, nous avons amélioré notre langage de test simplifié (le GDSL) avec par exemple des fonctionnalités de préparation des browsers, prise en compte de Firefox… Contrairement à de nombreux outils qui vous fournissent un impact environnemental uniquement sur la page principale et sur des environnements simulés, ces capacités vous permettront d&rsquo;évaluer et de suivre précisément l&rsquo;impact de votre solution numérique !</p>
+
+<a><h2>NOUVELLES FONCTIONNALITÉS</h2><p>&#8211; En tant qu&rsquo;automaticien, je peux désormais utiliser les méthodes du navigateur GDSL avec Firefox (sur Android uniquement)<br>&#8211; En tant qu&rsquo;automaticien, je peux utiliser de nouvelles méthodes GDSL pour les tests iOS (<em>waituntiltextgone</em>, swipe) (sur iOS uniquement)<br>&#8211; En tant qu&rsquo;automaticien, je souhaite de nouvelles méthodes de navigateur GDSL qui préparent le navigateur à la mesure afin que je puisse me concentrer sur la mesure des sites Web (Android uniquement)</p></a>
+
+<a><h2>AMÉLIORATIONS</h2><p>&#8211; Amélioration de la méthode <em>resetBrowser</em> GDSL en configurant Chrome pour réduire les échanges de données réguliers (sur Android uniquement)<br>&#8211; Ajout de nouveaux tests unitaires pour toutes les méthodes GDSL interagissant avec Chrome afin qu&rsquo;il soit plus facile d&rsquo;étendre la prise en charge de différents téléphones et versions de chrome (sur Android uniquement)<br>&#8211; Augmentation du délai d&rsquo;expiration par défaut de GDSL pour les méthodes d&rsquo;attente et gestion des erreurs pour les méthodes de recherche (sur iOS uniquement)<br>&#8211; Ajout d&rsquo;API swagger pour les applications de routes existantes (GET, DELETE application), les audits (GET) et les bancs de test (POST job, GET job)<br>&#8211; Lors de l&rsquo;exécution d&rsquo;un test sur un appareil iOS, supprimez la sonde logicielle, utilisez uniquement la sonde matérielle pour obtenir la décharge de la plate-forme</p></a>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/06/RouteAPI1.png" alt="" width="350" height="235" loading="lazy" decoding="async"><figcaption><em>API Swagger pour les routes existantes</em></figcaption></figure>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/06/Capture-decran-2021-06-10-a-16.55.30-min.png" alt="" width="1024" height="440" loading="lazy" decoding="async"><figcaption><em>Vous pouvez désormais changer de navigateur très facilement</em></figcaption></figure>
+
+<a><h2>BUGS CORRIGÉS</h2><p>&#8211; Correction et sécurisation des méthodes GDSL interagissant avec Chrome en ajoutant des assertions pour garantir les actions<br>&#8211; Correction des points vides lors de la mesure de l&rsquo;énergie par la sonde matérielle qui empêchait l&rsquo;envoi des résultats de test</p></a>
+
+<a><h2>BUGS IDENTIFIÉS</h2><p>&#8211; Valeur « non définie » qui était affichée sur les métriques de données de processus sur l&rsquo;onglet compteur de l&rsquo;interface Web</p></a>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

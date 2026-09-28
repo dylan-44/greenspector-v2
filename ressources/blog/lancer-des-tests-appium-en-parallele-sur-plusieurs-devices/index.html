@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Lancer des tests Appium en parallèle sur plusieurs devices - Greenspector</title>
+    <meta name="description" content="Il est parfois nécessaire d’exécuter des tests en parallèle sur plusieurs devices. Dans tous les cas, cela permet d’accélérer sa campagne de test :">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/">
+    <meta property="og:title" content="Lancer des tests Appium en parallèle sur plusieurs devices">
+    <meta property="og:description" content="Il est parfois nécessaire d’exécuter des tests en parallèle sur plusieurs devices. Dans tous les cas, cela permet d’accélérer sa campagne de test :">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/2018-06-13-appium-greenspector.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/2018-06-13-appium-greenspector.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/lancer-des-tests-appium-en-parallele-sur-plusieurs-devices/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Lancer des tests Appium en parallèle sur plusieurs devices</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>13 juin 2018</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+<p>Il est parfois nécessaire d’exécuter des tests en parallèle sur plusieurs devices. Dans tous les cas, cela permet d’accélérer sa campagne de test :</p>
+
+<ul>
+<li>Exécuter le même test sur des devices différents pour valider son application par rapport à la fragmentation du marché</li>
+<li>Exécuter le même test sur un même type de device en changeant les paramètres d’exécution (connexion réseau, données utilisateurs…)</li>
+<li>Exécuter une campagne de test rapidement en répartissant les tests sur les mêmes types de device</li>
+<li>Fournir à plusieurs équipes la possibilité d’éxecuter leurs tests sur une ferme de devices</li>
+</ul>
+<p>Pour cela, il est nécessaire de lancer un serveur <strong>Appium</strong> par device. Nous allons utiliser un port différent par serveur. Dans notre exemple, nous allons utiliser un client nodejs avec WebdriverIO (le binding node.js pour le protocole W3C WebDriver).</p>
+<h2>Prérequis</h2>
+<ul>
+<li><a href="https://nodejs.org/">NodeJS</a> installé globalement sur votre système</li>
+<li><a href="https://developer.android.com/studio/#command-tools">Android SDK</a> installé sur votre système</li>
+<li><code>ANDROID_HOME</code> dans le path du système</li>
+<li><a href="http://webdriver.io/">WebdriverIO</a> installé</li>
+<li><strong><a href="http://appium.io/">Appium</a></strong> installé</li>
+<li>Au moins 2 téléphones ou émulateurs connectés pour le test</li>
+</ul>
+<h2>Connexion aux téléphones</h2>
+<p>On se connecte d’abord au premier téléphone :</p>
+<pre><code>adb connect &lt;device name or IP&gt;</code></pre>
+<p>Puis on se connecte de la même manière au deuxième téléphone.</p>
+<h2>Lancement des serveurs</h2>
+<p>Dans une première fenêtre de commande, on lance le premier serveur :</p>
+<pre><code>appium -p 4727 -bp 5727 -U &lt;device name or IP&gt;</code></pre>
+<p><code>p</code> indique le port du serveur.<br>
+<code>bp</code> indique le port sur lequel communiquer sur le device.<br>
+<code>U</code> est le device name (ou, dans le cas d’une connexion TCP, l’IP).</p>
+<p>Dans une deuxième fenêtre de commande, on lance le deuxième serveur sur des ports différents :</p>
+<pre><code>appium -p 4728 -bp 5728 -U &lt;device name or IP&gt;</code></pre>
+<p>Vous pouvez vérifier le log de sortie dans les fenêtres de commande.</p>
+<h2>Lancement des clients de tests</h2>
+<p>Il est maintenant nécessaire d’écrire le test en node.js qui va être exécuté. Dans un fichier <code>test1.js</code>, il est tout d’abord nécessaire de configurer les <a href="http://appium.io/docs/en/writing-running-appium/caps/index.html">capabilities</a> du serveur.</p>
+<pre><code>const client = webdriverio.remote({
+    host: "0.0.0.0",
+    port : 4727, // Port du premier serveur
+desiredCapabilities: {
+        deviceName: &lt;device name or IP&gt;, // Premier device
+        platformName: 'Android',
+app: 'https://github.com/appium/sample-code/raw/master/sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk'
+     }
+})</code></pre>
+<p>On complète ensuite le fichier avec le test à exécuter :</p>
+<pre><code>;(async () =&gt; {
+  try {
+    await client.init()
+    await sleep(1000)
+    await client.click('~App')
+    await client.click('~Alert Dialogs')
+    await client.back()
+    await client.back()
+    await sleep(300)
+    await sleep(2000)
+    await client.end()
+  } catch (err) {
+    console.log(err)
+  }
+})()
+
+function sleep (ms) {
+  return new Promise(resolve =&gt; setTimeout(resolve, ms))
+}</code></pre>
+<p><strong>Vous pouvez exécuter une première fois ce fichier pour vérifier le bon fonctionnement</strong> :</p>
+<pre><code>node test1.js</code></pre>
+<p>Ce fichier peut ensuite être copié dans un deuxième fichier <code>test2.js</code>, où les paramètres du serveur et du device doivent être modifiés (port à 4728 et <code>deviceName</code>).<br>
+Dans deux fenêtres en parallèle, vous pouvez préparer les commandes de lancement des tests et les lancer quasi simultanément. Les tests s’exécutent alors en parallèle sur les devices.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

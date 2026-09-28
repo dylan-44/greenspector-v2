@@ -1,0 +1,18 @@
+{
+  "id": "blog-atos-scaler",
+  "slug": "/ressources/blog/atos-scaler/",
+  "template": "html",
+  "meta": {
+    "title": "Greenspector rejoint l'accélérateur Atos : #AtosScaler - Greenspector",
+    "description": "L’objectif de ce partenariat est de rendre plus efficientes, inclusives et eco-responsables les applications développées par Atos.",
+    "keywords": "Actualités",
+    "ogTitle": "Greenspector rejoint l’accélérateur Atos : #AtosScaler",
+    "ogDescription": "L’objectif de ce partenariat est de rendre plus efficientes, inclusives et eco-responsables les applications développées par Atos.",
+    "ogImage": "/assets/img/external/blog.greenspector.com/2020/07/GREENSPECTOR_joins_AtosScaler-min.png"
+  },
+  "hero": {
+    "label": "Blog",
+    "title": "Greenspector rejoint l’accélérateur Atos : #AtosScaler"
+  },
+  "bodyHtml": "<div class=\"content-panel blog-article\">\n  <div class=\"content-meta\"><span>7 juillet 2020</span><span>Actualités</span></div>\n  <div class=\"blog-article__body\">\n    <figure><img src=\"/assets/img/external/blog.greenspector.com/2020/07/GREENSPECTOR_joins_AtosScaler-min.png\" alt=\"Greenspector joins the Atos Scaler\" loading=\"lazy\" decoding=\"async\" width=\"360\" height=\"225\"></figure>\n\n<p><strong><a href=\"/ressources/blog/fr/accueil/\">GREENSPECTOR</a></strong> rejoint le <a href=\"https://atos.net/en/atos-scaler\"><strong>Scaler ATOS</strong></a> pour poursuivre des premières collaborations avec le <a href=\"https://atos.net/fr/\">Groupe ATOS</a>. L’objectif de ce partenariat est l’intégration des solutions et expertise GREENSPECTOR au sein des projets ATOS pour rendre plus efficientes, inclusives et eco-responsables les applications développées dans le cadre du Groupe. </p>\n\n<p>GREENSPECTOR fait partie au niveau mondial, d’un premier groupe de 14 start-up lors du lancement le 7 juillet 2020 du Scaler Atos. Greenspector aura pour objectif de participer à la « Décarbonisation » des activités du Groupe. Rappelons qu’ATOS est la première ESN  « Entreprise de Services Numériques » d’envergure mondiale à intégrer des objectifs forts de « 0 Emission – Net » avec pour objectif intermédiaire annoncé de diviser par 2 leurs émissions d’ici 10 ans. </p>\n\n<p>GREENSPECTOR a collaboré sur plusieurs projets. On peut citer notamment le projet militaire <a href=\"/ressources/etudes-de-cas/\">AUXYLIUM</a> (Opération SENTINELLE) une application métier pour laquelle un travail commun avec les équipes ATOS a permis de diviser par plus de 3 la consommation d’énergie embarquée sur un smartphone.  </p>\n\n<hr>\n\n<p><strong>Thierry LEBOUCQ, Président de GREENSPECTOR</strong> :</p>\n\n<p>« <em>Cette sélection dans le Scaler ATOS permet de poursuivre une étape plus profonde en terme industriel et commercial de notre partenariat en France mais aussi à l’international. Elle répond aux enjeux que s’est fixés le Groupe ATOS en terme de réduction d’impacts environnementaux des activités numériques pour leurs clients. Nous sommes donc très fiers de pouvoir apporter notre contribution à cet objectif vertueux et nécessaire et de développer nos collaborations internationales avec une ESN leader et engagée</em>« </p>\n\n<p>Ce partenariat international s’inscrit dans un contexte où le numérique consomme de plus en plus avec un impact mondial estimé à 4% des émissions de GES mais qui croit plus vite que les autres secteurs avec l’avènement d’usages de plus en plus fréquents et dispendieux, et des technologies de plus en plus renouvelées.</p>\n  </div>\n</div>"
+}

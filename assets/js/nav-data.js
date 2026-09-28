@@ -45,6 +45,22 @@ window.GS_I18N = {
       "eyebrow": "Étude de cas",
       "cta": "Lire l'étude de cas"
     },
+    "blogCard": {
+      "eyebrow": "Article",
+      "cta": "Lire l'article"
+    },
+    "blogPagination": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "aria": "Pagination du blog"
+    },
+    "blogSearch": {
+      "label": "Rechercher un article",
+      "placeholder": "Titre ou sujet",
+      "empty": "Aucun article ne correspond à cette recherche.",
+      "one": "1 article",
+      "many": "{count} articles"
+    },
     "stubMessage": "Zone de contenu éditorial à compléter lors d'une prochaine itération"
   },
   "en": {
@@ -93,6 +109,22 @@ window.GS_I18N = {
       "eyebrow": "Case study",
       "cta": "Read case study"
     },
+    "blogCard": {
+      "eyebrow": "Article",
+      "cta": "Read the article"
+    },
+    "blogPagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "aria": "Blog pagination"
+    },
+    "blogSearch": {
+      "label": "Search articles",
+      "placeholder": "Title or topic",
+      "empty": "No articles match this search.",
+      "one": "1 article",
+      "many": "{count} articles"
+    },
     "stubMessage": "Editorial content to be completed in a future iteration"
   }
 };
@@ -100,11 +132,13 @@ window.GS_I18N = {
 window.GS_ROUTES = {
   "fr": {
     "caseStudiesIndex": "/ressources/etudes-de-cas/",
+    "blogIndex": "/ressources/blog/",
     "saasUrl": "https://saas.greenspector.com/",
     "signUpUrl": "https://saas.greenspector.com/signup"
   },
   "en": {
     "caseStudiesIndex": "/en/resources/case-studies/",
+    "blogIndex": "/en/resources/blog/",
     "saasUrl": "https://saas.greenspector.com/",
     "signUpUrl": "https://saas.greenspector.com/signup"
   }
@@ -244,9 +278,9 @@ window.GS_PAGES = [
   {
     "section": "Ressources",
     "name": "Blog",
-    "slug": "https://blog.greenspector.com/fr/",
-    "slugFr": "https://blog.greenspector.com/fr/",
-    "slugEn": "https://blog.greenspector.com/en/",
+    "slug": "/ressources/blog/",
+    "slugFr": "/ressources/blog/",
+    "slugEn": "/en/resources/blog/",
     "primary": "blog Greenspector",
     "secondary": "sobriété numérique, écoconception, actualités",
     "generated": false
@@ -456,11 +490,11 @@ window.GS_PAGES_EN = [
   {
     "section": "Ressources",
     "name": "Blog",
-    "slug": "https://blog.greenspector.com/en/",
-    "slugFr": "https://blog.greenspector.com/fr/",
-    "slugEn": "https://blog.greenspector.com/en/",
-    "primary": "blog Greenspector",
-    "secondary": "sobriété numérique, écoconception, actualités",
+    "slug": "/en/resources/blog/",
+    "slugFr": "/ressources/blog/",
+    "slugEn": "/en/resources/blog/",
+    "primary": "Greenspector blog",
+    "secondary": "digital sobriety, eco-design, news",
     "generated": false
   },
   {

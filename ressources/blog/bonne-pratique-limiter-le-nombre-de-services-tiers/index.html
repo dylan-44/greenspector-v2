@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Bonne pratique : Limiter le nombre de services tiers - Greenspector</title>
+    <meta name="description" content="Les services tiers c'est quoi ? Ça a quel impact sur la sobriété de mon site ? Comment j'optimise cet impact ?">
+    <meta name="keywords" content="Sobriété du web">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/">
+    <meta property="og:title" content="Bonne pratique : Limiter le nombre de services tiers">
+    <meta property="og:description" content="Les services tiers c'est quoi ? Ça a quel impact sur la sobriété de mon site ? Comment j'optimise cet impact ?">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2023/04/Visuels-articles-Greenspector2.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2023/04/Visuels-articles-Greenspector2.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Bonne pratique : Limiter le nombre de services tiers</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>12 avril 2023</span><span>Sobriété du web</span></div>
+  <div class="blog-article__body">
+    <p><strong>L&rsquo;article en </strong>résumé</p>
+
+<p>Un service tiers c’est quoi&nbsp;? Ce sont des services qui permettent d’integrer une fonctionnalité ou un contenu complexe via du code dont on a peu de contrôle. Les 10 services tiers les plus fréquents bloquent le chargement des sites pendant environ 1,4s. Les polices google sont le service le + répandu alors même que son utilisation peut contrevenir au RGPD.</p>
+
+<p>Les impacts des services-tiers sont loin d’être négligeables. En termes environnementaux, de performance, de sécurité mais aussi de gestion des données personnelles, de captation de l’attention et parfois même d’accessibilité. Il convient donc d’y avoir recours le moins possible.&nbsp;Ce dernier point est soutenu par les référentiels du RGESN et du GR491.</p>
+
+<p>Les bonnes pratiques pour limiter les services tiers&nbsp;?</p>
+
+<ul><li>Votre site est en construction&nbsp;: ne pas inclure de services tiers</li><li>Votre site est déjà construit&nbsp;: limiter l’ajout de contenus ou supprimer certains services tiers ( en vérifiant la compatibilité avec la conception, marketing ou stratégie déjà en place)</li><li>Votre site se chargera plus vite&nbsp;: un bonus pour le numérique responsable ainsi que l’expérience utilisateur.</li></ul>
+
+<p>Un exemple concret&nbsp;:<br>Lors d’un audit client, il a été décidé de supprimer le fil twitter présents sur plusieurs pages du site. </p>
+
+<p>Résultats&nbsp;:<br>une amélioration significative des métriques et indicateurs. </p>
+
+<p>En particulier :&nbsp;</p>
+
+<ul><li>Réduction de la vitesse de décharge de la batterie de 36%&nbsp;</li><li>Réduction de la charge CPU de 76%&nbsp;</li><li>Réduction du volume de données transférées de 68%&nbsp;</li></ul>
+
+<h2>Contexte</h2>
+
+<p>Les services-tiers sont <a href="https://almanac.httparchive.org/en/2022/third-parties" target="_blank" rel="noopener noreferrer">présents sur 94% des sites web et représenteraient 45% des requêtes effectuées par l’ensemble des sites web</a>. Ces services servent à intégrer une fonctionnalité ou un contenu complexe via du code le plus souvent hébergé sur un autre site, en ayant peu ou pas de contrôle sur celui-ci. Ainsi, il peut s’agir d’une <a href="https://gerrymcgovern.com/calculating-the-pollution-cost-of-website-analytics-part-1/" target="_blank" rel="noopener noreferrer">solution d’analytics</a>, d’une <a href="../../../ressources/blog/fr/service-tiers-youtube/" target="_blank" rel="noopener noreferrer">vidéo</a>, des contenus d’un <a href="../../../ressources/blog/fr/limpact-des-services-tiers-comme-twitter-sur-lautonomie-des-batteries/" target="_blank" rel="noopener noreferrer">réseau social</a>, d’un <a href="../../../ressources/blog/fr/captcha-et-sobriete-numerique/" target="_blank" rel="noopener noreferrer">captcha</a>, de <a href="https://ldevernay.github.io/contributions/2020/09/14/poids-capitalisme-surveillance.html" target="_blank" rel="noopener noreferrer">trackers</a>, etc.  <br><em>En voici une </em><a href="https://github.com/patrickhulce/third-party-web/#third-parties-by-category" target="_blank" rel="noopener noreferrer"><em>liste (triée par catégories), construite par Patrick Hulce</em></a><em>.</em> </p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2023/11/image-8-1.webp" alt="" width="590" height="169" loading="lazy" decoding="async"><figcaption><a href="https://twitter.com/fr3ino/status/1000166112615714816" target="_blank" rel="noopener noreferrer">Tweet by Marcel Freinbichler</a></figcaption></figure>
+
+<p><br><a href="https://twitter.com/fr3ino/status/1000166112615714816" target="_blank" rel="noopener noreferrer">Tweet de Marcel Freinbichler</a>&nbsp;<br></p>
+
+<p><strong>Traduction :</strong> <em>En raison de </em><a href="https://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank" rel="noopener noreferrer"><em>RGPD</em></a><em>, USA Today a décidé d&rsquo;exécuter une version distincte de son site web pour les utilisateurs de l&rsquo;UE (Union Européenne), dans laquelle tous les scripts de suivi et les publicités ont été supprimés. Le site semblait très rapide, j&rsquo;ai donc fait un audit de performance. À quelle vitesse Internet pourrait être sans tous les déchets ! 🙄</em>&nbsp;</p>
+
+<p><em>5,2 Mo → 500 Ko</em>&nbsp;</p>
+
+<p>Vous trouverez plus d’informations à leur sujet ainsi que des statistiques sur leur utilisation dans le chapitre Third-parties du Web Almanac : <a href="https://almanac.httparchive.org/en/2022/third-parties" target="_blank" rel="noopener noreferrer">https://almanac.httparchive.org/en/2022/third-parties</a>&nbsp;&nbsp;</p>
+
+<p>Il en ressort notamment que les 10 plus fréquents bloquent en moyenne le chargement des sites pendant 1,4s et que des optimisations techniques restent souvent possibles (minification, compression, chargement différé mais aussi suppression de code JS obsolète). Aussi, la plupart des services tiers les plus utilisés sont liés à Google.  </p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2023/11/image-1.webp" alt="" width="563" height="377" loading="lazy" decoding="async"></figure>
+
+<p>Il est d’ailleurs intéressant de noter que les polices Google sont le service le plus répandu, <a href="https://gomakethings.com/google-fonts-and-gdpr/" target="_blank" rel="noopener noreferrer">alors même que leur utilisation peut contrevenir au RGPD</a>. Une façon d’y remédier est d’héberger soi-même les fichiers correspondants. Le mieux reste bien sûr de s’en tenir le plus possible aux polices système disponibles sans requête supplémentaire.&nbsp;</p>
+
+<p>Il ressort de tout ceci que les impacts des services-tiers, en particulier sur les sites web mais aussi les applications mobiles, sont loin d’être négligeables. En termes environnementaux, de performance, de sécurité mais aussi de gestion des données personnelles, de captation de l’attention et parfois même d’accessibilité (voir à ce sujet l’article de Temesis : <a href="https://www.temesis.com/blog/contenus-tiers-exemptes-deroges-audites/" target="_blank" rel="noopener noreferrer">https://www.temesis.com/blog/contenus-tiers-exemptes-deroges-audites/</a>). Il convient donc d’y avoir recours le moins possible.&nbsp;&nbsp;</p>
+
+<p>Chez Greenspector, c’est quelque chose que nous regardons de très près pour nos clients, via des outils spécifiques permettant de lister les services tiers et d’estimer leurs impacts respectifs. C’est d’ailleurs là une valeur ajoutée non-négligeable de la mesure. Et une étape incontournable pour réduire les impacts environnementaux et améliorer l’expérience utilisateur.&nbsp;</p>
+
+<p><strong>Intéressons-nous aujourd’hui à la bonne pratique de sobriété qui consiste à intégrer le moins possible de services-tiers dans un service numérique.&nbsp;</strong>&nbsp;</p>
+
+<h2>Référentiels existants&nbsp;</h2>
+
+<p>On retrouve ce critère dans la <a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#specifications" target="_blank" rel="noopener noreferrer">famille Spécifications du RGESN</a> (Référentiel Général d’écoconception de services numériques) : <strong>2.5 – Le service numérique a-t-il pris en compte les impacts environnementaux des services tiers utilisés lors de leur sélection ?</strong>&nbsp;</p>
+
+<p>On le retrouve également dans le <a href="https://gr491.isit-europe.org/" target="_blank" rel="noopener noreferrer">GR491</a> (Guide de référence de conception responsable de services numériques) : <a href="https://gr491.isit-europe.org/crit.php?id=5-3037-uxui-il-est-courant-dutiliser-des-services-tiers" target="_blank" rel="noopener noreferrer">Est-ce que les services tiers (fils réseaux sociaux, social wall, carrousels, google maps etc) ne sont pas utilisés par facilité pour pallier le manque de ressources de production de contenus ?</a>&nbsp;</p>
+
+<h2>Bonne pratique </h2>
+
+<h3>Objectif </h3>
+
+<p>Cette bonne pratique de sobriété consiste donc à limiter le nombre de services-tiers dans un service numérique.&nbsp;&nbsp;</p>
+
+<h3>Quand ?</h3>
+
+<p>Elle intervient dès la conception du service (choisir de ne pas inclure les services en question) mais aussi lors de l’ajout de contenu (afin par exemple de ne pas intégrer directement une vidéo Youtube dans un article).&nbsp;&nbsp;</p>
+
+<h3>Facilité de mise en œuvre</h3>
+
+<p>Il est facile techniquement de supprimer un service-tiers. En revanche, cette suppression peut nécessiter en amont des discussions sur la conception, le marketing ou la stratégie. C’est d’ailleurs pour cela que cette décision doit intervenir le plus tôt possible dans le projet.&nbsp;&nbsp; </p>
+
+<h3>Gains estimés</h3>
+
+<p>Les gains peuvent être conséquents sur plusieurs domaines liés au Numérique Responsable. Dans tous les cas, l’expérience utilisateur en bénéficie.&nbsp;&nbsp;</p>
+
+<h3>Cas d&rsquo;étude</h3>
+
+<p>Lors de l’accompagnement d’un client (audit initial puis mesures quotidiennes et expertise), il a été décidé de supprimer le fil Twitter présent sur plusieurs pages du site. La modification a eu lieu le 1er février 2023. Les mesures sur la page d’accueil mettent en avant les gains liés à cette modification, constats que l’on observe par la mesure des consommations de ressources IT et d’énergie via l’outil Greenspector.  </p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2023/11/image-7-1.webp" alt="" width="1067" height="296" loading="lazy" decoding="async"></figure>
+
+<p>Evolution des métriques liées au chargement de la page entre le 1er et le 2 février 2023</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2023/11/image-4-1.webp" alt="" width="1073" height="276" loading="lazy" decoding="async"></figure>
+
+<p>Ecoscore (benchmark web) du 1er février 2023</p>
+
+<figure><img src="../../../assets/img/external/blog.greenspector.com/2023/11/image-5-1.webp" alt="" width="1074" height="261" loading="lazy" decoding="async"></figure>
+
+<p>Ecoscore (benchmark web) du 2 février 2023&nbsp;</p>
+
+<p>On constate donc ici une amélioration significative des métriques et indicateurs. En particulier :&nbsp;&nbsp;</p>
+
+<ul><li>Réduction de la vitesse de décharge de la batterie de 36%&nbsp;</li></ul>
+
+<ul><li>Réduction de la charge CPU de 76%&nbsp;</li><li>Réduction du volume de données transférées de 68%&nbsp;</li></ul>
+
+<p>Suite à la projection environnementale via <a href="../../../ressources/blog/fr/methodologie-calcul-empreinte-environnementale/" target="_blank" rel="noopener noreferrer">la méthodologie Greenspector</a>, on constate que l’impact de cette page d’accueil était, avant suppression du fil Twitter, de 0.95g eqCO2. Après suppression de ce fil, il est de 0.54g eqCO2.&nbsp;&nbsp;</p>
+
+<p>La page en question a plus de 2,5 millions de vues par an.&nbsp;</p>
+
+<p><em>Dans un souci de simplification, on laisse de côté ici les apports du cache côté client (même s’ils sont sûrement non-négligeables), les disparités de temps passé par chacun sur cette page, ainsi que les modifications apportées à celle-ci sur ce laps de temps.&nbsp;</em>&nbsp;</p>
+
+<p><strong>On passe alors d’un impact sur un an de 2,38T eqCO2 à 1,36T eqCO2, soit une réduction de plus de 40% de l’impact en termes d’émissions de gaz à effet de serre</strong>.&nbsp;</p>
+
+<p>Pour les autres impacts évalués, la tendance est similaire. Ainsi, sur un an, on passe de 383047 à 224675 L d’eau consommée et de 383 à 230 m² d’occupation des sols.&nbsp;</p>
+
+<h2>Aller plus loin </h2>
+
+<p>Pour les services-tiers jugés indispensables, il existe des méthodes pour en réduire l’impact (via des bonnes pratiques d’efficience). Il peut notamment s’agir d’avoir recours à une <a href="https://developer.chrome.com/docs/lighthouse/performance/third-party-facades/" target="_blank" rel="noopener noreferrer">façade</a> pour intégrer une carte interactive ou une vidéo sous la forme d’une vignette cliquable.&nbsp;&nbsp;</p>
+
+<p>Certains articles abordent le sujet sous l’angle de la performance web :&nbsp;&nbsp;</p>
+
+<ul><li><a href="https://andydavies.me/blog/2020/10/02/reducing-the-site-speed-impact-of-third-party-tags/" target="_blank" rel="noopener noreferrer">Reducing the Site-Speed Impact of Third-Party Tags, par Andy Davies [article en anglais]</a> : améliorer la performance via la gestion des tags. </li><li><a href="https://simonhearne.com/2015/find-third-party-assets/" target="_blank" rel="noopener noreferrer">How to Find the Third-Parties on Your Site, par Simon Hearne [article en anglais]</a> : présentation de l’outil RequestMap, intégré dans <a href="https://www.webpagetest.org/" target="_blank" rel="noopener noreferrer">Webpagetest</a> pour détecter les services-tiers. Cet outil avait déjà été abordé sur le blog de Greenspector dans le <a href="../../../ressources/blog/fr/auditer-requetes-application-mobile-android/" target="_blank" rel="noopener noreferrer">cas d’une application Android</a>.&nbsp;</li><li><a href="https://csswizardry.com/2018/05/identifying-auditing-discussing-third-parties/" target="_blank" rel="noopener noreferrer">Identifying, Auditing, and Discussing Third Parties, par Harry Roberts [article en anglais]</a> : comment auditer les services-tiers d’un site&nbsp;</li><li><a href="https://www.smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/" target="_blank" rel="noopener noreferrer">Reducing The Web’s Carbon Footprint: Optimizing Social Media Embeds, par Michelle Baker [article en anglais]</a> : comment intégrer les contenus de réseaux sociaux de façon efficiente.</li><li><a href="https://github.com/BuilderIO/partytown" target="_blank" rel="noopener noreferrer">Partytown&nbsp; [article en anglais]</a> : une librairie qui propose de gérer les services-tiers via un <a href="https://developer.mozilla.org/fr/docs/Web/API/Web_Workers_API/Using_web_workers" target="_blank" rel="noopener noreferrer">WebWorker</a>&nbsp;</li></ul>
+
+<ul><li><a href="https://aremythirdpartiesgreen.com/" target="_blank" rel="noopener noreferrer">Are my third parties green, par Fershad Irani [article en anglais]</a> : un outil en ligne pour évaluer l’impact environnemental des services-tiers via la provenance de l’électricité alimentant les serveurs.</li></ul>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

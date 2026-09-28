@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Reducing the impact of autocompletion - Greenspector</title>
+    <meta name="description" content="When we browse the web, autocompletion is implemented on search engines, whether they are website-specific or not.">
+    <meta name="keywords" content="Numérique responsable">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/reducing-the-impact-of-autocompletion/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/reducing-the-impact-of-autocompletion/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/">
+    <meta property="og:title" content="Reducing the impact of autocompletion ">
+    <meta property="og:description" content="When we browse the web, autocompletion is implemented on search engines, whether they are website-specific or not.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/reducing-the-impact-of-autocompletion/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2023/01/autocompletion-image-en-avant.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2023/01/autocompletion-image-en-avant.jpg">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/reducing-the-impact-of-autocompletion/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/reducing-the-impact-of-autocompletion/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/reducing-the-impact-of-autocompletion/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Reducing the impact of autocompletion </h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>January 3, 2023</span><span>Numérique responsable</span></div>
+  <div class="blog-article__body">
+    <p>When we browse the web, autocompletion is almost everywhere. In particular, this functionality is implemented on search engines, whether they are website-specific or not. So, when the user types in the words they are looking for, suggestions are made dynamically, whether to complete the words or phrases they type in or to display the search results as characters are added.&nbsp;</p>
+
+<p>In the case of Google, these suggestions are often derided as incongruous.&nbsp; <a href="https://dkb.io/post/google-search-is-dying" target="_blank" rel="noopener noreferrer">Not to mention the SEO chestnut about the death of the search engine</a>.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2023/01/Google.png" alt="" width="840" height="306" loading="lazy" decoding="async"><figcaption><a href="https://fooyoh.com/geekapolis_gadgets_wishlist/9920129/here-are-the-most-bizarre-google-autocomplete-suggestions" target="_blank" rel="noopener noreferrer">Source</a></figcaption></figure>
+
+<p><strong>Take the example of the Google search engine:&nbsp;</strong></p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2023/01/image8-21-1.png" alt="" width="885" height="89" loading="lazy" decoding="async"></figure>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2023/01/image9-23-1.png" alt="" width="953" height="50" loading="lazy" decoding="async"></figure>
+
+<p>Here, the blue arrows represent character inputs and the black rectangles represent autocomplete queries.&nbsp;&nbsp;</p>
+
+<p>We arrive at a total of 16 XHR type queries for 5.1 kb transferred.&nbsp;&nbsp;</p>
+
+<p>The number of queries remains the same whether the input is fast (input in 2 seconds for the whole search) or longer (7 seconds in total for the input).&nbsp;</p>
+
+<p>Autocompletion can also be found in some input forms, to ensure that the text entered corresponds to what is expected (city, country, etc).&nbsp;&nbsp;&nbsp;</p>
+
+<p>While this mechanism can be an aid to the user, the environmental impact of the queries generated should not be overlooked. Let&rsquo;s see how to limit them.</p>
+
+<h2>First recommendations&nbsp;</h2>
+
+<p>If sobriety is a priority, the best thing to do is not to integrate an autocomplete mechanism. However, input help is a definite advantage for users in most cases.&nbsp;</p>
+
+<p>In the case of forms, <a href="https://github.com/cnumr/best-practices/blob/main/chapters/BP_004_fr.md" target="_blank" rel="noopener noreferrer">the GreenIT.fr collective&rsquo;s collection of 115 good practices in web ecodesign recommends input assistance</a>. In this way, less strain is placed on the server while ensuring that the text entered remains consistent with what is expected.&nbsp;</p>
+
+<p>On the GR491 side, there are two recommendations:&nbsp;&nbsp;&nbsp;</p>
+
+<ul><li><a href="https://gr491.isit-europe.org/crit.php?id=10-5084-frontend-lutilisation-de-moteurs-de-recherches-locaux-dans" target="_blank" rel="noopener noreferrer">Limit unnecessary searches by local search engines</a>: this is based on the number of letters entered in order to space out the queries&nbsp;&nbsp;</li><li><a href="https://gr491.isit-europe.org/crit.php?id=3-7043-backend-les-operations-realisees-sur-le-front-end" target="_blank" rel="noopener noreferrer">Limit the number of requests between the client and the server</a>: this more general good practice applies perfectly here&nbsp;&nbsp;</li></ul>
+
+<p>Rather than systematically implementing autocompletion and search, it is sometimes possible to make filters (and sorting mechanisms) available to the user.&nbsp;&nbsp;&nbsp;</p>
+
+<p>With these initial elements in mind, let&rsquo;s look at how we can go even further.</p>
+
+<h2>Recommendations&nbsp;&nbsp;</h2>
+
+<h3>Ensure that requests are as light as possible&nbsp;&nbsp;&nbsp;</h3>
+
+<p>When the client sends a request to the server, ensure that it contains only the elements necessary to provide a relevant response.&nbsp;&nbsp;&nbsp;</p>
+
+<p>When the server sends a response, again ensure that :&nbsp;&nbsp;&nbsp;</p>
+
+<ul><li>Only relevant fields are returned. For example, it is not always necessary to display an image for each result&nbsp;&nbsp;</li><li>Only the necessary elements are returned (relevance of responses and pagination of results)</li></ul>
+
+<h3>Do not offer autocompletion before a few characters&nbsp;&nbsp;</h3>
+
+<p>Before launching the first query, it is preferable to wait until 5 characters have been entered or at least 2 seconds have elapsed since the last entry by the user.&nbsp;&nbsp;&nbsp;</p>
+
+<p>This avoids returning results for a request that is too vague (when the number of characters entered is insufficient), while taking into account the case where the term searched for is deliberately short (« summer », etc).</p>
+
+<h3>Spacing out the queries in time&nbsp;&nbsp;</h3>
+
+<p>After the initial query, wait until 3 new characters have been entered or at least 2 seconds have elapsed since the last query.&nbsp;</p>
+
+<h3>Limit the number of queries for fast entries&nbsp;&nbsp;</h3>
+
+<p>In addition to the previous rule, in the case of fast input, wait at least one second between each request. Indeed, some particularly fast users can enter a character every 200 ms.&nbsp;</p>
+
+<h3>Measuring local relevance&nbsp;&nbsp;</h3>
+
+<p>When a user adds characters to his search, the results become more precise and their number decreases. It is possible to perform this filtering directly locally, without additional requests to the server. For example, if results were obtained for « housing assistance », it is possible to filter on the client side if the user continues by typing « housing assistance ».&nbsp;&nbsp;&nbsp;</p>
+
+<p>This good practice is particularly relevant in the case of an input field in a form. For example, when entering a city or country, the elements of an initial query can be refined locally as the user continues to type.&nbsp;&nbsp;</p>
+
+<p>Be aware that if a space is entered and new terms are added, the logic chosen for the search results must be taken into account. In particular, should a result contain all the terms entered or only some of them?&nbsp;&nbsp;</p>
+
+<p>Be careful also to take into account the case where the user deletes some of the characters entered. You may also want to temporarily store the queries you have already made so that you can use them again if necessary.</p>
+
+<h3>Back to the example of the Google search engine&nbsp;&nbsp;</h3>
+
+<p>Taking the case of the Google search engine mentioned at the beginning of the article (16 queries, 5.1 KB transferred), we arrive at 3 queries in total for 1 KB transferred.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2023/01/image4-37-2.png" alt="" width="906" height="142" loading="lazy" decoding="async"></figure>
+
+<ul><li>A first query only performed when at least 5 characters have been entered.&nbsp;&nbsp;&nbsp;</li></ul>
+
+<ul><li>A second query when 3 more characters have been entered.&nbsp;&nbsp;&nbsp;</li><li>A third query when 3 more characters have been entered.&nbsp;&nbsp;&nbsp;</li><li>The local evaluation of the results to be returned at the end of the input, since it is only a question of filtering the results obtained following the third query.</li></ul>
+
+<h2>Conclusion&nbsp;&nbsp;</h2>
+
+<p>If autocompletion is a necessity and assisted input is not possible, the following good practices should be implemented:&nbsp;&nbsp;&nbsp;</p>
+
+<ul><li>Ensure that queries are as light as possible  </li><li>Do not offer autocompletion before a few characters  </li><li>Spacing out queries over time  </li><li>Limit the number of queries for quick entries</li><li>Measure relevance locally</li></ul>
+
+<p>Finally, although this input help may be beneficial to many users, <a href="https://accessibility.huit.harvard.edu/technique-aria-autocomplete" target="_blank" rel="noopener noreferrer">do not neglect its accessibility</a>.&nbsp;</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

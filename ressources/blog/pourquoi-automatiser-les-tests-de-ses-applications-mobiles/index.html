@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Pourquoi automatiser les tests de ses applications mobiles ? - Greenspector</title>
+    <meta name="description" content="Outre le fait de détecter d'éventuels problèmes de performance et bugs utilisateurs, l'automatisation présente de nombreux autres bénéfices : le suivi d’exigences non-fonctionnelles, la maîtrise des régressions, la remontée de nouvelles métriques...">
+    <meta name="keywords" content="Zone technique">
+    <link rel="canonical" href="https://greenspector.com/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/">
+    <meta property="og:title" content="Pourquoi automatiser les tests de ses applications mobiles ?">
+    <meta property="og:description" content="Outre le fait de détecter d'éventuels problèmes de performance et bugs utilisateurs, l'automatisation présente de nombreux autres bénéfices : le suivi d’exigences non-fonctionnelles, la maîtrise des régressions, la remontée de nouvelles métriques...">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/2018-12-03-automatisation-des-tests-apps-mobiles.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/2018-12-03-automatisation-des-tests-apps-mobiles.png">
+    <link href="../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="../../../" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="../../../studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="../../../studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="../../../studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="../../../studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="../../../studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="../../../conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="../../../conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="../../../conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="../../../a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="../../../a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="../../../a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="../../../a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="../../../ressources/blog/pourquoi-automatiser-les-tests-de-ses-applications-mobiles/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="../../../en/resources/blog/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Pourquoi automatiser les tests de ses applications mobiles ?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>3 décembre 2018</span><span>Zone technique</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p><strong>L&rsquo;automatisation des tests est bien souvent considérée comme un surcoût au sein des équipes de développement</strong>, et cela pour différentes raisons :</p>
+
+<p>Nécéssite une montée en compétence des équipes sur un outil en particulier</p>
+
+<p>Les temps de rédaction sont plus importants que les temps d&rsquo;éxécution manuels</p>
+
+<p>Nécéssite un maintien des tests sur la durée</p>
+
+<p>&#8230;</p>
+
+<p>Le développement mobile comprenant des coûts projets plus faibles et des temps de développement raccourcis n&rsquo;aide pas au passage à l&rsquo;automatisation des tests. Les bénéfices ne sont en effet pas forcément bien évalués vis-à-vis du coût de l&rsquo;automatisation. Au final, les projets d&rsquo;automatisation des applications mobiles passent souvent à la trappe ou sont décalés trop tard dans le projet. C&rsquo;est une erreur car <strong>les bénéfices de l&rsquo;automatisation des tests pour les applications mobiles sont nombreux.</strong></p>
+
+<h2>Les applications mobiles sont des applications comme les autres : complexes, techniques&#8230;</h2>
+
+<p>Les applications mobiles sont considérées comme des applications nécessitant peu de développement, des coûts faibles&#8230; Or ce n&rsquo;est pas toujours le cas. Nous ne sommes plus dans la même situation des dernières années où les projets d&rsquo;applications mobiles étaient des <em>Proofs Of Concept</em> et autres balbutiements. Les applications mobiles ont maintenant subi l&rsquo;entropie naturelle de tout projet logiciel : contraintes de sécurité renforcées, librairies et SDK intégrées, architectures modulaires, intéractions multiples avec des serveurs <em>backend</em>&#8230;</p>
+
+<p>Cette maturité (mélée à l&rsquo;entropie des logiciels) ne permet plus de laisser de côté les tests. <strong>Une industrialisation des tests, et en particulier l&rsquo;automatisation, permet d&rsquo;assurer une qualité nécessaire aux projets mobiles.</strong> Sans cela, c&rsquo;est un échec assuré.</p>
+
+<h2>L&rsquo;échec n&rsquo;est plus envisageable</h2>
+
+<p>Associées à cette complexification des projets mobiles, <strong>les applications sont devenues des projets critiques pour les entreprises</strong>. En effet, elles sont les nouvelles vitrines des marques et des organisations. Et compte-tenu des cycles de développement rapides, un échec du projet (retards, détection trop tardive de bugs utilisateurs&#8230;) peut être fatal à l&rsquo;image de l&rsquo;entreprise. D&rsquo;autant plus qu&rsquo;une mauvaise expérience vécue par l&rsquo;utilisateur peut amener tout simplement à la désinstallation, la non-utilisation de l&rsquo;application ou encore la rédaction d&rsquo;un avis négatif sur les stores.</p>
+
+<p>Le niveau de qualité doit donc être au rendez-vous et les tests automatisés sont un passage obligé pour contrôler la performance de son application.</p>
+
+<h2>Tester c&rsquo;est douter, le doute est bon</h2>
+
+<p>Une équipe de développement de qualité, un processus « carré » et des tests manuels pourraient permettre d&rsquo;assurer cette qualité. Tester serait mettre en doute les compétences de l&rsquo;équipe ? Non, car comme le stress du funambule qui lui permet de traverser le ravin, <strong>le doute est bon pour la qualité</strong>. Un SDK avec un comportement inattendu, une regression non-désirée&#8230; <strong>Autant assurer avec des tests</strong>.</p>
+
+<h2>L&rsquo;automatisation permet de faire du <em>Test Driven Development</em> (TDD)</h2>
+
+<p>Anticiper l&rsquo;automatisation va permettre de plus d&rsquo;aller vers des pratiques de <em><a href="https://fr.wikipedia.org/wiki/Test_driven_development">Test Driven Development</a></em>. Rédiger les tests avant le développement est tout à fait possible dans les projets mobiles. Avec ou sans outillage, il est intéressant d&rsquo;automatiser un scénario spécifié et de le lancer en cours de développement.</p>
+
+<p>Et sans parler de <em>Test Driven Development</em>, le fait d&rsquo;avoir des tests qui suivent de près le développement permettra de détecter au plus tôt des problèmes et autres bugs.</p>
+
+<h2>La fragmentation des plateformes ne peut être géré avec des tests manuels</h2>
+
+<p><strong>Tester manuellement sur un device uniquement ne permet plus de s&rsquo;assurer du bon fonctionnement d&rsquo;une application.</strong> La diversité des matériels avec des configurations matérielles et logicielles variées est source de bug. Tailles d&rsquo;écran différentes, surcouches constructeurs&#8230; <a href="../../../ressources/blog/comment-detecter-les-problemes-denergie-et-de-performance-de-vos-applications-mobiles-avant-vos-utilisateurs/">une automatisation va permettre de lancer des tests en parallèle sur différents devices et de détecter des potentiels bugs</a>. On évitera comme cela de confondre utilisateurs finaux et bêta-testeurs de l&rsquo;application !</p>
+
+<h2>Maîtriser les régressions en maintenance</h2>
+
+<p>La sortie de la première <em>release</em> de l&rsquo;application n&rsquo;est que le début du cycle de vie de l&rsquo;application. 80% de la charge de développement correspond à de la maintenance et à l&rsquo;évolution de l&rsquo;application. Il est donc nécessaire de se projeter sur la durée. En automatisant, on va ainsi éviter d&rsquo;ajouter des régressions dans l&rsquo;application. Le lancement des tests sera systématique à chaque évolution de l&rsquo;application.</p>
+
+<h2>L&rsquo;automatisation permet d&rsquo;avoir des métriques de performance</h2>
+
+<p>Au final, <strong>l&rsquo;automatisation va permettre de suivre d&rsquo;autres exigences</strong> que les exigences fonctionnelles : <strong>les exigences non-fonctionnelles</strong>. En effet, associés à des outils des mesures, les tests automatisés vont permettre de remonter de nouvelles métriques : performance, consommation de ressources&#8230;</p>
+
+<p>C&rsquo;est la stratégie que <strong><a href="../../../ressources/blog/fr/">GREENSPECTOR</a></strong> préconise à ses utilisateurs. En intégrant l&rsquo;API GREENSPECTOR dans les tests automatisés, ils peuvent suivre à chaque campagne de test : l&rsquo;efficience et la performance de leur développement. <strong>Le coût de l&rsquo;automatisation est alors largement couvert par les bénéfices. CQFD</strong></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../" aria-label="Greenspector - Accueil"><img class="footer-logo" src="../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="../../../conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="../../../tarifs-greenspector-studio/">Tarifs</a></li><li><a href="../../../ressources/blog/">Ressources</a></li><li><a href="../../../a-propos/equipe-greenspector/">À propos</a></li><li><a href="../../../contact/">Contact</a></li><li><a href="../../../mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

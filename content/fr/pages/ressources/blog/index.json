@@ -1,0 +1,24 @@
+{
+  "id": "blog-index",
+  "slug": "/ressources/blog/",
+  "template": "blog-index",
+  "meta": {
+    "title": "Blog | Greenspector",
+    "description": "Articles, mesures et analyses sur la sobriété numérique, l'écoconception logicielle et l'impact environnemental des services numériques.",
+    "keywords": "blog Greenspector, sobriété numérique, écoconception, green IT, impact environnemental",
+    "ogTitle": "Blog | Greenspector",
+    "ogDescription": "Articles, mesures et analyses sur la sobriété numérique, l'écoconception logicielle et l'impact environnemental des services numériques."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Blog",
+    "primary": "blog Greenspector",
+    "secondary": "sobriété numérique, écoconception, actualités"
+  },
+  "hero": {
+    "label": "Ressources",
+    "title": "Blog",
+    "subtitle": "Mesures, analyses et retours d'expérience pour concevoir des services numériques plus sobres."
+  },
+  "gridLabel": "Articles du blog Greenspector"
+}

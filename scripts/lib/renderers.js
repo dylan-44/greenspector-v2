@@ -167,6 +167,134 @@ function renderCaseStudiesIndex(page, ctx, nav) {
         </section>`;
 }
 
+function blogIndexSlug(locale, pageNum = 1) {
+  if (locale === 'en') {
+    return pageNum <= 1 ? '/en/resources/blog/' : `/en/resources/blog/page/${pageNum}/`;
+  }
+  return pageNum <= 1 ? '/ressources/blog/' : `/ressources/blog/page/${pageNum}/`;
+}
+
+function blogPaginationWindow(current, total) {
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, index) => index + 1);
+  }
+
+  const pages = new Set([1, total]);
+  if (current <= 3) {
+    pages.add(2);
+    pages.add(3);
+    pages.add(4);
+  } else if (current >= total - 2) {
+    pages.add(total - 2);
+    pages.add(total - 1);
+  } else {
+    pages.add(current - 1);
+    pages.add(current);
+    pages.add(current + 1);
+  }
+
+  const sorted = [...pages].sort((a, b) => a - b);
+  const windowItems = [];
+  sorted.forEach((num, index) => {
+    if (index > 0 && num - sorted[index - 1] > 1) {
+      windowItems.push('ellipsis');
+    }
+    windowItems.push(num);
+  });
+  return windowItems;
+}
+
+function renderBlogPagination({ pageIndex, totalPages, ctx, nav }) {
+  if (totalPages <= 1) {
+    return '';
+  }
+
+  const labels = nav.blogPagination || {};
+  const previous = labels.previous || (ctx.locale === 'en' ? 'Previous' : 'Précédent');
+  const next = labels.next || (ctx.locale === 'en' ? 'Next' : 'Suivant');
+  const aria = labels.aria || (ctx.locale === 'en' ? 'Blog pagination' : 'Pagination du blog');
+
+  const pageLink = (num) => slugToRelative(ctx.pageSlug, blogIndexSlug(ctx.locale, num));
+
+  const numbers = blogPaginationWindow(pageIndex, totalPages)
+    .map((item) => {
+      if (item === 'ellipsis') {
+        return '<li><span class="blog-pagination__ellipsis" aria-hidden="true">…</span></li>';
+      }
+      const current = item === pageIndex;
+      return `<li><a class="blog-pagination__page${current ? ' is-current' : ''}" href="${esc(pageLink(item))}"${
+        current ? ' aria-current="page"' : ''
+      }>${item}</a></li>`;
+    })
+    .join('');
+
+  const prev =
+    pageIndex > 1
+      ? `<a class="blog-pagination__nav" href="${esc(pageLink(pageIndex - 1))}" rel="prev">${esc(previous)}</a>`
+      : `<span class="blog-pagination__nav is-disabled" aria-disabled="true">${esc(previous)}</span>`;
+  const nextLink =
+    pageIndex < totalPages
+      ? `<a class="blog-pagination__nav" href="${esc(pageLink(pageIndex + 1))}" rel="next">${esc(next)}</a>`
+      : `<span class="blog-pagination__nav is-disabled" aria-disabled="true">${esc(next)}</span>`;
+
+  return `<nav class="blog-pagination" aria-label="${esc(aria)}">
+                    ${prev}
+                    <ol class="blog-pagination__pages">${numbers}</ol>
+                    ${nextLink}
+                </nav>`;
+}
+
+function renderBlogIndex(page, ctx, nav) {
+  const labels = nav.blogCard || {};
+  const search = nav.blogSearch || {};
+  const eyebrow = labels.eyebrow || 'Article';
+  const cta = labels.cta || (ctx.locale === 'en' ? 'Read the article' : "Lire l'article");
+  const pageSize = ctx.blogPageSize || 8;
+  const allItems = ctx.blogItems || [];
+  const totalPages = Math.max(1, Math.ceil(allItems.length / pageSize));
+  const pageIndex = Math.min(Math.max(ctx.blogPage || 1, 1), totalPages);
+  const items = allItems.slice((pageIndex - 1) * pageSize, pageIndex * pageSize);
+  const searchIndex = slugToAsset(ctx.pageSlug, `/assets/js/blog-search-${ctx.locale}.json`);
+  const assetRoot = slugToAsset(ctx.pageSlug, '/');
+
+  const cards = items
+    .map((item) => {
+      const href = slugToRelative(ctx.pageSlug, item.href || item.slug);
+      const media = item.image
+        ? `<figure class="case-study-card__media blog-card__media">
+            <img src="${esc(slugToAsset(ctx.pageSlug, item.image))}" alt="" width="640" height="480" loading="lazy" decoding="async">
+          </figure>`
+        : `<figure class="case-study-card__media blog-card__media blog-card__media--empty" aria-hidden="true"></figure>`;
+      return `<article class="case-study-card">
+        <a class="case-study-card__link" href="${esc(href)}">
+          ${media}
+          <div class="case-study-card__body">
+            <p class="eyebrow">${esc(eyebrow)}</p>
+            <h2 class="case-study-card__title">${esc(item.title)}</h2>
+            <p class="case-study-card__desc">${esc(item.description || '')}</p>
+            <span class="case-study-card__cta">${esc(cta)}</span>
+          </div>
+        </a>
+      </article>`;
+    })
+    .join('\n        ');
+
+  return `${renderHero(page, ctx, nav)}
+        <section class="content-shell">
+            <div class="container">
+                <form class="blog-search" role="search" data-blog-search data-index="${esc(searchIndex)}" data-root="${esc(assetRoot)}" data-eyebrow="${esc(eyebrow)}" data-cta="${esc(cta)}" data-empty="${esc(search.empty || '')}" data-one="${esc(search.one || '')}" data-many="${esc(search.many || '')}">
+                    <label class="blog-search__label" for="blog-search-input">${esc(search.label || (ctx.locale === 'en' ? 'Search articles' : 'Rechercher un article'))}</label>
+                    <input id="blog-search-input" class="blog-search__input" type="search" name="q" placeholder="${esc(search.placeholder || '')}" autocomplete="off" enterkeyhint="search">
+                    <p class="blog-search__status" hidden></p>
+                </form>
+                <div class="case-studies-grid blog-index-grid" aria-label="${esc(page.gridLabel || 'Blog')}">
+        ${cards}
+                </div>
+                ${renderBlogPagination({ pageIndex, totalPages, ctx, nav })}
+            </div>
+        </section>`;
+}
+
 function renderCaseStudyBody(page, ctx, nav) {
   const pageSlug = ctx.pageSlug;
   const logos = renderCaseStudyLogos(page, ctx);
@@ -336,6 +464,9 @@ function renderPageBody(page, template, ctx, nav) {
   if (template === 'case-studies-index') {
     return renderCaseStudiesIndex(page, ctx, nav);
   }
+  if (template === 'blog-index') {
+    return renderBlogIndex(page, ctx, nav);
+  }
   if (template === 'case-study') {
     return `${renderHero(page, ctx, nav)}${renderCaseStudyBody(page, ctx, nav)}`;
   }
@@ -374,5 +505,6 @@ function renderPageBody(page, template, ctx, nav) {
 
 module.exports = {
   esc,
-  renderPageBody
+  renderPageBody,
+  blogIndexSlug
 };

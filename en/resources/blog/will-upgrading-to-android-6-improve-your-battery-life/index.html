@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Will upgrading to Android 6 improve your battery life? - Greenspector</title>
+    <meta name="description" content="It seems that Android 6 reduces battery consumption, but what is it really? We wanted to verify this claim by measuring our favorite applications on a Fairephone2">
+    <meta name="keywords" content="Sobriété des applications">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/">
+    <meta property="og:title" content="Will upgrading to Android 6 improve your battery life?">
+    <meta property="og:description" content="It seems that Android 6 reduces battery consumption, but what is it really? We wanted to verify this claim by measuring our favorite applications on a Fairephone2">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/android6-battery-life-1.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/android6-battery-life-1.png">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Will upgrading to Android 6 improve your battery life?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>January 22, 2018</span><span>Sobriété des applications</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p>There has been a lot of noise recently about Android’s newest version 8 “Oreo”. However, a lot of people out there are <a href="https://developer.android.com/about/dashboards/index.html">still using older versions</a>, and may be wondering if the new versions are worth the upgrade. I’ve been confronted with this choice on my Fairphone2 running Android 5.1. Should I upgrade it to Android 6 Marshmallow? <strong>Google claims that <a href="https://www.android.com/versions/marshmallow-6-0/">Android 6 will get you more battery life</a>. Let’s check that, shall we!</strong></p>
+
+<h3>Never install an update without first checking that you actually need it</h3>
+
+<p>You know how people can heavily rely on their smartphone nowadays. I’m no exception to that. I’ve been intensively using my <strong><a href="http://www.fairphone.com/">Fairphone2</a></strong> for over a year now, and I must say that I’m pretty happy with it. Except for the very few occasional crashes (but no more than on my previous device), it has become my trusted everyday companion.</p>
+
+<p>When I got it, it shipped with Android 5.1 (Lollipop). The Fairphone team is doing its job properly and a few months later, they proposed an upgrade to Android 6 (Marshmallow).</p>
+
+<p>But Hey, come on&#8230; I’ve been in the IT business for quite a while now, and an IT user for even longer (my first OS had a blue background). As much as I love getting the latest version of pretty much anything, <strong>I’ve developed a healthy habit: never install an update without first checking that I really need it.</strong></p>
+
+<h2>What about this battery consumption claim?</h2>
+
+<p>Part of this habit is based upon the «<em>if it ain’t broke, don’t fix it</em>» approach, and the other part is defiance. OK, this update will bring nice features, and maybe I will actually need some of them. But what would be the cost of it? Will this update increase the footprint of the software (bigger memory? disk size? CPU needs? And what about battery consumption?&#8230;).</p>
+
+<p>I had already checked the novelties included in Android 6 and decided that none of those were interesting enough for me to jump in. However there was still one interesting claim: <strong>Android 6 was supposed to lower the battery consumption of the OS, thus allowing longer battery life.</strong><br>So, prior to upgrading, I needed to know if this claim was true.</p>
+
+<h3>Let’s look into this</h3>
+
+<p><strong>This is where working for a company which specialty is metering battery consumption of mobile devices comes in handy</strong>. Folks in the office next door spontaneously developed an energy probe for the Fairphone2 after I threatened to join the company choir, and they even let me play with a crude but simple version of a battery monitoring app. (Before you ask: no, this is not available for sale (yet), it’s only an internal lab thing. For now.)</p>
+
+<p>So, during a few days, <strong>I was able to monitor the battery consumption of my Fairphone2 when making Phone Calls</strong>, when <strong>using the apps</strong> I use on a daily basis, and also some others just for the experiment: K9-Mail, Twitter, Meteo France (France’s official weather app), and I tossed in a few games on Hearthstone (“work hard, play hard” they say) and listened to the FM Radio through the built-in antenna and app, and through some randomly picked internet Radio App.</p>
+
+<p>I started by measuring under Android 5.1. Then I upgraded the OS to Android 6, and did a second run of measures. Please note that the applications have not been upgraded in the process: we’re talking OS only here.</p>
+
+<p>These measures have led me to some interesting findings. I’ve been able to check whether Marshmallow really lowers battery consumption or not, and I also got some insights about individual applications behavior.</p>
+
+<h2>Rankings my everyday apps</h2>
+
+<p>The first set of measures I ran under <strong>Android 5.1</strong> led to these findings.</p>
+
+<p>All values are given in <em>µAh/s</em>. These are “microAmpere.hour per second”. As the Fairphone2 has a battery capacity of 2,400 mAh, this means an app with a discharge rate of 300 µah/s will drain the battery in a little more than 2 hours.</p>
+
+<p>• The discharge speed for my use cases vary in range 146 to 305 µAh/s<br>• Some notable values:</p>
+
+<ul><li>Hearthstone : 305</li><li>Twitter : 247</li><li>Phone call : 191</li><li>Radio (built-in FM): 160</li><li>Idle (doing nothing but not in sleep mode, screen is on): around 150</li></ul>
+
+<p>The full list of tests cases is as seen on the graph.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/discharge-speed-android-5-1-1024x680.jpg" alt="" width="1024" height="680" loading="lazy" decoding="async"></figure>
+
+<h3>Casual findings: about Twitter and FM radio</h3>
+
+<p>By looking at these values, <strong>we get some unexpected insights</strong>:</p>
+
+<ul><li>Twitter with the Night Mode on doesn’t save any energy over Twitter with the default white background: OK, this is consistent with the Fairphone2 screen technology – read more about this)</li><li>Listening to the radio through built-in FM consumes 20% less battery than a random internet Radio app. Of course you only get your local stations, but depending on what you want to listen to, you are better off using this built-in FM.</li></ul>
+
+<h3>Is Android 6 improving my battery life?</h3>
+
+<p>Well, it’s time to answer this question. <strong>Let’s upgrade the phone and run these measures again</strong>. Now here is what we get:<br>• Average discharge speed varies in range 102 to 313 µah/s<br>• Some notable values:</p>
+
+<ul><li>Hearthstone : 313</li><li>Twitter : 208</li><li>Phone call : 163</li><li>Radio (built-in FM) : 143</li><li>Idle : 102 to 134</li></ul>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/discharge-speed-android-6-1024x680.jpg" alt="" width="1024" height="680" loading="lazy" decoding="async"></figure>
+
+<p>I had a look at the other metrics: <strong>it seems like the processor is better managed</strong>. We get around 9% less CPU used by the system when the phone is idle. CPU-intensive apps also have better performances: I get a test score of 1,058 at 3DMark Slingshot with Android 6, vs 912 with Android 5.1) <strong>but this happens at the cost of an increase in energy consumption: +10% discharge rate</strong> for 3DMark.</p>
+
+<h2>Conclusion</h2>
+
+<p>In most cases, <strong>Android 6 brings a significant energy gain: around 5% to 15%</strong>. Beware though when using CPU-intensive apps, you’ll get better performances but at the cost of more battery consumption from these apps.</p>
+
+<p><strong>So, will I keep Marshmallow on my device? Yes.</strong></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

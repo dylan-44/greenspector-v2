@@ -25,5 +25,21 @@
     "eyebrow": "Case study",
     "cta": "Read case study"
   },
+  "blogCard": {
+    "eyebrow": "Article",
+    "cta": "Read the article"
+  },
+  "blogPagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "aria": "Blog pagination"
+  },
+  "blogSearch": {
+    "label": "Search articles",
+    "placeholder": "Title or topic",
+    "empty": "No articles match this search.",
+    "one": "1 article",
+    "many": "{count} articles"
+  },
   "stubMessage": "Editorial content to be completed in a future iteration"
 }

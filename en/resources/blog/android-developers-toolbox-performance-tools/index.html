@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Android developer's toolbox: performance tools - Greenspector</title>
+    <meta name="description" content="Do you wish to control your applications' resources consumption such as CPU, memory, data etc? Discover the performance tools suited for an Android developer">
+    <meta name="keywords" content="Technical Zone">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/android-developers-toolbox-performance-tools/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/android-developers-toolbox-performance-tools/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/">
+    <meta property="og:title" content="Android developer’s toolbox: performance tools">
+    <meta property="og:description" content="Do you wish to control your applications' resources consumption such as CPU, memory, data etc? Discover the performance tools suited for an Android developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/android-developers-toolbox-performance-tools/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/Android-toolbox-v3-min.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/Android-toolbox-v3-min.jpg">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/android-developers-toolbox-performance-tools/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/android-developers-toolbox-performance-tools/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/android-developers-toolbox-performance-tools/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Android developer’s toolbox: performance tools</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>June 27, 2017</span><span>Technical Zone</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p>You must know that a qualitative application shouldn&rsquo;t consume too much resources on a user&rsquo;s smartphone. It is a requirement for it to be adopted and then used in proper conditions. So, you decided to get down to work and control this consumption of diverse resources (CPU, memory, data, etc), energy, application size etc.</p>
+
+<p>Even if you you are a good patterns and development languages expert, road to hell is paved with good intentions! What toolbox should you start with? Let&rsquo;s review the tools that will become an Android developer&rsquo;s bestfriends.</p>
+
+<h2>Android Studio</h2>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min-1.png" alt="" width="347" height="140" loading="lazy" decoding="async"></figure>
+
+<p><strong><a href="https://developer.android.com/studio/profile/android-monitor.html">Android Studio</a></strong> now integrates numerous tools that keep track of your application&rsquo;s resources consumption; the main advantage being the tool is fully integrated in your development environment. Can&rsquo;t do much closer to day-to-day work than this. However, you will have to go get them in sub-menus and remember to monitor the metrics.</p>
+
+<p><strong><a href="https://developer.android.com/studio/profile/am-network.html">Latest version</a></strong> makes available profiling of network and libraries, such as OKHTTP:</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1.png" alt="" width="1024" height="414" loading="lazy" decoding="async"></figure>
+
+<h2>SDK tools: Traceview</h2>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min-1.png" alt="" width="195" height="89" loading="lazy" decoding="async"></figure>
+
+<p><strong><a href="https://developer.android.com/studio/profile/traceview.html">Traceview</a></strong> allows the visualization of method calls, time spent in each one&#8230; Even though the tool is extremely powerful, you might spend a good amount of time analyzing data. There is also a chance you get lost in the call hierarchy. But overall, this tool is a must-have when it comes to analysis of performance issues (among others!).</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min-1.png" alt="" width="893" height="284" loading="lazy" decoding="async"></figure>
+
+<h2>SDK tools: Systrace</h2>
+
+<p><strong><a href="https://developer.android.com/studio/profile/systrace.html">Systrace</a></strong> is another very interesting <strong>profiling tool</strong>, letting you visualize information on hardware (CPU work with repartition on CPUs) but also on Android information packages (RenderThread, Event…). Just like any other (good) profiling tool, it provides a lot of info. The drawback we see is the amount of time it might take to process all this information. And quickly, it can turn rather time-consuming.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min-1.png" alt="" width="923" height="635" loading="lazy" decoding="async"></figure>
+
+<h2>SDK tools: Dumpsys</h2>
+
+<p><strong><a href="https://developer.android.com/studio/profile/investigate-ram.html">Dumpsys</a></strong> is an online module controlling the Android system. You can retrieve numerous information on views, on base&#8230; However, the drawback of the solution here is the metrics&rsquo; complexity, hence the necessity to spend time analyzing and launching measures. For instance, enter the following command line in order to get information on graphic treatments:</p>
+
+<p>adb shell dumpsys gfxinfo</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-2.png" alt="" width="927" height="559" loading="lazy" decoding="async"></figure>
+
+<h2><strong><a href="https://www.howtogeek.com/175151/8-things-you-can-do-in-androids-developer-options/">Developer&rsquo;s tools in the system</a></strong></h2>
+
+<p>If you&rsquo;ve activated the developer&rsquo;s mode already, you will get tools enabling you to <strong>measure some metrics</strong> such as display perfromance, CPU, etc. This mode is pretty interesting but having to check and launch manually actions on a phone limits its usefulness and power.</p>
+
+<p>You should know that it is possible to highlight drawn zones, making it easier to identify frequent redraws.</p>
+
+<h2>Non-SDK-integrated Android tools: Battery Historian</h2>
+
+<p><strong><a href="https://developer.android.com/studio/profile/battery-historian.html">Battery Historian</a></strong> is a tool helping the visualization of information coming from the dumpsys batterystats. Battery discharge is visible simultaneously as system treatment and component use. As a consequence, you can <strong>detect potential energy leakage</strong>. Limit in this case is that it&rsquo;s necessary to run the application for a few minutes, which makes the analysis more complex: similar to a profiling tool, with the complexity that comes with it.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1.png" alt="" width="1024" height="520" loading="lazy" decoding="async"></figure>
+
+<h2>Automation tools : <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong></h2>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min-1.png" alt="" width="499" height="134" loading="lazy" decoding="async"></figure>
+
+<p>Obviously you can&rsquo;t expect us to talk about all those tools without mentionning <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong>! The tools we mentionned in this article are powerful, but this also translates by a rather important complexity, which requires to be some sort of an expert in order to get the right information out of it. But, pretty frequently, developers use those tools only in complicated crisis situation, and not on a regular nor « monitoring » basis.<br>Yet, getting figures of resources consumption is a valuable measure for all developers to get throughout the whole development phase. This is why <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong> is usable in continuous integration. Other than basic metrics, we integrated part of the expert tools (like Dumpsys) directly in <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong>. The goal here is to pair the interface&rsquo;s simplicity, for a constant monitoring, with the possibility to get more precise information if needed.</p>
+
+<p>Here is for example a graph on Android views when the application launches after a test in continuous integration:</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_loaded_views-min-1024x464.png" alt="" width="1024" height="464" loading="lazy" decoding="async"></figure>
+
+<p>This is a way to measure, <strong>thus detect more easily, consumption issues</strong>. If needed, a deeper analysis can then be conducted with the other tools we mentionned.</p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

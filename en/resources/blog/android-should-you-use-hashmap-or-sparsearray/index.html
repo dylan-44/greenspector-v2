@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>Android: Should you use HashMap or SparseArray? - Greenspector</title>
+    <meta name="description" content="SparseArrays are they better than HashMaps for your application? Let's compare their memory and energy consumption.">
+    <meta name="keywords" content="Technical Zone">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/android-should-you-use-hashmap-or-sparsearray/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/android-should-you-use-hashmap-or-sparsearray/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/">
+    <meta property="og:title" content="Android: Should you use HashMap or SparseArray?">
+    <meta property="og:description" content="SparseArrays are they better than HashMaps for your application? Let's compare their memory and energy consumption.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/android-should-you-use-hashmap-or-sparsearray/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/cover-1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/cover-1.jpg">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/android-should-you-use-hashmap-or-sparsearray/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/android-should-you-use-hashmap-or-sparsearray/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/android-should-you-use-hashmap-or-sparsearray/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>Android: Should you use HashMap or SparseArray?</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>April 11, 2017</span><span>Technical Zone</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p><strong>Controlling the energy consumption is becoming more and more critical when developing mobile applications</strong>. Recent versions of Android integrate for instance a <em>doze</em> mode in which the smartphone shuts down treatments to only wake them up periodically, however it is not sufficient and application developers still have a role to play.</p>
+
+<p>At the application level, a good start to improve the energy consumption is <strong>the choice of appropriate data structures</strong>.</p>
+
+<p>Android offers structures aimed at replacing <strong>HashMaps</strong> in some cases in particular: <strong>SparseArray</strong> and <strong>ArrayMap</strong>.<br>Now let&rsquo;s see how they compare to HashMaps!</p>
+
+<h2>Introducing the contestants</h2>
+
+<p>Android offers data structures to replace <em>HashMap</em> in some specific cases:</p>
+
+<figure><table><thead><tr><th>Standard Java Structure</th><th>Corresponding Android Structure</th></tr></thead><tbody><tr><td><a href="https://developer.android.com/reference/java/util/HashMap.html">HashMap&lt;K, V&gt;</a></td><td><a href="https://developer.android.com/reference/android/util/ArrayMap.html">ArrayMap&lt;K, V&gt;</a></td></tr><tr><td>HashMap&lt;Integer, V&gt;</td><td><a href="https://developer.android.com/reference/android/util/SparseArray.html">SparseArray&lt;V&gt;</a></td></tr><tr><td>HashMap&lt;Integer, Boolean&gt;</td><td><a href="https://developer.android.com/reference/android/util/SparseBooleanArray.html">SparseBooleanArray</a></td></tr><tr><td>HashMap&lt;Integer, Integer&gt;</td><td><a href="https://developer.android.com/reference/android/util/SparseIntArray.html">SparseIntArray</a></td></tr><tr><td>HashMap&lt;Integer, Long&gt;</td><td><a href="https://developer.android.com/reference/android/util/SparseLongArray.html">SparseLongArray</a></td></tr><tr><td>HashMap&lt;Long, V&gt;</td><td><a href="https://developer.android.com/reference/android/util/LongSparseArray.html">LongSparseArray&lt;V&gt;</a></td></tr></tbody></table></figure>
+
+<p>Let us start by describing the basic functionning of these two kind of structures.<br>A <em>HashMap</em> is a <strong>structure allowing one to store (key,value) items</strong>. A hash function pairs each key to an array index where the value will be stored.<br>Android structures are composed of two arrays: <em>ArrayMap</em> uses a sorted array for the key hashes and the other one for the (key,value) items stored in the same order than the corresponding hash. <em>SparseArray</em> <strong>keeps the keys sorted in its first array and the values in the second one</strong>.</p>
+
+<p>Complexity-wise, searching for an item stored in a HashMap is done in constant time on average, and with a logarithmic complexity for <strong>SparseArray</strong> and <strong>ArrayMap</strong>.<br>However, using a <strong>HashMap</strong> implies a memory overhead because the structure must be large enough to avoid hash collisions. Moreover, it does not allow you to have primitive types as key or value (int, long, etc.)</p>
+
+<h2>Which data structure should I use?</h2>
+
+<p>Several resources exist online which debate the pros and cons of each data structure.</p>
+
+<p>In his <a href="https://speakerdeck.com/jakewharton/exploring-hidden-java-costs-360-andev-july-2016"><em>Exploring hidden Java costs</em></a> talk, Jake Wharton thoroughly explains how HashMap and SparseArray<strong> work to show the benefits of the latter. However, SparseArray</strong> is only interesting, he says, when you have to <strong>store less than a thousand items</strong>.</p>
+
+<p>In the post called <a href="http://deepakmishra.me/blog/index.php/2015/10/19/hashmaps-arraymaps-and-sparsearrays-in-android/">*HashMaps, ArrayMaps and SparseArray*<em>s in Android</em></a>, Deepak Mishra also explains precisely how each data structure works along with the algorithmic complexity of each operation. His conclusion is that transitioning to ArrayMap and SparseArray** will benefit your application memory-wise, without any major drawback of the performance.</p>
+
+<p><a href="https://androidandbrillo.wordpress.com/2015/09/07/android-performance-patterns-arraymap-vs-hashmap/"><em>Android performance patterns &#8211; ArrayMap vs HashMap</em></a> gives a <strong>clear advantage to ArrayMap but only for small data structures</strong> (less than 1000 items) which are queried a lot.</p>
+
+<p>Romain Guy draws the same conlusions in his talk <a href="https://speakerdeck.com/romainguy/android-memories"><em>Android Memories</em></a>, in which he demonstrates the <strong>gain of memory</strong> provided by SparseIntArray compared to HashMap (for 1000 items). He advises against Android structures for larger sizes.</p>
+
+<p><a href="https://www.javacodegeeks.com/2012/07/android-performance-tweaking-parsearray.html"><em>Android Performance Tweaking: ParseArray Versus Hashmap</em></a> supports its arguments in providing reading and writing time measurements for data structures from 1 to 1 million items. The conclusions are the following: <strong>SparseArray</strong> is more interesting from 10,000 items<strong>, especially if data structures are more used in writing than reading access. Lastly, </strong>it is globally not recommended to use structures with more than 10,000 items**.</p>
+
+<p>In this newer article, <a href="http://www.roman10.net/2017/01/21/sparsearray-and-its-friends-in-android/"><em>Memories of Android</em></a>, Android structures are advocated when key&rsquo;s type is primitive, and when the number of items is less than a few hundreds.</p>
+
+<p>Finally, the Android documentation mentions that <a href="https://developer.android.com/reference/android/util/ArrayMap.html">ArrayMap</a> and <a href="https://developer.android.com/reference/android/util/SparseArray**.html">SparseArray**</a> were not designed to store a large number of items; particularly as item lookup is made in a dichotomous way, which is disadvantageous when comparing to hash calculations for <strong>HashMap</strong> structures.</p>
+
+<p>To conclude this overview, the least we can say is that it is difficult to make a final decision and have a straight opinion.<br>Android specific collections seem efficient to store a limited number of items, but opinions differ for larger structures reaching 10,000 items for instance (or even just 1,000).<br>The only article providing measurement results is quite old now, tests were performed on a <strong>Samsung Galaxy 2</strong> with <strong>Android 2.3.4</strong> and a lot has changed in the <strong>Android</strong> world ever since then (replacement of JIT by ART for example). Other articles and presentations are more recent but do not include any measure and, a fortiori, specifically do not include any energy measurement</p>
+
+<p><strong>That is why it is interesting to measure the cost of all these structures from a performance point of view, as well as a memory and energy consumption one.</strong></p>
+
+<h2>Measurement methodology</h2>
+
+<p><strong>Measuring the consumption of a smartphone requires controlling the environment as much as possible.</strong><br>Indeed, a lot of external factors can interfere with the device activity.<br>Moreover, if it is possible to measure CPU usage for a given process, it is not the case for energy consumption.<br>Discharge metrics provided by the Android system are related to the whole platform, and it is therefore necessary to improve as much as possible the signal-to-noise ratio by monitoring all third party activites.</p>
+
+<p>On our loyal <strong>Nexus 5 with Android 5</strong>, we did the following configurations:</p>
+
+<ul><li>brightness set a the lowest level;</li><li>GPS and Bluetooth disabled;</li><li>voice control (« Ok, Google ») disabled;</li><li>automatic updates and notifications disabled;</li><li>etc.</li></ul>
+
+<p>Moreover, <strong>all measures were performed with a battery level between 20 and 80 %</strong>, because the device behavior changes a lot above and beyond these two values. For example, <strong>Android</strong> is more agressive on resource saving when the battery level is low.</p>
+
+<p>We used the <strong>Android</strong> probe developped within the <strong><a href="../../../../en/resources/blog/videoconferencing-apps-2022/">GREENSPECTOR</a></strong> premises, which permits to retrieve several metrics either linked to the global platform, or linked to a specific process (in our case, the Java process writing in data structures or reading them):</p>
+
+<ul><li>measure duration;</li><li>platform discharge in Ah;</li><li>process memory consumption.</li></ul>
+
+<p>For each structure, we assessed separately writing and reading an item.<br>Insertion is performed on structures initialized with the default size, which will necessarily induce an overcost when resizing.<br><strong>Each measure was performed at least 5 times to ensure the results repeatability</strong>.</p>
+
+<h2>Results</h2>
+
+<p>Now is the time for an analysis of results so we can see if there is a gain in using <strong>ArrayMap</strong> and <strong>SparseArray</strong> instead of <strong>HashMap</strong>.</p>
+
+<h3>ArrayMap</h3>
+
+<p>For this structure, results are relatively similar for writing and reading tests. Overall, <strong>the advantage is for HashMap in energy and performance, but with quite low gains (below 10%)</strong>.<br>Regarding memory consumption, HashMap and ArrayMap are comparable because the gains observed are very low (less than 2%) and are therefore included in the standard deviation of the measures.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/ArrayMap-graph-1.png" alt="" width="1024" height="469" loading="lazy" decoding="async"></figure>
+
+<h3>SparseArray</h3>
+
+<p>For a 100 items, results are similar between SparseArray and HashMap.<br>To read items, <strong>SparseArray allows a ligth energy and memory gain but is slightly slower</strong>.<br>To write items, the advantage is for HashMap which is more energy-and-time-saving.<br>Nevertheless, <strong>observed gains are in each case relatively low (about 5%)</strong>.</p>
+
+<p>Memory use is very similar, except for 100,000 items with a small gain of about 7% for SparseArray.</p>
+
+<p>From 1000 items, <strong>the balance clearly weights in favour of SparseArray</strong> (writing and reading) with regards to energy (25% gain) and execution time (30%). This trend continues with 10,000 and 100,000 items (50% gained in energy and time).</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseArray-graph-1.png" alt="" width="1024" height="467" loading="lazy" decoding="async"></figure>
+
+<h3>SparseBooleanArray, SparseIntArray, SparseLongArray</h3>
+
+<p>Results for these 3 containers are in line with SparseArray, but are more distinct.<br>When structures contain 100 items, it is still pretty hard to distinguish them (small differences in energy, memory consumption and performance).</p>
+
+<p>But, again, as soon as there are more than 1,000 items, Android containers have the advantage: as the structure&rsquo;s size increases, the gain in energy, execution time and memory rises.<br>To read items, we get respectively 50%, 90% and 95% of gain in energy and time execution for 1,000, 10,000 and 100,000 items.<br>To write items, gains are a little bit lower: respectively 30%, 60% and 75% of gain in energy and time execution for 1000, 10,000 and 100,000 items.</p>
+
+<p><strong>Regarding memory, the gain reaches 20% for SparseIntArray.</strong></p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseXXXArray-graph-1.png" alt="" width="1024" height="510" loading="lazy" decoding="async"></figure>
+
+<h3>LongSparseArray</h3>
+
+<p>LongSparseArray&rsquo;s case is different from the other SparseArray ones.<br><strong>Gains from writing an item are indeed observable from 100 items</strong> (unlike SparseArray which has an int key): 25% in energy and time, and 5% in memory. When the size of data increases, the gains also increase but seem to be capped at a lower value.<br>For 1,000 items, LongSparseArray consumes 59% less energy, is faster by 62% but uses only 2% less memory.<br>For 10,000 and 100,000 items, energy and time gains are similar (75%).</p>
+
+<p><strong>To read 100 items, LongSparseArray is a little bit more energy consuming than HashMap this time</strong>, indeed it consumes 8% more.<br>But from 1,000 items, it is again more effective as it consumes 15% less energy and is 20% faster.<br>For 10,000 items, it saves 36% of energy and time execution is reduced by 52%.<br>Just like with writing items, results for 100,000 items are similar with 10,000 items, with 41% energy gain and 43% time execution gain.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/LongSparseArray-graph-1.png" alt="" width="1024" height="470" loading="lazy" decoding="async"></figure>
+
+<h2>Conclusion</h2>
+
+<p><strong>If you use HashMap with Integer or Long keys, you should use SparseArray instead.</strong><br>This Android container seems to be more effective for structures with a larger size, particularly its specialized variants for booleans, integers and longs.<br>The small difference between ArrayMap and HashMap can probably be explained by the fact that ArrayMap is a generic container (keys and values type is free), hence less specialized and optimized than SparseArray containers.</p>
+
+<p>You have probably noticed the correlation between time execution and energy consumption (gain values are always very close). For these scales (up to 94% gain!), it is indeed logical that a process whose execution time is much higher, consumes more energy.</p>
+
+<p><strong>Stay tuned for more good practices!</strong></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

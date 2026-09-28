@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>WebP, PNG, JPEG : Energy battle on Android - Greenspector</title>
+    <meta name="description" content="What image is the most energy-thrifty on Android? Let's compare WebP, PNG and JPEG formats">
+    <meta name="keywords" content="Technical Zone">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/webp-png-jpeg-energy-battle-on-android/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/webp-png-jpeg-energy-battle-on-android/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/">
+    <meta property="og:title" content="WebP, PNG, JPEG : Energy battle on Android">
+    <meta property="og:description" content="What image is the most energy-thrifty on Android? Let's compare WebP, PNG and JPEG formats">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/webp-png-jpeg-energy-battle-on-android/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2020/02/energy-battle-min-1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2020/02/energy-battle-min-1.jpg">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/webp-png-jpeg-energy-battle-on-android/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/webp-png-jpeg-energy-battle-on-android/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/webp-png-jpeg-energy-battle-on-android/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>WebP, PNG, JPEG : Energy battle on Android</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>May 10, 2017</span><span>Technical Zone</span></div>
+  <div class="blog-article__body">
+    <hr>
+
+<p><strong><a href="https://developers.google.com/speed/webp/">Webp</a> is the new image format offered by Google, who promises a reduction between 30 and 80% in transfer size</strong>. In addition, this format would be more suitable for current processors. But what should we expect in terms of <strong>energy consumption</strong> on the user’s device?</p>
+
+<h2>Webp format</h2>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/webp-logo-1.png" alt="" width="186" height="66" loading="lazy" decoding="async"></figure>
+
+<p><strong>Webp is a matrix format just like PNG or JPEG. It can handle lossless compressions like PNG, as well as lossy ones like JPEG.</strong><br>This type of format is currently acknowledged by Chrome, Chrome for Android and Opera.<br>Cependant <strong>However, the controversy was started by the Mozilla foundation which considers the format isn’t <a href="https://blog.mozilla.org/research/2013/10/17/studying-lossy-image-compression-efficiency/">as beneficial as claimed</a>.</strong></p>
+
+<p>By the way, Mozilla is working on its own on JPEG optimization : <strong><a href="https://github.com/mozilla/mozjpeg">MozJPEG</a>.</strong> Here’s a link to understand how to manage those implementation issues : <strong><a href="https://developers.google.com/speed/webp/faq#how_can_i_detect_browser_support_for_webp">Google WebP</a></strong><br>Now, what’s up with this <strong>new format’s efficiency</strong>? The <strong>measure of consumed energy</strong> needed to display images will answer this question!</p>
+
+<h2>MEASUREMENT METHODOLOGY</h2>
+
+<p>In order to do that, I use my favorite tool (you know what’s coming, right?): the <strong><a href="../../../../en/resources/blog/benchmark-an-application-on-the-power-test-cloud/">Power Test Cloud</a></strong> service by <strong><a href="../../../../en/resources/blog/videoconferencing-apps-2022/">GREENSPECTOR</a></strong>.</p>
+
+<p><strong>Methodology</strong> is the following :</p>
+
+<ul>
+<li><strong>Measurement is realized on a real smartphone</strong>, a <strong>Nexus 6</strong>, hosted and managed by <strong><a href="../../../../en/resources/blog/videoconferencing-apps-2022/">GREENSPECTOR</a></strong> ;</li>
+
+<li>We start <strong>Chrome</strong> and have then access to image examples provided by <strong><a href="https://developers.google.com/speed/webp/gallery">Google</a></strong> ;</li>
+
+<li>We repeat the process twice, because two measures are always better than one.</li>
+</ul>
+
+<p>Before going further, we have a couple points of <strong>criticism about our own protocole</strong> :</p>
+
+<ul>
+<li>We are using <strong><a href="https://developers.google.com/speed/webp/gallery">Google images</a></strong> : are they really representative? We&rsquo;ll assume so.</li>
+
+<li>We evaluate the unit cost of displaying images, not integrating them in a more general webpage. That is why we are here for after all.</li>
+</ul>
+
+<h2>Format comparison : Webp (lossless and lossy) versus PNG</h2>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-01-1.png" alt="" width="600" height="186" loading="lazy" decoding="async"></figure>
+
+<p>For this test, we picked the three first images in the <strong><a href="https://developers.google.com/speed/webp/gallery2">Google</a></strong> gallery.<br>First of all, let&rsquo;s check the <strong>images&rsquo; size</strong> :</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/lossless-size-1.png" alt="" width="440" height="291" loading="lazy" decoding="async"></figure>
+
+<p>Result is pretty obvious : <strong>Webp images are on average 27% lighter than PNG, it even reaches 70% for the lossly version</strong>. Promises are kept and respected so far. Let&rsquo;s have a look at <strong>energy consumed on the smartphone</strong> whenever it displays those images in the browser :</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/lossless-energy-1.png" alt="" width="440" height="286" loading="lazy" decoding="async"></figure>
+
+<p><strong>Aoutch</strong>. On average, <strong>WebP lead to 1.5% more energy consumption</strong>. There is a gain only for image 3 &#8211; just when we compare the lossy <strong>Webp</strong> with the <strong>PNG</strong>. Regarding image 1, we notice a decrease of <strong>3,8%</strong>. Finally, we can see that the <strong>lossy Webp</strong> with transparency is even more energy-hungry than the <strong>lossless Webp</strong>. To me, that&rsquo;s pretty surprising!</p>
+
+<p>In the end, the <strong>PNG format is more interesting in terms of energy consumption</strong>. However, if you focus on network gains only, then the Webp format will be more appropriate. This statement is even greater when it comes to the <strong>lossy Webp</strong> with transparency. This could be explained with a rendering algorithm less efficient than PNG, which cancels all <strong>energy gains</strong> provoked by the nettwork impact reduction.</p>
+
+<h2>« Lossy » format comparison : Webp versus JPEG</h2>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-02-1.jpg" alt="" width="800" height="136" loading="lazy" decoding="async"></figure>
+
+<p>For this test, we chose five images from the <a href="https://developers.google.com/speed/webp/gallery1"><strong>Google</strong> gallery</a><br>Again, let&rsquo;s check first <strong>images&rsquo; size</strong>.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/lossy-size-1.png" alt="" width="440" height="335" loading="lazy" decoding="async"></figure>
+
+<p>Once again here <strong>promise is respected</strong>: the <strong>size gain brought by Webp is on average 30%</strong>. Now let&rsquo;s have a look at <strong>energy consumption</strong>.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/lossy-energy-1.png" alt="" width="440" height="310" loading="lazy" decoding="async"></figure>
+
+<p>In 4 out of 5 cases, <strong>gains brought by Webp compared to JPEG are interesting (between 2% and 8%).</strong> Because of the specific case of image 4, the gain average settles at <strong>2.4%</strong>.</p>
+
+<p>If we look more in depth at <strong>energy consumption curves</strong>, we can notice that the <strong>Webp</strong> consumption peak is the lowest one of all:</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/webp-jpeg-energy-min-1.jpg" alt="" width="1000" height="330" loading="lazy" decoding="async"></figure>
+
+<p>We also observe that <strong>Webp solicits less battery than JPEG</strong>.</p>
+
+<h2>CONCLUSION</h2>
+
+<p>It is obvious that the <strong>Webp format allows a lower image size than the other formats</strong>. It is beneficial for the internet network as a whole, telecom operators in particular and final users even more specifically.</p>
+
+<p><strong>We also identified energy gains for lossy images going up to 8% compared to JPEG</strong>.<br>However, in some minority cases for the lossy and in all cases for the lossless, <strong>we noticed bigger energy consumptions for Webp</strong> than for other traditional formats. <strong>In the case you want lossless images</strong> (for logos, images with text&#8230;), then <strong>PNG</strong> remains the <strong>best option in terms of energy</strong>.</p>
+
+<p><strong>Explanation</strong> : as images are lighter, it seems like the radio cell is less solicited thus there is less energy consumed. However, when we have a look at the CPU occupation, Chrome spends some time processing to decompress Webp. On a smartphone, network gains are limited, borderline annihilated, because of the additional CPU treatment cost.</p>
+
+<p>Conclusion following the conclusion :<br><strong>Gains in size brought by Webp are real for the network</strong>. Associated with an <strong>energy consumption</strong> decrease, even weak, it makes <strong>WebP</strong> an interesting format in terms of <strong>efficiency</strong> as an <strong>alternative</strong> to <strong>JPEG</strong>. However, we will have to wait for the alternative to <strong>PNG</strong>.</p>
+
+<p>Lastly, let&rsquo;s note that jobs are numerous in this domain. Thus, for the alternative to <strong>JPEG</strong>, a convergence towards other technological ameliorations like <strong><a href="../../../../en/resources/blog/http2-latency-and-energy/">HTTP2</a>, could lead to even greater gains.</strong></p>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>

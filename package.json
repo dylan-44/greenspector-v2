@@ -11,7 +11,8 @@
     "case-study-logos": "node scripts/fetch-case-study-logos.js",
     "generate-redirects": "node scripts/generate-blog-redirects.js",
     "audit-links": "node scripts/audit-internal-links.js",
-    "audit-relative-links": "node scripts/audit-relative-links.js"
+    "audit-relative-links": "node scripts/audit-relative-links.js",
+    "import-blog": "node scripts/import-blog.js"
   },
   "devDependencies": {
     "adm-zip": "^0.5.16",

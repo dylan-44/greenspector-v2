@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../../assets/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../../assets/img/favicon/android-chrome-192x192.png">
+    <title>The environmental impact of local text AI - Greenspector</title>
+    <meta name="description" content="Smartphones and AI: what's the environmental impact of large language models? Our study compares performance, energy consumption, and carbon footprint of different models and provides insights to reduce their impact.">
+    <meta name="keywords" content="AI">
+    <link rel="canonical" href="https://greenspector.com/en/resources/blog/environmental-impact-of-local-ai/">
+    <link rel="alternate" hreflang="fr" href="https://greenspector.com/ressources/blog/impact-environnemental-ia-locale/">
+    <link rel="alternate" hreflang="en" href="https://greenspector.com/en/resources/blog/environmental-impact-of-local-ai/">
+    <link rel="alternate" hreflang="x-default" href="https://greenspector.com/ressources/blog/impact-environnemental-ia-locale/">
+    <meta property="og:title" content="The environmental impact of local text AI">
+    <meta property="og:description" content="Smartphones and AI: what's the environmental impact of large language models? Our study compares performance, energy consumption, and carbon footprint of different models and provides insights to reduce their impact.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenspector.com/en/resources/blog/environmental-impact-of-local-ai/">
+    <meta property="og:site_name" content="Greenspector">
+    <meta property="og:image" content="/assets/img/external/blog.greenspector.com/2025/06/Vignettes-article-Blog.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/img/external/blog.greenspector.com/2025/06/Vignettes-article-Blog.jpg">
+    <link href="../../../../assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../assets/css/styles.min.css">
+</head>
+
+<body data-page="{&quot;slug&quot;:&quot;/en/resources/blog/environmental-impact-of-local-ai/&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;slugFr&quot;:&quot;/ressources/blog/impact-environnemental-ia-locale/&quot;,&quot;slugEn&quot;:&quot;/en/resources/blog/environmental-impact-of-local-ai/&quot;}"><a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="../../../../en/" aria-label="Greenspector - Home"><img class="navbar-logo" src="../../../../assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Open menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/studio/mobile-device-testing/">Key features</a></li><li><a class="dropdown-item" href="../../../../en/studio/environmental-impact-measurement/">For environmental impact</a></li><li><a class="dropdown-item" href="../../../../en/studio/software-ecodesign-tool/">For software ecodesign</a></li><li><a class="dropdown-item" href="../../../../en/studio/ai-battery-impact/">For AI</a></li><li><a class="dropdown-item" href="../../../../en/studio/battery-discharge-measurement/">For battery discharge measurement</a></li><li><a class="dropdown-item" href="../../../../en/studio/app-performance-measurement/">For application performance</a></li><li><a class="dropdown-item" href="../../../../en/studio/devgreenops/">For DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consulting</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/consulting/software-ecodesign/">Software ecodesign consulting</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-app-audit/">Mobile application audit</a></li><li><a class="dropdown-item" href="../../../../en/consulting/mobile-device-measurement/">Mobile device expertise</a></li><li><a class="dropdown-item" href="../../../../en/consulting/smartphone-power-test-bench/">Test bench measurements</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/resources/blog/">Blog</a></li><li><a class="dropdown-item" href="../../../../en/resources/case-studies/">Case studies</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="../../../../en/about/greenspector-team/">About us</a></li><li><a class="dropdown-item" href="../../../../en/about/csr/">Our commitments</a></li><li><a class="dropdown-item" href="../../../../en/about/partners/">Our partners</a></li><li><a class="dropdown-item" href="../../../../en/about/smartphone-test-bench/">Our test bench</a></li><li><a class="dropdown-item" href="../../../../en/about/innovations/">Our innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="../../../../en/contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Login</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Sign up</a></li><li class="nav-item lang-switcher" aria-label="Language"><a class="nav-link lang-switcher__link" href="../../../../ressources/blog/impact-environnemental-ia-locale/" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="../../../../assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link is-active" href="../../../../en/resources/blog/environmental-impact-of-local-ai/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="../../../../assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <p class="section-label">Blog</p>
+                <h1>The environmental impact of local text AI</h1>
+                
+                
+                
+            </div>
+        </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
+  <div class="content-meta"><span>June 26, 2025</span><span>AI</span></div>
+  <div class="blog-article__body">
+    <p><strong>Key points of the study :</strong></p>
+
+<ul>
+<li>The aim of this study is to compare different <strong>embedded large language models on smartphones </strong>in terms of their <strong>performance</strong>, <strong>energy consumption</strong> and <strong>environmental impact</strong>.</li>
+
+<li>The <strong>carbon footprint</strong> of a task can vary by a <strong>factor of 18</strong> depending on the model, framework and backend used.</li>
+
+<li><strong>Hardware acceleration</strong> (GPU/TPU) reduces energy consumption by a <strong>factor of 3.8</strong> compared with the CPU, for the same task, but also reduces response time by <strong>up to 39%.</strong> Be careful, however, not to push hardware renewal.</li>
+
+<li>Even the way in which the response is rendered, via <strong>progressive text display</strong> (streaming) has a measurable impact: a difference of <strong>up to 12% on final energy consumption.</strong></li>
+
+<li>Using a model with <strong>fewer parameters</strong> can have a lower impact.</li>
+
+<li>Measurement is essential, the measured energy impact may be <strong>5 times lower than generic estimates.</strong></li>
+</ul>
+
+<h2>Introduction</h2>
+
+<p>Artificial intelligence is transforming the way we interact with our smartphones. Rephrasing, automatic replies, correcting spelling mistakes, summaries… Its skills are becoming more and more sophisticated and are frequently called upon, if not continuously active. A growing proportion of these calculations now operate directly on our devices, without sending our data to remote servers. This is what is known as ‘on-device’, local or embedded AI.</p>
+
+<p>Behind the promise of improved responsiveness and respect for privacy lie important environmental issues. As we discussed in a <a href="../../../../en/resources/blog/artificial-intelligence-smartphone-autonomy/">previous article</a>, running these AI models directly on the smartphone requires more energy. This additional consumption during use contributes to the digital carbon footprint. What&rsquo;s more, this constant or repeated load on components, particularly the battery, accelerates wear and tear and reduces the lifespan of the device. This is likely to encourage premature replacement, exacerbating the ecological impact of manufacturing new terminals and managing electronic waste. This second article focuses specifically on assessing the environmental impact of embedded AI dedicated to text on Android.</p>
+
+<p>It is crucial to note that the alternative &#8211; performing these tasks on remote servers &#8211; also has its own environmental footprint, via the impact of data centres.</p>
+
+<p>To explore this question, we are going to analyse and compare three technical solutions that enable us to use large language models (LLMs) directly on our phones, bearing in mind their technical specificities and potential areas of application:</p>
+
+<ul>
+<li><strong>Llama.cpp</strong>: an <strong>open-source</strong> project that allows large language models, initially those of Meta (Llama), to be run on consumer hardware, including smartphones. It is renowned for its ability to run these powerful models with limited resources.</li>
+
+<li><strong>Android AICore</strong>: a <strong>set of system services</strong> integrated into recent versions of Android. It is designed to run local AI models to improve latency and privacy.</li>
+
+<li><strong>MediaPipe</strong>: an <strong>open-source</strong> framework from Google. It provides tools for analysing and generating text adapted for mobile use.</li>
+</ul>
+
+<p>By comparing these three approaches, we will seek to understand their capabilities and performance, as well as their energy consumption and the resulting implications for the user and the environment.</p>
+
+<h2>Impact of text generation</h2>
+
+<h3>Methodology</h3>
+
+<p>Using Greenspector Studio<a href="#a96a4449-2902-4688-995f-e30e3e58a0b9">1</a>, we measured the time and energy consumed to generate and display a response, and assessed the environmental impact of the response.</p>
+
+<p>For each test, a new conversation was initiated, then the same prompt was asked of the model 5 times in a row: <em>Write 10 haikus</em>. The responses generated will therefore all be roughly the same shape, and we can estimate their size at around 170 tokens.</p>
+
+<h4>Measurement context</h4>
+
+<ul>
+<li><em>Google Pixel 8, Android 15, equipped with a TPU (Tensor Processing Unit, designed for large-scale, low-precision calculations).</em></li>
+
+<li><em>Network: off</em></li>
+
+<li><em>Brightness: 50%</em></li>
+
+<li><em>Tests carried out over a minimum of 3 iterations to ensure reliability of results</em></li>
+
+<li><em>Theme: dark (to limit screen power consumption)</em></li>
+</ul>
+
+<h3>Llama.cpp &#8211; Private AI</h3>
+
+<p>Our first approach uses Llama.cpp, a popular open-source project for running a wide variety of large language models (LLMs) on standard hardware, including smartphones, thanks to its flexibility and the support of a large community. For these tests, we used Llama.cpp targeting only the Pixel 8 CPU.</p>
+
+<h4>Measurement context</h4>
+
+<ul>
+<li><em>Framework :&nbsp; Llama.cpp</em>&nbsp;</li>
+
+<li><em>App package : </em><em>us.valkon.privateai</em>&nbsp;</li>
+
+<li><em>Models tested :</em>
+<ul>
+<li><em><a href="https://huggingface.co/meta-llama/Llama-3.2-1B">Llama 3.2</a> (Meta): 1 billion parameters, int4 quantification</em></li>
+
+<li><em><a href="https://huggingface.co/google/gemma-2-2b">Gemma 2</a> (Google): 2 billion parameters, int5 quantification</em></li>
+
+<li><em><a href="https://huggingface.co/Qwen/Qwen2.5-7B">Qwen 2.5</a> (Alibaba): 7 billion parameters, int4 quantification</em></li>
+</ul>
+</li>
+</ul>
+
+<h4>Performance</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Performance-Llama.webp" alt="Graph of response generation and display times with Llama.cpp" width="1010" height="382" loading="lazy" decoding="async"><figcaption>Response generation and display times with Llama.cpp</figcaption></figure>
+
+<p>Execution on CPU via Llama.cpp reveals variable performance:</p>
+
+<ul>
+<li><strong>Response time</strong>: there was considerable variability between repetitions (Llama: 14-34s), probably due to ‘cold start’ effects or thermal throttling during consecutive executions.</li>
+
+<li><strong>Ranking by performance</strong>: Llama dominates with an average of 23s, ahead of Gemma (74s, or +222%) and Qwen (98s, or +326%). This hierarchy follows the number of parameters for each model.</li>
+
+<li><strong>Inference speed</strong>: this varies on average between <strong>2 tokens/s</strong> (Qwen) and <strong>7 tokens/s</strong> (Llama).</li>
+</ul>
+
+<h4>Energy consumption</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/VitesseDecharge-Llama.webp" alt="Battery discharge rate graph for generating and displaying responses with Llama.cpp" width="961" height="479" loading="lazy" decoding="async"><figcaption>Battery discharge speed for generating and displaying responses with Llama.cpp</figcaption></figure>
+
+<p>Analysis of the discharge speed reveals a notable fact: the fastest model (Llama) displays the highest discharge speed (487 µAh/s on average), potentially managing to saturate CPU cores more efficiently. Conversely, the larger and slower models (Gemma and Qwen) show a lower average discharge speed (around 350-370 µAh/s), suggesting a different or less intense use of CPU resources over their longer runtimes. The rate of discharge decreases with each iteration: the<strong> first iteration is therefore faster but discharges the battery more quickly.</strong></p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Decharge-Llama.webp" alt="Battery discharge graph for generating and displaying responses with Llama.cpp" width="959" height="471" loading="lazy" decoding="async"><figcaption>Discharging the battery for generating and displaying responses with Llama.cpp</figcaption></figure>
+
+<p>Total energy consumption per response (measured in mAh) is more nuanced. However, there are big differences between the models, ranging from an average of around 11 mAh for Llama to 34 mAh for Qwen.</p>
+
+<p>Efficiency is low for these CPU configurations: Llama reaches <strong>16 tokens/mAh</strong>, while Gemma and Qwen fall to <strong>7 and 5 tokens/mAh</strong> respectively.</p>
+
+<h4>Environmental impact</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Impact-Llama.webp" alt="Environmental impact graph for generating and displaying responses with Llama.cpp" width="956" height="481" loading="lazy" decoding="async"><figcaption>Environmental impact of generating and displaying responses with Llama.cpp</figcaption></figure>
+
+<p>The environmental impact will also vary depending on the response and the model. For example, the average environmental impact will vary between<strong> 0.7g CO2e</strong> for Llama and <strong>1.8g CO2e</strong> for Qwen, for the generation and display of a response of 170 tokens.</p>
+
+<figure><blockquote><p><strong>A first good practice seems to be to limit the number of model parameters.</strong></p></blockquote></figure>
+
+<h4>Conclusion</h4>
+
+<p>Tests using Llama.cpp on CPUs give us an initial idea of the impact of executing LLMs on mobiles. Despite the flexibility of the tool and the use of quantified models (int4/int5, which we&rsquo;ll come back to in the MediaPipe &#8211; Llm Inference section), performance remains very low (between 2 and 7 tokens/s) and total energy consumption high (between 11 and 34 mAh/response), resulting in low energy efficiency (between 5 and 16 tokens/mAh). The counter-intuitive observation of higher instantaneous power for the fastest model (Llama) highlights the complexity of CPU optimisation.</p>
+
+<p>This low efficiency translates into a high environmental impact (per response, France, <a href="../../../../en/resources/blog/greenspector-methodology-specification/">Greenspector methodology</a>). The impact varies from 0.7 gCO2eq for the lightest model to 1.8 gCO2eq for the heaviest tested, i.e. a factor of 2.6 between the two extremes of this group.</p>
+
+<p>These results highlight that while Llama.cpp offers broad access to models, relying solely on the CPU, even with quantified models, remains a slow and energy-intensive approach for this type of task.</p>
+
+<h3>Android AICore &#8211; Gemini nano</h3>
+
+<p>Gemini Nano is a Google proprietary model executed via Android AICore. AICore is a set of system services integrated into Android, facilitating the optimised and secure execution of on-device AI models, in particular via the Google AI Edge framework and by exploiting hardware accelerators such as the TPU on the Pixels.</p>
+
+<p>Gemini Nano is a multimodal, multilingual model, specifically designed by Google for local processing. It is available in two variants:</p>
+
+<ul>
+<li>Nano-1 : 1.8 billion parameters, int4 quantification</li>
+
+<li>Nano-2 : 3.25 billion parameters, int4 quantification</li>
+</ul>
+
+<p>The SDK used does not explicitly specify which variant (Nano-1 or Nano-2) is downloaded and executed by AICore. However, given the size of the model downloaded on our test device, we can assume that it is the Nano-1 variant (1.8B parameters).</p>
+
+<h4>Measurement context</h4>
+
+<ul>
+<li><em>Framework: Google AI Edge&nbsp;</em></li>
+
+<li><em>App package: com.google.ai.edge.aicore.demo</em></li>
+
+<li><em>Model tested: Gemini Nano-1 (Google), 1.8 billion parameters, int4 quantification</em></li>
+
+<li><em>Configurations tested:</em>
+<ul>
+<li><em>Kotlin implementation, Streaming disabled.</em></li>
+
+<li><em>Kotlin implementation, Streaming enabled.</em></li>
+
+<li><em>Java implementation, Streaming disabled.</em></li>
+
+<li><em>Implemented in Java, Streaming enabled.</em></li>
+</ul>
+</li>
+</ul>
+
+<p>Streaming here refers to the progressive display of generated text (token by token), offering a response that is perceived as more dynamic, as opposed to block display once the entire generation has been completed (Streaming deactivated).</p>
+
+<h4>Performance</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Performance-gemini.webp" alt="Graph of response generation and display times with Android AICore" width="933" height="383" loading="lazy" decoding="async"><figcaption>Response generation and display times with Android AICore</figcaption></figure>
+
+<ul>
+<li>Kotlin vs Java impact: our tests showed only a <strong>minimal difference between the Kotlin and Java </strong>implementations in the demo application. Kotlin was very slightly faster (by around 2%) only when streaming was enabled.</li>
+
+<li>Performance level: average response times are in a narrow range, between 13.5 and 14.4 seconds. They have a generation speed of around <strong>12 tokens/s</strong>, which is between 70% and 600% faster than our models with Llama.cpp.</li>
+
+<li>Streaming impact: enabling streaming had a consistently <strong>positive effect on the total measured response time,</strong> reducing it from <strong>4% to 6%</strong>. Rather than an acceleration of the generation itself, this suggests a better management of the workflow: the application can start displaying the beginning of the response while the generation continues, thus reducing the overall perceived delay between the request and the end of the display.</li>
+</ul>
+
+<h4>Energy consumption</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/decahrge-gemini.webp" alt="Battery discharge graph for response generation and display with Android AICore" width="959" height="471" loading="lazy" decoding="async"><figcaption>Battery discharge for response generation and display with Android AICore</figcaption></figure>
+
+<ul>
+<li>Impact Kotlin vs Java: the choice between <strong>Kotlin and Java</strong> had a <strong>negligible impact</strong> on the total discharge or the rate of discharge of the battery.</li>
+
+<li>Impact of Streaming: configurations <strong>without streaming cause a slightly lower total discharge</strong> than those with streaming. This gives them a higher efficiency, 46 tokens/mAh compared with 41 tokens/mAh for the models with streaming, <strong>i.e. an increase of 12%.</strong> They are clearly superior to those using Llama.cpp, which had a maximum of 16 tokens/mAh.</li>
+</ul>
+
+<figure><blockquote><p><strong>A second good practice seems to be not to use the progressive display, which increases efficiency (tokens/mAh) by 12%.</strong></p></blockquote></figure>
+
+<ul>
+<li>This difference is directly linked to the <strong>battery discharge speed</strong>: it is lower without streaming (259 µAh/s) than with streaming (296 µAh/s), an <strong>increase of 14%.</strong> This increase in discharge speed in streaming mode is correlated with increased CPU usage by the application itself (<strong>4-6% CPU usage with streaming</strong> compared with just<strong> 0.5% without streaming</strong>). This is because progressive display requires the CPU to process and display tokens as they arrive from the model, whereas in non-streaming mode the CPU remains largely inactive during generation. This can be seen in the graphs below.</li>
+</ul>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/kotlin-avecStreaming.webp" alt="Extract from greenspector studio: graph of CPU process and battery discharge for generating and displaying a response with streaming" width="1024" height="364" loading="lazy" decoding="async"><figcaption>CPU process (orange) and battery discharge (white) for generating and displaying a response with streaming</figcaption></figure>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/kotlin-sansStreaming.webp" alt="Extract from greenspector studio: CPU process graph and battery discharge for the generation and display of a response without streaming" width="1024" height="364" loading="lazy" decoding="async"><figcaption>CPU process (orange) and battery discharge (white) for generating and displaying a response without streaming</figcaption></figure>
+
+<h4>Environmental impact</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/impact-gemini.webp" alt="Environmental impact graph for generating and displaying responses with Android AICore" width="967" height="494" loading="lazy" decoding="async"><figcaption>Environmental impact of generating and displaying responses with Android AICore</figcaption></figure>
+
+<p>In terms of environmental impact, <strong>configurations without streaming</strong> are logically the most sober, with 0.26 gCO2eq on average, i.e. around <strong>8% less than those with streaming</strong> (0.23 gCO2eq on average). Although this absolute impact per response is significantly lower than that of Llama.cpp configurations (up to 1.8 gCO2eq), it remains sensitive to the choice of application implementation.</p>
+
+<h4>Conclusion</h4>
+
+<p>Gemini Nano&rsquo;s analysis via Android AICore reveals a stable and optimized execution for the Pixel 8&rsquo;s dedicated hardware (TPU) and highlights some important trade-offs:</p>
+
+<ul>
+<li>Streaming display, while improving perceived responsiveness, increases energy consumption and hardware load. This is mainly due to the additional CPU load placed on the application to manage the progressive display.</li>
+
+<li>The choice of implementation language (Kotlin or Java) had a negligible impact on performance and energy in this context.</li>
+</ul>
+
+<p>From an environmental impact point of view, it is lower than with integrations with Llama.cpp, but the high level of integration with specialist hardware (NPU/TPU), while increasing energy efficiency, may increase the pressure to renew devices in order to access the latest AI functionalities, a key factor in the environmental impact of digital technology.</p>
+
+<h3>MediaPipe &#8211; Llm Inference</h3>
+
+<p>We end our analysis with MediaPipe, Google&rsquo;s open-source framework. Although known for its multimedia processing solutions, MediaPipe also offers a LlmInference API specifically designed and optimised to run language models directly on mobile devices, making it particularly relevant to this study. For our tests, we used the example application provided by Google.</p>
+
+<h4>Measurement context</h4>
+
+<ul>
+<li><em>Framework: MediaPipe</em>&nbsp;</li>
+
+<li><em>App package: com.google.mediapipe.examples.llminference</em>&nbsp;</li>
+
+<li><em>Models used:</em>&nbsp;
+<ul>
+<li><em><a href="https://www.kaggle.com/models/google/gemma/tfLite">Gemma 1.1</a> (Google): 2 billion parameters, int4 and int8 quantification, CPU or GPU backend.</em></li>
+
+<li><em><a href="https://huggingface.co/litert-community/Gemma3-1B-IT">Gemma 3</a> (Google): 1 billion parameters, int4 quantification, CPU or GPU backend.</em></li>
+
+<li><em><a href="https://huggingface.co/litert-community/DeepSeek-R1-Distill-Qwen-1.5B">DeepSeek-R1-Distill-Qwen</a> (Deepseek): 1.5 billion parameters, int8 <em>quantification</em>, CPU backend.</em></li>
+
+<li><em><a href="https://huggingface.co/litert-community/Phi-4-mini-instruct">Phi-4-mini-instruct</a> (Microsoft) : 3.8 billion parameters, int8 quantification, CPU backend.</em></li>
+</ul>
+</li>
+</ul>
+
+<p>Quantification is a technique for ‘compressing’ models and making them faster. Int8 corresponds to light compression and int4 to stronger compression.</p>
+
+<p>The choice of backend determines the main computing unit:</p>
+
+<ul>
+<li>CPU: uses the main processor cores (Central Processing Unit) of the smartphone.</li>
+
+<li>GPU: calls on the graphics processor (Graphics Processing Unit), which, on the Google Pixel 8, can delegate some or all of the calculations to the NPU/TPU (Neural/Tensor Processing Unit) for greater efficiency in AI tasks.</li>
+</ul>
+
+<p>Let&rsquo;s now look at how these different configurations (models, quantification, backend) behave in terms of time, energy consumption and environmental impact during the execution of our haiku generation task.</p>
+
+<h4>Performance</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/perf-llm.webp" alt="Graph of response generation and display times with MediaPipe" width="962" height="382" loading="lazy" decoding="async"><figcaption>Response generation and display times with MediaPipe</figcaption></figure>
+
+<p>The measurements reveal significant differences in performance between configurations:</p>
+
+<ul>
+<li><strong>Response time</strong>: the time taken to generate the 10 haikus ranged from 9.3 seconds for the fastest configuration (Gemma 3, 1B, on GPU) to 44.2 seconds for the slowest (Phi-4-mini, 3.8B, on CPU). The maximum response time is therefore almost five times greater than the minimum time observed.</li>
+
+<li><strong>Inference speed</strong>: this corresponds to a speed ranging from around <strong>18 tokens/s</strong> for the fastest configuration to <strong>4 tokens/s</strong> for the least efficient.</li>
+
+<li><strong>The impact of using the GPU</strong>: using the GPU improves performance. For Gemma 1.1 (2B), the transition from CPU to GPU <strong>reduces response time by 39%</strong> (in int8) and <strong>25%</strong> (in int4). For Gemma 3 (1B), this reduction is <strong>11%.</strong></li>
+
+<li><strong>The impact of quantification</strong>: model compression via quantification is also proving effective. For Gemma 1.1 (2B), using int4 (more aggressive) quantification compared with int8 speeds up the model by<strong> 46% on the CPU and 33% on the GPU</strong>.</li>
+
+<li><strong>The combined effect of the optimisations</strong>: by combining the use of the GPU and int4 quantification, the response time of Gemma 1.1 is reduced by almost<strong> 60% </strong>compared with the int8 configuration on the CPU (from 33.3s to 13.5s). This underlines the value of applying these optimisation techniques together.</li>
+
+<li><strong>Size/optimisation relationship</strong>: the results show that the raw size of the model is not the only factor determining performance. The smallest model (Gemma 3, 1B) obtained the best time when optimised for the GPU. However, a larger model (Gemma 1.1, 2B) with advanced optimisations (int4/GPU) outperforms a less optimised configuration of a smaller model (here, Gemma 3 int4/CPU, although the difference is small). The largest model tested (Phi-4-mini, 3.8B), evaluated here without GPU or int4 optimisation, has the longest response times.</li>
+</ul>
+
+<h4>Energy consumption</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/decharge-llm.webp" alt="Battery discharge graph for generating and displaying responses with MediaPipe" width="959" height="471" loading="lazy" decoding="async"><figcaption>Battery discharge for response generation and display with MediaPipe</figcaption></figure>
+
+<p>Unsurprisingly, the total energy consumed to generate the 10 haikus is directly related to the execution time. The slowest configurations, such as Phi-4, consume the most energy in total to complete the task. Conversely, the fastest configuration, Gemma 3 GPU, is also the one that consumes the least total energy for the same task.</p>
+
+<p>We see an efficiency of <strong>123 tokens/mAh</strong> for Gemma 3 with the GPU backend, compared with just <strong>7.5 tokens/mAh</strong> for Phi-4-mini with the CPU backend.</p>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/VitesseDecharge-llm.webp" alt="Battery discharge rate graph for response generation and display with MediaPipe" width="960" height="475" loading="lazy" decoding="async"><figcaption>Battery discharge speed for response generation and display with MediaPipe</figcaption></figure>
+
+<p>Analysis of the discharge speed reveals more nuanced information about the load on the equipment:</p>
+
+<ul>
+<li><strong>Very high load</strong>: several CPU configurations show a high battery discharge during execution (more than 500 µAh/s on average), indicating an intense load on the processor: this is the case for DEEPSEEK on CPU, Gemma 1.1 CPU int4, PHI4-CPU and Gemma 3 CPU.</li>
+
+<li><strong>High load</strong>: the GPU versions of Gemma 1.1 (int4 and int8) and the int8 CPU version of Gemma 1.1 are at an intermediate level (320 µAh/s for the GPUs, 448 µAh/s for the int8 CPU), which still corresponds to more or less ten times our reference consumption (phone screen on, on the background).</li>
+
+<li><strong>Average load</strong>: Gemma 3 GPU stands out for its lower battery discharge rate than the others (149 µAh/s on average), which is 3 to 4 times lower than the most demanding. Even so, this consumption corresponds to more than 4 times our reference.</li>
+
+<li><strong>Impact of the backend</strong> (CPU vs GPU): our measurements clearly show that, for a given model (Gemma 1.1 and Gemma 3), using the GPU systematically resulted in a lower battery discharge rate (µAh/s) than using the CPU. So not only is the GPU faster, it also consumes less power. This reduction varies from minus 29% for Gemma 1.1 int 8 to over 70% for Gemma 3.</li>
+
+<li><strong>Impact of quantification</strong> (int4 vs int8): the effect of quantification on instantaneous power is mixed:
+<ul>
+<li>Sur CPU (Gemma 1.1) : la version int4 a une vitesse de décharge de la batterie plus élevée que la version int8.</li>
+
+<li>Sur GPU (Gemma 1.1) : il n&rsquo;y a pas de différence notable entre int4 et int8.&nbsp;</li>
+
+<li>Le gain de vitesse apporté par la quantification int4 sur CPU se fait donc au prix d&rsquo;une sollicitation instantanée plus forte du processeur.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+<h4>Environmental impact</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Impact-llm.webp" alt="Environmental impact graph for generating and displaying responses with MediaPipe" width="968" height="485" loading="lazy" decoding="async"><figcaption>Environmental impact of generating and displaying responses with MediaPipe</figcaption></figure>
+
+<p>Translated into environmental impact, the generation and display of responses in France reveals a considerable gap: from 0.11 gCO2eq on average for the most sober configuration (Gemma 3/GPU) to 1.41 gCO2eq on average for the least efficient (Phi-4-mini/CPU). This factor of 13 underlines the importance of optimising software and hardware in a coordinated way.</p>
+
+<h4>Conclusion</h4>
+
+<p>These tests on MediaPipe confirm that technical choices (model, CPU/GPU backend, quantification) dictate performance and energy consumption. A poorly optimised configuration degrades the user experience and autonomy, unlike efficient solutions, underlining the central challenge of embedded AI.</p>
+
+<figure><blockquote><p><strong>A third best practice seems to be to use a hardware accelerator (NPU/TPU or, failing that, the GPU) instead of the CPU: this enables the model to perform the same task between 11% and 39% faster, while consuming between 2.2 and 3.8 times less energy.</strong><a href="#51f25b7e-a91f-482a-8ad0-9626fbb505a7">2</a></p></blockquote></figure>
+
+<h2>Conclusion</h2>
+
+<p>Our comparison of the three approaches reveals a clear hierarchy in terms of performance, energy efficiency and environmental impact for local text AI (based here on generating and displaying a text of 170 tokens).</p>
+
+<h4>Performance</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Screenshot-2025-06-25-at-16-04-56-Livre-11.xlsx-1.webp" alt="Comparison of response generation and display times" width="543" height="334" loading="lazy" decoding="async"><figcaption>Response generation and display times with MediaPipe in red, Android AICore in grey and Llama.cpp in blue</figcaption></figure>
+
+<p>Our models took an average of 28.2s to generate and display the response, with a minimum of 9.3s and a maximum of 97.3s, giving a generation speed of between <strong>2 and 18 tokens/s</strong>. The most decisive factors appear to be :</p>
+
+<ul>
+<li><strong>The number of parameters</strong>: the fewer the parameters, the better the model will perform (llama.cpp)</li>
+
+<li><strong>Using a hardware accelerator</strong>: using a GPU, TPU or NPU can significantly improve performance. (MediaPipe)</li>
+
+<li><strong>Quantification</strong>: the use of more aggressive quantification seems to improve performance. (MediaPipe)<br></li>
+</ul>
+
+<p>This performance is still quite low compared with server-based iterations, where the inference speed can reach 90 tokens/s.<a href="#47921a96-621e-4e60-8ab6-29d1d44e8fdb">3</a></p>
+
+<h4>Energy consumption</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Screenshot-2025-06-25-at-16-06-58-Livre-11.xlsx.webp" alt="Battery discharge comparison for response generation and display" width="527" height="342" loading="lazy" decoding="async"><figcaption>Battery discharge for response generation and display with red MediaPipe, grey Android AICore and blue Llama.cpp</figcaption></figure>
+
+<p>To generate and display the response, our models consumed an average of 11mAh, with a minimum of 1.4mAh and a maximum of 33.6mAh. The most decisive factors appear to be :</p>
+
+<ul>
+<li><strong>Response time</strong>: the longer the response time, the more the model will consume.</li>
+
+<li><strong>Use of a hardware accelerator</strong>: using a GPU, TPU or NPU significantly reduces battery discharge (MediaPipe).</li>
+
+<li><strong>Streaming</strong>: using progressive display will lead to excessive energy consumption. (AndroidAICore)</li>
+</ul>
+
+<p>Our results also show how decisive the specific configuration is: our measurement for Gemma 2 2B (int5/CPU/Llama. cpp) at <strong>0.11 Wh/response </strong>(with a nominal battery output voltage of 3.89Volts<a href="#d255109f-ce8d-42b8-bcea-540db8e7999c">4</a>) turned out to be around 5 times more economical than figures taken from the Ecologits Calculator tool on Hugging Face<a href="#371b046f-fbbf-4e81-9818-36aff42b5eed">5</a> for the same model in a different context: 0.51 Wh for 170 tokens, highlighting the importance of the execution context, as well as the importance of measurement.</p>
+
+<h4>Environmental impact</h4>
+
+<figure><img src="../../../../assets/img/external/blog.greenspector.com/2025/06/Screenshot-2025-06-25-at-16-08-33-Livre-11.xlsx.webp" alt="Comparison of the environmental impact of generating and displaying responses" width="515" height="360" loading="lazy" decoding="async"><figcaption>Environmental impact of generating and displaying responses with MediaPipe in red, Android AICore in grey and Llama.cpp in blue</figcaption></figure>
+
+<p>To generate and display the response, the average environmental impact is estimated at 0.7gCO2e, with a minimum of 0.1gCO2e and a maximum of 1.8gCO2e, a difference of a <strong>factor of 18</strong>.</p>
+
+<p>Here again, the specific configuration is decisive: our evaluation for Gemma 2 2B (int5/CPU/Llama.cpp) at 1.6 gCO2e/response turned out to be around<strong> 5 times greater </strong>than the figures taken from the Ecologits Calculator tool on Hugging Face for the same model in a different context: 0.316 gCO2e for 170 tokens, again underlining the importance of the execution context.</p>
+
+<p>While dedicated AI chips (NPUs/TPUs), which are becoming increasingly common, are helping to improve the efficiency and therefore the environmental impact of responses, the growing demand for these capabilities is also likely to accelerate the renewal of devices, adding to the overall environmental footprint of digital technology.</p>
+
+<h2>Sources</h2>
+
+<ol><li><a href="https://saas.greenspector.com/en">https://saas.greenspector.com/en</a> <a href="#a96a4449-2902-4688-995f-e30e3e58a0b9-link">↩︎</a></li><li>It is important that this good practice does not encourage users to change their equipment in order to use it, as the environmental gain is negligible compared to keeping their equipment for as long as possible. <a href="#51f25b7e-a91f-482a-8ad0-9626fbb505a7-link">↩︎</a></li><li><a href="https://www.inferless.com/learn/exploring-llms-speed-benchmarks-independent-analysis">https://www.inferless.com/learn/exploring-llms-speed-benchmarks-independent-analysis</a> <a href="#47921a96-621e-4e60-8ab6-29d1d44e8fdb-link">↩︎</a></li><li><a href="https://www.ifixit.com/products/google-pixel-8-battery-genuine">https://www.ifixit.com/products/google-pixel-8-battery-genuine</a> <a href="#d255109f-ce8d-42b8-bcea-540db8e7999c-link">↩︎</a></li><li><a href="https://huggingface.co/spaces/genai-impact/ecologits-calculator">https://huggingface.co/spaces/genai-impact/ecologits-calculator</a> <a href="#371b046f-fbbf-4e81-9818-36aff42b5eed-link">↩︎</a></li></ol>
+  </div>
+</div></div></section>
+    </main>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="../../../../en/" aria-label="Greenspector - Home"><img class="footer-logo" src="../../../../assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">From device to app, manage the efficiency and performance of your digital services</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="../../../../en/studio/mobile-device-testing/">Greenspector Studio</a></li><li><a href="../../../../en/consulting/software-ecodesign/">Consulting</a></li><li><a href="../../../../en/pricing/greenspector-studio/">Pricing</a></li><li><a href="../../../../en/resources/blog/">Resources</a></li><li><a href="../../../../en/about/greenspector-team/">About</a></li><li><a href="../../../../en/contact/">Contact</a></li><li><a href="../../../../en/legal-notices/">Legal notice</a></li></ul></nav><div class="footer-social"><p class="footer-title">Follow us</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="../../../../assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="../../../../assets/js/nav-data.js" defer></script>
+    <script src="../../../../assets/js/main.js" defer></script>
+</body>
+
+</html>
