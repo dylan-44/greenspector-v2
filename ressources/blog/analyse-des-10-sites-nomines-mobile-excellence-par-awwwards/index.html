@@ -52,7 +52,10 @@
 
 <h2>Des sites très jolis mais pas forcément sobres ?</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/10/Phone-6-Mock-up.png" alt="" width="512" height="412" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/10/Phone-6-Mock-up-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/10/Phone-6-Mock-up-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2022/10/Phone-6-Mock-up-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/10/Phone-6-Mock-up.png" alt="" width="2000" height="1608" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Notre curiosité nous a amené à analyser 10 sites nominés sur Awwwards. Nous avons sélectionné des sites nominés dans le groupe « Mobile Excellence ». Ces sites sont jugés sur 4 critères :</p>
 
@@ -64,13 +67,19 @@
 
 <p><strong><a href="https://www.betterup.com/" target="_blank" rel="noopener noreferrer">Betterup.com</a></strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image001-1.png" alt="" width="750" height="394" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image001-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image001-1.png" alt="" width="750" height="394" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Plus de 200 requêtes HTTP pour charger la page puis 1 requête environ toutes les 10 secondes. Les requêtes pointent vers une cinquantaine de domaines.</p>
 
 <p>On retrouve ces requêtes sur la RequestMap (outil créé par <a href="https://simonhearne.com/" target="_blank" rel="noopener noreferrer">Simon Hearne</a>) :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image003-1.png" alt="" width="429" height="484" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image003-1.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image003-1.png" alt="" width="429" height="484" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>SI la présence du bandeau pour les cookies est légitime, le chatbot occulte une bonne partie de l’affichage, ce qui est problématique pour un site récompensé par un Awwward. Ce chatbot est-il vraiment nécessaire ? Ne devrait-il pas s’ouvrir (et se charger) qu’à la demande de l’utilisateur ?&nbsp;</p>
 
@@ -86,17 +95,26 @@
 
 <p>Nous avions précédemment abordé <a href="../../../ressources/blog/fr/un-site-sobre-est-il-necessairement-moche/" target="_blank" rel="noopener noreferrer">le sujet des sites sobres</a> mais nous sommes typiquement ici sur un site où un design très chargé ainsi que de trop nombreux scripts tiers dégradent fortement l’expérience utilisateur. On retrouve notamment cela lorsqu’on observe les mesures pendant les étapes de pause :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image004-1024x538.png" alt="" width="1024" height="538" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image004-1024x538-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/09/image004-1024x538-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image004-1024x538.png" alt="" width="1024" height="538" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Dans l’idéal, il ne devrait pas y apparaître de transferts de données ni de pics aussi marqués pour la vitesse de décharge de la batterie. Ceci peut être dû à des services tiers ou à des animations.</p>
 
 <p><strong><a href="https://datagrid.co.jp/" target="_blank" rel="noopener noreferrer">Datagrid.co.jp</a></strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image006.png" alt="" width="764" height="756" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image006-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image006.png" alt="" width="764" height="756" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Pour ce site, le chargement ne finit jamais vraiment, comme l’attestent les outils de développeur de Firefox :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image008.png" alt="" width="432" height="25" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image008.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image008.png" alt="" width="432" height="25" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Les stats ici (temps de chargement compris) ne cessent jamais d’augmenter.&nbsp;&nbsp;</p>
 
@@ -106,17 +124,26 @@
 
 <p>Tout ceci se traduit sans surprise par un impact environnemental plus que conséquent avec en continu des transferts de données et sollicitation de la batterie des smartphones utilisés, même en background.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image009-1-1024x538.png" alt="" width="1024" height="538" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image009-1-1024x538-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/09/image009-1-1024x538-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image009-1-1024x538.png" alt="" width="1024" height="538" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><a href="https://webflow.com/" target="_blank" rel="noopener noreferrer">Webflow.com</a></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image011-1.png" alt="" width="1024" height="538" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image011-1-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/09/image011-1-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2022/09/image011-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image011-1.png" alt="" width="1440" height="756" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Les remarques sur les deux sites précédents s’appliquent en grande partie à celui-ci. Lors du chargement, on compte plus 200 requêtes pour 2 Mo transférés. En effet, on compte plus de 57 domaines, ce qui correspond bien au slogan du site proposant de faire de votre site web un atout marketing.&nbsp;&nbsp;</p>
 
 <p>Si la taille des images est plutôt bien maîtrisée, l’essentiel du poids du site provient du JS avec plus de 100 requêtes dont une dizaine de plus de 100 ko chacune.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image013-1.png" alt="" width="681" height="318" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image013-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image013-1.png" alt="" width="681" height="318" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Le lazy-loading des images ne semble pas avoir été implémenté et le design de cette page d’accueil paraît de toute façon beaucoup trop lourd.&nbsp;&nbsp;</p>
 
@@ -128,7 +155,10 @@
 
 <p><strong><a href="https://ladispensadelchianti.it/" target="_blank" rel="noopener noreferrer">Ladispensadelchianti.it</a></strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image015-1.png" alt="" width="750" height="394" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image015-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image015-1.png" alt="" width="750" height="394" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Ce site est plutôt léger (tout juste au-dessus d’1 Mo) et rapide à charger. On arrive tout de même à 60 requêtes HTTP pour le premier chargement, réparties sur une quinzaine de domaines.&nbsp;&nbsp;</p>
 
@@ -146,7 +176,10 @@
 
 <p><strong><a href="https://www.ingridparis.com/" target="_blank" rel="noopener noreferrer">Ingridparis.com</a></strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image017-1.png" alt="" width="750" height="394" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image017-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image017-1.png" alt="" width="750" height="394" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Ce site est en apparence assez sobre. Pas de requêtes vers des services tiers et des images globalement optimisées mais trop nombreuses. La mise en place du lazy-loading (de préférence nativement) serait une très bonne chose.&nbsp;&nbsp;</p>
 
@@ -158,7 +191,10 @@
 
 <p><strong><a href="https://www.azzerad.com/" target="_blank" rel="noopener noreferrer">Azzerad.com</a></strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image019.png" alt="" width="1024" height="538" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image019-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/09/image019-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2022/09/image019-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image019.png" alt="" width="1440" height="756" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>La tendance observée jusque-là semble se confirmer : de nombreuses images (optimisées mais la plupart sont chargées deux fois) et beaucoup d’animations.&nbsp;&nbsp;</p>
 

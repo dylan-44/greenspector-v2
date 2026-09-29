@@ -106,7 +106,10 @@
 
 <p>For this structure, results are relatively similar for writing and reading tests. Overall, <strong>the advantage is for HashMap in energy and performance, but with quite low gains (below 10%)</strong>.<br>Regarding memory consumption, HashMap and ArrayMap are comparable because the gains observed are very low (less than 2%) and are therefore included in the standard deviation of the measures.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/ArrayMap-graph-1.png" alt="" width="1024" height="469" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/ArrayMap-graph-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/ArrayMap-graph-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/ArrayMap-graph-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/ArrayMap-graph-1.png" alt="" width="1499" height="686" loading="lazy" decoding="async">
+</picture></figure>
 
 <h3>SparseArray</h3>
 
@@ -116,7 +119,10 @@
 
 <p>From 1000 items, <strong>the balance clearly weights in favour of SparseArray</strong> (writing and reading) with regards to energy (25% gain) and execution time (30%). This trend continues with 10,000 and 100,000 items (50% gained in energy and time).</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseArray-graph-1.png" alt="" width="1024" height="467" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseArray-graph-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/SparseArray-graph-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/SparseArray-graph-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseArray-graph-1.png" alt="" width="1493" height="681" loading="lazy" decoding="async">
+</picture></figure>
 
 <h3>SparseBooleanArray, SparseIntArray, SparseLongArray</h3>
 
@@ -126,7 +132,10 @@
 
 <p><strong>Regarding memory, the gain reaches 20% for SparseIntArray.</strong></p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseXXXArray-graph-1.png" alt="" width="1024" height="510" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseXXXArray-graph-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/SparseXXXArray-graph-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/SparseXXXArray-graph-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/SparseXXXArray-graph-1.png" alt="" width="1486" height="740" loading="lazy" decoding="async">
+</picture></figure>
 
 <h3>LongSparseArray</h3>
 
@@ -134,7 +143,10 @@
 
 <p><strong>To read 100 items, LongSparseArray is a little bit more energy consuming than HashMap this time</strong>, indeed it consumes 8% more.<br>But from 1,000 items, it is again more effective as it consumes 15% less energy and is 20% faster.<br>For 10,000 items, it saves 36% of energy and time execution is reduced by 52%.<br>Just like with writing items, results for 100,000 items are similar with 10,000 items, with 41% energy gain and 43% time execution gain.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/LongSparseArray-graph-1.png" alt="" width="1024" height="470" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/LongSparseArray-graph-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/LongSparseArray-graph-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/LongSparseArray-graph-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/LongSparseArray-graph-1.png" alt="" width="1491" height="684" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Conclusion</h2>
 

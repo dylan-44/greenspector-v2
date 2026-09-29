@@ -42,7 +42,10 @@
         </section><section class="content-shell"><div class="container"><div class="content-panel blog-article">
   <div class="content-meta"><span>October 6, 2020</span><span>Sobriété des applications</span></div>
   <div class="blog-article__body">
-    <figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube_Logo-min.png" alt="" width="225" height="60" loading="lazy" decoding="async"></figure>
+    <figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube_Logo-min.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube_Logo-min.png" alt="" width="225" height="60" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Third-party service integration makes it easy to quickly add functionality to a site such as a video or social network integration (see the case of Twitter integration). The providers of these tools have worked to make technology integration quick and easy. And the technique is there. But at what cost?</p>
 
@@ -58,18 +61,27 @@
 
 <p>But what is the result in terms of user impact? Here is the result we get in terms of power consumption on a Nexus 6 smartphone:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Consommation_energie_youtube-min-1024x279.png" alt="Consommation d'énergie du services tiers Youtube" width="1024" height="279" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/Consommation_energie_youtube-min-1024x279-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/10/Consommation_energie_youtube-min-1024x279-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Consommation_energie_youtube-min-1024x279.png" alt="Consommation d'énergie du services tiers Youtube" width="1024" height="279" loading="lazy" decoding="async">
+</picture></figure>
 
 Details of the stages of the scenario
 <p><strong>Reference</strong>: Phone discharge speed in uAh / s (OS, Browser …)<br><strong>Loading</strong>: Speed of the first 20 seconds of loading<br><strong>Idle Foreground:</strong> Inactive site speed in the foreground<br><strong>Scroll:</strong> Speed when the user scrolls down the page<br><strong>Idle Background:</strong> download speed when the browser (and therefore the site) is in the background  </p>
 
 <p>This is a government website. <strong>Discharge rates exceed our thresholds for many steps</strong>. <strong>For loading, the speed is more than 2 times that of referenc</strong>e. For the idle foreground or phase of inactivity in the foreground, the consumption should be identical to that of reference. This consumption is abnormal for a site that seems quite light.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Process_CPU_youtube-min.png" alt="Process CPU du services tiers Youtube" width="1017" height="413" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/Process_CPU_youtube-min-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/10/Process_CPU_youtube-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Process_CPU_youtube-min.png" alt="Process CPU du services tiers Youtube" width="1017" height="413" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>We see that Chrome&rsquo;s CPU process goes up to 10% every second. This explains the overconsumption of energy. By profiling the JavaScript calls in the development tools, we observe processes from base.js which are from the YouTube framework:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/JavaScript_Youtube-min-1024x261.png" alt="Javascript framework Youtube" width="1024" height="261" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/JavaScript_Youtube-min-1024x261-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/10/JavaScript_Youtube-min-1024x261-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/JavaScript_Youtube-min-1024x261.png" alt="Javascript framework Youtube" width="1024" height="261" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>Note that this processing also impacts scrolling and loading</strong>. Is this an expected operation? A bug or a bad implementation? We haven&rsquo;t been that far into the analysis.</p>
 
@@ -95,11 +107,20 @@ Example of earnings on a Greenspector page
 
 <p>On one of our « <a href="../../../../en/resources/case-studies/">Case Study</a> » pages was embedded a YouTube video. We replaced this integration by displaying an image (opposite) representing the old integrated video. This modification allowed us to go from a <strong>Greenspector ecoscore from 59/100 to 75/100</strong> characterized by an energy gain of -12% in the loading stage, -10% in Idle and -15% in scroll.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Greenspector_Mobiliz-min-1.png" alt="" width="571" height="361" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/Greenspector_Mobiliz-min-1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Greenspector_Mobiliz-min-1.png" alt="" width="571" height="361" loading="lazy" decoding="async">
+</picture></figure>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_youtube-min-1.png" alt="" width="1024" height="220" loading="lazy" decoding="async"><figcaption>Page with embedded video</figcaption></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_youtube-min-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_youtube-min-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_youtube-min-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_youtube-min-1.png" alt="" width="1626" height="349" loading="lazy" decoding="async">
+</picture><figcaption>Page with embedded video</figcaption></figure>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_image-min-1.png" alt="" width="1024" height="221" loading="lazy" decoding="async"><figcaption> Page with image</figcaption></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_image-min-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_image-min-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_image-min-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/GSPT_Integration_image-min-1.png" alt="" width="1620" height="349" loading="lazy" decoding="async">
+</picture><figcaption> Page with image</figcaption></figure>
 
 <h3>3 &#8211; Integrate the plugin only on the desired page</h3>
 
@@ -117,11 +138,17 @@ Example of earnings on a Greenspector page
 
 <p>Like any third-party service, it is not that simple. Even with this no-cookie integration, <a href="https://axbom.blog/embed-youtube-videos-without-cookies/">user data is stored</a>:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube-No-Cookies-min.png" alt="Données utilisateurs cookies Youtube" width="1024" height="88" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube-No-Cookies-min-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube-No-Cookies-min-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube-No-Cookies-min-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Youtube-No-Cookies-min.png" alt="Données utilisateurs cookies Youtube" width="1291" height="111" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>The audited site is therefore not GDPR compatible! To manage this, you must ask the user for consent explicitly:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Consentement-Youtube-min.png" alt="Fenêtre de consentement " width="640" height="395" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/10/Consentement-Youtube-min.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/10/Consentement-Youtube-min.png" alt="Fenêtre de consentement " width="640" height="395" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>The solution of a hosted video or static image will also manage this.</p>
 

@@ -74,11 +74,17 @@
 
 <p><strong>Sur l’image 1 pour le test 1, on obtient les mesures de consommation d’énergie suivantes :</strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image001.png" alt="Consommation d'énergie pour l'image 1" width="866" height="487" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image001-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image001.png" alt="Consommation d'énergie pour l'image 1" width="866" height="487" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Si l’on observe de plus près le comportement en Wifi, on peut mieux apprécier les différences de consommation avec l’intervalle de confiance.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image003.png" alt="Consommation d'énergie pour la wifi avec intervalle de tolérance" width="866" height="487" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image003-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image003.png" alt="Consommation d'énergie pour la wifi avec intervalle de tolérance" width="866" height="487" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>En Wifi, la consommation est relativement similaire entre les types d’image. Le JPEG est un peu plus consommateur suivi du format WebP et ensuite par AVIF.</p>
 
@@ -88,23 +94,38 @@
 
 <p><strong>Sur l’image 2, le comportement est le même :</strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image005.png" alt="Comparaison de consommation d'énergie pour l'image 2 entre la wifi, la 3G et la 2G" width="676" height="380" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image005-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image005.png" alt="Comparaison de consommation d'énergie pour l'image 2 entre la wifi, la 3G et la 2G" width="676" height="380" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>Sur l’image 3, il n’y a presque aucune différence entre les formats</strong>. L&rsquo;image est petite et on se retrouve dans un fonctionnement proche du wifi (transfert rapide) :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image007.png" alt="Comparaison de consommation d'énergie entre la wifi, la 3G et la 2G" width="699" height="469" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image007-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image007.png" alt="Comparaison de consommation d'énergie entre la wifi, la 3G et la 2G" width="699" height="469" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>Le comportement est le même avec l’image 2 qui est à 45ko :</strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image009.png" alt="Consommation d'énergie pour l'image 2 en wifi, 3G et 2G" width="699" height="469" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image009-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image009.png" alt="Consommation d'énergie pour l'image 2 en wifi, 3G et 2G" width="699" height="469" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>C’est le même comportement pour l’image 3 :</strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image011.png" alt="Consommation d'énergie pour l'image 3 en wifi, 3G et 2G" width="699" height="469" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image011-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image011.png" alt="Consommation d'énergie pour l'image 3 en wifi, 3G et 2G" width="699" height="469" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Il est nécessaire de surveiller les nouveaux formats (JPEG XL, Webp2&#8230;) ainsi que l’optimisation des algorithmes car même si les gains en taille sont importants, les traitements de décodage pourraient potentiellement gagner encore en efficacité. En effet, voici par exemple le traitement CPU pour l’image 1 sur le test 1, où AVIF consomme plus de CPU que les autres formats.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image013.png" alt="Traitement CPU pour l’image 1 " width="810" height="477" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image013-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image013.png" alt="Traitement CPU pour l’image 1 " width="810" height="477" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Préconisations :</h2>
 
@@ -116,11 +137,17 @@
 
 <p><strong>Pour information, voici la prise en compte du format AVIF dans les browsers :</strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image015.png" alt="Pour information, voici la prise en compte du format AVIF dans les browsers :" width="1024" height="205" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image015-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/09/image015-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2022/09/image015-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image015.png" alt="Pour information, voici la prise en compte du format AVIF dans les browsers :" width="1364" height="273" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>Ainsi que le format Webp :</strong></p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2022/09/image017.png" alt="Pour information, voici la prise en compte du format webp dans les browsers :" width="840" height="169" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2022/09/image017-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2022/09/image017-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2022/09/image017-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2022/09/image017.png" alt="Pour information, voici la prise en compte du format webp dans les browsers :" width="1362" height="275" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Dans tous les cas, optimisez vos images, compressez, réduisez la taille et lazy-loadez !<a></a></p>
 

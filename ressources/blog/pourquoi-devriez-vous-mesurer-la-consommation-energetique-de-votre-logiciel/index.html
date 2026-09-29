@@ -48,7 +48,10 @@
 
 <p>Cependant, nous n’en avons pas fini ensemble. Il est maintenant possible d’avoir <strong>accès à l’évolution d’un site web à travers les années sur <a href="http://httparchive.org/trends.php">HTTP archive</a></strong>, et on peut voir que la page web moyenne est de plus en plus lourde.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-requests.png" alt="Transfer size and total requests" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-requests.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-requests.png" alt="Transfer size and total requests" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>A la vue de ces résultats, il est donc clair que <strong>nous devons poursuivre nos efforts en termes d’amélioration de la performance des applications et sites web</strong>. Pour cela, utiliser de nouvelles métriques peut être une solution. A ce stade, nous sommes alors comme un chimiste qui essaierait d’analyser un liquide en mesurant son volume en litres, sans prendre en compte les autres critères qui l’aideraient : pH, température, texture… Quand les développeurs ont commencé à se pencher sur <strong>les notions clés des métriques pour logiciels</strong> comme le <strong>CPU</strong> ou la <strong>mémoire</strong>, ils n’ont pas pu confronter cela <strong>aux besoins des utilisateurs</strong>. ; en effet, ces derniers étant exprimés en langage commun et non en CPU load. <strong>Ces métriques sont plus techniques et invisibles pour l’utilisateur</strong>. Une consommation CPU élevée entraînera un ralentissement notoire de l’ordinateur de l’utilisateur, qui, lui, ne comprendra pas les valeurs CPU si on les lui montre. C’est à ce moment que le « <strong>temps de chargement</strong> de la page » s’est montré utile.</p>
 
@@ -91,11 +94,17 @@ mEnergyNWH = BatteryManager.getLongProperty(BatteryManager.BATTERY_PROPERTY_ENER
 
 <p>Vous trouverez juste dessous une illustration d’une <strong>application Android</strong>, l’idle en premier plan, entraînant une vitesse de déchargement importante :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-foreground.png" alt="Idle foreground" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-foreground-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-foreground.png" alt="Idle foreground" width="730" height="400" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Versus la même application en arrière-plan :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-background.png" alt="Idle background" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-background-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-background.png" alt="Idle background" width="730" height="400" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Mesurer la <strong>consommation énergétique</strong> nous a permis d’avoir <strong>des informations clés concernant les points d’optimisation</strong>. Cela a aussi confirmé le fait que nous devions continuer à optimiser le chargement des pages, mais aussi travailler sur l’idle de ces pages.  </p>
 

@@ -62,13 +62,22 @@
 
 <p>Une méthode rapide et qui va fonctionner dans beaucoup de cas pour nettoyer un navigateur consiste à fermer les onglets ouverts et nettoyer le cache au début de chacun de nos tests. De cette manière, quand le navigateur s’ouvrira la prochaine fois pour prendre des mesures, il sera sur un onglet vide.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min.png" alt="" width="1024" height="576" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min.png" alt="" width="1213" height="682" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Cette méthode va fonctionner sur la majorité des smartphones mais va être à la peine sur tablette à cause de la gestion des onglets. Sur tablette, les onglets sont en général affichés sur une barre en haut (ou en bas) du navigateur, comme sur un ordinateur. La particularité de cette barre d’onglet est qu’elle est invisible pour les outils classiques d’automatisation, ce qui rend très compliqué de cliquer sur la croix pour fermer l’onglet. De plus, la taille d’un onglet va dépendre du nombre d’onglets ouverts, rendant le clic par coordonnées encore plus hasardeux.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.png" alt="" width="560" height="89" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.png" alt="" width="560" height="89" loading="lazy" decoding="async">
+</picture></figure>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.png" alt="" width="559" height="83" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.png" alt="" width="559" height="83" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Pour couronner le tout, le bouton pour fermer tous les onglets d’un coup n’apparait qu’avec un appui long sur la croix de fermeture du premier onglet, le rendant inutilisable pour nous.</p>
 
@@ -86,7 +95,10 @@
 
 <figure><img src="https://blog.greenspector.com/wp-content/uploads/2021/03/homepage-min-edited.png" alt="" width="250" height="250" loading="lazy" decoding="async"></figure>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min.png" alt="" width="250" height="512" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min.png" alt="" width="1080" height="1920" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Il reste un dernier point concernant cette page d’accueil. En effet celle-ci à été chargée au premier lancement du navigateur et est donc ouverte, ce qui n’est pas pratique pour faire des mesures. Notre solution a été de naviguer vers la page «&nbsp;nouvel onglet&nbsp;» de Chrome à l’url suivante&nbsp;:</p>
 

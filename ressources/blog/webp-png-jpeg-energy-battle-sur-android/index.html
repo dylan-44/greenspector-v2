@@ -48,7 +48,10 @@
 
 <h2>Le format Webp</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/webp-logo.png" alt="" width="186" height="66" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/webp-logo.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/webp-logo.png" alt="" width="186" height="66" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>Webp est un format matriciel comme le PNG ou le JPEG. Il supporte des compressions sans perte (lossless) comme le PNG mais aussi avec perte (lossy) comme le JPEG.</strong><br>Ce format est actuellement pris en compte par Chrome, Chrome pour Android, et Opera.<br>Cependant <strong>la controverse vient de la fondation Mozilla qui considère que le format n&rsquo;offre pas autant <a href="https://blog.mozilla.org/research/2013/10/17/studying-lossy-image-compression-efficiency/">d&rsquo;avantages qu&rsquo;annoncé</a>.</strong></p>
 
@@ -78,15 +81,24 @@
 
 <h2>Comparaison des formats : Webp (lossless et lossy) versus PNG</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-01.png" alt="" width="600" height="186" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-01.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-01.png" alt="" width="600" height="186" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Pour cet test, nous avons pris les 3 premières images de la galerie <strong><a href="https://developers.google.com/speed/webp/gallery2">Google</a></strong>.<br>Vérifions d&rsquo;abord la <strong>taille des images</strong> :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossless-size.png" alt="" width="440" height="291" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/lossless-size.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossless-size.png" alt="" width="440" height="291" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Le résultat est très net : <strong>les images Wbep sont en moyenne 27% plus légères que le PNG, et même 70% pour le lossy</strong>. Les promesses sont pour l&rsquo;instant au rendez-vous. Mais regardons <strong>l&rsquo;énergie consommée sur le smartphone</strong> pour lorsqu&rsquo;il affiche ces images dans le navigateur :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossless-energy.png" alt="" width="440" height="286" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/lossless-energy.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossless-energy.png" alt="" width="440" height="286" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong>Aïe</strong>. En moyenne, il y a <strong>WebP engendre 1,5% de consommation d&rsquo;énergie supplémentaire</strong>. Il y a un gain uniquement pour l&rsquo;image 3 &#8211; et encore, en comparons le <strong>Webp</strong> lossy au <strong>PNG</strong>. Pour l&rsquo;image 1 on a une perte de <strong>3,8%</strong>. Enfin on constate que le <strong>Webp lossy</strong> avec transparence est encore plus consommateur que le <strong>Webp lossless</strong>. C&rsquo;est surprenant !</p>
 
@@ -94,21 +106,33 @@
 
 <h2>Comparaison des formats « lossy » : Webp versus JPEG</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-02.jpg" alt="" width="800" height="136" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-02-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/google-galery-images-02.jpg" alt="" width="800" height="136" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Pour ce test, nous avons testé les 5 images de la galerie de <strong><a href="https://developers.google.com/speed/webp/gallery1">Google</a></strong><br>Vérifions d&rsquo;abord la <strong>taille des images</strong>.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossy-size.png" alt="" width="440" height="335" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/lossy-size.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossy-size.png" alt="" width="440" height="335" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Là aussi <strong>la promesse est tenue</strong> : le <strong>gain de taille apporté par Webp est en moyenne nos 30%</strong>. Vérifions maintenant la <strong>consommation d&rsquo;énergie</strong>.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossy-energy.png" alt="" width="440" height="310" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/lossy-energy.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/lossy-energy.png" alt="" width="440" height="310" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Dans 4 cas sur 5, <strong>les gains apportés par Webp par rapport à JPEG sont intéressants (entre 2% et 8%).</strong> A cause du cas particulier de l&rsquo;image 4, la moyenne des gains s&rsquo;établit à <strong>2,4%</strong>.</p>
 
 <p>Si on regarde plus précisément les <strong>courbes de consommation d&rsquo;énergie</strong>, on constate effectivement que le pic de consommation est plus bas pour <strong>Webp</strong> :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/webp-jpeg-energy-min.jpg" alt="" width="1000" height="330" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/webp-jpeg-energy-min-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2020/02/webp-jpeg-energy-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/webp-jpeg-energy-min.jpg" alt="" width="1000" height="330" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>On remarque globalement que <strong>Webp sollicite moins la batterie que JPEG</strong>.</p>
 

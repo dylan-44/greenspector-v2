@@ -50,27 +50,42 @@
 
 <h2>Android Studio</h2>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min-1.png" alt="" width="347" height="140" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min-1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min-1.png" alt="" width="347" height="140" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong><a href="https://developer.android.com/studio/profile/android-monitor.html">Android Studio</a></strong> now integrates numerous tools that keep track of your application&rsquo;s resources consumption; the main advantage being the tool is fully integrated in your development environment. Can&rsquo;t do much closer to day-to-day work than this. However, you will have to go get them in sub-menus and remember to monitor the metrics.</p>
 
 <p><strong><a href="https://developer.android.com/studio/profile/am-network.html">Latest version</a></strong> makes available profiling of network and libraries, such as OKHTTP:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1.png" alt="" width="1024" height="414" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1.png" alt="" width="1822" height="736" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>SDK tools: Traceview</h2>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min-1.png" alt="" width="195" height="89" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min-1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min-1.png" alt="" width="195" height="89" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong><a href="https://developer.android.com/studio/profile/traceview.html">Traceview</a></strong> allows the visualization of method calls, time spent in each one&#8230; Even though the tool is extremely powerful, you might spend a good amount of time analyzing data. There is also a chance you get lost in the call hierarchy. But overall, this tool is a must-have when it comes to analysis of performance issues (among others!).</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min-1.png" alt="" width="893" height="284" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min-1.png" alt="" width="893" height="284" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>SDK tools: Systrace</h2>
 
 <p><strong><a href="https://developer.android.com/studio/profile/systrace.html">Systrace</a></strong> is another very interesting <strong>profiling tool</strong>, letting you visualize information on hardware (CPU work with repartition on CPUs) but also on Android information packages (RenderThread, Event…). Just like any other (good) profiling tool, it provides a lot of info. The drawback we see is the amount of time it might take to process all this information. And quickly, it can turn rather time-consuming.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min-1.png" alt="" width="923" height="635" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min-1.png" alt="" width="923" height="635" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>SDK tools: Dumpsys</h2>
 
@@ -78,7 +93,10 @@
 
 <p>adb shell dumpsys gfxinfo</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-2.png" alt="" width="927" height="559" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-2-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-2.png" alt="" width="927" height="559" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2><strong><a href="https://www.howtogeek.com/175151/8-things-you-can-do-in-androids-developer-options/">Developer&rsquo;s tools in the system</a></strong></h2>
 
@@ -90,17 +108,26 @@
 
 <p><strong><a href="https://developer.android.com/studio/profile/battery-historian.html">Battery Historian</a></strong> is a tool helping the visualization of information coming from the dumpsys batterystats. Battery discharge is visible simultaneously as system treatment and component use. As a consequence, you can <strong>detect potential energy leakage</strong>. Limit in this case is that it&rsquo;s necessary to run the application for a few minutes, which makes the analysis more complex: similar to a profiling tool, with the complexity that comes with it.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1.png" alt="" width="1024" height="520" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1.png" alt="" width="2880" height="1462" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Automation tools : <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong></h2>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min-1.png" alt="" width="499" height="134" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min-1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min-1.png" alt="" width="499" height="134" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Obviously you can&rsquo;t expect us to talk about all those tools without mentionning <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong>! The tools we mentionned in this article are powerful, but this also translates by a rather important complexity, which requires to be some sort of an expert in order to get the right information out of it. But, pretty frequently, developers use those tools only in complicated crisis situation, and not on a regular nor « monitoring » basis.<br>Yet, getting figures of resources consumption is a valuable measure for all developers to get throughout the whole development phase. This is why <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong> is usable in continuous integration. Other than basic metrics, we integrated part of the expert tools (like Dumpsys) directly in <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong>. The goal here is to pair the interface&rsquo;s simplicity, for a constant monitoring, with the possibility to get more precise information if needed.</p>
 
 <p>Here is for example a graph on Android views when the application launches after a test in continuous integration:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_loaded_views-min-1024x464.png" alt="" width="1024" height="464" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_loaded_views-min-1024x464-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_loaded_views-min-1024x464-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_loaded_views-min-1024x464.png" alt="" width="1024" height="464" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>This is a way to measure, <strong>thus detect more easily, consumption issues</strong>. If needed, a deeper analysis can then be conducted with the other tools we mentionned.</p>
   </div>

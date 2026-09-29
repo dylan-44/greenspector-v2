@@ -62,13 +62,22 @@
 
 <p>A quick method, which will work in many cases to clean up a browser, is to close open tabs and clean the cache at the start of each of our tests. This way, the next time the browser opens during measurements it will be on an empty tab.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min.png" alt="" width="1024" height="576" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2021/03/enchainement-min.png" alt="" width="1213" height="682" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>This method will work on the majority of smartphones but will be difficult on tablets because of the management of tabs. On tablets, tabs are generally displayed on a bar at the top (or bottom) of the browser, like on a computer. The peculiarity of this tab bar is that it is invisible to classic automation tools, which makes it very difficult to click on the cross to close the tab. In addition, the size of a tab will depend on the number of tabs open, making click by coordinates even more hazardous.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.png" alt="" width="560" height="89" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2021/03/OneTab-min1.png" alt="" width="560" height="89" loading="lazy" decoding="async">
+</picture></figure>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.png" alt="" width="559" height="83" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2021/03/4tabs-min.png" alt="" width="559" height="83" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>To top it off, the button to close all tabs at once only appears with a long press on the close cross of the first tab, making it unusable for us.</p>
 
@@ -86,7 +95,10 @@
 
 <figure><img src="https://blog.greenspector.com/wp-content/uploads/2021/03/homepage-min-edited.png" alt="" width="250" height="250" loading="lazy" decoding="async"></figure>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min.png" alt="" width="250" height="512" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min.png" alt="" width="1080" height="1920" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>There is one last point regarding this home page. Indeed, it was loaded the first time the browser was launched and is therefore open, which is not practical for taking measurements. Our solution was to navigate to Chrome&rsquo;s « new tab » page at the following URL:</p>
 
