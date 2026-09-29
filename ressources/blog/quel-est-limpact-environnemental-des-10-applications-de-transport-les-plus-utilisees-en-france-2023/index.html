@@ -62,7 +62,7 @@
 
 <ul><li><strong>Etape 1 :</strong> Lancement de l’application&nbsp;</li><li><strong>Etape 2</strong> : Accès à la page de recherche&nbsp;</li><li><strong>Etape 3 </strong>: Saisie d’itinéraire&nbsp;</li><li><strong>Etape 4 : </strong>Affichage des résultats&nbsp;</li><li><strong>Etape 5 </strong>: Sélection d’un itinéraire&nbsp;</li><li><strong>Etape 6 </strong>: Mise en arrière-plan de l’application (30 s)</li></ul>
 
-<figure><img src="https://blog.greenspector.com/wp-content/uploads/2023/07/SteptransportV2.png" alt="" loading="lazy" decoding="async"></figure>
+
 
 <p>Dans le cadre de cette étude, les données ont été mesurées le 19 juin&nbsp;2023 à l&rsquo;aide de&nbsp; Greenspector Studio. Nous avons utilisé le langage GDSL (Greenspector Domain-Specific Language) pour rédiger des scripts de test, qui reproduisent automatiquement les actions à effectuer sur un téléphone.&nbsp; Le module Testrunner nous a ensuite permis de réaliser les mesures sur un smartphone Android : nous avons ainsi obtenu les consommations d’énergie et de ressources (mémoire, CPU, données échangées) et les temps de réponse pour chacune des étapes du parcours. Enfin à partir de ces mesures, le modèle d’impacts intégré à Greenspector Studio évalue l’impact environnemental correspondant.</p>
 
@@ -150,7 +150,7 @@
 
 <p>Enfin on note sur l’application Azur de Nice et TBM de Montpelier que son étape d’affichage de l’itinéraire choisi consomme davantage que les autres. Cela peut venir de la carte générée pour cet affichage qui n’est pas compressée ou qui charge au-delà de ce qui est nécessaire c’est à dire au-delà des limites du réseau de transport de la ville.</p>
 
-<figure><img src="https://blog.greenspector.com/wp-content/uploads/2023/07/donnees-Mo-FR-v2.jpg" alt="" width="600" height="779" loading="lazy" decoding="async"></figure>
+
 
 <p>En ce qui concerne les données échangées, les parcours les moins sobres sont ceux des applications CTS, Tisseo et TAM . La TAM échange 2,4 Mo, soit deux fois plus que la moyenne établie pour toutes les applications. Les bons élèves en termes de données échangées sont Azur, Ilévia, TCL, RTM et TBM qui consomment moins de 0,5 Mo.&nbsp;</p>
 

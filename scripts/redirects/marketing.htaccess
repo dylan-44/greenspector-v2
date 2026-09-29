@@ -1,14 +1,11 @@
-# --- Blog infrastructure → blog.greenspector.com ---
-RewriteRule ^blog-fr/?(.*)$ https://blog.greenspector.com/$1 [R=301,L,NC]
-RewriteRule ^en/blog-en/?(.*)$ https://blog.greenspector.com/en/$1 [R=301,L,NC]
-RewriteRule ^wp-content/(.*)$ https://blog.greenspector.com/wp-content/$1 [R=301,L,NC]
-RewriteRule ^wp-admin(.*)$ https://blog.greenspector.com/wp-admin$1 [R=301,L,NC]
-RewriteRule ^wp-json/(.*)$ https://blog.greenspector.com/wp-json/$1 [R=301,L,NC]
-RewriteRule ^feed/?$ https://blog.greenspector.com/feed/ [R=301,L,NC]
-RewriteRule ^comments/feed/?$ https://blog.greenspector.com/comments/feed/ [R=301,L,NC]
-RewriteRule ^blog/(.*)$ https://blog.greenspector.com/blog/$1 [R=301,L,NC]
-RewriteRule ^author/(.*)$ https://blog.greenspector.com/author/$1 [R=301,L,NC]
-RewriteRule ^20[0-9]{2}/(.*)$ https://blog.greenspector.com/20$1 [R=301,L,NC]
+# --- Anciennes URLs blog → index statique. wp-content, wp-admin, wp-json : 404. ---
+RewriteRule ^blog-fr/?(.*)$ /ressources/blog/ [R=301,L,NC]
+RewriteRule ^en/blog-en/?(.*)$ /en/resources/blog/ [R=301,L,NC]
+RewriteRule ^feed/?$ /ressources/blog/ [R=301,L,NC]
+RewriteRule ^comments/feed/?$ /ressources/blog/ [R=301,L,NC]
+RewriteRule ^blog/(.*)$ /ressources/blog/ [R=301,L,NC]
+RewriteRule ^author/(.*)$ /ressources/blog/ [R=301,L,NC]
+RewriteRule ^20[0-9]{2}/(.*)$ /ressources/blog/ [R=301,L,NC]
 
 # --- Greenspector Studio (FR) ---
 RewriteRule ^mesure-performance-et-energie-du-numerique/?$ /studio/banc-tests-mobiles/ [R=301,L,NC]

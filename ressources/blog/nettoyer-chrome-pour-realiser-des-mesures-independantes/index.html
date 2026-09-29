@@ -44,7 +44,7 @@
   <div class="blog-article__body">
     <p><strong>Contexte</strong></p>
 
-<p>Bienvenue dans cette nouvelle rubrique « focus GDSL » qui explique en détail certaines méthodes du langage GDSL d&rsquo;automatisation de Greenspector. Si vous n&rsquo;avez pas encore lu <a href="../../../ressources/blog/fr/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/" target="_blank" rel="noopener noreferrer">l&rsquo;article d&rsquo;introduction du GDSL</a>, n&rsquo;hésitez pas avant de poursuivre la lecture de celui-ci.</p>
+<p>Bienvenue dans cette nouvelle rubrique « focus GDSL » qui explique en détail certaines méthodes du langage GDSL d&rsquo;automatisation de Greenspector. Si vous n&rsquo;avez pas encore lu <a href="../../../ressources/blog/introduction-au-gdsl-le-langage-dautomatisation-par-greenspector/" target="_blank" rel="noopener noreferrer">l&rsquo;article d&rsquo;introduction du GDSL</a>, n&rsquo;hésitez pas avant de poursuivre la lecture de celui-ci.</p>
 
 <p>Aujourd&rsquo;hui, nous allons nous concentrer sur la méthode <strong>browserReset</strong> qui permet de nettoyer un navigateur pour réaliser des mesures de performances et d&rsquo;énergie fiables. </p>
 
@@ -87,13 +87,13 @@
 
 <p>La solution utilisée chez <strong><a href="../../../ressources/blog/" target="_blank" rel="noopener noreferrer">Greenspector</a></strong> pour nettoyer le navigateur avant nos mesures et nous assurer de la pertinence de nos résultats est la suivante&nbsp;:</p>
 
-<figure><img src="https://blog.greenspector.com/wp-content/uploads/2021/03/clearAllData-min-edited.png" alt="" width="250" height="400" loading="lazy" decoding="async"></figure>
+
 
 <ul><li><strong>Nettoyer les données de l’application</strong>. Ceci est généralement fait à l’aide de la commande <em>adb shell pm clear PACKAGE_NAME,</em> mais peut aussi être réalisée dans le menu paramètres du téléphone.</li><li><strong>Passer les popups de premier lancement</strong> du navigateur avec l’automatisation.</li></ul>
 
 <p>Une fois ceci effectué, il reste un dernier point qui peut poser problème : certains constructeurs ou opérateurs mobiles affichent une page d’accueil personnalisée sur le navigateur. Pour permettre de comparer des mesures entre plusieurs smartphones, il faut se débarrasser de cette page d’accueil. <strong>Nous avons choisi de désactiver la home page dans les paramètres du navigateur.</strong></p>
 
-<figure><img src="https://blog.greenspector.com/wp-content/uploads/2021/03/homepage-min-edited.png" alt="" width="250" height="250" loading="lazy" decoding="async"></figure>
+
 
 <figure><picture>
   <source srcset="../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2021/03/newTab-min-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">

@@ -28,11 +28,9 @@ RewriteCond %{QUERY_STRING} ^p=5265$ [NC]
 RewriteRule ^$ https://greenspector.com/? [R=301,L]
 
 # ---------------------------------------------------------------------
-# 1) Points d'entree WordPress legitimes -> blog
-#    Place avant la regle anti-scan, sinon les anciens favoris
-#    /wp-login.php tomberaient en 404.
+# 1) Anciens points d'entree WordPress (wp-login, xmlrpc, wp-cron)
+#    tombent dans la regle anti-scan ci-dessous : 404, pas de redirection.
 # ---------------------------------------------------------------------
-RedirectMatch 301 ^/(wp-login|xmlrpc|wp-cron)\.php$ https://blog.greenspector.com/$1.php
 
 # ---------------------------------------------------------------------
 # 2) Bruit de scan -> 404 sec, jamais de redirection.
@@ -43,11 +41,9 @@ RedirectMatch 404 (?i)^/(\.git|\.env|\.aws|\.npmrc|vendor|cgi-bin)(/|$)
 RedirectMatch 404 (?i)^/(graphql|dns-query|resolve|admin|query)/?$
 
 # ---------------------------------------------------------------------
-# 3) Infrastructure et medias WordPress -> blog
+# 3) Infrastructure WordPress (wp-content, wp-admin, wp-json, sitemaps,
+#    /downloads/) : pas de redirection. Ces URLs repondent en 404.
 # ---------------------------------------------------------------------
-RedirectMatch 301 ^/(wp-content|wp-includes|wp-admin|wp-json)(/.*)?$ https://blog.greenspector.com/$1$2
-RedirectMatch 301 ^/(sitemap_index\.xml|[a-z_]+-sitemap[0-9]*\.xml)$ https://blog.greenspector.com/$1
-RedirectMatch 301 ^/downloads/(.*)$ https://blog.greenspector.com/wp-content/uploads/$1
 
 # ---------------------------------------------------------------------
 # 4) Familles mecaniques -> blog
@@ -70,7 +66,8 @@ RedirectMatch 301 ^/((?:blog-fr|en/blog-en)/[0-9]+/?)$                /ressource
 RedirectMatch 301 ^/(?:fr/)?blog-fr/(.*)$                             /ressources/blog/
 RedirectMatch 301 ^/en/blog-en/(.*)$                                  /en/resources/blog/
 # suffixes WordPress sur n'importe quel chemin
-RedirectMatch 301 ^/(?:fr/)?(.*(?:feed|embed|amp|trackback)(?:/(?:atom|rdf|rss|rss2))?/?)$ https://blog.greenspector.com/$1
+RedirectMatch 301 ^/en/(.*(?:feed|embed|amp|trackback)(?:/(?:atom|rdf|rss|rss2))?/?)$ /en/resources/blog/
+RedirectMatch 301 ^/(?:fr/)?(.*(?:feed|embed|amp|trackback)(?:/(?:atom|rdf|rss|rss2))?/?)$ /ressources/blog/
 
 # ---------------------------------------------------------------------
 # 5) Anciens sous-arbres supprimes -> index equivalent du nouveau site
@@ -82,7 +79,7 @@ RedirectMatch 301 ^/(?:fr/)?etude-de-cas/elementor-23306/?$ https://greenspector
 RedirectMatch 301 ^/(?:fr/)?etude-de-cas/credit-agricole/?$ https://greenspector.com/ressources/etudes-de-cas/cats-smartuse-application-bancaire/
 RedirectMatch 301 ^/en/(?:etude-de-cas|certifications)(/|$)                   https://greenspector.com/en/resources/case-studies/
 RedirectMatch 301 ^/(?:fr/)?(?:ressources/)?(?:etude-de-cas|certifications)(/|$) https://greenspector.com/ressources/etudes-de-cas/
-RedirectMatch 301 ^/(?:fr/)?webinaires(/|$)                                   https://blog.greenspector.com/
+RedirectMatch 301 ^/(?:fr/)?webinaires(/|$)                                   /ressources/blog/
 
 # ---------------------------------------------------------------------
 # 6) Anciennes pages -> nouveau site  (62 lignes)
@@ -142,9 +139,9 @@ RedirectMatch 301 ^/(?:fr/)?partenaires/?$ https://greenspector.com/a-propos/par
 RedirectMatch 301 ^/(?:fr/)?pilotez\-ecoconception\-par\-les\-resultats/?$ https://greenspector.com/studio/outil-ecoconception-logicielle/
 RedirectMatch 301 ^/(?:fr/)?plan\-du\-site/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?pricing/?$ https://greenspector.com/en/pricing/greenspector-studio/
-RedirectMatch 301 ^/(?:fr/)?publications/?$ https://blog.greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?ressources/publications/?$ https://blog.greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?publications/methodologie-greenspector-2024-25/?$ https://blog.greenspector.com/
+RedirectMatch 301 ^/(?:fr/)?publications/?$ /ressources/blog/
+RedirectMatch 301 ^/(?:fr/)?ressources/publications/?$ /ressources/blog/
+RedirectMatch 301 ^/(?:fr/)?publications/methodologie-greenspector-2024-25/?$ /ressources/blog/methodologie-calcul-empreinte-environnementale/
 RedirectMatch 301 ^/(?:fr/)?services\-conseils\-2/?$ https://greenspector.com/conseil/ecoconception-logicielle/
 RedirectMatch 301 ^/(?:fr/)?services\-conseils/?$ https://greenspector.com/conseil/ecoconception-logicielle/
 RedirectMatch 301 ^/(?:fr/)?solutions/applications\-grand\-public/?$ https://greenspector.com/studio/mesure-performance-app/
@@ -171,14 +168,14 @@ RedirectMatch 301 ^/en/10276\-2/?$ /en/resources/blog/environmental-footprint-me
 RedirectMatch 301 ^/en/12175\-2/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/battle\-quelle\-application\-mobile\-de\-covoiturage\-a\-le\-plus\-fort\-impact\-environnemental/?$ /en/resources/blog/which-mobile-carpooling-application-has-the-greatest-environmental-impact/
 RedirectMatch 301 ^/en/blog\-2/?$ /en/resources/blog/
-RedirectMatch 301 ^/en/december\-11th\-12th\-greenspector\-rallies\-for\-the\-world\-transition\-week\-at\-tech\-for\-planet/?$ https://blog.greenspector.com/en/greenspector-rallies-for-the-world-transition-week-at-tech-for-planet/
+RedirectMatch 301 ^/en/december\-11th\-12th\-greenspector\-rallies\-for\-the\-world\-transition\-week\-at\-tech\-for\-planet/?$ /en/
 RedirectMatch 301 ^/en/discover\-dill\-pickle\-the\-1\-13\-0\-version\-of\-greenspector/?$ https://greenspector.com/en/
-RedirectMatch 301 ^/en/greenspector\-solar\-impulse\-label\-2/?$ https://blog.greenspector.com/en/greenspector-solar-impulse-label/
+RedirectMatch 301 ^/en/greenspector\-solar\-impulse\-label\-2/?$ /en/
 RedirectMatch 301 ^/en/greenspector\-version\-1\-11\-0\-broccoli\-is\-out/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/impact\-video\-playing\-canal/?$ /en/resources/blog/impact-playing-canal-video/
 RedirectMatch 301 ^/en/integrate\-a\-third\-party\-service\-is\-it\-dangerous\-for\-your\-visitors\-privacy\-which\-impact\-on\-the\-environment\-the\-youtube\-case/?$ /en/resources/blog/third-party-youtube/
 RedirectMatch 301 ^/en/le\-dom\-comme\-metrique\-de\-suivi\-de\-sobriete\-du\-web/?$ /en/resources/blog/dom-as-a-metric-for-monitoring-web-sobriety/
-RedirectMatch 301 ^/en/methodology_greenspector_full_en\-version\-202405\-2/?$ https://blog.greenspector.com/wp-content/uploads/2025/05/Methodology_Greenspector_full_EN-Version-202405.pdf
+RedirectMatch 301 ^/en/methodology_greenspector_full_en\-version\-202405\-2/?$ /en/resources/blog/environmental-footprint-methodology/
 RedirectMatch 301 ^/en/optimizing\-the\-energy\-of\-smartphones\-to\-reduce\-the\-impact\-of\-digital\-technology\-and\-avoid\-the\-depletion\-of\-natural\-resources/?$ /en/resources/blog/optimizing-smartphones-energy-to-reduce-the-impact-of-digital-technology/
 RedirectMatch 301 ^/en/quel\-est\-limpact\-du\-reseau\-dans\-les\-services\-numeriques\-2/?$ /en/resources/blog/what-impact-does-the-network-have-on-digital-services/
 RedirectMatch 301 ^/en/quel\-est\-limpact\-environnemental\-des\-10\-applications\-de\-transport\-les\-plus\-utilisees\-en\-france/?$ /en/resources/blog/what-is-the-environmental-impact-of-the-10-most-widely-used-transport-applications-in-france-2023/
@@ -243,7 +240,7 @@ RedirectMatch 301 ^/(?:fr/)?30\-applications\-mobiles\-populaires/?$ https://gre
 RedirectMatch 301 ^/(?:fr/)?7\-minutes\-workout\-vs\-exercices\-a\-la\-maison/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?ada\-vs\-europcar/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?airbnb\-vs\-booking/?$ https://greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?amazon\-prime\-video\-vs\-netflix/?$ https://blog.greenspector.com/amazon-prime-video-vs-netflix/
+RedirectMatch 301 ^/(?:fr/)?amazon\-prime\-video\-vs\-netflix/?$ /
 RedirectMatch 301 ^/(?:fr/)?amazon\-vs\-cdiscount/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?ameliorez\-votre\-referencement\-seo\-avec\-leco\-conception\-en\-hackant\-les\-budgets\-google\-crawl/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?analyse\-des\-10\-sites\-nomines\-mobile\-excellence\-par\-awwwards/?$ /ressources/blog/analyse-des-10-sites-nomines-mobile-excellence-par-awwwards/
@@ -264,8 +261,8 @@ RedirectMatch 301 ^/(?:fr/)?babbel\-vs\-duolingo/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?bankin\-vs\-linxo/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?barometre\-2018\-des\-applications\-m\-commerce\-mode/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?benchmarker\-une\-application\-sur\-le\-power\-test\-cloud/?$ https://greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?blog\-fr/?$ https://blog.greenspector.com/
-RedirectMatch 301 ^/en/blog\-en/?$ https://blog.greenspector.com/en/
+RedirectMatch 301 ^/(?:fr/)?blog\-fr/?$ /ressources/blog/
+RedirectMatch 301 ^/en/blog\-en/?$ /en/resources/blog/
 RedirectMatch 301 ^/(?:fr/)?bonne\-pratique\-limiter\-le\-nombre\-de\-services\-tiers/?$ /ressources/blog/bonne-pratique-limiter-le-nombre-de-services-tiers/
 RedirectMatch 301 ^/(?:fr/)?bonne\-pratique\-optimiser\-les\-polices\-de\-caracteres/?$ /ressources/blog/bonne-pratique-optimiser-les-polices-de-caracteres/
 RedirectMatch 301 ^/(?:fr/)?budget\-environnemental/?$ /ressources/blog/budget-environnemental/
@@ -334,7 +331,7 @@ RedirectMatch 301 ^/en/android\-developers\-toolbox\-performance\-tools/?$ /en/r
 RedirectMatch 301 ^/en/android\-memory\-the\-ultimate\-metric\-guide\-2/?$ /en/resources/blog/android-memory-the-ultimate-metric-guide-2/
 RedirectMatch 301 ^/en/android\-should\-you\-use\-hashmap\-or\-sparsearray/?$ /en/resources/blog/android-should-you-use-hashmap-or-sparsearray/
 RedirectMatch 301 ^/en/apple\-planned\-obsolescence\-explained\-for\-dummies\-and\-others/?$ https://greenspector.com/en/
-RedirectMatch 301 ^/en/are\-the\-french\-presidential\-election\-candidates\-ruining\-your\-smartphones\-with\-their\-websites/?$ https://blog.greenspector.com/en/are-the-french-presidential-election-candidates-ruining-your-smartphones-with-their-websites/
+RedirectMatch 301 ^/en/are\-the\-french\-presidential\-election\-candidates\-ruining\-your\-smartphones\-with\-their\-websites/?$ /en/
 RedirectMatch 301 ^/en/are\-we\-really\-having\-a\-positive\-impact/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/artificial\-intelligence\-smartphone\-autonomy/?$ /en/resources/blog/artificial-intelligence-smartphone-autonomy/
 RedirectMatch 301 ^/en/atos\-scaler\-program/?$ /en/resources/blog/atos-scaler-program/
@@ -346,8 +343,8 @@ RedirectMatch 301 ^/en/best\-practice\-limit\-the\-number\-of\-third\-party\-ser
 RedirectMatch 301 ^/en/best\-practice\-optimizing\-fonts/?$ /en/resources/blog/best-practice-optimizing-fonts/
 RedirectMatch 301 ^/en/bewizyu/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/captcha\-and\-digital\-sobriety/?$ /en/resources/blog/captcha-and-digital-sobriety/
-RedirectMatch 301 ^/en/catch\-greenspector\-at\-mobility\-for\-business\-on\-october\-1\-2\-3/?$ https://blog.greenspector.com/en/catch-greenspector-at-mobility-for-business-on-october-1-2-3/
-RedirectMatch 301 ^/en/catch\-greenspector\-at\-mobility\-for\-business\-on\-october\-17\-18/?$ https://blog.greenspector.com/en/catch-greenspector-at-mobility-for-business-on-october-17-18/
+RedirectMatch 301 ^/en/catch\-greenspector\-at\-mobility\-for\-business\-on\-october\-1\-2\-3/?$ /en/
+RedirectMatch 301 ^/en/catch\-greenspector\-at\-mobility\-for\-business\-on\-october\-17\-18/?$ /en/
 RedirectMatch 301 ^/en/catch\-greenspector\-at\-the\-ieee\-globecom\-2018\-conference\-in\-abu\-dhabi\-next\-10th\-december/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/challenges\-eco\-responsible\-digital\-public\-sector/?$ /en/resources/blog/challenges-eco-responsible-digital-public-sector/
 RedirectMatch 301 ^/en/change\-now\-2020\-ranking\-of\-the\-energy\-consumption\-of\-partners\-websites/?$ https://greenspector.com/en/
@@ -400,8 +397,8 @@ RedirectMatch 301 ^/en/greenspector\-integrates\-crosscall\-brand\-into\-its\-po
 RedirectMatch 301 ^/en/greenspector\-is\-business\-frances\-favourite\-at\-mobile\-world\-congress\-2018/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/greenspector\-is\-mobility\-for\-business\-2018s\-favourite\-startup/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/greenspector\-methodology\-specification/?$ https://greenspector.com/en/
-RedirectMatch 301 ^/en/greenspector\-rallies\-for\-the\-world\-transition\-week\-at\-tech\-for\-planet/?$ https://blog.greenspector.com/en/greenspector-rallies-for-the-world-transition-week-at-tech-for-planet/
-RedirectMatch 301 ^/en/greenspector\-solar\-impulse\-label/?$ https://blog.greenspector.com/en/greenspector-solar-impulse-label/
+RedirectMatch 301 ^/en/greenspector\-rallies\-for\-the\-world\-transition\-week\-at\-tech\-for\-planet/?$ /en/
+RedirectMatch 301 ^/en/greenspector\-solar\-impulse\-label/?$ /en/
 RedirectMatch 301 ^/en/greenspector\-study\-of\-the\-energy\-consumption\-of\-google\-play\-store\-mobile\-apps/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/greenspector\-will\-be\-present\-at\-viva\-technology\-2019\-event\-on\-may\-16\-18\-in\-the\-atos\-innovation\-lab/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/greenspector\-winner\-cleantech\-open\-france\-2017\-in\-the\-digital\-iot\-category/?$ https://greenspector.com/en/
@@ -500,7 +497,7 @@ RedirectMatch 301 ^/en/top\-2018\-least\-energy\-hungry\-browsers\-for\-your\-sm
 RedirectMatch 301 ^/en/version\-1\-11/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/version\-1\-12/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/version\-1\-13/?$ https://greenspector.com/en/
-RedirectMatch 301 ^/en/version\-1\-14/?$ https://blog.greenspector.com/en/version-1-14/
+RedirectMatch 301 ^/en/version\-1\-14/?$ /en/
 RedirectMatch 301 ^/en/version\-1\-15/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/version\-1\-16/?$ https://greenspector.com/en/
 RedirectMatch 301 ^/en/version\-1\-17/?$ https://greenspector.com/en/
@@ -547,7 +544,7 @@ RedirectMatch 301 ^/en/why\-you\-should\-measure\-the\-energy\-consumption\-of\-
 RedirectMatch 301 ^/en/will\-upgrading\-to\-android\-6\-improve\-your\-battery\-life/?$ /en/resources/blog/will-upgrading-to-android-6-improve-your-battery-life/
 RedirectMatch 301 ^/(?:fr/)?enjeux\-numerique\-responsable\-secteur\-public/?$ /ressources/blog/enjeux-numerique-responsable-secteur-public/
 RedirectMatch 301 ^/(?:fr/)?est\-ce\-que\-le\-vibe\-coding\-avec\-lia\-peut\-etre\-green/?$ /ressources/blog/est-ce-que-le-vibe-coding-avec-lia-peut-etre-green/
-RedirectMatch 301 ^/(?:fr/)?etude\-comparative\-de\-leco\-responsabilite\-web\-de\-20\-services\-postaux\-dans\-le\-monde/?$ https://blog.greenspector.com/etude-comparative-de-leco-responsabilite-web-de-20-services-postaux-dans-le-monde/
+RedirectMatch 301 ^/(?:fr/)?etude\-comparative\-de\-leco\-responsabilite\-web\-de\-20\-services\-postaux\-dans\-le\-monde/?$ /
 RedirectMatch 301 ^/(?:fr/)?etude\-greenspector\-sur\-les\-consommations\-energetiques\-des\-applications\-mobiles\-du\-google\-play\-store/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?exigences\-de\-sobriete\-numerique\-pour\-les\-villes\-et\-collectivites\-classement/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?exigences\-de\-sobriete\-numerique\-pour\-les\-villes\-et\-collectivites\-edition\-2024\-2/?$ /ressources/blog/exigences-de-sobriete-numerique-pour-les-villes-et-collectivites-edition-2024-2/
@@ -579,7 +576,7 @@ RedirectMatch 301 ^/(?:fr/)?greenspector\-sera\-present\-au\-viva\-technology\-2
 RedirectMatch 301 ^/(?:fr/)?greenspector\-startup\-coup\-de\-coeur\-du\-mobility\-for\-business\-2018/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?greenspector\-startup\-de\-la\-semaine\-sur\-bfm\-business/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?greenspector\-startup\-nantaise\-coup\-de\-coeur\-business\-france\-au\-mobile\-world\-congress\-2018/?$ https://greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?greenspector\-studio\-et\-rgesn\-2/?$ https://blog.greenspector.com/greenspector-studio-et-rgesn-2/
+RedirectMatch 301 ^/(?:fr/)?greenspector\-studio\-et\-rgesn\-2/?$ /ressources/blog/greenspector-studio-et-rgesn/
 RedirectMatch 301 ^/(?:fr/)?greenspector\-studio\-et\-rgesn/?$ /ressources/blog/greenspector-studio-et-rgesn/
 RedirectMatch 301 ^/(?:fr/)?greentech\-forum\-2021/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?grille\-lecture\-engagements\-environnementaux\-offres\-hebergement\-web/?$ https://greenspector.com/
@@ -588,7 +585,7 @@ RedirectMatch 301 ^/(?:fr/)?hebergeurs\-impact\-et\-actions\-de\-sobriete/?$ htt
 RedirectMatch 301 ^/(?:fr/)?http2\-latence\-et\-energie/?$ /ressources/blog/http2-latence-et-energie/
 RedirectMatch 301 ^/(?:fr/)?impact\-applications\-visioconferences\-2022/?$ /ressources/blog/impact-applications-visioconferences-2022/
 RedirectMatch 301 ^/(?:fr/)?impact\-carbone\-e\-commerce\-france/?$ /ressources/blog/impact-carbone-e-commerce-france/
-RedirectMatch 301 ^/(?:fr/)?impact\-environnemental\-des\-exposants\-au\-greentech\-forum\-2023/?$ https://blog.greenspector.com/impact-environnemental-des-exposants-au-greentech-forum-2023/
+RedirectMatch 301 ^/(?:fr/)?impact\-environnemental\-des\-exposants\-au\-greentech\-forum\-2023/?$ /
 RedirectMatch 301 ^/(?:fr/)?impact\-environnemental\-ia\-locale/?$ /ressources/blog/impact-environnemental-ia-locale/
 RedirectMatch 301 ^/(?:fr/)?impact\-environnemental\-top\-30\-sites\-presse\-quotidienne\-francaise/?$ /ressources/blog/impact-environnemental-top-30-sites-presse-quotidienne-francaise/
 RedirectMatch 301 ^/(?:fr/)?impact\-instagram/?$ /ressources/blog/impact-instagram/
@@ -703,13 +700,13 @@ RedirectMatch 301 ^/(?:fr/)?reduire\-poids\-page\-web\-quels\-elements\-plus\-im
 RedirectMatch 301 ^/(?:fr/)?release\-note\-2\-10\-0/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?release\-note\-v\-2\-9\-0/?$ /ressources/blog/release-note-v-2-9-0/
 RedirectMatch 301 ^/(?:fr/)?rencontrons\-nous\-au\-lab\-dinnovation\-dorange\-a\-viva\-technology\-2018/?$ https://greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?rencontrons\-nous\-au\-mobile\-world\-congress\-2018/?$ https://blog.greenspector.com/rencontrons-nous-au-mobile-world-congress-2018/
-RedirectMatch 301 ^/(?:fr/)?rencontrons\-nous\-au\-mobile\-world\-congress\-2019/?$ https://blog.greenspector.com/rencontrons-nous-au-mobile-world-congress-2019/
+RedirectMatch 301 ^/(?:fr/)?rencontrons\-nous\-au\-mobile\-world\-congress\-2018/?$ /
+RedirectMatch 301 ^/(?:fr/)?rencontrons\-nous\-au\-mobile\-world\-congress\-2019/?$ /
 RedirectMatch 301 ^/(?:fr/)?reseaux\-sociaux\-2021/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?reseaux\-sociaux\-impact\-carbone/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?retour\-dexperience\-le\-projet\-etg\-du\-groupe\-la\-poste/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?retrouvez\-greenspector\-a\-la\-conference\-ieee\-globecom\-2018\-a\-abu\-dhabi\-le\-10\-decembre\-prochain/?$ https://greenspector.com/
-RedirectMatch 301 ^/(?:fr/)?retrouvez\-greenspector\-a\-mobility\-for\-business\-les\-12\-et\-3\-octobre\-2019/?$ https://blog.greenspector.com/retrouvez-greenspector-a-mobility-for-business-les-12-et-3-octobre-2019/
+RedirectMatch 301 ^/(?:fr/)?retrouvez\-greenspector\-a\-mobility\-for\-business\-les\-12\-et\-3\-octobre\-2019/?$ /
 RedirectMatch 301 ^/(?:fr/)?retrouvez\-greenspector\-a\-mobility\-for\-business\-les\-17\-et\-18\-octobre\-2018/?$ https://greenspector.com/
 RedirectMatch 301 ^/(?:fr/)?rgesn\-loi\-reen\-de\-quoi\-parle\-t\-on\-2/?$ /ressources/blog/rgesn-loi-reen-de-quoi-parle-t-on-2/
 RedirectMatch 301 ^/(?:fr/)?rgesn_et_mesures/?$ https://greenspector.com/

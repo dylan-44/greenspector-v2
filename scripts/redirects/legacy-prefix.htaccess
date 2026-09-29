@@ -7,15 +7,12 @@ RewriteRule ^fr/?$ / [R=301,L,NC]
 RewriteRule ^fr/articles/[0-9]{4}-[0-9]{2}-[0-9]{2}-(.+)/?$ /$1/ [R=301,L,NC]
 RewriteRule ^articles/[0-9]{4}-[0-9]{2}-[0-9]{2}-(.+)/?$ /$1/ [R=301,L,NC]
 
-# Anciens chemins /fr/news/ → blog (slug WP souvent différent)
-RewriteRule ^fr/news/(.*)$ https://blog.greenspector.com/fr/news/$1 [R=301,L,NC]
-RewriteRule ^news/(.*)$ https://blog.greenspector.com/news/$1 [R=301,L,NC]
+# Anciens chemins /fr/news/ → index du blog statique
+RewriteRule ^fr/news/(.*)$ /ressources/blog/ [R=301,L,NC]
+RewriteRule ^news/(.*)$ /ressources/blog/ [R=301,L,NC]
 
 # Reste du préfixe /fr/ → sans préfixe (réutilise règles racine)
 RewriteRule ^fr/(.*)$ /$1 [R=301,L,NC]
 
-# Fichiers téléchargements legacy
-RewriteRule ^downloads/(.*)$ https://blog.greenspector.com/wp-content/uploads/$1 [R=301,L,NC]
-
 RewriteRule ^en/articles/[0-9]{4}-[0-9]{2}-[0-9]{2}-(.+)/?$ /en/$1/ [R=301,L,NC]
-RewriteRule ^en/articles/(.*)$ https://blog.greenspector.com/en/$1 [R=301,L,NC]
+RewriteRule ^en/articles/(.*)$ /en/resources/blog/ [R=301,L,NC]

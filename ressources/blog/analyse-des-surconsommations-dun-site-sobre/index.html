@@ -46,7 +46,7 @@
 
 <p>À première vue (via les outils du navigateur web), le site apparaît en effet plutôt léger. Toutefois, certains éléments attirent mon attention. Nous y reviendrons.&nbsp;</p>
 
-<p>Comme à mon habitude, je lance un <a href="../../../ressources/blog/fr/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/" target="_blank" rel="noopener noreferrer">benchmark avec Greenspector Studio</a> afin d’aller plus loin.&nbsp;&nbsp;</p>
+<p>Comme à mon habitude, je lance un <a href="../../../ressources/blog/comment-est-calcule-lecoscore-dans-le-cas-dun-benchmark-web-ou-mobile/" target="_blank" rel="noopener noreferrer">benchmark avec Greenspector Studio</a> afin d’aller plus loin.&nbsp;&nbsp;</p>
 
 <h2>Analyser les surconsommations d’un site&nbsp;</h2>
 
@@ -89,7 +89,7 @@
 
 <p><em>Sur un site plus lourd, ces requêtes peuvent passer inaperçues mais pas ici.&nbsp;</em>&nbsp;</p>
 
-<p><em>La méthodologie utilisée s’inspire de celle décrite ici : </em><a href="../../../ressources/blog/fr/auditer-requetes-application-mobile-android/" target="_blank" rel="noopener noreferrer"><em>https://blog.greenspector.com/fr/auditer-requetes-application-mobile-android/</em></a><em>&nbsp;</em>&nbsp;</p>
+<p><em>La méthodologie utilisée s’inspire de celle décrite ici : </em><a href="../../../ressources/blog/auditer-requetes-application-mobile-android/" target="_blank" rel="noopener noreferrer"><em>/ressources/blog/auditer-requetes-application-mobile-android/</em></a><em>&nbsp;</em>&nbsp;</p>
 
 <p>Mais il faut surtout s’interroger sur les fluctuations fortes du CPU. Il y a bien quelques animations sur le site mais la plupart ne sont déclenchées qu’au scroll. Elles ne devraient donc pas directement impacter le processeur lorsque l’utilisateur est inactif et les animations non-déclenchées.&nbsp;</p>
 
@@ -126,11 +126,11 @@
 <p><em>Pour aller plus loin sur ce sujet, je vous renvoie vers deux autres articles du présent blog :&nbsp;</em>&nbsp;</p>
 
 <ul>
-<li><a href="../../../ressources/blog/fr/un-site-sobre-est-il-necessairement-moche/" target="_blank" rel="noopener noreferrer"><em>https://blog.greenspector.com/fr/un-site-sobre-est-il-necessairement-moche/</em></a>&nbsp;</li>
+<li><a href="../../../ressources/blog/un-site-sobre-est-il-necessairement-moche/" target="_blank" rel="noopener noreferrer"><em>/ressources/blog/un-site-sobre-est-il-necessairement-moche/</em></a>&nbsp;</li>
 </ul>
 
 <ul>
-<li><a href="../../../ressources/blog/fr/reduire-poids-page-web-quels-elements-plus-impactants/" target="_blank" rel="noopener noreferrer"><em>https://blog.greenspector.com/fr/reduire-poids-page-web-quels-elements-plus-impactants/</em></a><em>&nbsp;</em>&nbsp;</li>
+<li><a href="../../../ressources/blog/reduire-poids-page-web-quels-elements-plus-impactants/" target="_blank" rel="noopener noreferrer"><em>/ressources/blog/reduire-poids-page-web-quels-elements-plus-impactants/</em></a><em>&nbsp;</em>&nbsp;</li>
 </ul>
 
 <p>La version 1.0.6 s’affranchit de tout code JS pour gérer les animations. Le souci qui apparaît alors est que les animations se font en continu. Même si, à l’usage, cette approche est moins impactante pour le processeur (ce qui est aisément vérifiable via l’outil Performance de Chrome), elle dégrade l’expérience utilisateur et pose problème pour l’accessibilité (critère 13.8 du Référentiel Général d’Amélioration de l’Accessibilité : <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.8" target="_blank" rel="noopener noreferrer">https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.8</a>).&nbsp;</p>
@@ -177,7 +177,7 @@
 
 <h2>Conclusion&nbsp;</h2>
 
-<p>Comme déjà souligné dans <a href="../../../ressources/blog/fr/un-site-sobre-est-il-necessairement-moche/" target="_blank" rel="noopener noreferrer">l’article sur les sites sobres</a>, l’estimation de la sobriété d’un site est complexe car elle prend en compte de nombreux facteurs mais aussi une méthodologie particulière. Même sur un site annoncé comme sobre, il reste souvent des améliorations à mettre en place (même si toutes ne valent pas forcément le coup).&nbsp;&nbsp;</p>
+<p>Comme déjà souligné dans <a href="../../../ressources/blog/un-site-sobre-est-il-necessairement-moche/" target="_blank" rel="noopener noreferrer">l’article sur les sites sobres</a>, l’estimation de la sobriété d’un site est complexe car elle prend en compte de nombreux facteurs mais aussi une méthodologie particulière. Même sur un site annoncé comme sobre, il reste souvent des améliorations à mettre en place (même si toutes ne valent pas forcément le coup).&nbsp;&nbsp;</p>
 
 <p>Une fois n’est pas coutume, le sujet des animations revient. Parfois utilisées pour compenser la réduction du nombre d’images, elles sont très souvent impactantes, même si les outils gratuits occultent cet impact (en se concentrant sur les transferts de données effectués lors du chargement de la page). Lorsque, comme ici, on veut aller plus loin pour les intégrer de façon aussi efficiente que possible, les résultats ne sont à ce jour pas forcément concluants. La priorité devrait être la frugalité (s’affranchir des animations) puis la sobriété (en réduire le nombre) et enfin l’efficience (optimiser leur intégration). Toutefois, notamment pour des raisons d’accessibilité, leur utilisation devrait être proscrite (mais aussi en s’appuyant sur le critère 4.1 du RGESN).  </p>
 

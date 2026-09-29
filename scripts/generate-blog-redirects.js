@@ -52,8 +52,6 @@ function buildFromHtaccessTxt() {
   return true;
 }
 
-const BLOG_HOST = 'https://blog.greenspector.com';
-
 const MARKETING_FR_SLUGS = new Set([
   'mesure-performance-et-energie-du-numerique',
   'impact-environnemental-numerique',
@@ -215,24 +213,20 @@ function resolveAuditTarget(pathname, postSlugs, pageRedirects, marketingPattern
 
   if (stripped.startsWith('/en/')) {
     const enSlug = stripped.slice(4).replace(/\/$/, '');
-    if (postSlugs.en.has(enSlug)) return `${BLOG_HOST}/en/${enSlug}/`;
+    if (postSlugs.en.has(enSlug)) return `/en/resources/blog/${enSlug}/`;
   } else if (strippedSlug && postSlugs.fr.has(strippedSlug)) {
-    return `${BLOG_HOST}/${strippedSlug}/`;
+    return `/ressources/blog/${strippedSlug}/`;
   }
 
   if (marketingPatterns.has(stripped) || marketingPatterns.has(norm)) {
     return null;
   }
 
-  if (norm.startsWith('/en/')) {
-    return `${BLOG_HOST}/en/${norm.slice(4).replace(/\/$/, '')}/`;
+  if (norm.startsWith('/en/') || stripped.startsWith('/en/')) {
+    return '/en/';
   }
 
-  if (strippedSlug && !strippedSlug.includes('.')) {
-    return `${BLOG_HOST}/${strippedSlug}/`;
-  }
-
-  return `${BLOG_HOST}${norm}`;
+  return '/';
 }
 
 function buildAuditRules(reportPath, postSlugs, pageRedirects, marketingPatterns) {
@@ -439,19 +433,19 @@ function main() {
     `# --- Liens internes articles (audit, ${auditRules.length}) ---`,
     ...auditRules,
     '',
-    `# --- Articles blog FR (${fr.length}) → ${BLOG_HOST} ---`,
+    `# --- Articles blog FR (${fr.length}) → /ressources/blog/ ---`,
   ];
 
   for (const slug of fr) {
     const pat = escapeRewritePattern(slug);
-    lines.push(`RewriteRule ^${pat}/?$ ${BLOG_HOST}/${slug}/ [R=301,L,NC]`);
+    lines.push(`RewriteRule ^${pat}/?$ /ressources/blog/${slug}/ [R=301,L,NC]`);
   }
 
-  lines.push('', `# --- Articles blog EN (${en.length}) → ${BLOG_HOST}/en/ ---`);
+  lines.push('', `# --- Articles blog EN (${en.length}) → /en/resources/blog/ ---`);
 
   for (const slug of en) {
     const pat = escapeRewritePattern(slug);
-    lines.push(`RewriteRule ^en/${pat}/?$ ${BLOG_HOST}/en/${slug}/ [R=301,L,NC]`);
+    lines.push(`RewriteRule ^en/${pat}/?$ /en/resources/blog/${slug}/ [R=301,L,NC]`);
   }
 
   lines.push('', '</IfModule>', '');
