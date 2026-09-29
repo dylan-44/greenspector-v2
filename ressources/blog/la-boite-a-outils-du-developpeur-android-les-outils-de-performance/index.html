@@ -50,33 +50,51 @@
 
 <h2>Android Studio</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min.png" alt="" width="347" height="140" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/android-studio-logo-min.png" alt="" width="347" height="140" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong><a href="https://developer.android.com/studio/profile/android-monitor.html">Android Studio</a></strong> intègre maintenant de nombreux outils pour suivre la consommation de ressources de votre application. L&rsquo;avantage est l’intégration de l’outil dans votre environnement de développement. On ne peut pas être plus proche de votre travail au jour le jour. Cependant, il faudra aller chercher dans les sous-menus et penser à suivre les métriques.</p>
 
 <p>La <strong><a href="https://developer.android.com/studio/profile/am-network.html">dernière version</a></strong> intègre maintenant la possibilité de profiler le réseau et même les librairies comme OKHTTP :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min.png" alt="" width="1024" height="414" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/am-androidmon2_2x-min.png" alt="" width="1822" height="736" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Les outils du SDK : Traceview</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min.png" alt="" width="195" height="89" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/traceview-min.png" alt="" width="195" height="89" loading="lazy" decoding="async">
+</picture></figure>
 
 <p><strong><a href="https://developer.android.com/studio/profile/traceview.html">Traceview</a></strong> permet de visualiser les appels de méthodes, le temps passé dans chacune&#8230; L’outil est très puissant mais vous passerez sûrement du temps à analyser les données. Il est possible que vous vous perdiez dans la hiérarchie des appels. Cependant cet outil est incontournable pour analyser des problèmes de performance (entre autres).</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min.png" alt="" width="893" height="284" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/traceview_timeline-min.png" alt="" width="893" height="284" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Les outils du SDK : Systrace</h2>
 
 <p><strong><a href="https://developer.android.com/studio/profile/systrace.html">Systrace</a></strong> est un autre <strong>outil de profiling très puissant</strong>. Il permet de visualiser des informations sur le matériel (le travail du CPU avec la répartition sur tous les CPUs) mais aussi des packages d’informations Android (RenderThread, Event…). Comme tout bon outil de profiling, il présente beaucoup d’informations. L’inconvénient est qu’il faut prendre le temps de comprendre toutes ces informations, ce qui peut facilement se révéler assez chronophage.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min.png" alt="" width="923" height="635" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/systrace-min.png" alt="" width="923" height="635" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Les outils du SDK : Dumpsys</h2>
 
 <p><strong><a href="https://developer.android.com/studio/profile/investigate-ram.html">Dumpsys</a></strong> est un module en ligne de commande du système Android. De nombreuses informations peuvent être obtenues : informations sur les vues, sur la base &#8230; L’inconvénient de cette solution est la complexité des métriques, donc la nécessité de passer du temps pour analyser et relancer les mesures.<br>Par exemple, taper la ligne suivante dans la ligne de commande pour avoir les informations sur les traitements graphiques :<br>adb shell dumpsys gfxinfo</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-1.png" alt="" width="927" height="559" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys-min-1.png" alt="" width="927" height="559" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2><strong><a href="https://www.howtogeek.com/175151/8-things-you-can-do-in-androids-developer-options/">Les outils développeur dans le système</a></strong></h2>
 
@@ -88,17 +106,26 @@
 
 <p><strong><a href="https://developer.android.com/studio/profile/battery-historian.html">Battery historian</a></strong> est un outil qui va visualiser les informations issues de dumpsys batterystats. La décharge batterie est donc visible en parallèle des traitements système et de l&rsquo;usage des composants. Vous pourrez ainsi <strong>détecter des problèmes de fuite d&rsquo;énergie</strong>. La limite est qu&rsquo;il est nécessaire de faire tourner l&rsquo;application plusieurs minutes ce qui augmente la complexité d&rsquo;analyse :on est proche d&rsquo;un outil de profiling avec la complexité associée.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min.png" alt="" width="1024" height="520" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/battery_historian-min.png" alt="" width="2880" height="1462" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Les outils d&rsquo;automatisation : GREENSPECTOR</h2>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min.png" alt="" width="499" height="134" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/greenspector-min.png" alt="" width="499" height="134" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Évidemment nous ne pouvons pas passer en revue ces outils sans parler de <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong>. Les outils dont nous venons de parler sont puissants, mais leur puissance se paie par leur complexité importante, qui demande une expertise certaine pour bien en retirer les informations recherchées. Or très souvent, ces outils ne sont invoqués qu’en cas de crise, quasiment jamais de façon régulière.<br>Pourtant il semble intéressant de réaliser des <strong>mesures de consommations de ressources tout au long du développement</strong> et pour tous les développeurs. C&rsquo;est pour cela que <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong> est utilisable en intégration continue. Au-delà des métriques usuelles, nous avons intégré une partie des outils experts (comme Dumpsys) directement dans <strong><a href="../../../ressources/blog/">GREENSPECTOR</a></strong>. L’objectif est d’allier la simplicité de l’interface, pour une surveillance en continu, et l’apport d’informations plus « pointues » en cas de besoin.</p>
 
 <p>Voici par exemple une courbe sur les vues Android lors du lancement de l&rsquo;application suite à un test en intégration continue :</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_vues_chargees-min.png" alt="" width="910" height="477" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_vues_chargees-min-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/dumpsys_vues_chargees-min.png" alt="" width="910" height="477" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Cette manière de mesurer nous permet de <strong>détecter facilement des problèmes de consommation</strong>. L&rsquo;analyse plus poussée pourra ensuite être faite avec les autres outils mentionnés si elle s’avère nécessaire.</p>
   </div>

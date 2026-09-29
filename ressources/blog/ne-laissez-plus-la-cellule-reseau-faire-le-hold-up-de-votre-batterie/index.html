@@ -58,7 +58,10 @@
 
 <p>Comme le réveil de la cellule réseau ne se fait pas instantanément (environ une seconde), celle-ci reste allumée quelques secondes après toute transmission pour être aussi réactive que possible. Dans le cas du Wi-fi, ce temps est de 10s.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/wifi-state-change.png" alt="" width="451" height="328" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/wifi-state-change.webp" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/wifi-state-change.png" alt="" width="451" height="328" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Le bon, la brute et le truand</h2>
 
@@ -66,15 +69,24 @@
 
 <p>NB : Les smartphones étant des systèmes complexes, des événements indépendants de votre application peuvent solliciter la cellule réseau de votre appareil et ainsi perturber vos propres transmissions.<br>Nos tests sont réalisés en environnement strictement contrôlé et nous nous sommes assurés que les mesures qui suivent n&rsquo;ont pas été perturbées par de tels événements externes.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved.png" alt="" width="1024" height="334" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved.png" alt="" width="1534" height="500" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Commençons par le cas idéal. Des données sont transmises de façon regroupée, puis la page est entièrement chargée.<br>Dans ce cas, la cellule réseau est sollicitée en continu pendant un bref instant (intervalle rouge) puis, après les 10s d&rsquo;attente règlementaire (intervalle orange), se met en veille (intervalle vert).<br>Rien à dire, 10/10.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved.png" alt="" width="1024" height="334" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved.png" alt="" width="1534" height="500" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Le deuxième exemple nécessite manifestement davantage de données, mais on peut voir que <strong>la transmission ne se fait pas en continu</strong>. Pendant les courts intervalles sans transmission, la cellule radio reste allumée, en attente d&rsquo;une éventuelle reprise des échanges.<br>Entre le premier et le dernier octets échangés, la cellule Wi-fi est restée allumée en permanence alors que près de <strong>la moitié du temps a été passée à attendre</strong>.</p>
 
-<figure><img src="../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved.png" alt="" width="1024" height="334" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-640w.webp 640w, ../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-960w.webp 960w, ../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved.png" alt="" width="1534" height="500" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Enfin, la dernière illustration est presque trop belle pour être vraie&nbsp;: après les transmissions initiales, la cellule réseau se met en attente, comme dans le premier exemple. Cependant, juste avant de passer en état de sommeil, quelques ko sont transmis, ayant pour effet de réinitialiser le compte à rebours à 10s.<br>Dans cet exemple, <strong>le dernier pourcent des données échangées est responsable de près de la moitié de la consommation énergétique</strong> de la cellule réseau.</p>
 

@@ -50,7 +50,10 @@
 
 <p>However the fight is not over. You may check <strong>the evolution of websites</strong> throughout time on <a href="http://httparchive.org/trends.php">HTTP archive</a>. <strong>The average web page is still getting heavier and heavier:</strong></p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-requests.png" alt="" width="600" height="300" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-requests.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-requests.png" alt="" width="600" height="300" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Hence, <strong>we must continue</strong> to <strong>improve the performance</strong> of <strong>web sites</strong> and <strong>applications</strong>. And to explore new optimization areas, maybe we need to use other metrics. We are currently like a chemist trying to analyse a liquid by measuring its volume in litres, ignorant of other dimensions that could help him/her improve his/her knowledge: pH, temperature, viscosity… When developers began studying the basics of software metrics such as <strong>CPU</strong> or <strong>memory</strong>, they couldn’t assess these against user needs, because user needs are expressed in common language, not in CPU load. These metrics are “technical” and not directly visible by the user. A high <strong>CPU consumption</strong> will lead to a real slowdown of the user’s computer, but they will not understand a CPU value shown to them. This is where “page load time” came in handy. Moreover, even for specialists like Intel’s, profiling CPU and memory load is not trivia, as <a href="https://software.intel.com/en-us/articles/intel-performance-counter-monitor">Intel wrote</a></p>
 
@@ -99,11 +102,17 @@ mEnergyNWH = BatteryManager.getLongProperty(BatteryManager.BATTERY_PROPERTY_ENER
 
 <p>We can also check <strong>the websites in terms of discharge rate</strong>: how much of the <strong>battery</strong> is consumed per second? On average, the discharge rate is <strong>202 µAh/s</strong> for the page load, and <strong>143 µAh/s</strong> for the idle time that follows (this is part of our standard scenario. You’d be surprised of how much the idle time can tell about your application’s quality). We had also measured the discharge rate of the device without any browser opened, and it was a mere <strong>100 µAh/s</strong>. There we are: loading a web site doubles the discharge rate on the device. The same average site, simply sitting idle, also consumes significant energy (143 &#8211; 100 = 43 µAh/s). This shows the importance of optimizing this idle state, and not only the page loading. For that, you might unbind some data from memory, limit scripts during idle (or stop them altogether), and so on…<br>Here’s an illustration of an <strong>Android application</strong>, idle in foreground, causing a significant discharge rate :</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-foreground.png" alt="" width="730" height="400" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-foreground-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-foreground.png" alt="" width="730" height="400" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Versus the same application in background :</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-background.png" alt="" width="730" height="400" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-background-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2016-04-12-measure-software-energy-chart-idle-background.png" alt="" width="730" height="400" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Measuring the <strong>energy consumption</strong> gave us key information about optimization areas. It confirmed that we needed to continue optimizing the page loading, but that we also needed to work on the idle state of the page.</p>
 

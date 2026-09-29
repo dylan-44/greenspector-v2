@@ -58,7 +58,10 @@
 
 <p>As a network cell does not wake up instantly (about one second), it stays awake a few seconds after any transfer in order to be as responsive as possible. In the case of Wi-fi, this transition time equals 10s.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/wifi-state-change-1.png" alt="" width="451" height="328" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/wifi-state-change-1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/wifi-state-change-1.png" alt="" width="451" height="328" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>The Good, the Bad and the Ugly</h2>
 
@@ -66,15 +69,24 @@
 
 <p>NB: Smartphones being complex systems, some events outside the control of your application might use the network cell of your device, thus interfering with your own data transfers.<br>Our tests are performed in a strictly controlled environment and we have ensured that the following measures were not disrupted by such external events.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-1.png" alt="" width="1024" height="334" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/data1-improved-1.png" alt="" width="1534" height="500" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Let&rsquo;s start by the ideal case. Data is transmitted in a clustered pattern, then the page is entirely loaded.<br>In this case, the network cell is continuously active for a short period of time (red interval). The cell enters into standby (green interval) after the statutory waiting period of 10s (orange interval).<br>10/10, would browse again.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-1.png" alt="" width="1024" height="334" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/data2-improved-1.png" alt="" width="1534" height="500" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>The second example obviously implies larger amounts of data, but we can see that <strong>data is not transferred continuously</strong>. During the short intervals without any transmission, the network cell stays awake, waiting for a potential resumption of data transfers.<br>Between the first and the last exchanged bytes, the WiFi cell is left on while <strong>half of this time is spent waiting</strong>.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-1.png" alt="" width="1024" height="334" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/data3-improved-1.png" alt="" width="1534" height="500" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Lastly, the last example is almost too good to be true: after initial data transfers, the network cell switches to waiting mode, as in the first example. However, just before entering into standby, a few kB are transmitted, resetting the countdown to 10s.<br>In this example, <strong>the last percent of exchanged data is responsible for almost half of the network cell&rsquo;s energy consumption</strong>.</p>
 

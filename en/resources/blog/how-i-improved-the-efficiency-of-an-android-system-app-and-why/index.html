@@ -54,7 +54,10 @@
 
 <p>In order to optimize an app, first thing to do is to understand what it does, what it’s useful for, and how it’s used. In our case it&rsquo;s pretty simple, you already know it: it’s this <strong>SystemUI</strong> application that’s triggered when:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-app.png" alt="" width="744" height="379" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-app-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-app.png" alt="" width="744" height="379" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>As soon as we’re there, the customer confirms our goal: we have to <strong>improve this app</strong> so that it consumes <strong>less energy</strong>. <strong>Obviously the ultimate goal is to improve the battery life of their devices</strong>, and if as a side-effect the performances improve, they won’t object no to that. Up to now, we’re on familiar ground.</p>
 
@@ -68,7 +71,10 @@
 
 <p>Hence, we can launch test runs for each of the functional cases that we’ve selected. Toss in some UIAutomator to automate simple test cases, and calls to the “Meter Android” API from <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong>. Oh! And don’t forget, prior to running the functional test cases, to run a “blank” (or “idle”) test case to establish the reference consumption for our platform.<br>First results come in soon:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-showstatusbar-testcase.png" alt="" width="615" height="352" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-showstatusbar-testcase.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-showstatusbar-testcase.png" alt="" width="615" height="352" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>The <strong>ShowStatusBar test</strong> case consumes 3 times more than the reference (idle) case, and ShowRecentApp consume 2.4 times more. That’s a lot!&#8230; or not? This is the question we are asked every time. Here, you may intuitively say that it’s a bit heavy, given that it’s only for displaying icons and notifications. In any case, these first measures enable us:</p>
 
@@ -76,7 +82,10 @@
 
 <p>Please note that I’m not giving away all the details here, in order to keep this piece readable for most readers. But you’ll be able to find them in a document available for download on our site. For example, here’s a screenshot of <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong> with all the measured functional cases, and their relative impacts:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-impacts.png" alt="" width="273" height="532" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-impacts.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-impacts.png" alt="" width="273" height="532" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Step 2 : Look for the big rocks</h2>
 
@@ -86,11 +95,17 @@
 
 <p>When we get the experts toolbox out of the van (<strong>Android Systrace</strong>, <strong>Android Traceview</strong>, <strong>HierarchyViewer</strong>…) we already know where and how to use them. These tools being very accurate on narrow points and their understanding being rather arduous, the foremost step saved us a lot of time.<br>Here’s a sample TraceView result, filtered on SystemUI methods:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-traceview-result.png" alt="" width="778" height="234" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-traceview-result-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-traceview-result.png" alt="" width="778" height="234" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Sample <strong>Android Systrace</strong> trace, where we see that “redraws” happen way too often:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-redraws-systrace.png" alt="" width="1016" height="245" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-redraws-systrace-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-redraws-systrace-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-redraws-systrace.png" alt="" width="1016" height="245" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>These tools, and a peek at the source code, allow us to understand that <strong>the consumption of resources</strong> is mainly caused by 2 behaviours:</p>
 
@@ -114,7 +129,10 @@
 
 <p>So we take one point, we correct, we measure. Then we go to point 2, we correct, we measure. Of course, if you’re using Git, you may want to work on branches in order to handle this at best.<br>In <strong><a href="../../../../en/resources/blog/">GREENSPECTOR</a></strong>, we declare a “v2” of the <strong>SystemUI application</strong>. Then we launch a small campaign of measures on the same smartphone. The final step is simply to go to the “Evolution” tab, to compare the consumptions of the functional test cases between v1 and v2:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-evolution.png" alt="" width="961" height="285" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-evolution-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-evolution-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-10-article-systemUI-evolution.png" alt="" width="961" height="285" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>On the <strong>ShowStatusBar case</strong>, we notice a battery discharge rate (Platform Discharge per second) <strong>9% smaller than before</strong>!<br>On the other functional test cases, we also notice lesser consumptions.<br>But above all, given the very short time of this operation (2 weeks in all), we were only able to apply points 2 and 3 of the action plan! There are <strong>still significant improvements areas to explore</strong>, scented bugs to be confirmed, etcetera.</p>
 

@@ -70,7 +70,10 @@
 
 <p>So, the Twitter timeline component looks interesting, because it automatically feeds your latest news to your homepage. Great.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-01-1.png" alt="" width="785" height="593" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-01-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-01-1.png" alt="" width="785" height="593" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Guess what, its integration is quite simple and easy to configure:</p>
 
@@ -89,7 +92,10 @@
 
 <p>A few minutes later, we get the following results:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-02-1.png" alt="" width="1024" height="537" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-02-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-02-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-02-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-02-1.png" alt="" width="1393" height="731" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>This graph bears 3 interesting figures:</p>
 
@@ -103,21 +109,33 @@
 
 <p>Are these figures big or small? Well, not that big. If you look that the relative impact ratio (that we define as “<strong>Energy consumption</strong> during load time” / “Reference consumption”) it’s +34%, whereas some websites can have a relative impact ratio of more than <strong>+300%</strong>. Then if you look at what this means for the <strong>battery life</strong> of the device (with the hypothesis that the web site would be shown continuously on screen), it’s quite good but yet, this kind of values needs not to be neglected and there is some room for improvement.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-03-1.png" alt="" width="419" height="191" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-03-1.webp" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-03-1.png" alt="" width="419" height="191" loading="lazy" decoding="async">
+</picture></figure>
 
 <h2>Let’s do some subtractions now</h2>
 
 <p>These were the measurement results for the website with the embedded <strong>Twitter</strong> timeline call. Prior to this, we had run exactly the same tests for a version of the website without this component. The consumption at loading time was 124 μAh/s. This means that the component alone has increased the consumption by <strong>+10 μAh/s</strong> (+ 8%) which translates <strong>into 47 minutes less autonomy for the device.</strong></p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-04-1.png" alt="" width="1024" height="525" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-04-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-04-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-04-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-04-1.png" alt="" width="1409" height="723" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>If you look closer, you will notice that the idle phase is also concerned. Without the component, the web site is really idle, as we can see by the consumption bar which does not exceed the reference line. Remember that with the third-party component, the “idle” phase showed some activity:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-05-1.png" alt="" width="749" height="133" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-05-1-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-05-1.png" alt="" width="749" height="133" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Indeed, the Twitter timeline component generates some network requests, which consume energy. This is confirmed by the CPU graph for the browser:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-06-1.png" alt="" width="1024" height="457" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-06-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-06-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-06-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-06-1.png" alt="" width="1445" height="645" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>Without the component, the idle phase is not “polluted” by these requests.</p>
 
@@ -125,11 +143,17 @@
 
 <p><strong>When we look deeper into the network waterfall</strong>, we find a lot of requests. First is the <strong>Twitter</strong> script, but then come the fonts, pictures…</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07-1.png" alt="" width="1024" height="689" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07-1-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07-1.png" alt="" width="1185" height="797" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>40 requests out of 58 are caused by the <strong>Twitter component</strong>! The Request map visual renderer may help to better understand this impact:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07b.png" alt="" width="893" height="771" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07b-640w.webp 640w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-07b.png" alt="" width="893" height="771" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>An important part of the <strong>energy consumption</strong> is caused by these requests: dns resolutions, data transfers, cpu treatment, screen painting in the browser.</p>
 
@@ -145,11 +169,17 @@ Tweets by @TwitterDev
 
 <p>The result will be less requests for pictures, but also less painting in the web page. Let’s set this parameter to 3, and launch a new run of measures. The result is a consumption of 129 μAh/s, which is a reduction of 5 μA/s over the “standard timeline” case.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-08-1.png" alt="" width="1024" height="453" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-08-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-08-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-08-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-08-1.png" alt="" width="1421" height="629" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>If we look at the network waterfall, it looks better:</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-09-1-1024x712.png" alt="" width="1024" height="712" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-09-1-1024x712-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-09-1-1024x712-960w.webp 960w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-09-1-1024x712.png" alt="" width="1024" height="712" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>We’ve reduced the number of request by 25, and the load time is down from 1.22s to 0.72s. (Hint: without the component, it was 0.36 s&#8230;).</p>
 
@@ -165,7 +195,10 @@ Tweets by @TwitterDev
 
 <p>With this case study – which happened to us some weeks ago – we confirmed that a <strong>third party service</strong> such as the <strong>Twitter</strong> timeline, has a real impact on the <strong>energy consumption</strong> of mobile devices.</p>
 
-<figure><img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-10-1.png" alt="" width="1024" height="354" loading="lazy" decoding="async"></figure>
+<figure><picture>
+  <source srcset="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-10-1-640w.webp 640w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-10-1-960w.webp 960w, ../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-10-1-1280w.webp 1280w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 80vw, 960px" type="image/webp">
+  <img src="../../../../assets/img/external/blog.greenspector.com/2020/02/2017-01-25-article-Third-party-10-1.png" alt="" width="1465" height="507" loading="lazy" decoding="async">
+</picture></figure>
 
 <p>In a previous blog post we tried to explain <strong><a href="../../../../en/resources/blog/why-you-should-measure-the-energy-consumption-of-your-software/">why you should measure the energy consumption of your software</a></strong>. We see here that measuring allows to easily evaluate the impact of a <strong>third party service</strong>. For the <strong>Twitter</strong> timeline, this impact is not negligible. And, this impact will be timed by all the third party services that you integrate. And, this impact can quickly get pretty annoying for your users, especially when they need fast access to your content, but they don’t have a good Wi-Fi or a 4G/LTE network at hand.<br>What’s the next step? I often say that if you’re trying to set up some measurement plan when you’re facing a performance issue, then you are late. Don’t close the gate when the sheep are out. Put this <strong>battery consumption</strong> under control: measure now, measure tomorrow, well, measure each and every release of your app. Check the trend, drill down if it’s getting weird. <strong>It’s more easy than you may think. Lucky you, we’ll cover <a href="../../../../en/resources/blog/articles/2017-03-23-continuous-measurement-in-devops/">continuous measurement</a> in a future post.</strong></p>
   </div>
