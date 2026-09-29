@@ -496,6 +496,78 @@ function extractBalancedDiv(html, openIndex) {
   return '';
 }
 
+function sliceJson(text, start) {
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  for (let i = start; i < text.length; i += 1) {
+    const char = text[i];
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (char === '\\') {
+        escaped = true;
+      } else if (char === '"') {
+        inString = false;
+      }
+      continue;
+    }
+    if (char === '"') {
+      inString = true;
+    } else if (char === '{' || char === '[') {
+      depth += 1;
+    } else if (char === '}' || char === ']') {
+      depth -= 1;
+      if (depth === 0) {
+        return text.slice(start, i + 1);
+      }
+    }
+  }
+  return '';
+}
+
+function extractWpDetail(raw) {
+  const text = String(raw || '').replace(/^\uFEFF/, '').trim();
+  const parseDetail = (slice) => {
+    if (!slice) {
+      return null;
+    }
+    try {
+      const value = JSON.parse(slice);
+      if (Array.isArray(value)) {
+        return value.find((item) => item && item.content && typeof item.content.rendered === 'string') || null;
+      }
+      if (value && value.content && typeof value.content.rendered === 'string') {
+        return value;
+      }
+    } catch {
+      return null;
+    }
+    return null;
+  };
+
+  const direct = parseDetail(text);
+  if (direct) {
+    return direct;
+  }
+
+  let from = 0;
+  while (from < text.length) {
+    const objectAt = text.indexOf('{"content"', from);
+    const arrayAt = text.indexOf('[{"content"', from);
+    const at = [objectAt, arrayAt].filter((index) => index >= 0).sort((a, b) => a - b)[0];
+    if (at === undefined) {
+      break;
+    }
+    const parsed = parseDetail(sliceJson(text, at));
+    if (parsed) {
+      return parsed;
+    }
+    from = at + 10;
+  }
+  return null;
+}
+
 function extractPostContent(html) {
   const match = html.match(/<div[^>]*elementor-widget-theme-post-content[^>]*>/i);
   if (match) {
@@ -509,14 +581,15 @@ function extractPostContent(html) {
 async function hydratePost(post) {
   const url = `${WP_ORIGIN}/wp-json/wp/v2/posts/${post.id}?_fields=content,yoast_head_json`;
   const body = await request(url, { accept: 'application/json' });
-  const trimmed = String(body).trim();
+  const detail = extractWpDetail(body);
 
-  if (trimmed.startsWith('{')) {
-    const detail = JSON.parse(trimmed);
+  if (detail) {
     post.content = detail.content || { rendered: '' };
     post.yoast_head_json = detail.yoast_head_json || {};
     return post;
   }
+
+  const trimmed = String(body).replace(/^\uFEFF/, '').trim();
 
   post.publicHtml = trimmed;
   post.content = { rendered: extractPostContent(trimmed) };
@@ -933,7 +1006,99 @@ async function repairPairs() {
   console.log('Pair repair complete');
 }
 
+const BROKEN_ARTICLE_FILES = [
+  'content/fr/pages/ressources/blog/intelligence-artificielle-smartphone-autonomie.json',
+  'content/fr/pages/ressources/blog/est-ce-que-le-vibe-coding-avec-lia-peut-etre-green.json',
+  'content/fr/pages/ressources/blog/impacts-des-principaux-sites-e-commerce-en-france-edition-2025.json',
+  'content/en/pages/ressources/blog/est-ce-que-le-vibe-coding-avec-lia-peut-etre-green.json',
+  'content/en/pages/ressources/blog/impacts-of-the-mains-e-commerce-sites-in-france.json'
+];
+
+function postsByLinkFromCatalog() {
+  const map = {};
+  for (const locale of ['fr', 'en']) {
+    const cards = loadJson(path.join(ROOT, 'content', locale, 'blog.json'));
+    for (const card of cards) {
+      const slug = String(card.slug || '').replace(/\/$/, '');
+      if (!slug) {
+        continue;
+      }
+      const pathname = locale === 'en' ? `/en/${slug}/` : `/${slug}/`;
+      map[`${WP_ORIGIN}${pathname}`] = { locale, slug };
+    }
+  }
+  return map;
+}
+
+async function repairRenderedArticles() {
+  const rewriteHref = rewriteHrefFactory(postsByLinkFromCatalog());
+  const imageCache = new Map();
+
+  for (const relativePath of BROKEN_ARTICLE_FILES) {
+    const filePath = path.join(ROOT, relativePath);
+    const page = loadJson(filePath);
+    const wpSlug = String(page.slug || '').split('/').filter(Boolean).pop();
+    const url = `${WP_ORIGIN}/wp-json/wp/v2/posts?slug=${encodeURIComponent(wpSlug)}&_fields=content,yoast_head_json`;
+    const detail = extractWpDetail(await request(url, { accept: 'application/json' }));
+    if (!detail?.content?.rendered) {
+      throw new Error(`No rendered content for ${wpSlug}`);
+    }
+
+    const remoteImages = [];
+    String(detail.content.rendered).replace(/<img\b[^>]*?(?:src|data-src)\s*=\s*("([^"]+)"|'([^']+)'|([^\s>]+))/gi, (_match, _a, a, b, c) => {
+      remoteImages.push(a || b || c);
+      return _match;
+    });
+    const srcMap = new Map();
+    for (const remote of remoteImages) {
+      const local = await downloadImage(cleanMediaUrl(remote), imageCache);
+      if (!local) {
+        continue;
+      }
+      srcMap.set(remote, local);
+      try {
+        srcMap.set(new URL(remote, WP_ORIGIN).href, local);
+      } catch {
+        /* ignore */
+      }
+    }
+    const rewriteSrc = (src) => {
+      const clean = cleanMediaUrl(src);
+      if (srcMap.get(src) || srcMap.get(clean)) {
+        return srcMap.get(src) || srcMap.get(clean);
+      }
+      try {
+        const abs = new URL(clean, WP_ORIGIN).href.split('?')[0];
+        if (srcMap.get(abs)) {
+          return srcMap.get(abs);
+        }
+      } catch {
+        return clean;
+      }
+      return clean;
+    };
+
+    const bodyHtml = sanitizeHtml(detail.content.rendered, rewriteHref, rewriteSrc);
+    if (bodyHtml.includes('yoast_head_json') || bodyHtml.includes('<\\/')) {
+      throw new Error(`Rendered HTML still looks escaped for ${wpSlug}`);
+    }
+    const meta = String(page.bodyHtml || '').match(/<div class="content-meta">[\s\S]*?<\/div>/);
+    page.bodyHtml = `<div class="content-panel blog-article">
+  ${meta ? meta[0] : ''}
+  <div class="blog-article__body">
+    ${bodyHtml}
+  </div>
+</div>`;
+    writeJson(filePath, page);
+    console.log(`Repaired ${relativePath}`);
+  }
+}
+
 async function main() {
+  if (process.argv.includes('--repair-rendered')) {
+    await repairRenderedArticles();
+    return;
+  }
   if (process.argv.includes('--upgrade-images')) {
     await upgradeFeaturedImages();
     await upgradeDerivativeImages();
