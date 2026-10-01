@@ -1,0 +1,42 @@
+{
+  "id": "case-decathlon",
+  "slug": "/en/resources/case-studies/decathlon-digital-ecodesign/",
+  "template": "html",
+  "clientLogo": {
+    "src": "/assets/img/external/greenspector.com/logo-decathlon.svg",
+    "alt": "Decathlon"
+  },
+  "meta": {
+    "title": "Decathlon | digital eco-development | Greenspector",
+    "description": "Greenspector case study: Decathlon structures its eco-development approach to design lighter, more efficient and sustainable digital services.",
+    "keywords": "eco-development, software ecodesign, environmental impact measurement, CI/CD, Green IT",
+    "ogTitle": "Decathlon | digital eco-development | Greenspector",
+    "ogDescription": "Greenspector case study: Decathlon structures its eco-development approach to design lighter, more efficient and sustainable digital services."
+  },
+  "nav": {
+    "section": "Ressources",
+    "name": "Decathlon",
+    "primary": "digital eco-development",
+    "secondary": "ecodesign, impact measurement"
+  },
+  "hero": {
+    "label": "Case study",
+    "title": "Decathlon structures its digital eco-development approach",
+    "subtitle": "Concrete plans to design lighter, more efficient and sustainable digital services.",
+    "actions": [
+      {
+        "label": "Try for free",
+        "href": "https://saas.greenspector.com/",
+        "primary": true,
+        "external": true
+      },
+      {
+        "label": "Request a demo",
+        "href": "/contact/",
+        "primary": false,
+        "external": false
+      }
+    ]
+  },
+  "bodyHtml": "<article class=\"content-panel studio-page\">\n                    <section class=\"studio-intro studio-section\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Context</p>\n                            <h2>A structured eco-development approach</h2>\n                            <p>Decathlon wanted to define concrete eco-development plans to design lighter, more efficient and sustainable digital services.</p>\n                            <p>Expected results for teams: optimized technical mastery and validation of their approach through an independent external audit.</p>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\">\n                        <p class=\"eyebrow\">Results</p>\n                        <h2>Measurable benefits for all</h2>\n                        <div class=\"studio-copy\">\n                            <p><strong>For customers:</strong> fluid and battery-efficient applications, accessible even on old devices or with limited connections.</p>\n                            <p><strong>For Decathlon teams:</strong> precise knowledge of audited applications' impacts, based on real measurements.</p>\n                            <p><strong>For the environment:</strong> reduced carbon footprint and limited consumption of networks and servers.</p>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Success keys</p>\n                            <h2>Success factors</h2>\n                            <ul>\n                                <li>A structured pilot phase with clear deadlines and objectives</li>\n                                <li>A rigorous technical approach, with a targeted measurement strategy and tests on representative devices</li>\n                                <li>An automation plan and CI/CD measurements integrated into the development process</li>\n                                <li>Strong collaborative dynamics, with active team participation in upskilling their peers</li>\n                                <li>The designation of eco-development champions to ensure the sustainability of the approach</li>\n                            </ul>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\">\n                        <p class=\"eyebrow\">Testimonials</p>\n                        <h2>What they say</h2>\n                        <div class=\"studio-copy\">\n                            <blockquote>\n                                <p>\"With its measurements on real devices, Greenspector provides a serious solution that meets our high quality standards for our digital products.\"</p>\n                                <cite><strong>Nathalie OTTE</strong>, Decathlon Green IT Leader</cite>\n                            </blockquote>\n                            <blockquote>\n                                <p>\"Greenspector Studio allowed us to understand application bugs that were reported on the Play Store but that we couldn't reproduce.\"</p>\n                                <cite><strong>Ludovic ROLAND</strong>, Engineering Manager, Decathlon Shopping App</cite>\n                            </blockquote>\n                        </div>\n                    </section>\n                </article>"
+}
