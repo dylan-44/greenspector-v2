@@ -1,31 +1,42 @@
 {
   "id": "case-decathlon",
   "slug": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
-  "template": "default",
+  "template": "html",
   "clientLogo": {
-    "src": "/assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.png",
+    "src": "/assets/img/external/greenspector.com/logo-decathlon.svg",
     "alt": "Decathlon"
   },
   "meta": {
-    "title": "Decathlon | écoconception numérique | Greenspector",
-    "description": "Étude de cas Greenspector : Decathlon.",
-    "keywords": "écoconception numérique, généralisation démarche",
-    "ogTitle": "Decathlon | écoconception numérique | Greenspector",
-    "ogDescription": "Étude de cas Greenspector : Decathlon."
+    "title": "Decathlon | éco-développement numérique | Greenspector",
+    "description": "Étude de cas Greenspector : Decathlon structure son approche d'éco-développement pour concevoir des services numériques plus légers, performants et durables.",
+    "keywords": "éco-développement, écoconception logicielle, mesure impact environnemental, CI/CD, Green IT",
+    "ogTitle": "Decathlon | éco-développement numérique | Greenspector",
+    "ogDescription": "Étude de cas Greenspector : Decathlon structure son approche d'éco-développement pour concevoir des services numériques plus légers, performants et durables."
   },
   "nav": {
     "section": "Ressources",
     "name": "Decathlon",
-    "primary": "écoconception numérique",
-    "secondary": "généralisation démarche"
+    "primary": "éco-développement numérique",
+    "secondary": "écoconception, mesure impact"
   },
   "hero": {
     "label": "Étude de cas",
-    "title": "Decathlon",
-    "subtitle": "écoconception numérique"
+    "title": "Decathlon structure son approche d'éco-développement numérique",
+    "subtitle": "Des plans concrets pour concevoir des services numériques plus légers, performants et durables.",
+    "actions": [
+      {
+        "label": "Essayer gratuitement",
+        "href": "https://saas.greenspector.com/",
+        "primary": true,
+        "external": true
+      },
+      {
+        "label": "Demander une démo",
+        "href": "/contact/",
+        "primary": false,
+        "external": false
+      }
+    ]
   },
-  "contentMeta": [
-    "Mot-clé principal : écoconception numérique",
-    "Mots-clés secondaires : généralisation démarche"
-  ]
+  "bodyHtml": "<article class=\"content-panel studio-page\">\n                    <section class=\"studio-intro studio-section\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Contexte</p>\n                            <h2>Une démarche d'éco-développement structurée</h2>\n                            <p>Decathlon voulait définir des plans concrets d'éco-développement pour concevoir des services numériques plus légers, performants et durables.</p>\n                            <p>Les résultats attendus pour les équipes : une maîtrise technique optimisée et la validation de leur approche par un audit externe indépendant.</p>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\">\n                        <p class=\"eyebrow\">Résultats</p>\n                        <h2>Des bénéfices mesurables pour tous</h2>\n                        <div class=\"studio-copy\">\n                            <p><strong>Pour les clients :</strong> applications fluides et économes en batterie, accessibles même sur anciens appareils ou avec connexions limitées.</p>\n                            <p><strong>Pour les équipes Decathlon :</strong> connaissance précise des impacts des applications auditées, basée sur des mesures réelles.</p>\n                            <p><strong>Pour l'environnement :</strong> réduction de l'empreinte carbone et limitation de la consommation des réseaux et serveurs.</p>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section studio-highlight\">\n                        <div class=\"studio-copy\">\n                            <p class=\"eyebrow\">Clés de succès</p>\n                            <h2>Les facteurs de réussite</h2>\n                            <ul>\n                                <li>Une phase pilote structurée avec des échéances et objectifs clairs</li>\n                                <li>Une approche technique rigoureuse, avec une stratégie de mesure ciblée et des tests sur appareils représentatifs</li>\n                                <li>Un plan d'automatisation et des mesures CI/CD intégrées dans le processus de développement</li>\n                                <li>Une dynamique collaborative forte, avec participation active des équipes pour monter en compétence leurs pairs</li>\n                                <li>La désignation de champions éco-développement pour assurer la pérennité de la démarche</li>\n                            </ul>\n                        </div>\n                    </section>\n\n                    <section class=\"studio-section\">\n                        <p class=\"eyebrow\">Témoignages</p>\n                        <h2>Ce qu'ils en disent</h2>\n                        <div class=\"studio-copy\">\n                            <blockquote>\n                                <p>« Avec ses mesures sur appareils réels, Greenspector apporte une solution sérieuse qui répond à nos standards de qualité élevés pour nos produits numériques. »</p>\n                                <cite><strong>Nathalie OTTE</strong>, Decathlon Green IT Leader</cite>\n                            </blockquote>\n                            <blockquote>\n                                <p>« Greenspector Studio nous a permis de comprendre des bugs applicatifs qui nous étaient remontés sur le Play Store mais que nous n'arrivions pas à reproduire. »</p>\n                                <cite><strong>Ludovic ROLAND</strong>, Engineering Manager, Decathlon Shopping App</cite>\n                            </blockquote>\n                        </div>\n                    </section>\n                </article>"
 }
