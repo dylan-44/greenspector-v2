@@ -1574,6 +1574,25 @@ body:not(.home-page) .hero .slug-note {
   max-height: 4.25rem;
 }
 
+.certifications .home-section-header,
+.studio-section.certifications h2 {
+  text-align: center;
+}
+
+.certifications__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.certifications__content img {
+  width: min(16rem, 70vw);
+  height: auto;
+  border-radius: 50%;
+}
+
 .home-feature-card {
   display: flex;
   align-items: flex-start;

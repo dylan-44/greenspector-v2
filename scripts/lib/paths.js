@@ -117,6 +117,9 @@ function rewriteBodyHtml(html, pageSlug, locale, slugLookup, resolveLocaleSlug) 
     if (!normalized || normalized.startsWith('http') || normalized.startsWith('mailto:') || normalized.startsWith('#')) {
       return normalized;
     }
+    if (/\.[a-z0-9]+$/i.test(normalized)) {
+      return slugToRelative(pageSlug, normalized);
+    }
     const localeSlug = resolveLocaleSlug(normalized, locale, slugLookup);
     return slugToRelative(pageSlug, localeSlug);
   };
