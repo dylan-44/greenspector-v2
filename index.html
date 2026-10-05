@@ -44,145 +44,348 @@
 </head>
 
 <body class="home-page" data-page="{&quot;slug&quot;:&quot;/&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;slugFr&quot;:&quot;/&quot;,&quot;slugEn&quot;:&quot;/en/&quot;}"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
-    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="./" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="./assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="./studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="./studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="./studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="./studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="./studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="./studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="./conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="./conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="./conseil/benchmark-sobriete-performance/">Benchmark sobriété et performance</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./ressources/webinaires/">Webinaires</a></li><li><a class="dropdown-item" href="./ressources/blog/">Blog</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Entreprise</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./entreprise/qui-sommes-nous/">Qui sommes-nous</a></li><li><a class="dropdown-item" href="./entreprise/carrieres/">Carrières</a></li><li><a class="dropdown-item" href="./entreprise/contact/">Contact</a></li></ul></li><li class="nav-item"><a class="nav-link" href="./tarifs/">Tarifs</a></li><li class="nav-item d-none d-xl-block"><a class="btn btn-primary" href="https://app.greenspector.com/register" rel="noopener" target="_blank">Essai gratuit</a></li><li class="nav-item dropdown"><button class="btn btn-link nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Langue actuelle : Français"><span class="flag-icon flag-icon-fr" aria-hidden="true"></span></button><ul class="dropdown-menu dropdown-menu-end"><li><a class="dropdown-item" href="./" hreflang="fr"><span class="flag-icon flag-icon-fr me-2" aria-hidden="true"></span>Français</a></li><li><a class="dropdown-item" href="./en/" hreflang="en"><span class="flag-icon flag-icon-gb me-2" aria-hidden="true"></span>English</a></li></ul></li></ul></div></div></nav></header></div>
+    <div id="site-header"><header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navigation principale"><div class="container"><a class="navbar-brand" href="./" aria-label="Greenspector - Accueil"><img class="navbar-logo" src="./assets/img/Greenspector_logo_web_1200x320.webp" alt="Greenspector" width="240" height="64" loading="eager" decoding="async"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNavigation"><ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Greenspector Studio</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./studio/banc-tests-mobiles/">Les points clés</a></li><li><a class="dropdown-item" href="./studio/mesure-impact-environnemental-numerique/">Pour l'impact environnemental</a></li><li><a class="dropdown-item" href="./studio/outil-ecoconception-logicielle/">Pour l'écoconception logicielle</a></li><li><a class="dropdown-item" href="./studio/impact-ia-batterie/">Pour l'IA</a></li><li><a class="dropdown-item" href="./studio/mesure-decharge-batterie/">Pour la mesure de décharge batterie</a></li><li><a class="dropdown-item" href="./studio/mesure-performance-app/">Pour la performance applicative</a></li><li><a class="dropdown-item" href="./studio/devgreenops/">Pour le DevGreenOps</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conseil</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./conseil/ecoconception-logicielle/">Conseil en écoconception logicielle</a></li><li><a class="dropdown-item" href="./conseil/audit-application-mobile/">Audit d'application mobile</a></li><li><a class="dropdown-item" href="./conseil/expertise-mesure-terminaux-mobiles/">Expertise terminaux mobiles</a></li><li><a class="dropdown-item" href="./conseil/banc-mesure-consommation-smartphone/">Mesures sur banc de tests</a></li></ul></li><li class="nav-item"><a class="nav-link" href="./tarifs-greenspector-studio/">Tarifs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./ressources/blog/">Blog</a></li><li><a class="dropdown-item" href="./ressources/etudes-de-cas/">Études de cas</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">À propos</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="./a-propos/equipe-greenspector/">Qui sommes-nous ?</a></li><li><a class="dropdown-item" href="./a-propos/rse/">Nos engagements</a></li><li><a class="dropdown-item" href="./a-propos/partenaires/">Nos partenaires</a></li><li><a class="dropdown-item" href="./a-propos/banc-tests-smartphones/">Notre banc de tests</a></li><li><a class="dropdown-item" href="./a-propos/innovations/">Nos innovations</a></li></ul></li><li class="nav-item"><a class="nav-link" href="./contact/">Contact</a></li><li class="nav-item"><a class="nav-link nav-auth-login" href="https://saas.greenspector.com/">Connexion</a></li><li class="nav-item"><a class="nav-link nav-auth-signup" href="https://saas.greenspector.com/signup">Inscription</a></li><li class="nav-item lang-switcher" aria-label="Langue"><a class="nav-link lang-switcher__link is-active" href="./" hreflang="fr" lang="fr" aria-label="Français" title="Français"><img class="lang-switcher__flag" src="./assets/img/flags/fr.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a><a class="nav-link lang-switcher__link" href="./en/" hreflang="en" lang="en" aria-label="English" title="English"><img class="lang-switcher__flag" src="./assets/img/flags/gb.svg" alt="" width="27" height="18" loading="eager" decoding="async"></a></li></ul></div></div></nav></header></div>
     <main id="main-content">
-        <section class="hero">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <h1 class="display-4 fw-bold mb-4">Validez la sobriété et la performance de vos apps avant vos utilisateurs</h1>
-                        <p class="lead mb-4">Greenspector Studio mesure l'impact environnemental, la consommation batterie et la performance de vos applications mobile et web sur terminaux réels. Couvrez les angles morts de la qualité logicielle.</p>
-                        <div class="d-flex flex-wrap gap-3">
-                            <a href="https://app.greenspector.com/register" class="btn btn-primary btn-lg" rel="noopener" target="_blank">Essai gratuit</a>
-                            <a href="./entreprise/contact/" class="btn btn-outline-primary btn-lg">Demander une démo</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="./assets/img/banc_de_test_illustration.png" alt="Illustration du banc de test Greenspector avec plusieurs smartphones" class="img-fluid" width="600" height="400" loading="eager">
-                    </div>
-                </div>
+        <section class="hero hero-home hero-home-banner" aria-labelledby="hero-title">
+            <div class="hero-home-banner__media" aria-hidden="true">
+                <picture>
+  <source srcset="./assets/img/banc_de_test_illustration-640w.webp 640w, ./assets/img/banc_de_test_illustration-960w.webp 960w, ./assets/img/banc_de_test_illustration-1280w.webp 1280w" sizes="100vw" type="image/webp">
+  <img src="./assets/img/banc_de_test_illustration.png" alt="" width="1456" height="816" fetchpriority="high" decoding="async">
+</picture>
+                <div class="hero-home-banner__overlay"></div>
             </div>
-        </section>
-        <section class="features py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Pourquoi Greenspector Studio ?</h2>
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <h3 class="h5 card-title">Mesures sur terminaux réels</h3>
-                                <p class="card-text">Testez sur notre device cloud avec plus de 100 smartphones et tablettes Android et iOS de toutes gammes.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <h3 class="h5 card-title">Écoscore et impact environnemental</h3>
-                                <p class="card-text">Obtenez un score de sobriété numérique et mesurez l'empreinte carbone de vos parcours utilisateurs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <h3 class="h5 card-title">Intégration CI/CD</h3>
-                                <p class="card-text">Automatisez vos tests dans votre pipeline DevGreenOps et validez chaque release avant production.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="use-cases py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-5">Cas d'usage</h2>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h3 class="h6 card-title">Impact environnemental</h3>
-                                <p class="card-text">Mesurez et réduisez l'empreinte numérique de vos applications.</p>
-                                <a href="./studio/mesure-impact-environnemental-numerique/" class="stretched-link">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h3 class="h6 card-title">Écoconception logicielle</h3>
-                                <p class="card-text">Concevez des applications sobres dès la phase de développement.</p>
-                                <a href="./studio/outil-ecoconception-logicielle/" class="stretched-link">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h3 class="h6 card-title">IA responsable</h3>
-                                <p class="card-text">Évaluez l'impact batterie de vos fonctionnalités IA.</p>
-                                <a href="./studio/impact-ia-batterie/" class="stretched-link">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h3 class="h6 card-title">Performance applicative</h3>
-                                <p class="card-text">Identifiez les bugs de performance avant vos utilisateurs.</p>
-                                <a href="./studio/mesure-performance-app/" class="stretched-link">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="testimonials py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Ils nous font confiance</h2>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="logos-grid d-flex flex-wrap justify-content-center align-items-center gap-4">
-                            <img src="./assets/img/clients/logo-client-1.png" alt="Logo client 1" width="120" height="60" loading="lazy">
-                            <img src="./assets/img/clients/logo-client-2.png" alt="Logo client 2" width="120" height="60" loading="lazy">
-                            <img src="./assets/img/clients/logo-client-3.png" alt="Logo client 3" width="120" height="60" loading="lazy">
-                            <img src="./assets/img/clients/logo-client-4.png" alt="Logo client 4" width="120" height="60" loading="lazy">
-                        </div>
+            <div class="container hero-home-banner__content">
+                <div class="hero-home-banner__copy"><h1 id="hero-title"><span class="hero-home-banner__title-line">Greenspector</span><span class="hero-home-banner__title-line">Studio</span></h1>
+                    <p class="hero-subtitle">La solution SaaS pour valider la sobriété et la performance de vos apps.<br>
+                        Couvrez les angles morts de la qualité logicielle&nbsp;!</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-gs-primary" href="./contact/">Demander une démo</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Section Certifications EcoVadis -->
-        <section class="certifications py-5" aria-labelledby="certifications-heading">
+        <section class="home-section home-section--light" id="problemes" aria-labelledby="problems-title">
             <div class="container">
-                <h2 id="certifications-heading" class="text-center mb-5">Nos certifications</h2>
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6">
-                        <div class="certification-item text-center">
-                            <div style="display: flex; align-items: center; justify-content: center; min-height: 200px;">
-                                <a href="./assets/pdf/ecovadis-gold-medal.pdf" target="_blank" rel="noopener noreferrer" aria-label="Voir notre certification EcoVadis Médaille d'Or (PDF)">
-                                    <img src="./assets/img/ecovadis-gold-medal.png" alt="Certification EcoVadis - Médaille d'Or" width="200" height="200" loading="lazy" style="max-width: 100%; height: auto;">
-                                </a>
-                            </div>
-                            <p class="mt-3 text-muted">Greenspector est certifié EcoVadis Médaille d'Or pour son engagement en matière de responsabilité sociale et environnementale.</p>
+                <header class="home-section-header">
+                    <h2 id="problems-title">Découvrez les problèmes de votre app avant vos utilisateurs</h2>
+                </header>
+                <div class="home-pillar-grid">
+                    <article class="home-pillar-card home-problem-card">
+                        <div class="home-problem-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 576 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M0 176c0-44.2 35.8-80 80-80H464c44.2 0 80 35.8 80 80v16c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32v16c0 44.2-35.8 80-80 80H80c-44.2 0-80-35.8-80-80V176z"/></svg>
                         </div>
-                    </div>
+                        <h3>Consommation de batterie</h3>
+                    </article>
+                    <article class="home-pillar-card home-problem-card">
+                        <div class="home-problem-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96c0-26.9-16.5-49.9-40-59.3V88c0-13.3-10.7-24-24-24s-24 10.7-24 24V292.7c-23.5 9.5-40 32.5-40 59.3c0 35.3 28.7 64 64 64s64-28.7 64-64zM144 176a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-16 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM400 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+                        </div>
+                        <h3>Baisse de performance sur terminaux anciens</h3>
+                    </article>
+                    <article class="home-pillar-card home-problem-card">
+                        <div class="home-problem-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 640 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.1-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/></svg>
+                        </div>
+                        <h3>Interruptions de parcours quand le réseau se dégrade</h3>
+                    </article>
+                    <article class="home-pillar-card home-problem-card">
+                        <div class="home-problem-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H96C78.3 64 64 78.3 64 96v32H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v32c0 17.7 14.3 32 32 32h32v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h32c17.7 0 32-14.3 32-32V384h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V280h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V176h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V96c0-17.7-14.3-32-32-32H384V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H280V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H176V24zM96 128H416V384H96V128zm64 40c0-13.3 10.7-24 24-24H328c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H184c-13.3 0-24-10.7-24-24V168zm0 128c0-13.3 10.7-24 24-24h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H184c-13.3 0-24-10.7-24-24V296zm160-24h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H320c-13.3 0-24-10.7-24-24V296c0-13.3 10.7-24 24-24z"/></svg>
+                        </div>
+                        <h3>Ralentissements à cause de l'IA</h3>
+                    </article>
+                    <article class="home-pillar-card home-problem-card">
+                        <div class="home-problem-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5h88c8.8 0 16 7.2 16 16s-7.2 16-16 16H288 216c-16.6 0-32.7 1.9-48.3 5.4c-25.9 5.9-49.9 16.4-71.4 30.7c0 0 0 0 0 0C38.3 298.8 0 364.9 0 440v16c0 13.3 10.7 24 24 24s24-10.7 24-24V440c0-48.7 20.7-92.5 53.8-123.2C121.6 359.3 160.9 384 208 384h81.7c36.3 0 70.2-15.7 93.5-42.7c24.3-28.5 36.8-65.9 34.1-104.6l-5.1-71.7c-3.1-43.5-20.7-84.2-49.4-114.6C335.5 111.3 304.5 96 272 96z"/></svg>
+                        </div>
+                        <h3>Impact environnemental</h3>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="home-final-cta py-5 bg-primary text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">Prêt à améliorer la sobriété de vos applications ?</h2>
-                <p class="lead mb-4">Commencez votre essai gratuit dès aujourd'hui</p>
-                <a href="https://app.greenspector.com/register" class="btn btn-light btn-lg" rel="noopener" target="_blank">Démarrer l'essai gratuit</a>
+        <section class="home-section" id="comment-ca-marche" aria-labelledby="how-title">
+            <div class="container">
+                <header class="home-section-header">
+                    <p class="eyebrow">Comment ça marche</p>
+                    <h2 id="how-title">Mesurez, comprenez, améliorez</h2>
+                </header>
+                <div class="home-steps-grid">
+                    <article class="studio-card home-step-card">
+                        <span class="studio-step-index" aria-hidden="true">1</span>
+                        <h3>Décrivez le parcours utilisateurs</h3>
+                        <p>Décrivez le parcours de vos utilisateurs en quelques clics, ou utilisez notre langage de
+                            script DSL simple et efficace pour tester une app Android, une app iOS ou un parcours web.
+                        </p>
+                        <figure class="home-step-figure">
+                            <picture>
+  <source srcset="./assets/img/howitwork/comment-etape-1.webp" type="image/webp">
+  <img src="./assets/img/howitwork/comment-etape-1.png" alt="Description d'un parcours utilisateur avec le langage DSL" width="400" height="300" loading="lazy" decoding="async">
+</picture>
+                        </figure>
+                    </article>
+                    <article class="studio-card home-step-card">
+                        <span class="studio-step-index" aria-hidden="true">2</span>
+                        <h3>Choisissez les conditions de test</h3>
+                        <p>Terminal récent ou ancien, réseau WiFi ou GSM&nbsp;: choisissez sur notre device cloud réel
+                            les conditions adaptées à vos objectifs. Puis lancez le test ou laissez votre CI/CD le
+                            faire.</p>
+                        <figure class="home-step-figure">
+                            <picture>
+  <source srcset="./assets/img/howitwork/comment-etape-2.webp" type="image/webp">
+  <img src="./assets/img/howitwork/comment-etape-2.png" alt="Sélection des conditions de test sur le device cloud" width="400" height="300" loading="lazy" decoding="async">
+</picture>
+                        </figure>
+                    </article>
+                    <article class="studio-card home-step-card">
+                        <span class="studio-step-index" aria-hidden="true">3</span>
+                        <h3>Pilotez avec une vision claire</h3>
+                        <p>Conso de batterie, performance, écoscore, impacts… Intégrez les KPI dans vos tableaux de bord avec nos API. Identifiez les axes de progrès et optimisez votre app&nbsp;!</p>
+                        <figure class="home-step-figure">
+                            <picture>
+  <source srcset="./assets/img/howitwork/comment-etape-3.webp" type="image/webp">
+  <img src="./assets/img/howitwork/comment-etape-3.png" alt="Tableau de bord des indicateurs et impacts" width="400" height="300" loading="lazy" decoding="async">
+</picture>
+                        </figure>
+                    </article>
+                </div>
+                <aside class="home-inline-cta" aria-label="Appel à l'action">
+                    <p class="home-inline-cta__lead">Passez de la mesure à l'action</p>
+                    <div class="home-inline-cta__actions">
+                        <a class="btn btn-gs-outline btn-gs-outline-dark" href="./contact/">Demander une démo</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="home-section home-section--light" id="references" aria-labelledby="clients-title">
+            <div class="container">
+                <header class="home-section-header home-section-header--wide">
+                    <p class="eyebrow">Références clients</p>
+                    <h2 id="clients-title">Ils utilisent Greenspector Studio pour allier satisfaction des utilisateurs, performance de leurs applications et responsabilité environnementale</h2>
+                </header>
+                <div class="studio-logo-grid home-clients-grid">
+                    <figure class="studio-logo-card">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/client_sncfconnect_04f4832d.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/client_sncfconnect_04f4832d.jpg" alt="Logo SNCF Connect" width="200" height="80" loading="lazy" decoding="async">
+</picture>
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/client_cats_8cc5042d.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/client_cats_8cc5042d.jpg" alt="Logo CATS" width="200" height="80" loading="lazy" decoding="async">
+</picture>
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <img src="./assets/img/external/greenspector.com/Logo_AirFrance_616731c4.webp" alt="Logo Air France" width="200" height="80" loading="lazy" decoding="async">
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <img src="./assets/img/external/greenspector.com/logo-bouygues-telecom_889990d1.svg" alt="Logo Bouygues Telecom" width="200" height="80" loading="lazy" decoding="async">
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/client_orange_338b842b.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/client_orange_338b842b.jpg" alt="Logo Orange" width="200" height="80" loading="lazy" decoding="async">
+</picture>
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/Logo-France-televisions-300x157_e988d666.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/Logo-France-televisions-300x157_e988d666.jpg" alt="Logo France Télévisions" width="200" height="80" loading="lazy" decoding="async">
+</picture>
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/logo_Decathlon_150_b97b60d5.png" alt="Logo Decathlon" width="200" height="80" loading="lazy" decoding="async">
+</picture>
+                    </figure>
+                    <figure class="studio-logo-card">
+                        <picture>
+  <source srcset="./assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.webp" type="image/webp">
+  <img src="./assets/img/external/swiftask-prod-files.s3.eu-west-3.amazonaws.com/slide1_shape10_442219a7.png" alt="Logo Ministère de la Santé" width="200" height="80" loading="lazy" decoding="async">
+</picture>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-section" id="avantages" aria-labelledby="features-title">
+            <div class="container">
+                <header class="home-section-header">
+                    <p class="eyebrow">Pourquoi Greenspector Studio</p>
+                    <h2 id="features-title">Du device à l'app, pilotez énergie, impacts et performance</h2>
+                </header>
+                <div class="home-feature-grid">
+                    <article class="home-feature-card">
+                        <div class="home-feature-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 384 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M80 0C44.7 0 16 28.7 16 64v384c0 35.3 28.7 64 64 64h224c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16h-64c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+                        </div>
+                        <h3 class="home-feature-card__title">Terminaux Android et iOS réels et stables pour des mesures
+                            fiables et répétables</h3>
+                    </article>
+                    <article class="home-feature-card">
+                        <div class="home-feature-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 640 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"/></svg>
+                        </div>
+                        <h3 class="home-feature-card__title">Le seul device cloud avec mesure réelle et précise de
+                            consommation de batterie</h3>
+                    </article>
+                    <article class="home-feature-card">
+                        <div class="home-feature-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg>
+                        </div>
+                        <h3 class="home-feature-card__title">Souveraineté FR/EU&nbsp;: le seul device cloud français</h3>
+                    </article>
+                    <article class="home-feature-card">
+                        <div class="home-feature-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 640 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                        </div>
+                        <h3 class="home-feature-card__title">Pas de changement dans votre code source, pas de SDK à
+                            ajouter</h3>
+                    </article>
+                    <article class="home-feature-card">
+                        <div class="home-feature-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false" width="1em" height="1em" fill="currentColor"><path d="M495.9 166.8c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C213.3 1.2 227.5 0 242 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM242 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"/></svg>
+                        </div>
+                        <h3 class="home-feature-card__title">Facilement intégrable dans votre CI/CD&nbsp;: passez au DevGreenOps</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-section home-testimonials" aria-labelledby="home-testimonials-title">
+            <div class="container">
+                <div class="studio-quote-section pricing-testimonials">
+                <p class="eyebrow">Ils en parlent</p>
+                        <h2 id="home-testimonials-title">Leur avis sur Greenspector Studio</h2>
+                        <div id="homeTestimonialsCarousel" class="carousel slide pricing-testimonials-carousel" data-bs-interval="false" aria-roledescription="carousel">
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <blockquote class="studio-quote pricing-testimonial-slide">
+                                    <p>Avec Greenspector Studio, nous mesurons l'efficacité énergétique de notre application, utilisée par 7 millions de clients chaque mois, après chaque Build. Cela nous permet de réduire notre empreinte carbone, d'améliorer nos performances et de renforcer notre image de marque.</p>
+                                    <footer>
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/FLankar-150x150_9a821a87.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/FLankar-150x150_9a821a87.jpg" alt="Portrait de François Lankar" width="64" height="64" loading="lazy" decoding="async">
+</picture>
+                                        <div>
+                                            <strong>François LANKAR</strong>
+                                            <span>Applications Manager, Bouygues Telecom</span>
+                                        </div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="studio-quote pricing-testimonial-slide">
+                                    <p>Travailler sur la sobriété permet clairement d'obtenir une application plus performante.</p>
+                                    <footer>
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/JAzria-150x150_fe3bb536.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/JAzria-150x150_fe3bb536.jpg" alt="Portrait de Julien Azria" width="64" height="64" loading="lazy" decoding="async">
+</picture>
+                                        <div>
+                                            <strong>Julien AZRIA</strong>
+                                            <span>Digital Front Chapter Leader, Crédit Agricole Technologie & Services</span>
+                                        </div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="studio-quote pricing-testimonial-slide">
+                                    <p>Avec Greenspector Studio, les testeurs peuvent guider les développeurs en identifiant les régressions ou les effets indésirables d'une modification.</p>
+                                    <footer>
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/FGuerlais-150x150_7633ec1e.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/FGuerlais-150x150_7633ec1e.png" alt="Portrait de Florence Guerlais" width="64" height="64" loading="lazy" decoding="async">
+</picture>
+                                        <div>
+                                            <strong>Florence GUERLAIS</strong>
+                                            <span>Manager, Test & QA Center of Expertise, Air France</span>
+                                        </div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="studio-quote pricing-testimonial-slide">
+                                    <p>Nos développeurs ont été sensibilisés dès le démarrage du projet et ont – petit à petit – modifié leur manière de travailler pour adopter des réflexes d'écoconception. Il s'agit d'une modification profonde des pratiques. Les indicateurs d'écoscore de Greenspector nous ont servi d'étalon tout au long de ce process.</p>
+                                    <footer>
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/NDesmons_7932a04e.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/NDesmons_7932a04e.jpeg" alt="Portrait de Nicolas Desmons" width="64" height="64" loading="lazy" decoding="async">
+</picture>
+                                        <div>
+                                            <strong>Nicolas DESMONS</strong>
+                                            <span>Chef d'équipe services numériques aux usagers, Région Bretagne</span>
+                                        </div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="studio-quote pricing-testimonial-slide">
+                                    <p>Il était important pour nous de pouvoir chiffrer et objectiver l'impact concret des efforts que nous allions déployer en écoconception. Grâce à l'écoscore de Greenspector, nous avons pu évaluer rationnellement le résultat de nos efforts avant et après projet.</p>
+                                <p>Greenspector met à disposition un outil de mesure qui permet d'évaluer l'évolution progressive des bonnes pratiques mises en place et d'identifier les réajustements nécessaires pour davantage de sobriété.</p>
+                                    <footer>
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/CSmeyers-150x150_1e5f8ccb.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/CSmeyers-150x150_1e5f8ccb.jpg" alt="Portrait de Caroline Smeyers" width="64" height="64" loading="lazy" decoding="async">
+</picture>
+                                        <div>
+                                            <strong>Caroline SMEYERS</strong>
+                                            <span>Gestionnaire Web, Bruxelles Environnement / Leefmilieu Brussels</span>
+                                        </div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="studio-quote pricing-testimonial-slide">
+                                    <p>Pour s'assurer de la fiabilité maximale de l'écoscore, les équipes se sont appuyées sur Greenspector qui permet d'évaluer de façon fiable l'impact environnemental d'une application de santé.</p>
+                                <p>En effet, Greenspector se base sur la mesure tout au long du parcours de l'usage réel de l'application, plus que sur le simple calcul de l'impact environnemental du chargement de la page d'accueil.</p>
+                                    <footer>
+                                        <picture>
+  <source srcset="./assets/img/external/greenspector.com/BSeroussi-150x148_bb960bb4.webp" type="image/webp">
+  <img src="./assets/img/external/greenspector.com/BSeroussi-150x148_bb960bb4.jpg" alt="Portrait de Dr Brigitte Seroussi" width="64" height="64" loading="lazy" decoding="async">
+</picture>
+                                        <div>
+                                            <strong>Dr Brigitte SEROUSSI</strong>
+                                            <span>Directrice de Projets, Agence du Numérique en Santé (Ministère de la Santé)</span>
+                                        </div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev pricing-testimonials-control" type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Témoignage précédent</span>
+                            </button>
+                            <button class="carousel-control-next pricing-testimonials-control" type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Témoignage suivant</span>
+                            </button>
+                            <div class="carousel-indicators pricing-testimonials-indicators">
+                                <button type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Témoignage 1"></button>
+                                <button type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide-to="1" aria-label="Témoignage 2"></button>
+                                <button type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide-to="2" aria-label="Témoignage 3"></button>
+                                <button type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide-to="3" aria-label="Témoignage 4"></button>
+                                <button type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide-to="4" aria-label="Témoignage 5"></button>
+                                <button type="button" data-bs-target="#homeTestimonialsCarousel" data-bs-slide-to="5" aria-label="Témoignage 6"></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section><section class="home-final-cta" aria-labelledby="final-cta-title">
+            <div class="container">
+                <h2 id="final-cta-title">Prêt à améliorer la qualité de votre app comme jamais auparavant&nbsp;?</h2>
+                <a class="btn btn-gs-primary btn-lg" href="./contact/">Demander une démo</a>
             </div>
         </section>
     </main>
-    <div id="site-footer"><footer class="site-footer bg-dark text-white py-4"><div class="container"><div class="row"><div class="col-md-6"><p>&copy; 2025 Greenspector. Tous droits réservés.</p></div><div class="col-md-6 text-md-end"><ul class="list-inline mb-0"><li class="list-inline-item"><a href="./mentions-legales/" class="text-white">Mentions légales</a></li><li class="list-inline-item"><a href="./politique-confidentialite/" class="text-white">Politique de confidentialité</a></li></ul></div></div></div></footer></div>
-    <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/main.min.js"></script>
+    <div id="site-footer"><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="footer-logo-link" href="./" aria-label="Greenspector - Accueil"><img class="footer-logo" src="./assets/img/Logo_greenspector_header_white.svg" alt="Greenspector" width="240" height="36" loading="lazy" decoding="async"></a><p class="footer-tagline">Du device à l'app, pilotez sobriété et performance de vos services numériques</p></div><nav class="footer-nav" aria-label="Menu"><p class="footer-title">Menu</p><ul class="footer-nav-list"><li><a href="./studio/banc-tests-mobiles/">Greenspector Studio</a></li><li><a href="./conseil/ecoconception-logicielle/">Conseil</a></li><li><a href="./tarifs-greenspector-studio/">Tarifs</a></li><li><a href="./ressources/blog/">Ressources</a></li><li><a href="./a-propos/equipe-greenspector/">À propos</a></li><li><a href="./contact/">Contact</a></li><li><a href="./mentions-legales/">Mentions légales</a></li></ul></nav><div class="footer-social"><p class="footer-title">Suivez-nous</p><ul class="social-links"><li><a href="https://www.linkedin.com/company/greenspector/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.88 0-2.17 1.46-2.17 2.97V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@greenspector7979" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.6 12 3.6 12 3.6s-7.52 0-9.39.48A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.48 9.39.48 9.39.48s7.52 0 9.39-.48a3 3 0 0 0 2.11-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a></li></ul></div></div></footer></div>
+    <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/nav-data.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
 </body>
 
 </html>
