@@ -105,6 +105,16 @@
       "status": "published"
     },
     {
+      "id": "blog-ecoscore-v3-nouvelle-generation-mesure-impact",
+      "path": "ressources/blog/ecoscore-v3-nouvelle-generation-mesure-impact",
+      "slug": "/ressources/blog/ecoscore-v3-nouvelle-generation-mesure-impact/",
+      "template": "html",
+      "status": "published",
+      "locales": [
+        "fr"
+      ]
+    },
+    {
       "id": "blog-optimisation-memoire-android-repondre-exigences-google",
       "path": "ressources/blog/optimisation-memoire-android-repondre-exigences-google",
       "slug": "/ressources/blog/optimisation-memoire-android-repondre-exigences-google/",
