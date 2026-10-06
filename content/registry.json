@@ -111,7 +111,8 @@
       "template": "html",
       "status": "published",
       "locales": [
-        "fr"
+        "fr",
+        "en"
       ]
     },
     {
