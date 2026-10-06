@@ -1965,13 +1965,6 @@
       "status": "published"
     },
     {
-      "id": "case-decathlon",
-      "path": "ressources/etudes-de-cas/decathlon-ecoconception-numerique",
-      "slug": "/ressources/etudes-de-cas/decathlon-ecoconception-numerique/",
-      "template": "default",
-      "status": "draft"
-    },
-    {
       "id": "case-bruxelles",
       "path": "ressources/etudes-de-cas/bruxelles-environnement-ecobuild",
       "slug": "/ressources/etudes-de-cas/bruxelles-environnement-ecobuild/",

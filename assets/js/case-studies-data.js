@@ -18,12 +18,6 @@ window.GS_CASE_STUDIES = [
     "image": "/assets/img/external/greenspector.com/client_sncfconnect_04f4832d.jpg"
   },
   {
-    "slug": "decathlon-ecoconception-numerique/",
-    "title": "Decathlon",
-    "description": "Plans d'éco-développement structurés pour concevoir des services numériques plus légers, performants et durables, avec mesures réelles et automatisation CI/CD.",
-    "image": "/assets/img/external/greenspector.com/logo-decathlon.svg"
-  },
-  {
     "slug": "air-france-tests-application/",
     "title": "Air France",
     "description": "Green testing intégré au Service Center Test : −9 % CO₂e et −11 % de temps de parcours sur l'application, avec sensibilisation des équipes.",
@@ -84,12 +78,6 @@ window.GS_CASE_STUDIES_EN = [
     "title": "SNCF Connect & Tech",
     "description": "−19% CO₂ on the regional train booking journey, 8 seconds faster user flow and Silver certification on Android and iOS.",
     "image": "/assets/img/external/greenspector.com/client_sncfconnect_04f4832d.jpg"
-  },
-  {
-    "slug": "decathlon-digital-ecodesign/",
-    "title": "Decathlon",
-    "description": "Structured eco-development plans to design lighter, more efficient and sustainable digital services, with real measurements and CI/CD automation.",
-    "image": "/assets/img/external/greenspector.com/logo-decathlon.svg"
   },
   {
     "slug": "air-france-app-testing/",
