@@ -1,5 +1,12 @@
 [
   {
+    "slug": "ia-android-impact-batterie-performances/",
+    "href": "/ressources/blog/ia-android-impact-batterie-performances/",
+    "title": "IA sur Android : quel impact sur la batterie et les performances ?",
+    "description": "L'IA locale sur Android peut vider la batterie et dégrader les performances. Mesurez cet impact sur terminaux réels avant de déployer.",
+    "image": "/assets/img/external/blog.greenspector.com/2026/10/ia-android-banc-de-tests.webp"
+  },
+  {
     "slug": "ecoscore-v3-nouvelle-generation-mesure-impact/",
     "href": "/ressources/blog/ecoscore-v3-nouvelle-generation-mesure-impact/",
     "title": "Ecoscore V3 : la nouvelle génération d'indicateur de sobriété numérique",

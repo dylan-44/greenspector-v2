@@ -105,6 +105,17 @@
       "status": "published"
     },
     {
+      "id": "blog-ia-android-impact-batterie-performances",
+      "path": "ressources/blog/ia-android-impact-batterie-performances",
+      "slug": "/ressources/blog/ia-android-impact-batterie-performances/",
+      "template": "html",
+      "status": "published",
+      "locales": [
+        "fr",
+        "en"
+      ]
+    },
+    {
       "id": "blog-ecoscore-v3-nouvelle-generation-mesure-impact",
       "path": "ressources/blog/ecoscore-v3-nouvelle-generation-mesure-impact",
       "slug": "/ressources/blog/ecoscore-v3-nouvelle-generation-mesure-impact/",

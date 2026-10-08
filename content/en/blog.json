@@ -1,5 +1,12 @@
 [
   {
+    "slug": "ai-on-android-battery-and-performance-impact/",
+    "href": "/en/resources/blog/ai-on-android-battery-and-performance-impact/",
+    "title": "AI on Android: what is the impact on battery and performance?",
+    "description": "On-device AI on Android can drain the battery and hurt performance. Measure that impact on real devices before you release.",
+    "image": "/assets/img/external/blog.greenspector.com/2026/10/ia-android-banc-de-tests.webp"
+  },
+  {
     "slug": "ecoscore-v3-nouvelle-generation-mesure-impact/",
     "href": "/en/ressources/blog/ecoscore-v3-nouvelle-generation-mesure-impact/",
     "title": "Ecoscore V3: the new generation of digital sobriety indicator",
